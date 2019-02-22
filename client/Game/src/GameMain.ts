@@ -1,5 +1,7 @@
 import GameConfig from "./GameConfig";
+
 class Main {
+	b: fairygui.ButtonMode;
 	constructor() {
 		//根据IDE设置初始化引擎		
 		if (window["Laya3D"]) Laya3D.init(GameConfig.width, GameConfig.height);
@@ -17,6 +19,10 @@ class Main {
 		if (GameConfig.stat) Laya.Stat.show();
 		Laya.alertGlobalError = true;
 
+		console.log(csvGetInt(["0", "1", "33"], 2));
+
+
+
 		//激活资源版本控制，version.json由IDE发布功能自动生成，如果没有也不影响后续流程
 		Laya.ResourceVersion.enable("version.json", Laya.Handler.create(this, this.onVersionLoaded), Laya.ResourceVersion.FILENAME_VERSION);
 	}
@@ -31,5 +37,8 @@ class Main {
 		GameConfig.startScene && Laya.Scene.open(GameConfig.startScene);
 	}
 }
-//激活启动类
-new Main();
+setTimeout(() => 
+{
+	//激活启动类
+	new Main();
+}, 10);
