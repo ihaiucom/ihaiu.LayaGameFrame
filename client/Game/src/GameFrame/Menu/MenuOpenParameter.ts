@@ -1,3 +1,5 @@
+import { MenuOpenType } from "./MenuOpenType";
+
 // ===========================
 // 打开menu参数接口
 // ---------------------------

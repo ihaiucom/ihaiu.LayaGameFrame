@@ -1,5 +1,7 @@
 import Dictionary from "../../Libs/Helpers/Dictionary";
 import { LoaderId } from "./LoaderId";
+import LoaderCtl from "./LoaderCtl";
+import LoaderCirclePanel from "./LoaderCirclePanel";
 
 namespace Games
 {

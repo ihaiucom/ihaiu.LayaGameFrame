@@ -5,6 +5,10 @@ import Game from "../Game";
 */
 export default class BrowserDetectConfig
 {
+	
+	isConch: boolean = false;
+	isCrosswalk: boolean = false;
+	
 	isFirefox: boolean;
 	isOpera: boolean;
 	isChrome: boolean;

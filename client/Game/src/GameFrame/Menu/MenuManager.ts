@@ -1,3 +1,12 @@
+import Dictionary from "../../Libs/Helpers/Dictionary";
+import MenuCtl from "./MenuCtl";
+import { MenuId } from "../../GameModule/MenuId";
+import { MenuCtlStateType } from "./MenuCtlStateType";
+import { MenuOpenType } from "./MenuOpenType";
+import Game from "../../Game";
+import MenuOpenParameter from "./MenuOpenParameter";
+import { MenuLayerType } from "./MenuLayerType";
+import FGLoader from "../../FGUI/FGLoader";
 
 //=================
 // 模块管理器
@@ -357,7 +366,7 @@ export default class MenuManager
             {
                 if (ctl.menuConfig.cacheTime != -1)
                 {
-                    let cacheTime = Math.max(ctl.menuConfig.cacheTime, gameDeviceConfig.menuCacheTime);
+                    let cacheTime = Math.max(ctl.menuConfig.cacheTime, Game.deviceSetting.menuCacheTime);
 
                     let subtime = Game.time.localTime - ctl.closeTime;
                     if (subtime >= cacheTime && ctl.closeIsDestory)

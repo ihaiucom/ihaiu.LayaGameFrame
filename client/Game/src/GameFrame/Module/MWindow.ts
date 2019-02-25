@@ -1,3 +1,17 @@
+import FWindow from "./FWindow";
+import Signal from "../../Libs/signals/Signal";
+import { MenuId } from "../../GameModule/MenuId";
+import MenuOpenParameter from "../Menu/MenuOpenParameter";
+import AssetItemInfo from "../AssetManagers/AssetItemInfo";
+import { AssetItemType } from "../AssetManagers/AssetItemType";
+import Dictionary from "../../Libs/Helpers/Dictionary";
+import AssetHelper from "../AssetManagers/AssetHelper";
+import GuiPackageNames from "../../FGUI/Generates/GuiPackageNames";
+import Game from "../../Game";
+import { MenuOpenType } from "../Menu/MenuOpenType";
+import GameEventKey from "../../GameEventKey";
+import MSubwindow from "./MSubWindow";
+import Point = laya.maths.Point;
 
 //======================
 // 模块窗口
@@ -66,7 +80,7 @@ export default abstract class MWindow extends FWindow
         let assets = this._loadAssets;
         for (let i = 0; i < assets.length; i++)
         {
-            let key = getAssetItemKey(assets[i]);
+            let key = AssetHelper.getAssetItemKey(assets[i]);
             if (!dict.hasKey(key))
             {
                 list.push(assets[i]);
@@ -149,7 +163,7 @@ export default abstract class MWindow extends FWindow
         let assets = this._dynamicAssetsList;
         for (let i = 0; i < assets.length; i++)
         {
-            let key = getAssetItemKey(assets[i]);
+            let key = AssetHelper.getAssetItemKey(assets[i]);
             if (!dict.hasKey(key))
             {
                 list.push(assets[i]);

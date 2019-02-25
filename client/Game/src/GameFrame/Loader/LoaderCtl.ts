@@ -1,5 +1,6 @@
 import { LoaderId } from "./LoaderId";
 import LoaderPanelInterface from "./LoaderPanelInterface";
+import MenuLayer from "../Menu/MenuLayer";
 
 //======================
 // 加载界面控制器

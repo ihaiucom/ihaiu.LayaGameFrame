@@ -1,3 +1,5 @@
+import Signal from "../Libs/signals/Signal";
+
 export default interface GameApplication
 {
 	IDFA: string;
@@ -5,6 +7,18 @@ export default interface GameApplication
 	BundleIdentifier: string;
 	networkEnable: boolean;
 	AppVersionName;
+
+	
+    /////////////////////////////////////
+    // 事件
+    /////////////////////////////////////
+    // 获取完基本消息
+    sInfo: Signal;
+    // 触发时机：从活动状态进入非活动状态。
+    sAppPause: Signal;
+    // 触发时机：程序进入前台并处于活动状态时调用。
+    sAppResume: Signal;
+    
 
 	// 打开网页
 	openURL(url: string);
