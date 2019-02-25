@@ -2,17 +2,17 @@
 
 
 
-export default class WindowModalWaiting extends fairygui.GComponent {
+export default class GlobalModalWaiting extends fairygui.GComponent {
 
 	public __bg_1:fairygui.GImage;
 	public __bg_2:fairygui.GImage;
 	public _circle:fairygui.GImage;
 	public _rotation:fairygui.Transition;
 
-	public static URL:string = "ui://43jt54bpf84s9";
+	public static URL:string = "ui://47qsdr42nk8t0";
 
-	public static createInstance():WindowModalWaiting {
-		return <WindowModalWaiting><any>(fairygui.UIPackage.createObject("GameSystem","WindowModalWaiting"));
+	public static createInstance():GlobalModalWaiting {
+		return <GlobalModalWaiting><any>(fairygui.UIPackage.createObject("GameLaunch","GlobalModalWaiting"));
 	}
 
 	public constructor() {

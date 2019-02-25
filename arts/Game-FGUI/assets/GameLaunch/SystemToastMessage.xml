@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="720,90">
   <displayList>
-    <loader id="n0_f84s" name="n0" xy="18,-3" pivot="0,0.5" size="684,97" url="ui://43jt54bpf84sl" align="center" vAlign="middle" fill="scaleFree"/>
+    <loader id="n0_f84s" name="n0" xy="18,-3" pivot="0,0.5" size="684,97" url="ui://47qsdr42f84sl" align="center" vAlign="middle" fill="scaleFree"/>
     <richtext id="n1_f84s" name="title" xy="49,11" pivot="0.5,0.5" size="622,67" fontSize="24" color="#e3f8ff" align="center" vAlign="middle" ubb="true" autoSize="none" text="DDD"/>
   </displayList>
 </component>

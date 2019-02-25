@@ -6,10 +6,10 @@ export default class CloseButton extends fairygui.GButton {
 
 	public _closeBtn:fairygui.GImage;
 
-	public static URL:string = "ui://43jt54bpf84se";
+	public static URL:string = "ui://47qsdr42f84sj";
 
 	public static createInstance():CloseButton {
-		return <CloseButton><any>(fairygui.UIPackage.createObject("GameSystem","CloseButton"));
+		return <CloseButton><any>(fairygui.UIPackage.createObject("GameLaunch","CloseButton"));
 	}
 
 	public constructor() {

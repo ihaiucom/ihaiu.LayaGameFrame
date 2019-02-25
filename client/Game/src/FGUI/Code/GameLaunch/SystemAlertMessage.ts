@@ -9,10 +9,10 @@ export default class SystemAlertMessage extends fairygui.GComponent {
 	public _title:fairygui.GRichTextField;
 	public _okBtn:fairygui.GButton;
 
-	public static URL:string = "ui://43jt54bpnk8t1";
+	public static URL:string = "ui://47qsdr42nk8t1";
 
 	public static createInstance():SystemAlertMessage {
-		return <SystemAlertMessage><any>(fairygui.UIPackage.createObject("GameSystem","SystemAlertMessage"));
+		return <SystemAlertMessage><any>(fairygui.UIPackage.createObject("GameLaunch","SystemAlertMessage"));
 	}
 
 	public constructor() {

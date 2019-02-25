@@ -6,10 +6,10 @@ export default class BGModel extends fairygui.GComponent {
 
 	public _bg:fairygui.GImage;
 
-	public static URL:string = "ui://43jt54bpf84sm";
+	public static URL:string = "ui://47qsdr42f84so";
 
 	public static createInstance():BGModel {
-		return <BGModel><any>(fairygui.UIPackage.createObject("GameSystem","BGModel"));
+		return <BGModel><any>(fairygui.UIPackage.createObject("GameLaunch","BGModel"));
 	}
 
 	public constructor() {

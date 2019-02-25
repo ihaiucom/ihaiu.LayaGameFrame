@@ -2,7 +2,7 @@
 <component size="225,75" extention="Button">
   <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
   <displayList>
-    <loader id="n4_pspr" name="n4" xy="0,0" size="225,75" url="ui://43jt54bpf84sk">
+    <loader id="n4_pspr" name="n4" xy="0,0" size="225,75" url="ui://47qsdr42f84sk">
       <gearDisplay controller="button" pages="0,1,2,3"/>
       <relation target="" sidePair="width-width,height-height"/>
     </loader>

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <packageDescription id="vb0p0v1s" jpegQuality="80" compressPNG="true">
-  <resources/>
-  <publish name=""/>
+  <resources>
+    <image id="f84s9" name="btn_gm.png" path="/"/>
+  </resources>
+  <publish name="_ResImageUI"/>
 </packageDescription>

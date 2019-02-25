@@ -6,10 +6,10 @@ export default class SystemToastMessage extends fairygui.GComponent {
 
 	public _title:fairygui.GRichTextField;
 
-	public static URL:string = "ui://43jt54bpnk8t3";
+	public static URL:string = "ui://47qsdr42nk8t3";
 
 	public static createInstance():SystemToastMessage {
-		return <SystemToastMessage><any>(fairygui.UIPackage.createObject("GameSystem","SystemToastMessage"));
+		return <SystemToastMessage><any>(fairygui.UIPackage.createObject("GameLaunch","SystemToastMessage"));
 	}
 
 	public constructor() {

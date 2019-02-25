@@ -10,10 +10,10 @@ export default class SystemConfirmMessage extends fairygui.GComponent {
 	public _okBtn:fairygui.GButton;
 	public _cancleBtn:fairygui.GButton;
 
-	public static URL:string = "ui://43jt54bpnk8t2";
+	public static URL:string = "ui://47qsdr42nk8t2";
 
 	public static createInstance():SystemConfirmMessage {
-		return <SystemConfirmMessage><any>(fairygui.UIPackage.createObject("GameSystem","SystemConfirmMessage"));
+		return <SystemConfirmMessage><any>(fairygui.UIPackage.createObject("GameLaunch","SystemConfirmMessage"));
 	}
 
 	public constructor() {
