@@ -1,16 +1,16 @@
 {
 	"binaryFormat":true,
 	"codeGeneration":{
-		"classNamePrefix":"UI_",
-		"codePath":"",
-		"codeType":"",
+		"classNamePrefix":"",
+		"codePath":"E:\\zengfeng\\githubs\\ihaiu.LayaGameFrame\\client\\Game\\src\\FGUI\\Code",
+		"codeType":"TS-2",
 		"getMemberByName":false,
-		"ignoreNoname":false,
-		"memberNamePrefix":"m_",
-		"packageName":""
+		"ignoreNoname":true,
+		"memberNamePrefix":"_",
+		"packageName":"fgui"
 	},
-	"compressDesc":true,
-	"fileExtension":"",
+	"compressDesc":false,
+	"fileExtension":"bin",
 	"packageCount":2,
-	"path":""
+	"path":"E:\\zengfeng\\githubs\\ihaiu.LayaGameFrame\\client\\Game\\bin\\res\\fgui"
 }

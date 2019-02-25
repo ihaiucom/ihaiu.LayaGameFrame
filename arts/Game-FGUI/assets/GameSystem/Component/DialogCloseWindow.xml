@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="672,406">
+  <displayList>
+    <component id="n7_e77b" name="n7" src="f84sb" fileName="Component/DialogWindow.xml" xy="0,0" size="672,406">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n8_e77b" name="closeButton" src="f84se" fileName="Component/CloseButton.xml" xy="590,3">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+  </displayList>
+</component>

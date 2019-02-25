@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="672,406">
+  <displayList>
+    <image id="n0_upbl" name="n0" src="f84sc" fileName="_images_ui/bg_dialog.png" xy="0,0" size="672,406">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_upbl" name="n1" src="f84sd" fileName="_images_ui/bg_dialog_title.png" xy="0,0" size="672,88">
+      <relation target="" sidePair="width-width,top-top"/>
+    </image>
+  </displayList>
+</component>

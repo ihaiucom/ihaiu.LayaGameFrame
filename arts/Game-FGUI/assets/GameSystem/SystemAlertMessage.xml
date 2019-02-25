@@ -1,2 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="120,120"/>
+<component size="720,1280">
+  <displayList>
+    <component id="n0_f84s" name="dialog" src="f84sa" fileName="Component/DialogCloseWindow.xml" xy="24,437" pivot="0.5,0.5">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <richtext id="n1_f84s" name="content" xy="60,551" pivot="0.5,0.5" size="597,160" fontSize="28" color="#114d74" vAlign="middle" ubb="true" autoSize="none" text="Excellent">
+      <relation target="n0_f84s" sidePair="width-width,height-height"/>
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <richtext id="n2_f84s" name="title" xy="107,459" pivot="0.5,0.5" size="500,50" font="HYZhengYuan-95W" fontSize="36" color="#114d74" align="center" vAlign="middle" autoSize="none" singleLine="true" text="Hint">
+      <relation target="n0_f84s" sidePair="center-center,top-top"/>
+    </richtext>
+    <component id="n3_f84s" name="okBtn" src="f84sh" fileName="Component/YelloButton.xml" xy="246,731">
+      <relation target="n0_f84s" sidePair="center-center,bottom-bottom"/>
+      <Button title="确定"/>
+    </component>
+  </displayList>
+</component>

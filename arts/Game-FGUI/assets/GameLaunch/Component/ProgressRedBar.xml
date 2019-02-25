@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,32" overflow="hidden" extention="ProgressBar" initName="progressBar">
+  <displayList>
+    <image id="n1" name="n1" src="f84s4" fileName="images/bar_rad_bg.png" xy="0,0" size="600,32">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="bar" src="f84s5" fileName="images/bar_red.png" xy="0,1" size="600,29">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n3_5sas" name="barSquare" src="f84s6" fileName="BarSquare2.xml" xy="2,0" size="588,29">
+      <relation target="n2" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n4_5sas" name="top" src="f84s8" fileName="images/bar_top_red.png" xy="559,-6">
+      <relation target="n2" sidePair="height-height,right-right"/>
+    </image>
+  </displayList>
+  <ProgressBar/>
+</component>

@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<packageDescription id="47qsdr42">
-  <resources/>
+<packageDescription id="47qsdr42" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="f84s0" name="LaunchLoaderPanel.xml" path="/" exported="true"/>
+    <component id="f84s1" name="ScreenBG.xml" path="/" exported="true"/>
+    <image id="f84s2" name="pic_bg_login.png" path="/_images_pic/" exported="true" scale="" atlas="alone_npot"/>
+    <component id="f84s3" name="ProgressRedBar.xml" path="/Component/" exported="true"/>
+    <image id="f84s4" name="bar_rad_bg.png" path="/_images_ui/" scale="9grid" scale9grid="9,9,1,1"/>
+    <image id="f84s5" name="bar_red.png" path="/_images_ui/" exported="true" scale="9grid" scale9grid="9,0,16,29"/>
+    <component id="f84s6" name="BarSquare.xml" path="/Component/" exported="true"/>
+    <image id="f84s7" name="bar_square.png" path="/_images_ui/" exported="true" scale=""/>
+    <image id="f84s8" name="bar_top_red.png" path="/_images_ui/" exported="true"/>
+  </resources>
+  <publish name="GameLaunch" genCode="true"/>
 </packageDescription>

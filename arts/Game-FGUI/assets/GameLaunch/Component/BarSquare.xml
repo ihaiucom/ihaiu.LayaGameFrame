@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="730,32" overflow="hidden" mask="n39_qmhb">
+  <displayList>
+    <image id="n11_qbxl" name="n11" src="f84s7" fileName="images/bar_square.png" xy="0,1" group="n31_qbxl"/>
+    <image id="n12_qbxl" name="n12" src="f84s7" fileName="images/bar_square.png" xy="608,1" group="n31_qbxl"/>
+    <image id="n13_qbxl" name="n13" src="f84s7" fileName="images/bar_square.png" xy="32,1" group="n31_qbxl"/>
+    <image id="n14_qbxl" name="n14" src="f84s7" fileName="images/bar_square.png" xy="96,1" group="n31_qbxl"/>
+    <image id="n15_qbxl" name="n15" src="f84s7" fileName="images/bar_square.png" xy="128,1" group="n31_qbxl"/>
+    <image id="n16_qbxl" name="n16" src="f84s7" fileName="images/bar_square.png" xy="160,1" group="n31_qbxl"/>
+    <image id="n17_qbxl" name="n17" src="f84s7" fileName="images/bar_square.png" xy="192,1" group="n31_qbxl"/>
+    <image id="n18_qbxl" name="n18" src="f84s7" fileName="images/bar_square.png" xy="224,1" group="n31_qbxl"/>
+    <image id="n19_qbxl" name="n19" src="f84s7" fileName="images/bar_square.png" xy="256,1" group="n31_qbxl"/>
+    <image id="n20_qbxl" name="n20" src="f84s7" fileName="images/bar_square.png" xy="288,1" group="n31_qbxl"/>
+    <image id="n21_qbxl" name="n21" src="f84s7" fileName="images/bar_square.png" xy="64,1" group="n31_qbxl"/>
+    <image id="n22_qbxl" name="n22" src="f84s7" fileName="images/bar_square.png" xy="352,1" group="n31_qbxl"/>
+    <image id="n23_qbxl" name="n23" src="f84s7" fileName="images/bar_square.png" xy="384,1" group="n31_qbxl"/>
+    <image id="n24_qbxl" name="n24" src="f84s7" fileName="images/bar_square.png" xy="416,1" group="n31_qbxl"/>
+    <image id="n25_qbxl" name="n25" src="f84s7" fileName="images/bar_square.png" xy="448,1" group="n31_qbxl"/>
+    <image id="n26_qbxl" name="n26" src="f84s7" fileName="images/bar_square.png" xy="320,1" group="n31_qbxl"/>
+    <image id="n27_qbxl" name="n27" src="f84s7" fileName="images/bar_square.png" xy="512,1" group="n31_qbxl"/>
+    <image id="n28_qbxl" name="n28" src="f84s7" fileName="images/bar_square.png" xy="480,1" group="n31_qbxl"/>
+    <image id="n29_qbxl" name="n29" src="f84s7" fileName="images/bar_square.png" xy="544,1" group="n31_qbxl"/>
+    <image id="n30_qbxl" name="n30" src="f84s7" fileName="images/bar_square.png" xy="576,1" group="n31_qbxl"/>
+    <image id="n32_qbxl" name="n32" src="f84s7" fileName="images/bar_square.png" xy="-32,1" group="n31_qbxl"/>
+    <image id="n33_qbxl" name="n33" src="f84s7" fileName="images/bar_square.png" xy="640,1" group="n31_qbxl"/>
+    <image id="n34_qbxl" name="n34" src="f84s7" fileName="images/bar_square.png" xy="672,1" group="n31_qbxl"/>
+    <image id="n35_qbxl" name="n35" src="f84s7" fileName="images/bar_square.png" xy="704,1" group="n31_qbxl"/>
+    <group id="n31_qbxl" name="n31" xy="-32,1" size="769,29" advanced="true"/>
+    <graph id="n39_qmhb" name="n39" xy="0,0" size="730,32" type="rect" corner="8,8,10,10"/>
+  </displayList>
+  <transition name="t1" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n31_qbxl" tween="true" startValue="-32,-" endValue="0,0" duration="24" ease="Linear"/>
+    <item time="25" type="XY" target="n31_qbxl" tween="true" startValue="-32,0" endValue="0,0" duration="23" ease="Linear"/>
+  </transition>
+</component>
