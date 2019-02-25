@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="44whq70o" jpegQuality="80" compressPNG="true">
+  <resources>
+    <sound id="s3xz1n" name="MM_BGM_Cinema.mp3" path="/" exported="true"/>
+    <sound id="s3xz1o" name="MM_BGM_Propaganda.mp3" path="/" exported="true"/>
+    <sound id="s3xz1p" name="MM_BGM_RoadShow.mp3" path="/" exported="true"/>
+    <sound id="i7ne2w" name="MM_BGM_Award.mp3" path="/" exported="true"/>
+    <sound id="806p32" name="MM29_TicketsGreat.ogg" path="/" exported="true"/>
+    <sound id="r6c533" name="MM01_Button.ogg" path="/" exported="true"/>
+    <sound id="r6c534" name="MM02_Popup.ogg" path="/" exported="true"/>
+    <sound id="r6c535" name="MM03_ReachGoal.ogg" path="/" exported="true"/>
+    <sound id="r6c536" name="MM04_Lose.ogg" path="/" exported="true"/>
+    <sound id="r6c537" name="MM05_Upgrade.ogg" path="/" exported="true"/>
+    <sound id="r6c538" name="MM06_Building.ogg" path="/" exported="true"/>
+    <sound id="r6c539" name="MM07_GoldMuch.ogg" path="/" exported="true"/>
+    <sound id="r6c53a" name="MM08_GoldLess.ogg" path="/" exported="true"/>
+    <sound id="r6c53b" name="MM09_GoldReward.ogg" path="/" exported="true"/>
+    <sound id="r6c53c" name="MM10_AwardSwitching.ogg" path="/" exported="true"/>
+    <sound id="r6c53d" name="MM11_NewsPaperTop.ogg" path="/" exported="true"/>
+    <sound id="r6c53e" name="MM12_RecruitArtist.ogg" path="/" exported="true"/>
+    <sound id="r6c53f" name="MM13_GetArtist.ogg" path="/" exported="true"/>
+    <sound id="r6c53g" name="MM14_ArtistGradeUp.ogg" path="/" exported="true"/>
+    <sound id="r6c53h" name="MM15_Propaganda.ogg" path="/" exported="true"/>
+    <sound id="r6c53i" name="MM16_ScriptRolling.ogg" path="/" exported="true"/>
+    <sound id="r6c53j" name="MM17_FoundArtist.ogg" path="/" exported="true"/>
+    <sound id="r6c53k" name="MM18_Screen.ogg" path="/" exported="true"/>
+    <sound id="r6c53l" name="MM19_ArtistShow.ogg" path="/" exported="true"/>
+    <sound id="r6c53m" name="MM20_ArtistData.ogg" path="/" exported="true"/>
+    <sound id="r6c53n" name="MM21_ArtistAccord.ogg" path="/" exported="true"/>
+    <sound id="r6c53o" name="MM22_ScreenOver.ogg" path="/" exported="true"/>
+    <sound id="r6c53p" name="MM23_Premiere.ogg" path="/" exported="true"/>
+    <sound id="r6c53q" name="MM24_NiceScore1.ogg" path="/" exported="true"/>
+    <sound id="r6c53r" name="MM25_NiceScore2.ogg" path="/" exported="true"/>
+    <sound id="r6c53s" name="MM26_NiceScore3.ogg" path="/" exported="true"/>
+    <sound id="r6c53t" name="MM27_TicketsOrdinary.ogg" path="/" exported="true"/>
+    <sound id="r6c53u" name="MM28_TicketsGood.ogg" path="/" exported="true"/>
+    <sound id="r6c53v" name="MM30_Settlements.ogg" path="/" exported="true"/>
+    <sound id="r6c53w" name="MM31_ClickScreenMenu.ogg" path="/" exported="true"/>
+    <sound id="r6c53x" name="MM32_GetScript .ogg" path="/" exported="true"/>
+    <sound id="r6c53y" name="MM33_NiceScore4.ogg" path="/" exported="true"/>
+    <sound id="r6c53z" name="MM34_CultrueArtist.ogg" path="/" exported="true"/>
+    <sound id="r6c540" name="MM35_AwardResults.ogg" path="/" exported="true"/>
+    <sound id="r6c541" name="MM36_CarAcross.ogg" path="/" exported="true"/>
+    <sound id="r6c542" name="MM37_FilmStart.ogg" path="/" exported="true"/>
+    <sound id="r6c543" name="MM38_AudienceGetIn.ogg" path="/" exported="true"/>
+    <sound id="r6c544" name="MM39_FilmShow.ogg" path="/" exported="true"/>
+    <sound id="r6c545" name="MM40_FilmScreen.ogg" path="/" exported="true"/>
+    <sound id="l1r646" name="MM41_ExpectNotices.ogg" path="/" exported="true"/>
+    <sound id="qlot4g" name="MM42_FilmFemale01.mp3" path="/" exported="true"/>
+    <sound id="qlot4h" name="MM43_FilmFemale02.mp3" path="/" exported="true"/>
+    <sound id="qlot4i" name="MM44_FilmFemale03.mp3" path="/" exported="true"/>
+    <sound id="qlot4j" name="MM45_FilmFemale04.mp3" path="/" exported="true"/>
+    <sound id="qlot4k" name="MM46_FilmMale01.mp3" path="/" exported="true"/>
+    <sound id="qlot4l" name="MM47_FilmMale02.mp3" path="/" exported="true"/>
+    <sound id="qlot4m" name="MM48_FilmMale03.mp3" path="/" exported="true"/>
+    <sound id="qlot4n" name="MM49_FilmMale04.mp3" path="/" exported="true"/>
+    <sound id="qlot4o" name="MM50_FilmChangge.mp3" path="/" exported="true"/>
+  </resources>
+  <publish name="Sound" genCode="true" maxAtlasSize="1024"/>
+</packageDescription>

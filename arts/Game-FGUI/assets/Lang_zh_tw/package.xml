@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<packageDescription id="4ffhd3m2">
+<packageDescription id="4ffhd3m2" jpegQuality="80" compressPNG="true">
   <resources/>
+  <publish name="Lang_zh_tw"/>
 </packageDescription>

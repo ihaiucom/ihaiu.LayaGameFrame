@@ -1,0 +1,1 @@
+dotnet ./ExportFairyGUICode/ExportFairyGUICode.dll --optionSetting=./ExportSetting.json

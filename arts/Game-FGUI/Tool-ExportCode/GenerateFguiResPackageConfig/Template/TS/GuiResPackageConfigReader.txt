@@ -1,0 +1,42 @@
+/////////////////////////////////////
+// ihaiu.GenerateFguiResPackageConfig生成
+// http://blog.ihaiu.com
+/////////////////////////////////////
+
+import Dictionary from "../Libs/Helpers/Dictionary";
+import GuiResPackageConfig from "./GuiResPackageConfig";
+
+// =====================
+// fgui包资源配置列表
+// ---------------------
+export default class >:classname:<
+{
+    // 字典
+    dict:Dictionary<string, GuiResPackageConfig> = new Dictionary<string, GuiResPackageConfig>();
+
+    // 添加配置
+    addconfig(config: GuiResPackageConfig)
+    {
+        this.dict.add(config.packageName, config);
+    }
+
+    // 获取配置
+    getconfig(packageName: string)
+    {
+        return this.dict.getValue(packageName);
+    }
+
+
+
+    // 初始化
+    install()
+    {
+        let config:GuiResPackageConfig;
+
+		
+		>:FOREACH list:<
+		>:[0]:<
+		>:ENDFOREACH:<
+
+    }
+}

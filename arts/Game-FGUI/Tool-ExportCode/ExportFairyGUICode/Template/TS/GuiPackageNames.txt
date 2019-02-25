@@ -1,0 +1,17 @@
+﻿/////////////////////////////////////
+// ihaiu.ExportFairyGUICode生成
+// http://blog.ihaiu.com
+/////////////////////////////////////
+
+
+// =====================
+// fgui 包名称
+// ---------------------
+export default class GuiPackageNames
+{
+
+	>:FOREACH packlist:<
+	public static >:[0]:< : string = ">:[1]:<";
+	>:ENDFOREACH:<
+
+}

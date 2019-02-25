@@ -1,0 +1,9 @@
+{
+  "autoEnd": true,
+  "optionSetting": "./optionSetting.json",
+  "resPath": "./res",
+  "packageFileExtension": ".bin",
+  "templateDir": "./Template",
+  "codePath": "../../../FairyGUICode",
+  "soundExts": [ ".ogg", ".mp3", ".wav"]
+}

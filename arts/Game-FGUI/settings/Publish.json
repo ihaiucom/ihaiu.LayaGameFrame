@@ -2,7 +2,7 @@
 	"binaryFormat":true,
 	"codeGeneration":{
 		"classNamePrefix":"",
-		"codePath":"E:\\zengfeng\\githubs\\ihaiu.LayaGameFrame\\client\\Game\\src\\FGUI\\Code",
+		"codePath":".\\exports\\code",
 		"codeType":"TS-2",
 		"getMemberByName":false,
 		"ignoreNoname":true,
@@ -12,5 +12,5 @@
 	"compressDesc":false,
 	"fileExtension":"bin",
 	"packageCount":2,
-	"path":"E:\\zengfeng\\githubs\\ihaiu.LayaGameFrame\\client\\Game\\bin\\res\\fgui"
+	"path":"..\\..\\client\\Game\\bin\\res\\fgui"
 }

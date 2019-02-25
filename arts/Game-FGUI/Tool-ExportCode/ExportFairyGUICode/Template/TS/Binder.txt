@@ -1,0 +1,20 @@
+/////////////////////////////////////
+// ihaiu.ExportFairyGUICode生成
+// http://blog.ihaiu.com
+/////////////////////////////////////
+
+
+>:FOREACH imports:<
+import >:[0]:< from ">:[1]:<";
+>:ENDFOREACH:<
+
+export default class >:className:<
+{
+	public static bindAll():void 
+	{
+		let bind = fairygui.UIObjectFactory.setPackageItemExtension;
+		>:FOREACH coms:<
+		bind(>:[0]:<.URL, >:[0]:<);
+		>:ENDFOREACH:<
+	}
+}

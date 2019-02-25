@@ -1,0 +1,18 @@
+/////////////////////////////////////
+// ihaiu.ExportFairyGUICode生成
+// http://blog.ihaiu.com
+/////////////////////////////////////
+
+>:FOREACH imports:<
+import >:[0]:< from ">:[1]:<";
+>:ENDFOREACH:<
+
+export default class GuiBinderList
+{
+	static fguiBinderAll()
+	{
+		>:FOREACH packlist:<
+		>:[0]:<
+		>:ENDFOREACH:<
+	}
+}

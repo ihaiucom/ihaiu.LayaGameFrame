@@ -1,0 +1,1 @@
+dotnet ./ExportFairyGUICode/ExportFairyGUICode.dll --cmd=modifyxml --optionSetting=./ExportSetting.json

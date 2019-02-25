@@ -1,0 +1,15 @@
+{
+  "autoEnd": true,
+  "optionSetting": "./ExportSetting.json",
+  "fairyProject": "../",
+  "templateDir": "./ExportFairyGUICode/Template",
+  "codePath": "../../../_gen/FairyGUICode",
+  "codeNamespace": "fgui",
+  "codeMemberNamePrefix": "m_",
+  "codeIgnoreNoname": true,
+  "codeIgnorIllegalClassName": false,
+  "codeIgnorNoExported": true,
+  "codeExportDepend": true,
+  "codeUseOtherPkgType": true,
+  "soundPackageName": "Sound"
+}

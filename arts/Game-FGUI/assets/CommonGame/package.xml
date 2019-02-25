@@ -4,5 +4,5 @@
     <image id="nk8t0" name="btn_blue.png" path="/_images_ui/"/>
     <image id="nk8t1" name="flag_ok.png" path="/_images_ui/"/>
   </resources>
-  <publish name=""/>
+  <publish name="CommonGame"/>
 </packageDescription>

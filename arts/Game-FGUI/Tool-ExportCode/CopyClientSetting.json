@@ -1,0 +1,14 @@
+{
+  "enableoverwrites": [
+  	{
+  		"src":"../../../_gen/FairyGUICode/TS/Generates", 
+		  "dst":"../../../client/Game/src/FGUI/Generates"
+  	}
+  ],
+  "disableoverwrites": [
+  	{
+      "src":"../../../_gen/FairyGUICode/TS/Extends", 
+      "dst":"../../../client/Game/src/FGUI/Extends"
+    }
+  ]
+}

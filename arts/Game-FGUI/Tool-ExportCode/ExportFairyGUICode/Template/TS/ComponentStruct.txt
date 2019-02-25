@@ -1,0 +1,51 @@
+﻿/////////////////////////////////////
+// ihaiu.ExportFairyGUICode生成
+// http://blog.ihaiu.com
+/////////////////////////////////////
+
+>:FOREACH imports:<
+import >:[0]:< from ">:[1]:<";
+>:ENDFOREACH:<
+
+export default class >:classNameStruct:< extends >:classNameFGUI:<
+{
+	>:FOREACH fields:<
+	public >:[0]:< : >:[1]:<;
+	>:ENDFOREACH:<
+
+	
+	public static URL:string = ">:URL:<";
+	
+	public static DependPackages:string[] = [>:dependPackages:<];
+
+	
+	public static createInstance():>:classNameExtend:< {
+		return <>:classNameExtend:<><any>(fairygui.UIPackage.createObject(">:packagename:<",">:comname:<"));
+	}
+
+	
+
+	public constructor() 
+	{
+		super();
+	}
+
+	protected constructFromXML(xml: any): void 
+	{
+		super.constructFromXML(xml);
+		
+		>:FOREACH setControllerList:<
+		this.>:[0]:< = this.getController(">:[1]:<");
+		>:ENDFOREACH:<
+
+		
+		>:FOREACH setDisplayList:<
+		this.>:[0]:< = <>:[2]:<><any>(this.getChild(">:[1]:<"));
+		>:ENDFOREACH:<
+		
+		
+		>:FOREACH setTransitionList:<
+		this.>:[0]:< =  this.getTransition(">:[1]:<");
+		>:ENDFOREACH:<
+	}
+}
