@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,400">
+  <displayList>
+    <text id="n0_nk8t" name="n0" xy="26,33" size="203,39" fontSize="30" align="center" vAlign="middle" autoSize="none" bold="true" text="标题1"/>
+    <text id="n1_nk8t" name="n1" xy="28,102" size="193,28" fontSize="20" align="center" vAlign="middle" autoSize="none" bold="true" text="标题2"/>
+  </displayList>
+</component>

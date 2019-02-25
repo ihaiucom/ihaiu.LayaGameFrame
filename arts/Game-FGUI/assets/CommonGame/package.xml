@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="4snov4n9" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="nk8t0" name="btn_blue.png" path="/_images_ui/"/>
+    <image id="nk8t1" name="flag_ok.png" path="/_images_ui/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

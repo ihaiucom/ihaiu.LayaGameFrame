@@ -1,4 +1,5 @@
-import TimeHelper from "../../Libs/Helpers/TimeHelper";
+import TimeHelper from "../../GameHelpers/TimeHelper";
+
 
 //======================
 // 游戏时间 数据

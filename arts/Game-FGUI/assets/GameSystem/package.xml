@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="43jt54bp" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="nk8t0" name="GlobalModalWaiting.xml" path="/"/>
+    <component id="nk8t1" name="SystemAlertMessage.xml" path="/"/>
+    <component id="nk8t2" name="SystemConfirmMessage.xml" path="/"/>
+    <component id="nk8t3" name="SystemToastMessage.xml" path="/"/>
+    <component id="nk8t4" name="WindowModalWaiting.xml" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

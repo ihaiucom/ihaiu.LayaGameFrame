@@ -1,6 +1,6 @@
-import Game from "../../Game";
-import TEXT from "../../Config/Keys/TEXT";
-import LangType from "../../Config/LangType";
+import Game from "../Game";
+import TEXT from "../Config/Keys/TEXT";
+import LangType from "../Config/LangType";
 
 export default class TimeHelper
 {
