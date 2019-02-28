@@ -18464,3 +18464,4 @@ $root.S2C = (function() {
 })();
 
 module.exports = $root;
+window.proto = $root;

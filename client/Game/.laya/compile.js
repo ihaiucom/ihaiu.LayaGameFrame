@@ -32,7 +32,7 @@ gulp.task("compile", prevTasks, function () {
 		debug: true,
 		entries: 
 		[
-			'src/GameLaunch.ts'
+			'src/GameMain.ts'
 		],
 		cache: {},
 		packageCache: {}

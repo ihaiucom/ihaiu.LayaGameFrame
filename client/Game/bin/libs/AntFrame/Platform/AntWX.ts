@@ -115,7 +115,7 @@ export class AntPlatformWX extends AntPlatformBase
         });
     }
  
-    private WXCreateWXUserButton() : Promise<any>
+    private async WXCreateWXUserButton() : Promise<any>
     {
         let button = wx.createUserInfoButton({
             type: 'text',
