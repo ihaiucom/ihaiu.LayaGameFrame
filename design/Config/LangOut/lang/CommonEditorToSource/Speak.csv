@@ -1,0 +1,163 @@
+﻿int	string	string	string
+ID	英文文字	中文文字	备注
+id	en_speak	cn_speak	tips
+1001	When can I get an Oskar award…	什么时候才能得到小金人啊	楼层站立
+1002	I'm that close to the award yeasterday!	昨天差一点就获得小金人了,好可惜	楼层站立
+1003	I'm gonna do exercise today!	今天要健身减肥	楼层站立
+1004	I'm too tired to shoot movies today…	今天太累了,不想拍电影了	楼层站立
+1005	Do I have visitor today?	今天有影迷要找我吗	楼层站立
+1006	I'm the guarantee of box-office!	我拍的电影一定大卖	楼层站立
+1007	This guy looks funny when he slipped	那家伙摔倒了,很滑稽	楼层站立
+1008	I heard we have a new actor, I'm gonna try him out!	听说来了个很厉害的新人,我要恶搞一下	楼层站立
+1009	Someone is singing and it's disturbing	又有人在唱歌扰民了	楼层站立
+1010	Hey can you be quiet, upstairs?	楼上的家伙安静点	楼层站立
+1011	Who tossed the banana peel here? Hope no one got slipped	谁丢的香蕉皮,希望没人看到	楼层摔倒
+1012	You saw me fall and don't help me up?	看到我摔倒了还不快扶我起来	楼层摔倒
+1013	I should win a Oskar by this flopping	我的这次假摔可是奥斯卡影帝级别的	楼层摔倒
+1014	Everybody thinks I can sing better than Justin Bieber!	大家都说我唱的比贾斯丁比伯好听	楼层唱歌
+1015	I'm gonna be worned out by the never ending concerts to come…	今年还有99场演唱会,我会累死的	楼层唱歌
+1016	I got no comptitor if I'm a singer!	我去参加好声音,就没其他选手什么事情了	楼层唱歌
+1017	Come on! Let's dance to the beats!	跟着音乐一起跳舞	楼层跳舞
+1018	Follow my step and try again!	跟着我的节拍,再来一次	楼层跳舞
+1019	I'm as elegant as a swan when I'm dancing	我跳舞的时候,就像一只天鹅	楼层跳舞
+1020	Good morning, and in case I don't see you, good afternoon, good evening, and good night!	如果再也不能见到你，祝你早安，午安，晚安。	楼层朗诵
+1021	Life was a box of chocolates,you never know what you're gonna get	生活就像一盒巧克力，你永远不知道下一块会是什么味道。	楼层朗诵
+1022	When you think it is most difficult, it is when you are closest to success.	当你最认为困难的时候，其实就是你最接近成功的时候。	楼层朗诵
+1023	You jump ,I jump.	You jump ,I jump.	楼层朗诵
+1024	We're gonna get big sell on this!	加油!肯定会大卖的	楼层欢呼
+1025	Just do it	just do it	楼层欢呼
+1026	Let's take Oskar by this!	为了小金人,冲啊	楼层欢呼
+3101	I'm about to see {0}! So excited!	就要看到{0}了，真激动！	粉丝探班1
+3102	Heard there's fans visiting?	听说有粉丝来了	粉丝探班1
+3103	I finally got to see you!	呀，终于看到你了！	粉丝探班1
+3104	It's you! I remember you from last show	咦，是你！上次首演我看到你了。	粉丝探班1
+3105	Yeah it's me!!! OMG you remember me!	对对对，是我是我，你竟然记得我！	粉丝探班1
+3106	I remember every fans!	我记得我的每一个粉丝	粉丝探班1
+3201	I'm wearing my best suit for today!	为了今天我特地穿了最喜欢的衣服！	粉丝探班2
+3202	My fans are the best!	我的粉丝是最棒的！	粉丝探班2
+3203	This rose represents my love for you，{0}!	{0}，请接受我的鲜花！	粉丝探班2
+3204	Well roses are always welcome!	来就来嘛，怎么不多带点鲜花	粉丝探班2
+3205	Well there's no discount in flower shop today…I'll buy more when next time they are on sale!	今天花店没打折，下次打折我多买点过来	粉丝探班2
+3206	You only buy flowers for me when it's on sale?!	竟然要买打折货？！	粉丝探班2
+3301	This day finaaaally comes! I'm going to see {0} in reality!	好激动，这次终于能看到{0}了。	粉丝探班3
+3302	I have a bad feeling…	有种不好的感觉	粉丝探班3
+3303	Do you remember me?	是我是我，你还记得我吗？	粉丝探班3
+3304	I'm sorry, but you are…?	不好意思不记得，你是？	粉丝探班3
+3305	I stalked you last night! Did you forget?	上次，晚上，就是我跟踪你的！	粉丝探班3
+3306	What! Guards! Guards!	啊，原来是你，保安！保安！	粉丝探班3
+3401	Oh my gosh!!!	忍不住了，我想变身！	粉丝探班4
+3402	That feels familiar	感觉到熟悉的气息	粉丝探班4
+3403	wE!" y17$T 7UPC NT$E- El&v-	wE!" j17$T 7MPC NU$E- Ej&v-	粉丝探班4
+3404	I beg you pardon?	你说啥？	粉丝探班4
+3405	Oh please forgive me, that's what we say in M87 planet	呀，一个不小心说出M87星语了	粉丝探班4
+3406	NT$E-I'm from M87 planet too!	NU$E- Ej&v-，我也是M87星的！	粉丝探班4
+3501	Grandma, I'm gonna see your favorite actor—{0} today!	奶奶，我就要看到你最喜欢的{0}了！	粉丝探班5
+3502	The wine is really good	今天的红酒真好喝！	粉丝探班5
+3503	{0}, you've been my grandma's idol since she's a little kid!	{0}，我奶奶说她从小就很喜欢你！	粉丝探班5
+3504	umm…am I that old?	啊，我有那么老吗？	粉丝探班5
+3505	No I mean your spirit makes my grandma feel younger too!	呸呸，我是说我奶奶看到你就像回到小时候！	粉丝探班5
+3506	Well would you send her my regards?	代我谢谢你奶奶！	粉丝探班5
+3601	What should I say?	待会儿要怎么说呢？	粉丝探班6
+3602	It's a wonderful day~	今天心情真好！	粉丝探班6
+3603	Run! {0}! There's gonna be a earthquake cause my love for you can shake the ground!	{0}快跑，这里快要发生地震了！	粉丝探班6
+3604	okay then well should I run to?	真的吗？那要往哪逃？	粉丝探班6
+3605	Come with me! I know a safe place!	跟我走，我刚找到一个很隐蔽的地窖！	粉丝探班6
+3606	I don't feel good about this…	怎么有种不好的感觉？	粉丝探班6
+3701	I'm about to crack a big question!	刚才那道题怎么解来着？	粉丝探班7
+3702	Ah, my headache is killing me	头疼，今天真不舒服	粉丝探班7
+3703	{0}, can you do me a favor?	{0}，可以帮我一个忙吗？	粉丝探班7
+3704	Sure, what do you need?	好的呀，你要做什么？	粉丝探班7
+3705	Can you do my homework for me?	这是我今天的家庭作业，帮我做一下呗！	粉丝探班7
+3706	Eh I'm feeling dizzy today, please take my leave	啊，头晕，不好意思我先撤了。	粉丝探班7
+3801	My offer is depending on this!	能不能找到工作就看这一把了！	粉丝探班8
+3802	That's a fan with good taste	哪个粉丝这么有眼光？	粉丝探班8
+3803	{0}, Can I come work for you?	{0}，我可以帮你工作吗？	粉丝探班8
+3804	Well, what are you good at?	好的呀，你会做什么？	粉丝探班8
+3805	I can eat! A lot!	我会吃！	粉丝探班8
+3806	Yeah I can do that too.	不好意思，这个我也会。	粉丝探班8
+3901	It's a wonderful day~	今天天气好晴朗~	粉丝探班9
+3902	I hear someone singing	好像听到谁在唱歌。	粉丝探班9
+3903	{0}, how do you think of my singing?	{0}，我唱歌好不好听！	粉丝探班9
+3904	Yeah, good enough for a concert	好听好听，简直比我演唱会还棒！	粉丝探班9
+3905	hehe I know you'll feel this way!	嘻嘻，我就知道你会这么说，虽然我也这么觉得	粉丝探班9
+3906	As long as it cheers you…	呵呵，你开心就好！	粉丝探班9
+5101	Hello!	你好！	
+5102	I like your conference room	我喜欢你们的会议室！	
+5201	I have some problems with your conditions!	你开的条件我觉得有些问题！	
+5202	We can discuss the details	细节可以慢慢谈嘛！	
+5301	I find your conditions unacceptable!	你开的条件太差了！	
+5302	That's nosense! Are you serious?	这是漫天要价，你真的想谈判么？	
+5401	I hoped we can cooperate happily!	合作愉快！	
+5402	I'm so glad we made it!	真高兴谈判成功！	
+5501	I don't think you're prepared	你们太没有诚意了	
+5502	I've nothing more to say, goodbye.	这么什么好谈的，再见	
+1101	What on earth did I just saw???	我是谁，我在哪，我刚刚看了个啥？？？	
+1102	I'll weight 10 more pounds if I ever buy tickets to see a movie like this again! Wait, 5 pounds maybe…	我要再花钱来电影院看这种烂片就让我胖10斤！不，5斤吧…	
+1103	This piece of junk just pulls down the total review of the whole schedule!!!	这片真是凭一己之力拉低了整个档期的评分！！！	
+1104	There's no wave in my heart after seeing this. I even want to laugh.	我的内心毫无波动，甚至有点想笑	
+1105	It's a combine of good actors and a wonderful script. It should be a double joy. Why is it so disappointing in the end?	明明是喜欢的演员和精彩的剧本，明明应该是双重的喜悦，为什么到头来却这么让人失望呢？	
+1201	The air conditioner makes it too cold to sleep...	空调太冷不好睡，先走了…	
+1202	I'd rather go write another code than seeing this…thing!	后悔了，把看这片的时间拿来敲代码多好	
+1203	Yeah I wouln't care much if I have so much money to waste	你说有钱多好，我要有钱也这么拍烂片玩儿	
+1204	It just made me feel physical discomfort!	引起生理不适，举报了！	
+1205	No theme, no logic, total mess	没有主题，剧情混乱，不知所云	
+1301	Nothing notable about it, but if you just want to kill time, then there's nothing wrong about it too	无功无过，杀时间之选	
+1302	Nothing besides special effects to see in this movie. Well, at least the effects are not bad	除了特效也没啥看点了，好在特效还算值回票价	
+1303	The story itself is quite cliché, but generally it is good.	故事本身挺俗套的，但也没有雷点，总体不错	
+1304	To be honest it's not a masterpiece, but it touches my heart in some personal aspect	虽然没有亮点，但却是引起了我的共鸣	
+1305	I didn't get why it's popular among people lately	网红电影，就像网红奶茶一样。	
+1401	This movie has stopped me from going to the toilet for more than two hours!	这电影害我憋了整整两个多小时没舍得去上厕所！	
+1402	Through my whloe life, buying this ticket is something I'd never regret	我这辈子做的正确的选择不多，买了这张电影票是其中之一	
+1403	Typical happy ending, recommended if you want to feel some healing	非常合家欢的结局，轻松愉快，真是治愈啊	
+1404	No bullshit, just buy the ticket and enjoy	别说话，买票就对了	
+1405	No one can blame them if this movie is just okay, but they actually made a good movie out of it	很容易拍俗套的电影却未落俗套，Pick了	
+1501	Ah that's really great! I'm gonna recommend this to all my friends!	啊啊啊真是太棒了我要回去疯狂安利小伙伴！	
+1502	If you can only buy a ticket once a year, this should be your choice!	如果这一年只能来影院看一部电影，选这部就对了！	
+1503	I found faith in domestic films once more thanks to this!	这部电影让我对国产电影重拾了信心！	
+1504	Hard to ignore this movie if all your social circle are talking highly of it	我的微博朋友圈QQ群都被这片的好评刷爆了，再不看感觉天理难容	
+1505	My eyes just get wet. I haven't have this feeling for a long time	看的我眼眶湿润，很久没有体会过这种感觉了。	
+1601	Ah that's really great! I'm gonna recommend this to all my friends!	啊啊啊真是太棒了我要回去疯狂安利小伙伴！	神话电影观众说话文字,不能和传奇一样
+1602	If you can only buy a ticket once a year, this should be your choice!	如果这一年只能来影院看一部电影，选这部就对了！	神话电影观众说话文字,不能和传奇一样
+1603	I found faith in domestic films once more thanks to this!	这部电影让我对国产电影重拾了信心！	神话电影观众说话文字,不能和传奇一样
+1604	Hard to ignore this movie if all your social circle are talking highly of it	我的微博朋友圈QQ群都被这片的好评刷爆了，再不看感觉天理难容	神话电影观众说话文字,不能和传奇一样
+1605	My eyes just get wet. I haven't have this feeling for a long time	看的我眼眶湿润，很久没有体会过这种感觉了。	神话电影观众说话文字,不能和传奇一样
+2101	Not much chance to visiting a filming studio!	参观摄影棚的机会可不多	拍摄中艺人的说话文字
+2102	Life is like a play, it all depends on acting	人生如戏，全靠演技	拍摄中艺人的说话文字
+2103	I want to leave work behind and go travel	最近工作好忙，想去旅游	拍摄中艺人的说话文字
+2104	I think we need more special effects in our movie	我觉得我们的电影需要更多的特效	拍摄中艺人的说话文字
+4101	I'm gonna train harder!	我要努力训练	训练室
+4102	I'm too tired to continue training	好累啊,不想训练了	训练室
+4103	I need sleep…	我想睡觉,不要让我训练了	训练室
+4104	I'll keep on going for winning Oskar someday!	为了小金人,我要坚持训练	训练室
+7101	Welcome to the roadshow of {0} company! I'm the host of this show, now let's begin! Be hold, {1}!	欢迎大家参加{0}公司路演！我是主持人！现在路演开始，{1}将作为第一个登场的艺人！	0=公司名，1=下一个上台艺人名
+7102	Let's see the supporting rate of {0}, wow, it's {1}! Very nicely done!	我们来看看{0}的支持率，{1}，还不错！	0=当前艺人名，1=热度值
+7103	Awesome! The enthusiasm of our audience is really high! I announce that the roadshow of {0} company was successful!	太棒了！现场观众的热情真高！我宣布，{0}公司的路演成功！	0=当前城市名
+7104	Is the performance finished? unfortunately I feel that our audience were not touched at all. The roadshow of {0} company has failed…	表演完了吗？感觉观众没有被完全点燃啊，我不得不宣布{0}公司的路演失败了！	0=当前城市名
+7105	Hi everyone at {0}!	{0}的各位好！	0=当前城市名
+7106	{0} company is the best!	我们{0}影业最棒了！	0=公司名
+7107	{0}, I love you!	{0}，我爱你！	0=当前城市名
+7108	{0} company's movie will never disappoint you!	我{0}的电影绝对不会让大家失望！	0=当前艺人名
+7109	I'm actually quiet familiar with {0}!	其实我很熟悉{0}！	0=当前城市名
+7110	I like {0} ver much!	我好喜欢{0}这座城市！	0=当前城市名
+7111	Friends on the top of the mountain! Let me hear your voice!	山顶的朋友我想听到你们的声音！	
+7112	{0} has a wonderful view!	{0}的风景好漂亮！	0=当前城市名
+6001	让我们猜猜{0}的获奖者会是谁	Who's your choice for {0}?	奖项名称（Msg/1065-1069）
+6002	获得奖项提名的有	Nomination for this award:	
+6003	{0}	{0}	候选人名称
+6004	{0}	{0}	候选人名称
+6005	{0}	{0}	候选人名称
+6006	{0}	{0}	候选人名称
+6007	{0}	{0}	候选人名称
+6008	I think {0} is the most powerful contender for this award!	我觉得{0}挺不错的	5个候选人中随机1个
+6009	{0} wining this award is what everyone wants!	我认为{0}才是最大的热门	5个候选人中随机另外1个
+6010	The final winner is	那么，最终得奖者是	
+6011	The winner's name on the big screen is…	大屏幕即将展示得奖的艺人	
+6012	{0}	{0}	获奖者
+6013	I always have faith in you!	毫无疑问只会是你	
+6014	{0}	{0}	获奖者
+6015	You're the best!	你是最棒的！	
+6016	Awesome! The amount of reposts on this news is increasing madly!	堆特上的各位赶快转发吧！	
+6017	Next award is {0}	下面我们要颁发的奖项是{0}	
+6018	Unfortunately, we don't have nominations for this award…	哦！很遗憾，这项奖项并没有候选者，请大家继续努力！	
+6019	今天的奥斯卡颁奖到此为止，谢谢大家的参与！	今天的奥斯卡颁奖到此为止，谢谢大家的参与！	
+6020	谢谢大家！我们明天再见！	谢谢大家！我们明天再见！	

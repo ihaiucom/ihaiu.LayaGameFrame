@@ -1,0 +1,12 @@
+{
+  "enableoverwrites": [
+  	{
+  		"src":"../../client/Game/bin", 
+  		"dst":"E:/wamp/www/Gidea-PF-Res/resources/res/ts1"
+  	},
+  
+  ],
+  "disableoverwrites": [
+  	
+  ]
+}

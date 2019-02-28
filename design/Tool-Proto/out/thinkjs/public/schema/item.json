@@ -1,0 +1,279 @@
+{
+  "item/SellOut/req": {
+    "comment": null,
+    "$id": "item/SellOut/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "itemId": {
+        "type": "number"
+      },
+      "amount": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "uuid",
+      "itemId",
+      "amount"
+    ]
+  },
+  "item/SellOut/resp": {
+    "comment": null,
+    "$id": "item/SellOut/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "item/Compound/req": {
+    "comment": null,
+    "$id": "item/Compound/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "itemId": {
+        "type": "number"
+      },
+      "amount": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "uuid",
+      "itemId",
+      "amount"
+    ]
+  },
+  "item/Compound/resp": {
+    "comment": null,
+    "$id": "item/Compound/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "item/Split/req": {
+    "comment": null,
+    "$id": "item/Split/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "itemId": {
+        "type": "number"
+      },
+      "amount": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "uuid",
+      "itemId",
+      "amount"
+    ]
+  },
+  "item/Split/resp": {
+    "comment": null,
+    "$id": "item/Split/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "item/Use/req": {
+    "comment": null,
+    "$id": "item/Use/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "itemId": {
+        "type": "number"
+      },
+      "amount": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "uuid",
+      "itemId",
+      "amount"
+    ]
+  },
+  "item/Use/resp": {
+    "comment": null,
+    "$id": "item/Use/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "dropout": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "itemId": {
+              "type": "number"
+            },
+            "amount": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "required": [
+      "uuid",
+      "dropout"
+    ]
+  },
+  "item/UsePiecesGiftBag/req": {
+    "comment": null,
+    "$id": "item/UsePiecesGiftBag/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "itemId": {
+        "type": "number"
+      },
+      "amount": {
+        "type": "number"
+      },
+      "selItemId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "uuid",
+      "itemId",
+      "amount",
+      "selItemId"
+    ]
+  },
+  "item/UsePiecesGiftBag/resp": {
+    "comment": null,
+    "$id": "item/UsePiecesGiftBag/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "dropout": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "itemId": {
+              "type": "number"
+            },
+            "amount": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "required": [
+      "uuid",
+      "dropout"
+    ]
+  },
+  "item/CompoundActor/req": {
+    "comment": null,
+    "$id": "item/CompoundActor/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "itemId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "uuid",
+      "itemId"
+    ]
+  },
+  "item/CompoundActor/resp": {
+    "comment": null,
+    "$id": "item/CompoundActor/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "actorId": {
+        "type": "number"
+      },
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "itemId": {
+              "type": "number"
+            },
+            "amount": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "required": [
+      "uuid",
+      "actorId",
+      "items"
+    ]
+  },
+  "item/UseActorSkillWater/req": {
+    "comment": null,
+    "$id": "item/UseActorSkillWater/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "itemId": {
+        "type": "number"
+      },
+      "actorId": {
+        "type": "number"
+      },
+      "amount": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "uuid",
+      "itemId",
+      "actorId",
+      "amount"
+    ]
+  },
+  "item/UseActorSkillWater/resp": {
+    "comment": null,
+    "$id": "item/UseActorSkillWater/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  }
+}

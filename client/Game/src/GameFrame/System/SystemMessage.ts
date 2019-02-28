@@ -2,6 +2,8 @@ import Game from "../../Game";
 import SoundKey from "../../FGUI/Generates/SoundKey";
 import SystemToastMessag from "./SystemToastMessage";
 import TEXT from "../../Config/Keys/TEXT";
+import SystemAlertMessage from "../../FGUI/Extends/GameLaunch/SystemAlertMessage";
+import SystemConfirmMessage from "../../FGUI/Extends/GameLaunch/SystemConfirmMessage";
 
 //======================
 // 转圈
@@ -22,26 +24,26 @@ export default class SystemMessag
 	private toastMessage: SystemToastMessag = new SystemToastMessag();
 
 	// 一个按钮的对话框
-	private _alertMessage: fgui.System.SystemAlertMessage;
+	private _alertMessage: SystemAlertMessage;
 
 
 	private get alertMessage()
 	{
 		if (!this._alertMessage)
 		{
-			this._alertMessage = fgui.System.SystemAlertMessage.createInstance();
+			this._alertMessage = SystemAlertMessage.createInstance();
 		}
 		return this._alertMessage;
 	}
 
 	// 两个按钮的对话框
-	private _confirmMessage: fgui.System.SystemConfirmMessage;
+	private _confirmMessage: SystemConfirmMessage;
 
 	private get confirmMessage()
 	{
 		if (!this._confirmMessage)
 		{
-			this._confirmMessage = fgui.System.SystemConfirmMessage.createInstance();
+			this._confirmMessage = SystemConfirmMessage.createInstance();
 		}
 		return this._confirmMessage;
 	}
@@ -141,7 +143,7 @@ export default class SystemMessag
 	{
 		if (isNullOrEmpty(yesTxt))
 		{
-			yesTxt = LoadingStateTxt.VersionAlertUpdateOKBtn;
+			yesTxt = Game.launchText.btnYes;
 		}
 		this.alertMessage.open(txt, title, yesObj, yesFun, yesTxt, closeButtonVisiable, buttonEnable, isClickButtonAutoClose);
 

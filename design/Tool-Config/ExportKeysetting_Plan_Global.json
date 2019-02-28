@@ -1,0 +1,21 @@
+{
+  "list": 
+  [
+  	{
+  		"xlsx": "../Config/Common/Global.xlsx",
+  		"idField": "id",
+  		"keyField": "key",
+  		"txtModuleField": "",
+  		"txtNameField": "name",
+  		"tplPath": "./ExportKey/Template/TS/KeyTemplate.txt",
+  		"codePath": "../../client/Game/src/Config/keys/GlobalKey.ts",
+  		"codeClassname": "GlobalKey",
+  		"generateEmptyKey": true,
+  		"generateFullPing": true,
+  		"generateCode": false,
+  		"generateCodeNote": true,
+  		"replaceCode": false,
+  		"replaceCodeRoot": "../../client/Game/src",
+  	},
+  ]
+}

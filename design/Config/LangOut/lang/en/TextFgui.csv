@@ -1,0 +1,1784 @@
+﻿int	string	string	string	string
+ID	备注	UI编号	UI元件名称	值
+id	comment	name	mz	value
+1	Activity - ActivityMain	9qou8rs7sga10-n5_sga1	title	Title
+2	Activity - ActivityMain	9qou8rs7sga10-n11_ac07	title	Event
+3	Activity - ActivityMain	9qou8rs7sga10-n23_ynh3	noActivity	No Event Available
+4	Activity - ActivitySeven	9qou8rs7sga12-n10_sga1	tip1	Event Time:
+5	Activity - ActivitySeven	9qou8rs7sga12-n11_sga1	tip2	Event Intro:
+6	Activity - ActivitySeven	9qou8rs7sga12-n13_sga1	tip2Val	New palyer can sign contract with [4 star] actor {Actor's name} by consume {0} diamonds during 10 days
+7	Activity - ActivityTopItemBtn	9qou8rs7sga11-n3_sga1	title	Tip
+8	Activity - Dialog	9qou8rs7f9f11e-n9_hz3m	title	Title
+9	Activity - LicenseReq	9qou8rs7ac07w-n8_ac07	tip1	License
+10	Activity - LicenseReq	9qou8rs7ac07w-n9_ac07	tip2	License
+11	Activity - LicenseReq	9qou8rs7ac07w-n10_ac07	tip3	License
+12	Activity - ApplyLicensePanel	9qou8rs7vuzmf-n21_hh76	msgTitle	You can enjoy these privileges:
+13	Activity - LicenseReq	9qou8rs7ac07w-n13_ac07	okBtn	APPLY
+14	Activity - SecretaryButton	9qou8rs7rrsj7-n16_hh76	title	Secretary
+15	Activity - SecretaryCommon	9qou8rs7rrsj8-n3_hh76	n3	Tap anywhere to continue
+16	Activity - SecretaryGiftButton	9qou8rs7rrsja-n14_hh76	title	BUY
+17	Activity - SecretaryGiftPanel	9qou8rs7rrsjb-n4_hh76	title	Secretary Package
+18	Activity - SecretaryGiftPanel	9qou8rs7rrsjb-n5_hh76	des	Unlock after hiring a secretary
+19	Activity - SecretaryPanel	9qou8rs7rrsjc-n21_hh76	msgTitle	You can enjoy these privileges:
+20	Activity - SecretaryPanel	9qou8rs7rrsjc-n30_hh76	welfareBtn	Daily Gift
+21	Activity - SecretaryPanel	9qou8rs7rrsjc-n13_hh76	tipmsg	Hired
+22	Activity - Dialog	9qou8rs7c3b71e-n9_hz3m	title	History
+23	Activity - SecretaryWelfareMsgItem	9qou8rs7rrsjd-n0_hh76	title	Daily Gift
+24	Activity - SevenItem	9qou8rs7sga13-n2_sga1	dayTip	Day 1
+25	Activity - SevenItem	9qou8rs7sga13-n3_sga1	okBtn	CLAIM
+26	Activity - SevenItem	9qou8rs7sga13-n6_sga1	waitTip	Unclaimed
+27	Activity - SignItem	9qou8rs7pytu6-n6_pytu	day	Day 4
+28	Activity - SignItem2	9qou8rs7l1hm13-n35_l1hm	day	Day 1
+29	Activity - SignPanel	9qou8rs7pytu5-n1_tvvq	okBtn	CLAIM
+30	Activity - SignPanel	9qou8rs7pytu5-n3_lrcq	nextTip	OK
+31	Activity - WelfareMain	9qou8rs7rrsje-n4_hh76	title	Daily Bonus
+32	ArtistDic - actorBg	aeg3jnlem8at11-n41_m8at	title	Title
+33	Activity - Dialog	9qou8rs7s1hs1d-n9_hz3m	title	Everybody
+34	ArtistDic - ArtistDicUI	aeg3jnlem8atq-n7_m8at	title	Actorbase
+35	ArtistDic - ArtistDicUI	aeg3jnlem8atq-n22_m8at	ScreenBtn	SEARCH
+36	ArtistDic - ArtistDicUI	aeg3jnlem8atq-n30_m8at	type1	Star Rank
+37	ArtistDic - ArtistDicUI	aeg3jnlem8atq-n31_m8at	type2	Star Rank
+38	ArtistDic - ArtistDicUI	aeg3jnlem8atq-n32_m8at	type3	Star Rank
+39	ArtistDic - ArtistDicUI	aeg3jnlem8atq-n33_m8at	type4	Star Rank
+40	ArtistDic - ArtistDicUI	aeg3jnlem8atq-n34_m8at	type5	Star Rank
+41	ArtistDic - ArtistList	aeg3jnlem8at14-n24_8hl1	noTip	Locked
+42	Activity - SecretaryPanel	9qou8rs7rrsjc-n10_hh76	talkMsg	At your service
+43	ArtistDic - ArtistShow	aeg3jnlem8atr-n17_m8at	nameTip1	First:
+44	ArtistDic - ArtistShow	aeg3jnlem8atr-n18_m8at	nameTip2	First:
+45	ArtistDic - ArtistShow	aeg3jnlem8atr-n23_m8at	notHired	Locked
+46	ArtistDic - ArtistShow	aeg3jnlem8atr-n24_m8at	name	Name
+47	ArtistDic - ArtistShow	aeg3jnlem8atr-n34_m8at	tip1	Access
+48	ArtistDic - ArtistShow	aeg3jnlem8atr-n35_m8at	tip2	Available
+49	ArtistDic - ArtistShow	aeg3jnlem8atr-n51_m8at-prompt	input	Input
+50	ArtistDic - ArtistShow	aeg3jnlem8atr-n52_m8at	sendBtn	SEND
+51	ArtistDic - ArtistShow	aeg3jnlem8atr-n53_m8at	detailsBtn	DETAILS
+52	ArtistDic - ArtistShow	aeg3jnlem8atr-n56_8hl1	tip3	Access
+53	ArtistDic - ArtistShow	aeg3jnlem8atr-n57_8hl1	noTip	Locked
+54	Bag - ActorItem	wdrb9z06n9f05-n116_wpo3	txtLv	Lv.999
+55	Bag - ActorItem	wdrb9z06n9f05-n111_qz6z	title	Actor Item
+56	Bag - BagItemInfo	wdrb9z06n9f00-n80_ow2j	labItem	Flashlight
+57	Bag - BagItemInfo	wdrb9z06n9f00-n81_ow2j	txtName	Name
+58	Bag - BagItemInfo	wdrb9z06n9f00-n82_ow2j	txtInfo	Event participation voucher, can be used to redeem gift package.
+59	Bag - BagItemInfo	wdrb9z06n9f00-n85_ow2j	btnSale	SELL
+60	Bag - BagItemInfo	wdrb9z06n9f00-n86_ow2j	btnUse	USE
+61	Bag - BagItemInfo	wdrb9z06n9f00-n114_7yfc	btnInfo	DETAILS
+62	Bag - BagItemInfo	wdrb9z06n9f00-n103_ow2j	btnResolve	RESOLVE
+63	Bag - BagItemInfo	wdrb9z06n9f00-n104_ow2j	btnGive	SEND
+64	Bag - BagItemInfo	wdrb9z06n9f00-n105_ow2j	btnCompound	COMPOUND
+65	Bag - BagMainPanel	wdrb9z06n9f02-n4_n8uo-0	listTab	Products
+66	Bag - BagMainPanel	wdrb9z06n9f02-n4_n8uo-1	listTab	Items
+67	Bag - BagMainPanel	wdrb9z06n9f02-n4_n8uo-2	listTab	Property
+68	Bag - BagMainPanel	wdrb9z06n9f02-n4_n8uo-3	listTab	Contract
+69	Bag - BagMainPanel	wdrb9z06n9f02-n67_xl2j	n67	DEPOT
+70	Bag - btnTab	wdrb9z06kvagr-n4	title	Title
+71	Bag - MarketLabAsset	wdrb9z06nd2w11-n3_hz8v	title	9990K
+72	Bag - PactItem	wdrb9z06n9f09-n34_hefl	n34	Compound
+73	Bag - SystemSelectActorPanel	wdrb9z06n9f03-n71_hxi2	title	Select Actor
+74	Bag - SystemSelectActorPanel	wdrb9z06n9f03-n79_swip	tipNoActor	No available actor
+75	Building - BuildFloorAlert	d062jvkgcpc911m-n7_cpc9	alert_title	Building expansion consumes
+76	Bag - SystemSelectActorPanel	wdrb9z06n9f03-n82_i4hg	btnConfirm	OK
+77	Building - btn_buildFloor	d062jvkgcpc911k-n7_cpc9	Title	Expand Floor 1
+78	Building - btn_buildRoom	d062jvkg8zgr3n-n9_mmlr	Title	BUILD
+79	Building - btn_confirm	d062jvkgjjbde14m-n4_cpc9	Title	Confirm
+80	Building - btn_levelup	d062jvkgjjbde14n-n4_cpc9	Title	Upgrade
+81	Building - btn_roomBuild	d062jvkgw5tk11y-n7_cpc9	Title	Build
+82	Building - btn_roomExpand	d062jvkgw5tk11z-n7_cpc9	Title	Expand Floor 1
+83	Building - btn_roomTitle	d062jvkg8zgr3m-n4	title	Biz Dev Center Lv.11
+84	Building - BtnNpcTips	d062jvkggy5h13r-n2_yru4	title	Trainer
+85	Building - BuildRoomTips	d062jvkgi24u12c-n30_i24u	effectText1	Building Effect:
+86	Building - BuildRoomTips	d062jvkgi24u12c-n36_fv9e	effectValue1	Building Effect:
+87	Building - BuildRoomTips	d062jvkgi24u12c-n33_fv9e	effectText2	Upgrade Effect:
+88	Building - BuildRoomTips	d062jvkgi24u12c-n35_fv9e	effectValue2	Building Effect:
+89	Building - BuildRoomUpgrade	d062jvkg8zgr3o-n29_w5tk	txt_name	Cinema
+90	Building - BuildRoomUpgrade	d062jvkg8zgr3o-n43_9zjb	maxLevelDesc	Already Reached Max Level
+91	Building - BuildSceneFilmEnter	d062jvkgg9i613z-n3_opnp	title	Titan is on showing!
+92	Building - BuildSceneUI	d062jvkglgv4e14p-n33_xw64	buildFloorInfo	Unlock when company reaches Lv.99
+93	Building - BuildUpgradePropitem	d062jvkgfv9e13e-n20_w5tk	title	Box-office [color=#e3b121]20%[/color]
+94	Building - LevelupNextProp	d062jvkg9zjb13j-n17_cpc9	title	Lv.99
+95	Building - LevelupProp	d062jvkgcpc911b-n17_cpc9	title	Lv.99
+96	Building - BuildRoomTips	d062jvkgi24u12c-n31_i24u	effectText2	Upgrade effect
+97	Building - propitem	d062jvkgcpc911a-n20_w5tk	title	Increase 20% to box-office
+98	Building - roomInfoItem	d062jvkgcpc911i-n6_cpc9	room_title	Room Name
+99	Building - roomInfoLockItem	d062jvkgcpc911j-n23_cpc9	room_title	Cinema
+100	Building - roomInfoLockItem	d062jvkgcpc911j-n28_cpc9	reason	Building is Full
+101	Building - UpgradeSuccessGroup	d062jvkgui5j13w-n6_cpc9	roomName	Upgrade Cinema
+102	Common - ActorIcon	txcuvopdcvs8dn-n2_cvs8	title	Title
+103	Common - ActorLvBreakCompent	txcuvopdvmyct25a-n15_dphp	desc	Self-financed
+104	Common - ActorSelectItem	txcuvopdq41hga-n111_qz6z	title	Abraham
+105	Common - ActorSelectItem	txcuvopdq41hga-n131_r5sp	skillExp	Abraham
+106	Common - AssetItem	txcuvopddtlg2n-n6_dm31	title	99,999K
+107	Common - AssetItem_little	txcuvopdmdyxt22y-n6_dm31	title	99,999K/99,999K
+108	Common - AssetItemBig	txcuvopdu21kas-n4_cpc9	Title	1,485.2K
+109	Common - BtnConfirm	txcuvopdrlklt24u-n4_cpc9	Title	Confirm
+110	Common - BtnGreen	txcuvopdrlklt253-n4_cpc9	Title	Go
+111	Common - ButtonBlueSmall	txcuvopdx9zq4k-n2_x9zq	title	UPGRADE
+112	Building - BuildRoomUpgrade	d062jvkg8zgr3o-n28_w5tk	txt_companyLevel	Unlock when company reaches Lv.10
+113	Common - ButtonCost	txcuvopdw1srd0-n6_k1jx	title	Train
+114	Common - ButtonCostPurple	txcuvopdq41hg7-n6_pspr	title	Title
+115	Common - ButtonCostYellow	txcuvopdq41hg8-n6_pspr	title	Title
+116	Common - ButtonDoubleLabel	txcuvopdw1srd3-n6_k1jx	title	Train
+117	Common - ButtonTipBlue	txcuvopdx9zq4s-n1_fawn	text	Text
+118	Common - ButtonTipYellow	txcuvopdfawn4u-n2_fawn	title	Title
+119	Building - BuildRoom	d062jvkgor9t1-n33_xw64	buildFloorInfo	Unlock when company reaches Lv.99
+120	Common - ButtonYellowIconBig	txcuvopdrrsjaa-n2_x9zq	title	Bonus
+121	Common - CommonAssetItem	txcuvopdib9zb5-n19_mk9y	num	99,999K
+122	Common - CommonButton	txcuvopdoapb9z-n1_hz3m	title	Title
+123	Building - btn_confirm	d062jvkguju9e14g-n4_cpc9	Title	
+124	Common - CommonItem	txcuvopdcwjyav-n9_tpm8	title	[color=#e3b121]145145[/color]/145
+125	Common - CommonItem_70	txcuvopdui5jt23o-n9_tpm8	title	[color=#e3b121]145145[/color]/145
+126	Common - FunctionItem	txcuvopdcwjyax-n2_hh76	title	Title
+127	Common - GetWayAlert	txcuvopde57g2b-n12_o11z	lbl	You Can Gain This By:
+128	Common - GetWayAlert	txcuvopde57g2b-n9_cpc9	descTxt	Chance of gain this by
+129	Common - GetWayAlert	txcuvopde57g2b-n19_o11z	needText	Need:
+130	Common - GetWayAlert	txcuvopde57g2b-n24_f7zd	assetNum	105K
+131	Building - btn_levelup	d062jvkguju9e14h-n4_cpc9	Title	
+132	Common - GetWayItem	txcuvopde57g2e-n23_o11z	title	Movie
+133	Common - ItemInfo	txcuvopddo33t235-n6_h9c1	name	Medals
+134	Common - ItemInfo	txcuvopddo33t235-n8_h9c1	num	Have:9999
+135	Common - ItemInfo	txcuvopddo33t235-n12_h9c1	desc	It's going to be on for another 9 days.
+136	Common - ItemInfo	txcuvopddo33t235-n13_h9c1	way	It‘s going to be on for another 9 days.It‘s going to be on for another 9 days.It‘s going to be on for another 9 days.
+137	Common - ItemInfo	txcuvopddo33t235-n15_k38j	btnInfo	Actor Info
+138	Common - ItemLockTip	txcuvopdcp1ct24f-n6_h9c1	name	Contacted several script writers
+139	Common - ItemLockTip	txcuvopdcp1ct24f-n12_h9c1	desc	Contacted several script writers
+140	Common - MovieInfoItem	txcuvopdcvs8d0-n62_jakw	boxOffice	60M
+141	Common - OscarDanmuContent	txcuvopdenjffr-n59_ifoc	title	Title
+142	Common - PlayerMovieInfo	txcuvopdcvs8cq-n69_jakw	n69	Hit
+143	Building - btn_confirm	d062jvkgcpc911e-n4_cpc9	Title	OK
+144	Common - PlayerMovieInfo	txcuvopdq41hg5-n69_jakw	n69	Hit
+145	Common - ProgressBarBlue	txcuvopdfawn4y-n2_fawn	title	Title
+146	Common - ProgressBarRed	txcuvopdfawn4v-n2_fawn	title	Title
+147	Common - ProgressBarYellow	txcuvopddm31t22b-n2_fawn	title	Title
+148	Common - ProperText	txcuvopdcvs8d8-n58_cvs8	title	Game level:
+149	Common - RankMovieInfoPanel	txcuvopdcvs8cs-n14_r8ay	name	Crazy Stone
+150	Building - btn_levelup	d062jvkgcpc911d-n4_cpc9	Title	UPGRADE
+151	Common - RankMovieInfoPanel	txcuvopdcvs8cs-n67_l814	n67	Media Ratings:
+152	Common - RankMovieInfoPanel	txcuvopdcvs8cs-n69_l814	n69	Audience Review:
+153	Common - RankMovieInfoPanel	txcuvopdcvs8cs-n74_l814	n74	CAST:
+154	Common - RankMovieInfoPanel	txcuvopdcvs8cs-n84_l814	n84	Tap anywhere to continue
+155	Common - RankMovieInfoPanel	txcuvopdcvs8cs-n91_cvs8	Title	Information
+156	Common - RankMovieInfoPanel	txcuvopdcvs8cs-n96_cvs8	boxOffice	99.99M
+157	Common - RankPlayerInfo	txcuvopdcvs8ck-n24_jakw	name	Abdon
+158	Common - RankPlayerInfo	txcuvopdcvs8ck-n25_jakw	lv	Lv.500
+159	Common - RankPlayerInfo	txcuvopdcvs8ck-n26_jakw	n26	Company:
+160	Common - ActorLvBreaktUI	txcuvopdlvexed-n15_dphp	desc	Self-financed
+161	Common - RankPlayerInfo	txcuvopdcvs8ck-n28_jakw	union	Company
+162	Common - RankPlayerInfo	txcuvopdcvs8ck-n58_cvs8	street	Game Level:
+163	Common - RankPlayerInfo	txcuvopdcvs8ck-n62_cvs8	actor	Actor Amount:
+164	Common - RankPlayerInfo	txcuvopdcvs8ck-n63_cvs8	build	Construction layer:
+165	Building - NextLevelProp	d062jvkgcpc911c-n17_cpc9	title	Next grade effect
+166	Common - RankPlayerInfo	txcuvopdcvs8ck-n64_cvs8	market	Market covered:
+167	Common - RankPlayerInfo	txcuvopdcvs8ck-n66_cvs8	signature	This person didn't leave a messege, just like a closed book~
+168	Common - ItemInfo	txcuvopdth3bt236-n6_h9c1	name	Medals
+169	Common - RankPlayerInfo	txcuvopdq41hg6-n24_jakw	name	Abdon
+170	Common - RankPlayerInfo	txcuvopdq41hg6-n25_jakw	lv	Lv.500
+171	Common - ItemInfo	txcuvopdth3bt236-n8_h9c1	num	Have:9999
+172	Common - RankPlayerInfo	txcuvopdq41hg6-n26_jakw	n26	Company:
+173	Common - RankPlayerInfo	txcuvopdq41hg6-n28_jakw	union	Company
+174	Common - ItemInfo	txcuvopdth3bt236-n12_h9c1	desc	It's going to be on for another 9 days.
+175	Common - RankPlayerInfo	txcuvopdq41hg6-n58_cvs8	street	Rank:
+176	Common - RankPlayerInfo	txcuvopdq41hg6-n62_cvs8	actor	Actors:
+177	Common - ItemInfo	txcuvopdth3bt236-n13_h9c1	way	It‘s going to be on for another 9 days.It‘s going to be on for another 9 days.It‘s going to be on for another 9 days.
+178	Common - RankPlayerInfo	txcuvopdq41hg6-n63_cvs8	build	Building Storey:
+179	Common - ItemInfo	txcuvopdth3bt236-n15_k38j	btnInfo	Actor Info
+180	Common - RankPlayerInfo	txcuvopdq41hg6-n64_cvs8	market	Market Covered:
+181	Common - RankPlayerInfoPanel	txcuvopdcvs8cj-n21_jakw	title	Information
+182	Common - RankRenamePanel	txcuvopdcvs8cl-n59_o11z	titleName	Rename
+183	Common - RankRenamePanel	txcuvopdcvs8cl-n63_o11z	btn_rename	RENAME
+184	Common - RankRenamePanel	txcuvopdcvs8cl-n65_o11z-prompt	inputName	Enter content here
+185	Common - RankRenamePanel	txcuvopdcvs8cl-n69_8p71	txtContent	Choose an unique name for it! Note that you can only rename once a week
+186	Common - SkillEffectCompent	txcuvopdvmyct259-n15_dphp	desc	[color=#ff8c00]Self-financed[/color]
+187	Common - SkillEffectCompent	txcuvopdvmyct259-n16_dphp	title	Money Attractor
+188	Common - Slider	txcuvopdnsfy29-n16_kxf1	title	Title
+189	Common - StoryItem	txcuvopdcwjyay-n81_cwjy	title	Script Name
+190	Common - StreetLevelUp	txcuvopdcke2gb-n9_mk9y	lastStreet	Block Rank 1
+191	Common - StreetLevelUp	txcuvopdcke2gb-n10_mk9y	currentStreet	Block Rank 10
+192	Building - roomInfoItem	d062jvkgcpc911i-n7_cpc9	room_level	Buildable: 1/5
+193	Common - StreetLevelUp	txcuvopdcke2gb-n20_fv9e	btnGetAward	OK
+194	Common - StreetLevelUp	txcuvopdcke2gb-n32_h67b	n32	Upgraded and Rewarded
+195	Common - StreetLevelUpItem	txcuvopdl40ut23c-n31_h67b	name	Block
+196	Common - SystemAddFansMessage	txcuvopdfbam2m-n3_fbam	title	Benefiting from advertising
+197	Common - SystemAddFansMessage	txcuvopdfbam2m-n4_fbam	content	Fans +500
+198	Common - SystemAlertGift	txcuvopdcwjyau-n4_hh76	title	Secretary Gift
+199	Common - SystemAlertGift	txcuvopdcwjyau-n5_hh76	des	Unlock after hiring a secretary
+200	Common - SystemAlertTextIconMessage	txcuvopdib9zb4-n2_ib9z	content	Content
+201	Common - SystemGetItemMessage	txcuvopdmu1z2b-n6_mu1z	n6	Tap anywhere to continue
+202	Common - SystemGoOtherFunction	txcuvopdcwjyaw-n4_hh76	title	Secretary Gift
+203	Common - SystemGoOtherFunction	txcuvopdcwjyaw-n5_hh76	des	Unlock after hiring a secretary
+204	Common - SystemSetNumMessage	txcuvopdnsfy23-n83_osuf	content	Select Amount
+205	Common - SystemSetNumMessage	txcuvopdnsfy23-n85_qw0i	title	Select Amount
+206	Common - SystemSetNumMessage	txcuvopdnsfy23-n86_qw0i	okBtn	OK
+207	Common - AssetItem	txcuvopddtlg2n-n4_cpc9	Title	2144k
+208	Common - TalkBox1	txcuvopdbdbft23c-n8_e65f	title	Title
+209	Common - Text22px	txcuvopdx9zq45-n0_x9zq	text	Text
+210	Common - TextInput	txcuvopdenjffm-n1-prompt	title	Enter content here
+211	Common - TopAssetItem	txcuvopdfv9ead-n26_dyfe	title	1455K
+212	Cooperation - CooperationAchieved	k9ycebr5w3bv1-n9_w3bv	remind	Tap anywhere to continue
+213	Cooperation - CooperationAchieved	k9ycebr5w3bv1-n5_w3bv	name1	Name
+214	Cooperation - CooperationAchieved	k9ycebr5w3bv1-n6_w3bv	name2	Name
+215	Common - BtnConfirm	txcuvopdsc1s30-n4_cpc9	Title	OK
+216	Cooperation - CooperationAchieved	k9ycebr5w3bv1-n7_w3bv	level1	Lv.1
+217	Cooperation - CooperationAchieved	k9ycebr5w3bv1-n8_w3bv	level2	Lv.1
+218	Cooperation - CooperationApply	k9ycebr5w3bv3-n7_w3bv	name	Abdon
+219	Cooperation - CooperationApply	k9ycebr5w3bv3-n8_w3bv	msg	Content
+220	Cooperation - CooperationApply	k9ycebr5w3bv3-n9_w3bv	remind	You can only cooperate with at most 3 different companies in a week
+221	Cooperation - CooperationApply	k9ycebr5w3bv3-n10_w3bv	title	Cooperation
+222	Common - BtnGreen	txcuvopdj3a33m-n4_cpc9	Title	GO
+223	Cooperation - CooperationEnd	k9ycebr5w3bv2-n3_w3bv	text1	Whether
+224	Cooperation - CooperationEnd	k9ycebr5w3bv2-n4_w3bv	text2	You can only cooperate with at most 3 different companies in a week
+225	Cooperation - CooperationEnd	k9ycebr5w3bv2-n6_w3bv	title	Hint
+226	Cooperation - CooperationMainPanel	k9ycebr5w3bv0-n3_w3bv	title	Cooperation
+227	Cooperation - CooperationMainPanel	k9ycebr5w3bv0-n9_w3bv	text1	Initial cooperation is available
+228	Cooperation - CooperationMainPanel	k9ycebr5w3bv0-n10_w3bv	text2	Cooperate with friends
+229	Common - BtnYellow	txcuvopdj3a33l-n4_cpc9	title	OK
+230	Cooperation - CooperationMainPanel	k9ycebr5w3bv0-n11_w3bv	selfId	My ID:123456789
+231	Cooperation - CooperationMainPanel	k9ycebr5w3bv0-n12_w3bv	remind	Reward
+232	Cooperation - CooperationMainPanel	k9ycebr5w3bv0-n13_w3bv	intro	Enter Account
+233	Cooperation - CooperationMainPanel	k9ycebr5w3bv0-n14_w3bv	inviteBtn1	INVITE
+234	Cooperation - CooperationMainPanel	k9ycebr5w3bv0-n18_w3bv	text3	Search for Cooperator
+235	Cooperation - CooperationMainPanel	k9ycebr5w3bv0-n25_w3bv-prompt	otherID	Enter ID
+236	Cooperation - CooperationMainPanel	k9ycebr5w3bv0-n42_g8fc	introduce	If
+237	Cooperation - CooperationRealtionship	k9ycebr5w3bv4-n8_w3bv	title	Cooperation
+238	Cooperation - CooperationRealtionship	k9ycebr5w3bv4-n15_w3bv	name1	Name
+239	Cooperation - CooperationRealtionship	k9ycebr5w3bv4-n16_w3bv	name2	Name
+240	Cooperation - CooperationRealtionship	k9ycebr5w3bv4-n17_w3bv	level1	Lv.1
+241	Cooperation - CooperationRealtionship	k9ycebr5w3bv4-n18_w3bv	level2	Lv.1
+242	Cooperation - CooperationRealtionship	k9ycebr5w3bv4-n20_w3bv	des	Finish all task and get rewards!
+243	Cooperation - CooperationRewardItem	k9ycebr5w3bv5-n3_w3bv	des	Description
+244	Common - ItemCellView	txcuvopdjdsf11-n60_jdsf	title	100
+245	Cooperation - CooperationRewardItem	k9ycebr5w3bv5-n4_w3bv	receiveBtn	OK
+246	Cooperation - CooperationRewardItem	k9ycebr5w3bv5-n16_w3bv	assitingText	Tip
+247	Fx - btn_next	9l36y1kiuowdsu-n1_cpc9	title	NEXT
+248	GM - ButtonCorner	ujw583ypfv0td-n4	title	Title
+249	GM - ButtonNoBG	ujw583ypcrnyi-n4	title	Title
+250	GM - ButtonRect	ujw583ypc3i0h-n4	title	Title
+251	GM - Checkbox	ujw583ypnb4ea-n4	title	Text
+252	GM - GMAddItem	ujw583ypfv0tc-n3_fv0t	button	ADD
+253	GM - GMAddItem	ujw583ypfv0tc-n1_fv0t	title	Name
+254	GM - GMAddItem	ujw583ypfv0tc-n2_fv0t	describe	Description
+255	Cooperation - cooperationForMainUI	k9ycebr5g8fc29-n2_g8fc	iconBtn1	Quest
+256	Cooperation - cooperationForMainUI	k9ycebr5g8fc29-n10_g8fc	iconBtn2	Order
+257	GM - GMAddPage	ujw583ypfbyi9-n5_fbyi	popupButton	Pop-up
+258	Cooperation - cooperationForMainUI	k9ycebr5g8fc29-n11_g8fc	iconBtn3	MovieCash
+259	GM - GMAddPage	ujw583ypfbyi9-n8_fv0t	filterCheckbox	Enable Filter
+260	Building - BuildRoomUpgradeSuccess	d062jvkgcpc911n-n6_cpc9	roomName	Cinema upgraded!
+261	GM - GMAddPage	ujw583ypfbyi9-n12_c3i0	listTopButton	TOP
+262	Cooperation - cooperationForMainUI	k9ycebr5g8fc29-n12_g8fc	iconBtn4	Coins
+263	GM - GMAddPage	ujw583ypfbyi9-n13_c3i0	listBottomButton	BOTTOM
+264	GM - GMCmdItem	ujw583ypket7n-n3_fv0t	button	OK
+265	GM - GMCmdItem	ujw583ypket7n-n11_ket7	name	Command
+266	GM - GMCmdPage	ujw583ypket7k-n13_ket7-0	list	add item 1 100
+267	GM - GMCmdPage	ujw583ypket7k-n13_ket7-1	list	add item 1 100
+268	GM - GMCmdPage	ujw583ypket7k-n13_ket7-2	list	add item 1 100
+269	GM - GMCmdPage	ujw583ypket7k-n16_ket7	sendButton	SEND
+270	GM - GMCmdPage	ujw583ypket7k-n18_ket7	clearButton	CLEAR
+271	GM - GMDebugPage	ujw583ypfbyi8-n10_sy3r-0	list	Add item 1 100
+272	GM - GMDebugPage	ujw583ypfbyi8-n10_sy3r-1	list	Add item 1 100
+273	GM - GMDebugPage	ujw583ypfbyi8-n10_sy3r-2	list	Add item 1 100
+274	Common - ProgressBarYellow	txcuvopdfawn4x-n2_fawn	value	TEXT
+275	GM - GMDebugPage	ujw583ypfbyi8-n11_sy3r	clearButton	CLEAR
+276	GM - GMDebugPage	ujw583ypfbyi8-n12_sy3r	refreshButton	REFRESH
+277	GM - GMDisplayTreePage	ujw583ypx6hov-n12_sy3r	refreshButton	REFRESH
+278	GM - GMDisplayTreePage	ujw583ypx6hov-n15_x6ho	showSelectButton	SHOW
+279	GM - GMDisplayTreePage	ujw583ypx6hov-n16_x6ho	hideSelectButton	HIDE
+280	GM - GMDisplayTreePage	ujw583ypx6hov-n17_x6ho	noSelectButton	NOT SELECTED
+281	GM - GMDisplayTreePage	ujw583ypx6hov-n18_x6ho	parentLayerButton	BACK
+282	Common - ProgressBarMain	txcuvopdhh7651-n2_fawn	value	Title
+283	GM - GMDisplayTreePage	ujw583ypx6hov-n19_x6ho	setLayerButton	COLLAPSE
+284	GM - GMMain	ujw583yp9nrl0-n6_c3i0	closeButton	CLOSE
+285	GM - GMMenuBar	ujw583ypwl2t1-n11_nb4e-0	menuList	Add
+286	GM - GMMenuBar	ujw583ypwl2t1-n11_nb4e-1	menuList	Command
+287	Cooperation - iconBtn	k9ycebr5g8fc2a-n7_g8fc	title	Awards
+288	GM - GMMenuBar	ujw583ypwl2t1-n11_nb4e-2	menuList	Select Sever
+289	GM - GMMenuBar	ujw583ypwl2t1-n11_nb4e-3	menuList	Module
+290	GM - GMMenuBar	ujw583ypwl2t1-n11_nb4e-4	menuList	Log
+291	GM - GMMenuButton	ujw583ypwl2t2-n4	title	Title
+292	Common - Slider	txcuvopdnsfy29-n9_nsfy	n5	
+293	GM - GMPopupButton	ujw583ypm23g5-n4	title	Title
+294	GM - GMPopupMenu	ujw583ypm23g4-n2-0	list	Currency
+295	GM - GMPopupMenu	ujw583ypm23g4-n2-1	list	Item
+296	GM - GMPopupMenu	ujw583ypm23g4-n2-2	list	Actor
+297	GM - GMPopupMenu	ujw583ypm23g4-n2-3	list	Script
+298	GM - GMPopupMenu_item	ujw583ypm23g3-n3	title	Item
+299	GM - GMSelectServerPage	ujw583ypket7j-n2-0	list	Offical Website
+300	GM - GMSelectServerPage	ujw583ypket7j-n2-1	list	Item
+301	GM - GMSelectServerPage	ujw583ypket7j-n2-2	list	Actor
+302	GM - GMSelectServerPage	ujw583ypket7j-n2-3	list	Script
+303	GM - GMSubMenuBar	ujw583ypfbyi6-n12_nb4e-0	subMenu	Log
+304	GM - GMSubMenuBar	ujw583ypfbyi6-n12_nb4e-1	subMenu	Error
+305	GM - GMSubMenuBar	ujw583ypfbyi6-n12_nb4e-2	subMenu	Warm
+306	Common - SkillEffectUI	txcuvopdi2p1ap-n15_dphp	desc	[color=#ff8c00]Self-financed[/color]
+307	GM - GMSubMenuButton	ujw583ypfbyi7-n4	title	Title
+308	GM - GMSubMenuRadioBar	ujw583ypket7l-n12_nb4e-0	subMenu	Log
+309	GM - GMSubMenuRadioBar	ujw583ypket7l-n12_nb4e-1	subMenu	Error
+310	Common - SystemAddFansMessage	txcuvopdfbam2m-n10_fbam	n10	Tap anywhere to continue
+311	GM - GMSubMenuRadioBar	ujw583ypket7l-n12_nb4e-2	subMenu	Warm
+312	GM - GMTickPage	ujw583yp7h8s12-n13_ket7-0	list	addItem 1 100
+313	GM - GMTickPage	ujw583yp7h8s12-n13_ket7-1	list	addItem 1 100
+314	GM - GMTickPage	ujw583yp7h8s12-n13_ket7-2	list	addItem 1 100
+315	GM - GMTickPage	ujw583yp7h8s12-n16_ket7	refreshButton	Refresh
+316	GM - GMTickPage	ujw583yp7h8s12-n19_7h8s	clearButton	Clear
+317	Common - SkillEffectUI	txcuvopdi2p1ap-n16_dphp	title	Money Attractor
+318	GM - GMTickPage	ujw583yp7h8s12-n21_7h8s	sortCostTimeToalButton	Total Time Cost
+319	GM - GMTickPage	ujw583yp7h8s12-n23_7h8s	sorteEvaluateButton	Average Time Cost
+320	GM - GMTickPage	ujw583yp7h8s12-n24_7h8s	sorteCallNumButton	Call Times
+321	GM - GMTickPage	ujw583yp7h8s12-n25_7h8s	sorteCostTimeButton	Single Time Cost
+322	GM - GMTimeLoopItem	ujw583yp7h8s11-n3_x6ho	title	Item
+323	GM - GMTimeLoopPage	ujw583yp7h8s10-n13_ket7-0	list	addItem 1 100
+324	GM - GMTimeLoopPage	ujw583yp7h8s10-n13_ket7-1	list	addItem 1 100
+325	GM - GMTimeLoopPage	ujw583yp7h8s10-n13_ket7-2	list	addItem 1 100
+326	GM - GMTimeLoopPage	ujw583yp7h8s10-n16_ket7	refreshButton	Refresh
+327	GM - GMTimeLoopPage	ujw583yp7h8s10-n19_7h8s	clearButton	Clear
+328	Common - ButtonBlueBig	txcuvopdx9zq4n-n2_x9zq	text	TEXT
+329	GM - GMTimeLoopPage	ujw583yp7h8s10-n21_7h8s	sortCostTimeToalButton	Total Time Cost
+330	GM - GMTimeLoopPage	ujw583yp7h8s10-n23_7h8s	sorteEvaluateButton	Average Time Cost
+331	GM - GMTimeLoopPage	ujw583yp7h8s10-n24_7h8s	sorteCallNumButton	Call Times
+332	GM - GMTimeLoopPage	ujw583yp7h8s10-n25_7h8s	sorteCostTimeButton	Single Time Cost
+333	GM - NumberInput	ujw583ypfv0tf-n7_c3i0	downButton	◁
+334	GM - NumberInput	ujw583ypfv0tf-n8_c3i0	upButton	▷
+335	Fx - SkillEffectUI7777	9l36y1kiraagls-n15_dphp	desc	Self-financed
+336	Fx - SkillEffectUI7777	9l36y1kiraagls-n16_dphp	title	Money Attractor
+337	GM - NumberInput	ujw583ypfv0tf-n10_c3i0-prompt	title	Enter name or ID, separated by commas
+338	GM - TextArea	ujw583ypket7m-n7_nb4e-prompt	title	Enter command, you can enter multiple commands, one for each line
+339	GM - TextInput	ujw583ypfv0tb-n7_nb4e-prompt	title	Enter name or ID, separated by a comma or space. Id: will search for ID, type: will search for type
+340	GM - TextInputCenter	ujw583ypfv0tg-n7_nb4e-prompt	title	Enter name or ID, separated by commas
+341	GM - TreeItem	ujw583ypx6hot-n3_x6ho	title	Item
+342	GM - TreeItemOpenCheckbox	ujw583ypx6how-n10_x6ho	open	▼
+343	GoldExchange - GoldExchangePanel	4kwtb00phqf41-n11_hqf4	remain	Remaining times: 0
+344	Guide - GuideDialogMsgPanel	toebkrsr9wvb1o-n9_hz3m	title	Title
+345	Guide - GuideLeftDialog	toebkrsrgn0t1b-n2_gn0t	name	Timmy Dempsey
+346	Guide - GuideNpcIntroductionUI	toebkrsrs9dx1f-n75_fcz7	name	Actor Intro
+347	Guide - GuideNpcIntroductionUI	toebkrsrs9dx1f-n83_fcz7	n83	Tap anywhere to continue
+348	Common - SystemMovieInfoPanel	txcuvopdx9zq4c-n8_kk9x	name	Tycoon and Mermaid 3
+349	Guide - GuideRightDialog	toebkrsrgn0t1c-n2_gn0t	name	Timmy Dempsey
+350	Guide - GuideTalkItem	toebkrsr9q7z1j-n19_r1go	testlabel	Label
+351	Guide - GuideTaskItem	toebkrsrhz3m16-n17_hz3m	title	Unlock 40 scripts(20/40)
+352	Guide - GuideTaskRecordUI	toebkrsrhz3m15-n5_hz3m	title	Log
+353	Guide - GuideTaskUI	toebkrsrhz3mz-n5_hz3m	title	Filming
+354	Guide - GuideTaskUI	toebkrsrhz3mz-n14_hz3m	desc	You finished filming your very first movie! It's worth celebrating!
+355	Guide - RecordBtn	toebkrsr7vaw1k-n1_z7vk	title	Log
+356	Guide - Text	toebkrsrfcz71r-n0_k1jx	title	Dragon Born
+357	Guide - WarNewspaperHeadlines	toebkrsr7vaw1l-n2_pvrg	title	Title
+358	Guide - WarNewspaperHeadlines	toebkrsr7vaw1l-n14_vysd	title2	Title
+359	Common - SystemMovieInfoPanel	txcuvopdx9zq4c-n9_kk9x	time	143min
+360	LevelPackage - CupGiftMain	7w6h9vntmpdx1-n3_or4b	okBtn	Claim
+361	LevelPackage - CupGiftMain	7w6h9vntmpdx1-n4_or4b	titleName	Title
+362	LevelPackage - CupGiftMain	7w6h9vntmpdx1-n7_tnm8	nextTip	Tip
+363	LevelPackage - LevelPackageMain	7w6h9vntor4b0-n3_or4b	okBtn	Claim
+364	LevelPackage - LevelPackageMain	7w6h9vntor4b0-n4_or4b	titleName	Title
+365	LevelPackage - LevelPackageMain	7w6h9vntor4b0-n7_tnm8	nextTip	Tip
+366	Common - RankMovieInfoPanel	txcuvopdcvs8cs-n63_l814	time	129min
+367	Login - AccountComboBoxItem	7znsj5i6dl322b-n0_mw5e	title	Title
+368	Login - accountInput	7znsj5i6cpc91k-n20_eikn-prompt	txt_account	User Name
+369	Login - Agreement	7znsj5i6cpc91p-n45_r8v7	text	Agreement
+370	Login - btn_accoutsec	7znsj5i6eikno-n5_eikn	n5	Account Security
+371	Login - btn_forgot	7znsj5i6eiknn-n5_eikn	Title	Forgot Password
+372	Login - btn_guest	7znsj5i6eiknk-n5_dyfe	n5	GUEST
+373	Login - btn_guestlogin	7znsj5i68zgr1i-n5_dyfe	n5	LOGIN
+374	Login - btn_linkaccount	7znsj5i68zgr1j-n5_dyfe	n5	LINK
+375	Login - btn_login	7znsj5i6eikni-n5_dyfe	n5	LOGIN
+376	Login - btn_next	7znsj5i6cpc91y-n1_cpc9	title	Title
+377	Login - btn_onRegister	7znsj5i68zgr1e-n5_dyfe	n5	REGISTER
+378	Common - SystemMovieInfoPanel	txcuvopdx9zq4c-n10_kk9x	n10	Media Evalution
+379	Login - btn_register	7znsj5i6eiknj-n5_dyfe	n5	REGISTER
+380	Login - btn_userAgreement	7znsj5i68zgr1f-n5_k88i	title	Register means you agree with [color=#A64F1B]User Agreement[/color]
+381	Login - CreatRole	7znsj5i6cpc91r-n25_oh1c-0	sex	Male
+382	Login - CreatRole	7znsj5i6cpc91r-n25_oh1c-1	sex	Female
+383	Login - CreatRole	7znsj5i6cpc91r-n4_cpc9	title_sex	Select Actor
+384	Login - CreatRole	7znsj5i6cpc91r-n17_w5tk-tips	nameInput	Enter Name
+385	Login - CreatRole	7znsj5i6cpc91r-n8_cpc9	btn_next	NEXT
+386	Login - CreatRole	7znsj5i6cpc91r-n18_w5tk	sexTip	Select Gender
+387	Login - InitialActor	7znsj5i6oh1c2z-n6_oh1c	btn_next	NEXT
+388	Common - SystemMovieInfoPanel	txcuvopdx9zq4c-n11_kk9x	n11	Audience Evalution
+389	Login - InitialActor	7znsj5i6oh1c2z-n9_dk94	des	Please Select Your First Actor
+390	Login - LoginGuest	7znsj5i6w5tk27-n58_w5tk	n58	Dear player, guest mode will not guarantee data security! Deleting the game or change device may cause data lost!|n|For the safety of your valuable account,we suggest you &nbsp; [color=#FF0000]LINK ACCOUNT[/color] &nbsp; to play the game.
+391	Login - nameInput	7znsj5i6w5tk26-n20_eikn-prompt	txt_account	Account
+392	Login - passwordInput	7znsj5i6cpc91l-n21_eikn-prompt	txt_password	Password
+393	Login - PopupMenu	7znsj5i6l8d850-n2-0	list	Currency
+394	Login - PopupMenu_item	7znsj5i6l8d851-n3	title	Title
+395	Common - RankMovieInfoPanel	txcuvopdcvs8cs-n92_cvs8	filmtype2	Fantasy/Motion
+396	Login - TestStatics	7znsj5i6j20d5e-n60_ht8h	test_Registation	Register
+397	Login - TestStatics	7znsj5i6j20d5e-n61_ht8h	test_Login	Login
+398	Login - TestStatics	7znsj5i6j20d5e-n62_ht8h	test_Level	Upgrade
+399	Login - TestStatics	7znsj5i6j20d5e-n63_ht8h	test_Guide	Complete Guide
+400	Login - TestStatics	7znsj5i6j20d5e-n64_ht8h	test_Purchase	Top-up
+401	Login - Version	7znsj5i6cpc91q-n43_8zgr	txt_resVer	ResVersion:11293239.12312.123
+402	Login - Version	7znsj5i6cpc91q-n44_8zgr	txt_gamever	GameVersion:1.0.18
+403	MainUI - cooperationForMainUI	7ecreso0g8fc29-n2_g8fc	iconBtn1	Mission
+404	MainUI - cooperationForMainUI	7ecreso0g8fc29-n10_g8fc	iconBtn2	Order
+405	MainUI - cooperationForMainUI	7ecreso0g8fc29-n11_g8fc	iconBtn3	MovieDollars
+406	Common - RankMovieInfoPanel	txcuvopdcvs8cs-n99_cvs8	filmType	Crazy
+407	MainUI - cooperationForMainUI	7ecreso0g8fc29-n12_g8fc	iconBtn4	Coins
+408	MainUI - GuideFinishItem	7ecreso0gn0tx56-n4_gn0t	title	Title
+409	MainUI - GuideMainDialog	7ecreso0gn0tx53-n7_hz3m	title	Title
+410	MainUI - GuideTaskDialog	7ecreso0gn0tx4z-n18_t6vt	roleGetReward	Reward
+411	MainUI - iconBtn	7ecreso0g8fc2a-n7_g8fc	title	Awards
+412	MainUI - MenuBButton	7ecreso0rbh3x4a-n4_npx5	title	Operate
+413	Common - SystemMovieInfoPanel	txcuvopdx9zq4c-n18_kk9x	story	Cast:
+414	MainUI - MenuBMainButton	7ecreso0ua2b2q-n4_npx5	title	Film
+415	MainUI - MenuRButton	7ecreso0ua2b2w-n4_npx5	title	Settings
+416	MainUI - MenuSubButton	7ecreso0m6h3x4g-n4_npx5	title	Settings
+417	MainUI - SubmenuManager	7ecreso0x9zqx4s-n53_m6h3	btn_1	THEATER
+418	MainUI - SubmenuManager	7ecreso0x9zqx4s-n54_m6h3	btn_2	SCRIPT
+419	MainUI - SubmenuManager	7ecreso0x9zqx4s-n55_m6h3	btn_3	SCRIPTWRITER
+420	MainUI - SubmenuManager	7ecreso0x9zqx4s-n56_m6h3	btn_4	Actorbase
+421	Common - TextInput	txcuvopdenjffm-n1	title	Enter content here
+422	MainUI - SubmenuManager	7ecreso0x9zqx4s-n57_m6h3	btn_5	TREASURE
+423	MainUI - SubmenuRun	7ecreso0x9zqx4t-n53_m6h3	btn_1	ORDER
+424	MainUI - SubmenuRun	7ecreso0x9zqx4t-n54_m6h3	btn_2	PRODUCE
+425	MainUI - SubmenuRun	7ecreso0x9zqx4t-n55_m6h3	btn_3	BUSINESS
+426	Common - YellowBtn	txcuvopdnsfy25-n6_k1jx	title	Upgrade
+427	MainUI - SubmenuRun	7ecreso0x9zqx4t-n56_m6h3	btn_4	FANS VISIT
+428	MainUI - SubmenuRun	7ecreso0x9zqx4t-n57_m6h3	btn_5	MEETING
+429	MainUI - SubmenuRun	7ecreso0x9zqx4t-n59_m6h3	btn_5	STOCK
+430	GM - TreeItemOpenCheckbox	ujw583ypx6how-n9_x6ho	close	▶
+431	MainUI - SubmenuSocial	7ecreso0x9zqx4u-n53_m6h3	btn_1	GROUP
+432	MainUI - SubmenuSocial	7ecreso0x9zqx4u-n54_m6h3	btn_2	LEADER
+433	MainUI - SubmenuSocial	7ecreso0x9zqx4u-n55_m6h3	btn_3	COOPERATE
+434	MainUI - TaskDialogMsgPanel	7ecreso0olpux5f-n16_olpu	title	Title
+435	MainUI - TimeMenuButton	7ecreso0m6h3x4j-n11_m6h3	title	Awards
+436	MainUI - TimeMenuGoalButton	7ecreso0uayyx5p-n11_m6h3	title	Award
+437	MainUI - TimeMenuGoalButton	7ecreso0uayyx5p-n15_uayy	goal	Awards
+438	Common - SystemMovieInfoPanel	txcuvopdx9zq4c-n20_kk9x	n20	Cast:
+439	MainUI - TopHeadInfo	7ecreso0f2qvx3r-n30_8zgr	vip	VIP 1
+440	MainUI - TopHeadInfo	7ecreso0f2qvx3r-n27_8zgr	level	Lv.999
+441	MainUI - TopMoneyItem	7ecreso0rbh3x48-n53_8zgr	title	99,999K
+442	MainUI - TopMoneyMainBar	7ecreso0f2qvx3s-n64_rbh3	gold	99,999K
+443	MainUI - TopMoneyMainBar	7ecreso0f2qvx3s-n52_8zgr	diamond	99,999K
+444	MainUI - TopServer	7ecreso0rbh3x47-n28_rbh3	serverName	David
+445	MainUI - TopServer	7ecreso0rbh3x47-n30_rbh3	serverRank	No.105
+446	MainUI - TopStreet	7ecreso0rbh3x46-n21_rbh3	streetId	Rank.44
+447	Common - ButtonPurpleBig	txcuvopdx9zq4m-n2_x9zq	text	TEXT
+448	MainUI - TopStreet	7ecreso0rbh3x46-n22_rbh3	roleName	Season
+449	MainUI - TopStreet	7ecreso0rbh3x46-n24_rbh3	streetRank	No.105
+450	MainUI - VisitMainTopUI	7ecreso0tpm8x5e-n8_h5zr	title	Fan expects to see
+451	MainUI - VisitMainTopUI	7ecreso0tpm8x5e-n9_h5zr	name	Fan expects to see
+452	MainUI - VisitMainTopUI	7ecreso0tpm8x5e-n11_h5zr	checklabel	Auto-receive
+453	Manage - BusinessLoadingPanel	y3jchkngtpm80-n146_jzhf	title	Loading…
+454	Manage - BusinessMsgPanel	y3jchkngtpm81-n161_tpm8	company	Company
+455	Manage - BusinessMsgPanel	y3jchkngtpm81-n162_tpm8	content	Content
+456	Manage - BusinessMsgPanel	y3jchkngtpm81-n164_tpm8	get	Rewards:
+457	Common - CommonItem_70	txcuvopdfx2gt23m-n9_tpm8	title	
+458	Manage - BusinessUI	y3jchkngtpm82-n151_tpm8	name	Abdom
+459	Manage - BusinessUI	y3jchkngtpm82-n152_tpm8	title	Abdom
+460	Manage - BusinessUI	y3jchkngtpm82-n132_jzhf	remain	Remaining
+461	Manage - BusinessUI	y3jchkngtpm82-n136_jzhf	tip	Requires [Block Rank 5]
+462	Manage - BusinessUI	y3jchkngtpm82-n135_jzhf	auto	Auto-approve
+463	MainUI - MainMenuBar	7ecreso0npx5x3n-n4_ua2b	btn_manager	Manage
+464	Manage - ManagerOrderNeedPanel	y3jchkngtpm8o-n106_lq44	title	Fulfilling fans' wish will make them supporting us more!
+465	MainUI - MainMenuBar	7ecreso0npx5x3n-n5_ua2b	btn_artist	Actor
+466	Manage - ManagerOrderNeedPanel	y3jchkngtpm8o-n107_lq44	orderLabel	Requirements:
+467	MainUI - MainMenuBar	7ecreso0npx5x3n-n7_ua2b	btn_market	Market
+468	Manage - ManagerOrderNeedPanel	y3jchkngtpm8o-n122_tpm8	completeLabel	Rewards:
+469	Manage - ManagerOrderUI	y3jchkngtpm8u-n117_lq44	noneOrder	No more order for now
+470	MainUI - MainMenuBar	7ecreso0npx5x3n-n8_ua2b	btn_social	Social
+471	Manage - ManagerOrderUI	y3jchkngtpm8u-n118_lq44	newOrderWay	You can gain new orders by filming movies and advertising
+472	MainUI - MainMenuBar	7ecreso0npx5x3n-n9_ua2b	btn_depot	Depot
+473	Manage - ManagerOrderUI	y3jchkngtpm8u-n70_lq44	sortOrder	Orders in Line
+474	Manage - ManagerOrderUI	y3jchkngtpm8u-n143_q3xd	cooperator	Cooperator
+475	Common - SystemMovieInfoPanel	txcuvopdx9zq4c-n23_kk9x	n23	Award won:
+476	Manage - ManagerOrderUI	y3jchkngtpm8u-n144_q3xd	cooperatorName	Cooperator
+477	Manage - MeetingAskPricePanel	y3jchkngtpm81l-n12_jzhf	tip	Raise Price
+478	Manage - MeetingAskPricePanel	y3jchkngtpm81l-n32_w1sr	title	In Meeting
+479	Manage - MeetingAskPricePanel	y3jchkngtpm81l-n39_msb4	remainTimesTitle	Remaining:
+480	MainUI - RightTopMenuBar	7ecreso0hltlx4b-n13_ua2b	setting	Play
+481	Manage - MeetingGamePanel	y3jchkngtpm821-n40_w1sr	title	In Meeting
+482	Manage - MeetingGamePanel	y3jchkngtpm821-n25_jzhf	other	Negotiator
+483	Common - SystemMovieInfoPanel	txcuvopdx9zq4c-n32_kk9x	n32	Tap anywhere to continue
+484	Manage - MeetingResultPanel	y3jchkngtpm823-n32_w1sr	title	In Meeting
+485	Manage - MeetingResultPanel	y3jchkngtpm823-n24_w1sr	paytitle	OK
+486	Manage - MettingStartPanel	y3jchkngtpm826-n7_jzhf	next	Fans Awaiting: 3/3
+487	Manage - VisitUI	y3jchkngtpm83-n5_h5zr	nextFans	Fans Awaiting:
+488	Market - ActorPropert	p7g5z54adm31dv-n3_hz8v	title	Title
+489	Market - BtnCity	p7g5z54adm31f1-n7_v8at	title	32.Beijing
+490	Market - BtnCity	p7g5z54adm31f1-n24_cp1c	n24	HQ
+491	Market - BtnCityPoint	p7g5z54adm31b7-n8_v8at	n8	(success)
+492	Market - BtnCityPoint	p7g5z54adm31b7-n12_qz6z	title	Title
+493	Market - btnRoadShow	p7g5z54adm319x-n45_hxi2	n45	Roadshow
+494	Market - btnRoadShow	p7g5z54adm319x-n57_hxi2	n57	(success)
+495	Market - btnRoadShow	p7g5z54adm319x-n69_j6cs	labCost	1,000K
+496	Market - ButtonPublicityCost	p7g5z54ahjkwfp-n2_x9zq	title	Advertising
+497	Market - CountryItem	p7g5z54adm31fc-n10_l30c	txtName	1. China
+498	Market - CountryItem	p7g5z54adm31fc-n19_dm31	txtProgress	Covered City: 30/40
+499	MainUI - GuideTaskDialog	7ecreso0gn0tx4z-n15_olpu	dialog	
+500	Market - MarketCityInfoPanel	p7g5z54adm319m-n43_hz8v	cityName	30. Kunming
+501	Market - MarketCityInfoPanel	p7g5z54adm319m-n117_cp1c	n117	HQ
+502	Market - MarketCityInfoPanel	p7g5z54adm319m-n97_dm31	n97	Market Earning:
+503	Market - MarketCityInfoPanel	p7g5z54adm319m-n75_bjuq-0	listAssetSpeed	99,999K/hr
+504	Market - MarketCityInfoPanel	p7g5z54adm319m-n75_bjuq-1	listAssetSpeed	99,999K/hr
+505	Common - ButtonPurpleSmall	txcuvopdx9zq4l-n2_x9zq	text	TEXT
+506	Market - MarketCityInfoPanel	p7g5z54adm319m-n108_g8nc	marquee	Although good movies sometimes don't sell, the higher the quality of the movie, the higher the box office burst when it suits the market
+507	Market - MarketCityInfoPanel	p7g5z54adm319m-n28_v8at	n28	Brand Ambassador:
+508	Market - MarketCityInfoPanel	p7g5z54adm319m-n98_dm31	n98	(Each ambassador has different requirements)
+509	Market - MarketCityInfoPanel	p7g5z54adm319m-n133_o7sj	n133	Rewards:
+510	Market - MarketCityInfoPanel	p7g5z54adm319m-n68_hz8v	btnGet	CLAIM
+511	Market - MarketCityInfoPanel	p7g5z54adm319m-n74_bjuq-0	listAsset	99,999K/99,999K
+512	Market - MarketCityInfoPanel	p7g5z54adm319m-n74_bjuq-1	listAsset	99,999K/99,999K
+513	Market - MarketCountryListPanel	p7g5z54adm319s-n13_l30c	btnShow	VIEW
+514	Market - MarketMainPanel	p7g5z54adm319t-n52_l30c	txtCountry	24. Australia 30/40
+515	Market - MarketOccupyPanel	p7g5z54adm319u-n42_hxi2	cityName	24. Kunming Market Share
+516	Market - MarketOccupyPanel	p7g5z54adm319u-n59_hxi2	btnZhanling	COVER
+517	MainUI - WarExpect	7ecreso0qz7hx4r-n8_zqet	tip1	Anonymous
+518	MainUI - WarExpect	7ecreso0qz7hx4r-n9_zqet	tip2	Movie Hype
+519	Market - MarketOccupyPanel	p7g5z54adm319u-n71_qz6z	labAniCost	1,000K
+520	Market - MarketOccupyPanel	p7g5z54adm319u-n80_dm31-tips	n80	Content
+521	MainUI - WarFilmSmalls	7ecreso0mjkfx3t-n11_b1h0	filmName	Film Name
+522	MainUI - WarFilmSmalls	7ecreso0mjkfx3t-n16_mdgc	dayLeft	999 days left
+523	Market - MarketOccupyPanel	p7g5z54adm319u-n80_dm31	n80	
+524	MainUI - WarFilmSmalls	7ecreso0mjkfx3t-n12_b1h0	total	5,354.5K
+525	Market - MarketOccupyPanel	p7g5z54adm319u-n79_dm31	n79	Reward:
+526	Market - MarketPublicityPanel	p7g5z54adm319z-n34_bjuq	name	31-2 Outdoor Concert
+527	Market - MarketPublicityPanel	p7g5z54adm319z-n104_xl2j	n104	Requirements
+528	Market - MarketPublicityPanel	p7g5z54adm319z-n39_bjuq	actorDemand	Perform
+529	Market - MarketPublicityPanel	p7g5z54adm319z-n105_xl2j	n105	Local Market Requirement:
+530	Market - MarketPublicityPanel	p7g5z54adm319z-n36_bjuq	demand	According to our survey
+531	Market - MarketPublicityPanel	p7g5z54adm319z-n103_xl2j	n103	Progress
+532	Market - MarketPublicityPanel	p7g5z54adm319z-n94_h3nq	btnPublicity	ADVERTISE
+533	Common - ButtonYellowBig	txcuvopdx9zq4r-n2_x9zq	text	LOGIN
+534	Market - MarketPublicityPanel	p7g5z54adm319z-n66_hxi2	auto	Auto-advertise
+535	Market - MarketPublicityPanel	p7g5z54adm319z-n67_hxi2	tip	Unlock after hiring a secretary
+536	Market - MarketRoadShowPanel	p7g5z54adm31a6-n2_l0d4	btnSkip	SKIP
+537	Market - MarketRoadShowPanel	p7g5z54adm31a6-n50_xl2j	n50	Requirement:
+538	Market - MarketSelectActorItem	p7g5z54adm31ed-n111_qz6z	title	Abraham
+539	Market - MarketSelectActorItem	p7g5z54adm31ed-n109_xl2j	labDemand1	Scene
+540	Market - MarketSelectActorItem	p7g5z54adm31ed-n110_xl2j	labDemand2	Scene
+541	Market - MarketSelectActorItem	p7g5z54adm31ed-n146_e65f	n146	Assigned
+542	Market - MarketSelectActorItem	p7g5z54adm31ed-n144_e65f	btnPromotion	UPGRADE
+543	Market - MarketSelectActorPanel	p7g5z54adm31af-n84_dm31	title	Select Ambassador
+544	Market - MarketSelectActorPanel	p7g5z54adm31af-n88_e65f	txtTip	Select an actor as brand ambassador
+545	Market - MarketSelectActorPanel	p7g5z54adm31af-n75_qz6z	txtTip2	Image No.1 ambassador requirements:|n|Nationality:CN
+546	Mission - MissionItem	33rn3ccxj3a35-n14_j3a3	name	Name
+547	Mission - MissionItem	33rn3ccxj3a35-n15_j3a3	stateText	Completeness: {value=100}
+548	Mission - MissionItem	33rn3ccxj3a35-n32_gnyv	state	{value=10000000}
+549	Mission - MissionItem	33rn3ccxj3a35-n24_x9zq	buttonGet	CLAIM
+550	Mission - MissionItem	33rn3ccxj3a35-n16_j3a3	buttonGo	GO
+551	Common - ButtonYellowSmall	txcuvopdx9zq4j-n2_x9zq	text	LOGIN
+552	Mission - MissionMainPanel	33rn3ccxj3a30-n5_11ftt	title	Tasks
+553	Mission - MissionMainPanel	33rn3ccxj3a30-n43_7wlg	tipMsg	zzz
+554	Notice - PublicNoticePanel	jh3pqd7de77b0-n5_l814	n5	Hide for today
+555	Notice - PublicNoticePanel	jh3pqd7de77b0-n21_e77b	n21	Notice
+556	OpenAnima - Anima1_2	oyge7e0tbochp-n11_lb82	dialog	Thanks
+557	OpenAnima - Anima2_3	oyge7e0tboch20-n2_n1j3	label1	I have faith in your new vision,
+558	OpenAnima - Anima2_3	oyge7e0tboch20-n3_n1j3	label2	I hope this helps!
+559	OpenAnima - Anima2_3	oyge7e0tboch20-n6_boch	label3	-A friend
+560	OpenAnima - Anima3_1	oyge7e0ts7oa2s-n16_kyri	dialog2	But I have decided to retire from acting and follow my other passions.
+561	MainUI - WarTipTopUI	7ecreso0sucvx5j-n8_h5zr	title	Title
+562	OpenAnima - Anima3_2	oyge7e0ts7oa2t-n1_lb82	dialog1	What??
+563	OpenAnima - Anima3_2	oyge7e0ts7oa2t-n2_lb82	dialog2	Why??
+564	OpenAnima - Anima3_2	oyge7e0ts7oa2t-n3_lb82	dialog3	OMG!
+565	OpenAnima - Anima3_2	oyge7e0ts7oa2t-n4_7cgi	dialog4	Really?
+566	OpenAnima - Anima4_1	oyge7e0tboch2c-n3_p1i8	dialog1	Assistant: I didn't think you would make the annoucement AT the Oskars!
+567	OpenAnima - Anima4_1	oyge7e0tboch2c-n4_p1i8	dialog2	I didn't either but it felt right. Everything is setup, right?
+568	OpenAnima - Anima4_1	oyge7e0tboch2c-n5_p1i8	dialog3	Assistant: Yup! Just waiting on you.
+569	OpenAnima - Anima4_1	oyge7e0tboch2c-n6_p1i8	dialog4	I'm ready. Let's start making some movies!
+570	Common - SystemAddFansMessage	txcuvopdfbam2m-n6_fbam	tip	Needs 100k more fans to upgrade
+571	OpenAnima - CrossAnima1	oyge7e0tboch1c-n13_lb82	dialog	A week ago…
+572	OpenAnima - CrossAnima2	oyge7e0tboch2a-n19_p1i8	dialog	Present day…
+573	OpenAnima - CrossAnima3	oyge7e0tboch2n-n2_lb82	dialog	The next day…
+574	OpenAnima - TalkBox	oyge7e0tbochl-n5_l0d4	title	What??
+575	OpenAnima - TalkBox2	oyge7e0tboch2q-n5_l0d4	title	Why??
+576	Oscar - AwardsInfoItem.ts	spuqgpclyyljt-n4_rjg3	title	Martian Awards: Mrs.Wave
+577	Oscar - OscarDailyCheckbox	spuqgpclyyljb-n18_oja2	title	Today
+578	Oscar - OscarRewardItem	spuqgpclyyljr-n11_rjg3	title	Romeo and Juliet [color=#e3b121](1208w)[/color]
+579	Oscar - OscarRewardItem	spuqgpclyyljr-n19_rjg3	btnReward	CLAIM
+580	Oscar - OscarRewardPanel	spuqgpclyylj1-n5_rjg3	btnConfirm	OK
+581	Oscar - OscarRewardPanel	spuqgpclyylj1-n6_rjg3	title	Competition Rewards
+582	Oscar - OscarShowFrontView	spuqgpclenjfz-n73_enjf	name	Name
+583	Oscar - OscarShowFrontView	spuqgpclenjfz-n71_enjf	btnCongra	GONGRAT
+584	Oscar - OscarShowFrontView	spuqgpclenjfz-n74_enjf	btnReward	CLAIM
+585	Oscar - OscarShowPanel	spuqgpclyylj2-n65_enjf	btnSend	SEND
+586	Oscar - OscarShowPanel	spuqgpclyylj2-n49_rjg3	btnClose	EXIT
+587	Oscar - OscarShowPanel	spuqgpclyylj2-n70_980p	txtTime	Block Rank 2 on June 20
+588	Oscar - OscarShowPanel	spuqgpclyylj2-n69_jlco	title	Oskar Award is Finished!
+589	PfSkin - ActionItem	s33x8418h4odt20k-n62_k1jx	level	Lv.1
+590	PfSkin - ActionItem	s33x8418h4odt20k-n63_k1jx	type	Action
+591	PfSkin - ActionItem	s33x8418jazc1lw-n63_k1jx	type	Lv.1
+592	PfSkin - ActionItem	s33x8418u6x3t1x9-n62_k1jx	level	Lv.1
+593	PfSkin - ActionItem	s33x8418u6x3t1x9-n63_k1jx	type	Lv.1
+594	PfSkin - ActorDetailUI	s33x8418jazc1kz-n41_d6rl	aName	Actor Intro 1
+595	PfSkin - ActorExperciseItem	s33x8418rn1rt1vx-n111_qz6z	title	Abraham
+596	PfSkin - ActorExperciseItem	s33x8418rn1rt1vx-n131_r5sp	skillExp	Abraham
+597	PfSkin - ActorExperciseSelectPanel	s33x8418rn1rt1vu-n71_hxi2	title	Select Actor
+598	PfSkin - ArtistAssetItem	s33x8418jazc1ly-n1_k1jx	name	Skill Name
+599	PfSkin - ArtistAssetItem	s33x8418jazc1ly-n4_k1jx	desc	Once every 10 same items gained
+600	PfSkin - ArtistAssetItem	s33x8418jazc1ly-n23_k1jx	sendBtn	UPGRADE
+601	PfSkin - ArtistAssetItem	s33x8418jazc1ly-n13_k1jx	unlock	Locked
+602	PfSkin - ArtistAssetItem	s33x8418jazc1ly-n14_k1jx	condition	Requires Actor Lv.40
+603	PfSkin - ArtistAssetPanel	s33x8418jazc1l1-n42_gjpx	tipMsg	
+604	PfSkin - ArtistBasePanel	s33x8418jazc1l2-n0_k1jx	n0	Attributes
+605	PfSkin - ArtistBasePanel	s33x8418jazc1l2-n19_k1jx	upgradeBtn	UPGRADE
+606	PfSkin - ArtistBasePanel	s33x8418jazc1l2-n35_k1jx	attTitle1	Scene
+607	PfSkin - ArtistBasePanel	s33x8418jazc1l2-n43_k1jx	attTitle2	Scene
+608	PfSkin - ArtistBasePanel	s33x8418jazc1l2-n12_k1jx	attTitle3	Scene
+609	PfSkin - ArtistBasePanel	s33x8418jazc1l2-n39_k1jx	attTitle4	Scene
+610	PfSkin - ArtistBasePanel	s33x8418jazc1l2-n20_k1jx	n20	Actor Intro
+611	PfSkin - ArtistBtn	s33x8418yru4t219-n2_yru4	title	Trainer
+612	PfSkin - ArtistDetailUI	s33x8418jazc1l3-n15_k1jx	name	Actor
+613	PfSkin - ArtistDetailUI	s33x8418jazc1l3-n40_k1jx	renqizhi	Popularity
+614	PfSkin - ArtistDetailUI	s33x8418jazc1l3-n49_k1jx	gold	3,224.2M
+615	PfSkin - ArtistDetailUI	s33x8418jazc1l3-n38_k1jx	needGold	Coin required for upgrade: 1000
+616	PfSkin - ArtistDetailUI	s33x8418jazc1l3-n43_k1jx	srcName	Oringin Name: Name
+617	Cooperation - CooperationMainPanel	k9ycebr5w3bv0-n25_w3bv	otherID	Input
+618	PfSkin - ArtistDetailUI	s33x8418jazc1l3-n67_gjpx	tsrcName	Original Name:
+619	PfSkin - ArtistDetailUI	s33x8418jazc1l3-n14_k1jx	level	Level：100/[color=#488fc1]100[/color]
+620	PfSkin - ArtistDetailUI	s33x8418jazc1l3-n33_k1jx	upgradeBtn	UPGRADE
+621	PfSkin - ArtistExpertItem1	s33x8418jazc1l4-n103_k1jx	title	Name
+622	PfSkin - ArtistExpertItem2	s33x8418jazc1l5-n125_qw0i	title	Name
+623	PfSkin - ArtistFindPanel	s33x8418tqflt269-n26_d6rl	gold	9,999.9K
+624	PfSkin - ArtistFindPanel	s33x8418tqflt269-n29_d6rl	time	Next Recruiting: 00: 00: 00
+625	PfSkin - ArtistFindPanel	s33x8418tqflt269-n32_9ut9	leaveTip	Next Recruiting: 00: 00: 00
+626	PfSkin - ArtistFindPanel	s33x8418tqflt269-n59_tqfl	dialog1	Content
+627	PfSkin - ArtistFindPanel	s33x8418tqflt269-n60_tqfl	dialog2	Content
+628	PfSkin - ArtistFindPanel	s33x8418tqflt269-n61_tqfl	dialog3	Content
+629	PfSkin - ArtistForzenItem	s33x8418jazc1lz-n50_d6rl	name	Actor Name
+630	Cooperation - CooperationMainPanel	k9ycebr5w3bv0-n30_w3bv	time	0:00:00
+631	PfSkin - ArtistForzenItem	s33x8418jazc1lz-n51_d6rl	level	lv.319
+632	PfSkin - ArtistForzenUI	s33x8418jazc1l7-n49_d6rl	canLabel	Hidden:10/10
+633	PfSkin - ArtistForzenUI	s33x8418jazc1l7-n52_lk15	noTip	[No Hidden Actor]
+634	PfSkin - ArtistForzenUI	s33x8418jazc1l7-n54_h4od	n54	Hidden List
+635	PfSkin - ArtistForzenUI	s33x8418jazc1l7-n40_d6rl	artName	Hide
+636	PfSkin - ArtistForzenUI	s33x8418jazc1l7-n41_d6rl	descLabel	Hidden actor can't work! You can reactivate them here
+637	PfSkin - ArtistGetUI	s33x8418eb3n1oa-n63_eb3n	name	Invisible
+638	PfSkin - ArtistGetUI	s33x8418eb3n1oa-n70_g33i	tipMsg	Content
+639	PfSkin - ArtistItemView	s33x8418jazc1m0-n29_mgsc	label	Wolfgang Wiemayer
+640	PfSkin - ArtistItemView	s33x8418jazc1m0-n5_mgsc	level	Lv.999
+641	PfSkin - ArtistListPanel	s33x8418tqflt26a-n41_gxxx	name1	Agency
+642	PfSkin - ArtistListPanel	s33x8418tqflt26a-n42_gxxx	name2	Hidden
+643	PfSkin - ArtistListPanel	s33x8418tqflt26a-n49_wgdo	canScountTitle	Recruitable:
+644	PfSkin - ArtistScoutResultItem	s33x8418jazc1m1-n28_d6rl	goBtn	UPGRADE
+645	PfSkin - ArtistScoutResultItem	s33x8418jazc1m1-n40_wgdo	tAlready	Owned
+646	PfSkin - ArtistScoutResultUI	s33x8418jazc1l9-n43_wgdo	dianzan	99,999K
+647	PfSkin - ArtistScoutResultUI	s33x8418jazc1l9-n47_wgdo	zuanshi	99,999K
+648	PfSkin - ArtistScoutResultUI	s33x8418jazc1l9-n54_xeua	xingtan	99,999K
+649	PfSkin - ArtistScoutResultUI	s33x8418jazc1l9-n33_d6rl	leaveLabel	Actors will leave in: 00: 00: 00
+650	PfSkin - ArtistScoutResultUI	s33x8418jazc1l9-n24_d6rl	resetBtn	REFRESH
+651	PfSkin - ArtistScoutSuccessUI	s33x8418jazc1la-n37_htqt	confirmBtn	OK
+652	PfSkin - ArtistScoutSuccessUI	s33x8418jazc1la-n97_10923	name	Name
+653	PfSkin - ArtistScoutSuccessUI	s33x8418jazc1la-n49_htqt	desc1	Actors will leave in: 00: 00: 00
+654	PfSkin - ArtistScoutSuccessUI	s33x8418jazc1la-n33_d6rl	desc2	Same Name Exist Already
+655	PfSkin - ArtistShareUI	s33x8418eb3n1o9-n57_eb3n	name	Name
+656	PfSkin - ArtistShareUI	s33x8418eb3n1o9-n56_eb3n	signActor	*** signed {0}
+657	Cooperation - SecretaryCommon	k9ycebr5hh76d-n3_hh76	n3	Tap anywhere to continue
+658	PfSkin - ArtistShareUI	s33x8418eb3n1o9-n60_eb3n	share	Share via Screenshots
+659	PfSkin - ArtistSkillItem	s33x8418jazc1m2-n1_k1jx	skillName	Skill Name
+660	PfSkin - ArtistSkillItem	s33x8418jazc1m2-n4_k1jx	desc	Increase {0}% of movie's attributes when filming with actor who are good at [color=#4876FF]tycoon[/color] role
+661	PfSkin - ArtistSkillItem	s33x8418jazc1m2-n6_k1jx	upgradeBtn	UPGRADE
+662	PfSkin - ArtistSkillItem	s33x8418jazc1m2-n10_k1jx	lv	Lv.
+663	PfSkin - ArtistSkillItem	s33x8418jazc1m2-n13_k1jx	lock	Locked
+664	PfSkin - ArtistSkillItem	s33x8418jazc1m2-n14_k1jx	condition	Requires Actor Lv.40
+665	PfSkin - ArtistSkillPanel	s33x8418jazc1lb-n37_k1jx	skillexp	Skill Exp
+666	PfSkin - ArtistSkillPanel	s33x8418jazc1lb-n35_k1jx	energy2	Energy
+667	PfSkin - ArtistTabBtn	s33x8418jazc1m3-n6_k1jx	title	Title
+668	PfSkin - ArtistTag	s33x8418jazc1m4-n46_k1jx	title	Motivational
+669	PfSkin - ArtistTagTip	s33x8418gb1ht26y-n60_lb81	title	Good at
+670	PfSkin - ArtistTrainAttrUpItem	s33x8418jazc1m5-n36_htqt	title	+ 1 ~ 3
+671	Cooperation - SecretaryGiftPanel	k9ycebr5hh76b-n4_hh76	title	Secretary Gift
+672	PfSkin - ArtistTrainItem1	s33x8418jazc1m6-n14_k1jx	name	Name
+673	PfSkin - ArtistTrainItem1	s33x8418jazc1m6-n16_k1jx	level	Lv.122
+674	PfSkin - ArtistTrainItem2	s33x8418jazc1m7-n31_k1jx	n31	Locked
+675	PfSkin - ArtistTrainItem2	s33x8418jazc1m7-n34_k1jx	n34	Needs primary electroshock (10/30)
+676	PfSkin - ArtistTrainResultUI	s33x8418jazc1ld-n75_lb81	okBtn	OK
+677	PfSkin - ArtistTrainResultUI	s33x8418jazc1ld-n54_lb81	checktip1	Tip text
+678	Manage - DeleteBtn	y3jchkngtpm8p-n14_tpm8	title	DELETE
+679	PfSkin - ArtistTrainResultUI	s33x8418jazc1ld-n55_lb81	checktip2	Tip text
+680	PfSkin - ArtistTrainResultUI	s33x8418jazc1ld-n70_lb81	d1	Bad
+681	PfSkin - ArtistTrainResultUI	s33x8418jazc1ld-n64_lb81	d2	Average
+682	PfSkin - ArtistTrainResultUI	s33x8418jazc1ld-n73_lb81	d3	Good
+683	PfSkin - ArtistTrainResultUI	s33x8418jazc1ld-n67_lb81	d4	Great
+684	PfSkin - ArtistTrainResultUI	s33x8418jazc1ld-n90_xqnf	title	Title
+685	PfSkin - ArtistTrainUI	s33x8418jazc1le-n38_9ut9	companyTrainTimes	Trained
+686	PfSkin - ArtistTrainUI	s33x8418jazc1le-n25_d6rl	costTrain	Training via Diamonds
+687	PfSkin - ArtistTrainUI	s33x8418jazc1le-n28_d6rl	trainToGetMax	(Will gain best results if trainging via diamonds)
+688	PfSkin - ArtistTrainUI	s33x8418jazc1le-n30_d6rl	desc	(Will gain best results if trainging via diamonds)
+689	PfSkin - ArtistTrainUI	s33x8418jazc1le-n32_d6rl	artistTrainTimes	Trained
+690	PfSkin - ArtistTrainUI	s33x8418jazc1le-n37_d6rl	cardNum	9,999.9K
+691	PfSkin - ArtistUI	s33x8418jazc1lf-n40_h4od	title	Actor
+692	PfSkin - ArtListExerciseItem	s33x8418rn1rt1vp-n25_rn1r	desc	Complete in
+693	PfSkin - ArtListExerciseItem	s33x8418rn1rt1vp-n31_rn1r	t1	Finish now
+694	Cooperation - SecretaryGiftPanel	k9ycebr5hh76b-n5_hh76	des	Unlock after hiring a secretary
+695	PfSkin - ArtListExerciseItem	s33x8418rn1rt1vp-n35_rn1r	tkey	Skill Exp
+696	PfSkin - ArtListExerciseItem	s33x8418rn1rt1vp-n56_p4vt	noneActorDesc	Complete in
+697	PfSkin - ArtListExerciseUI	s33x8418rn1rt1vr-n36_rn1r	title	Training Room
+698	PfSkin - ArtListExerciseUI	s33x8418rn1rt1vr-n42_rn1r	effectText	Skill Exp+7%
+699	PfSkin - ArtListExerciseUI	s33x8418rn1rt1vr-n41_rn1r	levelText	Lv.7
+700	PfSkin - AssetLoyaltyBar	s33x8418js171nu-n40_k1jx	love	Lv.999
+701	PfSkin - AssetLoyaltyBar	s33x8418js171nu-n42_glat	title	Title
+702	Oscar - OscarShowWinner	spuqgpclyylju-n17_enjf	name	Paramounte
+703	PfSkin - btnSelect	s33x8418rlklt26u-n4_cpc9	Title	Select
+704	PfSkin - btnShopTab	s33x8418ap5a1uw-n4	title	Special Package
+705	PfSkin - CollectBtn	s33x8418jazc1mb-n25_l7ru	title	Hide
+706	Oscar - OscarShowWinner	spuqgpclyylju-n18_enjf	title	Joah
+707	PfSkin - LabItem_big	s33x8418ap5a1v0-n1	title	1,330K
+708	Guide - GuideFinishItem	toebkrsrgn0t17-n4_gn0t	title	Title
+709	PfSkin - LevelUpLimitUI	s33x8418js171nt-n80_d6rl	okBtn	OK
+710	PfSkin - LevelUpLimitUI	s33x8418js171nt-n83_osuf	title	Choose Amount
+711	PfSkin - LevelUpLimitUI	s33x8418js171nt-n85_js17	content	Choose Amount
+712	PfSkin - LevelUpLimitUI	s33x8418js171nt-n84_s21g	need	Requires Loyaty
+713	PfSkin - MailContentPanel	s33x8418klss1uh-n5_klss	content	Content
+714	PfSkin - MailContentPanel	s33x8418klss1uh-n8_klss	btnDelect	DELETE
+715	PfSkin - MailContentPanel	s33x8418klss1uh-n9_klss	btnReward	COLLECT
+716	PfSkin - MailContentPanel	s33x8418klss1uh-n14_pmz6	title	Title
+717	PfSkin - MailContentPanel	s33x8418klss1uh-n20_pmz6	Msg1	Content
+718	PfSkin - MailContentPanel	s33x8418klss1uh-n21_pmz6	Msg2	Content
+719	PfSkin - MailItem	s33x8418klss1uf-n17_klss	title	Celebrity bar is open again!
+720	PfSkin - MailItem	s33x8418klss1uf-n18_klss	time	Sep 26th, 2018
+721	Guide - GuideMainDialog	toebkrsrhz3mw-n7_hz3m	title	Title
+722	PfSkin - MailItem	s33x8418klss1uf-n22_klss	reward	9,999.9K
+723	PfSkin - MailMainPanel	s33x8418klss1ud-n26_klss	btnReward	COLLECT
+724	PfSkin - MailMainPanel	s33x8418klss1ud-n25_klss	btnDelect	DELETE
+725	PfSkin - MailMainPanel	s33x8418klss1ud-n29_klss	tip	No Mail
+726	PfSkin - MailViewPanel	s33x8418pmz6t25r-n33_n8uo	title	Title
+727	PfSkin - RechargeMainPanel	s33x8418ap5a1ux-n77_gkgs	title	Top-up
+728	Market - ButtonPublicityCost	p7g5z54ahjkwfp-n8_hjkw	cost	99,999K
+729	PfSkin - RenameInput	s33x8418bw70t272-n102_r9e2-prompt	title	UserName
+730	PfSkin - ResultItemBtn	s33x8418mrkf1np-n33_d6rl	name	Name
+731	PfSkin - ScoutInput	s33x8418bw70t273-n45_luun	title	
+732	PfSkin - ScoutInput	s33x8418bw70t273-n45_luun-prompt	title	UserName
+733	PfSkin - ShopGoodsItem	s33x8418ap5a1v1-n58_ap5a	title	License
+734	PfSkin - ShopItem	s33x8418ap5a1us-n46_ap5a	name	License
+735	PfSkin - ShopItem	s33x8418ap5a1us-n53_qvh6	timeCanBuy	18:00-20:00 only
+736	PfSkin - ShopItem	s33x8418ap5a1us-n61_gkgs	timeCanBuyTitle	Purchase
+737	PfSkin - ShopItem	s33x8418ap5a1us-n68_uxng	timeAfterBuy	After 24:00:00
+738	PfSkin - ShopItem	s33x8418ap5a1us-n62_kl6d	tiptitle	Today's Deal
+739	Cooperation - SecretaryMainPanel	k9ycebr5hh769-n4_hh76	title	Daily Bonus
+740	PfSkin - ShopMainPanel	s33x8418ap5a1uq-n66_ap5a-0	listTab	Limited Offer
+741	PfSkin - ShopMainPanel	s33x8418ap5a1uq-n66_ap5a-1	listTab	Special Package
+742	PfSkin - ShopRechargeItem	s33x8418ap5a1uz-n80_ap5a	giveGoods	SEND
+743	PfSkin - ShopRechargeItem	s33x8418ap5a1uz-n61_ap5a	txtTip	Content
+744	PfSkin - ShopRechargeItem	s33x8418ap5a1uz-n59_ap5a	btnSelect	BUY
+745	Market - MarketCityInfoPanel	p7g5z54adm319m-n99_dm31	n99	Rewards:
+746	PfSkin - ShopSpecialItem	s33x8418ap5a1uv-n58_ap5a	name	License
+747	PfSkin - ShopSpecialItem	s33x8418ap5a1uv-n77_gkgs	n77	Time
+748	PfSkin - ShopSpecialItem	s33x8418ap5a1uv-n69_qvh6	n69	18:00-20:00 only
+749	PfSkin - ShopSpecialItem	s33x8418ap5a1uv-n82_uxng	timeAfterBuy	After 24:00:00
+750	PfSkin - ShopSpecialItem	s33x8418ap5a1uv-n78_kl6d	tipTitle	Weekly Deal
+751	PfSkin - SpeedBtn	s33x8418jazc1mt-n13_wgdo	n12	Explore
+752	PfSkin - StoryAchevementItem	s33x8418eb3n1o4-n74_eb3n	desc	World
+753	PfSkin - StoryAchevementItem	s33x8418eb3n1o4-n75_eb3n	progress	World
+754	Guide - GuideTalkItem	toebkrsr9q7z1j-n18_9q7z	dialogr	Single column vertical row, using virtual columns
+755	PfSkin - StoryAchevementItem	s33x8418eb3n1o4-n78_eb3n	okBtn	GET
+756	PfSkin - StoryAchevementTargetItem	s33x8418eb3n1o5-n75_eb3n	title	Box-office great or above for {0}/5 times
+757	PfSkin - StoryAchevementTargetUI	s33x8418eb3n1o6-n73_eb3n	title	Goal
+758	PfSkin - StoryAchevementTargetUI	s33x8418eb3n1o6-n74_eb3n	desc	Actors may get a burst if goal is achieved
+759	PfSkin - StoryAchevementTargetUI	s33x8418eb3n1o6-n87_dk94	n87	Tap anywhere to close
+760	PfSkin - StoryAchevementUI	s33x8418eb3n1o3-n80_eb3n	n80	Achievement
+761	PfSkin - StoryGroupItem	s33x8418eb3n1nz-n56_eb3n	name	Sci-Fi
+762	PfSkin - StoryGroupItem	s33x8418eb3n1nz-n74_eb3n	completeC	Challenge Completed
+763	PfSkin - StoryGroupItem	s33x8418eb3n1nz-n75_eb3n	progress	Complete All Challenges
+764	PfSkin - StoryGroupItem	s33x8418eb3n1nz-n76_eb3n	desc	Complete All Challenges
+765	PfSkin - StoryGroupRewardItem	s33x8418eb3n1ny-n57_eb3n	name	Name
+766	PfSkin - StoryInfoItem	s33x8418eb3n1o8-n63_eb3n	name	Message Board
+767	PfSkin - StoryInfoItem	s33x8418eb3n1o8-n64_eb3n	desc	Message
+768	PfSkin - StoryInfoItem	s33x8418eb3n1o8-n67_lq44	tagLabel	Raising Star
+769	Cooperation - SecretaryMainPanel	k9ycebr5hh769-n14_hh76	giftTitle	Secretary Gift
+770	PfSkin - StoryInfoUI	s33x8418eb3n1o7-n16_k8js	tip2	Total Box-office
+771	PfSkin - StoryInfoUI	s33x8418eb3n1o7-n58_eb3n	n58	Message
+772	PfSkin - StoryInfoUI	s33x8418eb3n1o7-n66_lq44	none	No Message
+773	PfSkin - StoryInfoUI	s33x8418eb3n1o7-n7_k8js	filmName	Script Name
+774	PfSkin - StoryInfoUI	s33x8418eb3n1o7-n69_udnj	sendBtn	SEND
+775	PfSkin - StoryLibraryUI	s33x8418eb3n1nx-n15_k1jx	name	Actor
+776	PfSkin - StoryLibraryUI	s33x8418eb3n1nx-n66_eb3n	n66	Achievement
+777	PfSkin - StoryLibraryUI	s33x8418eb3n1nx-n67_eb3n	souluotimes	Searched
+778	PfSkin - StoryTypeItem	s33x8418dk94t21f-n7_znuj	title	Horror
+779	PfSkin - StoryTypeItem	s33x8418dk94t21f-n7_znuj-texts_def	title	Horror
+780	PfSkin - Text	s33x8418jazc1mv-n0_k1jx	title	Dragon Born
+781	PfSkin - TrainResultItem	s33x8418jazc1mw-n57_lb81	cur	Content
+782	PfSkin - WarFilmLabel	s33x8418znuj1f8-n4_znuj	title	Horror
+783	PfSkin - YellowBtn2	s33x8418jazc1my-n6_k1jx	n6	Training
+784	PfSkin - YellowBtn5	s33x8418jazc1n1-n6_k1jx	title	Training
+785	Cooperation - SecretaryMainPanel	k9ycebr5hh769-n10_hh76	talkMsg	I'm Your Secretary
+786	PlayerInfo - AssetItem	tderqmz5dyfei-n26_dyfe	title	1,455K
+787	PlayerInfo - btn_buy	tderqmz5o11z1j-n5_o11z	btnName	BUY
+788	PlayerInfo - btn_choose	tderqmz5o11z1n-n4	title	Choose
+789	PlayerInfo - btn_rename	tderqmz5o11z1g-n4	btnName	RENAME
+790	PlayerInfo - btn_tab	tderqmz5dyfel-n5_dyfe	title	Home
+791	PfSkin - ArtistScoutSuccessUI	s33x8418jazc1la-n42_htqt	content	New Name
+792	PlayerInfo - btn_tab	tderqmz5dyfel-n6_dyfe	select_title	Home
+793	PlayerInfo - ChooseAvatar	tderqmz5o11z1l-n59_o11z	titleName	Choose Avatar
+794	PlayerInfo - HomeRankItem	tderqmz5xw64u-n45_dyfe	title	Building Storey
+795	PfSkin - ArtistScoutSuccessUI	s33x8418jazc1la-n42_htqt-prompt	content	Enter 1-8 characters
+796	PlayerInfo - HomeRankItem	tderqmz5xw64u-n47_gy5h	nameTitle	Building Storey
+797	PlayerInfo - HomeRankTop	tderqmz5xw64t-n53_xw64	stLevel	Block 1
+798	PlayerInfo - HomeRankTop	tderqmz5xw64t-n54_xw64	stRankKey	Rank:
+799	PlayerInfo - HomeRankTop	tderqmz5xw64t-n55_xw64	stRankValue	Block Rank 1
+800	PlayerInfo - HomeRankTop	tderqmz5xw64t-n56_xw64	companyKey	Company Value:
+801	PlayerInfo - HomeRankTop	tderqmz5xw64t-n57_xw64	companyValue	25M
+802	PlayerInfo - ItemBuy	tderqmz5o11z1i-n59_o11z	titleName	Insufficient Item
+803	PlayerInfo - ItemBuy	tderqmz5o11z1i-n71_o11z	n71	N/A
+804	Cooperation - SecretaryMainPanel	k9ycebr5hh769-n21_hh76	msgTitle	Hire a secretary can give you:
+805	PlayerInfo - ItemBuy	tderqmz5o11z1i-n73_o11z	lbl	You need
+806	PlayerInfo - PersonInfo	tderqmz5dyfeh-n9_dyfe	headName	Head Name
+807	PlayerInfo - PersonInfo	tderqmz5dyfeh-n13_dyfe	level	Lv.121
+808	PlayerInfo - PersonInfo	tderqmz5dyfeh-n26_o11z	self_introduction_input	Edit Self-Intro
+809	PlayerInfo - PersonInfo	tderqmz5dyfeh-n20_dyfe	self_introduction	Edit Self-Intro
+810	PlayerInfo - PlayerLevelUp	tderqmz5mk9y1r-n13_mk9y	n13	Script Unlocked:
+811	PlayerInfo - PlayerLevelUp	tderqmz5mk9y1r-n8_mk9y	n8	Actor Available:
+812	PlayerInfo - PlayerLevelUp	tderqmz5mk9y1r-n12_mk9y	n12	Rewards:
+813	PlayerInfo - rankItem	tderqmz5r5sp1x-n45_dyfe	title	Building Storeys
+814	PlayerInfo - rankItem	tderqmz5r5sp1x-n47_gy5h	nameTitle	Building Storeys
+815	PlayerInfo - RenameCompany	tderqmz5o11z1h-n59_o11z	titleName	Rename
+816	PlayerInfo - RenameCompany	tderqmz5o11z1h-n65_o11z-prompt	inputName	Enter content here
+817	PopUp - PopUpMain	4fu4p3osij4v0-n15_mpdx	check	Hide for today
+818	Produce - ActorItem	eg7c5x5rc10r36-n111_qz6z	title	Abraham
+819	Produce - BtnAssetUnlock	eg7c5x5rfd65i-n5_fd65	title	18K
+820	Produce - BtnGetAward	eg7c5x5rfd65b-n4_fd65	title	Reward
+821	Guide - GuideNpcIntroductionUI	toebkrsrs9dx1f-n25_s9dx	n25	Tap anywhere to continue
+822	Produce - BtnProduce	eg7c5x5rfd65c-n5_fd65	title	Start Producing
+823	Produce - Main	eg7c5x5rfd650-n6_fd65	title	Produce
+824	Produce - ProduceDesc	eg7c5x5roh2e34-n36_fd65	descText	This hat will bring me luck
+825	Produce - ProduceItem	eg7c5x5rfd65g-n30_fd65	levelText	Lv.99
+826	Produce - ProduceItem	eg7c5x5rfd65g-n31_fd65	nameText	Adventure
+827	Produce - ProduceItem	eg7c5x5rfd65g-n54_fd65	curItemNumLb	Current storage
+828	Produce - ProduceLimitItem	eg7c5x5rfd65h-n30_fd65	nameText	Pen
+829	Produce - ProduceLimitItem	eg7c5x5rfd65h-n56_fd65	descText	Description
+830	Cooperation - SecretaryMainPanel	k9ycebr5hh769-n16_hh76	iconName1	Name
+831	Produce - ProduceLimitItem	eg7c5x5rfd65h-n61_fd65	timeText	Single produce time: 5 min 0 sec
+832	Produce - ProduceOffActor	eg7c5x5regep1f-n31_e80i	actorName	Master Chan
+833	Produce - ProduceSelectActorPanel	eg7c5x5rvw1q10-n75_qz6z	txtTip1	Assign actor to production line will increase chance of getting more productions
+834	Produce - ProduceSelectActorPanel	eg7c5x5rvw1q10-n76_vw1q	txtTip2	Requirement:
+835	Produce - ProduceTip	eg7c5x5rx9sk1a-n59_x9sk	n59	Output:
+836	Produce - ProduceTip	eg7c5x5rx9sk1a-n65_x9sk	actorProduceDesc	Assigned actor will inspire production
+837	Guide - GuideNpcIntroductionUI	toebkrsrs9dx1f-n30_s9dx	desc	Bonita Fernandez: A producer you worked with several times during your acting career. Tired of the film industry, she decided to join you when you raised the idea of changing the rules of the movie business.
+838	Produce - ProduceUpgrade	eg7c5x5re80ij-n31_e80i	n28	Select Upgrade Effect
+839	Produce - ProduceUpgrade	eg7c5x5re80ij-n27_e80i	n27	Upgrade Cost:
+840	Produce - ProduceUpgradeItem	eg7c5x5re80is-n32_e80i	title	Production Line Amount
+841	Produce - TabCircleLeft	eg7c5x5rpspr2d-n5_pspr	nomalTitle	Rank 1
+842	Produce - TabCircleLeft	eg7c5x5rpspr2d-n6_pspr	selectTitle	Rank 1
+843	Produce - TabCircleMiddle	eg7c5x5rpspr2e-n4_pspr	nomalTitle	Rank 1
+844	Produce - TabCircleMiddle	eg7c5x5rpspr2e-n5_pspr	selectTitle	Rank 1
+845	Produce - TabCircleRight	eg7c5x5rpspr2j-n5_pspr	nomalTitle	Rank 1
+846	Produce - TabCircleRight	eg7c5x5rpspr2j-n6_pspr	selectTitle	Rank 1
+847	Produce - TabGrade	eg7c5x5rfd651-n5	title	Rank 1
+848	Rank - RankItem	pqepuo38pqkqj-n65_swip	txtMovie	6,885K
+849	Rank - RankItem	pqepuo38pqkqj-n63_swip	txtName	Angry Angel
+850	Rank - RankMainPanel	pqepuo38pqkq0-n81_swip	marquee	Although good movies sometimes don't sell, the higher the quality of the movie, the higher the box office burst when it suits the market
+851	Rank - RankMainPanel	pqepuo38pqkq0-n91_cvs8	name	NO.105 David
+852	Rank - RankMainPanel	pqepuo38pqkq0-n6_swip	txtChangeName	Champion of last week can rename this server
+853	Cooperation - SecretaryMainPanel	k9ycebr5hh769-n17_hh76	iconName2	Name
+854	Rank - RankRewardItem	pqepuo38pqkqk-n39_swip	txtRank	100~200
+855	Rank - RankRewardPanel	pqepuo38pqkq4-n53_pqkq	title	Reward
+856	Rank - RankRewardPanel	pqepuo38pqkq4-n46_swip-tips	listRanKReward	Reward
+857	Rank - UserRank	pqepuo38pqkqn-n96_swip	n96	Reward
+858	Rank - UserRank	pqepuo38pqkqn-n98_swip	btnReward	CLAIM
+859	Rank - UserRank	pqepuo38pqkqn-n102_bgwh	n102	Received
+860	Rank - UserRank	pqepuo38pqkqn-n85_swip	txtName	Name
+861	Rank - UserRank	pqepuo38pqkqn-n87_swip	txtMovie	5M
+862	Rank - UserRank	pqepuo38pqkqn-n91_swip	n91	My Rank
+863	Street - CinemaItem	mu4e45moky79z-n10_ky79	title	Theaters
+864	Street - CinemaItem_llittle	mu4e45moky7910-n10_ky79	title	Theaters
+865	Street - CinemaSelectItem	mu4e45moky790-n34_6ia7	n31	Theater Amount:
+866	Street - CinemaSelectItem	mu4e45moky790-n36_6ia7	n31	Audience favor:
+867	Street - CinemaSelectItem	mu4e45moky790-n37_6ia7	txtLike	Male Actor
+868	Cooperation - SecretaryMainPanel	k9ycebr5hh769-n18_hh76	iconName3	Name
+869	Street - MenuIcon	mu4e45moh9ou14-n1	title	Meeting
+870	Street - RankGroupItem	mu4e45moh9ou1i-n117_h9ou	txtMovie	6,885K
+871	Street - RankGroupItem	mu4e45moh9ou1i-n118_h9ou	txtName	Angry Angel
+872	Street - RankGroupItem	mu4e45moh9ou1i-n124_h9ou	btnCongratulate	Like
+873	Street - RankGroupMovieItem	mu4e45moh9ou1q-n108_seun	txtMovieName	Angry Angel
+874	Street - RankGroupMovieItem	mu4e45moh9ou1q-n98_h9ou	txtName	Angry Angel
+875	Street - RankGroupMovieItem	mu4e45moh9ou1q-n97_h9ou	txtMovie	96.885M
+876	Street - RankGroupMovieItem	mu4e45moh9ou1q-n107_seun	btnCongratulate	Like
+877	Street - StreetCinemaSelectedPanel	mu4e45moky795-n45_6ia7	txtTip1	240 Theaters (15%)
+878	Street - StreetCinemaSelectedPanel	mu4e45moky795-n46_6ia7	txtTip2	Congratulations
+879	Street - StreetCinemaView	mu4e45moky79w-n87_6ia7	btnSign	SIGN
+880	Street - StreetCinemaView	mu4e45moky79w-n104_ky79	name	Theaters
+881	Street - StreetInfoPanel	mu4e45moky796-n43_h67b	n43	Reward
+882	Street - StreetInfoPanel	mu4e45moky796-n28_r8gr	btnReward	CLAIM
+883	Street - StreetInfoPanel	mu4e45moky796-n16_wpay	n16	Rank up Rewards
+884	PfSkin - RenameUI	s33x8418jazc1lj-n86_qw0i	okBtn	OK
+885	Street - StreetInfoPanel	mu4e45moky796-n23_wpay	txtTip1	Block Rank 4 required
+886	PfSkin - RenameUI	s33x8418jazc1lj-n97_mrkf	noCostBtn	OK
+887	Street - StreetInfoPanel	mu4e45moky796-n24_wpay	txtTip2	Oskar is awarded 22 o'clock everyday
+888	Street - StreetInfoPanel	mu4e45moky796-n25_wpay	txtTip3	Your ranking and movies filmed will effect your trophies
+889	PfSkin - RenameUI	s33x8418jazc1lj-n90_qw0i	tip	Choose an unique name!
+890	Street - StreetInfoPanel	mu4e45moky796-n27_wpay	btnConfirm	OK
+891	PfSkin - RenameUI	s33x8418jazc1lj-n100_hqf4-prompt	content	UserName
+892	Street - StreetInfoPanel	mu4e45moky796-n37_h67b	title	Block
+893	Street - StreetInfoPanel	mu4e45moky796-n40_h67b	txtRewardInfo	Info
+894	Street - StreetItem	mu4e45moky79b-n88_r8gr	btnSelect	SIGN
+895	Cooperation - SecretaryMainPanel	k9ycebr5hh769-n19_hh76	iconName4	Name
+896	Street - StreetItem	mu4e45moky79b-n103_ky79	n103	UPGRADE
+897	Street - StreetListPanel	mu4e45moky79g-n73_h9ou	title	RANK
+898	Street - StreetLvUpInfoPanel	mu4e45moky79i-n23_wpay	txtTip1	More trophies needed to upgrade to Block Rank 3
+899	Street - StreetLvUpInfoPanel	mu4e45moky79i-n24_wpay	txtTip2	Oskar is awarded 22 o'clock everyday
+900	Street - StreetLvUpInfoPanel	mu4e45moky79i-n25_wpay	txtTip3	(You can only cooperate with 3 different companies in a week)
+901	Street - StreetLvUpInfoPanel	mu4e45moky79i-n29_wpay	btnConfirm	OK
+902	Street - StreetLvUpInfoPanel	mu4e45moky79i-n53_h67b	title	Block
+903	Street - StreetRankPanel	mu4e45moky79k-n6_oebq-0	listTab	Total Box-office
+904	Street - StreetRankPanel	mu4e45moky79k-n6_oebq-1	listTab	Movie's Box office
+905	Street - StreetRankPanel	mu4e45moky79k-n71_p54l	n24	My Ranking:
+906	Street - StreetRankPanel	mu4e45moky79k-n72_p54l	n24	Total Box-office:
+907	Street - StreetRankPanel	mu4e45moky79k-n73_p54l	n24	Award:
+908	Street - StreetRankPanel	mu4e45moky79k-n75_p54l	txtGroupMovieRank	No.54
+909	Oscar - OscarDailyCheckbox	spuqgpclyyljb-n8_rjg3	title	Today
+910	Street - StreetRankPanel	mu4e45moky79k-n74_p54l	txtGroupMovie	3M
+911	Street - StreetRankPanel	mu4e45moky79k-n77_p54l	tip	Regroup and reranking after Award
+912	Street - StreetRankPanel	mu4e45moky79k-n79_p54l	n24	Best Sell:
+913	Street - StreetRankPanel	mu4e45moky79k-n80_p54l	n25	Movie's Box-office
+914	Cooperation - SecretaryMainPanel	k9ycebr5hh769-n13_hh76	n13	Hired
+915	Street - StreetRankPanel	mu4e45moky79k-n81_p54l	n26	Current Ranking:
+916	Street - StreetRankPanel	mu4e45moky79k-n82_p54l	txtMovie	3M
+917	Street - StreetRankPanel	mu4e45moky79k-n83_p54l	txtMovieRank	No.54
+918	Street - StreetRankPanel	mu4e45moky79k-n84_p54l	txtMovieName	Name
+919	Street - StreetRewardView	mu4e45moky79v-n64_oebq	txtTip	Reward
+920	Street - StreetRewardView	mu4e45moky79v-n64_oebq-texts_0	txtTip	Unlock function
+921	Street - StreetRewardView	mu4e45moky79v-n64_oebq-texts_def	txtTip	Reward
+922	Oscar - OscarDailyCheckbox	spuqgpclyyljb-n8_rjg3-texts	title	Today|Yesterday
+923	Street - StreetSelectCinemaPanel	mu4e45moky79p-n27_wpay	btnConfirm	OK
+924	Street - StreetSelectCinemaPanel	mu4e45moky79p-n56_gw4s	title	Sign Theater
+925	Street - TabStreet	mu4e45moiiww2a-n4	title	Title
+926	System - LabItem_big	fiza9hgrnyfh13-n1	title	1,330K
+927	System - LoaderEnterGame	fiza9hgr5sas6-n4_5sas	title	Loading…
+928	System - LoaderEnterGame	fiza9hgr5sas6-n5_5sas	help	Tip
+929	System - LoaderEnterGame	fiza9hgr5sas6-n6_jbhb	txt_resVer	ResVersion:11293239.12312.123
+930	System - LoaderEnterGame	fiza9hgr5sas6-n7_jbhb	txt_gamever	GameVersion:1.0.18
+931	System - StateItem	fiza9hgrqr3y19-n0_qr3y	key	Key
+932	System - SystemAddItemMessage	fiza9hgrnyfh11-n85_qw0i	title	Reward
+933	System - SystemAddItemMessage	fiza9hgrnyfh11-n96_dp7v	tips	Tap anywhere to continue
+934	System - SystemAlertMessage	fiza9hgrgdopy-n83_osuf	content	Content
+935	System - SystemAlertMessage	fiza9hgrgdopy-n85_qw0i	title	Hint
+936	System - SystemAlertMessage	fiza9hgrgdopy-n86_qw0i	okBtn	OK
+937	System - SystemConfirmMessage	fiza9hgrgdopm-n83_osuf	content	Content
+938	System - SystemConfirmMessage	fiza9hgrgdopm-n85_qw0i	title	Hide
+939	System - SystemConfirmMessage	fiza9hgrgdopm-n86_qw0i	okBtn	OK
+940	Cooperation - SecretaryWelfareMsgItem	k9ycebr5hh76a-n0_hh76	msg	Skill Training
+941	System - SystemConfirmMessage	fiza9hgrgdopm-n87_qw0i	cancleBtn	CANCEL
+942	System - SystemToastText	fiza9hgr5ol91a-n97_htqt	title	Title
+943	SystemSettings - ButtonItem	6ecreso0kl6dx54-n3_izhn	title	Simplified Chinese
+944	SystemSettings - GiftPackageExchange	6ecreso0izhnx41-n8_izhn	title	Redeem Key
+945	SystemSettings - GiftPackageExchange	6ecreso0izhnx41-n6_izhn	inputText	Enter content here
+946	SystemSettings - GiftPackageExchange	6ecreso0izhnx41-n6_izhn-prompt	inputText	Please enter your key
+947	SystemSettings - GiftPackageExchange	6ecreso0izhnx41-n5_izhn	okBtn	REDEEM
+948	SystemSettings - LanguageItem	6ecreso0izhnx43-n3_izhn	title	Simplified Chinese
+949	SystemSettings - NoneC	6ecreso0kl6dx53-n1_kl6d	state	Tap
+950	SystemSettings - offC	6ecreso0kl6dx52-n0_kl6d	state	OFF
+951	MainUI - GuideTaskDialog	7ecreso0gn0tx4z-n6_hz3m	dialog	Dialog
+952	SystemSettings - onC	6ecreso0kl6dx51-n3_kl6d	state	ON
+953	SystemSettings - SelectLanguage	6ecreso0izhnx42-n5_izhn	okBtn	OK
+954	SystemSettings - SelectLanguage	6ecreso0izhnx42-n8_izhn	title	Select Language
+955	SystemSettings - SettingsItem	6ecreso0izhnx40-n6_izhn	title	Lisence Notify
+956	SystemSettings - SettingsPanel	6ecreso0izhnx3y-n5_izhn	title	Settings
+957	SystemSettings - SettingsPanel	6ecreso0izhnx3y-n6_izhn	idTip	Your ID:
+958	SystemSettings - SettingsPanel	6ecreso0izhnx3y-n7_izhn	version	Version: 0123
+959	SystemSettings - SettingsPanel	6ecreso0izhnx3y-n8_izhn	tip	This account has been bind…
+960	SystemSettings - SettingsPanel	6ecreso0izhnx3y-n11_dk94	SwitchAccountBtn	Language
+961	Guide - GuideDialog	toebkrsrhz3ms-n9_hz3m	title	Everybody
+962	SystemSettings - SettingsPanel	6ecreso0izhnx3y-n12_dk94	FeedBackBtn	FeedBack
+963	WarContinue - WarContinuousIncome	qybz1z3jqbxl84-n29_qbxl	filmName	Film Name
+964	WarContinue - WarContinuousIncome	qybz1z3jqbxl84-n32_qbxl	incomeTime	Audience Critics:
+965	WarContinue - WarContinuousIncome	qybz1z3jqbxl84-n66_qbxl	guanzhuduValue	Attention level:
+966	WarContinue - WarContinuousIncome	qybz1z3jqbxl84-n71_qbxl	promotionBtn	EXPAND
+967	WarContinue - WarContinuousIncome	qybz1z3jqbxl84-n52_qbxl	okBtn	RECEIVE
+968	WarContinue - WarContinuousIncome	qybz1z3jqbxl84-n76_qbxl	Income	+110M/hr
+969	WarContinue - WarContinuousIncome	qybz1z3jqbxl84-n77_qbxl	tip1	It's possible to get:
+970	PfSkin - ArtistAgentPanel	s33x8418qm3ft26g-n42_k1jx	title	Personal Coach
+971	WarContinue - WarContinuousIncome	qybz1z3jqbxl84-n96_qbxl	lockTip	Unlock
+972	WarContinue - WarContinuousIncome	qybz1z3jqbxl84-n102_qbxl	overTip1	Income ended
+973	PfSkin - ArtistTagTip	s33x8418jazc1lc-n60_lb81	title	Good at
+974	WarContinue - WarContinuousIncome	qybz1z3jqbxl84-n103_qbxl	overTip	(the)|n|the higher
+975	WarContinue - WarContinuousIncome	qybz1z3jqbxl84-n110_qbxl	cityName	23.Beijing
+976	WarContinue - WarContinuousIncome	qybz1z3jqbxl84-n111_qbxl	Income2	+110M/hr
+977	WarContinue - WarContinuousIncome	qybz1z3jqbxl84-n114_qbxl	cantTip	Uncovered City
+978	WarContinue - WarContinuousIncome	qybz1z3jqbxl84-n115_qbxl	okBtn2	Change City
+979	PfSkin - ArtistAgentPanel	s33x8418qm3ft26g-n56_k1jx	title2	Personal Coach
+980	WarContinue - WarContinuousIncome	qybz1z3jqbxl84-n118_qbxl	tip2	It's
+981	WarMovie - AveragePress	y6ozucp1qbxl6q-n3_qbxl	tip	Average
+982	WarMovie - ConfirmBtn	y6ozucp1r0zd3i-n3_r0zd	title	OK
+983	WarMovie - ConfirmBtn2	y6ozucp1qbxl8e-n3_r0zd	title	OK
+984	WarMovie - ConfirmCostBtn	y6ozucp1snhga0-n3_r0zd	title	OK
+985	PfSkin - ArtistAgentPanel	s33x8418qm3ft26g-n58_k1jx	tipLabel1	Hire other actors(3 or 4 star) as personal coach
+986	WarMovie - filmInfBtn	y6ozucp1yytj5n-n5_yytj	title	Script
+987	WarMovie - FilmSelectItem	y6ozucp1r0zd55-n22_r0zd	filmName	Film Name
+988	WarMovie - GoodsItem	y6ozucp1qbxl85-n3_r0zd	title	99,999K
+989	WarMovie - WarActorItem	y6ozucp1qbxl62-n27_qbxl	okBtn	OK
+990	PfSkin - ArtistAgentPanel	s33x8418qm3ft26g-n59_k1jx	tipLabel2	(Coming soon)
+991	WarMovie - WarActorItem	y6ozucp1qbxl62-n29_qbxl	temName	No Effect
+992	WarMovie - WarActorItem	y6ozucp1qbxl62-n35_qbxl	freeCost	Free
+993	WarMovie - WarActorItem	y6ozucp1qbxl62-n38_kh7o	tip1	Play as:
+994	WarMovie - WarActorItem	y6ozucp1qbxl62-n39_kh7o	tip2	Sci-Fi
+995	WarMovie - WarActorItemShow	y6ozucp1qbxl9c-n31_r0zd	name	Abdon
+996	WarMovie - WarActorItemShow	y6ozucp1qbxl9c-n32_r0zd	type	Star
+997	WarMovie - WarActorItemShow	y6ozucp1qbxl9c-n33_r0zd	reqTip	Requirements:
+998	PlayerInfo - PersonInfo	tderqmz5dyfeh-n18_dyfe	star_lv	Star Level
+999	WarMovie - WarActorItemShow	y6ozucp1qbxl9c-n34_r0zd	reqTip2	Requirements:
+1000	PfSkin - ArtistAssetItem	s33x8418n2px1n2-n1_k1jx	name	Skill Name
+1001	WarMovie - WarActorItemShow	y6ozucp1qbxl9c-n43_r0zd	des	It's
+1002	WarMovie - WarActorProficiencyItem	y6ozucp1qbxl6l-n32_qbxl	name	Star
+1003	WarMovie - WarActorProficiencyItem	y6ozucp1qbxl6l-n33_qbxl	tip	Proficiency: +1
+1004	WarMovie - WarActorProficiencyItem	y6ozucp1qbxl6l-n37_qbxl	lv	Lv.142
+1005	PfSkin - ArtistAssetItem	s33x8418n2px1n2-n4_k1jx	desc	Once every 10 same items gained
+1006	WarMovie - WarActorSelectTip	y6ozucp1yytj5q-n22_yytj	title	Select Actor
+1007	WarMovie - WarAudienceReputation	y6ozucp1qbxl73-n9_r0zd	title	Cost
+1008	WarMovie - WarAudienceReputation	y6ozucp1qbxl73-n32_qbxl	scorTip	Audience Review:
+1009	WarMovie - WarAudienceReputation	y6ozucp1qbxl73-n55_qbxl	audTip2	Scene
+1010	PfSkin - ArtistAssetItem	s33x8418n2px1n2-n23_k1jx	sendBtn	SEND
+1011	WarMovie - WarAudienceReputation	y6ozucp1qbxl73-n57_qbxl	audTip3	Plot
+1012	WarMovie - WarAudienceReputation	y6ozucp1qbxl73-n62_qbxl	audTip4	Entertain
+1013	WarMovie - WarAudienceReputation	y6ozucp1qbxl73-n58_qbxl	audTip5	will effect movie's rating
+1014	WarMovie - WarCinemaItem	y6ozucp1qbxl6t-n25_qbxl	title	Target Demographic: Children
+1015	WarMovie - WarCinemaSelection	y6ozucp1qbxl6s-n6_r0zd	allTip	More theaters awaiting!
+1016	WarMovie - WarCinemaSelection	y6ozucp1qbxl6s-n9_r0zd	title	Cost
+1017	PfSkin - ArtistAssetItem	s33x8418n2px1n2-n13_k1jx	unlock	Locked
+1018	WarMovie - WarCityItem	y6ozucp1qbxl8b-n98_qbxl	title	23.Beijing
+1019	WarMovie - WarCostView	y6ozucp1r0zd2y-n9_r0zd	title	Cost
+1020	WarMovie - WarCostView	y6ozucp1r0zd2y-n3_r0zd	nameTip	Actors are paid for filming <Opening and Closing >:
+1021	PfSkin - ArtistAssetItem	s33x8418n2px1n2-n14_k1jx	condition	Requires Actor Lv.40
+1022	WarMovie - WarCostView	y6ozucp1r0zd2y-n6_r0zd	allTip	Total Cost
+1023	WarMovie - WarCurrentMarketInfo	y6ozucp1qbxl8h-n4_qbxl	tip1	Script:
+1024	WarMovie - WarCurrentMarketInfo	y6ozucp1qbxl8h-n5_qbxl	tip2	Market:
+1025	WarMovie - WarCurrentMarketInfo	y6ozucp1qbxl8h-n12_qbxl	clickTip	Tap anywhere to continue
+1026	PfSkin - RenameUI	s33x8418jazc1lj-n83_osuf	content	Content
+1027	WarMovie - WarEndIncomeItem	y6ozucp1qbxl8f-n30_qbxl	endBtn	END
+1028	WarMovie - WarFeedBack	y6ozucp1qbxl6u-n32_qbxl	receive	Receive:
+1029	WarMovie - WarFeedBack	y6ozucp1qbxl6u-n55_qbxl	feedTip2	Perform
+1030	PfSkin - RenameUI	s33x8418jazc1lj-n83_osuf-prompt	content	Enter 1-8 characters
+1031	WarMovie - WarFeedBack	y6ozucp1qbxl6u-n57_qbxl	feedTip3	Art
+1032	WarMovie - WarFeedBack	y6ozucp1qbxl6u-n58_qbxl	feedTip4	will effect movie's score
+1033	WarMovie - WarFilmInfo	y6ozucp1r0zd59-n17_r0zd	reqTip	If audience contains:
+1034	WarMovie - WarFilmInfo	y6ozucp1r0zd59-n18_r0zd	rewardTip	Then:
+1035	WarMovie - WarFilming	y6ozucp1r0zd3w-n9_r0zd	expectingTips	Movie Hype
+1036	WarMovie - WarFilming	y6ozucp1r0zd3w-n26_r0zd	goal	Goal
+1037	WarMovie - WarFilmJiesuan	y6ozucp1qbxl7b-n8_qbxl	tip	Grade:
+1038	WarMovie - WarFilmJiesuan	y6ozucp1qbxl7b-n9_qbxl	tip1	Company:
+1039	WarMovie - WarFilmJiesuan	y6ozucp1qbxl7b-n11_qbxl	tip2	Box-office
+1040	WarMovie - WarFilmJiesuan	y6ozucp1qbxl7b-n17_qbxl	tip3	Box-office:
+1041	WarMovie - WarFilmJiesuan	y6ozucp1qbxl7b-n18_qbxl	tip4	Total Cost:
+1042	WarMovie - WarFilmJiesuan	y6ozucp1qbxl7b-n34_sg8w	clickTip	Tap anywhere to continue
+1043	WarMovie - WarFilmLiuxing	y6ozucp1qbxl9v-n13_g50x	title2	Good Thing
+1044	WarMovie - WarFilmLiuxing	y6ozucp1qbxl9v-n2_qbxl	title	Good Thing
+1045	WarMovie - WarFilmLiuxing	y6ozucp1qbxl9v-n8_qbxl	tip	The
+1046	WarMovie - WarFilmSelecting	y6ozucp1r0zd50-n9_r0zd	marketTip1	The Current Market
+1047	WarMovie - WarFilmSelecting	y6ozucp1r0zd50-n10_r0zd	marketTip2	Survey Progress 30%
+1048	WarMovie - WarFilmSQ	y6ozucp1qbxl9r-n3_qbxl	tip1	That's a wrap!
+1049	WarMovie - WarFilmSQView	y6ozucp1qbxl6m-n58_qbxl-1	filmAttributeList	Perform
+1050	WarMovie - WarFilmSQView	y6ozucp1qbxl6m-n58_qbxl-2	filmAttributeList	Plot
+1051	WarMovie - WarFilmSQView	y6ozucp1qbxl6m-n58_qbxl-3	filmAttributeList	Art
+1052	WarMovie - WarFilmSQView	y6ozucp1qbxl6m-n58_qbxl-4	filmAttributeList	Entertain
+1053	Notice - PublicNoticePanel	jh3pqd7de77b0-n3_l814	labContent	Should you have any suggestions: Settings->Feedback
+1054	WarMovie - WarFilmSQView	y6ozucp1qbxl6m-n9_r0zd	title	Cost
+1055	WarMovie - WarFilmSYPF	y6ozucp1qbxl9x-n3_qbxl	tip1	Premiere Sales
+1056	WarMovie - WarFilmSYPF	y6ozucp1qbxl9x-n4_qbxl	tip2	
+1057	WarMovie - WarFilmTypeSelectItem	y6ozucp1qbxl6a-n34_qbxl	totalTip	Total Proficiency:
+1058	WarMovie - WarFilmTypeSelectItem	y6ozucp1qbxl6a-n35_qbxl	tip	Proficiency:
+1059	WarMovie - WarFrreBackItem	y6ozucp1qbxl72-n46_qbxl	useNo	107/285 agrees
+1060	WarMovie - WarMoveTextHide	y6ozucp1row7e2-n8_r8ay	title	Description
+1061	PfSkin - ArtistDetailUI	s33x8418rlklt26n-n15_k1jx	name	Actor
+1062	WarMovie - WarNotice	y6ozucp1qbxl6c-n21_r0zd	okBtn	OK
+1063	WarMovie - WarPaishequeren	y6ozucp1r0zd2v-n10_qbxl	okBtn	FILM
+1064	WarMovie - WarPaishequeren	y6ozucp1r0zd2v-n16_qbxl	closeTip	Tap anywhere to continue
+1065	WarMovie - WarPeople	y6ozucp1r0zd52-n13_r0zd	sex	Male
+1066	WarMovie - WarPeopleFaceItem	y6ozucp1qbxl80-n22_qbxl	tip	Tip
+1067	WarMovie - WarPeopleFaceItem	y6ozucp1qbxl80-n34_qnq0	tip2	Content
+1068	PfSkin - ArtistDetailUI	s33x8418rlklt26n-n22_k1jx	biaoqian1	Tag
+1069	WarMovie - WarSelectActor	y6ozucp1yytj5m-n35_kh7o	emtpyTip	No suitable actor, you can sign more actors by "Agency"
+1070	WarMovie - WarSelectActor	y6ozucp1yytj5m-n36_kh7o	emtpyTip2	No suitable actor, you can sign more actors by "Agency"
+1071	WarMovie - WarSelectActor	y6ozucp1yytj5m-n7_qbxl	zhongTip	Bone
+1072	WarMovie - WarSelectActorItem	y6ozucp1yytj5o-n21_yytj	actorName	Actor Name
+1073	PfSkin - ArtistDetailUI	s33x8418rlklt26n-n53_kw95	biaoqian2	Tag
+1074	WarMovie - WarSelectFilmType	y6ozucp1qbxl67-n36_qbxl	curMarket	The Current Market
+1075	WarMovie - WarSQViewItem	y6ozucp1qbxl6r-n47_qbxl	title	Scene
+1076	WarMovie - WarTip	y6ozucp1qbxl9e-n12_qbxl	tip	Tap anywhere to continue
+1077	WarMovie - WarTipKuang	y6ozucp1qbxl9f-n3_qbxl	title	Market|n|At|n|Kai|n|the
+1078	WarMovie - WarXKHuifu	y6ozucp1qbxl8k-n2_qbxl	title	Cost
+1079	WarMovie - WarXKHuifu	y6ozucp1qbxl8k-n6_qbxl	need	You need:
+1080	PfSkin - ComfirmUI	s33x8418jazc1lg-n85_qw0i	title	Hidden
+1081	WarMovie - WarXKHuifu	y6ozucp1qbxl8k-n9_qbxl	topTIp	You can get it by:
+1082	WarMovie - WarYRForFilm	y6ozucp1r0zd3s-n25_r0zd	type	Huge
+1083	WarMovie - WarYRProficiency	y6ozucp1qbxl6f-n9_r0zd	title	Cost
+1084	PfSkin - ActionItem	s33x8418jazc1lw-n62_k1jx	n62	Lv.1
+1085	WarMovie - WarYRProficiency	y6ozucp1qbxl6f-n25_qbxl	filmName	Action Movie
+1086	PfSkin - ArtistDetailUI	s33x8418rlklt26n-n33_k1jx	upgradeBtn	UPGRADE
+1087	PfSkin - ComfirmUI	s33x8418jazc1lg-n86_qw0i	okBtn	OK
+1088	PfSkin - ArtistDetailUI	s33x8418rlklt26n-n40_k1jx	renqizhi	Popularity
+1089	WarMovie - CompletedConditions	y6ozucp1r0zd5a-n14_r0zd	tip	It's going to
+1090	PfSkin - ComfirmUI	s33x8418jazc1lg-n87_qw0i	cancleBtn	CANCEL
+1091	WarMovie - FilmingTip	y6ozucp1r0zd4s-n38_r0zd	title	Complete
+1092	PfSkin - ArtistDetailUI	s33x8418rlklt26n-n43_k1jx	srcName	Oringin Name: Name
+1093	WarMovie - WarActorItem	y6ozucp1qbxl62-n20_qbxl	yrName	Alice Lv.152
+1094	PfSkin - ItemNotEnoughUI	s33x8418jazc1lh-n86_qw0i	n86	Needed
+1095	WarMovie - WarActorItem	y6ozucp1qbxl62-n24_qbxl	attribute1Val	1,235K
+1096	WarMovie - WarActorItem	y6ozucp1qbxl62-n25_qbxl	attribute2Val	1,235K
+1097	PfSkin - ArtistDetailUI	s33x8418rlklt26n-n38_k1jx	needGold	Coin required for upgrade: 1000
+1098	PfSkin - ItemNotEnoughUI	s33x8418jazc1lh-n90_qw0i	n90	[color=#ff0000]Insufficient[/color] likes
+1099	PfSkin - ItemNotEnoughUI	s33x8418jazc1lh-n91_qw0i	n91	You can gain this by:
+1100	PfSkin - ItemNotEnoughUI	s33x8418jazc1lh-n96_qw0i	n96	More info
+1101	PfSkin - LabAsset	s33x8418mywn1kb-n3_hz8v	title	55K
+1102	WarMovie - WarActorProperty	y6ozucp1yytj5p-n16_yytj	title	Co-star
+1103	WarMovie - WarAttributeUpTip	y6ozucp1moqedl-n58_moqe	title	Script
+1104	PfSkin - LabItem_little	s33x8418j6cs1n9-n1	title	1,330K
+1105	WarMovie - WarAudienceItem	y6ozucp1qbxl74-n38_qbxl	name	BMD Cinema
+1106	WarMovie - WarAudienceReputation	y6ozucp1qbxl73-n29_qbxl	filmName	Film Name
+1107	PfSkin - ActorDetailUI	s33x8418jazc1kz-n42_d6rl	desc	Actor Intro 1
+1108	WarMovie - Warbubble	y6ozucp1r0zd3t-n32_r0zd	title	Gorgeo
+1109	PfSkin - ActorDetailUI	s33x8418jazc1kz-n52_d6rl	show	Skilled
+1110	WarMovie - WarContinuousIncome	y6ozucp1qbxl84-n29_qbxl	filmName	Film Name
+1111	WarMovie - WarContinuousIncome	y6ozucp1qbxl84-n32_qbxl	incomeTime	Audience Review:
+1112	WarMovie - WarContinuousIncome	y6ozucp1qbxl84-n66_qbxl	guanzhuduValue	Movie Hype:
+1113	WarMovie - WarContinuousIncome	y6ozucp1qbxl84-n71_qbxl	promotionBtn	UPGRADE
+1114	WarMovie - WarContinuousIncome	y6ozucp1qbxl84-n52_qbxl	okBtn	OK
+1115	WarMovie - WarContinuousIncome	y6ozucp1qbxl84-n76_qbxl	Income	+110M/hr
+1116	WarMovie - WarContinuousIncome	y6ozucp1qbxl84-n77_qbxl	tip1	Have a chance of getting:
+1117	WarMovie - WarContinuousIncome	y6ozucp1qbxl84-n96_qbxl	lockTip	Unlock
+1118	WarMovie - WarContinuousIncome	y6ozucp1qbxl84-n102_qbxl	overTip1	Earnings Ended
+1119	WarMovie - WarContinuousIncome	y6ozucp1qbxl84-n103_qbxl	overTip	the higher {the}
+1120	WarMovie - WarContinuousIncome	y6ozucp1qbxl84-n110_qbxl	cityName	23.Beijing
+1121	PfSkin - ActorDetailUI	s33x8418jazc1kz-n55_d6rl	age	Skilled
+1122	WarMovie - WarContinuousIncome	y6ozucp1qbxl84-n111_qbxl	Income2	+110M/hr
+1123	WarMovie - WarContinuousIncome	y6ozucp1qbxl84-n114_qbxl	cantTip	Unoccupied City
+1124	WarMovie - WarContinuousIncome	y6ozucp1qbxl84-n115_qbxl	okBtn2	SWITCH
+1125	WarMovie - WarContinuousIncome	y6ozucp1qbxl84-n118_qbxl	tip2	It's
+1126	PfSkin - ArtistItemView	s33x8418n2px1n3-n5_mgsc	level	Lv.300
+1127	Street - StreetRewardView	mu4e45moky79v-n64_oebq-texts	txtTip	Unlock
+1128	WarMovie - WarCostView	y6ozucp1r0zd2y-n7_r0zd	costText	14K
+1129	PfSkin - ActorDetailUI	s33x8418jazc1kz-n58_d6rl	attTitle1	Scene
+1130	WarMovie - WarCurrentMarketInfo	y6ozucp1qbxl8h-n3_qbxl	des	Market|n|At|n|Kai|n|the
+1131	WarMovie - WarEndIncomeItem	y6ozucp1qbxl8f-n25_qbxl	filmName	Musical
+1132	WarMovie - WarEndIncomeItem	y6ozucp1qbxl8f-n26_qbxl	shouyipingjia	Earnings Evalution: 20 min
+1133	WarMovie - WarEndIncomeItem	y6ozucp1qbxl8f-n27_qbxl	timeLeftTip	Time Left:
+1134	WarMovie - WarEndingIncome	y6ozucp1qbxl8c-n3_r0zd	nameTip	Actors are paid for filming <Opening and Closing >:
+1135	WarMovie - WarEndingIncome	y6ozucp1qbxl8c-n9_r0zd	title	Cost
+1136	PfSkin - ActorDetailUI	s33x8418jazc1kz-n62_d6rl	attTitle2	Scene
+1137	WarMovie - WarFeedBack	y6ozucp1qbxl6u-n9_r0zd	title	Cost
+1138	WarMovie - WarFeedBack	y6ozucp1qbxl6u-n29_qbxl	filmName	Film Name
+1139	WarMovie - WarFilmInfo	y6ozucp1r0zd59-n2_r0zd	title	Info
+1140	WarMovie - WarFilmInfo	y6ozucp1r0zd59-n6_r0zd	filmName	Film Name
+1141	PfSkin - ActorDetailUI	s33x8418jazc1kz-n66_d6rl	attTitle3	Scene
+1142	WarMovie - WarFilming	y6ozucp1r0zd3w-n48_r0zd	filmName	Film Name
+1143	WarMovie - WarFilming	y6ozucp1r0zd3w-n49_r0zd	filmTime	90min
+1144	WarMovie - WarFilmingSelectTipItem	y6ozucp1r0zd58-n59_r0zd	title	{w} Participates in {3}, Giving the {w}
+1145	WarMovie - WarFilmingYRItem	y6ozucp1r0zd57-n57_r0zd	mingzi	Name
+1146	WarMovie - WarFilmingYRItem	y6ozucp1r0zd57-n62_qnq0	tip	Content
+1147	WarMovie - WarFilmJiesuan	y6ozucp1qbxl7b-n2_qbxl	filmName	Film Name
+1148	WarMovie - WarFilmJiesuan	y6ozucp1qbxl7b-n3_qbxl	filmType	Film Name
+1149	PfSkin - ActorDetailUI	s33x8418jazc1kz-n70_d6rl	attTitle4	Scene
+1150	WarMovie - WarFilmJiesuan	y6ozucp1qbxl7b-n4_qbxl	filmTime	Film Name
+1151	WarMovie - WarFilmJiesuan	y6ozucp1qbxl7b-n6_qbxl	koubei	Score: 40
+1152	WarMovie - WarFilmJiesuan	y6ozucp1qbxl7b-n10_qbxl	auther	Name
+1153	WarMovie - WarFilmJiesuan	y6ozucp1qbxl7b-n19_qbxl	rewardValue	Earning: +23,948.5%
+1154	WarMovie - WarFilmJiesuan	y6ozucp1qbxl7b-n20_qbxl	tip5	The
+1155	WarMovie - WarFilmJiesuan	y6ozucp1qbxl7b-n22_qbxl	filmTip	Nothing
+1156	PfSkin - ArtistTabBtn	s33x8418n2px1n4-n6_k1jx	title	Basic
+1157	WarMovie - WarFilmOverMarketInfo	y6ozucp1qbxl79-n3_qbxl	tip	Market
+1158	PfSkin - ActorIcon	s33x8418c4evt1x5-n14_kk9x	title	Leo
+1159	WarMovie - WarFilmShangYing	y6ozucp1qbxl75-n5_qbxl	filmName	Film Name
+1160	WarMovie - WarFilmShangYing	y6ozucp1qbxl75-n7_qbxl	filmTime	It's going
+1161	WarMovie - WarFilmShangYing	y6ozucp1qbxl75-n9_qbxl	filmTotal	The
+1162	WarMovie - WarFilmShangYing	y6ozucp1qbxl75-n10_qbxl	filmcurrent	Day
+1163	WarMovie - WarFilmSQView	y6ozucp1qbxl6m-n41_qbxl	filmName	Film Name
+1164	PfSkin - ActorIcon	s33x8418kk9x1v3-n14_kk9x	title	Leo
+1165	WarMovie - WarFilmSQView	y6ozucp1qbxl6m-n42_qbxl	filmTime	90min
+1166	WarMovie - WarFilmSQView	y6ozucp1qbxl6m-n60_j0te	type	Crime/Action
+1167	WarMovie - WarFilmTypeItem	y6ozucp1r0zd4z-n53_r0zd	title	Sci-Fi
+1168	WarMovie - WarFilmTypeSelectItem	y6ozucp1qbxl6a-n26_qbxl	filmType	Musical
+1169	PfSkin - ActorItem	s33x8418mywn1kl-n109_xl2j	labDemand1	Scene 1000
+1170	WarMovie - WarFilmTypeSelectItem	y6ozucp1qbxl6a-n27_qbxl	lovePeople	Target Demographic: Children
+1171	WarMovie - WarFilmYirenItem	y6ozucp1r0zd5l-n26_r0zd	mingzi	Name
+1172	WarMovie - WarFrreBackItem	y6ozucp1qbxl72-n38_qbxl	noticeName	BMD Cinema
+1173	WarMovie - WarFrreBackItem	y6ozucp1qbxl72-n53_qbxl	des	Same movie
+1174	WarMovie - WarGoodsItem	y6ozucp1qbxl7u-n29_qbxl	title	14.545M
+1175	PfSkin - ArtistDetailUI	s33x8418kl6dt21l-n15_k1jx	name	Actor
+1176	WarMovie - WarMoveTextUD	y6ozucp1r0zd4w-n8_r8ay	title	Description
+1177	WarMovie - WarNotice	y6ozucp1qbxl6c-n3_r0zd	nameTip	Actors are paid for filming <Opening and Closing >:
+1178	PfSkin - ArtistDetailUI	s33x8418kl6dt21l-n22_k1jx	biaoqian1	Tag
+1179	WarMovie - WarNotice	y6ozucp1qbxl6c-n9_r0zd	title	Cost
+1180	WarMovie - WarPaishequeren	y6ozucp1r0zd2v-n3_qbxl	tip	Tip text
+1181	PfSkin - WarFilmTypeItem	s33x8418r8ay1fb-n7_znuj	title	Horror
+1182	PfSkin - ActorItem	s33x8418mywn1kl-n110_xl2j	labDemand2	Scene 1000
+1183	WarMovie - WarSelectActor	y6ozucp1yytj5m-n31_qbxl	title	Cost
+1184	PfSkin - ArtistDetailUI	s33x8418kl6dt21l-n53_kw95	biaoqian2	Tag
+1185	WarMovie - WarSelectActorItem	y6ozucp1yytj5o-n13_yytj	chName	Name
+1186	WarMovie - WarSelectFilmType	y6ozucp1qbxl67-n3_r0zd	nameTip	Actors are paid for filming <Opening and Closing >:
+1187	WarMovie - WarSelectFilmType	y6ozucp1qbxl67-n9_r0zd	title	Cost
+1188	WarMovie - WarTargetFailed	y6ozucp1qbxl9t-n14_qbxl	tip	Filming
+1189	PfSkin - ArtistDetailUI	s33x8418kl6dt21l-n33_k1jx	upgradeBtn	UPGRADE
+1190	PfSkin - ActorItem	s33x8418mywn1kl-n111_qz6z	title	Abraham
+1191	WarMovie - WarXKHuifu	y6ozucp1qbxl8k-n13_qbxl	bottomTip	The
+1192	WarMovie - WarXukezhengOver	y6ozucp1qbxl97-n5_qbxl	getTip	Today's
+1193	PfSkin - ArtistDetailUI	s33x8418kl6dt21l-n40_k1jx	renqizhi	Popularity
+1194	WarMovie - WarXukezhengOver	y6ozucp1qbxl97-n6_qbxl	title	Cost
+1195	WarMovie - WarYRCostItem	y6ozucp1r0zd3g-n21_r0zd	juese	Star
+1196	WarMovie - WarYRCostItem	y6ozucp1r0zd3g-n22_r0zd	name	Name
+1197	WarMovie - WarYRFilmItem	y6ozucp1r0zd3u-n38_r0zd	tip	This script is not difficult
+1198	WarMovie - WarYRForFilm	y6ozucp1r0zd3s-n9_r0zd	title	Actor Fit
+1199	WarMovie - WarYRNoticeItem	y6ozucp1moqedn-n50_moqe	lv	Lv.7
+1200	WarMovie - WarYRNoticeItem	y6ozucp1moqedn-n51_moqe	title	Outdoor Concert
+1201	PfSkin - ArtistDetailUI	s33x8418kl6dt21l-n43_k1jx	srcName	Oringin Name: Name
+1202	PfSkin - ArtistDetailUI	s33x8418kl6dt21l-n38_k1jx	needGold	Coin required for upgrade: 1000
+1203	PfSkin - ActorItem	s33x8418mywn1kl-n118_10qag	btnPromotion	Rise scene
+1204	Street - StreetRankPanel	mu4e45moky79k-n68_seun	title	Match [color=#ffffff]Group 23245[/color] on June 20
+1205	Oscar - OscarDailyCheckbox	spuqgpclyyljb-n8_rjg3-texts_def	title	Today
+1206	PfSkin - Dialog	s33x8418js171nw-n90_qw0i	title	Choose an unique name
+1207	Produce - BtnOffActor	eg7c5x5regep1i-n4	title	Recall
+1208	Produce - ProduceItem	eg7c5x5rfd65g-n36_fd65	descText	This hat will bring me luck
+1209	PfSkin - ArtistBasePanel	s33x8418jazc1l2-n23_k1jx	movieTitle	Actor Intro
+1210	PfSkin - ArtistDetailUI	s33x8418jazc1l3-n22_k1jx	biaoqian1	Tag
+1211	PfSkin - ArtistDetailUI	s33x8418jazc1l3-n53_kw95	biaoqian2	Tag
+1212	PfSkin - ArtistForzenItem	s33x8418jazc1lz-n58_d6rl	show	Skilled
+1213	Market - MarketPublicityPanel	p7g5z54adm319z-n83_hxi2	n83	Advertising…
+1214	WarMovie - WarPaishequeren	y6ozucp1r0zd2v-n13_qbxl	cost	1
+1215	PfSkin - ArtistForzenItem	s33x8418jazc1lz-n59_d6rl	age	Idol
+1216	Guide - GuideTaskUI	toebkrsrhz3mz-n13_hz3m	recordsBtn	RECORD
+1217	PfSkin - ArtistGetUI	s33x8418eb3n1oa-n64_eb3n	n64	New actor get
+1218	PfSkin - ArtistFindPanel	s33x84189wvbt260-n29_d6rl	time	Refresh Time: 00: 00: 00
+1219	PfSkin - ArtistScoutSuccessUI	s33x8418jazc1la-n38_htqt	success	Recruit Successed!
+1220	PfSkin - ArtistFindPanel	s33x84189wvbt260-n32_9ut9	leaveTip	Refresh Time: 00: 00: 00
+1221	PfSkin - btnSelect	s33x8418rn1rt1w2-n4_cpc9	Title	Select
+1222	PfSkin - ArtistScoutSuccessUI	s33x8418jazc1la-n40_htqt	reName	Do you want to rename this actor?
+1223	PfSkin - YellowBtn	s33x8418rlklt26q-n6_k1jx	title	Upgrade
+1224	PfSkin - YellowBtn3	s33x8418jazc1mz-n6_k1jx	name	Revive
+1225	PfSkin - YellowBtn6	s33x8418rlklt26s-n6_k1jx	title	Training
+1226	PfSkin - YellowBtn7	s33x8418rn1rt1vq-n6_k1jx	name	Speed up
+1227	PfSkin - ItemGetUI	s33x8418lrcb1no-n85_qw0i	title	Hide
+1228	PfSkin - ArtistScoutSuccessUI	s33x8418jazc1la-n56_jdsf	pieceNum	100
+1229	PfSkin - ArtistListPanel	s33x84189wvbt25y-n41_gxxx	name1	Agency
+1230	Oscar - OscarShowPanel	spuqgpclyylj2-n64_enjf	input	Enter content here
+1231	PfSkin - ArtistListPanel	s33x84189wvbt25y-n42_gxxx	name2	Hide
+1232	PfSkin - ArtistListPanel	s33x84189wvbt25y-n49_wgdo	canScountTitle	Recruitable:
+1233	PfSkin - ArtistSkillItem	s33x8418jazc1m2-n8_k1jx	tCost	Exp cost
+1234	PfSkin - OtherPlayerUI	s33x8418lq441ul-n15_k1jx	title	Actor 1
+1235	PfSkin - OtherPlayerUI	s33x8418lq441ul-n56_lq44	n56	Han
+1236	PfSkin - ArtistAgentPanel	s33x8418jazc1l0-n42_k1jx	title	Personal Coach
+1237	PfSkin - OtherPlayerUI	s33x8418lq441ul-n57_lq44	n57	Han
+1238	PfSkin - OtherPlayerUI	s33x8418lq441ul-n58_lq44	n58	Han
+1239	PfSkin - ArtistAgentPanel	s33x8418jazc1l0-n56_k1jx	title2	Personal Coach
+1240	PfSkin - OtherPlayerUI	s33x8418lq441ul-n59_lq44	n59	Competition Rank
+1241	PfSkin - OtherPlayerUI	s33x8418lq441ul-n60_lq44	n60	Competition Rank
+1242	PfSkin - OtherPlayerUI	s33x8418lq441ul-n61_lq44	n61	Competition Rank
+1243	PfSkin - OtherPlayerUI	s33x8418lq441ul-n62_lq44	n62	Competition Rank
+1244	PfSkin - ArtistAgentPanel	s33x8418jazc1l0-n58_k1jx	tipLabel1	Hire other actors(3 or 4 star) as personal coach
+1245	PfSkin - ProfitLevel2Panel	s33x8418lq441up-n72_lq44	n72	Best Sell
+1246	PfSkin - ArtistAgentPanel	s33x8418jazc1l0-n59_k1jx	tipLabel2	(Coming soon)
+1247	WarMovie - WarAudienceItem	y6ozucp1qbxl74-n45_qbxl	des	Same Movie
+1248	PfSkin - ProfitLevel2Panel	s33x8418lq441up-n76_lq44	n76	Headman
+1249	PfSkin - ProfitLevelItem	s33x8418lq441un-n65_lq44	title	5 times
+1250	PfSkin - ScoutDialogUI	s33x8418hvsn1n2-n32_d6rl	title	Boss, I can do back-flips! You won't regret sign contract with me!
+1251	PfSkin - ScoutDialogUI	s33x8418n2px1n6-n32_d6rl	title	Boss, I can do back-flips! You won't regret sign contract with me!
+1252	PfSkin - ArtistUI	s33x8418jazc1lf-n14_d6rl	canScount	Recruitable 10/10
+1253	PfSkin - ArtistUI	s33x8418jazc1lf-n30_d6rl	remianTime	Recruiting cool down time
+1254	PfSkin - AwardsInfoItem.ts	s33x8418rjg3t1w3-n4_rjg3	title	Martian Awards: Mrs.Wave
+1255	PfSkin - BagItemInfo	s33x8418ow2j1nq-n80_ow2j	labItem	Flashlight
+1256	PfSkin - ArtistUI	s33x8418jazc1lf-n41_gxxx	name1	Agency
+1257	PfSkin - ArtistUI	s33x8418jazc1lf-n42_gxxx	name2	Hide
+1258	PfSkin - BagItemInfo	s33x8418ow2j1nq-n82_ow2j	txtInfo	Activity participation voucher, can be used to redeem gift package.
+1259	PfSkin - ArtistUI	s33x8418jazc1lf-n49_wgdo	canScountTitle	Recruitable:
+1260	PfSkin - ArtistUI	s33x8418jazc1lf-n29_d6rl	time	Next Recruiting: 00: 00: 00
+1261	PfSkin - ArtistUI	s33x8418jazc1lf-n32_9ut9	leaveTip	Next Recruiting: 00: 00: 00
+1262	PfSkin - ArtistUI	s33x8418jazc1lf-n47_yru4	TalentBtn	Agency
+1263	PfSkin - BagItemInfo	s33x8418ow2j1nq-n83_ow2j	tipAct	It won't disappear after event ends. You can use it in next event.
+1264	PfSkin - ArtistUI	s33x8418jazc1lf-n48_yru4	TrainerBtn	Trainer
+1265	PfSkin - BagItemInfo	s33x8418ow2j1nq-n85_ow2j	btnSale	Sell
+1266	PfSkin - BagItemInfo	s33x8418ow2j1nq-n86_ow2j	btnUse	Use
+1267	PfSkin - BagItemInfo	s33x8418ow2j1nq-n114_7yfc	btnInfo	Details
+1268	PfSkin - YellowBtn	s33x8418jazc1mx-n6_k1jx	title	Upgrade
+1269	PfSkin - BagItemInfo	s33x8418ow2j1nq-n103_ow2j	btnResolve	RESOLVE
+1270	PfSkin - YellowBtn6	s33x8418jzhf1vk-n6_k1jx	title	Training
+1271	PfSkin - BagItemInfo	s33x8418ow2j1nq-n104_ow2j	btnGive	SEND
+1272	PfSkin - BagItemInfo	s33x8418ow2j1nq-n105_ow2j	btnCompound	COMPOUND
+1273	PfSkin - BagMainPanel	s33x8418mywn1k4-n67_xl2j	n67	DEPOT
+1274	PfSkin - BagMainPanel	s33x8418mywn1k4-n4_n8uo-0	listTab	Products
+1275	PfSkin - BagMainPanel	s33x8418mywn1k4-n4_n8uo-1	listTab	Items
+1276	System - YellowBtn	fiza9hgrgdopt-n6_k1jx	title	UPGRADE
+1277	PfSkin - ArtistHeroPanel	s33x8418jazc1l8-n56_k1jx	title2	Exclusive Coach
+1278	PfSkin - BagMainPanel	s33x8418mywn1k4-n4_n8uo-2	listTab	Property
+1279	PfSkin - ArtistHeroPanel	s33x8418jazc1l8-n58_k1jx	tipLabel1	Hire other actors(3 or 4 star) as personal coach
+1280	PfSkin - ArtistHeroPanel	s33x8418jazc1l8-n59_k1jx	tipLabel2	(Coming soon)
+1281	PfSkin - ArtistHeroPanel	s33x8418jazc1l8-n61_k1jx	n61	Public Relations
+1282	PfSkin - BagMainPanel	s33x8418mywn1k4-n4_n8uo-3	listTab	Contract
+1283	Produce - ActorItem	eg7c5x5rvw1qw-n111_qz6z	title	Abraham
+1284	PfSkin - btn_rename	s33x8418l8141vc-n4	btnName	RENAME
+1285	Produce - BtnGetAwardAll	eg7c5x5rt2271e-n5_fd65	title	Claim All
+1286	PfSkin - BtnCity	s33x8418mywn1kh-n7_v8at	title	32.Beijing
+1287	Produce - BtnProduceAll	eg7c5x5rt2271d-n5_fd65	title	Auto Produce
+1288	PfSkin - BtnCityPoint	s33x8418mywn1kg-n8_v8at	n8	(Advertising Complete!)
+1289	PfSkin - BtnCongratulate	s33x8418yb8tt1vb-n87_yb8t	title	Congratulations
+1290	PfSkin - btnRoadShow	s33x8418udqe1um-n45_hxi2	n45	Roadshow
+1291	PfSkin - btnRoadShow	s33x8418udqe1um-n57_hxi2	n57	(Success)
+1292	PfSkin - btnRoadShow	s33x8418udqe1um-n69_j6cs	labCost	1,000k
+1293	PfSkin - btnTab	s33x8418mywn1kn-n4	title	Tab
+1294	PfSkin - BusinessLoadingPanel	s33x8418jzhf1vb-n146_jzhf	title	Loading business…
+1295	PfSkin - BusinessMsgPanel	s33x8418jzhf1va-n139_jzhf	content	Content
+1296	PfSkin - BusinessMsgPanel	s33x8418jzhf1va-n140_jzhf	n140	Get:
+1297	PfSkin - BusinessMsgPanel	s33x8418jzhf1va-n145_jzhf	company	Company name
+1298	PfSkin - BusinessUI	s33x8418jzhf1v8-n127_jzhf	name	From: Sender
+1299	PfSkin - BusinessUI	s33x8418jzhf1v8-n128_jzhf	title	From: Sender
+1300	PfSkin - BusinessUI	s33x8418jzhf1v8-n132_jzhf	remain	Pending
+1301	PfSkin - BusinessUI	s33x8418jzhf1v8-n135_jzhf	auto	Auto-Approve
+1302	PfSkin - BusinessUI	s33x8418jzhf1v8-n136_jzhf	tip	Requires block rank 5
+1303	PfSkin - CinemaSelectItem	s33x84186ia7t1v9-n34_6ia7	n31	Theater owned
+1304	PfSkin - CinemaSelectItem	s33x84186ia7t1v9-n36_6ia7	n31	Audience favor
+1305	PfSkin - CinemaSelectItem	s33x84186ia7t1v9-n37_6ia7	txtLike	Male Actor
+1306	PfSkin - CinemaSelectItem	s33x84186ia7t1v9-n39_6ia7	txLevel	Details
+1307	PfSkin - CountryItem	s33x8418mywn1km-n10_l30c	txtName	1. China
+1308	PfSkin - CountryItem	s33x8418mywn1km-n11_l30c	txtProgress	Occupied Cities: 36/40
+1309	PfSkin - GroupMovieView	s33x8418oebq1vr-n15_oebq	n19	Ranking
+1310	PfSkin - GroupMovieView	s33x8418oebq1vr-n16_oebq	n20	Movie
+1311	PfSkin - GroupMovieView	s33x8418oebq1vr-n18_oebq	n22	Company
+1312	PfSkin - GroupMovieView	s33x8418oebq1vr-n19_oebq	n23	Box-office
+1313	PfSkin - GroupMovieView	s33x8418oebq1vr-n23_oebq	n24	My best movie
+1314	PfSkin - GroupMovieView	s33x8418oebq1vr-n27_oebq	n25	Movie box-office
+1315	PfSkin - GroupMovieView	s33x8418oebq1vr-n28_oebq	n26	Box-office ranking
+1316	PfSkin - GroupMovieView	s33x8418oebq1vr-n33_oebq	txtMovieRank	No.0
+1317	PfSkin - GroupRankView	s33x8418oebq1vq-n39_oebq	n24	My ranking:
+1318	PfSkin - GroupRankView	s33x8418oebq1vq-n46_oebq	n24	Total box-office
+1319	PfSkin - GroupRankView	s33x8418oebq1vq-n47_oebq	n24	Award
+1320	PfSkin - GroupRankView	s33x8418oebq1vq-n43_oebq	txtGroupMovieRank	No.0
+1321	PfSkin - GroupRankView	s33x8418oebq1vq-n52_oebq	tip	Regroup and reranking after awards
+1322	PfSkin - GroupRankView	s33x8418oebq1vq-n8_oebq	n19	Ranking
+1323	PfSkin - GroupRankView	s33x8418oebq1vq-n9_oebq	n20	Rewards
+1324	PfSkin - GroupRankView	s33x8418oebq1vq-n12_oebq	n20	Company
+1325	PfSkin - GroupRankView	s33x8418oebq1vq-n13_oebq	n20	Box-office
+1326	WarMovie - WarAudienceReputation	y6ozucp1qbxl73-n53_qbxl	audTip1	
+1327	PfSkin - HeadTipDialogPanel	s33x8418jzhf1vl-n22_jzhf	title	How's the price?
+1328	PfSkin - ItemIcon	s33x8418oebq1vy-n14_kk9x	title	Leo
+1329	PfSkin - LineText	s33x8418jazc1mh-n12_d6rl	title	Hide actor
+1330	PfSkin - MailMainPanel	s33x8418klss1ud-n0_klss	viewPanel	Mail
+1331	PfSkin - MailMainPanel	s33x8418klss1ud-n27_klss	n27	Delete Read
+1332	PfSkin - ManagerOrderNeedPanel	s33x8418lq441uw-n106_lq44	title	Fulfilling fans' wish will make them supporting us more!
+1333	WarMovie - WarFeedBack	y6ozucp1qbxl6u-n53_qbxl	feedTip1	
+1334	PfSkin - ManagerOrderNeedPanel	s33x8418lq441uw-n107_lq44	orderLabel	Order detail:
+1335	PfSkin - ManagerOrderNeedPanel	s33x8418lq441uw-n112_lq44	completeLabel	Complete rewards:
+1336	PfSkin - ManagerOrderNeedPanel	s33x8418lq441uw-n114_lq44	otherLabel	Extra effects:
+1337	PfSkin - ManagerOrderUI	s33x8418lq441uq-n70_lq44	sortOrder	Order in line
+1338	PfSkin - ManagerOrderUI	s33x8418lq441uq-n117_lq44	noneOrder	No more order for now
+1339	PfSkin - ArtistFindPanel	s33x84189wvbt25z-n29_d6rl	time	
+1340	Street - StreetInfoPanel	mu4e45moky796-n39_h67b	txtStreetInfo	Info
+1341	PfSkin - ManagerOrderUI	s33x8418lq441uq-n118_lq44	newOrderWay	You can receive new orders from filming movies and advertising
+1342	PfSkin - ArtistFindPanel	s33x84189wvbt25z-n32_9ut9	leaveTip	
+1343	PfSkin - MarketActorItem	s33x8418p9t7t1x3-n109_xl2j	labDemand1	Scene 1000
+1344	PfSkin - BagItemInfo	s33x8418ow2j1nq-n90_ow2j	n46	
+1345	PfSkin - MarketActorItem	s33x8418p9t7t1x3-n110_xl2j	labDemand2	Scene 1000
+1346	WarMovie - WarFilmSQ	y6ozucp1qbxl9r-n4_qbxl	tip2	
+1347	PfSkin - MarketActorItem	s33x8418p9t7t1x3-n111_qz6z	title	Abraham
+1348	PfSkin - MarketActorItem	s33x8418p9t7t1x3-n118_10qag	btnPromotion	RISE
+1349	PfSkin - MarketCityInfoPanel	s33x8418mywn1kq-n28_v8at	n28	Brand Ambassador: (Different conditions applied)
+1350	PfSkin - MarketCityInfoPanel	s33x8418mywn1kq-n43_hz8v	cityName	Kunming Market
+1351	PfSkin - MarketCityInfoPanel	s33x8418mywn1kq-n44_hz8v	n44	Earnings from occupied market
+1352	PfSkin - MarketCityInfoPanel	s33x8418mywn1kq-n75_bjuq-0	listAssetSpeed	100k/hr
+1353	PfSkin - MarketCityInfoPanel	s33x8418mywn1kq-n75_bjuq-1	listAssetSpeed	100k/hr
+1354	PfSkin - MarketCityInfoPanel	s33x8418mywn1kq-n74_bjuq-0	listAsset	100k/200k
+1355	PfSkin - MarketCityInfoPanel	s33x8418mywn1kq-n74_bjuq-1	listAsset	100k/200k
+1356	PfSkin - MarketCityInfoPanel	s33x8418mywn1kq-n68_hz8v	btnGet	COLLECT
+1357	PfSkin - MarketCityInfoPanel	s33x8418mywn1kq-n88_l2mn	n88	Marketing earnings are determined by the total number of cities occupied and brand ambassadors sent
+1358	PfSkin - MarketCountryListPanel	s33x8418mywn1kv-n13_l30c	btnShow	CHECK
+1359	PfSkin - MarketLabAsset	s33x8418p9t7t1x4-n3_hz8v	title	55k
+1360	PfSkin - MarketMainPanel	s33x8418mywn1kr-n52_l30c	txtCountry	1.China 30/40
+1361	PfSkin - MarketOccupyPanel	s33x8418mywn1ks-n48_hxi2	n48	Rewards
+1362	PfSkin - MarketOccupyPanel	s33x8418mywn1ks-n41_hxi2	n41	(After complete advertising in all streets, you can occupy the local market and obtain long-term benefits)
+1363	PfSkin - MarketOccupyPanel	s33x8418mywn1ks-n42_hxi2	cityName	30.Kunming market completeness
+1364	PfSkin - MarketOccupyPanel	s33x8418mywn1ks-n59_hxi2	btnZhanling	OCCUPY
+1365	PfSkin - MarketOccupyPanel	s33x8418mywn1ks-n71_qz6z	labAniCost	1000k
+1366	PfSkin - MarketPublicityPanel	s33x8418mywn1kt-n34_bjuq	name	Holiday beach street
+1367	PfSkin - BagMainPanel	s33x8418mywn1k4-n54_n8uo	btnLv	Upgrade
+1368	PfSkin - MarketPublicityPanel	s33x8418mywn1kt-n105_xl2j	n105	Local market requirement:
+1369	PfSkin - MarketPublicityPanel	s33x8418mywn1kt-n36_bjuq	demand	According to our survey, the local audience prefer plot |n|If we assign the right actor, our advertising will be more effective!
+1370	PfSkin - MarketPublicityPanel	s33x8418mywn1kt-n104_xl2j	n104	Requirement:
+1371	PfSkin - MarketPublicityPanel	s33x8418mywn1kt-n39_bjuq	actorDemand	[color=#3399FF]Scenario[/color] [color=#ffffff] at least 250[/color]|n|[color=#3399FF]Age[/color] [color=#ffffff] Idol[/color]
+1372	PfSkin - MarketPublicityPanel	s33x8418mywn1kt-n103_xl2j	n103	Progress
+1373	PfSkin - MarketPublicityPanel	s33x8418mywn1kt-n97_v9x6	labCost	500,0k
+1374	PfSkin - MarketPublicityPanel	s33x8418mywn1kt-n98_v9x6	n93	Advertise
+1375	PfSkin - MarketPublicityPanel	s33x8418mywn1kt-n66_hxi2	n66	Auto-Advertise
+1376	PfSkin - MarketPublicityPanel	s33x8418mywn1kt-n67_hxi2	n67	Unlock after hiring a secretary
+1377	PfSkin - MarketPublicityPanel	s33x8418mywn1kt-n83_hxi2	n83	Advertising
+1378	PfSkin - BagMainPanel	s33x8418mywn1k4-n56_n8uo	n56	Depot Storage
+1379	PfSkin - MarketRoadShowPanel	s33x8418mywn1kw-n2_l0d4	btnSkip	SKIP
+1380	PfSkin - MarketRoadShowPanel	s33x8418mywn1kw-n50_xl2j	n50	Goal:
+1381	PfSkin - MarketSelectActorPanel	s33x8418mywn1ku-n71_hxi2	title	Select spokesperson
+1382	PfSkin - Marquee	s33x8418swip1uc-n81_swip	title	RAISE
+1383	PfSkin - MeetingAskPricePanel	s33x8418jzhf1vm-n12_jzhf	tip	Raise price
+1384	PfSkin - MeetingAskPricePanel	s33x8418jzhf1vm-n18_jzhf	needPay	They're willing to pay us:
+1385	PfSkin - MeetingGamePanel	s33x8418jzhf1vp-n25_jzhf	other	Negotiator
+1386	PfSkin - MeetingGamePanel	s33x8418jzhf1vp-n28_jzhf	title	Negotiator
+1387	PfSkin - MeetingResultPanel	s33x8418jzhf1vq-n22_jzhf	next	Fans awaiting: 3/3
+1388	PfSkin - MenuIcon	s33x8418pn361w2-n1	title	1330k
+1389	PfSkin - MettingStartPanel	s33x8418jzhf1vj-n7_jzhf	next	Fans awaiting: 3/3
+1390	PfSkin - MovieInfoItem	s33x8418jakwt1wx-n61_jakw	n61	Prince of Persia
+1391	PfSkin - MovieInfoItem	s33x8418jakwt1wx-n62_jakw	n62	110M
+1392	PfSkin - OscarCandidateItem	s33x8418rjg3t1w4-n35_iybc	name	Lee
+1393	PfSkin - OscarCandidateItem	s33x8418rjg3t1w4-n36_iybc	title	Excalibur
+1394	PfSkin - OscarCandidateItem	s33x8418jpa4t1w6-n35_iybc	name	Lee
+1395	PfSkin - OscarCandidateItem	s33x8418jpa4t1w6-n36_iybc	title	Excalibur
+1396	PfSkin - OscarCupItem	s33x8418jpa4t1w7-n30_iybc	title	Best Art Movie
+1397	PfSkin - OscarCupItem	s33x8418jpa4t1w7-n28_iybc	name	Excalibur
+1398	PfSkin - OscarCupItem	s33x8418jpa4t1w7-n27_iybc	btnCongra	CONGRAT
+1399	PfSkin - OscarCupItem	s33x8418jpa4t1w7-n31_n7b4	btnReward	COLLECT
+1400	PfSkin - OscarCupItem	s33x8418iybct1vs-n30_iybc	title	Best Art Movie
+1401	PfSkin - OscarCupItem	s33x8418iybct1vs-n28_iybc	name	Excalibur
+1402	PfSkin - OscarCupItem	s33x8418iybct1vs-n27_iybc	btnCongra	CONGRAT
+1403	PfSkin - OscarCupItem	s33x8418iybct1vs-n31_n7b4	btnReward	COLLECT
+1404	PfSkin - OscarDailyCheckbox	s33x8418puw0t1w7-n8_rjg3	title	Yesterday
+1405	WarMovie - WarFilmTypeSelectItem	y6ozucp1qbxl6a-n31_qbxl	rewardTip	Reward:
+1406	PfSkin - OscarDailyCheckbox	s33x8418puw0t1w7-n8_rjg3-texts	title	Yesterday
+1407	PfSkin - OscarDailyCheckbox	s33x8418puw0t1w7-n8_rjg3-texts_def	title	Today
+1408	PfSkin - OscarDanmuContent	s33x8418p9t7t1x1-n59_ifoc	title	Title
+1409	PfSkin - OscarRewardItem	s33x8418rjg3t1w0-n11_rjg3	title	Best of the day: none
+1410	PfSkin - OscarRewardItem	s33x8418rjg3t1w0-n12_rjg3	tip	No movie filmed
+1411	PfSkin - CommonIcon	s33x8418pn361w4-n1	title	1330k
+1412	PfSkin - OscarRewardItem	s33x8418rjg3t1w0-n18_rjg3	info	No movie filmed
+1413	PfSkin - OscarRewardItem	s33x8418rjg3t1w0-n19_rjg3	btnReward	COLLECT
+1414	PfSkin - OscarRewardPanel	s33x8418rjg3t1vw-n5_rjg3	btnConfirm	OK
+1415	PfSkin - OscarRewardPanel	s33x8418rjg3t1vw-n6_rjg3	title	Today's competition rewards
+1416	PfSkin - OscarRewardPanel	s33x8418rjg3t1vw-n7_rjg3	n7	Result
+1417	PfSkin - OscarRewardPanel	s33x8418rjg3t1vw-n8_rjg3	n8	Rewards
+1418	PfSkin - OscarShowPanel	s33x8418iybct1vp-n45_f4ok	btnSend	SEND
+1419	PfSkin - OscarShowPanel	s33x8418iybct1vp-n49_rjg3	btnClose	EXIT
+1420	PfSkin - PlayerMovieInfo	s33x8418jakwt1wy-n69_jakw	n69	Best sell movie
+1421	PfSkin - PlayerMovieInfo	s33x8418jakwt1wy-n70_jakw	n70	Best sell series
+1422	PfSkin - PublicNoticePanel	s33x8418l8141v9-n3_l814	labContent	Should you have any suggestions: Settings->Feedback
+1423	PfSkin - PublicNoticePanel	s33x8418l8141v9-n5_l814	n5	Don't show again today
+1424	PfSkin - RankGroupItem	s33x8418oebq1vm-n61_swip-texts	n61	|2|3
+1425	PfSkin - RankGroupItem	s33x8418oebq1vm-n65_swip	txtMovie	50000k
+1426	PfSkin - RankGroupItem	s33x8418oebq1vm-n63_swip	txtName	Bad Monkey
+1427	PfSkin - RankGroupMovieItem	s33x8418oebq1vp-n61_swip-texts	n61	|2|3
+1428	PfSkin - RankGroupMovieItem	s33x8418oebq1vp-n65_swip	txtMovie	50000k
+1429	PfSkin - RankGroupMovieItem	s33x8418oebq1vp-n84_oebq	txtMovieName	Bad Monkey
+1430	PfSkin - RankGroupMovieItem	s33x8418oebq1vp-n63_swip	txtName	Bad Monkey
+1431	PfSkin - RankItem	s33x8418swip1o0-n61_swip-texts	n61	|2|3
+1432	PfSkin - RankItem	s33x8418swip1o0-n65_swip	txtMovie	50000k
+1433	PfSkin - RankItem	s33x8418swip1o0-n63_swip	txtName	Bad Monkey
+1434	PfSkin - RankMainPanel	s33x8418swip1nx-n6_swip	txtChangeName	Champion of last week can rename this server
+1435	PfSkin - RankMainPanel	s33x8418swip1nx-n15_swip	n19	Rankings
+1436	PfSkin - RankMainPanel	s33x8418swip1nx-n16_swip	n20	Company
+1437	PfSkin - RankMainPanel	s33x8418swip1nx-n17_swip	n21	Best record
+1438	PfSkin - RankMainPanel	s33x8418swip1nx-n81_swip	marquee	Although good movies sometimes don't sell, the higher the quality of the movie, the higher the box office burst when it suits the market
+1439	PfSkin - RankMovieInfo	s33x8418l8141v6-n14_r8ay	name	Script name: subheading
+1440	PfSkin - RankMovieInfo	s33x8418l8141v6-n63_l814	time	100min
+1441	PfSkin - RankMovieInfo	s33x8418l8141v6-n15_r8ay	filmType	Sci-Fi
+1442	PfSkin - RankMovieInfo	s33x8418l8141v6-n67_l814	n67	Media evalution
+1443	WarMovie - FilmIcon	y6ozucp1r0zd53-n24_xfnl	flagType	Fantasy
+1444	PfSkin - RankMovieInfo	s33x8418l8141v6-n69_l814	n69	Audience evalution
+1445	PfSkin - RankMovieInfo	s33x8418l8141v6-n74_l814	n74	Cast:
+1446	PfSkin - RankMovieInfo	s33x8418l8141v6-n72_l814	txtDesc	Description
+1447	WarMovie - FilmSelectItem	y6ozucp1r0zd55-n35_r0zd	flagType	Fantasy
+1448	PfSkin - RankMovieInfo	s33x8418l8141v6-n77_l814	n77	Award won:
+1449	PfSkin - RankMovieInfo	s33x8418l8141v6-n84_l814	n84	Tap anywhere to continue
+1450	PfSkin - RankPlayerInfo	s33x8418jakwt1ww-n24_jakw	n24	HB0
+1451	PfSkin - RankPlayerInfo	s33x8418jakwt1ww-n25_jakw	n25	Lv.354
+1452	PfSkin - RankPlayerInfo	s33x8418jakwt1ww-n26_jakw	n26	Your group:
+1453	PfSkin - RankPlayerInfo	s33x8418jakwt1ww-n28_jakw	n28	Sword Movie Group
+1454	PfSkin - RankPlayerInfo	s33x8418jakwt1ww-n42_jakw	n42	Competition Rank:
+1455	PfSkin - RankPlayerInfo	s33x8418jakwt1ww-n43_jakw	n43	City rank 7
+1456	PfSkin - RankPlayerInfo	s33x8418jakwt1ww-n45_jakw	n45	Building storey:
+1457	PfSkin - RankPlayerInfo	s33x8418jakwt1ww-n48_jakw	n48	Actor amount:
+1458	PfSkin - RankPlayerInfo	s33x8418jakwt1ww-n51_jakw	n51	Market occupied:
+1459	PfSkin - RankPlayerInfoPanel	s33x8418jakwt1wr-n21_jakw	title	Player info:
+1460	PfSkin - RankRenamePanel	s33x8418l8141ve-n59_o11z	titleName	Rename company
+1461	PfSkin - RankRenamePanel	s33x8418l8141ve-n65_o11z-prompt	inputName	Please enter here
+1462	PfSkin - RankRenamePanel	s33x8418l8141ve-n69_8p71	txtContent	Choose an unique name for yourself! Note that you can only rename once a week
+1463	PfSkin - RankRewardItem	s33x8418swip1ub-n39_swip	txtRank	100~200
+1464	PfSkin - RankRewardPanel	s33x8418swip1r5-n28_swip	viewPanel	Rewards
+1465	PfSkin - RankRewardPanel	s33x8418swip1r5-n34_swip	n19	Ranking
+1466	PfSkin - RankRewardPanel	s33x8418swip1r5-n35_swip	n20	Reward
+1467	PfSkin - RankRewardPanel	s33x8418swip1r5-n46_swip-tips	listRanKReward	Reward
+1468	PfSkin - RechargeMainPanel	s33x8418ap5a1ux-n53_ap5a	topPanel	Top-up
+1469	PfSkin - ShopItem	s33x8418ap5a1us-n49_ap5a	tip	Remaining: 10
+1470	PfSkin - ShopItem	s33x8418ap5a1us-n56_qvh6	n56	Sold out
+1471	PfSkin - ShopMainPanel	s33x8418ap5a1uq-n66_ap5a-2	listTab	Group shop
+1472	PfSkin - ShopSpecialItem	s33x8418ap5a1uv-n61_ap5a	tip	Remaining: 9999
+1473	PfSkin - ShopSpecialItem	s33x8418ap5a1uv-n72_qvh6	n72	Sold out
+1474	WarMovie - WarFilmingYRItem	y6ozucp1r0zd57-n58_r0zd	shiyan	Play as: Kate
+1475	PfSkin - StreetCinemaSelectedPanel	s33x84186ia7t1va-n27_wpay	btnConfirm	OK
+1476	PfSkin - StreetCinemaSelectedPanel	s33x84186ia7t1va-n45_6ia7	txtTip1	Congrats
+1477	PfSkin - StreetCinemaSelectedPanel	s33x84186ia7t1va-n46_6ia7	txtTip2	Congrats
+1478	PfSkin - StreetCinemaSelectedPanel	s33x84186ia7t1va-n47_6ia7	txLevel	Lv.
+1479	PfSkin - StreetInfoPanel	s33x8418wpay1w7-n16_wpay	n16	Rewards:
+1480	PfSkin - RankGroupItem	s33x8418oebq1vm-n85_oebq	btnCongratulate	Congrats
+1481	PfSkin - StreetInfoPanel	s33x8418wpay1w7-n19_wpay	txtRewardInfo	Can join a celebrity party
+1482	PfSkin - StreetInfoPanel	s33x8418wpay1w7-n23_wpay	txtTip1	Block rank 5 requires:
+1483	PfSkin - StreetInfoPanel	s33x8418wpay1w7-n24_wpay	txtTip2	You can gain trophies by Oskar awards at 22:00 everyday
+1484	PfSkin - StreetInfoPanel	s33x8418wpay1w7-n25_wpay	txtTip3	You can gain trophies by Oskar awards at 22:00 everyday
+1485	PfSkin - StreetInfoPanel	s33x8418wpay1w7-n26_wpay	txtStreetInfo	Current Rank:
+1486	PfSkin - StreetInfoPanel	s33x8418wpay1w7-n27_wpay	btnConfirm	OK
+1487	PfSkin - StreetInfoPanel	s33x8418wpay1w7-n30_r8gr	title	Claim
+1488	PfSkin - StreetItem	s33x8418oebq1w1-n62_oebq	n25	Theater amount:
+1489	PfSkin - RankGroupMovieItem	s33x8418oebq1vp-n85_oebq	btnCongratulate	Congrats
+1490	PfSkin - StreetItem	s33x8418oebq1w1-n64_oebq	txtTip	Rank-up rewards
+1491	PfSkin - StreetItem	s33x8418oebq1w1-n80_oebq	n80	Rank up
+1492	PfSkin - StreetItem	s33x8418oebq1w1-n88_r8gr	btnSelect	SIGN
+1493	WarMovie - WarFilmYirenItem	y6ozucp1r0zd5l-n27_r0zd	shiyan	Play as: Kate
+1494	PfSkin - StreetItem	s33x8418oebq1w1-n87_6ia7	btnSign	SIGN
+1495	PfSkin - StreetLvUpInfoPanel	s33x8418pn361w5-n23_wpay	txtTip1	Need more trophies to rise to block rank 5
+1496	PfSkin - StreetLvUpInfoPanel	s33x8418pn361w5-n24_wpay	txtTip2	You can gain trophies by Oskar awards at 22:00 everyday
+1497	PfSkin - StreetLvUpInfoPanel	s33x8418pn361w5-n25_wpay	txtTip3	You can gain trophies by Oskar awards at 22:00 everyday
+1498	PfSkin - StreetLvUpInfoPanel	s33x8418pn361w5-n29_wpay	btnConfirm	OK
+1499	PfSkin - StreetRankPanel	s33x8418oebq1vt-n22_oebq	marquee	Although good movies sometimes don't sell, the higher the quality of the movie, the higher the box office burst when it suits the market
+1500	PfSkin - StreetRankPanel	s33x8418oebq1vt-n6_oebq-0	listTab	Total box-office
+1501	PfSkin - StreetRankPanel	s33x8418oebq1vt-n6_oebq-1	listTab	Movie box-office
+1502	PfSkin - StreetSelectCinemaPanel	s33x84186ia7t1v7-n27_wpay	btnConfirm	OK
+1503	WarMovie - WarSelectActorItem	y6ozucp1yytj5o-n22_yytj	roleTip	Tip
+1504	PfSkin - SystemSelectActorPanel	s33x8418wpo31ns-n71_hxi2	title	Select Actor
+1505	PfSkin - SystemSelectActorPanel	s33x8418wpo31ns-n79_swip	tipNoActor	No available actor
+1506	PfSkin - RankMainPanel	s33x8418swip1nx-n4_swip	btnChangeName	Sever 1
+1507	PfSkin - TalkBox	s33x8418h1pn1ky-n5_l0d4	title	Title
+1508	PfSkin - UserRank	s33x8418swip1r4-n91_swip	n91	My ranking:
+1509	PfSkin - UserRank	s33x8418swip1r4-n96_swip	n96	Yesterday's reward:
+1510	PfSkin - UserRank	s33x8418swip1r4-n98_swip	btnReward	COLLECT
+1511	PfSkin - VisitMainTopUI	s33x8418h5zr1v7-n8_h5zr	title	Fans expect to see
+1512	PfSkin - VisitMainTopUI	s33x8418h5zr1v7-n9_h5zr	name	Fans expect to see
+1513	PfSkin - VisitMainTopUI	s33x8418h5zr1v7-n11_h5zr	checklabel	Auto-Reception
+1514	PfSkin - RankMainPanel	s33x8418swip1nx-n5_swip	txtTip	This account has been bind…
+1515	PfSkin - VisitMainTopUI	s33x8418h5zr1v7-n13_qb0h	time	Fans expect to see
+1516	PfSkin - VisitUI	s33x8418h5zr1v6-n5_h5zr	nextFans	Fans awaiting: 3/3
+1517	PfSkin - WarAttributeUpTip	s33x84186ve81gn-n3_6ve8	title	Fitness
+1518	PfSkin - WarAudienceItem	s33x8418k8js1hw-n6_q3y5	noticeName	xxMovie
+1519	PfSkin - WarAudienceItem	s33x8418k8js1hw-n13_q3y5	des	Review
+1520	PfSkin - WarAudienceItem	s33x8418k8js1hw-n8_q3y5	fen	100
+1521	PfSkin - WarAudienceReputation	s33x8418k8js1hu-n4_6ve8	okBtn	OK
+1522	PfSkin - WarAudienceReputation	s33x8418k8js1hu-n6_6ve8	title	Audience evalution
+1523	PfSkin - WarAudienceReputation	s33x8418k8js1hu-n8_6ve8	filmName	Select Film Type
+1524	PfSkin - WarAudienceReputation	s33x8418k8js1hu-n15_q3y5	tip	Audience evalution
+1525	PfSkin - WarAudienceReputation	s33x8418k8js1hu-n23_q3y5	att1Name	Plot
+1526	PfSkin - WarAudienceReputation	s33x8418k8js1hu-n25_q3y5	att2Name	Entertain
+1527	PfSkin - WarAudienceReputation	s33x8418k8js1hu-n30_qihd	att3Name	Scene
+1528	PfSkin - WarAudienceReputation	s33x8418k8js1hu-n26_q3y5	tip3	the higher {0} is, the higher audience evalution is
+1529	PfSkin - WarAudienceReputation	s33x8418k8js1hu-n27_k8js	n27	(Audience evalution effects box-office)
+1530	PfSkin - WarBackBtn	s33x84186ve81g1-n15_6ve8	n15	BACK
+1531	PfSkin - Warbubble	s33x84186ve81gk-n1	title	Topic
+1532	PfSkin - WarCinemaItem	s33x8418k8js1hs-n3_k8js	title	Movie intro before first show
+1533	PfSkin - WarCinemaItem	s33x8418k8js1hs-n4_k8js	okBtn	OK
+1534	PfSkin - WarCinemaItem	s33x8418k8js1hs-n5_k8js	tip	(Our movie can be show on all theaters we signed)
+1535	PfSkin - WarCinemaSelection	s33x8418k8js1hr-n3_k8js	title	Theaters
+1536	PfSkin - WarCinemaSelection	s33x8418k8js1hr-n5_k8js	tip	More theaters awaiting!
+1537	PfSkin - WarCompletedConditions	s33x8418r8ay1fq-n23_r8ay	title	Can't film series (unlock at Lv.30)
+1538	PfSkin - WarContinuousIncome	s33x8418pvrg1if-n8_pvrg	xuanchuance	2,144K
+1539	PfSkin - WarContinuousIncome	s33x8418pvrg1if-n9_pvrg	filmName	Movie name
+1540	PfSkin - WarContinuousIncome	s33x8418pvrg1if-n11_pvrg	incomeTime	Earnings will last for 02:00
+1541	PfSkin - WarContinuousIncome	s33x8418pvrg1if-n19_pvrg	n19	We may get
+1542	PfSkin - WarContinuousIncome	s33x8418pvrg1if-n22_pvrg	n22	Expectation:
+1543	PfSkin - WarContinuousIncome	s33x8418pvrg1if-n27_pvrg	lockTip	Unlock when
+1544	PfSkin - WarContinuousIncome	s33x8418pvrg1if-n30_pvrg	n30	Earnings:
+1545	PfSkin - WarContinuousIncome	s33x8418pvrg1if-n35_pvrg	okBtn	COLLECT
+1546	PfSkin - WarContinuousIncome	s33x8418pvrg1if-n41_pvrg	okBtn2	SWITCH
+1547	PfSkin - WarContinuousIncome	s33x8418pvrg1if-n54_n8r9	cantTip	City not occupied
+1548	PfSkin - WarContinuousIncome	s33x8418pvrg1if-n44_pvrg	cityName	City name
+1549	PfSkin - WarContinuousIncome	s33x8418pvrg1if-n47_pvrg	n47	We may get
+1550	PfSkin - WarContinuousIncome	s33x8418pvrg1if-n52_pvrg	n52	Earnings ended
+1551	PfSkin - WarContinuousIncome	s33x8418pvrg1if-n53_pvrg	overTip	Config text
+1552	PfSkin - WarCostView	s33x84186ve81g8-n11_6ve8	nameTip	{Movie name} costs:
+1553	PfSkin - WarCostView	s33x84186ve81g8-n17_6ve8	allTip	Total:
+1554	PfSkin - WarCostView	s33x84186ve81g8-n14_6ve8	okBtn	FILM
+1555	PfSkin - WarCurrentMarketInfo	s33x8418r8ay1fs-n40_r8ay	closeTip	Tap anywhere to continue
+1556	PfSkin - WarCurrentMarketInfo	s33x8418r8ay1fs-n8_r8ay	title	Market survey:
+1557	PfSkin - WarCurrentMarketInfo	s33x8418r8ay1fs-n10_r8ay	filmName	Script name
+1558	PfSkin - WarCurrentMarketInfo	s33x8418r8ay1fs-n12_r8ay	reqTip	Script requirements:
+1559	PfSkin - WarCurrentMarketInfo	s33x8418r8ay1fs-n13_r8ay	curTip	Current Market:
+1560	PfSkin - WarCurrentMarketInfo	s33x8418r8ay1fs-n27_r8ay	manTip	Male
+1561	PfSkin - WarCurrentMarketInfo	s33x8418r8ay1fs-n30_r8ay	womenTip	Female
+1562	PfSkin - WarCurrentMarketInfo	s33x8418r8ay1fs-n31_r8ay	childTip	Child
+1563	PfSkin - WarCurrentYR	s33x84186ve81gj-n1	title	xxxx
+1564	PfSkin - WarEndingIncome	s33x8418pvrg1id-n5_pvrg	title	Movies on showing is max
+1565	PfSkin - WarEndingIncome	s33x8418pvrg1id-n6_pvrg	tip	You need to end one of these movies to film a new one
+1566	PfSkin - WarEndingIncome	s33x8418pvrg1id-n7_pvrg	okBtn	OK
+1567	PfSkin - WarFilmcityBtn	s33x8418pvrg1ii-n4	title	00.City name
+1568	PfSkin - WarFilmguanzhongItem	s33x8418k8js1i0-n12_k8js	title	Back 3
+1569	PfSkin - WarFilmInfBtn	s33x84186ve81g2-n5_6ve8	n5	Read scripts
+1570	PfSkin - WarFilmInfo	s33x8418r8ay1fh-n8_r8ay	filmDes	Script
+1571	PfSkin - WarFilmInfo	s33x8418r8ay1fh-n14_r8ay	filmName	Script name: subheading
+1572	PfSkin - WarFilmInfo	s33x8418r8ay1fh-n41_r8ay	gzTip	If audience contains:
+1573	PfSkin - WarFilmInfo	s33x8418r8ay1fh-n42_r8ay	gzTip2	then:
+1574	PfSkin - WarFilming	s33x84186ve81go-n12_6ve8	title	Filming…
+1575	PfSkin - WarFilming	s33x84186ve81go-n16_6ve8	tip	Audience expectation
+1576	PfSkin - WarFilming	s33x84186ve81go-n45_6ve8	filmTime	90min
+1577	PfSkin - StoryItem	s33x8418eb3n1o1-n75_lq44	achievementLabel	Achievement
+1578	PfSkin - WarFilming	s33x84186ve81go-n52_6ve8	caozuoTip	That's a wrap!
+1579	PfSkin - WarFilming	s33x84186ve81go-n55_6ve8	sliver	2144K
+1580	PfSkin - WarFilming	s33x84186ve81go-n56_6ve8	xukezheng	2144K
+1581	PfSkin - WarFilming	s33x84186ve81go-n74_6ve8	qidaizhiTip	Barely Noticed
+1582	PfSkin - WarFilming	s33x84186ve81go-n79_6ve8	hengfuTitle	{0} and {1} showed their excellent acting skills in this movie, increasing its attributes
+1583	PfSkin - WarFilmingSelectTipItem	s33x84186ve81gu-n1	title	Scripts type: 00000
+1584	PfSkin - WarFilmingYRItem	s33x84186ve81gt-n5_6ve8	mingzi	Owww
+1585	PfSkin - WarFilmingYRItem	s33x84186ve81gt-n6_6ve8	shiyan	as: XXX
+1586	PfSkin - WarFilmJiesuan	s33x8418k8js1i5-n7_k8js	filmName	Script name
+1587	PfSkin - WarFilmJiesuan	s33x8418k8js1i5-n8_k8js	filmType	Action/Sci-Fi
+1588	PfSkin - WarFilmJiesuan	s33x8418k8js1i5-n9_k8js	filmTime	90min
+1589	PfSkin - WarFilmJiesuan	s33x8418k8js1i5-n11_k8js	koubei	Audience Evalution: 34.5
+1590	PfSkin - WarFilmJiesuan	s33x8418k8js1i5-n12_k8js	tip	Media evalution:
+1591	PfSkin - WarFilmJiesuan	s33x8418k8js1i5-n14_k8js	tip1	Company:
+1592	PfSkin - WarFilmJiesuan	s33x8418k8js1i5-n16_k8js	tip2	Total box-office
+1593	PfSkin - WarFilmJiesuan	s33x8418k8js1i5-n18_k8js	tip3	Total box-office
+1594	PfSkin - WarFilmJiesuan	s33x8418k8js1i5-n19_k8js	tip4	Total cost
+1595	PfSkin - WarFilmJiesuan	s33x8418k8js1i5-n28_k8js	tip5	Rewards:
+1596	PfSkin - WarFilmJiesuan	s33x8418k8js1i5-n25_k8js	bp1	You've surpassed {0}% movies in city rank
+1597	PfSkin - WarFilmJiesuan	s33x8418k8js1i5-n26_k8js	bp2	Your box-office have surpassed {0}% movies in city rank
+1598	PfSkin - WarFilmJiesuan	s33x8418k8js1i5-n27_k8js	filmTip	Config text
+1599	PfSkin - WarFilmJiesuan	s33x8418k8js1i5-n45_k8js	shareTip	Gain gift package by share!
+1600	PfSkin - WarFilmLiuxing	s33x8418k8js1i1-n5_k8js	title1	Seems like there's a new movie called {0} on screen today. There are quite a few people to buy the ticket
+1601	PfSkin - WarFilmLiuxing	s33x8418k8js1i1-n17_k8js	title2	After a long warming up, {0} has finally been released, hoping that it will be able to stand up to expectation
+1602	PfSkin - StreetItem	s33x8418oebq1w1-n67_oebq	n68	Rank
+1603	PfSkin - WarFilmLiuxing	s33x8418k8js1i1-n22_k8js	title3	{0} has attracted a lot of attention ever since its preparation period. Now it's finally released and the theaters are full of people!
+1604	PfSkin - WarFilmOverMarketInfo	s33x8418t6ra1ue-n41_k8js	okBtn	OK
+1605	PfSkin - WarFilmOverMarketInfo	s33x8418t6ra1ue-n44_k8js	tip1	Current market
+1606	PfSkin - WarFilmOverMarketInfo	s33x8418t6ra1ue-n46_k8js	tip2	and
+1607	PfSkin - WarFilmOverMarketInfo	s33x8418t6ra1ue-n48_k8js	tip3	Majority of audience is
+1608	PfSkin - WarFilmOverMarketInfo	s33x8418t6ra1ue-n61_k8js-0	pinglun1	Current market favor causes
+1609	PfSkin - WarFilmOverMarketInfo	s33x8418t6ra1ue-n61_k8js-2	pinglun1	box-office rise
+1610	PfSkin - WarFilmOverMarketInfo	s33x8418t6ra1ue-n62_k8js-0	pinglun2	Surpassed
+1611	PfSkin - WarFilmOverMarketInfo	s33x8418t6ra1ue-n62_k8js-2	pinglun2	of audience likes this story very much!
+1612	PfSkin - WarFilmOverMarketInfo	s33x8418t6ra1ue-n63_k8js-0	pinglun3	have
+1613	PfSkin - WarFilmOverMarketInfo	s33x8418t6ra1ue-n63_k8js-2	pinglun3	also think
+1614	PfSkin - StreetItem	s33x8418oebq1w1-n68_oebq	n67	Block
+1615	PfSkin - WarFilmOverMarketInfo	s33x8418t6ra1ue-n63_k8js-3	pinglun3	Drama
+1616	PfSkin - WarFilmOverMarketInfo	s33x8418t6ra1ue-n63_k8js-4	pinglun3	suits this story very much
+1617	PfSkin - WarFilmPromotionBtn	s33x8418pvrg1ih-n7_r8ay	selectTip	Advertising
+1618	PfSkin - WarFilmSelectBtn	s33x8418r8ay1ff-n7_r8ay	selectTip	Choose
+1619	PfSkin - WarFilmSelectBtn	s33x8418r8ay1ff-n4_r8ay	title	000000k
+1620	PfSkin - WarFilmSelectItem	s33x8418znuj1f6-n2_znuj	filmName	Script
+1621	PfSkin - WarFilmSelectItem	s33x8418znuj1f6-n21_r8ay	filmTopic	Cartoon
+1622	PfSkin - WarFilmShangYing	s33x8418k8js1hx-n12_k8js	filmName	Never thought
+1623	PfSkin - WarFilmShangYing	s33x8418k8js1hx-n14_k8js	tip	Current box-office
+1624	PfSkin - WarFilmShangYing	s33x8418k8js1hx-n16_k8js	filmcurrent	Day 122: +5550
+1625	PfSkin - WarFilmShangYing	s33x8418k8js1hx-n17_k8js	filmTip	Hot on all theaters
+1626	PfSkin - WarFilmShare	s33x8418pvrg1i9-n5_pvrg	title	Share via screenshots
+1627	PfSkin - WarFilmShare	s33x8418pvrg1i9-n12_pvrg	filmName	Film name
+1628	PfSkin - WarFilmShare	s33x8418pvrg1i9-n13_pvrg	filmTime	90min
+1629	PfSkin - WarFilmShare	s33x8418pvrg1i9-n14_pvrg	n14	Company:
+1630	PfSkin - WarFilmShare	s33x8418pvrg1i9-n15_pvrg	userName	Username
+1631	PfSkin - WarFilmShare	s33x8418pvrg1i9-n19_pvrg	n19	Film your own movie!
+1632	PfSkin - WarFilmShare	s33x8418pvrg1i9-n20_pvrg	n20	Media evalution
+1633	PfSkin - WarFilmShare	s33x8418pvrg1i9-n22_pvrg	tip2	Total box-office
+1634	PfSkin - WarFilmSQ	s33x8418k8js1he-n13_k8js	title	IN THE CAN
+1635	PfSkin - WarFilmSQ	s33x8418k8js1he-n14_k8js	tip	Movie is wrapped
+1636	PfSkin - WarFilmSQView	s33x8418k8js1hj-n4_k8js	okBtn	OK
+1637	PfSkin - WarFilmSQView	s33x8418k8js1hj-n9_k8js	filmName	Script name
+1638	PfSkin - WarFilmSQView	s33x8418k8js1hj-n10_k8js	zhuyan	Lead:
+1639	PfSkin - UserRank	s33x8418swip1r4-n85_swip	txtName	Bad Monkey
+1640	PfSkin - WarFilmSQView	s33x8418k8js1hj-n11_k8js	type	Action/Sci-Fi
+1641	PfSkin - WarFilmSQView	s33x8418k8js1hj-n12_k8js	time	90min
+1642	PfSkin - WarFilmSQView	s33x8418k8js1hj-n16_k8js-0	filmAttributeList	Scene
+1643	PfSkin - UserRank	s33x8418swip1r4-n87_swip	txtMovie	50000k
+1644	PfSkin - WarFilmSQView	s33x8418k8js1hj-n16_k8js-1	filmAttributeList	Perform
+1645	PfSkin - WarFilmSQView	s33x8418k8js1hj-n16_k8js-2	filmAttributeList	Plot
+1646	PfSkin - WarFilmSQView	s33x8418k8js1hj-n16_k8js-3	filmAttributeList	Art
+1647	PfSkin - WarFilmSQView	s33x8418k8js1hj-n16_k8js-4	filmAttributeList	Entertain
+1648	PfSkin - WarFilmSQViewItem	s33x8418k8js1hm-n3_k8js	title	Scene
+1649	PfSkin - WarFilmSQViewItem	s33x8418k8js1hm-n8_k8js	tip	General performance
+1650	PfSkin - WarFilmStartBtn	s33x8418r8ay1fr-n55_r8ay	tip	Cost
+1651	PfSkin - WarFilmSYPF	s33x8418k8js1ht-n14_k8js	tip	Expectation will rise audience amount of premiere
+1652	PfSkin - WarFilmSYPF	s33x8418k8js1ht-n15_k8js	tip2	Premiere box-office
+1653	PfSkin - WarFilmTypeSelectItem	s33x84186ve81gw-n8_6ve8	filmType	Comedy
+1654	PfSkin - WarFilmTypeSelectItem	s33x84186ve81gw-n9_6ve8	tip1	Total proficiency
+1655	PfSkin - WarFilmTypeSelectItem	s33x84186ve81gw-n12_q3y5	lovePeople	Male
+1656	PfSkin - WarFilmTypeSelectItem	s33x84186ve81gw-n13_q3y5	tip3	Rewards:
+1657	PfSkin - WarFilmTypeSelectItem	s33x84186ve81gw-n15_q3y5	tip4	Proficiency
+1658	PfSkin - WarFilmYirenItem	s33x8418r8ay1fj-n3_r8ay	type	Lead
+1659	PfSkin - WarFilmYirenItem	s33x8418r8ay1fj-n5_r8ay	name	Lead
+1660	PfSkin - WarFilmYirenPop	s33x8418r8ay1fp-n12_r8ay	curType	Lead
+1661	PfSkin - WarFilmYirenPop	s33x8418r8ay1fp-n13_r8ay	curName	Lead
+1662	PfSkin - WarFilmYirenPop	s33x8418r8ay1fp-n14_r8ay	tip	Requirements:
+1663	PfSkin - WarFilmYirenPop	s33x8418r8ay1fp-n15_r8ay	tip2	Effects:
+1664	PfSkin - WarFilmYirenPop	s33x8418r8ay1fp-n19_r8ay	req3	Young
+1665	PfSkin - WarFilmYirenPop	s33x8418r8ay1fp-n20_r8ay	req4	Skilled
+1666	WarMovie - WarAttributeUpTip	y6ozucp1r0zd3v-n41_r0zd	title	Script fitness
+1667	PfSkin - WarFilmYRMoveShow	s33x84186ve81gg-n13_6ve8	title	[size=30]David[/size]|n|play as|n|[color=#FF00FF]Alfred[/color]
+1668	PfSkin - WarFontItem	s33x8418k8js1i4-n52_k8js	title	Current market favor causes
+1669	PfSkin - WarGeneralRewardTip	s33x8418k8js1h9-n4_k8js	title	Congrats on completing today's competition goal!
+1670	PfSkin - WarGeneralRewardTip	s33x8418k8js1h9-n7_k8js	okBtn	COLLECT
+1671	PfSkin - WarHaveReady	s33x84186ve81g5-n1	title	Lead
+1672	PfSkin - WarHaveReady	s33x84186ve81g5-n3_6ve8	tip	Play as:
+1673	PfSkin - WarIncomeItem	s33x8418pvrg1ie-n3_pvrg	filmName	Movie name
+1674	PfSkin - WarIncomeItem	s33x8418pvrg1ie-n4_pvrg	shouyipingjia	Earning evalution: 1088/min
+1675	PfSkin - WarIncomeItem	s33x8418pvrg1ie-n5_pvrg	n5	Time remaining:
+1676	PfSkin - WarIncomeItem	s33x8418pvrg1ie-n7_pvrg	okBtn	END
+1677	PfSkin - WarIncomeZiyuanItem	s33x8418pvrg1ij-n5_pvrg	title	10000/min
+1678	PfSkin - WarMain	s33x8418znuj1ex-n4_znuj	sliver	2144k
+1679	PfSkin - WarMain	s33x8418znuj1ex-n5_znuj	xukezheng	2144k
+1680	PfSkin - WarMain	s33x8418znuj1ex-n7_znuj	labelTip	Current market
+1681	PfSkin - WarMain	s33x8418znuj1ex-n8_znuj	surveyProgress	(Survey progress 30%)
+1682	PfSkin - WarMissionFailed	s33x8418k8js1hb-n7_k8js	title	Movie goal was not met - cannot claim Movie Association reward
+1683	PfSkin - WarMissionFailed	s33x8418k8js1hb-n8_k8js	tip	Requirements not met:
+1684	PfSkin - WarMoneyLabel	s33x8418znuj1ey-n7_znuj	title	A[color=#ff00ff]B[/color]
+1685	PfSkin - WarMoveTextUD	s33x8418r8ay1fk-n8_r8ay	title	Description
+1686	PfSkin - WarNewspaperHeadlines	s33x8418pvrg1ib-n2_pvrg	title	{0}'s {1} won the xx awards!
+1687	PfSkin - WarNotice	s33x8418k8js1h5-n6_k8js	title	Our Public Relations has received some invitations
+1688	PfSkin - WarNotice	s33x8418k8js1h5-n7_k8js	okBtn	OK
+1689	PfSkin - WarNoticeFeedBack	s33x8418q3y51gz-n4_6ve8	okBtn	OK
+1690	PfSkin - WarNoticeFeedBack	s33x8418q3y51gz-n6_6ve8	title	Media evalution
+1691	PfSkin - WarNoticeFeedBack	s33x8418q3y51gz-n8_6ve8	filmName	Select Filming Type
+1692	PfSkin - WarNoticeFeedBack	s33x8418q3y51gz-n15_q3y5	tip	Gained:
+1693	PfSkin - WarNoticeFeedBack	s33x8418q3y51gz-n19_q3y5	tip2	The higher evalution is, the more likes we get, and the bigger chance we can win awards! (Sometimes can raise our box-office as well)
+1694	PfSkin - WarNoticeFeedBack	s33x8418q3y51gz-n23_q3y5	att1Name	Perform
+1695	PfSkin - WarNoticeFeedBack	s33x8418q3y51gz-n25_q3y5	att2Name	Art
+1696	PfSkin - WarNoticeFeedBack	s33x8418q3y51gz-n26_q3y5	tip3	the higher, the better our evalution will be
+1697	PfSkin - WarNoticeItem	s33x8418q3y51h1-n6_q3y5	noticeName	xx Movie
+1698	PfSkin - WarNoticeItem	s33x8418q3y51h1-n9_q3y5	userName	Username
+1699	PfSkin - WarNoticeItem	s33x8418q3y51h1-n10_q3y5	filmName	Movie name
+1700	PfSkin - WarNoticeItem	s33x8418q3y51h1-n11_q3y5	tip1	Review
+1701	PfSkin - WarNoticeItem	s33x8418q3y51h1-n13_q3y5	des	Review content
+1702	PfSkin - WarNoticeItem	s33x8418q3y51h1-n14_q3y5	okorerror	3453 likes/123 dislikes
+1703	PfSkin - WarNoticeItem	s33x8418q3y51h1-n18_q3y5	meitiName	Block poster
+1704	PfSkin - WarNoticeItem	s33x8418q3y51h1-n23_q3y5	des2	Review content
+1705	PfSkin - WarNoticeItem	s33x8418q3y51h1-n24_q3y5	tip2	Critic
+1706	PfSkin - WarNoticeItem	s33x8418q3y51h1-n29_q3y5	meitiming	Official accounts:
+1707	PfSkin - WarNoticeItem	s33x8418q3y51h1-n30_q3y5	meitijieshao	A nice official account!
+1708	PfSkin - WarNoticeItem	s33x8418q3y51h1-n34_q3y5	des3	Review content
+1709	PfSkin - WarNoticeItem	s33x8418q3y51h1-n8_q3y5	fen	100
+1710	PfSkin - WarPaishequeren	s33x84186ve81gd-n9_r8ay	tip	Great news! According to market survey, the script you choose
+1711	PfSkin - WarPaishequeren	s33x84186ve81gd-n12_r8ay	reqTip	Spend license:
+1712	PfSkin - WarPaishequeren	s33x84186ve81gd-n13_r8ay	curTip	x1
+1713	PfSkin - WarPaishequeren	s33x84186ve81gd-n42_6ve8	okBtn	FILM
+1714	PfSkin - WarPromptBox	s33x8418pvrg1ic-n9_r8ay	tip	Great news! According to market survey, the script you choose
+1715	PfSkin - WarPromptBox	s33x8418pvrg1ic-n42_6ve8	okBtn	OK
+1716	PfSkin - WarPromptBox	s33x8418pvrg1ic-n44_pvrg	title	Congrats on complete today's competition goal!
+1717	PfSkin - WarQiPaoTip	s33x84186ve81fy-n1	title	Tap to assign actor
+1718	PfSkin - WarReceiveBtn	s33x8418k8js1h8-n7_r8ay	selectTip	Accept invitation
+1719	PfSkin - WarReceiveBtn	s33x8418k8js1h8-n4_r8ay	title	000000k
+1720	PfSkin - WarSelectFilmType	s33x84186ve81gv-n4_6ve8	okBtn	OK
+1721	PfSkin - WarSelectFilmType	s33x84186ve81gv-n6_6ve8	title	Select Filming Type
+1722	PfSkin - WarSelectFilmType	s33x84186ve81gv-n8_6ve8	filmName	Select Filming Type
+1723	PfSkin - WarSelectOkBtn	s33x84186ve81g7-n5_6ve8	title	Submit
+1724	PfSkin - WarSelectyiren	s33x84186ve81fw-n4_6ve8	title	Select actor
+1725	PfSkin - WarSelectyiren	s33x84186ve81fw-n22_6ve8	emtpyTip	No suitable actor, you can sign more actors by "Agency"
+1726	PfSkin - WarSelectyiren	s33x84186ve81fw-n26_xb15	emtpyTip2	No suitable actor, you can sign more actors by "Agency"
+1727	PfSkin - WarShareBtn	s33x8418k8js1i8-n4	title	Share
+1728	PfSkin - WarSurveyInfChild	s33x8418znuj1f5-n12_znuj	sex	Child
+1729	PfSkin - WarSurveyInfMan	s33x8418znuj1f1-n12_znuj	sex	Male
+1730	PfSkin - WarSurveyInfWoman	s33x8418znuj1f4-n12_znuj	sex	Female
+1731	PfSkin - WarXKHuifu	s33x8418t6ra1ud-n5_t6ra	title	Market survey:
+1732	PfSkin - WarXKHuifu	s33x8418t6ra1ud-n8_t6ra	n0	Needed
+1733	PfSkin - WarXKHuifu	s33x8418t6ra1ud-n10_t6ra	n1	You can gain this by:
+1734	PfSkin - WarXKHuifu	s33x8418t6ra1ud-n11_t6ra	getTip	More info
+1735	PfSkin - WarXKHuifu	s33x8418t6ra1ud-n14_t6ra	n3	Can get after
+1736	PfSkin - WarXukezhengOver	s33x8418k8js1i3-n41_k8js	okBtn	OK
+1737	PfSkin - WarXukezhengOver	s33x8418k8js1i3-n64_t6ra	title	Tip
+1738	PfSkin - WarXukezhengOver	s33x8418k8js1i3-n66_t6ra	getTip	Today's lisence have all been sent out
+1739	PfSkin - WarYirenSelectItem	s33x84186ve81fz-n9_6ve8	role	Lead
+1740	PfSkin - WarYirenSelectItem	s33x84186ve81fz-n10_6ve8	roleTip	Play as
+1741	PfSkin - WarYirenSelectItem	s33x84186ve81fz-n16_6ve8	nameOk	Edward
+1742	PfSkin - WarYirenType	s33x84186ve81g0-n1	title	Skilled
+1743	PfSkin - WarYISleectBtn	s33x84186ve81g6-n5_6ve8	tip	Play as:
+1744	PfSkin - WarYISleectBtn	s33x84186ve81g6-n6_6ve8	tip2	Cost
+1745	PfSkin - WarYISleectBtn	s33x84186ve81g6-n11_6ve8	noCost	Free
+1746	PfSkin - WarYRCostItem	s33x84186ve81gb-n1_6ve8	juese	Lead
+1747	PfSkin - WarYRCostItem	s33x84186ve81gb-n5_6ve8	noCostTip1	No actor assigned, we'll use extra actor instead
+1748	PfSkin - WarYRCostItem	s33x84186ve81gb-n6_6ve8	noCostTip2	(Will lower movie's quality)
+1749	PfSkin - WarYRCostItem	s33x84186ve81gb-n9_nd92	name	Name
+1750	PfSkin - WarYRFilmItem	s33x84186ve81gl-n5_6ve8	title	I'm good at this type
+1751	PfSkin - WarYRFilmItem	s33x84186ve81gl-n11_mimy	name	I can do well play as this role
+1752	PfSkin - WarYRForFilm	s33x84186ve81gi-n6_6ve8	title	Fitness
+1753	PfSkin - WarYRForFilm	s33x84186ve81gi-n7_6ve8	okBtn	OK
+1754	PfSkin - WarYRItem	s33x84186ve81g3-n13_6ve8	AttributeTip	Won't increase movie's attributes
+1755	PfSkin - WarYRItem	s33x84186ve81g3-n17_6ve8	temName	Extra actor
+1756	PfSkin - WarYRItem	s33x84186ve81g3-n3_6ve8	lv	Lv.1500
+1757	PfSkin - WarYRItem	s33x84186ve81g3-n4_6ve8	yrName	Extra actor
+1758	PfSkin - WarYRItem	s33x84186ve81g3-n8_6ve8	ready	Lead
+1759	PfSkin - WarYRNoticeItem	s33x8418k8js1h7-n5_k8js	lv	Lv.20
+1760	PfSkin - WarYRNoticeItem	s33x8418k8js1h7-n6_k8js	title	Activity name xxxx
+1761	PfSkin - WarYRNoticeItem	s33x8418k8js1h7-n25_k8js	tipDes	Marketing Department has contact some TV shows to let our cast of this movie do some advertising, but we can't accept the invite due to we didn't meet the requirements
+1762	PfSkin - WarYRProficiency	s33x8418k8js1hg-n4_k8js	okBtn	OK
+1763	PfSkin - WarYRProficiency	s33x8418k8js1hg-n5_k8js	title	Proficiency of xx movie
+1764	PfSkin - WarYRProficiencyItem	s33x8418k8js1hh-n2_k8js	name	Actor name
+1765	PfSkin - WarYRProficiencyItem	s33x8418k8js1hh-n8_k8js	n8	Proficiency:
+1766	PfSkin - WarYRProficiencyItem	s33x8418k8js1hh-n9_k8js	level	Lv.12
+1767	Produce - BtnUpgrade	eg7c5x5rfd655-n3_fd65	title	Upgrade
+1768	WarMovie - WarYRFilmItem	y6ozucp1r0zd3u-n36_r0zd	type	Huge
+1769	Produce - ProduceItem	eg7c5x5rfd65g-n56_vw1q	getItem_tip	You can get
+1770	WarMovie - WarYRNoticeItem	y6ozucp1qbxl6e-n26_qbxl	lv	Lv.7
+1771	WarMovie - WarYRNoticeItem	y6ozucp1qbxl6e-n27_qbxl	title	Outdoor concert
+1772	WarMovie - WarYRNoticeItem	y6ozucp1qbxl6e-n41_qbxl	okBtn	OK
+1773	Produce - ProduceLimitItem	eg7c5x5rfd65h-n57_fd65	n57	Reward
+1774	Produce - ProduceSelectActorPanel	eg7c5x5rvw1q10-n71_hxi2	title	Select spokesperson
+1775	System - SystemToastMessage	fiza9hgrgdopk-n97_htqt	title	Title
+1776	Produce - Main	eg7c5x5rfd650-n2_fd65	n2	Produce
+1777	WarMovie - WarFilmOverMarketInfo	y6ozucp1qbxl79-n5_qbxl	tip2	There's more
+1778	WarMovie - WarFilmOverMarketInfo	y6ozucp1qbxl79-n8_qbxl	tip3	Now
+1779	PlayerInfo - RankItem	tderqmz5dyfeo-n45_dyfe	title	Building Storey
+1780	WarMovie - WarFilmInfo	y6ozucp1r0zd59-n5_r0zd	flagType	Fantasy
+1781	WarMovie - WarFilmSQView	y6ozucp1qbxl6m-n43_qbxl	zhuyan	Star

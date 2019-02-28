@@ -1,0 +1,46 @@
+{
+  "sevenAddUp/GetReward/req": {
+    "comment": null,
+    "$id": "sevenAddUp/GetReward/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "gear": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "uuid",
+      "gear"
+    ]
+  },
+  "sevenAddUp/GetReward/resp": {
+    "comment": null,
+    "$id": "sevenAddUp/GetReward/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "gear": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "uuid",
+      "gear"
+    ]
+  },
+  "sevenAddUp/Touch/req": {
+    "comment": null,
+    "$id": "sevenAddUp/Touch/req",
+    "properties": {},
+    "required": []
+  },
+  "sevenAddUp/Touch/resp": {
+    "comment": null,
+    "$id": "sevenAddUp/Touch/resp",
+    "properties": {},
+    "required": []
+  }
+}

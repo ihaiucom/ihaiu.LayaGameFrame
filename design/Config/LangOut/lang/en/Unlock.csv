@@ -1,0 +1,74 @@
+﻿int	string	string
+编号，只能在后面增加，不能修改编号，	功能名称	未解锁点击提示文字，（文字表示提示内容，0表示无）
+id	name	touch_txt
+3	Shoot	Requires Filming Studio
+4	Actor	Requires Actor Department
+5	Market	Requires Market Department
+6	Depot	Requires Depot
+21	Shop	Requires Public Relations
+22	Top-up	Function not open
+23	Routine	Requires Reception Room
+24	Welfare	Requires Market Department
+25	Event	Requires Actor Department
+26	Super Idol	0
+31	Settings	0
+32	Mailbox	0
+33	Chat	Requires Block Rank 2
+41	Oskar	Requires Public Relations
+51	Produce	Requires Depot
+52	Order	Requires Sales Department
+53	Business	Requires Office
+54	Fans	Requires Reception Room
+55	Conference	Requires Meeting Room
+61	Script	Requires Company reach lv.30
+62	Theater	Requires Block Rank 2
+63	Scriptwriter	Requires Block Rank 6
+64	Actor list	Requires Company reach lv.10
+65	Treasure	Requires Block Rank 7
+71	Group	Requires Block Rank 3
+72	Leader	0
+73	Cooperate	Requires Block Rank 2
+104	Leaderboard	Requires Company Lv.25
+1001	Shop	Requires company reach Lv.25
+1002	Top-up	0
+1003	Task	Requires completing all main tasks
+1004	Bonus	Requires Depot
+1005	Events	Requires recruiting a new actor
+1006	Super Idol	0
+1007	Settings	0
+1008	Mailbox	0
+1009	Chat	Requires Block Rank 2
+1010	Cooperate	Requires Block Rank 2
+1011	Operate	Requires Depot
+1012	Manage	Requires company reach Lv.40
+1013	Social	Requires Block Rank 2
+1014	Film	Requires Film Studio
+1015	Actor	Requires Green Room
+1016	Market	Requires Marketing Departmen
+1017	Depot	Requires Depot
+1018	Leaderboard	Requires company reach Lv.25
+1019	Oskar	Requires Public Relations
+2001	Produce	Requires Biz Dev Center
+2002	Order	Requires Sales Department
+2003	Business	Requires Office
+2004	Fans	Requires Reception Room
+2005	Meeting	Requires Meeting Room
+2006	Screenplay	Requires company reach Lv.40
+2007	Theaters	Requires Block Rank 2
+2008	Script	Requires Block Rank 6
+2009	Actorbase	Requires company reach Lv.50
+2010	Treasure	Requires Block Rank 7
+2011	Group	Requires Block Rank 3
+2012	Leader	0
+2013	Cooperate	Requires Block Rank 2
+2014	Recruit	Requires Green Room
+2015	Send Away	Requires Green Room
+2016	Training	Requires covering Honolulu
+2017	Practice	Requires Training Room
+2018	Main Task Rewards	Let's start with filming our first movie!
+2019	Level Gift	Requires completing all main tasks
+2020	Trophy Gift	Requires Block Rank 2
+10001	Operate	0
+10002	Manage	0
+10003	Social	0
+10004	Cooperate	Requires Block Rank 2

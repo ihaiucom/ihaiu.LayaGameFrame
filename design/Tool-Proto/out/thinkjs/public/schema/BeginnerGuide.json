@@ -1,0 +1,52 @@
+{
+  "BeginnerGuide/CompleteGuide/req": {
+    "comment": null,
+    "$id": "BeginnerGuide/CompleteGuide/req",
+    "properties": {
+      "gId": {
+        "type": "number"
+      },
+      "type": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "gId",
+      "type"
+    ]
+  },
+  "BeginnerGuide/CompleteGuide/resp": {
+    "comment": null,
+    "$id": "BeginnerGuide/CompleteGuide/resp",
+    "properties": {
+      "gId": {
+        "type": "number"
+      },
+      "type": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "gId",
+      "type"
+    ]
+  },
+  "BeginnerGuide/GuideEndReward/req": {
+    "comment": null,
+    "$id": "BeginnerGuide/GuideEndReward/req",
+    "properties": {},
+    "required": []
+  },
+  "BeginnerGuide/GuideEndReward/resp": {
+    "comment": null,
+    "$id": "BeginnerGuide/GuideEndReward/resp",
+    "properties": {
+      "isNewActor": {
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "isNewActor"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "enableoverwrites": [
+  	{
+  		"src":"../../gamepf_art/FairySprite/res", 
+  		"dst":"//172.16.50.177/GamePF/plan_ShangJingBo/res/fsprite"
+  	}
+  
+  ],
+  "disableoverwrites": [
+  	
+  ]
+}

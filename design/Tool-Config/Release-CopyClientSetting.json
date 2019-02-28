@@ -1,0 +1,34 @@
+{
+  "enableoverwrites": [
+  	{
+  		"src":"../../_gen/ConfigOut-Release/csv", 
+  		"dst":"../../Gidea-PF-Client-Release/GamePF/bin/config/csv"
+  	},
+  	{
+  		"src":"../../_gen/ConfigOut-Release/Client/Config/ConfigIncludes.ts", 
+      "dst":"../../Gidea-PF-Client-Release/GamePF/src/Config/ConfigIncludes.ts"
+  	},
+  	{
+  		"src":"../../_gen/ConfigOut-Release/Client/Config/ConfigManagerList.ts", 
+      "dst":"../../Gidea-PF-Client-Release/GamePF/src/Config/ConfigManagerList.ts"
+  	},
+  	{
+  		"src":"../../_gen/ConfigOut-Release/Client/Config/ConfigStructs", 
+      "dst":"../../Gidea-PF-Client-Release/GamePF/src/Config/ConfigStructs"
+  	},
+  	{
+  		"src":"../../_gen/ConfigOut-Release/Client/Config/ReaderStructs", 
+      "dst":"../../Gidea-PF-Client-Release/GamePF/src/Config/ReaderStructs"
+  	}
+  ],
+  "disableoverwrites": [
+  	{
+  		"src":"../../_gen/ConfigOut-Release/Client/Config/ConfigExtends", 
+      "dst":"../../Gidea-PF-Client-Release/GamePF/src/Config/ConfigExtends"
+  	},
+  	{
+  		"src":"../../_gen/ConfigOut-Release/Client/Config/ReaderExtends", 
+      "dst":"../../Gidea-PF-Client-Release/GamePF/src/Config/ReaderExtends"
+  	}
+  ]
+}

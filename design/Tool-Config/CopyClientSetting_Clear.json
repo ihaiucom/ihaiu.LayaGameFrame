@@ -1,0 +1,42 @@
+{
+  "enableoverwrites": [
+  	{
+  		"src":"../../_gen/ConfigOut/csv", 
+  		"dst":"../../client/Game/bin/config/csv"
+  	},
+  	{
+  		"src":"../../_gen/ConfigOut/Client/Config/ConfigManagerList.ts", 
+      "dst":"../../client/Game/src/Config/ConfigManagerList.ts"
+  	},
+  	{
+  		"src":"../../_gen/ConfigOut/Client/Config/ConfigStructs", 
+      "dst":"../../client/Game/src/Config/ConfigStructs"
+  	},
+  	{
+  		"src":"../../_gen/ConfigOut/Client/Config/ReaderStructs", 
+      "dst":"../../client/Game/src/Config/ReaderStructs"
+  	}
+  ],
+  "disableoverwrites": [
+  	{
+  		"src":"../../_gen/ConfigOut/Client/Config/ConfigExtends", 
+      "dst":"../../client/Game/src/Config/ConfigExtends"
+  	},
+  	{
+  		"src":"../../_gen/ConfigOut/Client/Config/ReaderExtends", 
+      "dst":"../../client/Game/src/Config/ReaderExtends"
+  	}
+  ],
+  "checks": [
+    {
+      "src":"../../client/Game/src/Config/ConfigExtends", 
+      "dst":"../../_gen/ConfigOut/Client/Config/ConfigExtends",
+      "log":"../../ConfigBak/ConfigExtendsXXXX.log",
+    },
+    {
+      "src":"../../client/Game/src/Config/ReaderExtends", 
+      "dst":"../../_gen/ConfigOut/Client/Config/ReaderExtends",
+      "log":"../../ConfigBak/ReaderExtendsXXXX.log",
+    }
+  ]
+}

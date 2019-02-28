@@ -1,0 +1,27 @@
+/////////////////////////////////////
+// ihaiu.ExportProto生成
+// http://blog.ihaiu.com
+/////////////////////////////////////
+
+class ProtoEventKey
+{
+	//==========================
+	// api
+	// 0 moduleName
+	// 1 msgName
+	//--------------------------
+
+	>:FOREACH apilist:<
+	static >:[0]:<_>:[1]:< = ">:[0]:<_>:[1]:<";
+	>:ENDFOREACH:<
+
+	
+	//==========================
+	// oob
+	// 0 structName
+	//--------------------------
+
+	>:FOREACH ooblist:<
+	static >:[0]:< = ">:[0]:<";
+	>:ENDFOREACH:<
+}

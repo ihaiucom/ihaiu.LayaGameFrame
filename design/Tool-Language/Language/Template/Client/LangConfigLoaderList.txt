@@ -1,0 +1,33 @@
+/////////////////////////////////////
+// ihaiu.Language生成
+// http://blog.ihaiu.com/tool-ExportXlsx
+/////////////////////////////////////
+
+namespace configs
+{
+	/// 配置读取器列表
+	export class LangConfigLoaderList
+	{
+		lang: string = "zh_cn";
+
+		// 读取器列表
+		renders: LangConfigReader[] = [];
+
+		
+		>:FOREACH tables:<
+        >:[0]:<   = new LangConfigReader(">:[1]:<");
+		>:ENDFOREACH:<
+
+
+        // 初始化读取器列表
+        initList()
+        {
+
+			>:FOREACH tables:<
+            this.renders.push(this.>:[0]:<);
+			>:ENDFOREACH:<
+        }
+
+
+	}
+}

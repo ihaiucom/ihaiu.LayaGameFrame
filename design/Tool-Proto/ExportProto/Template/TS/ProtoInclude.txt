@@ -1,0 +1,15 @@
+/////////////////////////////////////
+// ihaiu.ExportProto生成
+// http://blog.ihaiu.com
+/////////////////////////////////////
+
+
+//==========================
+// enum
+// 0 enumName
+// 1 enumFullClassName
+//--------------------------
+
+>:FOREACH enumlist:<
+import >:[0]:< = >:[1]:<;
+>:ENDFOREACH:<

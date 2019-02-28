@@ -1,0 +1,262 @@
+{
+  "cooperate/Apply/req": {
+    "comment": null,
+    "$id": "cooperate/Apply/req",
+    "properties": {
+      "entityId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "entityId"
+    ]
+  },
+  "cooperate/Apply/resp": {
+    "comment": null,
+    "$id": "cooperate/Apply/resp",
+    "properties": {},
+    "required": []
+  },
+  "cooperate/CancelCooperate/req": {
+    "comment": null,
+    "$id": "cooperate/CancelCooperate/req",
+    "properties": {},
+    "required": []
+  },
+  "cooperate/CancelCooperate/resp": {
+    "comment": null,
+    "$id": "cooperate/CancelCooperate/resp",
+    "properties": {},
+    "required": []
+  },
+  "cooperate/Relieve/req": {
+    "comment": null,
+    "$id": "cooperate/Relieve/req",
+    "properties": {},
+    "required": []
+  },
+  "cooperate/Relieve/resp": {
+    "comment": null,
+    "$id": "cooperate/Relieve/resp",
+    "properties": {},
+    "required": []
+  },
+  "cooperate/Approve/req": {
+    "comment": null,
+    "$id": "cooperate/Approve/req",
+    "properties": {
+      "type": {
+        "type": "number"
+      },
+      "entityId": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "type",
+      "entityId"
+    ]
+  },
+  "cooperate/Approve/resp": {
+    "comment": null,
+    "$id": "cooperate/Approve/resp",
+    "properties": {
+      "type": {
+        "type": "number"
+      },
+      "entityId": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "type",
+      "entityId"
+    ]
+  },
+  "cooperate/GetInfo/req": {
+    "comment": null,
+    "$id": "cooperate/GetInfo/req",
+    "properties": {
+      "oldOrderUuids": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "oldOrderUuids"
+    ]
+  },
+  "cooperate/GetInfo/resp": {
+    "comment": null,
+    "$id": "cooperate/GetInfo/resp",
+    "properties": {},
+    "required": []
+  },
+  "cooperate/TaskOperate/req": {
+    "comment": null,
+    "$id": "cooperate/TaskOperate/req",
+    "properties": {
+      "type": {
+        "type": "number"
+      },
+      "taskId": {
+        "type": "number"
+      },
+      "star": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "type",
+      "taskId",
+      "star"
+    ]
+  },
+  "cooperate/TaskOperate/resp": {
+    "comment": null,
+    "$id": "cooperate/TaskOperate/resp",
+    "properties": {
+      "type": {
+        "type": "number"
+      },
+      "taskId": {
+        "type": "number"
+      },
+      "star": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "type",
+      "taskId",
+      "star"
+    ]
+  },
+  "cooperate/GetTaskReward/req": {
+    "comment": null,
+    "$id": "cooperate/GetTaskReward/req",
+    "properties": {
+      "taskId": {
+        "type": "number"
+      },
+      "star": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "taskId",
+      "star"
+    ]
+  },
+  "cooperate/GetTaskReward/resp": {
+    "comment": null,
+    "$id": "cooperate/GetTaskReward/resp",
+    "properties": {
+      "taskId": {
+        "type": "number"
+      },
+      "star": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "taskId",
+      "star"
+    ]
+  },
+  "cooperate/GiveReward/req": {
+    "comment": null,
+    "$id": "cooperate/GiveReward/req",
+    "properties": {
+      "itemId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "itemId"
+    ]
+  },
+  "cooperate/GiveReward/resp": {
+    "comment": null,
+    "$id": "cooperate/GiveReward/resp",
+    "properties": {
+      "itemId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "itemId"
+    ]
+  },
+  "cooperate/GetProgressTask/req": {
+    "comment": null,
+    "$id": "cooperate/GetProgressTask/req",
+    "properties": {
+      "index": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "index"
+    ]
+  },
+  "cooperate/GetProgressTask/resp": {
+    "comment": null,
+    "$id": "cooperate/GetProgressTask/resp",
+    "properties": {
+      "index": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "index"
+    ]
+  },
+  "cooperate/ReadCooperate/req": {
+    "comment": null,
+    "$id": "cooperate/ReadCooperate/req",
+    "properties": {},
+    "required": []
+  },
+  "cooperate/ReadCooperate/resp": {
+    "comment": null,
+    "$id": "cooperate/ReadCooperate/resp",
+    "properties": {},
+    "required": []
+  },
+  "cooperate/GetTaskInfo/req": {
+    "comment": null,
+    "$id": "cooperate/GetTaskInfo/req",
+    "properties": {},
+    "required": []
+  },
+  "cooperate/GetTaskInfo/resp": {
+    "comment": null,
+    "$id": "cooperate/GetTaskInfo/resp",
+    "properties": {},
+    "required": []
+  },
+  "cooperate/GetOrderInfo/req": {
+    "comment": null,
+    "$id": "cooperate/GetOrderInfo/req",
+    "properties": {
+      "oldOrderUuids": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "oldOrderUuids"
+    ]
+  },
+  "cooperate/GetOrderInfo/resp": {
+    "comment": null,
+    "$id": "cooperate/GetOrderInfo/resp",
+    "properties": {},
+    "required": []
+  }
+}

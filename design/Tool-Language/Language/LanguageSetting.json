@@ -1,0 +1,33 @@
+{
+  "autoEnd": false,
+  "cmd": "langreader",
+  "optionSetting": "./LanguageSetting.json",
+  "xlsxDir": "E:/zengfeng/GideaPF/gamepf_doc/Config/Common",
+  "langs": [
+    "zh_cn",
+    "en"
+  ],
+  "langFieldPrefixs": [
+    "zh_cn_",
+    "cn_",
+    "en_"
+  ],
+  "langDir": "E:/zengfeng/GideaPF/gamepf_doc/Config/Lang",
+  "langEnableRemove": false,
+  "langDisableRemoveTables": [],
+  "outDir": "E:/zengfeng/GideaPF/gamepf_doc/Config/LangOut",
+  "exportSettingXlsx": "E:/zengfeng/GideaPF/gamepf_doc/Config/ExportSetting.xlsx",
+  "settingStructSheet": "StructSheet",
+  "settingIgnoreSheet": "IgnoreSheet",
+  "templateDir": "./Template",
+  "csvSeparator": "\t",
+  "csvSeparatorReplace": "",
+  "csvLineSeparatorReplace": "|n|",
+  "xlsxHeadTypeLine": 1,
+  "xlsxHeadCnLine": 2,
+  "xlsxHeadFieldLine": 3,
+  "TextCodeTS": "E:/zengfeng/GideaPF/client/Game/src/Config/keys/TEXT.ts",
+  "TextCodeXlsx": "E:/zengfeng/GideaPF/gamepf_doc/Config/Lang/editor/TextCode.xlsx",
+  "TextFguiXml": "E:/zengfeng/GideaPF/gamepf_art/FairyGUI/exports/lang/zh_cn.xml",
+  "TextFguiXlsx": "E:/zengfeng/GideaPF/gamepf_doc/Config/Lang/editor/TextFgui.xlsx"
+}

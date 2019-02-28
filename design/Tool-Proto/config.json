@@ -1,0 +1,22 @@
+{
+    "out": { /* 需要输出的文件种类，对应backend的种类*/
+        "unity": "./out/unity", /*unity工程Scripts目录*/
+        "laya":"./out/laya",/*laya工程目录*/
+        "unity-gameframework": { /*使用gameframework工程的Scripts目录*/
+            "path": "./out/unity-gfw/Assets/Scripts", /*unity工程Script目录*/
+            "namespace": "StarForce"
+        },
+        "thinkjs": "./out/thinkjs/", /*thinkjs 项目根目录*/
+        "json-schema": "./out/thinkjs/public/schema", /*json-schema目录*/
+        "sql": {
+            "path": "./out/thinkjs/public/sql/",
+            "dbPrefix": "", /* database name prefix */
+            "tablePrefix": "", /* table name prefix */
+            "dbShardingCount": 1, /*数据库分片数量*/
+            "tableShardingCount": 1 /*数据表分片数量*/
+        }
+    },
+    "output_ver":true, /*是否导出一个协议版本号*/
+    "request_required": true, /*是否坚持每个api声明了request*/
+    "response_required": true  /*是否坚持每个api声明了response*/
+}

@@ -1,10 +1,11 @@
 import LoaderPanelInterface from "./LoaderPanelInterface";
 import Signal from "../../Libs/signals/Signal";
+import FWindow from "../Module/FWindow";
 
 //======================
 // 加载界面
 //----------------------
-export class LoaderPanel extends FWindow implements LoaderPanelInterface
+export default class LoaderPanel extends FWindow implements LoaderPanelInterface
 {
     // 消息--显示完成
     sShowComplete: Signal = new Signal();

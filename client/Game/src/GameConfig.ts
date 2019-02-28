@@ -7,7 +7,9 @@ export default class GameConfig{
     static height:number=1136;
     static scaleMode:string="fixedwidth";
     static screenMode:string="none";
-    static startScene:string="test/TestScene.scene";
+    static alignV:string="top";
+    static alignH:string="left";
+    static startScene:any="test/TestScene.scene";
     static sceneRoot:string="";
     static debug:boolean=false;
     static stat:boolean=false;
@@ -15,6 +17,7 @@ export default class GameConfig{
     static exportSceneToJson:boolean=true;
     constructor(){}
     static init(){
+        var reg: Function = Laya.ClassUtils.regClass;
     }
 }
 GameConfig.init();

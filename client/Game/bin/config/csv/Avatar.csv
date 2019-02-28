@@ -1,0 +1,555 @@
+﻿int	string	string	string	string	string	string	string	string	string	DTVector2
+ID	英文名称	中文名称	半身像	小图标	小图标	碎片图标	模型_皮肤	模型_骨骼	场景_图片	修正坐标
+id	name_e	name_c	body_icon	zh_cn_icon	en_icon	piece_icon	model_skin	model_bones	bg_pic	co_vector
+1		有所耳闻								
+2		翘首以待								
+3		万众瞩目								
+4		一票难求								
+5		BruisedPeaches		ShootIcon/BruisedPeaches						
+6		FIS		ShootIcon/FIS						
+7		PeopleReview		ShootIcon/PeopleReview						
+101		剧情-男主1								
+102		剧情-男主2								
+103		剧情-男主3								
+104		剧情-男主4								
+105		剧情-男主5								
+201		剧情-女主1								
+202		剧情-女主2								
+203		剧情-女主3								
+204		剧情-女主4								
+205		剧情-女主5								
+9986	npc3	男NPC2					Unit/Male01/9986_Npc3	Unit/Bones/Male01		
+9987	npc4	女NPC2					Unit/Female01/9987_Npc4	Unit/Bones/Female01		
+9988	Starguider	星探					Unit/Male02/9988_Starguider	Unit/Bones/Male02		
+9989	Financer	财务员					Unit/Male01/9989_Financer	Unit/Bones/Male01		
+9990	Coach	训练师					Unit/Female01/9990_Coach	Unit/Bones/Female01		
+9985	Trainer	培训师					Unit/Female06/9985_Trainer	Unit/Bones/Female06		
+9991	Bonita	助理	PlayerBodyIcon/zhuli				Unit/Female07/2008_Bonita	Unit/Bones/Female07		
+9992	Msec	男秘书	PlayerBodyIcon/nanmishu							
+9993	Fesec	女秘书	PlayerBodyIcon/nvmishu							
+9994	Mhost	男主持					Unit/Male01/2001_Mhost	Unit/Bones/Male01		34;3
+9995	Fehost	女主持					Unit/Female05/2002_Fehost	Unit/Bones/Female05		34;3
+9996	Rocky	男主	PlayerBodyIcon/Rocky				Unit/Male01/9996_Rocky	Unit/Bones/Male01		34;3
+9997	Scarlett	女主	PlayerBodyIcon/Scarlett				Unit/Female04/9997_Scarlett	Unit/Bones/Female04		34;3
+9998	NPCMale	男NPC	PlayerBodyIcon/npc1				Unit/Male01/2003_Male	Unit/Bones/Male01		34;3
+9999	NPCFemale	女NPC	PlayerBodyIcon/npc2				Unit/Female01/2004_Female	Unit/Bones/Female01		34;3
+1001	Sven	埃文	ActorBodyIcon/Sven	ActorBodyIcon/Sven			Unit/Male01/1001_Sven	Unit/Bones/Male01		34;3
+1002	Zoe	爱丽	ActorBodyIcon/Zoe	ActorBodyIcon/Zoe			Unit/Female01/1002_Zoe	Unit/Bones/Female01		34;3
+1003	Hayden	汉克	ActorBodyIcon/Hayden	ActorBodyIcon/Hayden			Unit/Male01/1003_Hayden	Unit/Bones/Male01		29;8
+1004	Jay	莱奥	ActorBodyIcon/Jay	ActorBodyIcon/Jay			Unit/Male01/1004_Jay	Unit/Bones/Male01		34;3
+1005	Larry	罗德尼	ActorBodyIcon/Larry	ActorBodyIcon/Larry			Unit/Male01/1005_Larry	Unit/Bones/Male01		39;6
+1006	Singo	罗素	ActorBodyIcon/Singo	ActorBodyIcon/Singo			Unit/Male01/1006_Singo	Unit/Bones/Male01		29;3
+1007	Farth	戴维	ActorBodyIcon/Farth	ActorBodyIcon/Farth			Unit/Male01/1007_Farth	Unit/Bones/Male01		31;2
+1008	K800	施格尔	ActorBodyIcon/K800	ActorBodyIcon/K800			Unit/Male01/1008_K800	Unit/Bones/Male01		34;3
+1009	Dick	迪普	ActorBodyIcon/Dick	ActorBodyIcon/Dick			Unit/Male02/1009_Dick	Unit/Bones/Male02		34;3
+1010	Charlie	查林	ActorBodyIcon/Charlie	ActorBodyIcon/Charlie			Unit/Male01/1010_Charlie	Unit/Bones/Male01		33;10
+1011	Gorden	马度龙	ActorBodyIcon/Gorden	ActorBodyIcon/Gorden			Unit/Male01/1011_Gorden	Unit/Bones/Male01		34;3
+1012	Norman	莫里曼	ActorBodyIcon/Norman	ActorBodyIcon/Norman			Unit/Male02/1012_Norman	Unit/Bones/Male02		34;3
+1013	Bart	布拉德利	ActorBodyIcon/Bart	ActorBodyIcon/Bart			Unit/Male01/1013_Bart	Unit/Bones/Male01		34;3
+1014	Spark	斯昆	ActorBodyIcon/Spark	ActorBodyIcon/Spark			Unit/Male01/1014_Spark	Unit/Bones/Male01		28;2
+1015	Snake	瑞克	ActorBodyIcon/Snake	ActorBodyIcon/Snake			Unit/Male03/1015_Snake	Unit/Bones/Male03		29;2
+1016	Hack	乔克	ActorBodyIcon/Hack	ActorBodyIcon/Hack			Unit/Male01/1016_Hack	Unit/Bones/Male01		34;3
+1017	Mari	玛丽安	ActorBodyIcon/Mari	ActorBodyIcon/Mari			Unit/Female04/1017_Mari	Unit/Bones/Female04		36;9
+1018	Lana	玛拉	ActorBodyIcon/Lana	ActorBodyIcon/Lana			Unit/Female03/1018_Lana	Unit/Bones/Female03		34;3
+1019	Tom	詹一	ActorBodyIcon/Tom	ActorBodyIcon/Tom			Unit/Male01/1019_Tom	Unit/Bones/Male01		28;2
+1020	Galahad	林斯	ActorBodyIcon/Galahad	ActorBodyIcon/Galahad			Unit/Male01/1020_Galahad	Unit/Bones/Male01		34;3
+1021	Bird	简	ActorBodyIcon/Bird	ActorBodyIcon/Bird			Unit/Female01/1021_Bird	Unit/Bones/Female01		26;8
+1022	Sophie	克洛伊	ActorBodyIcon/Sophie	ActorBodyIcon/Sophie			Unit/Female04/1022_Sophie	Unit/Bones/Female04		38;7
+1023	William	贾亭	ActorBodyIcon/William	ActorBodyIcon/William			Unit/Male01/1023_William	Unit/Bones/Male01		34;3
+1024	Taylor	托尼	ActorBodyIcon/Taylor	ActorBodyIcon/Taylor			Unit/Male01/1024_Taylor	Unit/Bones/Male01		27;3
+1025	Lia	曼迪	ActorBodyIcon/Lia	ActorBodyIcon/Lia			Unit/Female01/1025_Lia	Unit/Bones/Female01		39;9
+1026	Alpha	克拉特	ActorBodyIcon/Alpha	ActorBodyIcon/Alpha			Unit/Male01/1026_Alpha	Unit/Bones/Male01		34;3
+1027	Drago	房龙	ActorBodyIcon/Drago	ActorBodyIcon/Drago			Unit/Male01/1027_Drago	Unit/Bones/Male01		21;9
+1028	Victoria	琼斯	ActorBodyIcon/Victoria	ActorBodyIcon/Victoria			Unit/Female06/1028_Victoria	Unit/Bones/Female06		34;3
+1029	Joan	安娜	ActorBodyIcon/Joan	ActorBodyIcon/Joan			Unit/Female05/1029_Joan	Unit/Bones/Female05		34;3
+1030	Steel	丹尼	ActorBodyIcon/Steel	ActorBodyIcon/Steel			Unit/Male01/1030_Steel	Unit/Bones/Male01		27;3
+1031	Blossom	布兰顿	ActorBodyIcon/Blossom	ActorBodyIcon/Blossom			Unit/Male02/1031_Blossom	Unit/Bones/Male02		29;5
+1032	Holms	本	ActorBodyIcon/Holms	ActorBodyIcon/Holms			Unit/Male02/1032_Holms	Unit/Bones/Male02		29;7
+1033	Bill	威利	ActorBodyIcon/Bill	ActorBodyIcon/Bill			Unit/Male01/1033_Bill	Unit/Bones/Male01		34;3
+1034	Nana	娜拉	ActorBodyIcon/Nana	ActorBodyIcon/Nana			Unit/Female01/1034_Nana	Unit/Bones/Female01		43;17
+1035	Empress	武媚	ActorBodyIcon/Empress	ActorBodyIcon/Empress			Unit/Female04/1035_Empress	Unit/Bones/Female04		32;17
+1036	Nathan	特鲁斯	ActorBodyIcon/Nathan	ActorBodyIcon/Nathan			Unit/Male01/1036_Nathan	Unit/Bones/Male01		34;3
+1037	Teresa	凯莉	ActorBodyIcon/Teresa	ActorBodyIcon/Teresa			Unit/Female05/1037_Teresa	Unit/Bones/Female05		23;6
+1038	Britney	斯黛拉	ActorBodyIcon/Britney	ActorBodyIcon/Britney			Unit/Female06/1038_Britney	Unit/Bones/Female06		39;8
+1039	Renie	艾莉森	ActorBodyIcon/Renie	ActorBodyIcon/Renie			Unit/Female03/1039_Renie	Unit/Bones/Female03		30;16
+1040	Hailey	艾丽娅	ActorBodyIcon/Hailey	ActorBodyIcon/Hailey			Unit/Female02/1040_Hailey	Unit/Bones/Female02		34;3
+1041	Jane	琼	ActorBodyIcon/Jane	ActorBodyIcon/Jane			Unit/Female01/1041_Jane	Unit/Bones/Female01		34;3
+1042	Elton	诺尔	ActorBodyIcon/Elton	ActorBodyIcon/Elton			Unit/Male01/1042_Elton	Unit/Bones/Male01		24;9
+1043	Amstrong	大卫	ActorBodyIcon/Amstrong	ActorBodyIcon/Amstrong			Unit/Male01/1043_Amstrong	Unit/Bones/Male01		31;4
+1044	Alfred	本杰明	ActorBodyIcon/Alfred	ActorBodyIcon/Alfred			Unit/Male01/1044_Alfred	Unit/Bones/Male01		27;2
+1045	Reyrey	普尔	ActorBodyIcon/Reyrey	ActorBodyIcon/Reyrey			Unit/Male01/1045_Reyrey	Unit/Bones/Male01		27;6
+1046	Dan	蒂莫西	ActorBodyIcon/Dan	ActorBodyIcon/Dan			Unit/Male01/1046_Dan	Unit/Bones/Male01		34;3
+1047	Machel	汉克特	ActorBodyIcon/Machel	ActorBodyIcon/Machel			Unit/Male01/1047_Machel	Unit/Bones/Male01		30;3
+1048	Guy	格雷	ActorBodyIcon/Guy	ActorBodyIcon/Guy			Unit/Male01/1048_Guy	Unit/Bones/Male01		29;8
+1049	Cleo	丽兹	ActorBodyIcon/Cleo	ActorBodyIcon/Cleo			Unit/Female04/1049_Cleo	Unit/Bones/Female04		25;9
+1050	Arthur	查姆	ActorBodyIcon/Arthur	ActorBodyIcon/Arthur			Unit/Male02/1050_Arthur	Unit/Bones/Male02		26;2
+1051	Rainborn	莉西	ActorBodyIcon/Rainborn	ActorBodyIcon/Rainborn			Unit/Female05/1051_Rainborn	Unit/Bones/Female05		26;10
+1052	Janny	奥利维亚	ActorBodyIcon/Janny	ActorBodyIcon/Janny			Unit/Female04/1052_Janny	Unit/Bones/Female04		34;3
+1053	Annie	詹娜	ActorBodyIcon/Annie	ActorBodyIcon/Annie			Unit/Female02/1053_Annie	Unit/Bones/Female02		28;6
+1054	Spike	雷顿	ActorBodyIcon/Spike	ActorBodyIcon/Spike			Unit/Male01/1054_Spike	Unit/Bones/Male01		34;3
+1055	Lily	章芬	ActorBodyIcon/Lily	ActorBodyIcon/Lily			Unit/Female04/1055_Lily	Unit/Bones/Female04		35;7
+1056	Fanie	索菲	ActorBodyIcon/Fanie	ActorBodyIcon/Fanie			Unit/Female01/1056_Fanie	Unit/Bones/Female01		34;3
+1057	Hammer	海克斯	ActorBodyIcon/Hammer	ActorBodyIcon/Hammer			Unit/Male03/1057_Hammer	Unit/Bones/Male03		34;3
+1058	Margot	琳达	ActorBodyIcon/Margot	ActorBodyIcon/Margot			Unit/Female06/1058_Margot	Unit/Bones/Female06		30;11
+1059	Cecilia	奈拉	ActorBodyIcon/Cecilia	ActorBodyIcon/Cecilia			Unit/Female05/1059_Cecilia	Unit/Bones/Female05		34;3
+1060	Annabelle	薇丝帕	ActorBodyIcon/Annabelle	ActorBodyIcon/Annabelle			Unit/Female05/1060_Annabelle	Unit/Bones/Female05		32;10
+1061	Wolf	杰克	ActorBodyIcon/Wolf	ActorBodyIcon/Wolf			Unit/Male01/1061_Wolf	Unit/Bones/Male01		30;3
+1062	Malena	贝拉	ActorBodyIcon/Malena	ActorBodyIcon/Malena			Unit/Female07/1062_Malena	Unit/Bones/Female07		34;3
+1063	Jerome	裘华	ActorBodyIcon/Jerome	ActorBodyIcon/Jerome			Unit/Male01/1063_Jerome	Unit/Bones/Male01		34;3
+1064	Keith	威廉	ActorBodyIcon/Keith	ActorBodyIcon/Keith			Unit/Male01/1064_Keith	Unit/Bones/Male01		34;3
+1065	Alex	格伦	ActorBodyIcon/Alex	ActorBodyIcon/Alex			Unit/Male01/1065_Alex	Unit/Bones/Male01		27;4
+1066	Sanjay	马里	ActorBodyIcon/Sanjay	ActorBodyIcon/Sanjay			Unit/Male01/1066_Sanjay	Unit/Bones/Male01		34;3
+1067	Mandy	张宁玉	ActorBodyIcon/Mandy	ActorBodyIcon/Mandy			Unit/Female04/1067_Mandy	Unit/Bones/Female04		34;3
+1068	Purple	龚莉	ActorBodyIcon/Purple	ActorBodyIcon/Purple			Unit/Female05/1068_Purple	Unit/Bones/Female05		34;3
+1069	Ronnie	康纳	ActorBodyIcon/Ronnie	ActorBodyIcon/Ronnie			Unit/Male01/1069_Ronnie	Unit/Bones/Male01		19;9
+1070	Travis	文森特	ActorBodyIcon/Travis	ActorBodyIcon/Travis			Unit/Male01/1070_Travis	Unit/Bones/Male01		34;3
+1071	Ann	玛歌	ActorBodyIcon/Ann	ActorBodyIcon/Ann			Unit/Female05/1071_Ann	Unit/Bones/Female05		34;3
+1072	Shelly	谢波	ActorBodyIcon/Shelly	ActorBodyIcon/Shelly			Unit/Male01/1072_Shelly	Unit/Bones/Male01		34;3
+1073	Jake	盖瑞特	ActorBodyIcon/Jake	ActorBodyIcon/Jake			Unit/Male01/1073_Jake	Unit/Bones/Male01		34;3
+1074	Ben	布拉德	ActorBodyIcon/Ben	ActorBodyIcon/Ben			Unit/Male01/1074_Ben	Unit/Bones/Male01		34;3
+1075	Kim	贾维	ActorBodyIcon/Kim	ActorBodyIcon/Kim			Unit/Male01/1075_Kim	Unit/Bones/Male01		34;3
+1076	Darkman	伯恩	ActorBodyIcon/Darkman	ActorBodyIcon/Darkman			Unit/Male01/1076_Darkman	Unit/Bones/Male01		34;3
+1077	Gos	高登	ActorBodyIcon/Gos	ActorBodyIcon/Gos			Unit/Male01/1077_Gos	Unit/Bones/Male01		34;3
+1078	Bolyd	郭达森	ActorBodyIcon/Bolyd	ActorBodyIcon/Bolyd			Unit/Male01/1078_Bolyd	Unit/Bones/Male01		34;3
+1079	Lax	威尔	ActorBodyIcon/Lax	ActorBodyIcon/Lax			Unit/Male03/1079_Lax	Unit/Bones/Male03		34;3
+1080	Cara	克拉丽丝	ActorBodyIcon/Cara	ActorBodyIcon/Cara			Unit/Female06/1080_Cara	Unit/Bones/Female06		34;3
+1081	Swan	米妮	ActorBodyIcon/Swan	ActorBodyIcon/Swan			Unit/Female07/1081_Swan	Unit/Bones/Female07		34;3
+1082	Noah	斯诺	ActorBodyIcon/Noah	ActorBodyIcon/Noah			Unit/Male03/1082_Noah	Unit/Bones/Male03		30;3
+1083	Harry	桑德亚	ActorBodyIcon/Harry	ActorBodyIcon/Harry			Unit/Male01/1083_Harry	Unit/Bones/Male01		34;3
+1084	Lock	赵古拉	ActorBodyIcon/Lock	ActorBodyIcon/Lock			Unit/Male01/1084_Lock	Unit/Bones/Male01		34;3
+1085	Parker	查克	ActorBodyIcon/Parker	ActorBodyIcon/Parker			Unit/Male02/1085_Parker	Unit/Bones/Male02		30;8
+1086	Tanya	鲁妮拉	ActorBodyIcon/Tanya	ActorBodyIcon/Tanya			Unit/Female07/1086_Tanya	Unit/Bones/Female07		34;3
+1087	Fisty	迪娜	ActorBodyIcon/Fisty	ActorBodyIcon/Fisty			Unit/Female02/1087_Fisty	Unit/Bones/Female02		34;3
+1088	Caleb	卡森	ActorBodyIcon/Caleb	ActorBodyIcon/Caleb			Unit/Male03/1088_Caleb	Unit/Bones/Male03		28;6
+1089	Chiyo	绪子	ActorBodyIcon/Chiyo	ActorBodyIcon/Chiyo			Unit/Female04/1089_Chiyo	Unit/Bones/Female04		34;3
+1090	Unknown	北原	ActorBodyIcon/Unknown	ActorBodyIcon/Unknown			Unit/Male01/1090_Unknown	Unit/Bones/Male01		30;3
+1091	Parsifal	西尔	ActorBodyIcon/Parsifal	ActorBodyIcon/Parsifal			Unit/Male01/1091_Parsifal	Unit/Bones/Male01		34;3
+1092	Barton	凯文	ActorBodyIcon/Barton	ActorBodyIcon/Barton			Unit/Male02/1092_Barton	Unit/Bones/Male02		26;2
+1093	Winter	巴拉娜	ActorBodyIcon/Winter	ActorBodyIcon/Winter			Unit/Female06/1093_Winter	Unit/Bones/Female06		34;3
+1094	Stan	哈里	ActorBodyIcon/Stan	ActorBodyIcon/Stan			Unit/Male01/1094_Stan	Unit/Bones/Male01		34;3
+1095	Catie	贝蒂	ActorBodyIcon/Catie	ActorBodyIcon/Catie			Unit/Female06/1095_Catie	Unit/Bones/Female06		26;5
+1096	June	杨梓	ActorBodyIcon/June	ActorBodyIcon/June			Unit/Female02/1096_June	Unit/Bones/Female02		34;3
+1097	Kris	凯特	ActorBodyIcon/Kris	ActorBodyIcon/Kris			Unit/Female06/1097_Kris	Unit/Bones/Female06		34;3
+1098	Juan	巴顿	ActorBodyIcon/Juan	ActorBodyIcon/Juan			Unit/Male01/1098_Juan	Unit/Bones/Male01		34;3
+1099	Ellen	埃尔顿	ActorBodyIcon/Ellen	ActorBodyIcon/Ellen			Unit/Male01/1099_Ellen	Unit/Bones/Male01		34;3
+1100	Glenn	孔毅	ActorBodyIcon/Glenn	ActorBodyIcon/Glenn			Unit/Male01/1100_Glenn	Unit/Bones/Male01		29;4
+1101	Layla	梅梅	ActorBodyIcon/Layla	ActorBodyIcon/Layla			Unit/Female07/1101_Layla	Unit/Bones/Female07		34;3
+1102	Stone	石通	ActorBodyIcon/Stone	ActorBodyIcon/Stone			Unit/Male01/1102_Stone	Unit/Bones/Male01		34;3
+1999		随机艺人合同	ShootIcon/img_nonehero_shoot	ShootIcon/img_nonehero_shoot						
+1501		技能1		SkillIcon/icon_6001						
+1502		技能2		SkillIcon/icon_6002						
+1503		技能3		SkillIcon/icon_6003						
+1504		技能4		SkillIcon/icon_6004						
+1505		技能5		SkillIcon/icon_6005						
+1506		技能6		SkillIcon/icon_6006						
+1507		技能7		SkillIcon/icon_6007						
+1508		技能8		SkillIcon/icon_6008						
+2001		钻石		ItemIcon/icon_diamond						
+2002		金币		ItemIcon/icon_coin						
+2003		美元		ItemIcon/icon_bill						
+2004		拍摄许可证		ItemIcon/icon_xukezheng						
+2005		科幻片飞船模型		ItemIcon/icon_feichuan						
+2006		奇幻片魔法杖		ItemIcon/icon_fazhang						
+2007		现代片笔记本电脑		ItemIcon/icon_diannao						
+2008		励志片鸭舌帽		ItemIcon/icon_yashemao						
+2009		战争片破损头盔		ItemIcon/icon_gangkui						
+2010		冒险片丛林部落雕像		ItemIcon/icon_diaoxiang						
+2011		古装片盾牌		ItemIcon/icon_dunpai						
+2012		犯罪片匕首		ItemIcon/icon_bishou						
+2013		谍战片黑色宽檐帽		ItemIcon/icon_kuanyanmao						
+2014		灾难片对讲机		ItemIcon/icon_duijiangji						
+2015		叙事片日记本		ItemIcon/icon_rijiben						
+2016		喜剧片小丑鞋		ItemIcon/icon_xiaochouxie						
+2017		动作片拳套		ItemIcon/icon_quantao						
+2018		爱情片心型气球		ItemIcon/icon_qiqiu						
+2019		歌舞片唱片机		ItemIcon/icon_changpianji						
+2020		悬疑片白手套		ItemIcon/icon_shoutao						
+2021		恐怖片面具		ItemIcon/icon_mianju						
+2022		动画片玩偶		ItemIcon/icon_wanou						
+2023		滑板		ItemIcon/icon_huaban						
+2024		小提琴		ItemIcon/icon_xiaotiqin						
+2025		折扇		ItemIcon/icon_shanzi						
+2026		烟斗		ItemIcon/icon_yandou						
+2027		高跟鞋		ItemIcon/icon_gaogenxie						
+2028		低帮球鞋		ItemIcon/icon_xiezi						
+2029		雕塑		ItemIcon/icon_diaosu						
+2030		手表		ItemIcon/icon_shoubiao						
+2031		手机		ItemIcon/icon_shouji						
+2032		钢材		ItemIcon/icon_gangcai						
+2033		涂料		ItemIcon/icon_tuliao						
+2034		水泥		ItemIcon/icon_shuini						
+2035		砖头		ItemIcon/icon_zhuantou						
+2036		培养卡		ItemIcon/icon_peiyangshouce						
+2037		邀请函		ItemIcon/icon_yaoqinghan						
+2038		忠诚卡		ItemIcon/icon_zhongchengjiangzhang						
+2039		进修券		ItemIcon/icon_study						
+2040		宣传册		ItemIcon/icon_xuanchuance						
+2041		喇叭		ItemIcon/icon_gonggao						
+2042		资产礼包		ItemIcon/icon_lihe1						
+2043		粉丝		ItemIcon/icon_renqi						
+2044		点赞数		ItemIcon/icon_praise						
+2045		生产图纸		ItemIcon/icon_order						
+2046		星探卡		ItemIcon/icon_xingtanjing						
+2047		期待值		ItemIcon/icon_qidai						
+2048		改名卡		ItemIcon/icon_gaimingka						
+2049		通告函		ItemIcon/icon_tonggaozheng						
+2050		技能药剂红		ItemIcon/icon_hongyaoping						
+2051		技能药剂蓝		ItemIcon/icon_lanseyaopin						
+2052		奖杯		ItemIcon/icon_trophy						
+2053		艺人礼盒		ItemIcon/icon_lihe2						
+2201		电影院								
+2202		摄影棚								
+2203		艺人教室								
+2204		市场部								
+2205		宣传部								
+2206		仓库								
+2207		销售部								
+2208		商务部								
+2209		办公室								
+2210		接待室								
+2211		会议室								
+2212		财务部								
+2213		训练室								
+2214		全国商务部								
+2215		环球商务部								
+2216		收藏室								
+2217		宣传课程		MenuIcon/icon_xuanchuanke						
+2218		形象课程		MenuIcon/icon_xingxiangke						
+2219		生活课程		MenuIcon/icon_shenghuoke						
+2220		舞蹈课程		MenuIcon/icon_wudaoke						
+3001		亿达影城		CinemaIcon/yingyuan01						
+3002		锦绣影城		CinemaIcon/yingyuan02						
+3003		星光影城		CinemaIcon/yingyuan03						
+3004		良辰院线		CinemaIcon/yingyuan04						
+3005		宝栗影院		CinemaIcon/yingyuan05						
+3006		万华影院		CinemaIcon/yingyuan06						
+3007		天堂影院		CinemaIcon/yingyuan07						
+3008		千画影院		CinemaIcon/yingyuan08						
+3009		SFA中影影院		CinemaIcon/yingyuan01						
+3010		百影汇院线		CinemaIcon/yingyuan02						
+3011		曙光影院		CinemaIcon/yingyuan03						
+3012		民泰影城		CinemaIcon/yingyuan04						
+3013		光线影院		CinemaIcon/yingyuan05						
+3014		悦影影院		CinemaIcon/yingyuan06						
+3015		魅影院线		CinemaIcon/yingyuan07						
+3016		海天影城		CinemaIcon/yingyuan08						
+3017		绿地影城		CinemaIcon/yingyuan01						
+3018		右岸影城		CinemaIcon/yingyuan02						
+3019		完美院线		CinemaIcon/yingyuan03						
+4001		街区		BlockIcon/icon_block1						
+4002		城镇		BlockIcon/icon_block2						
+4003		州省		BlockIcon/icon_block3						
+4004		全国		BlockIcon/icon_block4						
+4005		世界		BlockIcon/icon_block5						
+5001		仓库		MenuIcon/icon_depot_zjm						
+5002		探班		MenuIcon/icon_fans_zjm						
+5003		公务		MenuIcon/icon_office_zjm						
+5004		合作		MenuIcon/icon_cooperatingtasks_zjm						
+5005		会议		MenuIcon/icon_meeting_zjm						
+5006		拍摄		MenuIcon/icon_film_zjm						
+5007		生产		MenuIcon/icon_produce_zjm						
+5008		市场		MenuIcon/icon_market_zjm						
+5009		订单		MenuIcon/icon_order_zjm						
+5010		星探		MenuIcon/icon_talent						
+5011		艺人		MenuIcon/icon_artist_zjm						
+5012		财务兑换		MenuIcon/icon_temp						
+5013		管理		MenuIcon/icon_manage_zjm						
+5014		社交		MenuIcon/icon_social_zjm						
+5015		经营		MenuIcon/icon_run_zjm						
+5016		颁奖		MenuIcon/icon_awards_zjm						
+5017		聊天		MenuIcon/icon_chat_zjm						
+5018		活动		MenuIcon/icon_event_zjm						
+5019		邮箱		MenuIcon/icon_mail_zjm						
+5020		任务		MenuIcon/icon_mission_zjm						
+5021		支付		MenuIcon/icon_pay_zjm						
+5022		设置		MenuIcon/icon_set_zjm						
+5023		商店		MenuIcon/icon_shop_zjm						
+5024		超级偶像		MenuIcon/icon_superidol_zjm						
+5025		引导/日程		MenuIcon/icon_tips_zjm						
+5026		小目标		MenuIcon/icon_trophy_zjm						
+5027		福利		MenuIcon/icon_weal_zjm						
+5028		宝物		MenuIcon/icon_temp						
+5029		编剧		MenuIcon/icon_temp						
+5030		领袖		MenuIcon/icon_temp						
+5031		集团		MenuIcon/icon_temp						
+5032		剧本库		MenuIcon/icon_scenario_zjm						
+5033		院线		MenuIcon/icon_temp						
+5034		市值		MenuIcon/icon_temp						
+5035		艺人名录		MenuIcon/icon_artistlist_zjm						
+5036		送美元		MenuIcon/icon_givemoney_zjm						
+5037		送金币		MenuIcon/icon_parka_zjm						
+5038		小秘书		ActivityIcon/icon_secretary1						
+5039		训练		MenuIcon/icon_train						
+5040		雪藏		MenuIcon/icon_entertainment2						
+5041		建造		MenuIcon/icon_build_zjm						
+5042		艺人训练		MenuIcon/icon_skillpoint						
+5101		设置-音乐		SettingIcon/icon_music_setting						
+5102		设置-音效		SettingIcon/icon_sound_setting						
+5103		设置-省电模式		SettingIcon/icon_power_setting						
+5104		设置-通知		SettingIcon/icon_notice_setting						
+5105		设置-称号		SettingIcon/icon_title_setting						
+5106		设置-语言		SettingIcon/icon_language_setting						
+5107		设置-建议		MenuIcon/icon_temp						
+5108		设置-礼包		SettingIcon/icon_redeem_setting						
+5109		设置-关闭角标		MenuIcon/icon_temp						
+5110		设置-开启角标		MenuIcon/icon_temp						
+5121		活动-七日礼图标		ActivityIcon/icon_signin						
+5122		活动-秘书图标		ActivityIcon/icon_secretary1						
+5123		活动-许可证申请		ActivityIcon/icon_license						
+5124		活动-登陆奖励		ActivityIcon/icon_login						
+5125		活动-七日礼图标-选中		ActivityIcon/icon_signin2						
+5126		活动-秘书图标-选中		ActivityIcon/icon_secretary2						
+5127		活动-许可证申请-选中		ActivityIcon/icon_license2						
+5128		活动-登陆奖励-选中		ActivityIcon/icon_login2						
+5141		会议-骰子1		MeetingIcon/icon_dice_1						
+5142		会议-骰子2		MeetingIcon/icon_dice_2						
+5143		会议-骰子3		MeetingIcon/icon_dice_3						
+5144		会议-骰子4		MeetingIcon/icon_dice_4						
+5145		会议-骰子5		MeetingIcon/icon_dice_5						
+5146		会议-骰子6		MeetingIcon/icon_dice_6						
+6001		女		ShootIcon/icon_women						
+6002		男		ShootIcon/icon_man						
+6003		美国		ShootIcon/icon_na						
+6004		欧洲		ShootIcon/icon_eu						
+6005		亚洲		ShootIcon/icon_as						
+6006		1星，2星		ShootIcon/icon_star						
+6007		3星，4星		ShootIcon/icon_star						
+6008		5星		ShootIcon/icon_star						
+6009		6星		ShootIcon/icon_star						
+6010		场面		ShootIcon/icon_sence						
+6011		表演		ShootIcon/icon_act						
+6012		剧情		ShootIcon/icon_drama						
+6013		艺术		ShootIcon/icon_art						
+6014		娱乐		ShootIcon/icon_entertainment						
+6015		电影通告插图1		ShootIcon/scene2_caifang						
+6016		电影通告插图2		ShootIcon/scene1_zouxiu						
+6017		电影通告插图3		ShootIcon/scene3_fabuhui						
+6018		电影通告插图4		ShootIcon/scene6_paishe						
+6019		电影通告插图5		ShootIcon/scene4_fangtan						
+6020		电影通告插图6		ShootIcon/scene7_qianshouhui						
+6021		电影通告插图7		ShootIcon/scene8_zongyi						
+6022		电影通告插图8		ShootIcon/scene5_yanchanghui						
+6023		一般		Icon_En/icon_rank_average	Icon_En/icon_rank_average					
+6024		良好		Icon_En/icon_rank_good	Icon_En/icon_rank_good					
+6025		大卖		Icon_En/icon_rank_great	Icon_En/icon_rank_great					
+6026		超级大卖		Icon_En/icon_rank_teriffic	Icon_En/icon_rank_teriffic					
+6027		传奇		Icon_En/icon_rank_epic	Icon_En/icon_rank_epic					
+6028		神话		Icon_En/icon_rank_perfect	Icon_En/icon_rank_perfect					
+6029		动作		ShootIcon/flag_type_action						
+6030		爱情		ShootIcon/flag_type_romance						
+6031		动画		ShootIcon/flag_type_cartoon						
+6032		叙事		ShootIcon/flag_type_drama						
+6033		悬疑		ShootIcon/flag_type_spy						
+6034		恐怖		ShootIcon/flag_type_horror						
+6035		喜剧		ShootIcon/flag_type_comedy						
+6036		歌舞		ShootIcon/flag_type_dance						
+6037		未知		ShootIcon/flag_type_wenhao						
+6038		演技派		ShootIcon/icon_artist						
+6039		偶像派		ShootIcon/icon_idol						
+6040		青春型		ShootIcon/icon_young						
+6041		成熟型		ShootIcon/icon_ethic						
+6042		紫色-主角，女主角		ShootIcon/bg_property_purple_shoot						
+6043		蓝色-男主		ShootIcon/bg_property_blue_shoot						
+6044		黄色-配角		ShootIcon/bg_property_yellow_shoot						
+6045		灰色-反派		ShootIcon/bg_property_grey_shoot						
+6046		临时演员插图	ShootIcon/img_nonehero_shoot							
+6101		美国		ShootIcon/banner_usa						
+6102		加拿大		ShootIcon/banner_canada						
+6103		澳大利亚		ShootIcon/banner_australia						
+6104		英格兰		ShootIcon/banner_england						
+6105		法兰西		ShootIcon/banner_france						
+6200		废铁		ShootIcon/icon_duanwei0						
+6201		黑铁		ShootIcon/icon_duanwei1						
+6202		青铜		ShootIcon/icon_duanwei2						
+6203		白银		ShootIcon/icon_duanwei3						
+6204		黄金		ShootIcon/icon_duanwei4						
+6205		铂金		ShootIcon/icon_duanwei5						
+6206		钻石		ShootIcon/icon_duanwei6						
+6207		大师		ShootIcon/icon_duanwei7						
+6208		王者		ShootIcon/icon_duanwei8						
+7101		女性头像1		PlayerHeadIcon/f001						
+7102		女性头像2		PlayerHeadIcon/f002						
+7103		女性头像3		PlayerHeadIcon/f003						
+7104		女性头像4		PlayerHeadIcon/f004						
+7105		女性头像5		PlayerHeadIcon/f005						
+7201		男性头像1		PlayerHeadIcon/m001						
+7202		男性头像2		PlayerHeadIcon/m002						
+7203		男性头像3		PlayerHeadIcon/m003						
+7204		男性头像4		PlayerHeadIcon/m004						
+7205		男性头像5		PlayerHeadIcon/m005						
+7301		男NPC头像1		NPCHeadIcon/male1						
+7302		男NPC头像2		NPCHeadIcon/male2						
+7303		男NPC头像3		NPCHeadIcon/male3						
+7304		男NPC头像4		NPCHeadIcon/male4						
+7305		男NPC头像5		NPCHeadIcon/male5						
+7306		男NPC头像6		NPCHeadIcon/male6						
+7307		男NPC头像7		NPCHeadIcon/male7						
+7308		女NPC头像1		NPCHeadIcon/female1						
+7309		女NPC头像2		NPCHeadIcon/female2						
+7310		女NPC头像3		NPCHeadIcon/female3						
+7311		女NPC头像4		NPCHeadIcon/female4						
+7312		女NPC头像5		NPCHeadIcon/female5						
+7313		女NPC头像6		NPCHeadIcon/female6						
+7314		女NPC头像7		NPCHeadIcon/female7						
+8001		无耻混蛋		StoryIcon/movie1						
+8002		血战钢锯岭		StoryIcon/movie2						
+8003		敢死队		StoryIcon/movie3						
+8004		战争之王		StoryIcon/movie4						
+8005		辛德勒名单		StoryIcon/movie5						
+8006		拯救大兵瑞恩		StoryIcon/movie6						
+8007		敦刻尔克		StoryIcon/movie7						
+8008		战马		StoryIcon/movie8						
+8009		冷山		StoryIcon/movie9						
+8010		兵临城下		StoryIcon/movie10						
+8011		比利林恩的中场战事		StoryIcon/movie11						
+8012		珍珠港		StoryIcon/movie12						
+8013		侏罗纪世界		StoryIcon/movie13						
+8014		釜山行		StoryIcon/movie14						
+8015		泰坦尼克号		StoryIcon/movie15						
+8016		迷雾		StoryIcon/movie16						
+8017		萨利机长		StoryIcon/movie17						
+8018		铁线虫入侵		StoryIcon/movie18						
+8019		进击的巨人		StoryIcon/movie19						
+8020		我是传奇		StoryIcon/movie20						
+8021		大白鲨		StoryIcon/movie21						
+8022		异形		StoryIcon/movie22						
+8023		僵尸世界大战		StoryIcon/movie23						
+8024		雪国列车		StoryIcon/movie24						
+8025		林中小屋		StoryIcon/movie25						
+8026		摩登时代		StoryIcon/movie26						
+8027		蒂凡尼早餐		StoryIcon/movie27						
+8028		七年之痒		StoryIcon/movie28						
+8029		低俗小说		StoryIcon/movie29						
+8030		红磨坊		StoryIcon/movie30						
+8031		爱乐之城		StoryIcon/movie31						
+8032		假结婚		StoryIcon/movie32						
+8033		诺丁山		StoryIcon/movie33						
+8034		出租车司机		StoryIcon/movie34						
+8035		生活大爆炸		StoryIcon/movie35						
+8036		断背山		StoryIcon/movie36						
+8037		初恋50次		StoryIcon/movie37						
+8038		忠犬八公		StoryIcon/movie38						
+8039		卡罗尔		StoryIcon/movie39						
+8040		风月俏佳人		StoryIcon/movie40						
+8041		遇见你之前		StoryIcon/movie41						
+8042		华尔街之狼		StoryIcon/movie42						
+8043		黑天鹅		StoryIcon/movie43						
+8044		使女的故事		StoryIcon/movie44						
+8045		瑞士军刀男		StoryIcon/movie45						
+8046		指环王		StoryIcon/movie46						
+8047		哈利波特		StoryIcon/movie47						
+8048		蝴蝶效应		StoryIcon/movie48						
+8049		重返17岁		StoryIcon/movie49						
+8050		亚瑟王：斗兽争霸		StoryIcon/movie50						
+8051		剪刀手爱德华		StoryIcon/movie51						
+8052		本杰明巴顿奇事		StoryIcon/movie52						
+8053		刀锋战士		StoryIcon/movie53						
+8054		你的名字		StoryIcon/movie54						
+8055		嗜血破晓		StoryIcon/movie55						
+8056		潘神的迷宫		StoryIcon/movie56						
+8057		女巫季节		StoryIcon/movie57						
+8058		权力的游戏		StoryIcon/movie58						
+8059		驯龙高手		StoryIcon/movie59						
+8060		玩具总动员		StoryIcon/movie60						
+8061		海底总动员		StoryIcon/movie61						
+8062		赛车总动员		StoryIcon/movie62						
+8063		饥饿游戏		StoryIcon/movie63						
+8064		飞屋环游记		StoryIcon/movie64						
+8065		加勒比海盗		StoryIcon/movie65						
+8066		楚门的世界		StoryIcon/movie66						
+8067		生化危机		StoryIcon/movie67						
+8068		死侍		StoryIcon/movie68						
+8069		木乃伊		StoryIcon/movie69						
+8070		V字仇杀队		StoryIcon/movie70						
+8071		刺客信条		StoryIcon/movie71						
+8072		寻梦环游记		StoryIcon/movie72						
+8073		疯狂动物城		StoryIcon/movie73						
+8074		西西里的美丽传说		StoryIcon/movie74						
+8075		穿Prada的恶魔		StoryIcon/movie75						
+8076		心灵捕手		StoryIcon/movie76						
+8077		肖申克的救赎		StoryIcon/movie77						
+8078		她		StoryIcon/movie78						
+8079		死亡诗社		StoryIcon/movie79						
+8080		三傻大闹宝莱坞		StoryIcon/movie80						
+8081		达拉斯买家俱乐部		StoryIcon/movie81						
+8082		百万美元宝贝		StoryIcon/movie82						
+8083		阿甘正传		StoryIcon/movie83						
+8084		当幸福来敲门		StoryIcon/movie84						
+8085		国王的演讲		StoryIcon/movie85						
+8086		叫我第一名		StoryIcon/movie86						
+8087		贫民窟的百万富翁		StoryIcon/movie87						
+8088		逃出克隆岛		StoryIcon/movie88						
+8089		自杀小队		StoryIcon/movie89						
+8090		绿巨人		StoryIcon/movie90						
+8091		美国队长		StoryIcon/movie91						
+8092		钢铁侠		StoryIcon/movie92						
+8093		终结者		StoryIcon/movie93						
+8094		阿凡达		StoryIcon/movie94						
+8095		星球大战		StoryIcon/movie95						
+8096		星际迷航		StoryIcon/movie96						
+8097		千钧一发		StoryIcon/movie97						
+8098		牛仔和外星人		StoryIcon/movie98						
+8099		头号玩家		StoryIcon/movie99						
+8100		源代码		StoryIcon/movie100						
+8101		黑客帝国		StoryIcon/movie101						
+8102		火星救援		StoryIcon/movie102						
+8103		变形金刚		StoryIcon/movie103						
+8104		EVA		StoryIcon/movie104						
+8105		回到未来		StoryIcon/movie105						
+8106		我，机器人		StoryIcon/movie106						
+8107		银翼杀手		StoryIcon/movie107						
+8108		银河系漫游指南		StoryIcon/movie108						
+8109		安德的游戏		StoryIcon/movie109						
+8110		勇敢的心		StoryIcon/movie110						
+8111		成为简·奥斯汀		StoryIcon/movie111						
+8112		埃及艳后		StoryIcon/movie112						
+8113		都铎王朝		StoryIcon/movie113						
+8114		艺伎回忆录		StoryIcon/movie114						
+8115		武则天		StoryIcon/movie115						
+8116		巴黎圣母院		StoryIcon/movie116						
+8117		傲慢与偏见		StoryIcon/movie117						
+8118		戴珍珠耳环的少女		StoryIcon/movie118						
+8119		卡萨诺瓦		StoryIcon/movie119						
+8120		另一个波琳家的女孩		StoryIcon/movie120						
+8121		疯狂的麦克斯		StoryIcon/movie121						
+8122		这个杀手不太冷		StoryIcon/movie122						
+8123		蝙蝠侠：黑暗骑士		StoryIcon/movie123						
+8124		大逃杀		StoryIcon/movie124						
+8125		盗梦空间		StoryIcon/movie125						
+8126		教父		StoryIcon/movie126						
+8127		七宗罪		StoryIcon/movie127						
+8128		香水		StoryIcon/movie128						
+8129		时间规划局		StoryIcon/movie129						
+8130		搏击俱乐部		StoryIcon/movie130						
+8131		电锯惊魂		StoryIcon/movie131						
+8132		沉默的羔羊		StoryIcon/movie132						
+8133		邮差总按两次铃		StoryIcon/movie133						
+8134		越狱		StoryIcon/movie134						
+8135		消失的爱人		StoryIcon/movie135						
+8136		猫鼠游戏		StoryIcon/movie136						
+8137		老无所依		StoryIcon/movie137						
+8138		龙纹身的女孩		StoryIcon/movie138						
+8139		洛城机密		StoryIcon/movie139						
+8140		机械师		StoryIcon/movie140						
+8141		十二宫杀手		StoryIcon/movie141						
+8142		狙击电话亭		StoryIcon/movie142						
+8143		人类清除计划		StoryIcon/movie143						
+8144		美国骗局		StoryIcon/movie144						
+8145		偷天换日		StoryIcon/movie145						
+8146		速度与激情		StoryIcon/movie146						
+8147		玩命快递		StoryIcon/movie147						
+8148		卡萨布兰卡		StoryIcon/movie148						
+8149		史密斯夫妇		StoryIcon/movie149						
+8150		王牌特工		StoryIcon/movie150						
+8151		间谍同盟		StoryIcon/movie151						
+8152		夜班经理		StoryIcon/movie152						
+8153		碟中谍		StoryIcon/movie153						
+8154		黑衣人		StoryIcon/movie154						
+8155		007皇家赌场		StoryIcon/movie155						
+8156		达芬奇密码		StoryIcon/movie156						
+8157		谍影重重		StoryIcon/movie157						
+8158		国家公敌		StoryIcon/movie158						
+8159		真实的谎言		StoryIcon/movie159						
+8160		西北偏北		StoryIcon/movie160						
+8161		游客		StoryIcon/movie161						
+8162		特工绍特		StoryIcon/movie162						

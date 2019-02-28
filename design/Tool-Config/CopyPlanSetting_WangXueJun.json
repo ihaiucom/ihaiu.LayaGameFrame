@@ -1,0 +1,12 @@
+{
+  "enableoverwrites": [
+  	{
+  		"src":"../../_gen/ConfigOut/csv", 
+  		"dst":"//172.16.50.177/GamePF/plan_WangXueJun/config/csv"
+  	}
+  	
+  ],
+  "disableoverwrites": [
+  	
+  ]
+}

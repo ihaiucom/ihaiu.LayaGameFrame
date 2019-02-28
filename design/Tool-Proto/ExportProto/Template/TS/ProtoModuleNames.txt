@@ -1,0 +1,21 @@
+/////////////////////////////////////
+// ihaiu.ExportProto生成
+// http://blog.ihaiu.com
+/////////////////////////////////////
+namespace Games
+{
+    //====================
+    // 协议模块名
+    //--------------------
+	export class ProtoModuleNames
+    {
+		// 0 moduleName
+		// 1 moduleName
+
+		>:FOREACH apilist:<
+		static >:[0]:< = ">:[1]:<";
+		>:ENDFOREACH:<
+
+	}
+	
+}

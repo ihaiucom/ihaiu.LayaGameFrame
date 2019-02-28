@@ -1,0 +1,324 @@
+{
+    "EError": { // 错误提示
+        "NoError": 0,
+        "ServerError": 1, // 服务器错误
+        "DataError": 2, // 数据错误
+        "UnknownError": 3, // 不明错误
+        "DataBusy": 4, // 数据繁忙
+        "NoUsrId": 5, // 找不到用户id
+        "Frozen": 6, // 账号被冻结
+        "Dropped": 7 // 账号被停用
+    },
+    "ECommon": { // 通用枚举
+        "MaxNameLenth": 20, // 名字最大长度
+        "DefaultName": "Brad Pitt", // 默认名字
+        "MoveSpeed": 1.3, // 移动速度
+        "CanJump": false // 开启跳跃
+    },
+    "EMoneyType": { // 货币类型
+        "Money": 1, // 代币
+        "Diamond": 2, // 钻石
+        "Gold": 3, // 元宝
+        "Coin": 4 // 金币
+    },
+    "EGoodsFlag": { // 商品标志
+        "None": 0, // 默认无
+        "New": 1, // 新品
+        "Hot": 2, // 热销
+        "Discount": 3, // 打折
+        "SoldOut": 4 // 下架
+    },
+    "EAcceptCondition": { // 接受关卡的条件类型
+        "acceptcondition_front_id": 1, // 前置关卡ID
+        "acceptcondition_level": 2 // 等级
+    },
+    "ECompleteCondition": { // 完成关卡的条件类型
+        "completecondition_score": 1, // 分数
+        "completecondition_kill": 2 // 杀人数
+    },
+    "ECompleteReward": { // 完成关卡的奖励类型
+        "completereward_exp": 1, // 经验
+        "completereward_item": 2, // 物品
+        "completereward_gold": 3 // 金币
+    },
+    "EUsrState": {
+        "uninit": 1, // 新账号
+        "init_actor": 2, // 选择初始艺人
+        "usual": 3, // 启用
+        "frozen": 4, // 冻结
+        "dropped": 5 // 停用
+    },
+    "EItemNumber": { // 玩家数值cid 作为一个物品
+        "diamond": 1, // 钻石
+        "gold": 2 // 金币
+    },
+    "EPublishTypeCode": {
+        "sdknotice": 1, // sdk公告
+        "usrmail": 2, // 用户邮箱
+        "gamemail": 9, // 游戏内邮箱
+        "gamenotice": 10 // 游戏内公告
+    },
+    "EChannel": { // 渠道枚举
+        "facebook": "1",
+        "google": "2"
+    },
+    "EUserSex": {
+        "boy": 2001,
+        "girl": 2002
+    },
+    "EItemCategory": { // 道具类型
+        "diamond": 1, // 钻石
+        "gold": 2, // 金币
+        "dollar": 3, // 美元
+        "other": 4, // 周边产品
+        "normal": 5, // 普通道具
+        "assets": 6, // 资产
+        "contract": 7, // 合同
+        "giftbag": 8, // 礼包
+        "licence": 10, // 拍摄许可证
+        "cup": 14, // 奖杯
+        "piecesgiftbag": 17, // 碎片选择礼包
+        "story": 18 // 剧本
+    },
+    "EItemId": {
+        "diamond": 1,
+        "gold": 2,
+        "dollar": 3,
+        "licence": 4, // 拍摄许可证
+        "fans": 5,
+        "praise": 6, // 点赞
+        "drawing": 7, // 图纸
+        "expect": 8, // 期待
+        "study_card": 5004, // 进修卡
+        "talent": 5007, // 星探卡
+        "player_rename_card": 5008, // 改公司名道具
+        // "actor_skill_exp_water": 5010, // 艺人技能经验药水
+        "actor_stamina_water": 5010, // 技能药剂，增加体力
+        "actor_loyalty_card": 5003, // 忠诚卡
+        "brochure": 5005, // 宣传册
+        "horn": 5006 // 喇叭
+    },
+    "EGameDataRename": { // gameData 模块相关枚举
+        "renameLengthMin": 4,
+        "renameLengthMax": 18,
+        "rePerSignatureLengthMax": 100
+    },
+    "EStoryStack": { // storyStack 表的枚举
+        "story_stack_daily_times": 2045, // 剧本搜罗每天搜罗次数
+        "story_stack_search_cost": 2046, // 剧本搜罗每次消耗物品
+        "story_stack_cd_stage_cost": 2047, // 剧本搜罗每阶段搜罗冷却加速消耗资源类型和数量
+        "story_stack_cd_stage_length": 2048, // 剧本搜罗阶段时长
+        "story_stack_cd": 2050, // 剧本搜罗冷却时间
+        "story_stack_daily_update": 2051, // 每日刷新时间
+        "story_stack_cd_block_level": 2052 // 剧本搜罗冷却功能开放所需街区等级
+    },
+    "EStoryModule": { // story 模块的枚举
+        "noFinish": 0,
+        "finish": 1,
+        "hadGet": 2,
+        "randomLength": 3,
+        "shootTime": 5,
+        "score": 8
+    },
+    "EMovieState": {
+        "chooseScript": 2, // 选择剧本
+        "renameFilm": 3, // 修改剧本名称
+        "currentMarketInf": 4, // 当前市场反馈
+        "chooseActor": 5, // 选择艺人
+        "costView": 6, // 薪酬计算
+        "yRShowView": 7, // 艺人展示
+        "compatibility": 8, // 艺人对影片的契合度
+        "filming": 9, // 正在拍摄中
+        "chooseType": 10, // 选择类型
+        "chooseTip": 11, // 选择后的提示
+        "propaganda": 12, // 宣传
+        "complete": 13, // 杀青
+        "actorUpdate": 14, // 艺人熟练度
+        "proficiency": 15, // 杀青对比情况
+        "chooseTheater": 16, // 选择院线
+        "noticeFeedBack": 17, // 媒体评价
+        "SYPF": 18, // 首映票房
+        "audienceReputation": 19, // 观众口碑
+        "result": 20, // 上映结果
+        "overMarket": 21, // 下映提示
+        "Jiesuan": 22, // 结算分享界面
+        "rewardTip": 23, // 奖励物品提示
+        "contineTransceiver": 24 // 持续收益
+    },
+    "EGlobalId": {
+        "maxMovieNum": 9, // 最多可同时进行持续收益的电影数量
+        "tempActor": 9999, // 临时演员id
+        "firstActor": 9997, // 首部电影演员巨石强森
+        "loyaltyCardLimit": 1035 // 忠诚卡增加赠送物品上限
+    },
+    "EMovieType": {
+        // "": 2201,
+        // "": 2202,
+        // "": 2203,
+        // "": 2204,
+        // "": 2205,
+        // "": 2206,
+        // "": 2207,
+        // "": 2208
+    },
+    "EBoxOfficeEvaluation": { // 票房评价
+        "normal": 1, // 一般
+        "good": 2, // 良好
+        "big_sell": 3, // 大卖
+        "great_sell": 4, // 超卖
+        "myth_sell": 5, // 神话
+        "marvel_sell": 6 // 传奇
+    },
+    "EProgressBoxId": {
+        "manageOrder": 1, // 经营订单进度宝箱
+        "dailyTask": 2, // 日常任务宝箱
+        "cooperateTask": 3 // 合作任务宝箱
+    },
+    "EManageProduce": { // 经营生产
+        "line": 1, // 队列
+        "save": 2, // 存储
+        "time": 3, // 时间减免
+        "output_initial": 4, // 每次产出
+        //"time_add": 4, // 时间增长
+        "dollarIntervalTime": 11, // 美元生产线时间
+        "baseProduceId": 100, // 生产纪念品的生产线ID，该生产线只产生美元
+        "intervalTime": 300 // 间隔时间
+    },
+    "ERankListType": {
+        "SelfList": 1, // 自己的排名
+        "ServerList": 2, // 全服排行榜
+        "GroupList": 3, // 分组总票房
+        "GroupMovieList": 4 // 分组影片票房
+    },
+    "EAchievementState": { // 成就或者任务的状态
+        "none": 0, // 初始化
+        "receivable": 1, // 可接
+        "received": 2, // 已接
+        "finished": 3, // 完成
+        "rewarded": 4 // 已领奖的
+    },
+    "EAchievementType": { // 成就或者任务的类型
+        "daily": 1, // 日常
+        "achievement": 2, // 成就
+        "story": 3, // 剧本
+        "mainTask": 4 // 主线任务
+    },
+    "EMallItemLimitType": { // 商店限购类型
+        "daily": 1, // 每日
+        "weekly": 2 // 每周
+    },
+    "EManageBusiness": { // 经营事务
+        "baseLine": 10, // 基础代办事务上限
+        "interval": 180 // 间隔时长
+    },
+    "EManageVisit": { // 经营探班
+        "baseLine": 3, // 基础探班队列
+        "overdueTime": 180, // 过期时长
+        "baseIntervalTime": 300 // 基本间隔时间
+    },
+    "EManageOrder": { // 经营订单
+        "baseLength": 9, // 最多显示9个订单
+        "baseTime": 1200, // 订单存活时间
+        "delTime": 20 // 删除订单缓存时间
+    },
+    "EMailId": { // 邮件ID枚举
+        "cooperateApplyFail": 3, // 合作邀请失败
+        "orderId": 4, // 订单过期邮件ID
+        "partnerGive": 7, //伙伴赠送
+        "firstCooperate": 8, // 首次建立合作奖励
+        "firstAccountCooperate": 9, // 首次账号查找建立合作
+        "delOrderId": 10, // 删除的订单邮件ID
+        "rewardOrder": 11, //订单奖励过期
+        "dailyTask": 12, // 日程任务未领取
+        "cupPackage": 13 // 奖杯礼包
+    },
+    "ESecretaryType": { // 秘书拥有类型
+        "noHave": 0, // 未获取
+        "had": 1, // 终生拥有
+        "temporaryHad": 2 // 暂时拥有
+    },
+    "ESecretary": { // 秘书表枚举
+        "skillExp": 2, // 艺人技能训练经验增加N%
+        "trainTime": 3, // 艺人培养时间减少N%
+        "searchTime": 4, // 星探等待时间减少N%
+        "starSearch": 5, // 每天额外星探次数增加N
+        "cityTimes": 6, // 城市自动宣传次数
+        "workTimes": 7, // 自动处理公务次数
+        "visitTimes": 8, // 自动接待次数
+        "secretaryExpStart": 9, // 秘书体验活动开始时间
+        "secretaryExpEnd": 10, // 秘书体验活动结束时间
+        "applicationDuration": 11, //许可证申请时长
+        "applicationLicense": 12, //申请许可证物品类型
+        "applicationLicenseNum": 13, // 申请许可证物品数量
+        "freeGiftId": 1001, // 每日免费领取礼包ID
+        "moneyGiftId": 2001 // 每日需要花费领取的礼包ID
+    },
+    "EManageMeet": { // 经营会议枚举
+        "baseLine": 3, // 基础探班队列
+        "baseIntervalTime": 1200 // 基本间隔时间
+    },
+    "EOscarType": {
+        "man": 1,
+        "woman": 2,
+        "perform": 3,
+        "art": 4,
+        "publicPraise": 5,
+        "bestBoxOffice": 6,
+        "totalBoxOffice": 7,
+        "movies": 8,
+        "bigSell": 9
+    },
+    "EGMRefreshType": { // GM的刷新类型
+        "dailySign": 0, // 日常签到
+        "dailyTask": 1, // 日常任务
+        "dailyMall": 2, // 商城每日限购道具
+        "weeklyMall": 3, // 商城每周限购道具
+        "manageProduce": 4, // 管理生产线cd的清除
+        "sevenAddup": 5, // 七日累计登陆
+        "findStory": 6 // 剧本搜罗清除
+    },
+    "EItemUseType": { // 物品使用类型
+        "noReward": 0, // 无奖励
+        "allReward": 1, // 获得reward中所有奖励
+        "randomReward": 2 // 随机获得一项奖励
+    },
+    "EItemType": { // 物品类型
+        "randomActor": 16 // 随机获得一个艺人
+    },
+    "EGuideType": {
+        "guide": 1, // 引导
+        "story": 2 // 剧情
+    },
+    "ENoticeType": {
+        "init": 1,
+        "add": 2,
+        "update": 4,
+        "remove": 8
+    },
+    "ECooperate": {
+        "taskLength": 6
+    },
+    "EChatChannel": {
+        "private": 1, // 私人聊天
+        "world": 2, // 世界聊天
+        "company": 3 // 公司聊天
+    },
+    "ESystemMessageId": {
+        "getActor1": 1001,
+        "getActor2": 1002,
+        "movie": 1003,
+        "updateName": 1004,
+        "createCompany": 1005,
+        "joinCompany": 1006
+    },
+    "ESystemType": {
+        "userName": 1, // 玩家/公司 名称
+        "oldName": 2, // 旧名称
+        "actorStar": 3, // 艺人星级
+        "actorName": 4, // 艺人名称
+        "moiveName": 5, // 电影名称
+        "blockLevel": 6, // 街道等级
+        "boxOfficeEvaluation": 7, // 电影等级
+        "groupName": 8 // 集团名称
+    }
+}

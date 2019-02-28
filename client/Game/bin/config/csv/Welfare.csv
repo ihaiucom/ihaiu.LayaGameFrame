@@ -1,0 +1,6 @@
+﻿int	int	int	int	string	string
+id	福利类别	默认图标状态	图标选中状态	活动名称	备注说明
+id	type	icon	icon_chosen	zh_cn_activities_name	info
+1001	1	5124	5128	每日签到	每日签到
+1002	2	5122	5126	终身秘书	终身秘书
+1003	3	5123	5127	申请许可证	申请许可证

@@ -1,0 +1,9 @@
+{
+  "autoEnd": true,
+  "optionSetting": "./FSpriteResPackageConfig.json",
+  "resPath": "../../client/Game/bin/res/fsprite",
+  "packageFileExtension": ".bin",
+  "templateDir": "./GenerateFguiResPackageConfig/Template",
+  "codePath": "../../client/Game/src/fgui/",
+  "codeClass": "SpriteResPackageConfigReader"
+}

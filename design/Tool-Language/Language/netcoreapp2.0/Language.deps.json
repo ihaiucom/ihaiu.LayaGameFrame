@@ -1,0 +1,91 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "Language/1.0.0": {
+        "dependencies": {
+          "CommandLine": "2.0.275.0",
+          "EPPlus": "4.0.5.0",
+          "LitJson": "0.13.0.0",
+          "Newtonsoft.Json": "11.0.0.0",
+          "NLog": "4.0.0.0",
+          "System.Text.Encoding.CodePages": "4.1.1.0"
+        },
+        "runtime": {
+          "Language.dll": {}
+        }
+      },
+      "CommandLine/2.0.275.0": {
+        "runtime": {
+          "CommandLine.dll": {}
+        }
+      },
+      "EPPlus/4.0.5.0": {
+        "runtime": {
+          "EPPlus.dll": {}
+        }
+      },
+      "LitJson/0.13.0.0": {
+        "runtime": {
+          "LitJson.dll": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.0.0": {
+        "runtime": {
+          "Newtonsoft.Json.dll": {}
+        }
+      },
+      "NLog/4.0.0.0": {
+        "runtime": {
+          "NLog.dll": {}
+        }
+      },
+      "System.Text.Encoding.CodePages/4.1.1.0": {
+        "runtime": {
+          "System.Text.Encoding.CodePages.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Language/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommandLine/2.0.275.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EPPlus/4.0.5.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LitJson/0.13.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/11.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NLog/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Text.Encoding.CodePages/4.1.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

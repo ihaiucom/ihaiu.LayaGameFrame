@@ -1,0 +1,2662 @@
+﻿int	string
+街道ID	街道名称
+id	name
+11001	Walk of Fame
+11002	Universal Studios HW
+11003	The Getty Center
+11004	Times Square
+11005	Statue of Liberty
+11006	Central Park
+11007	Metropolitan Museum
+11008	Capitol Hill
+11009	National Mall
+11010	Lincoln Memorial
+11011	Space Museum
+11012	Art Institute
+11013	Millennium Park
+11014	Willis Tower
+11015	Navy Pier Park
+11016	Space Center Houston
+11017	Rice University
+11018	Hermann Park
+11019	Art Museum Houston
+11020	Independence Hall
+11021	Upenn
+11022	The Liberty Bell
+11023	City Hall
+11024	Museum of Art
+11025	GM Center
+11026	Detroit Downtown
+11027	Detroit Art College
+11028	Heidelberg Project
+11029	Greektown
+11030	Quincy Market
+11031	Freedom Trail
+11032	Charles River
+11033	Boston Common
+11034	Public Library
+11035	Fishermans Wharf
+11036	Golden Gate Bridge
+11037	Lombard Street
+11038	Palace of Fine Arts
+11039	Alcatraz Island
+11040	PITT
+11041	Mount Washington
+11042	CMU
+11043	Point State Park
+11044	Phipps Conservatory
+11045	Georgia Aquarium
+11046	CNN Center
+11047	Olympic Park
+11048	Margaret Museum
+11049	Stone Mountain Park
+11050	Swan House
+11051	Hanauma Bay
+11052	Diamond Head
+11053	Waikiki Beach
+11054	Kalakaua Ave
+11055	Halona Blow Hole
+11056	Iolani Palace
+11057	Denali National Park
+11058	Chena Hot Springs
+11059	Glacier Bay Park
+11060	National Park
+11061	Museum of the North
+11062	Mount McKinley
+11063	Pike Market Place
+11064	UW
+11065	Seattle Space Needle
+11066	Garden and Glass
+11067	Kerry Park
+11068	The Gum Wall
+11069	Roebling Bridge
+11070	Fountain Square
+11071	Over the Rhine
+11072	Bellevue Hill Park
+11073	Findlay Market
+11074	Ault Park
+11075	RnR Hall of Fame
+11076	Museum of Art
+11077	West Side Market
+11078	Cleveland Orchestra
+11079	Edgewater Park
+11080	Lake View Cemetery
+11081	Auto-Aviation Museum
+11082	The Gateway Arch
+11083	City Museum
+11084	UW
+11085	SAaint Louis Zoo
+11086	Expansion Memorial
+11087	Memorial Park
+11088	Missouri Garden
+11089	Wisconsin University
+11090	Madison City Council
+11091	Lake Mendota
+11092	Allen Gardens
+11093	State Street
+11094	Henry Vilas Zoo
+11095	Wisconsin Capitol
+11096	Ibirapuera Park
+11097	St Paul Cathedral
+11098	Independence Park
+11099	St Paul Art Museum
+11100	Liberdade
+11101	Avenida Paulista
+11102	Catholic Cathedral
+11103	Desert Garden
+11104	ASU
+11105	Papago Park
+11106	Instrument Museum
+11107	Phoenix Zoo
+11108	Chinese Center
+11109	Nanshan Park
+11110	Tropical Zoo
+11111	Salem Wax Museum
+11112	Salem Cemetery
+11113	The Salem Museum
+11114	Pirate Museum
+11115	Nightmare Gallery
+11116	Seven Gables House
+11117	Martime History Site
+11118	OSU
+11119	Museum of Art
+11120	Arena District
+11121	Antrim Park
+11122	Downtown Columbus
+11123	Statehouse
+11124	Historical Center
+11125	World Largest Gavel
+11126	Memorial Plaza
+11127	SMU
+11128	World Aquarium
+11129	Dallas Arboretum
+11130	Dallas Museum of Art
+11131	Old Red Museum
+11132	Reunion Tower
+11133	Fossil Rim Center
+11134	Roman Forum
+11135	Cathedral Historica
+11136	Main River
+11137	Town Hall
+11138	Eiserner Steg
+11139	Goethe House
+11140	Old Nicholas Church
+11141	Historical Museum
+11142	Volcanoes Park
+11143	Hanauma Bay
+11144	Pearl Harbor
+11145	Diamond Head
+11146	National Park
+11147	Waikiki Beach
+11148	Maui
+11149	Kualoa Ranch
+11150	Catedral de Sal
+11151	Museo de Oro
+11152	Cerro de Monserrate
+11153	Parque de la 93
+11154	Shannon Falls
+11155	Explora Park
+11156	Johnny cay
+11157	Valley Church
+11158	State Capitol
+11159	Fire Museum
+11160	Life Building
+11161	Lamar Life Building
+11162	State Capitol
+11163	Ayer Hall
+11164	Old Capitol Museum
+11165	Alamo Theater
+11166	Salt Lake Temple
+11167	Utah State Capitol
+11168	Temple Square
+11169	LDS Meeting Center
+11170	Bingham Copper Mine
+11171	Seagull Monument
+11172	Eagle Gate
+11173	Liberty Park
+11174	South Beach
+11175	Museum & Gardens
+11176	Miami Beach
+11177	Little Havana
+11178	Airline Arena
+11179	Bayfront Park
+11180	Freedom Tower
+11181	Wynwood Walls
+11182	Civil Right Memorial
+11183	State Capitol
+11184	White House
+11185	Civil Rights Center
+11186	Governor's Mansion
+11187	Riverfront Park
+11188	Museum
+11189	Planetarium
+11190	Capital Building
+11191	Mount Bonnell
+11192	Metropolitan Park
+11193	Austin Meeting Hall
+11194	Falls State Park
+11195	Barton Springs Pool
+11196	Texas College Tower
+11197	Congress Avenue
+11198	University at Austin
+11199	Union Station
+11200	Museum of Art
+11201	Loose Park
+11202	WWI Liberty Memorial
+11203	Miniature Museum
+11204	Worlds Of Fun
+11205	Kansas City Zoo
+11206	Brookside
+11207	Visitors Center
+11208	French Quarter
+11209	Bourbon Street
+11210	Jackson Square
+11211	Garden District
+11212	Royal Street
+11213	Audubon Park
+11214	Canal Street
+11215	Tulane University
+11216	City Park
+11217	Missouri River
+11218	State Capitol
+11219	Holter Museum of Art
+11220	Governor's Mansion
+11221	Northern Carousel
+11222	St. Helena Cathedral
+11223	Mount Helena
+11224	Last Chance Gulch
+11225	Blue Jewel Mine
+11226	Chocolate Factory
+11227	Chinatown
+11228	The Mob Museum
+11229	Chapel of Flowers
+11230	Caesar Palace Church
+11231	Stratosphere Tower
+11232	Fremont Street
+11233	Red Rock Canyon
+11234	The Strip
+11235	Inner Harbor
+11236	National Aquarium
+11237	JHU
+11238	Washington Monument
+11239	Fort McHenry
+11240	Vision Museum
+11241	Walter Museum
+11242	Visionary Museum
+11243	Railroad Museum
+11244	Art Museum
+11245	State Capitol
+11246	Convention Center
+11247	Civic Center Park
+11248	Museum of Nature
+11249	City Park
+11250	Botanic Gardens
+11251	University of Denver
+11252	Mount Evans
+11253	Universal Studios FL
+11254	Adventure Islands
+11255	Kennedy Space Center
+11256	SeaWorld Orlando
+11257	Lake Eola Park
+11258	Museum of Art
+11259	Orange History Hall
+11260	The Orlando Gun Club
+11261	E.T. Adventure
+11262	Managaha Island
+11263	The Grotto
+11264	Bird Island
+11265	Mount Tapochau
+11266	San Juan Beach
+11267	Memorial Park
+11268	Banzai Cliff
+11269	Micro Beach
+11270	Ladder Beach
+11271	Metropolitan Museum
+11272	Central Park
+11273	Empire Building
+11274	Broadway
+11275	Fifth Avenue
+11276	Rockefeller Center
+11277	Brooklyn Bridge
+11278	Wall Street
+11279	Times Square
+11280	Stanley Park
+11281	Canada Place
+11282	Gastown
+11283	White Rock
+11284	Lions Gate Bridge
+11285	Lynn Canyon Park
+11286	Anthropology Museum
+11287	Wreck Beach
+11288	UT
+11289	Casa Loma
+11290	CN Tower
+11291	Toronto Islands
+11292	High Park
+11293	Art Gallery
+11294	The New City Hall
+11295	Yonge Street
+11296	Mount Royal Park
+11297	Old Port
+11298	Mont-Royal
+11299	McGill University
+11300	Habitat 67
+11301	Botanical Garden
+11302	Olympic Park
+11303	Montreal City Hall
+11304	Old Quebec
+11305	Fort de Quebec
+11306	Citadelle
+11307	Falls Park
+11308	Basse-Ville
+11309	Sainte Anne Basilica
+11310	Vieux-Port
+11311	Hotel du Parlement
+11312	Fisherman's Wharf
+11313	Parliament Buildings
+11314	Craigdarroch Castle
+11315	Inner Harbour
+11316	Empress Hotel
+11317	Royal BC Museum
+11318	Miniature World
+11319	Thunderbird Park
+11320	Parliament Building
+11321	Parliament Hill
+11322	Rideau Canal
+11323	National Gallery
+11324	Rideau Hall
+11325	Peace Tower
+11326	Confederation Square
+11327	Centenial Flame
+11328	Calgary Tower
+11329	Prince's Island Park
+11330	Calgary History Park
+11331	The Calgary Zoo
+11332	Peace Bridge
+11333	Mount Royal
+11334	Wonderland Sculpture
+11335	Ucalgary
+11336	Rainbow Bridge
+11337	Skylon Tower
+11338	Niagara SkyWheel
+11339	Upside Down House
+11340	Butterfly Museum
+11341	Fallsview Waterpark
+11342	Clifton Hills
+11343	Floral Clock
+11344	Aurora Village
+11345	Bush Pilots Monument
+11346	City of Yellowknife
+11347	Old Town
+11348	Old city Ruins
+11349	Down Earth Gallery
+11350	Yellowknife City Hal
+11351	Legislative Court
+11352	Whistler Blackcomb
+11353	Whistler Mountain
+11354	Blackcomb Mountain
+11355	Peak 2 Peak Gondola
+11356	Lost Lake
+11357	Green lake
+11358	Visitor Centre
+11359	Whistler Museum
+11360	UA
+11361	Legislature Building
+11362	Galaxyland
+11363	Royal Alberta Museum
+11364	ROSS SHEPPARD
+11365	Will Hawrelak Park
+11366	Art Gallery
+11367	Edmonton City Hall
+11368	Kingston City Hall
+11369	Queen's University
+11370	Fort Henry
+11371	City Park
+11372	Lake Ontario Park
+11373	Historic Site
+11374	Kingston Waterfront
+11375	Wolfe Island
+11376	Peggy's Cove
+11377	Shubie Park
+11378	Maritime Museum
+11379	Pier 21
+11380	Happy Point Park
+11381	Dalhousie University
+11382	Historic Site
+11383	Discovery Centre
+11384	Waterfront Park
+11385	Japanese Garden
+11386	Pandosy Mission
+11387	Heritage Museum
+11388	Knox Mountain Park
+11389	City Park
+11390	Waterfront Park
+11391	Rose Valley Park
+11392	McMaster University
+11393	Bayfront Park
+11394	Conservation Area
+11395	Theatre Aquarius
+11396	Webster Falls
+11397	Hamilton Waterfalls
+11398	Convention Centre
+11399	Marine Centre
+11400	Assiniboine Park
+11401	Legislative Building
+11402	Assiniboine Park
+11403	Royal Canadian Mint
+11404	Forks Historic Site
+11405	Winnipeg Art Gallery
+11406	Railway Museum
+11407	Children's Museum
+11408	Riverside Park
+11409	Waterloo Park
+11410	Waterloo Museum
+11411	Vistor Center
+11412	Central Railway
+11413	Lyndon Open Fishing
+11414	Country Golf Club
+11415	Chicopee Tube Park
+11416	Yellow Knife Town
+11417	Aurora Village
+11418	Heritage Centre
+11419	Great Slave Lake
+11420	Old city Ruins
+11421	Bush Pilot Monument
+11422	Down Earth Gallery
+11423	Yellowknife
+11424	Transport Museum
+11425	Visitor Info Centre
+11426	Whitehorse Fishway
+11427	Mining Museum
+11428	MacBride Museum
+11429	McIntyre Creek
+11430	North End Gallery
+11431	Golf Club
+11432	District Park
+11433	Legoland Centre
+11434	Performing Theatre
+11435	Reptilia Zoo
+11436	Boyd Conserve Area
+11437	Golf Club
+11438	Stellar Lanes
+11439	Observatory
+11440	Algonquin Park
+11441	Cache Bay
+11442	Knife Lake
+11443	Man Chain of Lakes
+11444	Boundary Point
+11445	Falls Chain
+11446	Assumption Cathedral
+11447	Adventure Stables
+11448	Mack Lake
+11449	Provincial Park
+11450	Tower Hill Museum
+11451	Lioness Lake
+11452	Lake Nipissing
+11453	Provincial Park
+11454	Green Golf Course
+11455	Symphony Orchestra
+11456	Theatre Cambrian
+11457	Anderson Farm Museum
+11458	Green Gables
+11459	UPEI
+11460	Victoria Park
+11461	Provincial Park
+11462	Prince Battery
+11463	City Hall
+11464	Assiniboine Zoo
+11465	Legislate Building
+11466	Assiniboine Park
+11467	Cedar Creek Estate
+11468	Waterfront Park
+11469	Knox Mountain Park
+11470	Heritage Museum
+11471	Japanese Garden
+11472	City Park
+11473	Military Museum
+11474	Bear Creek Park
+11475	Provincial Park
+11476	Cheltenham Badlands
+11477	International Centre
+11478	Memorial Park
+11479	Family Fun Centre
+11480	Playdium
+11481	Brampton City Hall
+11482	Paradise Gardens
+11483	Blackwood Gallery
+11484	Pearson Center
+11485	Ranney Bridge
+11486	Fire Fighters Museum
+11487	Golf Club
+11488	Farm Society Grounds
+11489	Golf Course
+11490	Big Apple
+11491	Golf Course
+11492	Dorothy Museum
+11493	Provincial Park
+11494	Hockey Heritage
+11495	Historical Museum
+11496	Museum of History
+11497	Esker Lakes
+11498	Provincial Park
+11499	Shortest Bridge
+11500	Heritage Museum
+11501	Cobalt Museum
+11502	Devil's Rock
+11503	Muskoka Lakes Museum
+11504	Provincial Park
+11505	Norwood Cinemas
+11506	Heritage Place
+11507	Heritage Museum
+11508	Wildlife Centre
+11509	Gull Lake Park
+11510	Muskoka Bay Club
+11511	Aerial Park
+11512	Adventure Park
+11513	Scout Valley
+11514	Beach Park
+11515	Golf Bonaire
+11516	Provincial Park
+11517	Barrie Paintball
+11518	Golf Centre
+11519	Martial Museum
+11520	Nature Park
+11521	Maple Museum
+11522	Silver Lake Park
+11523	Place Town Hall
+11524	St. Peter Church
+11525	McMartin House
+11526	Mill Conserve Area
+11527	Blue Heron Golf Club
+11528	Five Span Bridge
+11529	Heritage Museum
+11530	Harrison Park
+11531	Inglis Falls
+11532	Marine-Rail Museum
+11533	Aquatic Center
+11534	Run Horse Park
+11535	Provincial Park
+11536	Central West Church
+11537	Grey Roots Museum
+11538	Blue Mountain
+11539	Emerald Lake
+11540	Icefields Parkway
+11541	Natural Bridge
+11542	Lake Vermillion
+11543	Mistaya Canyon
+11544	Takakaw Falls
+11545	Salmon Arm
+11546	Bow Valley
+11547	Field
+11548	Pyramid Lake
+11549	Jasper Town
+11550	Maligne Canyon
+11551	Wildlife Museum
+11552	Archives
+11553	Old Fort Point
+11554	Marmot Basin
+11555	Aquatic Centre
+11556	Art Gallery
+11557	Provincial Park
+11558	Bingo Country
+11559	Rock Conserve Area
+11560	Oil Museum of Canada
+11561	Moore Museum
+11562	Golf Resort
+11563	Imperial Theatre
+11564	County Museum
+11565	Sunset Golf
+11566	Parkwood Estate
+11567	Golf Club
+11568	Golf Club
+11569	Heritage Railway
+11570	Jungle Cat Park
+11571	Glen Golf Course
+11572	Uxbridge Centre
+11573	Conservation Area
+11574	Memorial Park
+11575	Uncle Tom's Cabin
+11576	Wallaceburg
+11577	Fairfield Museum
+11578	Provincial Park
+11579	Convention Centre
+11580	Monument
+11581	Historic Site
+11582	Mary Webb Centre
+11583	Chatham-Kent Museum
+11584	Development Museum
+11585	Saskatchewan College
+11586	Forestry Farm Park
+11587	Ukrainian Museum
+11588	Conserve Area
+11589	Marquis Downs
+11590	The Strawberry Ranch
+11591	9Mile Brewing
+11592	Canada Centre
+11593	Stone Hall Castle
+11594	Royal  Museum
+11595	Legislative Building
+11596	Farmers' Market
+11597	Globe Theatre
+11598	Casino Regina
+11599	MacKenzie Gallery
+11600	Waterfall Park
+11601	Public Library
+11602	West Develop Museum
+11603	Pioneer Village
+11604	Casino Moose Jaw
+11605	Cultural Centre
+11606	Moose Jaw Museum
+11607	Provincial Park
+11608	Crescent Park
+11609	Moose Monument
+11610	Maxwell Art Gallery
+11611	Grey Owl Cabin
+11612	The Mann Art Gallery
+11613	Historical Museum
+11614	North Lights Casino
+11615	Kinsmen Water Park
+11616	House Museum
+11617	Vintage Power Museum
+11618	Lil Red River Park
+11619	Spruce River Market
+11620	Bondi Beach
+11621	Sydney Opera House
+11622	Harbour Bridge
+11623	Royal Botanic Garden
+11624	University of Sydney
+11625	St Mary's Cathedral
+11626	Taronga Zoo
+11627	Blue Mountains Park
+11628	Royal Gardens MEL
+11629	Street Station
+11630	State Library
+11631	St. Patrick Church
+11632	Federation Square
+11633	Unimelb
+11634	National Gallery
+11635	Yarra River
+11636	Warner Bros. World
+11637	Surfers Paradise
+11638	Sea World
+11639	Wildlife Sanctuary
+11640	Dreamworld
+11641	Broad Beach
+11642	Queensland No.1
+11643	Paradise Farm
+11644	Green Island
+11645	Palm Cove
+11646	Daintree Rainforest
+11647	Centenary Gardens
+11648	Cairns Aquarium
+11649	PortDouglas
+11650	Barron Falls
+11651	National Park
+11652	Koala Sanctuary
+11653	South Bank Parklands
+11654	UQ
+11655	Story Bridge
+11656	Kangaroo Point
+11657	Brisbane River
+11658	Brisbane City Hall
+11659	Springbrook Park
+11660	Rottnest Island
+11661	Fremantle
+11662	Kings Park
+11663	West Aus University
+11664	Perth Zoo
+11665	Cottesloe Beach
+11666	Swan River
+11667	Caversham Zoo
+11668	Parliament House
+11669	Lake Burley Griffin
+11670	Green Gardens
+11671	War Memorial
+11672	Royal Mint
+11673	Floriade
+11674	National Museum
+11675	National University
+11676	Henley Beach
+11677	Adelaide Zoo
+11678	Botanic Gardens
+11679	Art Gallery
+11680	State Library
+11681	Mount Lofty
+11682	St Peter's Cathedral
+11683	North Terrace
+11684	South Bank Parklands
+11685	Whiteheaven Beach
+11686	Brisbane City Hall
+11687	UQ
+11688	Heart Reef
+11689	Hamilton Island
+11690	Kangaroo Point
+11691	Airlie Beach
+11692	Twelve Apostles
+11693	Loch Ard Gorge
+11694	London Bridge
+11695	Bells Beach
+11696	Port Campbell
+11697	Point Lighthouse
+11698	Lorne
+11699	Gibson Steps
+11700	Mount Wellington
+11701	Richmond
+11702	Salamanca Place
+11703	Battery Point
+11704	UTAS
+11705	Cascade Brewery
+11706	North Hobart
+11707	Richmond Bridge
+11708	National Park
+11709	Three Sisters
+11710	Scenic Worl
+11711	Katoomba
+11712	Mount Wilson
+11713	Razor Ridge Winery
+11714	Wentworth Falls
+11715	Hat Hill Gallery
+11716	Kings Canyon
+11717	National Park
+11718	kata tjuta
+11719	Alice Springs
+11720	Field of Light
+11721	Walpa
+11722	Camel Farm
+11723	Valley of the Winds
+11724	Airlie Beach
+11725	Airlie Beach Lagoon
+11726	Hill inlet
+11727	Shute Harbour
+11728	Osa Mountain
+11729	Information centre
+11730	Extreme Fitness
+11731	Plosse Pine
+11732	Hamilton Island
+11733	Wildlife
+11734	DayDream Island
+11735	Hayman Island
+11736	Catseye Beach
+11737	Dent Island
+11738	All Saints Church
+11739	Conway National Park
+11740	Byron Bay
+11741	Cape Byron
+11742	Cape Lighthouse
+11743	Lighthouse Trail
+11744	Stone&Wood Brewery
+11745	Byron Farm
+11746	Farmers Market
+11747	Fisherman's Lookout
+11748	Government House
+11749	Wave Lagoon
+11750	Botanic Gardens
+11751	Pearling Exhibition
+11752	Skycity Casino
+11753	Military Museum
+11754	Chinese Temple
+11755	Indo Pacific Marine
+11756	Hamilton Island
+11757	Holy Trinity Church
+11758	Fort Hamilton
+11759	Admiralty House Park
+11760	Waikato River
+11761	Catseye Beach
+11762	Hamilton Isle Marina
+11763	Passage Peak
+11764	Stanwell Park Beach
+11765	Figure Eight Pools
+11766	Symbio Wildlife Park
+11767	Sea Cliff Bridge
+11768	Wollongong Beacon
+11769	Nan Tien Temple
+11770	Nan Tien Temple
+11771	Wollongong
+11772	Remarkable Rocks
+11773	Seal bay
+11774	Honey Farm
+11775	Little Sahara
+11776	Wildlife Park
+11777	Vivonne Bay
+11778	National Park
+11779	Cape du Couedic
+11780	Daintree Rainforest
+11781	Wildlife Habitat
+11782	Four Mile Beach
+11783	Cape Tribulation
+11784	Janbal Gallery
+11785	Wet Tropics
+11786	Riverway
+11787	Mosman Gorge
+11788	Crocodile Adventures
+11789	Noosa River
+11790	Peregian Beach
+11791	Visitor Centre
+11792	National Park
+11793	Farmers Market
+11794	Laguna Lookout
+11795	Hastings Street
+11796	Noosa Main Beach
+11797	Hastings Street
+11798	Fraser Island
+11799	Lake McKenzie
+11800	75 Mile Beach
+11801	Wanggoolba Creek
+11802	Lake Wabby
+11803	Central Rainforest
+11804	Lake Birrabeen
+11805	Waddy Point
+11806	Maheno Shipwreck
+11807	Leeuwin Lighthouse
+11808	Lake Cave
+11809	Hamelin Bay
+11810	Cowaramup
+11811	Road Walk Trails
+11812	Redgate Beach
+11813	Mammoth Cave
+11814	Voyager Estate
+11815	Amelia Park
+11816	Castle Hill
+11817	Reef HQ
+11818	The Strand
+11819	Mount Stuart
+11820	Botanic Gardens
+11821	Maritime Museum
+11822	Bluewater
+11823	Air Force Museum
+11824	Cultural Centre
+11825	Crocodile Park
+11826	Reddell Beach
+11827	Horizontal Falls
+11828	Broome Town Beach
+11829	Japanese Cemetary
+11830	12 Mile Bird Park
+11831	Historical Museum
+11832	Buddha Sanctuary
+11833	Sacred Heart Church
+11834	Scenic Railway
+11835	Barron Falls Lookout
+11836	Birdworld Kuranda
+11837	Rainforest Tours
+11838	Honey House
+11839	Butterfly Sanctuary
+11840	Aboriginal Gallery
+11841	Venom Zoo
+11842	Kuranda Village
+11843	The Pinnacles
+11844	Wave Rock
+11845	Jurien Bay
+11846	Lobster Shack
+11847	National Park
+11848	Wave Rock
+11849	National Park
+11850	Nature Reserve
+11851	Pinnacles Edge
+11852	Kirra Sports Club
+11853	St. Peter's Church
+11854	Healing Centre
+11855	Twin Towns Church
+11856	Saint Augustine
+11857	CAPT Cook Memorial
+11858	Coolangatta
+11859	coolangatta danger
+11860	Squid rock
+11861	Penfolds
+11862	Visitor Centre
+11863	Lavender Farm
+11864	Tanunda Estate
+11865	Rose Garden
+11866	St Hugo
+11867	Barossa Daimler
+11868	Whispering Wall
+11869	Lyndoch Hill
+11870	Sunshine Coast
+11871	Noosa National Park
+11872	Australia Zoo
+11873	Sunshine Coast Beach
+11874	UnderWater World
+11875	Gowinta Farms
+11876	Aussie World
+11877	Ginger Factory
+11878	Coastal Track
+11879	Country Cottages
+11880	Motor Inn
+11881	The Arch
+11882	The Grotto
+11883	National Park
+11884	Port Campbell
+11885	London Bridge
+11886	Loch Ard Gorge
+11887	The Razorback
+11888	Lorne
+11889	Erskine Falls
+11890	Teddy's Lookout
+11891	Memorial Arch
+11892	Cumberland Lorne
+11893	Coachman Inn
+11894	Lorne Bay
+11895	Qdos
+11896	Honeysuckle Cottage
+11897	National Park
+11898	Natural Bridge
+11899	Red Bluff
+11900	Jakes Point Road
+11901	Island Rock
+11902	Pelican
+11903	Beach Resort
+11904	Seafront Villas
+11905	Best Western
+11906	Cairns Night Zoo
+11907	Barron Falls
+11908	Trinity Beach
+11909	Palm Cove
+11910	Alamanda
+11911	Oasis
+11912	Marlin Waters
+11913	The Reef House
+11914	Mango Lagoon
+11915	Cradle Mountain
+11916	Dove Lake
+11917	Lake St. Claire
+11918	The Overland Track
+11919	National Park
+11920	Lake St. Clair
+11921	Granary
+11922	Lemonthyme
+11923	Silver Ridge
+11924	Diamond Island
+11925	Penguin Tour
+11926	Wintersun Gardens
+11927	Backpackers
+11928	Ocean View Retreat
+11929	Harvey Farm Lodge
+11930	Blowhole
+11931	Bicheno
+11932	Beach Bungalow
+11933	Baywall Bollards
+11934	Heritage Centre
+11935	Jack Rabbit Vineyard
+11936	Regional Park
+11937	Tuckerberry Hill
+11938	Rippleside Park
+11939	Parkside
+11940	Corio Bay
+11941	Parkwood
+11942	Casa Favilla
+11943	7 Falls Apartments
+11944	Beeches By The Sea
+11945	Rayville Boat
+11946	Sandpiper Motel
+11947	A Great Ocean View
+11948	Beachfront Motel
+11949	Angela's Beach
+11950	Beachcomber Motel
+11951	Cataract George
+11952	Laucenston
+11953	City Park
+11954	Elphin Villas
+11955	Olde Tudor
+11956	Hotel City Park
+11957	The Old Bakery
+11958	Country Club
+11959	Launceston
+11960	British Museum
+11961	Buckingham Palace
+11962	Westminster Abbey
+11963	Tower Bridge
+11964	London Eye
+11965	Hyde Park
+11966	Oxford Street
+11967	National Gallery
+11968	Edinburgh Castle
+11969	Calton Hill
+11970	Royal Mile
+11971	St.Giles' Cathedral
+11972	Arthur's Seat
+11973	Scott Monument
+11974	Princes Gardens
+11975	Holyroodhouse Palace
+11976	Mathematical Bridge
+11977	Queens' College
+11978	King College Chapel
+11979	Trinity College
+11980	St. John’s College
+11981	River Cam
+11982	Cambridge
+11983	King‘s College
+11984	Old Trafford
+11985	UoM
+11986	Town Hall
+11987	John Rylands Library
+11988	Albert Square
+11989	Football Museum
+11990	Manchester Cathedral
+11991	Gay Village
+11992	University of Oxford
+11993	Blenheim Palace
+11994	Bridge of Sighs
+11995	All Souls College
+11996	Museum of Oxford
+11997	Magdalen College
+11998	Oxford Castle
+11999	Balliol College
+12000	York Minster
+12001	York City Walls
+12002	Clifford's Tower
+12003	The Shambles
+12004	Museum Gardens
+12005	University of York
+12006	Yorkshire Museum
+12007	The York Dungeon
+12008	The Griffin
+12009	Redcar
+12010	Royal Hotel
+12011	Francis
+12012	Abbey
+12013	Henrietta
+12014	Dorian
+12015	Parade Park
+12016	Windermere
+12017	Grasmere
+12018	Keswick
+12019	Orrest Head
+12020	Buttermere
+12021	Ambleside
+12022	Orrest Head
+12023	Wray Castle
+12024	Cadbury World
+12025	Birmingham Library
+12026	Victoria Square
+12027	St. Martin Church
+12028	National Aquarium
+12029	Gas Street Basin
+12030	The Pen Museum
+12031	Jewellery Quarter
+12032	Albert Dock
+12033	Anfield Stadium
+12034	The Cavern Club
+12035	Pier Head
+12036	Museum of Liverpool
+12037	Chinatown
+12038	Sefton Park
+12039	Walker Art Gallery
+12040	Weston Park
+12041	The Arts Tower
+12042	Winter Garden
+12043	Sheffield University
+12044	Cathedral Church
+12045	Town Hall
+12046	Hallam University
+12047	The Peace Gardens
+12048	The Needles
+12049	Isle of Wight
+12050	Osborne House
+12051	Carisbrooke Castle
+12052	Isle of Wight Zoo
+12053	Seaview Encounter
+12054	Sandown Pier
+12055	The Needles Park
+12056	UoN
+12057	Wollaton Hall
+12058	Galleries of Justice
+12059	City of Caves
+12060	Highfields Park
+12061	St. Mary's Church
+12062	Old Market Square
+12063	Nottingham Castle
+12064	Newcastle University
+12065	Millenium Bridge
+12066	The Tyne Bridge
+12067	Newcastle China Town
+12068	St James' Park
+12069	Dolphina Park
+12070	Fun Farm
+12071	The Packing Shed
+12072	Titanic Belfast
+12073	Belfast City Hall
+12074	QUB
+12075	Belfast Peace Wall
+12076	Belfast Castle
+12077	Memorial Clock Tower
+12078	Ulster Museum
+12079	Botanic Garden
+12080	Cardiff Castle
+12081	Cardiff University
+12082	Bute Park
+12083	Cardiff City Hall
+12084	Dr Who Experience
+12085	Llandaff Cathedral
+12086	National Museum
+12087	Roath Park Gardens
+12088	Windsor Castle
+12089	Eton College
+12090	St. George's Chapel
+12091	Legoland Resort
+12092	Mary's Doll House
+12093	Frogmore House
+12094	legoland Windsor
+12095	Alexandra Gardens
+12096	Brighton Beach
+12097	Brighton Pier
+12098	Royal Pavilion
+12099	The Lanes
+12100	Sea Life Brighton
+12101	Brighton Dome
+12102	North Laine
+12103	Theatre Royal
+12104	Loch Ness
+12105	Isle of Skye
+12106	Scottish Highlands
+12107	Eilean Donan Castle
+12108	Inverness
+12109	Old Man of the Storr
+12110	Glen coe
+12111	Glenfinnan Viaduct
+12112	Glasgow University
+12113	George Square
+12114	Buchanan Street
+12115	Kelvingrove Park
+12116	The Necropolis
+12117	Modern Art Gallery
+12118	The Hunterian Museum
+12119	Riverside Museum
+12120	Warwick Arts Centre
+12121	Holy Trinity Church
+12122	War Memorial Park
+12123	Midland Air Museum
+12124	Herbert Art Gallery
+12125	St. Mary's Guildhall
+12126	Leisure Centre
+12127	Flight Simulators
+12128	Criterion Theatre
+12129	Shakespeare's House
+12130	Harvard House
+12131	Shakespeare Centre
+12132	Holy Trinity Church
+12133	Bancroft Gardens
+12134	American Fountain
+12135	Firs Gardens
+12136	Tudor World
+12137	The Greenway
+12138	St. Michael's Mount
+12139	Merlin's Cave
+12140	Museum of Witchcraft
+12141	Paradise Park
+12142	Sennan Cornwall
+12143	Carbis Bay
+12144	Trebah Gardens
+12145	St Michael's Mount
+12146	The Lost Gardens
+12147	Soton
+12148	Queens Park
+12149	SeaCity Museum
+12150	The Old Cemetery
+12151	Westgate
+12152	Nuffield Theatre
+12153	Holy Rood Church
+12154	Riverside Park
+12155	Merchant's House
+12156	University of Leeds
+12157	City Museum
+12158	Leeds Art Gallery
+12159	City Square
+12160	Kirkstall Abbey
+12161	Thornton's Arcade
+12162	Town Hall
+12163	Millennium Square
+12164	Woodhouse Moor
+12165	Ben Nevis
+12166	Fort William Ruins
+12167	Steam Train
+12168	West Highland Museum
+12169	Inverlochy Castle
+12170	Cruachan Hotel
+12171	Glengarry Castle
+12172	Clan Macduff
+12173	The Kelvin Hotel
+12174	Canterbury Cathedral
+12175	St Augustine's Abbey
+12176	University of Kent
+12177	West Gate
+12178	Heritage Museum
+12179	St. Martin's Church
+12180	Canterbury Castle
+12181	Canterbury Tales
+12182	Roman Museum
+12183	Suspension Bridge
+12184	Bristol Cathedral
+12185	Bristol
+12186	Nelson Street
+12187	City Hall
+12188	Wills Museum
+12189	Nature Park
+12190	Cabot Tower
+12191	The Victoria Rooms
+12192	Royal Observatory
+12193	Greenwich Park
+12194	Greenwich University
+12195	Artillery Museum
+12196	Eltham Palace
+12197	The Valley
+12198	Bridge Station
+12199	Greenwich Road
+12200	The Clarendon Hotel
+12201	Windermere
+12202	Orrest Head
+12203	Grasmere
+12204	Wray Castle
+12205	Holehird Gardens
+12206	Orrest Head
+12207	Ambleside
+12208	Rydal Water
+12209	Dove Cottage
+12210	Cathedral
+12211	St Andrews Castle
+12212	West Sands
+12213	Old Course
+12214	Country Park
+12215	Swilken Burn Bridge
+12216	St Andrews Links
+12217	Aquarium
+12218	Golf Museum
+12219	Castle Howard
+12220	Whitby Abbey
+12221	Ouse River
+12222	Selby Abbey
+12223	Rievaulx Abbey
+12224	Lavender
+12225	Robin Hood's Bay
+12226	Filey
+12227	Sutton Park
+12228	Rhossili Bay
+12229	Swansea Beach
+12230	Swansea Marina
+12231	Swansea Museum
+12232	Singleton Park
+12233	Gower Peninsula
+12234	Clyne Gardens
+12235	Pennard Castle
+12236	Llangennith Beach
+12237	Nation Space Centre
+12238	Leicester Abbey
+12239	Botanic Garden
+12240	John Clare Cottage
+12241	Belgrave Road
+12242	Jewry Wall
+12243	Phoenix Cinema
+12244	Abbey Pump Station
+12245	National Gas Museum
+12246	Royal Citadel
+12247	Plymouth Guildhall
+12248	Elizabethan Gardens
+12249	Burgh Island
+12250	St. Andrew's Church
+12251	Maritime Exhibition
+12252	Waterfront Walkway
+12253	Mayflower Exhibition
+12254	Marine Aquarium
+12255	Whitby Abbey
+12256	Whitby Beach
+12257	Whitby Harbour
+12258	Whitby Museum
+12259	Memorial Museum
+12260	St Mary's Church
+12261	St Hilda's Church
+12262	Pannett Park
+12263	Foss Tea Garden
+12264	Riverside Walk
+12265	Earlham Park
+12266	Norwich Building
+12267	Football Stadium
+12268	Mandells Gallery
+12269	Eaton Park
+12270	Wensum Park
+12271	Norwich Castle
+12272	UEA
+12273	Spinnaker Tower
+12274	Historic Dockyard
+12275	Portsmouth Dockyard
+12276	Royal Naval Museum
+12277	Southsea Castle
+12278	Cathedral
+12279	Museum
+12280	Blue Reef Aquarium
+12281	Fort Nelson
+12282	Maritime Museum
+12283	City Beach
+12284	Wallace Statue
+12285	Library
+12286	Seaton Park
+12287	Footdee
+12288	Aberdeen Harbour
+12289	Duthie Park
+12290	Johnstone Gardens
+12291	Stirling Castle
+12292	Wallace Monument
+12293	Park Centre
+12294	Old Town Jail
+12295	Holy Rude Church
+12296	Argyll's Lodging
+12297	Cambuskenneth Abbey
+12298	Information Centre
+12299	Snooker & Darts Club
+12300	Musée du Louvre
+12301	Eiffel Tower
+12302	Cathédrale Notre-Dame de Paris
+12303	La Seine
+12304	Arc de Triomphe
+12305	Basilique du Sacré Cœur
+12306	Moulin Rouge
+12307	Avenue des Champs-Élysées
+12308	Notre Dame De La Garde
+12309	Parc national des Calanques
+12310	Le parc balnéaire du Prado
+12311	MuCEM
+12312	The old Marseille
+12313	Place aux Huiles
+12314	l'Hôtel de ville de Marseille
+12315	Le Château d’If
+12316	Allées de la Liberté
+12317	Le Vieux Port
+12318	L'île Sainte-Marguerite
+12319	Boulevard de la Croisette
+12320	Hôtel-de-ville
+12321	Palais des Festival
+12322	Saint-Honorat Island
+12323	Rue Meynadier
+12324	Basilique Notre Dame de Fourvière
+12325	Vieux Lyon
+12326	Cathédrale Saint-Jean Baptiste
+12327	La Fresque des Lyonnais
+12328	La place Bellecour
+12329	Musee Miniature et Cinema
+12330	Parc de la Tête d’Or
+12331	Hôtel de Ville
+12332	place du capitole
+12333	Basilique Saint-Sernin de Toulouse
+12334	La Garonne
+12335	Musée des Augustins
+12336	Cathedrale Saint-Etienne
+12337	Cité de l'espace
+12338	Fondation Bemberg
+12339	Musee Paul Dupuy
+12340	La baie des Anges
+12341	Promenade Des Anglais
+12342	Parc du Château
+12343	Le Cap De Nice
+12344	Place Masséna
+12345	Cathédrale Orthodoxe Russe St-Nicolas
+12346	place Garibaldi
+12347	Cathédrale Ste-Réparate
+12348	Cathedrale Ste-Croix
+12349	Rue Jeanne d'Arc
+12350	Place du Martroi
+12351	Pont George-V
+12352	Parc Pasteur
+12353	Maison de Jeanne d'Arc
+12354	Centre de Conférences d'Orléans
+12355	Musee des Beaux-Arts
+12356	Place de la Bourse
+12357	Cathédrale Saint-André de Bordeaux
+12358	St-Emilion
+12359	Girondins Monument
+12360	Esplanade des Quinconces
+12361	Grand Théâtre
+12362	Rue Sainte-Catherine
+12363	Église du Sacré-Cœur Bordeaux
+12364	Vieux Rennes
+12365	Parlement de Bretagne
+12366	Parc du Thabor
+12367	Mairie de Rennes
+12368	Cathédrale St-Pierre de Rennes
+12369	Opéra de Rennes
+12370	Musée des Beaux-Arts de Rennes
+12371	Champs Libres
+12372	Cathédrale Saint-Julien
+12373	Cité Plantagenêt
+12374	Musée des 24 Heures
+12375	l'Arche de la Nature
+12376	Palais royal Plantagenêt
+12377	Le Carré Plantagenêt
+12378	Place de la République
+12379	Place Saint-Nicolas
+12380	Cathédrale Notre-Dame d'Amiens
+12381	La Tour Perret
+12382	Parc St-Pierre
+12383	Maison Jules Verne
+12384	Musée de Picardie
+12385	Université de Picardie Jules-Verne
+12386	Les Hortillonnages d'Amiens
+12387	Amiens Station
+12388	Château de Versailles
+12389	Domaine de Marie Antoinette
+12390	Public library of Versailles
+12391	Cathedrale Saint Louis
+12392	Ville
+12393	Eglise Notre-Dame de Versailles
+12394	The Royal Opera
+12395	Carriage Museum
+12396	Cathédrale Notre-Dame de Rouen
+12397	Le Vieux Rouen
+12398	Eglise Ste-Jeanne d'Arc de Rouen
+12399	Giverny
+12400	Palais de Justice de Rouen
+12401	Eglise St-Maclou
+12402	Panorama XXL
+12403	Château de Rouen - Tour Jeanne-d'Arc
+12404	Château des Ducs de Bretagne
+12405	Cathédrale Saint Pierre et Saint Paul de Nantes
+12406	Passage Pommeraye
+12407	Église Sainte-Croix
+12408	Machines of the Isle Nantes
+12409	Muséum d'histoire naturelle de Nantes
+12410	Musee Jules Verne
+12411	Jardin des Plantes
+12412	Cours Mirabeau
+12413	Fontaine de Roi René
+12414	Cathédrale Saint-Sauveur
+12415	Fontaine de la Rotonde
+12416	Mont Sainte Victoire
+12417	Musée Atelier de Cézanne
+12418	Place de la Mairie
+12419	Musée Granet
+12420	Arc de Triomphe
+12421	Le Vieux Montpellier
+12422	Place de la Comedie
+12423	Cathédrale Saint-Pierre de Montpellier
+12424	Promenade du Peyrou
+12425	Antigone
+12426	Musée Fabre
+12427	Musée Atger
+12428	Place du Général de Gaulle
+12429	Palais des Beaux-Arts de Lille
+12430	cathédrale Notre Dame de la Treille
+12431	Vieille Bourse de Lille
+12432	La Piscine Musée d'Art et d'Industrie
+12433	Citadelle de Lille
+12434	Maison natale de Charles de Gaulle
+12435	Saint Maurice's Church
+12436	Stade Geoffroy-Guichard
+12437	Château d'Essalois
+12438	Parc du Pilat
+12439	Château de Grangent
+12440	Place Jean Jaurès
+12441	Château de Rochetaillée
+12442	Cité du design
+12443	Parc Couriot- Musée de la Mine
+12444	Musée de la Marine Toulon
+12445	Mont Faron
+12446	Rade de Toulon
+12447	Bormes les Mimosa
+12448	Maison de la Photographie
+12449	Musee d'Art
+12450	Hyères
+12451	Mémorial du Débarquement et de la Libération de Provence
+12452	Château de Brest et Musée National
+12453	Pont de Recouvrance
+12454	Port de Commerce de Brest
+12455	Océanopolis
+12456	Jardin du Conservatoire Botanique National de Brest
+12457	La Pointe Saint-Mathieu
+12458	La Pointe de Corsen
+12459	Gare de Brest
+12460	Panorama du fort de la Bastille
+12461	Musée de Grenoble
+12462	Jardin de Ville
+12463	Musée Dauphinois
+12464	Collégiale Saint-André
+12465	Muséum d'Histoire Naturelle de Grenoble
+12466	Château de Vizille
+12467	Musée de l'Ancien évêché
+12468	Musée de la Grande Chartreuse
+12469	Museum Dunkerque 1940 Operation Dynamo
+12470	Musee Portuaire
+12471	Statue de Jean Bart
+12472	Fond Régional d\'Art Contemporain
+12473	ESA
+12474	Église Saint-Martin
+12475	Phare de Dunkerque
+12476	Église Saint-Benoît
+12477	Parc de la Marine
+12478	Château d'Angers
+12479	Cathedrale St-Maurice
+12480	Musée des Beaux-Arts Angers
+12481	Parc Balzac
+12482	Musée Jean Lurçat et de la tapisserie contemporaine
+12483	Le Cadre Noir Saumur
+12484	Jardin des plantes d'Angers
+12485	Carré Cointreau
+12486	Terra Botanica
+12487	Notre Dame Dijon
+12488	Place de la Libération
+12489	palais des ducs et des États de Bourgogne
+12490	Rue de la Chouette
+12491	Place François Rude
+12492	Saint Michael Church
+12493	Musée des Beaux-Arts de Dijon
+12494	Jardin Darcy
+12495	Cathedrale Saint-Benigne
+12496	Gare de Limoges Bénédictins
+12497	Cathédrale St-Etienne
+12498	Église St-Pierre du Queyroix
+12499	Musée de la Résistance et de la Déportation
+12500	Rue Haute Cité
+12501	Pavillon du Verdurier
+12502	Cité des Métiers et des Arts
+12503	Rue de la Boucherie
+12504	Musée National Adrien Dubouché
+12505	Pont du Gard
+12506	Arenes de Nimes
+12507	Maison Carree
+12508	Jardins de la Fontaine
+12509	Tour Magne
+12510	Nîmes Cathedral
+12511	Fontaine Pradier
+12512	TEMPLE OF DIANA
+12513	Musée des Beaux Arts Nimes
+12514	Cathédrale Saint-Gatien
+12515	Mairie de Tours
+12516	Musée des Beaux-Arts de Tours
+12517	Rue Nationale ＆ Rue de Bordeaux
+12518	Église Saint-Julien de Tours
+12519	Place Jean Jaurès
+12520	Jardin botanique de Tours
+12521	Musee de Compagnonnage
+12522	Musée du Compagnonnage
+12523	Cathédrale de Saint-Denis
+12524	Former Hôtel de Ville
+12525	Boulevard Gabriel Mace
+12526	MUSÉE LÉON DIERX
+12527	MUSÉE STELLA MATUTINA
+12528	LE JARDIN D'ÉDEN
+12529	LE MUSÉE DE VILLÈLE ET LA CHAPELLE POINTUE
+12530	Museum d'Histoire Naturelle
+12531	Tamil Temple
+12532	La Citadelle de Besancon
+12533	Musée des Beaux-Arts et d'archéologie de Besançon
+12534	Astronomical Clock of Cathedral St-Jean
+12535	The Great Saltworks of Salins-les-Bains
+12536	Royal Saltworks at Arc-et-Senans
+12537	Maison Natale de Victor Hugo
+12538	Bell Museum
+12539	Université de Franche-Comté
+12540	Fort Griffon
+12541	Pope's Palace
+12542	Pont St-bénézet
+12543	Cathédrale Notre-Dame des Doms
+12544	Le jardin du rocher des Doms
+12545	Musée du Petit Palais
+12546	Collection Lambert
+12547	The Old Mint
+12548	Musée Calvet
+12549	Maison Jean Vilar
+12550	Chateau de Fontainebleau
+12551	chateau gardens
+12552	Forêt de Fontainebleau
+12553	Cour du Cheval Blanc
+12554	Salle de Bal
+12555	Musée Napoléon I
+12556	Cour Ovale
+12557	Petits Appartements
+12558	Chapelle de la Trinité
+12559	Calais Beach
+12560	Les Bourgeois de Calais
+12561	Tour du Guet
+12562	Colonne Louis XVIII
+12563	Église Notre-Dame de Consolation
+12564	Musée des Beaux-Arts et de la Dentelle
+12565	Musée de la Guerre
+12566	Todt Battery
+12567	Town Hall
+12568	Eglise St-Joseph
+12569	Cathédrale du Havre
+12570	Le Square Saint-Roch
+12571	Le Volcan
+12572	La Plage du Havre
+12573	Musée des Beaux-Arts André-Malraux
+12574	Museum d'histoire Naturelle
+12575	Maison-Musée de l’Armateur
+12576	Maison du Patrimoine
+12577	Cathédrale Saint-étienne de Bourges
+12578	Palais Jacque Cœur
+12579	Musée de Maurice Estève
+12580	Marais de Bourges
+12581	Canal de Berry
+12582	Le Palais du Duc Jean de Berry
+12583	Les Nuits Lumières de Bourges
+12584	Maison de la culture de Bourges
+12585	Printemps de Bourges
+12586	Futuroscope de Poitiers
+12587	Eglise Notre-Dame-la-Grande
+12588	Hôtel de ville Poitiers
+12589	Palais de Justice Poitiers
+12590	Eglise St-Hilaire-le-Grand
+12591	Cathédrale Saint-Pierre
+12592	Musée Rupert-de-Chièvres
+12593	Baptistère St-Jean
+12594	Church of Sainte-Radegonde
+12595	Place Stanislas
+12596	Nancy Cathedral
+12597	Palais de Stanislas
+12598	Porte de la Craffe
+12599	Saint-Epvre Basilica and Square
+12600	Parc de la Pepiniere
+12601	Musée des Beaux-Arts de Nancy
+12602	Porte Desilles
+12603	Palace of the Dukes of Lorraine
+12604	Arènes d'Arles
+12605	Le Café Van Gogh
+12606	Théâtre Antique Arles
+12607	La cathédrale Saint-Trophime
+12608	Van Gogh Bridge
+12609	place de la republique
+12610	Le Cloître St-Trophime
+12611	La Camargue
+12612	Fondation Vincent van Gogh Arles
+12613	Cathédrale St-Etienne de Metz
+12614	Protestant New Temple
+12615	Centre Pompidou-Metz
+12616	Port des Allemands
+12617	Metz Railway Station
+12618	Museum of La Cour d'Or
+12619	L’opéra-théâtre
+12620	Place de la République
+12621	Ouvrage Hackenberg
+12622	Cité de l'Automobile
+12623	Protestant St. Stephen's Church
+12624	Cite du Train
+12625	Écomusée d'Alsace
+12626	Parc Zoologique et Botanique de Mulhouse
+12627	Musée de l’Impression sur Etoffes
+12628	EuroAirport Basel-Mulhouse-Freiburg，BSL
+12629	EDF Electropolis Museum
+12630	Tour du Belvédère
+12631	Cathedral Notre Dame
+12632	Petite-France
+12633	Place Kléber
+12634	Concert
+12635	European Parlement
+12636	Musée de l'oeuvre Notre Dame
+12637	The Christmas Market - Cathedral
+12638	Batorama Ship
+12639	Musée Historique de la ville Strasbourg
+12640	Colosseo
+12641	Pantheon
+12642	Piazza Venezia
+12643	Ponte Sant'Angelo
+12644	Foro Romano
+12645	Castel Sant’Angelo
+12646	Piazza Navona
+12647	BASILICA PARROCCHIALE DI S. MARCO
+12648	Duomo di Milano
+12649	Lago di Como
+12650	Santa Maria delle Grazie
+12651	San Siro
+12652	Via Manzoni
+12653	Teatro alla Scala
+12654	Castello Sforzesco
+12655	Pinacoteca di Brera
+12656	Museo Civico Castel Nuovo
+12657	Castel dell'Ovo
+12658	Galleria Umberto
+12659	Piazza Dante
+12660	Pompeii
+12661	Mount Vesuvius
+12662	Palazzo Reale
+12663	Teatro di San Carlo
+12664	Piazza Castello
+12665	Mole Antonelliana
+12666	Palazzo Reale
+12667	Museo Nazionale del Cinema
+12668	Egyptian Museum
+12669	Juventus Stadium
+12670	Parco del Valentino
+12671	Chiesa di San Lorenzo
+12672	The Old Harbour
+12673	Cattedrale di San Lorenzo
+12674	Piazza de Ferrari
+12675	Acquario Di Genova
+12676	Palazzo Rosso
+12677	Casa di Cristoforo Colombo
+12678	Via Garibaldi
+12679	Museo di Palazzo Reale
+12680	Cattedrale di Santa Maria del Fiore
+12681	Piazza della Signoria
+12682	Piazzale Michelangelo
+12683	Ponte Vecchio
+12684	Heaven's Door
+12685	Basilica di Santa Croce
+12686	Palazzo Medici Riccardi
+12687	Basilica di Santa Trinita Firenze
+12688	Ponte dei Sospiri
+12689	Piazza San Marco
+12690	Basilica San Marco
+12691	Ponte Rialto
+12692	Murano
+12693	Burano
+12694	Palazzo Ducale
+12695	Galleria Franchetti alla Ca'd'oro
+12696	Duomo di Prato
+12697	Castello dell'Imperatore
+12698	Museum of Praetorian Palace in Prato
+12699	Fontana del Bacchino
+12700	Santa Maria delle Carceri
+12701	Museum of Planetary Science
+12702	Textile Museum
+12703	Il Centro per l'Arte Contemporanea LuigiPecci
+12704	Cattedrale di Palermo
+12705	Quattro Canti
+12706	Fontana Pretoria
+12707	Palazzo dei Normanni e Cappella Palatina
+12708	Porta Felice
+12709	Chiesa di San Cataldo
+12710	Cattedrale di Monreale
+12711	Teatro Massimo Vittorio Emanuele
+12712	Piazza Maggiore
+12713	Due Torri
+12714	Fontana del Nettuno
+12715	Cattedrale Metropolitana di San Pietro
+12716	Basilica di San Petronio
+12717	Palazzo dell' Archiginnasio
+12718	Palazzo D'Accursio
+12719	Palazzo Re Enzo
+12720	Bari Vecchia
+12721	Cattedrale di Bari
+12722	Basilica of Saint Nicholas
+12723	Norman-Swabian Castle
+12724	Castel del Monte
+12725	Polignano a Mare
+12726	Castel del Monte
+12727	Piazza Mercantile
+12728	Piazza del Duomo e Cattedrale di Sant Agata
+12729	Fontana dell’Elefante
+12730	Teatro Romano e l’odeon
+12731	Aci Castello
+12732	Palazzo Biscari
+12733	Via Etnea
+12734	Villa Romana del Casale
+12735	Museo Civico Belliniano
+12736	Arena di Verona
+12737	Piazza delle Erbe
+12738	Casa di Giulietta
+12739	Duomo di Verona
+12740	Castel San Pietro
+12741	Museo di Castelvecchio
+12742	Piazza dei Signori
+12743	Basilica di Sant'Anastasia
+12744	Basilica di Sant'Antonio
+12745	Prato della Valle
+12746	Cappella degli Scrovegni
+12747	University of Padua
+12748	Palazzo della Ragione Padova
+12749	Duomo di Padova
+12750	Orto Botanico dell’Università di Padova
+12751	Palazzo del Capitanio
+12752	Piazza dell'Unità d'Italia
+12753	Teatro Romano
+12754	Castello di miramare
+12755	Chiesa di Santa Maria Maggiore
+12756	Chiesa Serbo - Ortodossa di San Spiridione
+12757	Piazza San Giovanni
+12758	Cattedrale di San Giusto
+12759	Museo Revoltella
+12760	Castle Aragonese
+12761	National Archaeological Museum
+12762	Museo Spartano di Taranto
+12763	Basilica Cathedral of San Cataldo
+12764	Sant'Angelo
+12765	Ponte Sant'Angelo
+12766	Piazza Ebalia
+12767	La Chiesa di San Michele
+12768	Piazza del Mercato
+12769	The Roman column
+12770	Duomo nuovo
+12771	Castello di Brescia
+12772	Duomo Vecchio di Brescia
+12773	Santa Giulia Museum
+12774	Palazzo della Loggia
+12775	Tempio Capitolino
+12776	Cattedrale di Parma
+12777	Teatro Regio
+12778	Palazzo della Pilotta
+12779	Piazzale della Pace
+12780	Teatro Farnese
+12781	Basilica di Santa Maria della Steccata
+12782	Chiesa di San Giovanni Evangelista
+12783	Stadio Ennio Tardini
+12784	Piazza IV Novembre
+12785	Fontana Maggiore
+12786	Saint Angelo Gate
+12787	Palazzo Dei Priori
+12788	Fabbrica e Museo di Ciocolatto
+12789	Palazzo dei Priori&Galleria Nazionale dell'Umbria
+12790	Chiesa di San Domenico Perugia
+12791	Tempio di Sant'Angelo
+12792	Fortezza Vecchia
+12793	Terrazza Mascagni
+12794	Monument of the Four Moors
+12795	Fortezza Nuova
+12796	Piazza deiia Repubblica
+12797	ACQUARIO DI LIVORNO
+12798	Stabilimento termle Aeque della Salute
+12799	Chiesa di Santa Caterina
+12800	Elephant Tower
+12801	Cathedral of St. Mary and St. Cecilia
+12802	Basilica di San Saturno
+12803	Anfiteatro Romano Cagliari
+12804	Chiesa di Sant’Eulalia
+12805	Piazza Yenne
+12806	Museo Archeologico Nazionale
+12807	Stadio Sant'Elia
+12808	Chiesa di San Michele
+12809	San Vitale
+12810	Basilica di San Apollinare Nuovo
+12811	Mausoleo di Galla Placidia
+12812	Tomba di Dante
+12813	Museo Arcivescovile
+12814	Arian Baptistry
+12815	Duomo di Ravenna
+12816	Basilica of Sant' Apollinare in Classe
+12817	piazza del popolo
+12818	Amalfi
+12819	Duomo di Salerno
+12820	Castello di Arechi
+12821	Pinacoteca Provinciale di Salerno
+12822	Ponte del Diavolo
+12823	Museo Archeologico Provinciale di Salerno
+12824	Positano
+12825	Cattedrale di Sant'Andrea
+12826	Villa Rufolo
+12827	Duomo di Siracusa
+12828	Ortigia
+12829	Teatro Greco
+12830	Anfiteatro Romano Siracusa
+12831	Fontaine d'Artémis
+12832	The castle of Maniace
+12833	the Shrine of Our Lady of Tears
+12834	Orecchio di Dionisio
+12835	Chiesa di Santa Lucia alla Badia
+12836	Parco di Monza
+12837	Royal Villa of Monza
+12838	Monza circuit
+12839	Duomo di Monza
+12840	Villa Reale
+12841	Musei Civici Monza
+12842	Cappella Espiatoria Monza
+12843	Ponte di San Gerardo
+12844	Chiesa di San Pietro Martire
+12845	The Piazza Vecchia
+12846	Bergamo Cathedral
+12847	The church of Santa Maria Maggiore
+12848	The Cittadella
+12849	Torre Civica Bergamo
+12850	Monte Iseo
+12851	Galleria dell'Accademia Carrara
+12852	Palazzo della Ragione
+12853	Museo Donizettiano
+12854	Palmarola
+12855	Cattedrale San Marco
+12856	Palazzo Comunale
+12857	Galleria Civica d'Arte Moderna e Contemporanea
+12858	Monumento ai Caduti
+12859	Archivio di Stato
+12860	Parco Falcone-Borsellino
+12861	Parrocchia San Francesco d'Assisi
+12862	Biblioteca Aldo Manuzio
+12863	San Domenico Museum
+12864	Parco Urbano Franco Agosto
+12865	Casa Museo Villa Saffi
+12866	Torre Nera Forli
+12867	Puntadiferro Centro Commerciale
+12868	Parco della Resistenza
+12869	Chiesa San Pellegrino
+12870	Chiesa di Santa Lucia
+12871	Museo Romagnolo del Teatro
+12872	Basilica di San Gaudenzio
+12873	Museo di Storia Naturale Faraggiana Ferrandi
+12874	Cattedrale di Santa Maria Assunta
+12875	Galleria d'Arte Moderna Giannoni
+12876	Teatro Coccia
+12877	Stadio Silvio Piola
+12878	The Novara Pyramid
+12879	Chiesa di San Marco
+12880	Chiesa di San Martino
+12881	Duomo di Bolzano
+12882	RENON
+12883	Piazza Vittoria
+12884	Maretsch Castle
+12885	South Tyrol Museum of Archaeology
+12886	kalterersee
+12887	Piazza Walther
+12888	Messner Mountain Museum
+12889	Castel Roncolo
+12890	Piazza Cavall
+12891	Duomo di Piacenza
+12892	Basilica di San Francesco d'Assisi
+12893	Palazzo Comunale
+12894	Basilica di Sant'Antonino
+12895	Palazzo Farnese Piacenza
+12896	Galleria D'Arte Ricci Oddi
+12897	Chiesa Cattolica Parrocchiale S.Eufemia
+12898	Stadio Calcio Leonardo Garilli
+12899	Piazza Libertà
+12900	Castello di Udine
+12901	Loggia di San Giovanni
+12902	The Cathedral of Udine
+12903	Arco Bollani
+12904	Chiesa di San Francesco Udine
+12905	Stadio Friuli
+12906	Galleria d'arte moderna di Udine
+12907	Fusine Lakes
+12908	Piazza del Popolo
+12909	Abbazia del Monte
+12910	teatro Alessandro Bonci
+12911	Cattedrale San Giovanni Battista Cesena
+12912	Museo di Scienze Naturali
+12913	Chiesa di S. Domenico
+12914	Parco Rio Marano
+12915	Chiesa di S. Cristina
+12916	Mercato Saraceno
+12917	Palazzo Mosca - Musei Civici Pesaro
+12918	Palazzo Ducale
+12919	Opera Gioacchino Rossini
+12920	Piazza del Popolo
+12921	Monte Ardizio and Beach
+12922	La Cattedrale di San Terenzio
+12923	Villa Imperiale
+12924	San Bartolo Natural Park
+12925	Casa Natale di Gioachino Rossini
+12926	leaning tower
+12927	Piazza dei Miracoli
+12928	Duomo di Pisa
+12929	Volterra
+12930	Chiesa di Santa Maria della Spina
+12931	Palazzo della Sapienza
+12932	Palazzo Blu
+12933	Piazza Cavalieri
+12934	Ponte Di Mezzo
+12935	Cathedral of Como
+12936	Varenna
+12937	Villa del Balbianello
+12938	Lenno
+12939	Villa Carlotta
+12940	Basilica of San Fedele
+12941	San Maurizio
+12942	Villa Mylisu Vigoni
+12943	Chiesa Sant' Andrea Apostolo
+12944	Castello Malaspina
+12945	Piazza Aranci
+12946	Cattedrale dei Santi Pietro e Francesco
+12947	Palazzo Ducale
+12948	Chiesa di San Sebastiano
+12949	Chiesa della Madonna della Misericordia
+12950	Parrocchia San Domenichino
+12951	Villa Massoni
+12952	Chiesa del Corpus Domini
+12953	Valle Dei Templi
+12954	Temple of Concordia
+12955	Tempio di Giunone
+12956	Scala dei Turchi
+12957	Tempio di Giove
+12958	Duomo
+12959	Municipio
+12960	Via Atenea
+12961	Chiesa di Santa Maria dei Greci
+12962	Seborga
+12963	Santuario del Sacro Cuore di Gesù
+12964	Via Giacomo Matteotti
+12965	Castello Devachan
+12966	City of Sanremo
+12967	Teatro Ariston Sanremo
+12968	Russian Orthodox Church
+12969	Santuario della Madonna della Costa
+12970	Villa Nobel
+12971	Basilica Palladiana
+12972	Teatro Olimpico
+12973	Corso Andrea Palladio
+12974	Museo Civico Vicenza
+12975	Palazzo Breganze
+12976	Loggia del Capitaniato
+12977	Palazzo Barbaran da Porto
+12978	Museo Naturalistico e Archeologico
+12979	Basilica di Monte Berico
+12980	Reichstagsgebäude
+12981	Museum Island
+12982	Berliner Dom
+12983	East Side Gallery
+12984	Brandenburger Tor
+12985	Gendarmenmarkt
+12986	Sony Center
+12987	Kurfürstendamm
+12988	Miniatur Wunderland
+12989	Alsterarkaden
+12990	Hauptkirche St. Michaelis
+12991	Hamburg City Park
+12992	Sternschanzen
+12993	Petrikirche
+12994	Museum Für Kunst und Gewerbe
+12995	Panoptikum
+12996	Marienplatz
+12997	München Residenz
+12998	Allianz Arena
+12999	Schloss Nymphenburg
+13000	Olympiapark
+13001	Fischbrunnen
+13002	Odeonsplatz
+13003	Asamkirche
+13004	Cologne Cathedral
+13005	Hohenzollernbrücke
+13006	Groß St. Martin
+13007	Museum Ludwig
+13008	Römisch-Germanisches Museum
+13009	Basilika St. Aposteln
+13010	Imhoff-Schokoladenmuseum
+13011	Alter Market & Rathaus
+13012	Frankfurter Romer
+13013	Cathedral Historical Frankfurt
+13014	Römer
+13015	Old Opera House
+13016	Main Tower
+13017	Goethehaus und Goethe-Museum Frankfurt
+13018	Old St Nicholas Church
+13019	Deutsches Filmmuseum
+13020	Mercedes-Benz Museum
+13021	Hohenzollern Castle
+13022	Stuttgart City Library
+13023	Schlossplatz Stuttgart
+13024	Wilhelma Zoological Botanical Garden
+13025	Königsbau
+13026	Schillerplatz
+13027	Neues Schloss
+13028	Altstadt
+13029	Rhine Tower
+13030	Medienhafen
+13031	Schlossturm
+13032	St. Lambertuskirche
+13033	Geburtshaus Heinrich Heines
+13034	Hofgarten
+13035	Rheinuferpromenade
+13036	Westfalen Stadion
+13037	Westfalenpark
+13038	Reinoldikirche
+13039	Deutsches Fußballmuseum
+13040	Brauerei Museum
+13041	Revierpark Wischlingen
+13042	Luenen
+13043	Museum am Ostwall
+13044	Ruhr Museum
+13045	Red Dot Design Museum
+13046	Der Hohe Dom
+13047	Villa Hügel
+13048	Museum Folkwang
+13049	Alte Synagoge
+13050	Abteikirche St Liudger
+13051	Die Ruhr
+13052	Marktplatz
+13053	Bremer Stadtmusikanten
+13054	Dom St.Petri
+13055	Rathaus
+13056	Rolandsstatue
+13057	Böttcherstrasse
+13058	Carillon
+13059	Wallanlagen Park
+13060	Frauenkirche
+13061	Dresdner Zwinger
+13062	Der Fürstenzug
+13063	Brühlsche Terrasse
+13064	Grünes Gewölbe
+13065	Kreuzkirche
+13066	Residenzschloss
+13067	Gemäldegalerie Alte Meister
+13068	Thomaskirche
+13069	Nikolaikirche
+13070	Augustusplatz
+13071	Altes Rathaus
+13072	Bach-museum
+13073	Leipzig Zoological Garden
+13074	Mendelssohn Haus
+13075	Naschmarkt
+13076	Neues Rathaus
+13077	Herrenhäuser Gärten
+13078	Messegelände Hannover
+13079	The Kröpcke
+13080	Maschsee
+13081	Waterloo Column
+13082	The Leine Palace
+13083	The Ballhof
+13084	Hauptmarkt
+13085	Kaiserburg
+13086	Kath. Pfarramt Frauenkirche
+13087	Rathausplatz
+13088	St. Lorenzkirche
+13089	Schöner Brunnen
+13090	Spielzeugmuseum
+13091	Germanisches Nationalmuseum
+13092	Beethoven Haus
+13093	Münsterplatz
+13094	Heerstraβe
+13095	Schloss Drachenburg
+13096	Kurfürstliche Residenz
+13097	Freizeitpark Rheinaue
+13098	Beethovenhalle Bonn
+13099	Poppelsdorfer Schloss
+13100	Landschaftspark Duisburg-Nord
+13101	Tiger & Turtle Magic Mountain
+13102	Wolfssee
+13103	Zoo Duisburg
+13104	Sportpark Duisburg
+13105	Immanuel Kant Park
+13106	Haniel Museum
+13107	St. Maximilian
+13108	Wuppertal Suspension Railway
+13109	Engels residenceEngels residence
+13110	Von der Heydt-Museum
+13111	Historische Stadthalle Wuppertal
+13112	Zoo Wuppertal
+13113	Botanischer Garten
+13114	Briller Viertel
+13115	Museum für Frühindustrialisierung
+13116	Rathausplatz
+13117	Fuggerei
+13118	St Anna Kirche
+13119	Augsburger Puppenkiste
+13120	Schaetzlerpalais
+13121	Synagoge Augsburg
+13122	GlasPalast
+13123	WWK Arena
+13124	Karl Marx Monument
+13125	Red Tower
+13126	Altes Rathaus
+13127	Petrikirche
+13128	Staatliches Museum für Archäologie
+13129	Historischer Theaterplatz
+13130	Das Chemnitzer Rathaus
+13131	Botanischer Garten Chemnitz
+13132	Kieler Kanal
+13133	Marine-Ehrenmal
+13134	U-Boot U 995
+13135	Schleswig-Holsteinisches Freilichtmuseum
+13136	Aquarium Kiel
+13137	Laboe Naval Memorial
+13138	St. Nikolai Church
+13139	Zoologisches Museum
+13140	Marktkirche Unserer lieben Frauen
+13141	Händel Haus
+13142	Roter Turm
+13143	Beatles Museum Halle
+13144	Mücheln
+13145	Halloren Schokoladenmuseum
+13146	Leipziger Turm
+13147	Zoo Halle
+13148	Botanic Garden
+13149	Freiburger Münster
+13150	Titisee
+13151	Europa Park
+13152	Martinstor
+13153	Staufen
+13154	Augustinermuseum
+13155	Hell's Valley
+13156	Museum fur Neue Kunst
+13157	Schwarzwald-Stadion
+13158	Holstentor
+13159	Rathaus
+13160	Marienkirche
+13161	Dom zum Luebeck
+13162	Petrikirche
+13163	Jacobikirche
+13164	Museum of Theatre Puppets
+13165	Heiligen-Geist-Hospital
+13166	Aegidienkirche
+13167	Gasometer Oberhausen
+13168	Kaisergarten
+13169	Koenig-Pilsener-ARENA
+13170	Metronom Theater
+13171	SEA LIFE Oberhausen
+13172	Ludwiggalerie
+13173	Zauberlehrling
+13174	Aquapark
+13175	Theater an der Niebuhrg
+13176	Seebad Warnemünde
+13177	Marienkirche
+13178	Rathaus
+13179	Universitätsplatz
+13180	Kloster Zum Heiligen Kreuz
+13181	Kröpeliner Straße
+13182	New Market Square
+13183	Kröpeliner Tor
+13184	Petrikirche
+13185	Dom
+13186	Augustinerkirche
+13187	Gutenberg Museum
+13188	St Peterskirche
+13189	Church of St. Stephan
+13190	Landesmuseum
+13191	Opel Arena
+13192	Museum für Antike Schifffahrt
+13193	St-Ignaz-Kirche
+13194	Freilichtmuseum
+13195	Theater Hagen
+13196	Fernuniversität Hagen
+13197	Bunker Hagen
+13198	Kaiser-Friedrich-Turm
+13199	Johanniskirche
+13200	Museum für Ur- und Frühgeschichte
+13201	Hamecke Park
+13202	Rathaus
+13203	Rhein-Galerie
+13204	Ebertpark
+13205	Stadtpark
+13206	Ernst-Bloch-Zentrum
+13207	Stadtmuseum
+13208	Stadtbibliothek
+13209	Museum Friesenheim
+13210	Friedenspark
+13211	Prinzregenten-Theater
+13212	Heidelberger Schloss
+13213	Alte Brücke
+13214	Hauptstraße
+13215	Philosophenweg
+13216	Church of the Holy Ghost
+13217	Studentenkarzer
+13218	Königstuhl
+13219	Hotel Zum Ritter
+13220	Bismarckplatz
+13221	Schloss Burg
+13222	Deutsches Klingenmuseum
+13223	Fauna Park
+13224	Museum Plagiarus
+13225	Laurel & Hardy Museum
+13226	Schwebefähre über die Wupper
+13227	LVR-Industriemuseum
+13228	Müngstener Bridge
+13229	Kunstmuseum
+13230	Museum Insel Hombroich
+13231	Langen Foundation
+13232	Holzheim Space Place Lab
+13233	St. Quirinus Church
+13234	Holocaust Memorial
+13235	Stadtbibliothek Neuss
+13236	RennbahnPark Neuss
+13237	Kybele Kultstatte
+13238	Botanischer Garten
+13239	Paderborn Cathedral
+13240	Rathaus
+13241	Schloß Neuhaus
+13242	Bentler Arena
+13243	Schloss Neuhaus
+13244	Marienplatz
+13245	The Adam-and-Eve-House
+13246	Museum in der Kaiserpfalz
+13247	The Jesuit Church
+13248	Hundertwasserhaus
+13249	Hochzeitsturm
+13250	Burg Frankenstein
+13251	Welterbe Grube Messel
+13252	Luisenplatz
+13253	Russian Orthodox Church of St. Mary Magdalene
+13254	Waldspirale
+13255	Herrngarten
+13256	Schlossmuseum
+13257	Ulmer Münster
+13258	Das Rathaus Ulm
+13259	Ulmer stadtmauer
+13260	Fischerviertel
+13261	Blautopf
+13262	Ulmer Spatz
+13263	Rommel Grabstätte
+13264	Kloster Wiblingen
+13265	Museum der Brotkultur
+13266	Stiftung AutoMuseum Volkswagen
+13267	Phaeno Science Centre
+13268	Planetarium
+13269	Schloss Wolfsburg
+13270	Kunstmuseum
+13271	Volkswagen Arena
+13272	Autostadt
+13273	Heilig-Geist-Kirche
+13274	Theater Wolfsburg
+13275	Königssee
+13276	Zauberwald
+13277	St. Bartholomä
+13278	Ramsau
+13279	Kehlsteinhaus
+13280	Fischunkelalm
+13281	Schloß Berchtesgaden
+13282	Salzbergwerk
+13283	Dokumentation Obersalzberg
+13284	Goethe Haus
+13285	Goethe-Schiller-Denkmal
+13286	Ilm Park
+13287	Bauhaus Museum
+13288	Stadtschloss
+13289	Liszt Haus
+13290	Buchenwald Museum and Memorial
+13291	Schiller Haus
+13292	Bauhaus-Universität
+13293	Schloss Sanssouci
+13294	Neues Palais
+13295	Schloss Cecilienhof
+13296	Chinesisches Teehaus
+13297	Park Charlottenhof
+13298	Holländisches Viertel
+13299	Marmorpalais
+13300	Church of Peace
+13301	Bildergalerie
+13302	Rathaus
+13303	St Michael's Church
+13304	Cathedral
+13305	Market Place
+13306	City Theatre
+13307	Fagus Factory in Alfeld
+13308	Mariendom
+13309	St.- Andreas-Kirche
+13310	St Godehard Church
+13311	Schloss Wilhelmshohe
+13312	Wilhelmshöhe Park
+13313	Statue of Herkules
+13314	Brüder Grimm Museum
+13315	Karlsaue
+13316	Stadtmuseum
+13317	Rathaus
+13318	Naturkundemuseum im Ottoneum
+13319	Löwenburg Lion's Castle
+13320	Meiji Jingu
+13321	Akihabara
+13322	Ghibli Museum
+13323	Odaiba
+13324	Shibuya
+13325	Kabukichō
+13326	Meguro gawa
+13327	Harajuku
+13328	Kinkaku-ji
+13329	Fushimi-Inari Taisha
+13330	Nijō-jō
+13331	Hanamikoji Dori
+13332	Gion District
+13333	Higashi Hongan Ji
+13334	Honnō-ji
+13335	Kyoto International Manga Museum
+13336	Universal Studios Japan
+13337	The Wizarding World of Harry Potter
+13338	Osaka Castle
+13339	Shin-Sekai
+13340	Tennoji Zoo
+13341	Church of the light
+13342	Osaka Museum of Housing & Living
+13343	The Expo ’70 Commemorative Park
+13344	Nara Park
+13345	Toudaiji
+13346	Horyuji
+13347	Yakushiji
+13348	Kasugataisha
+13349	Toshodaiji
+13350	Higashi muki shootengai
+13351	Kasugayamagenshirin
+13352	Mt Fuji
+13353	Lake Ashi
+13354	Owakudani
+13355	Hakonejinja
+13356	THE HAKONE OPEN-AIR MUSEUM
+13357	Hakone Venetian Glass Museum
+13358	Museum of The Little Prince
+13359	Gōra Park
+13360	Nagoya Castle
+13361	Atsuta Jingu
+13362	Port of Nagoya Public Aquarium
+13363	Meijo Park
+13364	Tokugawa Garden
+13365	Tsuruma Park
+13366	‎Kiyosu-jō
+13367	Okehazamakosenjo Park
+13368	Shiroi Koibito Pa-ku
+13369	Hokkaido Jingu
+13370	SAPPORO Beer Museum
+13371	Maruyama Doubutsuen
+13372	Nakajima Park
+13373	Susukino
+13374	Sapporo Teine Ski Area
+13375	Odori Kouen
+13376	Otaru Unga
+13377	Otaru yukiakarinomichi
+13378	Steam Clock
+13379	Tenguyama
+13380	Otaru Aquarium
+13381	Funemizaka
+13382	City Museum(Canal Branch)
+13383	Cape Kamui
+13384	Yokohama Cosmo World
+13385	Yamashita Park
+13386	Motomachi
+13387	Chinatown
+13388	Hakkeijima Sea Paradise
+13389	Red Brick Warehouse
+13390	Rāmen Museum
+13391	Landmark tower
+13392	Kushida Shrine
+13393	Ōhori Park
+13394	Fukuoka Tower
+13395	hakataza
+13396	Sumiyoshijinja
+13397	YokaNavi
+13398	Nokonoshima Island Park
+13399	Asian Art Museum
+13400	Kamakurakōkōmae Station
+13401	Hase-dera
+13402	Engaku-ji
+13403	Meigetsu-in
+13404	Kenchō-ji
+13405	Zeniarai Benzaiten
+13406	Enoshima Aquarium
+13407	Goryō Shrine
+13408	Shuri Castle
+13409	Okinawa Churaumi Aquarium
+13410	Shureimon
+13411	Naminoue Shrine
+13412	Shintoshin Park
+13413	Kaigungo Park
+13414	Peace Memorial Park
+13415	Fukushūen
+13416	Hakodateyama Yakei
+13417	Oonuma Kokuteikoen
+13418	Hachiman-saka Slope
+13419	Goryōkaku Park
+13420	St. John's Church
+13421	Hokkaido Sakamoto Ryoma Museum
+13422	Chyukakaikan
+13423	Shiei Nettai Shokubutsuen
+13424	Byōdō-in
+13425	Uji bridge
+13426	Ujigami-jinja
+13427	Genji Museum
+13428	Uji River
+13429	Uji Shrine
+13430	Kyoto Animation head office
+13431	Eshinin
+13432	Kumamoto shiro
+13433	Kumamon Square
+13434	Suizenji jōjuen
+13435	Amakusa-shi
+13436	Sakuranobaba-johsaien
+13437	Kumamoto Art Museum
+13438	Fujisaki hachimangū
+13439	Tujyun-kyo
+13440	Hewakinenzo
+13441	Inasayama
+13442	Nagasaki Atomic Bomb Museum
+13443	Urakami Cathedral
+13444	Meganebashi
+13445	Nagasaki Penguin Aquarium
+13446	China Town
+13447	Museum of History and Culture
+13448	Hiroshima peace memorial
+13449	Hiroshima Peace Memorial Park
+13450	Memorial Cathedral for World Peace
+13451	Hiroshimajo
+13452	shukkeien
+13453	kokuzenji
+13454	Gokoku Shrine
+13455	fudouin
+13456	senganen
+13457	Kirijimajingu
+13458	Museum of the Meiji Restoration
+13459	Kagoshima Aquarium
+13460	Arimura Lava Observatory
+13461	Dolphin port
+13462	Prefectural Museum
+13463	Tsukiyomi Shrine
+13464	Site of Sendai Castle
+13465	Zuihōden
+13466	City Museum
+13467	Osaki Hachimangu Shrine
+13468	Sendai Mediatheque
+13469	Tōshō-gū
+13470	Kokubuncho
+13471	tenshukaku shizen koen
+13472	Kumano Kodō
+13473	Okunoin
+13474	WAKAYAMA CASTLE
+13475	Kishi Station
+13476	Kumano Hongū Taisha
+13477	Danjō-garan
+13478	Kongōbu-ji
+13479	Nachi Falls
+13480	Naritasan Shinshō-ji
+13481	Kamogawa SEA WORLD
+13482	Mother Farm
+13483	Chiba Park
+13484	Chiba Port Park
+13485	Chiba Zoological Park
+13486	Andersen Park
+13487	Sakura Furusato Square
+13488	Kujūkuri Beach
+13489	FamuTomita
+13490	Highland Furano
+13491	Saikano Sato
+13492	Kazeno Gaden
+13493	Hinode Koen
+13494	Ningle Terrace
+13495	Rokugo
+13496	Furano Wain KoJyo
+13497	Kanno Farm
+13498	Himeji Castle
+13499	kokoen
+13500	Syosyazan engyoji
+13501	shiritsu bijutsukan
+13502	Himeji bungaku-kan
+13503	Nagoyama Stupa
+13504	Hyogo Prefectural Museum of History
+13505	Yumesaki River
+13506	Japan Toy Museum
+13507	IseJingu
+13508	futamigaura
+13509	Isuzu Park
+13510	Mikimoto Pearl Island
+13511	Ise Bay
+13512	Oharai-machi
+13513	Ise Sea Paradise
+13514	Ise-Shima Skyline Observatory
+13515	Yamato-hime Shrine
+13516	Nikko Tosho-gu Shrine
+13517	Lake Chūzenji
+13518	Taiyuuin
+13519	Kegon Falls
+13520	Shinkyo Bridge
+13521	Futarasan-jinja
+13522	Rinnoji
+13523	Senjōgahara
+13524	EDO WONDERLAND
+13525	Stone Church
+13526	Hoshino Resort
+13527	Karuizawa Kogen Church
+13528	Sei Paolo Catholic Church
+13529	HARUNIRE TERRACE
+13530	Picturebook Museum
+13531	Mount Asama
+13532	Hiroshi Senju Museum
+13533	Jingū-ji Temple
+13534	Ritsurin Garden
+13535	Takamatsu Castle
+13536	Tamamo Kouen
+13537	Shikoku Mura
+13538	Yakuri Temple
+13539	Municipal Museum
+13540	George Nakashima Memorial Gallery
+13541	The Isamu Noguchi Garden Museum
+13542	House Island
+13543	The Saga Castle History Museum
+13544	Arita
+13545	Yūtoku Inari Shrine
+13546	Mifuneyama Rakuen
+13547	Kōno Park
+13548	Ogi Park
+13549	Furuyu Hot Spring
+13550	Yoshinogari Historical Park
+13551	Todoronotaki Park
+13552	dazaifutenmangu
+13553	Kyushu national museum
+13554	Kōmyōzen-ji Temple
+13555	Hiyoshi Shrine
+13556	Kaidan-in
+13557	Temple of Heungjeong
+13558	Dazaifu Amusement Park
+13559	Rainbow Tunnel
+13560	Bairin Athletic Sports Park
+13561	Railway Museum
+13562	Kita-in
+13563	Kinchaku Field
+13564	Kawagoe Castle
+13565	Washinomiya Shrine
+13566	Hitaka
+13567	Sayama
+13568	Yaoko Kawagoe Museum
+13569	Super Arena
+13570	Aoshima Shrine
+13571	Udo Shrine
+13572	Nichinan Coast
+13573	SUN MESSE
+13574	Devil's Washboard
+13575	Obi Jo
+13576	Kawanaka Natural Park
+13577	Ehonnosato
+13578	The Seagaia Ocean Dome
+13579	Tottorisakyu
+13580	Uradomekaigan
+13581	sand museum
+13582	Kyusyo park
+13583	Detective Conan Memorial Hall
+13584	Kaikeonsen
+13585	Arasuna Shrine
+13586	Jinpuukaku
+13587	Hakuto Shrine
+13588	Zenkoji
+13589	City Historical Museum
+13590	Matsushiro Castle
+13591	Sanada Residence
+13592	Yawatahara Historical Park
+13593	Sanada Treasure Hall
+13594	Tenkyuji
+13595	Matsushiro Fumitake School
+13596	Prefectural Shinano Art Museum
+13597	Kehi Shrine
+13598	Tsuruga Museum
+13599	Railway Museum
+13600	Seimei Shrine
+13601	Japanese Paper Craft Museum
+13602	Kinoshitoba Old Town
+13603	Tokomiya jinja Shrine
+13604	Konzen Temple
+13605	Akarenga Storehouse
+13606	Hachiyama
+13607	Yamadera
+13608	Zao Quasi National Park
+13609	Zao Hot Spring
+13610	Yamagata-jō
+13611	Hiyoriyama Park
+13612	Museum of Art
+13613	Yamagata castle
+13614	Mogami Yoshiaki Historical Museum
+13615	Joren Waterfall
+13616	Chikurinnokomichi
+13617	Koibito Misaki Cape
+13618	Toi Kinzan
+13619	Shuzen-ji Temple
+13620	Mt. Amagi Tunnel
+13621	Cycle Sports Center
+13622	Katsura Bridge
+13623	Shuzenji Nature Park
+13624	Suzuka Circuit
+13625	Tsubaki Ogamiyashiro Shrine
+13626	Flower Park
+13627	Forest Garden
+13628	Daikokuya Tayu Memorial Museum
+13629	Ishigakiike Park
+13630	Kasado Shrine
+13631	Ryukoji Temple
+13632	Nobutsuna Sasaki's Birthplace
+13633	Miho Museum
+13634	Koka Ninja House
+13635	Tamura Shirine
+13636	Daichiji Temple
+13637	Kokaninjutsu Museum
+13638	Medicine Museum
+13639	Shiga Safari Museum
+13640	Ozuchi Dam
+13641	Otori Shrine
+13642	Takarazuka Revue Company
+13643	THE TEZUKA OSAMU MANGA MUSEUM
+13644	Hanshin Horse Racetrack
+13645	Takarazuka Flower Street
+13646	Suehiro Central Park
+13647	Tessai Art Museum
+13648	Enpei Temple
+13649	Gosho Temple
+13650	Takarazuka Bow Hall
+13651	Hirosakijō
+13652	Hirosaki Park
+13653	Iwakisan
+13654	Fujita Memorial garden
+13655	Shiritsu Tosyokan
+13656	Saishoin
+13657	Iwakiyama Shrine
+13658	Hirosaki Neputa Matsuri
+13659	A to Z Memorial Dog

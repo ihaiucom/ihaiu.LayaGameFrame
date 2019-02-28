@@ -1,7 +1,7 @@
 {
   "autoEnd": true,
   "optionSetting": "./optionSetting.json",
-  "fairyProject": "E:/zengfeng/githubs/ihaiu.LayaGameFrame/arts/Game-FGUI",
+  "fairyProject": "../FairyGUI",
   "templateDir": "./Template",
   "codePath": "./FairyGUICode",
   "codeNamespace": "fgui",

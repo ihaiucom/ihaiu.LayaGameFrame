@@ -1,0 +1,38 @@
+{
+  "manageVisit/StartVisit/req": {
+    "comment": null,
+    "$id": "manageVisit/StartVisit/req",
+    "properties": {},
+    "required": []
+  },
+  "manageVisit/StartVisit/resp": {
+    "comment": null,
+    "$id": "manageVisit/StartVisit/resp",
+    "properties": {},
+    "required": []
+  },
+  "manageVisit/GetReward/req": {
+    "comment": null,
+    "$id": "manageVisit/GetReward/req",
+    "properties": {},
+    "required": []
+  },
+  "manageVisit/GetReward/resp": {
+    "comment": null,
+    "$id": "manageVisit/GetReward/resp",
+    "properties": {},
+    "required": []
+  },
+  "manageVisit/StartRece/req": {
+    "comment": null,
+    "$id": "manageVisit/StartRece/req",
+    "properties": {},
+    "required": []
+  },
+  "manageVisit/StartRece/resp": {
+    "comment": null,
+    "$id": "manageVisit/StartRece/resp",
+    "properties": {},
+    "required": []
+  }
+}

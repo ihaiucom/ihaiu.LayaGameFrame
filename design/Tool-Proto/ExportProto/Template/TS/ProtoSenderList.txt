@@ -1,0 +1,42 @@
+/////////////////////////////////////
+// ihaiu.ExportProto生成
+// http://blog.ihaiu.com
+/////////////////////////////////////
+
+namespace Games
+{
+    //====================
+    // 消息发送器列表
+    //--------------------
+    export class ProtoSenderList
+    {
+        list: ProtoSender[] = [];
+		
+		// 0 moduleName
+		// 1 moduleSenderClassName
+
+		>:FOREACH apilist:<
+		>:[0]:< = new >:[1]:<();
+		>:ENDFOREACH:<
+
+
+        // 初始化
+        install()
+        {
+            this.initList();
+        }
+
+
+        // 初始化列表
+        private initList()
+        {
+		
+			>:FOREACH apilist:<
+            this.list.push(this.>:[0]:<);
+			>:ENDFOREACH:<
+
+        }
+
+
+    }
+}

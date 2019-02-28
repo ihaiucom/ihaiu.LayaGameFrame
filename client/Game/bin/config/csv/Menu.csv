@@ -1,0 +1,66 @@
+﻿int	string	int	string	int	int	boolean	boolean	int	int	int	int	int	int
+id	功能名称	图标id	模块名称	层级	关闭其他面板	是否关闭主界面	关闭时是否主动打开主界面	缓存时间	加载面板类型	按钮所在栏	按钮所在位置	打开动画	关闭动画
+id	zh_cn_name	icon	moduleName	layer	closeOtherType	closeHomeWindow	isAutoOpenHomeWindow	cacheTime	loaderId	barType	barIndex	openAnimation	closeAnimation
+1	主界面		Home	1	0	0	0	-1	3	0	0	0	0
+3	拍摄	5006	War	3	1	1	1	0	4	1	0	0	0
+4	艺人	5011	ArtistList	3	3	1	1	0	4	1	3	0	0
+5	市场	5008	Market	3	3	1	1	0	4	1	4	0	0
+6	仓库	5001	Bag	3	3	1	1	0	4	1	6	0	0
+21	商城	5023	Shop	3	3	1	1	0	4	3	0	0	0
+22	充值	5021	Recharge	3	3	1	1	0	2	3	0	0	0
+23	日常	5025	Mission	3	3	1	1	0	2	2	3	0	0
+24	福利	5027	Weal	3	1	1	1	0	2	3	0	0	0
+25	活动	5018	Event	3	3	1	1	0	2	3	0	0	0
+26	超级偶像	5024	SuperIdol	3	3	1	1	0	2	3	0	0	0
+31	设置	5022	Setting	3	3	1	1	0	4	2	2	0	0
+32	邮箱	5019	Mail	3	3	1	1	0	4	2	1	0	0
+33	聊天	5017	Chat	3	0	0	0	0	4	2	0	0	0
+41	奥斯卡	5016	Awards	4	1	1	1	0	2	0	0	0	0
+42	等级礼包	5026	Goal	3	3	1	1	0	2	0	0	0	0
+43	奖杯礼包	5026	CupGift	3	3	1	1	0	2	0	0	0	0
+51	生产	5007	Produce	3	3	1	1	0	4	10001	0	0	0
+52	订单	5009	Order	3	3	1	1	0	4	10001	0	0	0
+53	公务	5003	Official	3	3	1	1	0	4	10001	0	0	0
+54	粉丝	5002	Fans	2	1	0	1	0	4	10001	0	0	0
+55	会议	5005	Meeting	2	1	0	1	0	4	10001	0	0	0
+61	剧本	5032	Story	3	3	1	1	0	4	10002	0	0	0
+62	院线	5033	Cinemas	3	3	1	1	0	4	10002	0	0	0
+63	编剧	5029	Screenwriter	3	3	1	1	0	4	10002	0	0	0
+64	艺人名录	5035	Artist	3	3	1	1	0	4	10002	0	0	0
+65	宝物	5028	Treasure	3	3	1	1	0	4	10002	0	0	0
+71	集团	5031	Group	3	3	1	1	0	4	10003	0	0	0
+72	领袖	5030	Leader	3	3	1	1	0	4	10003	0	0	0
+73	合作	5004	Cooperation	3	3	1	1	0	4	10003	0	0	0
+81	合作任务	5004	CooperationTask	3	3	1	1	0	4	10004	0	0	0
+82	合作订单	5009	CooperatOrder	3	3	1	1	0	4	10004	0	0	0
+83	送美元	5036	CooperatSentDollar	3	0	0	0	0	4	10004	0	0	0
+84	送金币	5037	CooperatSentGold	3	0	0	0	0	4	10004	0	0	0
+101	登录		Login	3	3	1	0	0	2	0	0	0	0
+102	创建角色		CreateRole	3	3	1	0	0	2	0	0	0	0
+103	角色信息		PlayerInfo	3	3	0	1	0	4	0	0	0	0
+104	排行榜		Rank	3	3	1	1	0	4	0	0	0	0
+105	主线任务		MainTask	3	0	0	0	0	4	0	0	0	0
+106	街区	4001	Street	3	3	1	1	0	4	0	0	0	0
+301	持续收益		WarContinue	3	3	0	0	0	4	0	0	0	0
+401	艺人详情	5011	ArtistDetail	3	3	1	1	0	4	0	0	0	0
+402	艺人介绍		ActorDetail	6	0	1	1	0	4	0	0	0	0
+403	艺人雪藏	5040	ArtistFrozen	3	0	1	1	0	4	0	0	0	0
+404	艺人招募	5010	ArtistScoutResult	3	3	1	1	0	4	0	0	0	0
+405	艺人招募成功		ArtistScoutSuccess	6	0	1	1	0	4	0	0	0	0
+406	艺人培训	5039	ArtistTrain	3	0	1	1	0	4	0	0	0	0
+407	艺人培训结果		ArtistTrainResult	3	0	1	1	0	4	0	0	0	0
+408	新艺人		ArtistGet	6	0	1	1	0	4	0	0	0	0
+409	艺人截图分享		ArtistShare	6	0	1	1	0	4	0	0	0	0
+410	艺人训练	5042	ArtListExercise	3	3	1	1	0	4	0	0	0	0
+411	艺人课程		ArtistAssistant	3	0	1	1	0	4	0	0	0	0
+6101	剧本信息		StoryInfo	6	3	0	0	0	4	0	0	0	0
+10001	经营	5015	Run							1	1	0	0
+10002	管理	5013	Manage							1	2	0	0
+10003	社交	5014	Social							1	5	0	0
+10004	合作									0	0	0	0
+107	公告		Notice	6	0	0	0	0	2	0	0	0	0
+201	建筑升级		BuildRoomUpgrade	3	3	1	1	0	2	0	0	0	0
+202	建筑建造列表		BuildRoomList	3	3	1	1	0	2	0	0	0	0
+203	财务室		GoldExchange	3	3	0	0	0	2	0	0	0	0
+20001	登录弹窗		PopUp	9	3	0	0	0	4	0	0	0	0
+108	主线完成奖励		GuideComplete	6	3	0	0	0	4	0	0	1	1

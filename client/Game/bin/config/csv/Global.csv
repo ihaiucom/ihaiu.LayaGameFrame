@@ -1,0 +1,214 @@
+﻿int	string	string	int	string	int[]	DTlValue2[]	DTlValue3[]	DTPerformActoin[]	string
+id	Key	变量名称	正整数参数|n|没有参数需要填充0	字符串参数	正整数数组参数	二维数组	三维数组	奖励数组，A:B:C=道具ID:数量:随机权重	备注
+id	key	name	value	value4	value1	value2	value3	value5	tips
+1	Gold_Convert_Count	金币兑换初始每日次数	3						金币兑换
+2	Gold_Convert_Times	金币兑换每日刷新时间（点）	0						金币兑换
+3	Actor_Training_OpenLevel	艺人培训开启等级	30						艺人培训
+4	Licence_Store_Max	拍摄许可证上限	2						拍摄
+5	Licence_Restore_Max	每日许可证回复数量	14						拍摄
+6	Script_choose_num	初始剧本可选择数量	3						拍摄
+7	Popularize_Duration	电影下线后的持续收益时间（分钟）	120						拍摄
+8	Movie_Shoot_Time	电影拍摄时长（秒）	50						拍摄
+9	Max_Movie_Num	最多可同时进行持续收益的电影数量	5						拍摄
+10	Max_Movie_Popularize_Level	电影关注度最大等级	20						拍摄
+11	Licence_Restore_Time	许可证回复刷新时间（每日N点）	22						拍摄
+12	Max_Expect	电影期待值最高等级	5						拍摄
+13	Tired_Times	电影同类拍摄疲劳度	5						拍摄
+14	Movie_Stop_Tips	电影提前下映收益（%）	50						拍摄
+15	Block_Ranking_List_Reset	分组排行榜刷新时间（废弃，若要修改需找服务器）	22						街区排行
+16	Block_Ranking_List_Player_Num	分组排行榜玩家数量	100						街区排行
+17	Server_Ranking_List_Reset	同服排行榜刷新时间（废弃，若要修改需找服务器）	22						同服排行
+18	Block_Ranking_List_Congratulate_Times	街区排行祝贺次数	3						街区排行
+19	Block_Ranking_List_Congratulate_Cd	街区排行祝贺冷却（秒）	3600						街区排行
+20	Story_CD	剧本冷却时间（分钟）	240						拍摄
+21	Golden_Story_Time	金本属性加成时间（秒）	15						拍摄
+22	Golden_Story_Num	金本属性加成次数	3						拍摄
+23	KEY_23_AoSiKaBi__JiangLiDaoJu	奥斯卡比赛单次大卖奖励道具	0			1:10;14:1			奥斯卡
+24	KEY_24_AoSiKaBi__JiangLiShangXian	奥斯卡比赛大卖奖励上限	4						奥斯卡
+25	KEY_25_AoSiKaBanJiangShiJian	奥斯卡颁奖时间（废弃，若要修改需找服务器）	22						奥斯卡
+26	KEY_26_AoSiKaBan__YingShiJianMiao	奥斯卡颁奖前禁止拍摄电影时间（秒）	3000						奥斯卡
+27	KEY_27_ShouCiGeZuoJiangLi	首次合作奖励			1:50				合作
+28	KEY_28_ShouCiZhangHao__GeZuoJiangLi	首次账号查找建立合作奖励			1:50				合作
+29	KEY_29_MeiZhouGeZuoCiShu	每周合作次数	3						合作
+30	KEY_30_GeZuoRenWu__MeiRiNDian	合作任务刷新时间（每日N点）	0						
+31	KEY_31_MeiTiFangWen__DengJiShangXian	媒体访问等级上限	20						
+32	KEY_32_MeiTiFangWen__ShuLiangOuJian	媒体访问随机数量区间	0		3;7				
+33	KEY_33_MeiTiFangWen__ShuLiangShangXian	媒体访问数量上限	8						
+34	KEY_34_MeiRiPaiShe__MeiRiNDian	每日拍摄总疲劳清零时间（每日N点）	22						
+35	Bag_Initial_Capacity	周边仓库初始容量	100						
+36	Movie_License_default_Cd	许可证重置冷却时间（秒）	300						
+37	Movie_Histogram_Time	电影柱状图时间（每根的增长时间/毫秒）	1000						
+38	Movie_Licence_ID	拍摄消耗道具id	4						
+39	Oscar_Candidate_Num	奥斯卡颁奖候选数量	30						
+40	Actor_Train_Exp	艺人训练初始经验	50						
+41	Actor_Train_Time	艺人训练初始时间（分钟）	240						
+42	Oscar_Best_Actor	奥斯卡最佳男演员奖励	0		1:300				
+43	Oscar_Best_Actress	奥斯卡最佳女演员奖励	0		1:300				
+44	Oscar_Best_Performance	奥斯卡最佳表演电影奖励	0		1:300				
+45	Oscar_Best_Art	奥斯卡最佳艺术电影奖励	0		1:300				
+46	Oscar_Best_Welcome	奥斯卡最受欢迎电影奖励	0		1:300				
+47	Training_Area_Price	艺人训练位价格	0			1:500;1:1000;1:1500;1:2000			
+48	Oscar_Congratulated_Reward	奥斯卡祝贺奖励	0		6:50				
+49	Cooperate_Send_Dollar_times	合作赠送美元次数	5						
+50	Cooperate_Send_Gold_times	合作赠送金币次数	5						
+51	Cooperate_Invited_CD	发出合作邀请间隔时间（秒）	5						
+52	Cooperate_Public_Invited_Time	公开邀请持续时间（秒）	86400						
+53	Cooperate_Open_data	合作开启条件（街区id，必须同时修改unlock表）	1002						
+54	Shoot_Golden_Story_Nums	拍摄过程中金本跳属性次数	3						
+55	Conversion_Initial_Times	初始每日金币兑换次数	3						
+56	Conversion_Refresh_Time	金币兑换每日刷新时间（每日N点）	0						
+57	Shoot_Story_Refresh_ResetTime	剧本刷新每日重置时间（点）	0						
+1001	KEY_1001_TanChaXiaoHao	探查消耗	0		2:100				探查消耗
+1002	KEY_1002_XingTanQiaoMu__ChaCDFen	星探招募探查CD(分)	10						星探招募探查CD(分)
+1003	KEY_1003_MeiCiTanCha__JiaShiJianFen	每次探查后CD增加时间(分)	5						每次探查后CD增加时间(分)
+1004	KEY_1004_TanChaCiShuShangXian	探查次数上限	10						探查次数上限
+1005	KEY_1005_TanChaCD__WuQiShiJian	探查CD重置时间(服务器时间)	22						探查CD重置时间(服务器时间)
+1006	KEY_1006_TanChaChuYi__RenShuLiangGe	探查出艺人数量(个)	3						探查出艺人数量(个)
+1007	KEY_1007_TanChaChuYi__ZaiShiJianFen	探查出艺人存在时间(分)	30						探查出艺人存在时间(分)
+1008	KEY_1008_JiangZhiTanCha__PinHeShuLiang	强制探查消耗物品和数量	0		5007:1				强制探查消耗物品和数量
+1009	KEY_1009_ZuanDanZengJia__ShuLiangXiaoHao	钻石增加艺人上限数量消耗	0		1:500				钻石增加艺人上限数量消耗
+1010	KEY_1010_ZiDingYiYi__MingChenXiaoHao	自定义艺人名称消耗	0		1:50				自定义艺人名称消耗
+1011	KEY_1011_TiLiChongZhi__WuQiShiJian	体力重置时间(服务器时间)	22						体力重置时间(服务器时间)
+1012	KEY_1012_ZuanDanPeiYang__YiRenXiaoHao	钻石培养一次艺人消耗	0		1:10				钻石培养一次艺人消耗
+1013	KEY_1013_XingTanCiShu	星探次数	1						星探次数
+1014	KEY_1014_TanChaXingJi__SuiJiGongShi	探查星级随机公式	0			1301:50;1302:40;1303:8;1304:2			探查星级随机公式
+1015	KEY_1015_YiRenZaiLou__ShuLiangShangXian	艺人在楼层中出现的数量上限	4						艺人在楼层中出现的数量上限
+1016	KEY_1016_MoXingZaiLou__JianDeShuLiang	模型在楼层中播放事件的数量	15						模型在楼层中播放事件的数量
+1017	KEY_1017_MoXingZaiLou__YiDongSuDu	模型在楼层中移动速度	20						模型在楼层中移动速度
+1018	KEY_1018_DianYingShangYing__ShuaXinShuLiang	电影上映时,电影院NPC刷新数量	0		4:8				电影上映时,电影院NPC刷新数量
+1019	KEY_1019_TanBanShiYi__ZuoDeSuDu	探班时,艺人跑动动作的速度	40						探班时,艺人跑动动作的速度
+1020	KEY_1020_YiRenPaiShe__HuoBiLeiXing	艺人拍摄电影时，片酬消耗的货币类型	1002						艺人拍摄消耗美元
+1021	KEY_1021_1JiShanChang__MiaoShuWenZi	1级擅长标签描述文字	0	一般擅长					1级擅长标签描述文字
+1022	KEY_1022_2JiShanChang__MiaoShuWenZi	2级擅长标签描述文字	0	普通擅长					2级擅长标签描述文字
+1023	KEY_1023_3JiShanChang__MiaoShuWenZi	3级擅长标签描述文字	0	比较擅长					3级擅长标签描述文字
+1024	KEY_1024_4JiShanChang__MiaoShuWenZi	4级擅长标签描述文字	0	非常擅长					4级擅长标签描述文字
+1025	KEY_1025_WanGuChuShi__ShangXianShuLiang	玩家初始艺人上限数量	5						玩家初始艺人上限数量
+1026	KEY_1026_WanGuChuShi__ShuLiangShangXian	玩家初始雪藏艺人数量上限	10						玩家初始雪藏艺人数量上限
+1027	KEY_1027_YiRenPeiYang__ShiJianHaoMiao	艺人培养类型1动作持续时间（毫秒）	2500						艺人培养类型1动作持续时间（毫秒）
+1028	KEY_1028_YiRenPeiYang__ShiJianHaoMiao	艺人培养类型2动作持续时间（毫秒）	2500						艺人培养类型2动作持续时间（毫秒）
+1029	KEY_1029_YiRenPeiYang__ShiJianHaoMiao	艺人培养类型3动作持续时间（毫秒）	2500						艺人培养类型3动作持续时间（毫秒）
+1030	KEY_1030_YiRenPeiYang__ShiJianHaoMiao	艺人培养类型4动作持续时间（毫秒）	2500						艺人培养类型4动作持续时间（毫秒）
+1031	KEY_1031_GongSiPeiYang__WuQiShiJian	公司培养次数重置时间（服务器时间）	22						公司培养次数重置时间（服务器时间）
+1032	KEY_1032_YiRenPeiYang__ChengShiID	艺人培养功能解锁条件（占领城市ID）	1110						艺人培养功能解锁条件（占领城市ID）
+1033	KEY_1033_YiRenJiNeng__GongSiDengJi	艺人技能页签解锁条件（公司等级）	15						艺人技能页签解锁条件（公司等级）
+1034	KEY_1034_YiRenZiChan__GongSiDengJi	艺人资产页签解锁条件（公司等级）	10						艺人资产页签解锁条件（公司等级）
+1035	KEY_1035_YiRenZhongCheng__ShangXianShuLiang	艺人忠诚卡增加赠送上限数量	10						艺人忠诚卡增加赠送上限数量
+1036	KEY_1036	艺人助理页签解锁条件(艺人等级)	90						艺人助理页签解锁条件(艺人等级)
+1037	KEY_1037	艺人专业助理解锁条件(艺人等级)	90						艺人专业助理解锁条件(艺人等级)
+1038	KEY_1038	艺人替身演员解锁条件(艺人等级)	160						艺人替身演员解锁条件(艺人等级)
+1039	KEY_1039	聘用替身演员的消耗公式(艺人合同)		({0}*({1}-1300))^(1/2)					{0}为替身演员等级,{1}为替身演员星级
+1040	KEY_1040	替身演员第一个擅长标签解锁亲密度等级	3						替身演员第一个擅长标签解锁亲密度等级
+1041	KEY_1041	替身演员第二个擅长标签解锁亲密度等级	6						替身演员第二个擅长标签解锁亲密度等级
+1042	KEY_1042	替身演员第三个擅长标签解锁亲密度等级	9						替身演员第三个擅长标签解锁亲密度等级
+1043	KEY_1043	图鉴界面玩家留言数量	20						图鉴界面玩家留言数量
+1044	KEY_1044	图鉴界面玩家留言字符长度	50						图鉴界面玩家留言字符长度
+1045	KEY_1045	图鉴界面同一艺人玩家留言数量上限	3						图鉴界面同一艺人玩家留言数量上限
+1046	KEY_1046	星探NPC模型ID	301						星探NPC模型ID
+1047	KEY_1047	培训师NPC模型ID	303						培训师NPC模型ID
+1048	KEY_1048	训练师NPC模型ID	302						训练师NPC模型ID
+1049	KEY_1049	剧情动画跳过按钮延迟时间（毫秒）	1000						剧情动画跳过按钮延迟时间（毫秒）
+1050	KEY_1050	财务员NPC模型ID	304						财务员NPC模型ID
+1051	KEY_1051	NPC1ID	101						NPC1ID
+1052	KEY_1052	NPC2ID	102						NPC2ID
+1053	KEY_1053	NPC3ID	103						NPC3ID
+1054	KEY_1054	NPC4ID	104						NPC4ID
+1055	KEY_1055	助理	203						助理ID
+1056	KEY_1056	限时艺人购买全价钻石消耗			1;15000				限时艺人购买的钻石消耗
+1057	KEY_1057	限时艺人购买打折钻石消耗			1;5000				
+1058	KEY_1058	限时艺人购买打折时间(小时)			168				
+2003	story_cost_rand	剧本成本随机	0		80;120				剧本成本随机区间
+2004	actor_cost_rand	角色成本随机	0		80;120				角色成本随机区间
+2009	rand_1	总拍摄次数系数	2						总拍摄次数疲劳系数
+2010	rand_2	连续拍摄系数	3						连续拍摄疲劳系数
+2011	tired_base	疲劳参考值	50						
+2012	tired_con_1	普通疲劳系数	50						疲劳对电影属性影响系数
+2013	tired_con_2	金本疲劳系数	40						疲劳对金本属性影响系数
+2014	time	拍摄总时长	30						拍摄时进度条总时长
+2015	type_timer_con	拍摄类型时机	0		25;40				选择拍摄类型的随机范围
+2016	att_rate	属性权重	0		100;20				拍摄时随机属性的权重
+2018	att_rand	属性值随机区间	0		80;120				随机区间
+2019	delay_con	延时参数	20						
+2020	delay_base	延时基准值	50						
+2021	delay_count	最多延时条数	3						最多同时冒几条属性
+2023	gold_att_con	金本调整系数	50						
+2024	gold_count	随机次数	3						金本的额外属性随机几次
+2025	bar_con	进度条系数	3						进度条为平均值几倍
+2027	evaluate_rand	评价随机参数	0		50;130				随机区间
+2028	evaluate_con	媒体评价参数	24000						
+2029	box_office_rand	票房随机参数	0		85;125				随机区间
+2034	opinions_rand	评价随机参数	0		50;130				随机区间
+2035	opinions_con	观众口碑参数	21						
+2036	day_con	放映参数	2						
+2037	follow_rand	后续票房随机参数	0		35;50				随机区间
+2038	random_value	随机评价对照值	40						随机对照值
+2039	random_rand	随机范围	0		20;100				随机范围
+2040	random_con_1	随机评价系数1	0		70:80:5:1051				随机范围及随机权重
+2041	random_con_2	随机评价系数2	0		85:95:15:1052				随机范围及随机权重
+2042	random_con_3	随机评价系数3	0		105:115:40:1053				随机范围及随机权重
+2043	random_con_4	随机评价系数4	0		120:130:20:1054				随机范围及随机权重
+2044	task_convert_times	每日任务及完成度刷新重置	0						每日任务及完成度刷新重置
+2045	story_stack_daily_times	剧本搜罗每天搜罗次数	12						
+2046	story_stack_search_cost	剧本搜罗每次消耗物品	0			6:10			
+2047	story_stack_cd_stage_cost	剧本搜罗每阶段搜罗冷却加速消耗资源类型和数量	0			1:10			
+2048	story_stack_cd_stage_length	剧本搜罗阶段时长	600						单位秒
+2049	story_stack_cd_stages	剧本搜罗阶段数量	3						
+2050	story_stack_cd	剧本搜罗冷却时间	1800						阶段时长*阶段数量，便于程序调用
+2051	story_stack_daily_update	每日刷新时间	0						服务器零时刷新
+2052	story_stack_cd_block_level	剧本搜罗冷却功能开放所需街区等级	1003						
+2053	shop_daily_limit	商店每日限购刷新时间	0						服务器每日零时刷新
+2054	shop_weekly_limit	商店每周限购刷新时间			1:0				服务器每周一零时刷新
+2055	opinions	观众口碑区间	0		5:95				观众口碑取值限制区间
+2056	evaluate	媒体评价区间	0		5:95				媒体评价取值限制区间
+2057	fans_rand	拍摄粉丝掉落随机范围	0		90:110				
+2058	BarGraph_rand	后续票房随机参数	0		90:110				后续票房柱状图波动范围
+2059	BattlePoint_count	柱状图总条数	7						
+2060	Extension_level_con	下映收入推广等级参数	0		-1;0;1;2;3;4				根据票房评价对应系数
+2061	default_language	默认语言	1003						默认英语
+2062	month_card_duration	月卡持续天数	30						
+2063	proficiency	艺人熟练度	0		1;4				熟练度随机范围
+2064	cooperative_order_reward	合作订单奖励						9001:2:100;9002:2:100;9003:2:100;9004:2:100	
+2065	produce_inspire_buildlock	生产艺人鼓舞建筑限制	8003						
+2066	produce_inspire_linelock	生产艺人鼓舞生产线等级限制	4						
+2067	produce_production_less	一键生产需要街区等级限制	1004						
+2068	produce_collection_less	一键领取需要街区等级限制	1003						
+2069	market_ambassador	市场第5个大使开放的街区等级	1002						
+2070	eventhall_score1	活动大厅培养积分培养1次获得积分数	5						
+2071	eventhall_score2	活动大厅星探积分星探1次获得积分数	5						
+2072	Extension_box_office_con	后续收益系数(每秒收益)	180000						
+2073	Extension_con	推广等级系数	10						
+2074	Firstday_Actor	第一天首次探查艺人	1303						
+2075	Secondday_Actor	第二天首次探查艺人	1304						
+2076	bussiness_number	公务初始次数上限	120						
+2077	bussiness_max	公务当前储存上限	30						
+2078	bussiness_cd	公务刷新时间	300						
+2079	visit_number	探班初始次数上限	120						
+2080	visit_max	探班当前储存上限	10						
+2081	visit_cd	探班刷新时间	900						
+2082	meeting_times_basic	基础会议存储次数	10						
+2083	account_lock	头像更换解锁等级	10						
+2084	common_task_amount	普通任务数量限制	3						
+2085	common_task_change_times	每日任务更换次数	1						
+2086	secretary_price	小秘书价格临时显示（人民币）	30						
+2087	secretary_package	小秘书礼包价格临时显示（人民币）	1						
+2088	city_random_item_time	占领城市其他产出单位时间	600						
+2089	movie_output_unit_time	电影后续收益道具产出单位时间	600						
+2090	player_story_start	玩家初始剧本			1084;1068;1149				
+2091	story_leader_actor_level	剧情主角等级	30						
+2092	first_story_att	平均值取值范围			40;70				
+2093	first_story_evaluate	首部电影媒体评价取值范围			65;80				
+2094	first_story_opinions	首部电影观众口碑取值范围			65;80				
+2095	first_story_random_con	首部电影随机取值	150						
+2096	first_story_exp	首部电影经验值	500						
+2097	maintask_complete_start	触发新手引导完成奖励展示的新手任务ID	1102						
+2098	maintask_complete_end	新手引导全部完成的新手任务ID	1137						
+2099	maintask_complete_reward	新手全部完成奖励的艺人ID	5033						
+2100	three_story	第三天五星剧本ID	1091						
+2101	three_story_att	第三天首部电影平均值取值范围			40;70				
+2102	three_story_evaluate	第三天首部电影媒体评价取值范围			58;80				
+2103	three_story_opinions	第三天首部电影观众口碑取值范围			58;80				
+2104	three_storyrandom_con	第三天首部电影随机取值	150						
+2105	maintask_complete_image	新手引导全部完成的奖励展示海报		GuideReward					
+3001	wheel1_count	小转盘保底次数							
+3002	wheel2_count	大转盘保底次数							
+3003	wheel1_cost_id	小转盘消耗道具							
+3004	wheel2_cost_id	大转盘消耗道具							

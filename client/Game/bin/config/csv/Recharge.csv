@@ -1,0 +1,12 @@
+﻿int	string	string	string	float	DTItemNum	DTItemNum[]	int	int	int	bool	DTItemNum
+编号	道具名称	产品名称	产品id	售价	道具ID，数量	赠送道具ID，数量	初次翻倍	前往功能	有效期	是否在充值界面显示	限购0=不限购1=每日2=每周3=终身
+id	zh_cn_name	product_name	product_id	cost_dollar	item	gift	double	go	term	is_show	limit
+1001	60钻石	Lv1 diamonds pack	movieinc.diamonds.lv1	0.99	1:60	1:3	1	0	0	1	0:0
+1002	300钻石	Lv2 diamonds pack	movieinc.diamonds.lv2	4.99	1:300	1:30	1	0	0	1	0:0
+1003	680钻石	Lv3 diamonds pack	movieinc.diamonds.lv3	9.99	1:680	1:70	1	0	0	1	0:0
+1004	980钻石	Lv4 diamonds pack	movieinc.diamonds.lv4	14.99	1:980	1:110	1	0	0	1	0:0
+1005	1280钻石	Lv5 diamonds pack	movieinc.diamonds.lv5	18.99	1:1280	1:150	1	0	0	1	0:0
+1006	2580钻石	Lv6 diamonds pack	movieinc.diamonds.lv6	37.99	1:2580	1:310	1	0	0	1	0:0
+1007	6480钻石	Lv7 diamonds pack	movieinc.diamonds.lv7	94.99	1:6480	1:800	1	0	0	1	0:0
+1008	终身秘书	Lifetime Secretary	movieinc.value.secretary01	4.99	9:1	0	0	0	0	0	3:1
+1009	秘书每日礼包	Secretary Daily Pack	movieinc.value.secretary2	0.99	1:10	9001:10;9002:10;9003:10;9004:10	0	0	0	0	1:1

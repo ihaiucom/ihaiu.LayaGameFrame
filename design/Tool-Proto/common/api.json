@@ -1,0 +1,1352 @@
+{
+    "GameData": { // 模块
+        "Auth": {
+            "<req>": { // 请求注册
+                "pass": "string" // 密码
+            },
+            "<res>": {
+                "result": "int" // 返回 0成功 1失败
+            }
+        },
+        "VisitorAuth": {
+            "<req>": { // 请求游客转正
+                "name": "string", // 用户名
+                "pass": "string" // 密码
+            },
+            "<res>": {
+                "result": "int" // 返回 0成功 1不是游客账号 2绑定失败 3重名
+            }
+        },
+        "InitGameData": { // 请求初始化游戏数据
+            "<req>": {
+                "name": "string", // 公司名字
+                "sex": "EUserSex" // 性别
+            },
+            "<res>": {
+                "result": "int" // 返回 0成功 1失败
+            }
+        },
+        "GetLoginGameData": { // 玩家数据初始化提交
+            "<req>": { // 请求登陆
+                "pass": "string", // 密码
+                "channel": "string" // 客户端的渠道代码
+            },
+            "<res>": {
+                "serverCode": "string", // 服务器编号
+                "serverName": "string", // 服务器名称
+                "noticeList": "array<Notice>",
+                "timeZone": "string" // 时区
+            }
+        },
+        "GetInitGameData": {
+            "<req>": {
+                "nameList": "array<string>" // 需要获取的类型的string描述 DBOType枚举
+            },
+            "<res>": {}
+        },
+        "RenameGameData": { // 修改玩家的名字
+            "<req>": {
+                "playerName": "string" // 更改后的名字
+            },
+            "<res>": {
+                "result": "int" // 返回 0成功 1失败 2无须更改
+            }
+        },
+        "RePerSignatureGameData": { // 修改玩家的个性签名
+            "<req>": {
+                "perSignature": "string" // 修改玩家的个性签名
+            },
+            "<res>": {
+                "result": "int" // 返回 0成功 1失败
+            }
+        },
+        "RePortraitGameData": { // 修改玩家的头像
+            "<req>": {
+                "type": "int", // 0表示穿戴 1表示购买
+                "portraitId": "int" // 头像ID
+            },
+            "<res>": {
+                "result": "int" // 返回 0成功 1失败 2无须更改
+            }
+        },
+        "GetGameInfoExt": { // 获取玩家拓展信息
+            "<req>": {},
+            "<res>": {}
+        },
+        "GetInitActor": { // 选择初始化艺人
+            "<req>": {
+                "index": "int"
+            },
+            "<res>": {}
+        },
+        "GetNoticeList": {
+            "<req>": {},
+            "<res>": {
+                "noticeList": "array<Notice>"
+            }
+        }
+    },
+    "CinemaBuild": { // 模块
+        "ExtendFloor": { // 扩建楼层
+            "<req>": { // 请求
+                "floor": "int" // 楼层数
+            },
+            "<res>": {
+                "result": "int", // 0,成功，非0，错误码
+                "floor": "int" // 当前扩充的楼层数
+            }
+        },
+        "BuildRoom": { // 建造房间
+            "<req>": {
+                "floor": "int", // 楼层数
+                "roomType": "int" // 建筑类型
+            },
+            "<res>": {
+                "result": "int", // 0,成功，非0，错误码
+                "floor": "int", // 楼层数
+                "roomId": "int" // 建筑id
+            }
+        },
+        "UpgradeRoom": { // 升级房间
+            "<req>": {
+                "roomId": "int" // 建筑id
+            },
+            "<res>": {
+                "result": "int", // 0,成功，非0，错误码
+                "preRoomId": "int", // 升级前的房间id
+                "roomId": "int" // 建筑id
+            }
+        },
+        "goldExchange": { // 金币兑换
+            "<req>": {
+                "count": "int" // 兑换的次数
+            },
+            "<res>": {
+                "result": "int", // 0,成功，非0，错误码
+                "count": "int", // 兑换次数
+                "totalCount": "int" // 今日已经兑换的次数
+            }
+        }
+    },
+    "test": { // 模块
+        "AddItem": { // 添加道具
+            "<req>": {
+                "itemId": "int", // 道具id
+                "amount": "int" // 道具数量
+            },
+            "<res>": {}
+        },
+        "AddFans": { // 增加粉丝(公司升级)
+            "<req>": {
+                "amount": "int" // 粉丝数量
+            },
+            "<res>": {}
+        },
+        "AddExpect": { // 增加期待值
+            "<req>": {
+                "amount": "int" // 期待值数量
+            },
+            "<res>": {}
+        },
+        "DeleteMovie": { // 删除电影
+            "<req>": {
+                "uuid": "string" // 电影id
+            },
+            "<res>": {}
+        },
+        "AddStarStory": { // 添加剧本
+            "<req>": {
+                "starId": "int", // 剧本星级
+                "amount": "int" // 数量
+            },
+            "<res>": {}
+        },
+        "AddStory": { // 添加剧本
+            "<req>": {
+                "storyId": "int" // 剧本id
+            },
+            "<res>": {}
+        },
+        "AddActorSkillExp": { // 添加艺人技能经验
+            "<req>": {
+                "actorId": "int", // 艺人id
+                "amount": "int"
+            },
+            "<res>": {}
+        },
+        "AddStoryProgress": { // 添加剧本进度
+            "<req>": {
+                "storyId": "int", // 剧本唯一ID
+                "index": "int" // 哪一个
+            },
+            "<res>": {}
+        },
+        "FinishGuide": {
+            "<req>": {},
+            "<res>": {}
+        },
+        "debug": {
+            "<req>": {
+                "num": "int"
+            },
+            "<res>": {}
+        },
+        "AddGift": { // 增加一个兑换码
+            "<req>": {
+                "giftUuid": "string", // 兑换码
+                "giftId": "int", // 兑换码配置文件 id
+                "targetId": "int", // 指定使用者
+                "startTime": "int", // 开始时间
+                "endTime": "int", // 结束时间
+                "total": "int" // 总共可用次数
+            },
+            "<res>": {}
+        },
+        "SetBlockLevel": {
+            "<req>": {
+                "level": "int" // 街区等级
+            },
+            "<res>": {}
+        },
+        "RefreshTime": { // 刷新时间
+            "<req>": {
+                "type": "EGMRefreshType" // 刷新类型
+            },
+            "<res>": {}
+        },
+        "PutOrderItems": { // 完成订单 
+            "<req>": {
+                "uuid": "string" // 唯一订单编号
+            },
+            "<res>": {
+                "uuid": "string" // 唯一订单编号
+            }
+        },
+        "GetAutoCooperate": {
+            "<req>": {},
+            "<res>": {
+                "loseNum": "int",
+                "successNum": "int"
+            }
+        },
+        "UpdateOscar": { // 奥斯卡颁奖
+            "<req>": {},
+            "<res>": {}
+        },
+        "setAllStoryGold": { // 将所有剧本设置为金本
+            "<req>": {},
+            "<res>": {}
+        },
+        "LockAllProduce": { // 一键解锁所有生产线 未加解锁限制判断 并且加了10000钻石以及 10000 生产图纸
+            "<req>": {},
+            "<res>": {}
+        },
+        "SetSecretaryStatus": { // 设置小秘书状态
+            "<req>": {
+                "status": "int" // 小秘书状态
+            },
+            "<res>": {}
+        },
+        "CleanSecretaryTimes": { // 清除小秘书使用次数
+            "<req>": {},
+            "<res>": {}
+        },
+        "GetRechargeGift": { // 领取充值礼包
+            "<req>": {},
+            "<res>": {}
+        },
+        "GotoCity": { //  一键占领城市
+            "<req>": {
+                "id": "int" // 1... 最后一个城市的编号
+            },
+            "<res>": {}
+        },
+        "GotoCityBefore": { // 设置占领城市前状态
+            "<req>": {
+                "id": "int" // 1... 最后一个城市的编号
+            },
+            "<res>": {}
+        },
+        "AddManage": { // 会议 公务 探班次数全满
+            "<req>": {},
+            "<res>": {}
+        },
+        "SetAllActorLv": { // 非雪藏艺人正常升级每次十级
+            "<req>": {},
+            "<res>": {}
+        }
+    },
+    "item": { // 模块
+        "SellOut": { // 道具出售
+            "<req>": {
+                "uuid": "string", // 道具唯一编号
+                "itemId": "int", // 道具id
+                "amount": "int" // 道具数量
+            },
+            "<res>": {
+                "uuid": "string" // 道具唯一编号
+            }
+        },
+        "Compound": { // 道具合成
+            "<req>": {
+                "uuid": "string", // 道具唯一编号
+                "itemId": "int", // 道具id
+                "amount": "int" // 道具数量
+            },
+            "<res>": {
+                "uuid": "string" // 道具唯一编号
+            }
+        },
+        "Split": { // 道具拆分
+            "<req>": {
+                "uuid": "string", // 道具唯一编号
+                "itemId": "int", // 道具id
+                "amount": "int" // 道具数量
+            },
+            "<res>": {
+                "uuid": "string" // 道具唯一编号
+            }
+        },
+        "Use": { // 使用道具
+            "<req>": {
+                "uuid": "string", // 道具唯一编号
+                "itemId": "int", // 道具id
+                "amount": "int" // 道具数量
+            },
+            "<res>": {
+                "uuid": "string", // 道具唯一编号
+                "dropout": "array<ItemDesc>" // 掉落物品
+            }
+        },
+        "UsePiecesGiftBag": { // 使用碎片礼包道具
+            "<req>": {
+                "uuid": "string", // 道具唯一编号
+                "itemId": "int",  // 道具id
+                "amount": "int",  // 道具数量
+                "selItemId":"int" // 选择的物品ID
+            },
+            "<res>": {
+                "uuid": "string", // 道具唯一编号
+                "dropout": "array<ItemDesc>" // 掉落物品
+            }
+        },
+        "UsePiecesGiftBag": { // 使用碎片礼包道具
+            "<req>": {
+                "uuid": "string", // 道具唯一编号
+                "itemId": "int",  // 道具id
+                "amount": "int",  // 道具数量
+                "selItemId":"int" // 选择的物品ID
+            },
+            "<res>": {
+                "uuid": "string", // 道具唯一编号
+                "dropout": "array<ItemDesc>" // 掉落物品
+            }
+        },
+        "CompoundActor": { // 合成艺人
+            "<req>": {
+                "uuid": "string", // 道具唯一编号
+                "itemId": "int" // 道具id
+            },
+            "<res>": {
+                "uuid": "string", // 道具唯一编号
+                "actorId": "int", // 艺人id
+                "items": "array<ItemDesc>" // 获得的物品列表
+            }
+        },
+        "UseActorSkillWater": { // 使用艺人技能经验药水
+            "<req>": {
+                "uuid": "string", // 道具唯一编号
+                "itemId": "int", // 道具id
+                "actorId": "int", // 艺人id
+                "amount": "int" // 数量
+            },
+            "<res>": {
+                "uuid": "string" // 道具唯一编号
+            }
+        }
+    },
+    "city": {
+        "SetPropagandaActor": { // 设置宣传大使
+            "<req>": {
+                "uuid": "string", // 道具唯一编号
+                "cityId": "int", // 城市id
+                "areaId": "int", // 区域id
+                "actorId": "int" // 艺人id
+            },
+            "<res>": {
+                "uuid": "string" // 道具唯一编号
+            }
+        },
+        "Propaganda": { // 宣传
+            "<req>": {
+                "uuid": "string", // 道具唯一编号
+                "cityId": "int", // 城市id
+                "areaId": "int" // 区域id
+            },
+            "<res>": {
+                "uuid": "string" // 道具唯一编号
+            }
+        },
+        "Roadshow": { // 路演
+            "<req>": {
+                "uuid": "string", // 道具唯一编号
+                "cityId": "int", // 城市id
+                "areaId": "int" // 区域id
+            },
+            "<res>": {
+                "uuid": "string", // 道具唯一编号
+                "result": "int" // 0成功 1失败
+            }
+        },
+        "SetAmbassador": { // 设置形象大使
+            "<req>": {
+                "uuid": "string", // 道具唯一编号
+                "cityId": "int", // 城市id
+                "psition": "int", // 位置1,2,3,4....
+                "actuuid": "string" // 艺人唯一ID
+            },
+            "<res>": {
+                "uuid": "string", // 道具唯一编号
+                "dropout": "array<ItemDesc>" // 掉落物品
+            }
+        },
+        "GetReward": { // 领取收益
+            "<req>": {
+                "uuid": "string", // 唯一编号
+                "cityId": "int" // 城市id
+            },
+            "<res>": {
+                "uuid": "string", // 唯一编号
+                "dropout": "array<ItemDesc>"
+            }
+        },
+        "HoldCity": { // 占领城市
+            "<req>": {
+                "uuid": "string" // 道具唯一编号
+            },
+            "<res>": {
+                "uuid": "string" // 道具唯一编号
+            }
+        }
+    },
+    "movie": {
+        "MakeFilm": { // 拍摄电影
+            "<req>": {
+                "uuid": "string" // 唯一编号
+            },
+            "<res>": {
+                "uuid": "string" // 唯一编号
+            }
+        },
+        "SetMovieName": { // 设置电影名字
+            "<req>": {
+                "uuid": "string", // 电影唯一编号
+                "index": "int", // 选择的电影下标, 从0开始
+                "name": "string" // 名字
+            },
+            "<res>": {
+                "uuid": "string" // 电影唯一编号
+            }
+        },
+        "SetActor": { // 设置艺人
+            "<req>": {
+                "uuid": "string", // 电影唯一编号
+                "index": "int", // 选择的电影下标, 从0开始
+                "actorId": "int" // 艺人id
+            },
+            "<res>": {
+                "uuid": "string" // 电影唯一编号
+            }
+        },
+        "ConfirmSetActor": { // 确认艺人选择
+            "<req>": {
+                "uuid": "string" // 电影唯一编号
+            },
+            "<res>": {
+                "uuid": "string" // 电影唯一编号
+            }
+        },
+        "ChoseType": { // 选择剧本类型
+            "<req>": {
+                "uuid": "string", // 电影唯一编号
+                "type": "EMovieType" // 电影类型
+            },
+            "<res>": {
+                "uuid": "string", // 电影唯一编号
+                "storyShootType": "int" // 类型契合度
+            }
+        },
+        "AcceptMediaVisit": { // 接受媒体访问
+            "<req>": {
+                "uuid": "string", // 电影唯一编号
+                "mediaId": "int" // 媒体id
+            },
+            "<res>": {
+                "uuid": "string", // 电影唯一编号
+                "addExpection": "int"
+            }
+        },
+        "PublishMovie": { // 电影发布
+            "<req>": {
+                "uuid": "string", // 电影唯一编号
+                "theaterId": "int" // 院线id
+            },
+            "<res>": {
+                "uuid": "string" // 电影唯一编号
+            }
+        },
+        "BattleOver": { // 上映结束
+            "<req>": {
+                "uuid": "string" // 电影唯一编号
+            },
+            "<res>": {
+                "uuid": "string", // 电影唯一编号
+                "dropout": "array<ItemDesc>" // 掉落
+            }
+        },
+        "SpreadMovie": { // 推广电影
+            "<req>": {
+                "uuid": "string" // 电影唯一编号
+            },
+            "<res>": {
+                "uuid": "string" // 电影唯一编号
+            }
+        },
+        "GetRewardMovie": { // 领取收益
+            "<req>": {
+                "uuid": "string" // 电影唯一编号
+            },
+            "<res>": {
+                "uuid": "string", // 电影唯一编号
+                "dropout": "array<ItemDesc>" // 掉落物品
+            }
+        },
+        "SwitchCity": { // 切换城市
+            "<req>": {
+                "uuid": "string", // 电影唯一编号
+                "cityId": "int" // 城市ID
+            },
+            "<res>": {
+                "uuid": "string" // 电影唯一编号
+            }
+        },
+        "UpdateMovieState": { // 更新电影状态
+            "<req>": {
+                "uuid": "string", // 电影唯一编号
+                "state": "EMovieState" // 当前电影状态
+            },
+            "<res>": {
+                "uuid": "string" // 电影唯一编号
+            }
+        },
+        "GetStoryGoals": { // 领取剧本目标奖励
+            "<req>": {
+                "uuid": "string" // 电影唯一编号
+            },
+            "<res>": {
+                "uuid": "string" // 电影唯一编号
+            }
+        },
+        "DeleteMovie": { // 删除电影
+            "<req>": {
+                "uuid": "string" // 电影唯一编号
+            },
+            "<res>": {
+                "uuid": "string", // 电影唯一编号
+                "dropout": "array<ItemDesc>" // 掉落物品
+            }
+        },
+        "RefreshMovieStory": { // 刷新电影剧本
+            "<req>": {
+                "uuid": "string" // 电影唯一编号
+            },
+            "<res>": {
+                "uuid": "string" // 电影唯一编号
+            }
+        }
+    },
+    "Actor": { // 艺人
+        "NoseInfoActor": { // 查探艺人
+            "<req>": { // 请求
+                "isUseCard": "bool" // 是否使用星探卡，强制查探
+            },
+            "<res>": {
+                "result": "int" // 0,成功，非0，错误码
+            }
+        },
+        "RecruitActor": { // 招募艺人
+            "<req>": {
+                "actorId": "int" // 艺人ID
+            },
+            "<res>": {
+                "result": "int", // 0,成功，非0，错误码
+                "actorId": "int", // 艺人ID
+                "isNewActor": "bool" // 是否新加艺人
+            }
+        },
+        "HideActor": { // 雪藏艺人
+            "<req>": {
+                "uuid": "string", // 艺人ID
+                "isHide": "bool" // 是否雪藏艺人，true雪藏，false取消雪藏
+            },
+            "<res>": {
+                "result": "int" // 0,成功，非0，错误码
+            }
+        },
+        "AddActorSlot": { // 增加艺人槽位
+            "<req>": {},
+            "<res>": {
+                "result": "int" // 0,成功，非0，错误码
+            }
+        },
+        "UpgradeActor": { // 艺人升级
+            "<req>": {
+                "uuid": "string" // 艺人ID
+            },
+            "<res>": {
+                "result": "int" // 0,成功，非0，错误码
+            }
+        },
+        "GiveActorAssets": { // 赠送艺人资产
+            "<req>": {
+                "uuid": "string", // 艺人ID
+                "giveType": "int", // 赠送类型
+                "giveLevel": "int", // 赠送等级
+                "giveNum": "int" // 赠送数量
+            },
+            "<res>": {
+                "result": "int" // 0,成功，非0，错误码
+            }
+        },
+        "UpgradeActorSkill": { // 艺人技能升级
+            "<req>": {
+                "uuid": "string", // 艺人ID
+                "skillId": "int" // 技能ID
+            },
+            "<res>": {
+                "result": "int" // 0,成功，非0，错误码
+            }
+        },
+        "ActorTrain": { // 艺人培养
+            "<req>": {
+                "uuid": "string", // 艺人ID
+                "trainType": "int", // 培养类型
+                "useDiamond": "bool" // 使用钻石
+            },
+            "<res>": {
+                "result": "int", // 0,成功，非0，错误码
+                "uuid": "string", // 艺人ID
+                "trainType": "int", // 培养类型
+                "attrChangeList": "array<AttrChangeInfo>" // 属性改变列表
+            }
+        },
+        "ActorChangeName": { // 艺人改名
+            "<req>": {
+                "uuid": "string", // 艺人ID
+                "name": "string" // 艺人名字
+            },
+            "<res>": {
+                "result": "int" // 0,成功，非0，错误码
+            }
+        },
+        "ActorExerciseStart": { // 艺人训练开始
+            "<req>": {
+                "aId": "string", // 艺人ID
+                "eId": "string" // 训练队列id
+            },
+            "<res>": {
+                "aId": "string" // 艺人 id
+            }
+        },
+        "ActorExerciseReward": { // 艺人结束训练
+            "<req>": {
+                "eId": "string", // 训练队列id
+                "useMoney": "bool" // 是否使用钻石
+            },
+            "<res>": {
+                "aId": "string", // 艺人 id
+                "eId": "string" // 队列 id
+            }
+        },
+        "ActorExerciseAdd": { // 增加训练队列
+            "<req>": {},
+            "<res>": {
+                "eId": "string" // 训练队列 
+            }
+        },
+        "GiveLoyaltyCard": { // 赠送忠诚卡
+            "<req>": {
+                "uuid": "string", // 艺人ID
+                "giveType": "int", // 赠送类型
+                "num": "int" // 赠送忠诚卡数量
+            },
+            "<res>": {
+                "uuid": "string", // 艺人ID
+                "giveType": "int" // 赠送类型
+            }
+        },
+        "AssistantUpLv": { // 艺人助理升级
+            "<req>": {
+                "uuid": "string", // 艺人uuid
+                "id": "int" // 助理id
+            },
+            "<res>": {
+                "uuid": "string", // 艺人uuid
+                "id": "int" // 助理id
+            }
+        }
+    },
+    "story": {
+        "findStory": { // 搜罗剧本
+            "<req>": {},
+            "<res>": {
+                "type": "int", // 搜罗类型 1剧本 2物品
+                "id": "int", // 物品ID 剧本ID
+                "num": "int", // 数量
+                "time": "int", // 已经搜罗次数
+                "refreshTime": "int" // 上次免费搜罗时间
+            }
+        },
+        "cleanFindStory": { // 清除搜罗时间
+            "<req>": {},
+            "<res>": {
+                "result": "int", // 0 成功 1 失败 
+                "refreshTime": "int" // 上次免费搜罗时间
+            }
+        },
+        "getReward": { // 领取剧本组奖励
+            "<req>": {
+                "storySuitId": "int" // 剧本组ID
+            },
+            "<res>": {
+                "storySuitId": "int", // 剧本组ID
+                "result": "int" // 0 成功 1 失败
+            }
+        },
+        "GetMessage": { // 获取剧本留言信息
+            "<req>": {
+                "stroyId": "int" // 剧本ID
+            },
+            "<res>": {
+                "stroyId": "int", // 剧本ID
+                "message": "array<StoryMessageDesc>"
+            }
+        },
+        "SetMessage": { // 剧本留言
+            "<req>": {
+                "stroyId": "int", // 剧本ID
+                "content": "string" // 内容
+            },
+            "<res>": {
+                "stroyId": "int" // 0 成功 1 失败
+            }
+        }
+    },
+    "manageOrder": {
+        "PutItem": { // 放入物品
+            "<req>": {
+                "uuid": "string", // 唯一订单编号
+                "entityId": "int", // 协助的人
+                "itemId": "int", // 物品baseId 
+                "type": "int" // 0操作自己的订单，1别人的
+            },
+            "<res>": {
+                "uuid": "string", // 唯一订单编号
+                "itemInfo": "ItemDesc", // 奖励信息
+                "type": "int" // 0操作自己的订单，1别人的
+            }
+        },
+        "DelOrder": { // 销毁订单
+            "<req>": {
+                "uuid": "string" // 唯一订单编号
+            },
+            "<res>": {
+                "uuid": "string" // 唯一订单编号
+            }
+        },
+        "FinishOrder": { // 完成订单
+            "<req>": {
+                "uuid": "string" // 唯一订单编号
+            },
+            "<res>": {
+                "uuid": "string" // 唯一订单编号
+            }
+        },
+        "DealOrder": { // 订单过期处理
+            "<req>": {},
+            "<res>": {}
+        }
+    },
+    "progressBox": { // 进度宝箱
+        "GetReward": {
+            "<req>": {
+                "uuid": "string", // 唯一进度宝箱编号
+                "gear": "int" // 档位
+            },
+            "<res>": {
+                "uuid": "string", // 唯一进度宝箱编号
+                "gear": "int" // 档位
+            }
+        }
+    },
+    "manageProduce": { // 运营生产
+        "Produce": { // 生产
+            "<req>": {
+                "uuid": "string" // 唯一生产编号
+            },
+            "<res>": {
+                "uuid": "string" // 唯一生产编号
+            }
+        },
+        "GetReward": { // 领取奖励
+            "<req>": {
+                "uuid": "string" // 唯一生产编号
+            },
+            "<res>": {
+                "uuid": "string" // 唯一生产编号
+            }
+        },
+        "Uplevel": { // 生产升级
+            "<req>": {
+                "uuid": "string", // 唯一生产编号
+                "skillId": "int" // 升级效果id
+            },
+            "<res>": {
+                "uuid": "string", // 唯一生产编号
+                "skillId": "int" // 升级效果id
+            }
+        },
+        "SendActor": { // 派遣艺人
+            "<req>": {
+                "uuid": "string", // 唯一生产编号
+                "actBaseId": "int" // 艺人的唯一ID 
+            },
+            "<res>": {
+                "uuid": "string", // 唯一生产编号
+                "actBaseId": "int" // 艺人的唯一ID 
+            }
+        },
+        "Deblocking": { // 解锁
+            "<req>": {
+                "produceId": "int" // 需要解锁的生产ID
+            },
+            "<res>": {
+                "produceId": "int" // 需要解锁的生产ID
+            }
+        },
+        "QuickGetReward": { // 一键领取
+            "<req>": {
+                "stall": "int" // 档位
+            },
+            "<res>": {
+                "stall": "int" // 档位
+            }
+        },
+        "QuickProduce": { // 一键生产
+            "<req>": {
+                "stall": "int" // 档位
+            },
+            "<res>": {
+                "stall": "int", // 档位
+                "num": "int" // 生产了多少个
+            }
+        },
+        "cleanTime": { // 清除倒计时
+            "<req>": {
+                "uuid": "string" // 唯一生产编号
+            },
+            "<res>": {
+                "uuid": "string" // 唯一生产编号
+            }
+        }
+    },
+    "rank": {
+        "GetSelfList": { // 获取自己的排名信息
+            "<req>": {},
+            "<res>": {
+                "data": "SelfRankListDesc" // 排行榜数据
+            }
+        },
+        "GetServerRankList": { // 获取全服排行榜
+            "<req>": {},
+            "<res>": {
+                "selfRank": "int", // 全服排名
+                "selfData": "ServerListDesc", // 自己的排行榜数据
+                "data": "array<ServerListDesc>" // 排行榜数据
+            }
+        },
+        "GetGroupRankList": { // 获取分组总票房排行榜
+            "<req>": {},
+            "<res>": {
+                "selfRank": "int", // 全服排名
+                "selfData": "GroupListDesc", // 自己的排行榜数据
+                "data": "array<GroupListDesc>" // 排行榜数据
+            }
+        },
+        "GetGroupMovieRankList": { // 获取分组电影排行榜
+            "<req>": {},
+            "<res>": {
+                "selfRank": "int", // 全服排名
+                "selfData": "GroupMovieListDesc", // 自己的排行榜数据
+                "data": "array<GroupMovieListDesc>" // 排行榜数据
+            }
+        },
+        "GetMovieShortData": { // 获取电影基本信息
+            "<req>": {
+                "uuid": "string" // 电影唯一id
+            },
+            "<res>": {
+                "data": "MovieShortData" // 排行榜数据
+            }
+        },
+        "GetPlayerShortData": { // 获取玩家基本信息
+            "<req>": {
+                "userId": "int" // id
+            },
+            "<res>": {
+                "data": "PlayerShortData" // 玩家信息
+            }
+        },
+        "GetServerListReward": { // 领取排行榜奖励
+            "<req>": {
+                "uuid": "string" // 排行榜唯一id
+            },
+            "<res>": {
+                "dropout": "array<ItemDesc>" // 奖励物品
+            }
+        },
+        "ChangeServerName": { // 修改服务器名称
+            "<req>": {
+                "uuid": "string", // 排行榜唯一id
+                "name": "string" // 服务器名称
+            },
+            "<res>": {}
+        },
+        "GetOscarData": {
+            "<req>": {},
+            "<res>": {}
+        },
+        "GetOscarReward": {
+            "<req>": {
+                "type": "EOscarType"
+            },
+            "<res>": {
+                "dropout": "array<ItemDesc>"
+            }
+        },
+        "ChoseTheater": { // 签约影院
+            "<req>": {
+                "theaterId": "int"
+            },
+            "<res>": {}
+        },
+        "GetStreetReward": {
+            "<req>": {
+                "type": "int" // 0 街区奖励 1 排行榜祝贺, 2 总票房排行榜祝贺
+            },
+            "<res>": {
+                "type": "int",
+                "dropout": "array<ItemDesc>"
+            }
+        }
+    },
+    "task": { // 任务模块
+        "reward": {
+            "<req>": { // 请求
+                "tId": "string" // id
+            },
+            "<res>": { // 回复
+                "tId": "string", // id
+                "dropout": "array<ItemDesc>" // 奖励内容
+            }
+        }
+    },
+    "mall": {
+        "buy": {
+            "<req>": {
+                "goodsId": "int", // 商品编号
+                "amount": "int" // 商品数量
+            },
+            "<res>": {
+                "result": "int" // 返回购买结果
+            }
+        }
+    },
+    "Mail": { // 邮件模块
+        "MailGetReward": {
+            "<req>": {
+                "uuid": "string"
+            },
+            "<res>": {
+                "uuid": "string",
+                "dropout": "array<ItemDesc>"
+            }
+        },
+        "MailGetRewardMany": { // 批量领取邮件
+            "<req>": {
+                "uuid": "array<string>"
+            },
+            "<res>": {
+                "uuid": "array<string>",
+                "dropout": "array<ItemDesc>"
+            }
+        },
+        "MailDeleteMany": { // 批量删除邮件
+            "<req>": {
+                "uuid": "array<string>"
+            },
+            "<res>": {
+                "uuid": "array<string>"
+            }
+        },
+        "MailDelete": {
+            "<req>": {
+                "uuid": "string"
+            },
+            "<res>": {
+                "uuid": "string"
+            }
+        },
+        "MailRead": {
+            "<req>": {
+                "uuid": "string"
+            },
+            "<res>": {
+                "uuid": "string"
+            }
+        }
+    },
+    "Gift": {
+        "Exchange": { // 礼包兑换
+            "<req>": {
+                "id": "string" // 兑换码 id
+            },
+            "<res>": {
+                "result": "int",
+                "dropout": "array<ItemDesc>" // 掉落
+            }
+        }
+    },
+    "manageBusiness": { // 运营公务
+        "GetReward": { // 领取奖励
+            "<req>": {},
+            "<res>": {}
+        }
+    },
+    "manageVisit": { // 运营探班
+        "StartVisit": { // 开始探班
+            "<req>": {},
+            "<res>": {}
+        },
+        "GetReward": { // 领取探班奖励
+            "<req>": {},
+            "<res>": {}
+        },
+        "StartRece": { // 开始接待
+            "<req>": {},
+            "<res>": {}
+        }
+    },
+    "manageMeeting": { // 经营会议
+        "GetReward": { // 领取奖励
+            "<req>": {
+                "type": "int" // 0领取 1回绝
+            },
+            "<res>": {
+                "type": "int" // 0领取 1回绝
+            }
+        },
+        "Markup": { // 加价
+            "<req>": {
+                "type": "int" // 2 50% 1 200%
+            },
+            "<res>": {
+                "type": "int" // 2 50% 1 200%
+            }
+        }
+    },
+    "dailySign": { // 日常签到
+        "sign": { // 签到
+            "<req>": {},
+            "<res>": {
+                "dropout": "ItemDesc" // 掉落
+            }
+        }
+    },
+    "secretary": { // 小秘书
+        "GetDailyReward": { // 领取奖励
+            "<req>": {},
+            "<res>": {}
+        },
+        "OpenSecretary": {
+            "<req>": {
+                "key": "int", // 操作哪一个模块小秘书
+                "type": "int" // 0关闭 1开启
+            },
+            "<res>": {
+                "key": "int", // 操作哪一个模块小秘书
+                "type": "int" // 0关闭 1开启
+            }
+        },
+        "ApplyMovieLicence": { // 申请拍摄许可证
+            "<req>": {},
+            "<res>": {}
+        },
+        "RewardMovieLicence": { // 领取拍摄许可证
+            "<req>": {},
+            "<res>": {}
+        }
+    },
+    "sevenAddUp": { // 七日礼包
+        "GetReward": {
+            "<req>": {
+                "uuid": "string", // 唯一七日礼包ID
+                "gear": "int" // 档位
+            },
+            "<res>": {
+                "uuid": "string", // 唯一七日礼包ID
+                "gear": "int" // 档位
+            }
+        },
+        "Touch": { // 跨天触发
+            "<req>": {},
+            "<res>": {}
+        }
+    },
+    "BeginnerGuide": {
+        "CompleteGuide": { // 完成一个引导任务
+            "<req>": {
+                "gId": "int", // 引导任务编号
+                "type": "EGuideType" // 引导类型
+            },
+            "<res>": {
+                "gId": "int", // 引导任务编号
+                "type": "EGuideType" // 引导类型
+            }
+        },
+        "GuideEndReward": {
+            "<req>": {},
+            "<res>": {
+                "isNewActor": "bool" // 没有为true
+            }
+        }
+    },
+    "Danmu": { // 弹幕接口
+        "set": { // 设置弹幕
+            "<req>": {
+                "id": "int", // 颁奖场次 Id
+                "msg": "string" // 弹幕消息
+            },
+            "<res>": {}
+        },
+        "get": {
+            "<req>": { // 可以传入 time 表示获取这个时间戳以后的弹幕
+                "id": "int", // 颁奖场次 Id
+                "time": "int" // 时间戳
+            },
+            "<res>": {
+                "data": "array<DanmuItem>", // 返回结果
+                "time": "int" // 返回的时间戳
+            }
+        }
+    },
+    "cooperate": { // 合作系统
+        "Apply": { // 寻求合作
+            "<req>": {
+                "entityId": "int" // 合作者ID 为0时，为公开邀请
+            },
+            "<res>": {}
+        },
+        "CancelCooperate": { // 取消公开邀请
+            "<req>": {},
+            "<res>": {}
+        },
+        "Relieve": { // 解除合作
+            "<req>": {},
+            "<res>": {}
+        },
+        "Approve": { // 审批
+            "<req>": {
+                "type": "int", // 审批类型 0同意 1拒绝
+                "entityId": "string" // 审批的哪个玩家
+            },
+            "<res>": {
+                "type": "int", // 审批类型 0同意 1拒绝
+                "entityId": "string" // 审批的哪个玩家
+            }
+        },
+        "GetInfo": { // 主界面合作信息 10秒一次
+            "<req>": {
+                "oldOrderUuids": "array<string>"
+            },
+            "<res>": {}
+        },
+        "TaskOperate": { // 
+            "<req>": {
+                "type": "int", // 任务操作 0接取 1协作
+                "taskId": "int", // 哪个任务
+                "star": "int" // 星级
+            },
+            "<res>": {
+                "type": "int", // 任务操作 0接取 1协作
+                "taskId": "int", // 哪个任务
+                "star": "int" // 星级
+            }
+        },
+        "GetTaskReward": {
+            "<req>": {
+                "taskId": "int", // 哪个任务
+                "star": "int" // 星级 
+            },
+            "<res>": {
+                "taskId": "int", // 哪个任务
+                "star": "int" // 星级
+            }
+        },
+        "GiveReward": { // 赠送物品
+            "<req>": {
+                "itemId": "int" // 赠送物品ID
+            },
+            "<res>": {
+                "itemId": "int"
+            }
+        },
+        "GetProgressTask": { // 领取进度奖励
+            "<req>": {
+                "index": "int" // 领取哪一个
+            },
+            "<res>": {
+                "index": "int"
+            }
+        },
+        "ReadCooperate": { // 查看合作信息
+            "<req>": {},
+            "<res>": {}
+        },
+        "GetTaskInfo": { // 合作任务界面 2秒一次
+            "<req>": {},
+            "<res>": {}
+        },
+        "GetOrderInfo": { // 合作订单界面 2秒一次
+            "<req>": {
+                "oldOrderUuids": "array<string>"
+            },
+            "<res>": {}
+        }
+    },
+    "pay": {
+        "StartOrder": {
+            "<req>": {
+                "id": "int", // 商品id
+                "amount": "int" // 数量
+            },
+            "<res>": {
+                "id": "int", // 商品id
+                "amount": "int", // 数量
+                "orderId": "string" // 订单id
+            }
+        },
+        "FinishOrder": {
+            "<req>": {
+                "orderId": "string", // 订单id
+                "result": "int" // 结果 0 成功, 1 失败
+            },
+            "<res>": {
+                "orderId": "string", // 订单id
+                "result": "int", // 结果 0 成功, 1 失败
+                "dropout": "array<ItemDesc>" // 掉落物品
+            }
+        }
+    },
+    "chat": {
+        "MessageNotice": { // 新消息通知
+            "<req>": {
+                "channel": "int"
+            },
+            "<res>": {
+                "roomId": "int", // 房间号，世界频道时：为0
+                "newMessage": "NewMessageInfo"
+            }
+        },
+        "NewMessage": { // 主页面新消息通知
+            "<req>": {},
+            "<res>": {
+                "worldInfo": "NewMessageInfo", // 世界频道,新消息总数量
+                "privateInfo": "NewMessageInfo", // 私人频道,新消息总数量
+                "companyInfo": "NewMessageInfo" // 公司频道，新消息总数量
+            }
+        },
+        "AllMessage": { // 各个频道消息
+            "<req>": {},
+            "<res>": {
+                "worldUserInfo": "array<MessageInfo>", // 世界频道
+                "worldSystemInfo": "array<SystemMessage>", // 世界频道
+                "privateInfo": "array<PrivateListInfo>", // 私人频道
+                "companyInfo": "array<MessageInfo>" // 公司频道
+            }
+        },
+        "SendMessage": { // 发送信息
+            "<req>": {
+                "message": "string", // 信息
+                "recipient": "int", // 接收者
+                "roomId": "int", // 房间号，如果是世界频道，不判断该字段
+                "channel": "int" // 频道
+            },
+            "<res>": {
+                "roomId": "int", // 房间号
+                "message": "MessageInfo" // 信息
+            }
+        },
+        "PullMessage": { // 拉取消息
+            "<req>": {
+                "channel": "int", // 频道
+                "roomId": "int", // 房间号，如果是世界频道，不判断该字段
+                "messageId": "int" // 0：新消息，非0：旧消息
+            },
+            "<res>": {
+                "messageInfo": "array<MessageInfo>", // 最新玩家消息
+                "systemMessageInfo": "array<SystemMessage>", // 最新系统消息
+                "channel": "int", // 频道
+                "roomId": "int" // 房间号，如果是世界频道，不判断该字段
+            }
+        },
+        "Sheielding": { // 屏蔽玩家
+            "<req>": {
+                "userId": "int" // 玩家id
+            },
+            "<res>": {}
+        },
+        "ReleaseShield": { // 解除屏蔽
+            "<req>": {
+                "userId": "int" // 玩家id
+            },
+            "<res>": {}
+        },
+        "recruit": { // 招募集团
+            "<req>": {},
+            "<res>": {}
+        }
+    },
+    "smallTarget": {
+        "LevGift": { // 等级礼包
+            "<req>": {},
+            "<res>": {
+                "giftId": "int" // 礼包id
+            }
+        },
+        "CupGift": {
+            "<req>": { // 奖杯礼包
+            },
+            "<res>": {
+                "giftId": "int"
+            }
+        },
+        "GetCupMail": {
+            "<req>": { // 奖杯礼包邮件
+            },
+            "<res>": {
+                "giftId": "int"
+            }
+        }
+    }
+}

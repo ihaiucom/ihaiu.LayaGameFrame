@@ -1,10 +1,14 @@
+import LoaderPanel from "./LoaderPanel";
+import LaunchLoaderPanel from "../../FGUI/Extends/GameLaunch/LaunchLoaderPanel";
+import Game from "../../Game";
+import Random from "../../Libs/Helpers/Random";
 
 //======================
 // 加载界面--进入游戏
 //----------------------
 export default class LoaderEnterPanel extends LoaderPanel
 {
-    loader: fgui.System.LoaderEnterGame;
+    loader: LaunchLoaderPanel;
     tips: string[] = [];
 
 
@@ -16,14 +20,14 @@ export default class LoaderEnterPanel extends LoaderPanel
 
     protected onInit(): void
     {
-        this.loader = fgui.System.LoaderEnterGame.createInstance();
+        this.loader = LaunchLoaderPanel.createInstance();
         this.contentPane = this.loader;
         // this.center();
 
         //弹出窗口的动效已中心为轴心
         // this.setPivot(0.5, 0.5);
         super.onInit();
-        this.tips = LoadingStateTxt.tips;
+        this.tips = Game.launchText.tips;
         this.setVersion();
 
     }
@@ -35,7 +39,7 @@ export default class LoaderEnterPanel extends LoaderPanel
         super.onShown();
         this.beginTips();
         this.setVersion();
-        gameApplication.sInfo.add(this.setVersion, this);
+        Game.version.sLocalVersionChange.add(this.setVersion, this);
     }
 
     // 隐藏完成
@@ -43,7 +47,7 @@ export default class LoaderEnterPanel extends LoaderPanel
     {
         super.onHide();
         this.stopTips();
-        gameApplication.sInfo.remove(this.setVersion, this);
+        Game.version.sLocalVersionChange.remove(this.setVersion, this);
     }
 
     beginTips()
@@ -105,7 +109,7 @@ export default class LoaderEnterPanel extends LoaderPanel
     // 设置版本号
     setVersion()
     {
-        this.loader.m_txt_gamever.text = "GameVersion:" + GameVersions.VersionManager.Instance.localAppVersionData.toString();
-        this.loader.m_txt_resVer.text = "ResVersion:" + GameVersions.VersionManager.Instance.localResVersionData.toString();
+        this.loader.m_txt_gamever.text = "GameVersion:" + Game.version.localAppVersionData.toString();
+        this.loader.m_txt_resVer.text = "ResVersion:" + Game.version.localResVersionData.toString();
     }
 }

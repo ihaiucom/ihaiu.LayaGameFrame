@@ -1,0 +1,1 @@
+dotnet ./Copy/Copy.dll --setting=./CopyMoive_ts1.json

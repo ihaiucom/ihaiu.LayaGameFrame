@@ -1,0 +1,1 @@
+dotnet Copy.dll --setting=./setting.json

@@ -19,6 +19,8 @@ export default class LangManager
 		return LangManager._Instance;
 	}
 
+	// 是否使用多语言
+	isUseLang = false;
 
 
 	private _httpLang: string;
@@ -85,6 +87,7 @@ export default class LangManager
 		this.httpLang = value;
 		Game.localStorage.setString("_lang", value, true);
 	}
+	
 
 
 

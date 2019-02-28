@@ -1,0 +1,22 @@
+/////////////////////////////////////
+// ihaiu.ExportProto生成
+// http://blog.ihaiu.com
+/////////////////////////////////////
+
+
+namespace Games
+{
+    //====================
+    // OOb消息处理器
+    //--------------------
+    export class ProtoOobHandler
+    {
+	
+		// 0 funName
+
+		>:FOREACH ooblist:<
+        static >:[0]:<: Function;
+		>:ENDFOREACH:<
+
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "enableoverwrites": [
+  	{
+  		"src":"../../Gidea-PF-Client-Release/GamePF/bin", 
+  		"dst":"E:/wamp/www/GamePF/release"
+  	},
+  
+  ],
+  "disableoverwrites": [
+  	
+  ]
+}

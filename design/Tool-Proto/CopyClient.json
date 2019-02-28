@@ -1,0 +1,11 @@
+{
+  "enableoverwrites": [
+  	{
+  		"src":"./out/laya/src", 
+  		"dst":"../../client/Game/src/proto"
+  	}
+  ],
+  "disableoverwrites": [
+  	
+  ]
+}

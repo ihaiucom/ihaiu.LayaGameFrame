@@ -1,0 +1,20 @@
+{
+  "levGift/GetLevGift/req": {
+    "comment": null,
+    "$id": "levGift/GetLevGift/req",
+    "properties": {},
+    "required": []
+  },
+  "levGift/GetLevGift/resp": {
+    "comment": null,
+    "$id": "levGift/GetLevGift/resp",
+    "properties": {
+      "giftId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "giftId"
+    ]
+  }
+}

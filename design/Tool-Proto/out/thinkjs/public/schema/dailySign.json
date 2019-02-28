@@ -1,0 +1,28 @@
+{
+  "dailySign/sign/req": {
+    "comment": null,
+    "$id": "dailySign/sign/req",
+    "properties": {},
+    "required": []
+  },
+  "dailySign/sign/resp": {
+    "comment": null,
+    "$id": "dailySign/sign/resp",
+    "properties": {
+      "dropout": {
+        "type": "object",
+        "properties": {
+          "itemId": {
+            "type": "number"
+          },
+          "amount": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "required": [
+      "dropout"
+    ]
+  }
+}

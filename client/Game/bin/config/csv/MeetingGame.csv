@@ -1,0 +1,10 @@
+﻿int	string	int	string	DTlValue2	string
+id	类型	结果(1:胜，2：平，3：输一半，4：全全输）	标题	结果加成（倍数：权重）	备注
+id	type	result	zh_cn_name	times	tips
+1001	meeting200	1	多要价200%	300:20	+200%小游戏胜利
+1002	meeting200	2	原价	100:30	+200%小游戏平局
+1003	meeting200	3	掉价50%	50:25	+200%小游戏失败输一半
+1004	meeting200	4	谈崩了	0:25	+200%小游戏失败全输
+2001	meeting50	1	多要价50%	150:30	+50%小游戏胜利
+2002	meeting50	2	原价	100:50	+50%小游戏平局
+2003	meeting50	3	掉价50%	50:20	+50%小游戏失败

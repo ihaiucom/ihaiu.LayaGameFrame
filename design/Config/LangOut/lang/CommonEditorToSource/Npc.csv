@@ -1,0 +1,7 @@
+﻿int	string	string	int	int
+ID	英文名字	中文名字	性别|n|1101女|n|1102男	美术资源
+id	en_name	cn_name	sex	avatar
+101	Rocky	洛基	1102	9998
+102	Scarlett	斯嘉丽	1101	9999
+201	Mhost	男主持	1102	9994
+202	Fehost	女主持	1101	9995

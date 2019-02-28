@@ -1,0 +1,10 @@
+
+		>:note:<
+		>:funName:<(>:args:<)
+		{
+			let req = new >:fullClassName:<();
+			>:FOREACH list:<
+			req.>:[0]:< = >:[0]:<;
+			>:ENDFOREACH:<
+			this.send(req);
+		}

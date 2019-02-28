@@ -1,5 +1,8 @@
 import GameConfig from "./GameConfig";
-
+import AntFrame from "../bin/libs/AntFrame/AntFrame";
+import AntNet from "../bin/libs/AntFrame/Net/AntNet";
+import { GamerNotifyIconChangeS2C } from "../bin/libs/AntFrame/Net/proto";
+declare var net;
 class GameLaunch 
 {
     constructor() 
@@ -21,20 +24,38 @@ class GameLaunch
 		Laya.alertGlobalError = true;
 
 
-
-
+		console.log(11111111);
+		this.onVersionLoaded();
 		//激活资源版本控制，version.json由IDE发布功能自动生成，如果没有也不影响后续流程
-		Laya.ResourceVersion.enable("version.json", Laya.Handler.create(this, this.onVersionLoaded), Laya.ResourceVersion.FILENAME_VERSION);
+		// Laya.ResourceVersion.enable("version.json", Laya.Handler.create(this, this.onVersionLoaded), Laya.ResourceVersion.FILENAME_VERSION);
 	}
 
     onVersionLoaded(): void 
     {
+
+		net.config.url = "https://www.magiclvzs.club:5000"
+		this.Test();
+	}
+
+	async Test(){
+		AntNet.gamerNotifyIconChangeS2C.on((e:GamerNotifyIconChangeS2C)=>{
+			console.log("test");
+			console.log(e)
+		})
+		let s2c = await AntFrame.platform.Login();
+		console.log(s2c);
+
+		let data = await AntNet.AsyncGamerLoginGetDataC2S();
+		console.log(data);
+
+		
 	}
 
     onConfigLoaded(): void 
     {
 	}
 }
+
 
 //激活启动类
 new GameLaunch();

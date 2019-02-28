@@ -1,0 +1,17 @@
+﻿int	string	string
+ID	标题	内容
+id	title	content
+1	System	Oops, your warehouse is full!
+2	Sever Notice	Notice
+3	Cooperation Invite Failed	Player {0} didn't respond your invitation, try resend it~
+4	Order Overdue	Your order is overdue, please withdraw your items
+5	Redeem Successed	You've redeemed the key, please check your rewards!
+6	Quest Reward Overdue	You have unclaimed quest rewards, go check it out!
+7	Gift from Cooperator	Your cooperator {0} sent you {1}, go check it out!
+8	Partnership Reward	Congrats on finding a cooperator, here's rewards for you!
+9	Partner Found Reward	A right partner is valuable both in business and dance! Congrats to you~
+10	Recover Item	These are items recovered from deleted orders, don't forget to put them back into your warehouse~
+11	Reward Overdue	You have unclaimed rewards, go check it out!
+12	Task Reward Overdue	You have unclaimed  task rewards, go check it out!
+13	Trophy Gift	You have unclaimed  trophy gift, go check it out!
+14	Weekly Point Rewards	You have unclaimed  weekly point rewards, go check it out!

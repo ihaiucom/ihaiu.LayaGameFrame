@@ -1,0 +1,36 @@
+{
+  "autoEnd": true,
+  "cmd": "langreader",
+  "optionSetting": "./LanguageSetting.json",
+  "xlsxDir": "../Config/Common",
+  "xlsxSavaAsDir": "../Config/Lang/CommonEditorToSource",
+  "langs": [
+    "zh_cn",
+    "zh_tw",
+    "en"
+  ],
+  "langFieldPrefixs": [
+    "zh_cn_",
+    "cn_",
+    "zh_tw_",
+    "en_"
+  ],
+  "langDir": "../Config/Lang",
+  "langEnableRemove": false,
+  "langDisableRemoveTables": [],
+  "outDir": "../Config/LangOut",
+  "exportSettingXlsx": "../Config/ExportSetting.xlsx",
+  "settingStructSheet": "StructSheet",
+  "settingIgnoreSheet": "IgnoreSheet",
+  "templateDir": "./Language/Template",
+  "csvSeparator": "\t",
+  "csvSeparatorReplace": "",
+  "csvLineSeparatorReplace": "|n|",
+  "xlsxHeadTypeLine": 1,
+  "xlsxHeadCnLine": 2,
+  "xlsxHeadFieldLine": 3,
+  "TextCodeTS": "../../client/Game/src/Config/keys/TEXT.ts",
+  "TextCodeXlsx": "../Config/Lang/editor/TextCode.xlsx",
+  "TextFguiXml": "../../Gidea-PF-UI/FairyGUI/ExportsLang/zh_cn.xml",
+  "TextFguiXlsx": "../Config/Lang/editor/TextFgui.xlsx"
+}

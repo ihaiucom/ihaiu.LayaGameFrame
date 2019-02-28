@@ -1,0 +1,23 @@
+﻿int	string	string	string
+编号	发件人	名称	描述
+id	from	name	description
+1001	Business Partner	Movie showing commission	Our company has reached level {level}, increasing our movie showing commission
+1002	Exhibition Organizer	Commercial Sponsorship	Our company has reached level {level} and gained commercial sponsorship
+1003	Debitor	Debt Repayment	Your debt has been repaid because your company has reached {fans} fans, and having big imfluence on them.
+1004	Principal	Student visits	Now that your company is level {level} we plan to send some students to visit
+1005	Fanclub Leader	Fan support	We are huge fans! We've come to see how you operate!
+1006	Movie Association	Association Rewards	Congrats! Your company reached level {level}, here are your rewards!
+1007	Cooperator	Coop profits	It's been a pleasure cooperating with you, here are your coop profits!
+1008	Movie Association	Filming award	You've been doing a great job, here is a reward as a token of our appreciation
+1009	Merchandiser	Discoveries	I found some things in storage, I think you could put them to good use
+1010	Business Partner	Business profits	Congrats! You've earned some business profits
+1011	Debitor	Debt Repayment	Your debt has been repaid because company has reached level {level}
+1012	Debitor	Debt Repayment	We've been doing good business recently and want repay our debt to you
+1013	Principal	Student visits	Now that your company has {fans} fans, we plan to send some students to visit
+1014	Fanclub Leader	Fan support	Our fans have sent over some gifts tos hwo their support
+1015	Movie Association	Fan rewards	Congrats! Here is a gift for reachings {fans} fans
+1016	Movie Association	Culture rewards	The people have rewarded you with gifts from contributing to popular culture
+1017	Mystic Sponsor	Mystery gift	We've received an a gift from an unidentified sender
+1018	Business Partner	Movie showing commission	Due to our fans reaching {fans}, our commission from movies have increased
+1019	Business Partner	Coop deposit	We've received a deposit for a new cooperation relationship
+1020	Business Partner	Competitor defeated	You were able to defeat a competitor and were rewarded for your efforts

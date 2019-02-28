@@ -1,0 +1,20 @@
+{
+  "enableoverwrites": [
+  	{
+  		"src":"../../gamepf_art/Animation/Sk", 
+  		"dst":"../../gamepf_art/Animation/GamePFSpineLaya/bin/res"
+  	},
+  	{
+  		"src":"../../gamepf_art/Animation/SpineWorkspace/ExportSK", 
+  		"dst":"../../gamepf_art/Animation/GamePFSpineLaya/bin/res"
+  	},
+  	{
+  		"src":"../../gamepf_art/Animation/SpineWorkspace/ExportSKRes", 
+  		"dst":"../../gamepf_art/Animation/GamePFSpineLaya/bin/res"
+  	},
+  
+  ],
+  "disableoverwrites": [
+  	
+  ]
+}

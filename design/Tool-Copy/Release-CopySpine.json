@@ -1,0 +1,20 @@
+{
+  "enableoverwrites": [
+  	{
+  		"src":"../../gamepf_art/Animation-Release/Sk", 
+  		"dst":"../../Gidea-PF-Client-Release/GamePF/bin/res/spine"
+  	},
+	  {
+  		"src":"../../gamepf_art/Animation-Release/SpineWorkspace/ExportSK", 
+  		"dst":"../../Gidea-PF-Client-Release/GamePF/bin/res/spine"
+  	},
+    {
+      "src":"../../gamepf_art/Animation-Release/SpineWorkspace/ExportSKRes/SceneOrUI", 
+      "dst":"../../Gidea-PF-Client-Release/GamePF/bin/res/spine/Scene"
+    },
+  
+  ],
+  "disableoverwrites": [
+  	
+  ]
+}

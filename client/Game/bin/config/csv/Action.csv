@@ -1,0 +1,39 @@
+﻿int	string	DTParts	int	int	string
+ID	动作名称	配件名称	是否循环|n|0否|n|1是	连接动作|n|不循环的动作才有连接动作	备注
+id	action	parts	loop	Connect	tips
+1001	pose1		1		摆pose
+1002	zhanli1		1		站立
+1003	zhanli2		1		站立
+1004	zoulu1		1		走路
+1005	paodong1		1		跑动
+1006	huanhu1		0	1002	欢呼
+1007	zuoshangyizi1		0	1008	坐上椅子1
+1008	zuoxia1		1		坐下1
+1009	tiaoxiayizi1		0	1002	跳下椅子1
+1010	zuoshangyizi2		0	1011	坐上椅子2
+1011	zuoxia2		1		坐下2
+1012	tiaoxiayizi2		0	1002	跳下椅子2
+1013	penghua1	Flowers:Flowers	1		捧花1
+1014	penghuaxingzou1	Flowers:Flowers	1		捧花行走1
+1015	diedao1		0	1002	跌倒
+1016	changge1	Microphone:Microphone	1		唱歌
+1017	huahua1	Brush:Brush	1		画画
+1018	langsong1		1		朗诵
+1019	tiaowu1		0	1002	跳舞
+1020	audience_idle		1		待机__观众
+1021	audience_shake		0	1020	摇晃__观众
+1022	audience_cheer		0	1020	欢呼__观众
+1023	microphone	Microphone:Microphone	1		话筒讲话
+1024	zhanli3		1		上台待机
+1025	speech		1		感言
+1026	speech		0	1002	感言
+1027	zhanli4		1		站立叉腰
+1028	zhanli3		1		主持人站立
+2001	dakai		0		窗帘-打开
+2002	bihe		0	2003	窗帘-闭合
+2003	daiji		1		窗帘-闭合待机
+2004	dakai		0	2007	门-打开
+2005	guanbi		0	2006	门-关闭
+2006	guanbidaiji		1		门-关闭-待机
+2007	dakaidaiji		1		门-打开-待机
+2008	animation		0		电影上映-艺人动画-门动画

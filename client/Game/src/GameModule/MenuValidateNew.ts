@@ -19,25 +19,25 @@ export default class MenuValidateNew extends MenuValidate
 			return this.dict.getValue(menuId).apply(this);
 		}
 
-		let isNew = Game.moduleModel.func.getIsNewMenu(menuId);
-		if (isNew)
-		{
-			return isNew;
-		}
+		// let isNew = Game.moduleModel.func.getIsNewMenu(menuId);
+		// if (isNew)
+		// {
+		// 	return isNew;
+		// }
 
-		let menuConfig = Game.config.menu.getConfig(menuId);
-		if (menuConfig.isSubbarMainButton)
-		{
-			let list = Game.config.menu.getBarMenus(<number>menuId);
+		// let menuConfig = Game.config.menu.getConfig(menuId);
+		// if (menuConfig.isSubbarMainButton)
+		// {
+		// 	let list = Game.config.menu.getBarMenus(<number>menuId);
 
-			for (let i = 0; i < list.length; i++)
-			{
-				if (this.validate(list[i].menuId))
-				{
-					return true;
-				}
-			}
-		}
+		// 	for (let i = 0; i < list.length; i++)
+		// 	{
+		// 		if (this.validate(list[i].menuId))
+		// 		{
+		// 			return true;
+		// 		}
+		// 	}
+		// }
 
 		return false;
 	}

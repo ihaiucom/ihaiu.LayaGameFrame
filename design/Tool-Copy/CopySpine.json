@@ -1,0 +1,20 @@
+{
+  "enableoverwrites": [
+  	{
+  		"src":"../../gamepf_art/Animation/Sk", 
+  		"dst":"../../client/Game/bin/res/spine"
+  	},
+	  {
+  		"src":"../../gamepf_art/Animation/SpineWorkspace/ExportSK", 
+  		"dst":"../../client/Game/bin/res/spine"
+  	},
+    {
+      "src":"../../gamepf_art/Animation/SpineWorkspace/ExportSKRes/SceneOrUI", 
+      "dst":"../../client/Game/bin/res/spine/Scene"
+    },
+  
+  ],
+  "disableoverwrites": [
+  	
+  ]
+}

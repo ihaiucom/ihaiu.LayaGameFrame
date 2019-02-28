@@ -1,0 +1,14 @@
+{
+  "autoEnd": true,
+  "optionSetting": "./ExportProtoSetting.json",
+  "protoPath": "E:/zengfeng/GideaPF/gamepf_doc/Tool-Proto",
+  "protoFolder": "client_only,common",
+  "templateDir": "../ExportProto/Template",
+  "codePath": "E:/zengfeng/GideaPF/client/Game/src/proto",
+  "codeOutPath": "E:/zengfeng/GideaPF/client/Game/src/proto",
+  "namespaceEnum": "Proto.SE",
+  "namespaceStruct": "Proto.SS",
+  "namespaceApi": "Proto.API",
+  "jsonServerGM": "//172.16.50.177/GamePF/ServerGM.json",
+  "jsonClientGM": "//172.16.50.177/GamePF/ClientGM.json"
+}

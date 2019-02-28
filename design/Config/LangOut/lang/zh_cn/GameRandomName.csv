@@ -1,0 +1,267 @@
+﻿int	string[]
+随机名字id	随机名称序列
+id	names
+1001	恶棍小队;杀死纳粹;追债时间
+1002	战地医生;战场白求恩;一个医疗兵的故事
+1003	猛汉当自强;自杀小分队;老兵永不凋零
+1004	武器之王;如何众叛亲离;没有硝烟的战场
+1005	生存名单;工厂避难所;暴风营救
+1006	救援行动;寻找大兵;归家之途
+1007	漫长的战争;大撤退;返乡
+1008	历战之马;少年与马;人马殊途
+1009	山之涯;战乱有情天;漫长的等待
+1010	生死狙击;狙击精英;生死对决
+1011	孤单的旅程;漫长的休息;他比烟花寂寞
+1012	空袭;全军出击;战争之日
+1013	与龙共舞;恐龙乐园;侏罗纪大陆
+1014	致命列车;尸速80迈;丧尸满车
+1015	以你之名呼唤我;深海之心;梦之船
+1016	穿越迷雾;雾霾天;直到最后一秒
+1017	安全着陆;英雄机长;高空奇迹
+1018	全城恐慌;远离水域;铁线虫危机
+1019	我们是猎人;高墙之下;泰坦陨落
+1020	直到黎明;X病毒;传奇生还者
+1021	一线鲨机;巨齿;致命深海
+1022	太空异兽;致命路过;死亡巢穴
+1023	人性大战尸性;僵尸大战;丧尸默示录
+1024	冰天雪地;雪国革命;暴雪之下
+1025	森林小屋;危机四伏;献祭游戏
+1026	未来时代;齿轮视界;永无止境
+1027	橱窗早餐;一个女孩与她的猫;蒂凡尼的下午茶
+1028	仲夏夜之痒;休息时间;非分之想
+1029	通俗小说;奇妙故事集;交织的世界线
+1030	爱的代价;魂断红坊;红玫瑰
+1031	一舞定情;音符之城;愚者与梦想家
+1032	假婚真爱;你愿意吗？;好想大声说爱你
+1033	男孩遇见女孩;转角遇见你;伦敦之恋
+1034	这个司机很朋克;出租车的故事;英雄，老兵与司机
+1035	宅男正传;聪明即性感;我的室友是天才
+1036	山顶之约;禁断罗曼史;思念满山
+1037	初吻50次;无法忘记的恋情;一日之爱
+1038	我最好的朋友;狗狗有真情;忠犬物语
+1039	大魔王与小白兔;勇敢的她;向前一步
+1040	漂亮女人;全场最美;麻雀变身记
+1041	活出我风采;前无仅有;最后的抉择
+1042	一夜致富;从纸醉金迷到一文不值;金融之狼
+1043	破碎之心;黑色之舞;最后的芭蕾
+1044	信女的故事;红与白;我们不再沉默
+1045	人形工具箱;瑞士军刀伙伴;搁浅
+1046	魔力之戒;万王之王;寻戒之旅
+1047	大难不死的孩子;继承者;宿敌
+1048	多米诺效应;蝴蝶风暴;振翅效应
+1049	为你年轻;回到青春期;我的青春恋爱物语
+1050	圣剑传说;天选之王;圆桌传奇
+1051	危险拥抱;剪刀奇缘;人造人之恋
+1052	倒序人生;岁月长河;人生中点站
+1053	刃之边缘;吸血鬼猎人传奇;赤色刀锋
+1054	君之名;穿越时空的爱恋;在时间的中心呼唤爱
+1055	血色黎明;血源觉醒;血库告急
+1056	羊角迷宫;公主奇遇记;三个试炼
+1057	女巫之月;女巫时节;魔法季节
+1058	动物世界;艾丽娅不能死;王权之争
+1059	驯龙手册;黑龙喂养指南;如何驯服你的第一头龙
+1060	玩具物语;玩具奇兵;奇幻大冒险
+1061	迷路的小鱼;游向故乡;海底寻亲记
+1062	竞速传说;闪电麦克;赛车物语
+1063	饥荒游戏;孤岛求生;弓兵的运气总不会太差
+1064	飞屋历险;气球之家;远走高飞
+1065	雀湾传奇;盗亦有道;启航！
+1066	人生如戏;真实真人秀;这是我的人生
+1067	晴雨伞科技;丧尸危机;生化迷云
+1068	反派英雄;英雄亦凡人;贱侠奇缘
+1069	受诅咒的法老;埃及惊魂;木乃伊之怒
+1070	篝火之夜;一个面具怪人决定去死;刺杀哈特勒
+1071	兄弟会信条;信仰之跃;一个苹果引发的血案
+1072	奇幻音乐节;墨西哥狂欢夜;我和我的吉他
+1073	蹦蹦警探;动物小镇;动物乌托邦
+1074	倾城之恋;小岛丽影;未忘她名
+1075	时尚女魔头;穿普拉达的恶魔上司;返璞归真
+1076	黑板上的谜题;骄阳似你;祝你好运，我的朋友
+1077	越狱;铁窗内的救赎;地下三尺是自由
+1078	灰烬重生;她和他;一个人的千军万马
+1079	船长，我的船长;我的良师;诗社联盟
+1080	追求卓越;大智若愚;三个笨蛋
+1081	凡人终有一死;向死而生;抗症的我
+1082	拳击巾帼;冠军宝贝;击出我人生
+1083	奔跑吧阿福;阿福正传;阿福快跑
+1084	追寻幸福;快乐彼岸;寻找幸福之旅
+1085	皇室演讲;国王是如何炼成的;演讲训练
+1086	成为第一名;不计付出;我不是天才
+1087	贫民窟的人生;百万问答;一问定情
+1088	化身为人;克隆人大逃亡;小岛疑云
+1089	叛逆小队;英雄非正义;不良特遣队
+1090	布鲁克博士的奇幻冒险;绿巨侠;坏脾气的我
+1091	漫长的沉眠;北美队长;变种奇兵
+1092	超能英雄;铁罐侠;钢铁之躯
+1093	铁血战士;机械刺客;终结号
+1094	蓝星传奇;为了部落;保卫潘多拉
+1095	遥远银河中;星际大战;太空争霸
+1096	星际探索;太空迷航;银河穿越
+1097	人类补正计划;我命由我;永不言弃
+1098	魔幻西部;西部空间;牛仔大战外星人
+1099	玩家一号;寻找阿瓦隆;彩蛋游戏
+1100	生命倒计时;神秘代码;玻璃门的选择
+1101	超级骇客;回到现实;药不能停
+1102	我在火星当农民;星际救援;火星求生
+1103	车形物语;钢筋铁臂;汽车人大闹地球
+1104	使徒来袭;创造奇迹的少年;新世纪地球防卫战
+1105	老爸老妈相遇史;回归未来;修复过去
+1106	赛博行动;电子叛乱;致命智能
+1107	时光煮雨;机器人会数羊入睡吗？;自由之魂
+1108	太空漫游指南;太空导游手册;环游银河系80天
+1109	真假游戏;游戏终结者;这是我的战争
+1110	自由的呐喊;苏格兰300勇士;勇士已死，自由长存
+1111	为爱孤独;单身日记;钟情一生
+1112	凯撒覆灭;艳后传奇;埃及假日
+1113	亨利八世传;他改变了英国;欲戴王冠
+1114	艺伎自传;小百合回忆录;京都烟云
+1115	女帝正史;错负的爱;无字丰碑
+1116	最后的钟声;人不可貌相;巴黎往事
+1117	自尊与偏见;人生若只如初见;乡村爱情故事
+1118	女孩与珍珠;珠玉情挑;半生缘
+1119	春心荡漾;威尼斯秘史;寻找真爱之旅
+1120	安与玛丽;替身女孩;致命宫闱
+1121	愤怒之路;沙漠大镖客;一往无前
+1122	温柔的杀手;狙击枪与小猪布偶;我心之形
+1123	民风淳朴高湖市;夜鹰侠;黑夜传说
+1124	杀戮之王;京都圣战;百里挑一
+1125	梦境空间;梦之怪盗团;偷天换梦
+1126	西西里教条;黑手党家族;无法拒绝的提议
+1127	原罪;我们都有罪;教义杀人事件
+1128	闻香识人;完美香味;天赋异禀
+1129	时间就是生命;命悬一线;众生平等
+1130	我与另一个我;寻找自我;拳击俱乐部
+1131	致命谜题;逃出生天;生存游戏
+1132	寂静的羊羔;人外有人;无声静泣
+1133	门铃总停在接起前一秒;不存在的邮差;欲望号餐厅
+1134	冤狱风云;身陷囹圄;越狱人生
+1135	重燃爱火;失踪的爱人;看不见的双眼
+1136	你追我藏;猫与老鼠;双雄交锋
+1137	猎人之夜;无人之地;长无所依
+1138	黑客女孩;问题少女事件簿;龙纹身的少女
+1139	洛城秘密;天使之城的黑色秘密;好警察，坏警察
+1140	安静且致命;你老师永远是你老师;光头杀手
+1141	真相隐于黑暗;星座杀手;疑犯追踪
+1142	电话亭人质;致命来电;来电提醒
+1143	合法屠戮;大逃杀之夜;黎明生机
+1144	大骗局;欲望之城;检方证人
+1145	君子复仇;你追我赶;意大利式犯罪
+1146	家族第一;极速传说;赛车小队
+1147	神秘速递;司机的职业素养;使命必达
+1148	北非靓影;我们拥有巴黎;有一种爱叫做放手
+1149	致命伴侣;二十四小时战争组;为情所伤
+1150	王的男人;雨伞是绅士必备;无礼不立
+1151	爱在卡萨布兰卡;假戏真做;你不是她
+1152	夜班执勤;危险游戏;酒店风云
+1153	无名特工;不可能的任务;逆谍
+1154	特工与外星人;西装特工;外星人特攻队
+1155	高风险赌注;致命初恋;关键赌局
+1156	代号：蒙娜;上古密码;历史的疑云
+1157	我是谁？;被遗忘的身份;致命身份
+1158	暗影追凶;天降灾祸;全民公敌
+1159	生活就是探戈;亦真亦幻;夫妻同心
+1160	身份疑云;向北出发;东南偏南
+1161	致命探访;虚假身份;一路向钱
+1162	别惹她;叛谍狂花;潜伏特工
+2001	Stephen Zach;Quentin Zane;Skylar Sprock
+2002	Hunter Charles;Charlie Humps;Jacks Moto
+2003	Patrick Jims;Jimmie Park;Shelly Boomer
+2004	Remy Jeans;Francois Renoir;Leon Hitmanne
+2005	Yi Zhang;Zoe Li;Yochi Motosaka
+2006	Arissa Hadwell;Hayley Alter;Margaret Carter
+2007	Hank Thompson;Tommy Hicks;Chuck Gump
+2008	Ford Harris;Atticus Pond;James Solo
+2009	Tim Justinlake;Joe Timberland;Justin Curlfro
+2010	Mikky Madson;Mikkel Moose;Hans Levture
+2011	Larry Jude;George Law;David Heiworth
+2012	Chelsea Maggs;Maggie Chin;Mandy Chan
+2013	Violet Gong;Li Grand;Iza Bella
+2014	Stan Jams;Jason States;Brad Muscles
+2015	Sammy Adams;Adam Sands;Sonny Gilmore
+2016	Carlos Nicks;Nic Trap;Kim Supactor
+2017	Marlene Rooney;Rhonda Mars;Liz Tatooim
+2018	Tao Oaks;Okie Tamoto;Mari Yadisha
+2019	Dave Boyd;Perry Dang;Davy Darkside
+2020	Sherry Tale;Tye Cobbson;Percival Cyclo
+2021	Greta Eves;Eva Blue;Ann Temesia
+2022	Wolf Wiemayer;Arnie Buffhead;Guy Venour
+2023	Charles Chipotle;Charlie Moustache;Chuck Silencio
+2024	Brandon Marlin;Martin Brond;Mark Bond
+2025	Fred Morgan;Morty Freedom;Morrie Grey
+2026	Mac Joy;Jimmy Avoy;Kevin Xavier
+2027	Marcela Sophiam;Sophia Marcota;Electura Queen
+2028	William Robins;Robbie Willis;Alvin Paddish
+2029	Gary Hughes;Howard Gross;Daniel Pretiface
+2030	Dora Tales;Natalie Dorms;Mary Tyreal
+2031	Garrett Jake;Jacob Gills;Don Dartikus
+2032	Will Robbins;Robin Wrong;Clara Overtree
+2033	Gene Richards;Richie Gear;Rick Sappyton
+2034	Swati Hills;Hillary Sweeney;Maggie Fitzfists
+2035	Tak Kitano;Kit Takong;Beat Takisho
+2036	Danny Kale;Caleb Dansig;Kim Dale
+2037	Pauline Sars;Sarah Pile;Lana Snows
+2038	Bernardo Javier;Javier Barron;Xavier Darkeyes
+2039	Gordon Young;Yale Grondo;Seok Kim
+2040	Hedna Ardy;Audrey Hellburn;Holly Tiffany
+2041	Marissa Colt;Caroline Marillot;Billie Joan
+2042	Josephina Angel;Angela Belle;Angel Bigeyes
+2043	Florida Buds;Lando McLonghair;Robbie VanArche
+2044	Evan Chris;Christopher Eves;Steve Shield
+2045	Rick Alan;Alonzo Mick;Al O'Baddie
+2046	Lenny Jarvis;Jimmy Lento;Jay Soserius
+2047	Conny Fifth;Francis Kale;Cole Galahado
+2048	Hiram Timbletoon;Tommy Hillings;Tom Trickster
+2049	Tina Uman;Mona Thurs;Ivy Fiction
+2050	Kaylie Nidman;Nicole Kingsley;Nicki Redlocks
+2051	Ed Null;Norman Edwards;Eddie Twoface
+2052	Benjamin Alters;Alfred Benz;Ban Laflack
+2053	Timothy Robbs;Rob Timmins;Andrew Dutrain
+2054	Anna Jenston;Jen Cranston;Rachel Friendus
+2055	Belinda Sands;Sandra Bock;Grace Congenial
+2056	Khan Maari;Aamir Jones;Samir Doom
+2057	Ryan Pool;Ryerye Reyrey;Van Rayholds
+2058	Ludmila Kuns;Mila Swan;Karen Mills
+2059	Vincent De Robo;Robert Nerenzia;Jim Comday
+2060	Cooper Brad;Bradford Colt;Rocky Rabbite
+2061	Carl Jarvey;Jim Crazy;King Ventura
+2062	Svetlana Milovich;Cecilia Jolwich;Millie McGunn
+2063	Kevin Ash;Sasha Kushner;Mikey DeCelso
+2064	Lisa Miss;Mona Lisbeth;Peggy Bartlet
+2065	Harry Neil Fitzpatrick;Neil Rogers;Barni Tintsern
+2066	Betty Hale;Halle Merry;Heather Jinx
+2067	Yoki Mitchells;Michelle Young;Shu Kickmaster
+2068	Elton Zachs;Zach Erfen;Zacariah Boyface
+2069	Bella Mons;Monica Belle;Malina Scadoria
+2070	Leo DiCarp;Francesco DiNapoli;Jack Cobb
+2071	Rodney Dans;Harry Pronter;Danny Deadman
+2072	John Dip;Jack Deep;Jack Grindle
+2073	Danny Roberts Jr;Rober Frown Sr;Stony Tark Jr
+2074	Peter Bradley;Bradford Penn;Pit Ruffryder
+2075	Marla Mongrel;Monica Marlo;Blondie Bombshell
+2076	Jen Law;Laura Jennifer;Jaylee Hungrybird
+2077	Paul Cratt;Chris Matt;Chris Realman
+2078	Roberta Jules;Juliette Robs;Jules Pretty
+2079	Javi Hems;Harry Charge;Thor Chrisworth
+2080	Hugh Jacked;Jack Bonedaggers;Wolf Blade
+2081	Chris Bunt;Christian Brolin;Dep Darkman
+2082	Ryan Blonde;George Rile;Gos Rylings
+2083	Tom Truth;Craig Toose;Thomas Ship
+2084	Stella Mone;Emma Rock;Emily Redrock
+2085	Wilma Eason;Hermione Watts;Emma Curls
+2086	William Smithers;Fresh Prince;Jay Agentia
+2087	Ben Flounderhatch;Theodore Bimbatch;Steven Holmes
+2088	Annie Hat;Hattie Away;Ann Brownies
+2089	Joan Scarson;Scarlett Andersson;Nat Darksuit
+2090	Dave Matton;Matthew Dames;Jay Bornio
+2091	Greg McEwan;Evan Gregs;Abiwan Kanoti
+2092	Liz Tays;Taylor Lizzie;Cleo Tapata
+2093	Kylie Knight;Keira Sparrow;Liz Swaine
+2094	Clarisse Ems;Emily Clams;Callie Leesi
+2095	Connor Matthews;Matthew Cohoney;Matt Lockdicus
+2096	Natie Port;Patricia Nailman;Ama Queen
+2097	Carine Law;Lily Chou;Carrie Lang
+2098	Jack Ho;Bruce Chan;Chan Kickem
+2099	Craig Daniels;Douglas Cringe;Jim Bomb
+2100	Harry Toms;Tom Bard;Alfie Kray
+2101	Teitay Lifte;Taylor Strummer;Alison Slow
+2102	Rock Jones;Dee Rock;Stone Cookin

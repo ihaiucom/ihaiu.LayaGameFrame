@@ -1,0 +1,828 @@
+{
+    "DBBase": { // 所有入库对象应该继承此类
+    },
+    "DBObject": { // 普通数据的基类
+        "<extends>": "DBBase",
+        "<nodb>": true,
+        "<dbindex>": "PRIMARY KEY (`uuid`)",
+        "uuid": "string"
+    },
+    "ShardDBObject": { // 分库分表数据的基类
+        "<extends>": "DBBase",
+        "<nodb>": true,
+        "<dbindex>": "PRIMARY KEY (`uuid`),KEY `ENTITYID`(`entityId`)",
+        "uuid": "string",
+        "entityId": "int64"
+    },
+    "UsrData": {
+        "<extends>": "ShardDBObject",
+        "<dbindex>": "PRIMARY KEY (`uuid`),KEY `ENTITYID` (`entityId`),UNIQUE KEY `USRNAME` (`usrName`)",
+        "<dbname>": "game",
+        "usrName": "string", // 玩家名字
+        "channel": "string", // 渠道代码
+        "registerTime": "int64", // 注册时间 unix时间戳
+        "registerIP": "string", // 注册IP
+        "lastLoginTime": "int64", // 次登录时间 unix时间戳
+        "lastLoginIP": "string", // 上次登录IP
+        "usrState": { // 玩家状态
+            "<type>": "EUsrState",
+            "<dbtype>": "tinyint(4)"
+        },
+        "usrRemark": "string", // 状态注释
+        "usrFreezeTime": "int64" // 冻结的到期时间 0是永久冻结 unix时间戳
+    },
+    "RoomInfo": {
+        "roomId": "int", // 房间ID
+        "floor": "int" // 房间所在楼层
+    },
+    "GameInfo": {
+        "<extends>": "ShardDBObject",
+        "<dbindex>": "PRIMARY KEY (`uuid`),KEY `ENTITYID` (`entityId`),UNIQUE KEY `NAME` (`name`)",
+        "<dbname>": "game",
+        "name": "string", // 玩家名字
+        "portrait": "int", // 头像id
+        "sex": { // 性别
+            "<type>": "EUserSex",
+            "<dbtype>": "smallint"
+        },
+        "level": "int", // 等级
+        "fans": "int64", // 粉丝数量
+        "cup": "int", // 奖杯数量
+        "stall": "int", // 比赛档次
+        "vipLevel": "int", // vip等级
+        "vipExp": "int64", // vip经验
+        "extendFloor": "int", // 扩建的楼层
+        "buildRoomInfo": "array<RoomInfo>", // 建造的房间信息
+        "maxActor": "int", // 最大艺人数
+        "maxHideActor": "int", // 最大隐藏艺人数
+        "noseIntoNum": "int", // 查探次数
+        "noseIntoTime": "int64", // 查探时间
+        "resetNoseIntoTime": "int64", // 查探次数,时间重置时间
+        "noseIntoActorEffectTime": "int64", // 查探的艺人生效时间
+        "noseIntoActorList": "array<int>", // 查探的艺人ID
+        "expected": "int", // 期待值
+        "daysCultivateCount": "int", // 今日公司培养次数
+        "resetDaysCultivateCountTime": "int64", // 每日重置时间
+        "dailyTaskUpdateTime": "int64", // 日常任务更新时间
+        "achievementTaskUpdateTime": "int64", // 成就任务更新时间
+        "mallLimitDailyUpdateTime": "int64", // 商城每日限购更新时间
+        "mallLimitWeeklyUpdateTime": "int64", // 商城每周限购更新时间
+        "findStoryTime": "int", // 搜罗次数
+        "lastTimeFindStory": "int64", // 上次搜罗时间
+        "lastResetTime": "int64", // 上次夸天重置时间
+        "theaterIds": "array<int>", // 院线信息
+        "lastGetStreetRewardTimt": "int64", // 上次领取街区奖励的时间
+        "lastSendGroupRankListTime": "int64", // 上次祝贺总票房时间
+        "lastSendGroupMovieRankListTime": "int64", // 上次祝贺最高票房时间
+        "sendGroupRankListTimes": "int", // 祝贺次数
+        "initActorId": "int" // 初始化选择艺人id
+    },
+    "GameInfoExt": {
+        "<extends>": "ShardDBObject",
+        "<dbname>": "game",
+        "perSignature": { // 个性签名
+            "<type>": "string",
+            "<dbtype>": "text"
+        },
+        "totalFilm": "int", // 拍摄过的电影数
+        "numBoxOffice": "int64", // 票房总数
+        "numOrders": "int", // 订单总数
+        "numProductionLine": "int", // 最高档生产线
+        "numOfficialBusiness": "int", // 公务次数
+        "numMeeting": "int", // 会议次数
+        "numVisit": "int", // 拜访次数
+        "numGroupBest": "int", // 分组第一次数
+        "numBestArtDirection": "int", // 获得最佳艺术指导奖次数
+        "numBestPerformer": "int", // 获得最佳表演奖次数
+        "numBestPublicPraise": "int", // 获得最受欢迎奖次数
+        "numGoldenOliveAward": "int", // 获得金橄榄奖次数
+        "bestWordOfMouth": "int", // 最高口碑
+        "bestWordOfMouthFilm": "string", // 口碑最高的电影
+        "bestBoxOffice": "int64", // 最高票房
+        "bestBoxOfficeFilm": "string", // 票房最高的电影
+        "numNarrativeFilm": "int", // 叙事片数量
+        "numActionFilm": "int", // 动作片数量
+        "numAffectionalFilm": "int", // 爱情片数量
+        "numCartoonFilm": "int", // 动画片数量
+        "numComedyFilm": "int", // 喜剧片数量
+        "numMusicalFilm": "int", // 歌舞片数量
+        "numHorrorFilm": "int", // 恐怖片数量
+        "numSuspense": "int", // 悬疑片数量
+        "portraitList": "array<int>" // 头像ID列表
+    },
+    "ItemDesc": {
+        "itemId": "int", // 配置表id
+        "amount": "int64" // 奖励物品数量
+    },
+    // GM公告记录
+    "GMMsgLog": {
+        "<extends>": "ShardDBObject",
+        "<dbname>": "game",
+        "messageId": "int",
+        "publishTypeCode": {
+            "<type>": "EPublishTypeCode",
+            "<dbtype>": "tinyint(4)"
+        },
+        "receiveCount": "int", // 接受次数
+        "receiveTime": "int64" // unix时间戳
+    },
+    "OrderData": {
+        "<extends>": "DBObject",
+        "<dbname>": "game_global",
+        "entityId": "int64",
+        "orderId": "int64", // 订单号
+        "outerOrderId": "string", // 三方订单id
+        "productId": "string", // 商品编号
+        "productNum": "int", // 商品数量
+        "createTime": "int64", // unix时间戳
+        "paymentTime": "int64", // unix时间戳 (收到第三方支付系统成功支付的回调的时间)
+        "handleCount": "int" // 处理次数
+    },
+    "Notice": {
+        "title": "string", // 标题
+        "content": { // 内容
+            "<type>": "string",
+            "<dbtype>": "text"
+        },
+        "messageDetailUrl": "string",
+        "itemList": "array<ItemDesc>" // 奖励列表
+    },
+    "MailDesc": {
+        "title": "string", // 标题
+        "content": "string", // 内容
+        "itemList": "array<ItemDesc>", // 奖励列表
+        "createTime": "int64", // 创建时间
+        "endTime": "int64", // 过期时间
+        "IsRewardGot": "bool",
+        "isNew": "bool" // 是否是新邮件
+    },
+    "ItemData": {
+        "<extends>": "ShardDBObject",
+        "<dbname>": "game",
+        "itemId": "int", // 对应的策划表id
+        "amount": "int64", // 物品的数量
+        "createTime": "int64" // 创建(获得)时间
+    },
+    "StorySuitData": {
+        "<extends>": "ShardDBObject",
+        "<dbname>": "game",
+        "storySuitId": "int", // 剧本套id
+        "progress": "int", // 集齐剧本进度
+        "progress2": "int", // 剧本目标进度
+        "status": "int" // 状态
+    },
+    "StoryData": {
+        "<extends>": "ShardDBObject",
+        "<dbname>": "game",
+        "storyId": "int", // 剧本id
+        "storyProgressInfo": "array<StoryProgress>", // 每个剧本所要达成的目标列表
+        "status": "int", // 状态
+        "progress": "int", // 进度
+        "maxScore": "int64", // 最高票房
+        "shootLastTime": "int64" // 上次拍摄时间
+    },
+    "StoryProgress": {
+        "id": "int", // 1拍摄剧本 2媒体评分 3票房大卖以上
+        "progress": "int", // 进度
+        "status": "int" // 是否完成
+    },
+    "Assets": {
+        "giveType": "int", // 赠送的类型
+        "giveLevel": "int", // 赠送的等级
+        "giveItemList": "array<ItemDesc>", // 赠送的物品
+        "extraGiveACLimit": "int" // 额外赠送物品上限
+    },
+    "shootInfo": {
+        "type": "int", // 拍摄类型
+        "proficiencyExp": "int", // 熟练经验
+        "proficiencyLevel": "int" // 熟练等级
+    },
+    "skillTriggerCondition": {
+        "type": "int", // 触发条件类型
+        "value": "int" // 触发条件数值
+    },
+    "skillInfo": {
+        "skillId": "int", // 技能ID
+        "isEffect": "bool", // 是否生效
+        "triggerCondition": "array<skillTriggerCondition>" // 触发技能的条件,多个条件，有一个满足就生效
+    },
+    "ActorData": {
+        "<extends>": "ShardDBObject",
+        "<dbname>": "game",
+        "actorId": "int", // 艺人id
+        "name": "string", // 艺人名字
+        "hide": "bool", // 是否雪藏
+        "level": "int", // 等级
+        "levelExp": "int64", // 等级进度
+        "payCheck": "int64", // 片酬
+        "stamina": "int", // 体力
+        "staminaLimit": "int", // 体力上限
+        "LoyaltyExp": "int", // 忠诚度经验
+        "LoyaltyLevel": "int", // 忠诚度等级
+        "cultivateCount": "int", // 培养次数
+        "cultivateCountLimit": "int", // 培养次数上限
+        "giveAssetsCount": "int", // 赠送资产次数
+        "giveAssetsCountLimit": "int", // 赠送资产次数上限
+        "giveAssetsList": "array<Assets>", // 赠送资产列表
+        "skillExp": "int", // 技能经验
+        "skillList": "array<skillInfo>", // 技能信息列表
+        "shootTypeList": "array<shootInfo>", // 拍摄类型熟练度
+        "spectacle": "int", // 场面属性
+        "perform": "int", // 表演属性
+        "plot": "int", // 剧情属性
+        "art": "int", // 艺术属性
+        "boxOfficeCount": "int64", // 参与拍摄票房影响力总和
+        "cupCount": "int", // 获取奖杯数量
+        "movieCount": "int", // 拍摄电影次数
+        "entertainment": "int", // 娱乐属性
+        "produceId": "int", // 生产线id
+        "assistantInfos": "array<AssistantInfo>" // 助理信息
+    },
+    "AssistantInfo": {
+        "id": "int", // 助理id  1 2 3 4
+        "level": "int", // 助理等级
+        "actorSign": "int" // 增加的艺人标签
+    },
+    "CityData": {
+        "<extends>": "ShardDBObject",
+        "<dbname>": "game",
+        "lastCity": "int", // 最后一个城市
+        "headquarters": "int", // 总部城市
+        "ambassador": "array<int>", // 形象大使
+        "maxGold": "int64", // 金币上限
+        "maxFans": "int64", // 粉丝上限
+        "speedGold": "int64", // 金币掉落速度
+        "speedFans": "int64", // 粉丝掉落速度
+        "lastGold": "int64", // 上次更新掉落的金币
+        "lastFans": "int64", // 上次更新掉落的粉丝
+        "lastDropTimestamp": "int64", // 上次更新掉落的时间戳
+        "lastTime": "int64", // 上次结算时间
+        "dropList": "array<ItemDesc>", // 掉落列表
+        "lastArea": "int", // 当前宣传的地区
+        "lastAreaProgress": "int", // 当前宣传进度
+        "propagandaActor": "int", // 宣传大使
+        "roadShowFlag": "bool" // 路演成功标记
+    },
+    "skillEffectInfo": {
+        "actId": "int", // 技能ID
+        "value": "float" // 增加的数值%
+    },
+    "ActorSkillEffect": {
+        "<extends>": "ShardDBObject",
+        "<dbname>": "game",
+        "getGoldSpeed": "float", // 获得金币速度
+        "productionEarnings": "float", // 生产线收益
+        "actorPaycheck": "array<skillEffectInfo>", // 演员片酬
+        "boxOfficeEarnings": "array<skillEffectInfo>", // 收益票房
+        "cityGetGoldTime": "float", // 城市获取金币时间
+        "upgradeGoldCost": "array<skillEffectInfo>", // 升级金币消耗
+        "shootTotalAttrIncrease": "array<skillEffectInfo>" // 拍摄时全属性增加
+    },
+    "TempData": {
+        "<extends>": "ShardDBObject",
+        "<dbname>": "game",
+        "lastResetTime": "int64" // 上次重置时间
+    },
+    "MovieData": {
+        "<extends>": "ShardDBObject",
+        "<dbindex>": "PRIMARY KEY (`uuid`),KEY `MOVIEID` (`movieId`)",
+        "<dbname>": "game",
+        "movieId": "int", // 电影id
+        "name": "string", // 电影名字
+        "state": { // 当前状态
+            "<type>": "EMovieState",
+            "<dbtype>": "smallint"
+        },
+        "data": "array<int>", // 艺人选择 / 剧本选择
+        "movieCost": "array<int64>", // 电影成本
+        "expected": "array<int>", // 市场期待
+        "battleData": "array<BattleData>", // 战斗过程
+        "battleDataEx": "array<BattleData>", // 战斗过程
+        "type": "int", // 拍摄类型
+        "actorShootType": "array<int>", // 艺人熟练度增加经验
+        "isTired": "bool", // 是否疲劳
+        "isGetStoryGoals": "bool", // 是否领取剧本奖励
+        "mediaVisit": "array<MediaVisitDesc>", // 媒体访问
+        "mExpected": "int", // 期待值
+        "mediaCommend": "int", // 平均媒体评价
+        "mediaCommendArr": "array<int>", // 媒体评价
+        "praise": "int", // 媒体评价获得的点赞数
+        "premiereBoxOffice": "int64", // 首映票房
+        "extBoxOffice": "int64", // 额外票房
+        "publicPraise": "int", // 观众口碑
+        "runDays": "array<int64>", // 上映天数
+        "totalBoxOffice": "int64", // 总票房
+        "totalMovieCost": "int64", // 总成本
+        "evaluationCon": "int", // 评价系数
+        "attribute": "array<int>", // 依次对应5种属性结果, 场面, 表演, 剧情, 艺术, 娱乐
+        "maxAttribute": "array<int>", // 5种属性最大值, 场面, 表演, 剧情, 艺术, 娱乐
+        "avrAttribute": "array<int>", // 5种属性平均值, 场面, 表演, 剧情, 艺术, 娱乐
+        "dropCount": "int", // 随机次数
+        "boxOfficeEvaluation": { // 票房评价
+            "<type>": "EBoxOfficeEvaluation",
+            "<dbtype>": "tinyint(4)"
+        },
+        "extendCity": "int", // 推广城市id
+        "attentionValue": "int", // 推广关注度
+        "attentionProgress": "int", // 推广关注度进度
+        "dropItemList": "array<ItemDesc>", // 掉落物品
+        "contineTransceiver": "int64", // 持续收益
+        "startTime": "int64", // 开始时间戳
+        "lastTime": "int64" // 上次操作时间
+    },
+    "BattleData": {
+        "actorId": "int", // 艺人id
+        "propertyId": "int", // 属性id
+        "value": "int" // 属性值
+    },
+    "CityGainsInfo": {
+        "itemId": "int", // 物品ID
+        "speed": "int64", // 速度
+        "limit": "int64", // 上限
+        "baseNum": "int64" // 基础值
+    },
+    "MediaVisitDesc": {
+        "mediaId": "int", // 媒体id
+        "level": "int", // 媒体等级
+        "bAccept": "bool" // 是否接受
+    },
+    "ManageOrderData": { // 经营订单
+        "<extends>": "ShardDBObject",
+        "<dbindex>": "PRIMARY KEY (`uuid`),KEY `ENTITYID` (`entityId`)",
+        "<dbname>": "game",
+        "orderId": "int", // 经营订单ID
+        "items": "array<OrderItems>", // 已经塞入的物品
+        "position": "int", // 订单位置信息
+        "lastTime": "int64", // 订单开始时间
+        "delFlag": "bool" // 是否是删除订单 true表示被删除了
+    },
+    "OrderItems": {
+        "itemId": "int",
+        "amount": "int64",
+        "portrait": "int" // 自己放的为0 好友帮忙的是好友的头像
+    },
+    "ProgressBoxData": {
+        "<extends>": "ShardDBObject",
+        "<dbindex>": "PRIMARY KEY (`uuid`),KEY `MODULEID` (`moduleId`)",
+        "<dbname>": "game",
+        "moduleId": "int", // 模块ID 读取enum.json里 
+        "progress": "int", // 宝箱进度
+        "staus": "int", // 领取宝箱状态
+        "lastTime": "int64" // 上次领取时间
+    },
+    "ManageProduceData": { // 经营生产
+        "<extends>": "ShardDBObject",
+        "<dbindex>": "PRIMARY KEY (`uuid`),KEY `PRODUCEID` (`produceId`)",
+        "<dbname>": "game",
+        "produceId": "int", // 生产ID
+        "hadNum": "int", // 已经生产了多少个
+        "actId": "int", // 派遣的艺人ID
+        "level": "int", // 生产线等级
+        "skills": "array<SkillLevel>", // 生产技能列表
+        "randomNums": "array<int>", // 生产倍数
+        "produceNum": "int", // 排队生产多少个
+        "lastTime": "int64", // 开始生产时间
+        "hadProduceTimes": "int64" // 领取的时候清零，方便合作任务计算生产次数
+    },
+    "SkillLevel": {
+        "skillId": "int", // 技能ID 1队列数量 2 储存上限 3 生产时长 4 每次产出
+        "level": "int" // 技能等级
+    },
+    "AttrChangeInfo": {
+        "attrId": "int", // 属性id
+        "value": "int" // 改变的值
+    },
+    "MovieLicenceResetTimeData": {
+        "<extends>": "ShardDBObject",
+        "<dbname>": "game",
+        "lastResetTime": "int64", // 上次刷新时间
+        "dailyCount": "int", // 当天恢复数量
+        "lastUpdateTime": "int64", // 上次恢复时间
+        "cd": "int" // 当前cd值
+    },
+    "ManageBusinessData": { // 经营公务
+        "<extends>": "ShardDBObject",
+        "<dbindex>": "PRIMARY KEY (`uuid`),KEY `BUSINESSID` (`businessId`)",
+        "<dbname>": "game",
+        "businessId": "int", // 公务ID
+        "dailyCount": "int", // 当天阅读次数
+        "lineLimit": "int", // 公务队列上限
+        "lastUpdateTime": "int64", // 上次恢复时间
+        "lastResetTime": "int64" // 上次刷新时间
+    },
+    "ManageVisitData": { // 经营探班
+        "<extends>": "ShardDBObject",
+        "<dbindex>": "PRIMARY KEY (`uuid`),KEY `VISITID` (`visitId`)",
+        "<dbname>": "game",
+        "visitId": "int", // 探班ID
+        "actId": "int", // 艺人ID
+        "startTime": "int64", // 开始探班的时间
+        "lastTime": "int64", // 探班队列刷新时间
+        "lineLimit": "int", // 探班队列上限
+        "intervalTime": "int64", // 间隔时间
+        "isReceptior": "bool" // 是否正处于接待
+    },
+    "StoryMessageDesc": {
+        "name": "string", // 玩家名字
+        "userId": "int", // 玩家id
+        "portrait": "int", // 头像id
+        "sex": { // 性别
+            "<type>": "EUserSex",
+            "<dbtype>": "smallint"
+        },
+        "level": "int", // 玩家等级
+        "timestamp": "int64", // 留言时间
+        "message": "string" // 信息
+    },
+    "StoryMessage": {
+        "<extends>": "DBObject",
+        "<dbname>": "game_global",
+        "storyId": "int",
+        "message": "array<StoryMessageDesc>"
+    },
+    "ActorShortDesc": {
+        "actorId": "int",
+        "name": "string"
+    },
+    "MovieShortData": {
+        "userId": "int", // id
+        "uuid": "string", // 电影唯一id(MovieData.uuid)
+        "movieId": "int", // 电影id
+        "name": "string", // 电影名字
+        "data": "array<ActorShortDesc>", // 艺人选择 / 剧本选择
+        "type": "int", // 拍摄类型
+        "totalBoxOffice": "int64", // 票房
+        "boxOfficeEvaluation": "int", // 票房等级评价
+        "mediaCommend": "int", // 平均媒体评价
+        "publicPraise": "int" // 观众口碑
+    },
+    "BestMovieDesc": {
+        "movieUuid": "string", // uuid
+        "movieId": "int", // 电影id
+        "name": "string", // 电影名字
+        "totalBoxOffice": "int64", // 总票房
+        "boxOfficeEvaluation": "int" // 票房等级评价
+    },
+    "PlayerShortData": {
+        "userId": "int", // id
+        "portrait": "int", // 头像id
+        "sex": { // 性别
+            "<type>": "EUserSex",
+            "<dbtype>": "smallint"
+        },
+        "name": "string", // 名字
+        "level": "int", // 等级
+        "blockLevel": "int", // 街区等级
+        "perSignature": "string", // 个性签名
+        "city": "int", // 时长占领
+        "numActor": "int", // 艺人数量
+        "numBuilding": "int", // 建筑层数
+        "boxOfficeEvaluation": "array<int>", // 票房评价对应次数
+        "dailyBestMovie": "string", // 每日票房最佳 uuid
+        "bestMovie": "array<BestMovieDesc>" // 票房前三
+    },
+    "ServerListDesc": {
+        "portrait": "int", // 头像id
+        "sex": { // 性别
+            "<type>": "EUserSex",
+            "<dbtype>": "smallint"
+        },
+        "name": "string", // 名字
+        "userId": "int", // id
+        "movieUuid": "string",
+        "movieId": "int", // 电影id
+        "movieName": "string",
+        "totalBoxOffice": "int64" // 总票房
+    },
+    "GroupListDesc": {
+        "portrait": "int", // 头像id
+        "sex": { // 性别
+            "<type>": "EUserSex",
+            "<dbtype>": "smallint"
+        },
+        "name": "string", // 名字
+        "userId": "int", // id
+        "totalBoxOffice": "int64" // 总票房
+    },
+    "GroupMovieListDesc": {
+        "name": "string", // 名字
+        "movieUuid": "string",
+        "movieId": "int", // 电影id
+        "movieName": "string", // 电影名字
+        "userId": "int", // id
+        "totalBoxOffice": "int64" // 总票房
+    },
+    "SelfRankListDesc": {
+        "MainRank": "int", // 全服排名
+        "groupList": "int", // 分组总排行排名
+        "serverName": "string" // 服务器名称
+    },
+    "RankListData": {
+        "<extends>": "DBObject",
+        "<dbname>": "game_global",
+        "<dbindex>": "PRIMARY KEY (`uuid`),KEY `ENTITYID`(`entityId`)",
+        "entityId": "int64",
+        "serverId": "int", // 服务器id
+        "serverUuid": "string", // 服务器唯一id
+        "groupId": "int", // 分组id
+        "lastGroupId": "int", // 昨天的街区分组
+        "lastRank": "int", // 昨日排名
+        "lastWeakRank": "int", // 上周排名
+        "propaganda_department": "int64", // 建造宣传部的时间
+        "isGetLastReward": "bool", // 是否领取昨日奖励
+        "isChangeServerName": "bool", // 是否修改过服务器名字
+        "big_sell": "int", // 大卖电影数量
+        "totalBoxOffice": "int64", // 最高总票房
+        "totalBoxOfficeRank": "int", // 最高总票房排名
+        "historyBestTotalBoxOffice": "int", // 历史总票房最佳
+        "historyBestTotalBoxOfficeRank": "int", // 历史总票房最佳排名
+        "historyBestTotalBexOfficeBlockLevel": "int", // 历史最佳的街区
+        "historyBestTotalBexOfficeTotal": "int", // 当前街区玩家人数
+        "historyIsNew": "bool", // 是否新记录
+        "movies": "int", // 电影拍摄数量
+        "bestBoxOffice": "int64", // 最高票房
+        "bestBoxOfficeName": "string", // 最高票房电影
+        "bestBoxOfficeRank": "int", // 最高票房排名
+        "rewardFlags": "array<int>", // 奖励领取标记
+        "isNew": "bool" // 是否当天第一次获取
+    },
+    "TaskData": { // 任务结构
+        "<extends>": "ShardDBObject",
+        "<dbname>": "game",
+        "cid": "int", // 对应的策划表id
+        "type": { // 任务类型
+            "<type>": "EAchievementType",
+            "<dbtype>": "tinyint(4)"
+        },
+        "progress": "int", // 完成进度
+        "state": "EAchievementState" // 成就或任务状态
+    },
+    "MallItemLimitData": { // 单个商品限购数据
+        "<extends>": "ShardDBObject",
+        "<dbname>": "game",
+        "id": "int", // 商品id
+        "type": { // 限购类型
+            "<type>": "EMallItemLimitType",
+            "<dbtype>": "tinyint(4)"
+        },
+        "amount": "int" // 已经购买的个数
+    },
+    "MailData": {
+        "<extends>": "ShardDBObject",
+        "<dbname>": "game",
+        "title": "string", // 标题
+        "content": { // 内容
+            "<type>": "string",
+            "<dbtype>": "text"
+        },
+        "itemList": "array<ItemDesc>", // 奖励列表
+        "createTime": "int64", // 创建时间
+        "endTime": "int64", // 过期时间
+        "IsRewardGot": "bool",
+        "isNew": "bool" // 是否是新邮件
+    },
+    "ManageMeetingData": { // 经营会议
+        "<extends>": "ShardDBObject",
+        "<dbindex>": "PRIMARY KEY (`uuid`),KEY `MEETID` (`meetID`)",
+        "<dbname>": "game",
+        "meetID": "int", // 会议ID
+        "randResult": "int", // 选择的随机结果
+        "lastTime": "int64", // 会议队列刷新时间
+        "lineLimit": "int", // 会议队列上限
+        "intervalTime": "int64" // 间隔时间
+    },
+    "DanmuItem": {
+        "id": "int", // 用户 id
+        "name": "string", // 用户姓名
+        "time": "int64", // 时间戳
+        "msg": "string" // 弹幕消息
+    },
+    "DanmuData": {
+        "<extends>": "DBObject",
+        "<dbname>": "game_global",
+        "data": "array<DanmuItem>" // 弹幕数据
+    },
+    "DailySign": { // 日常签到数据
+        "<extends>": "ShardDBObject",
+        "<dbname>": "game",
+        "count": "int", // 签到数
+        "updateTime": "int64" // 更新时间
+    },
+    "SecretaryData": { // 小秘书功能
+        "<extends>": "ShardDBObject",
+        "<dbname>": "game",
+        "secretaryType": { // 秘书存在类型 0 未获取 1终身拥有 2暂时拥有
+            "<type>": "ESecretaryType",
+            "<dbtype>": "smallint"
+        },
+        "timeList": "array<SecretaryKeyValue>", // 每个操作对应的次数列表
+        "lastTime": "int64", // 上次更新数据时间
+        "applyFrequency": "int", // 申请次数 
+        "applyLastTime": "int64", // 上次申请时间
+        "isApply": "bool" // 是否申请
+    },
+    "SecretaryKeyValue": { // 小秘书列表
+        "key": "int",
+        "value": "int",
+        "isOpen": "bool" // 是否开启
+    },
+    "SevenAddUpData": { // 活动期间累计达到某种要求领取奖励
+        "<extends>": "ShardDBObject",
+        "<dbname>": "game",
+        "progress": "int", // 活动进度
+        "staus": "int", // 领取宝箱状态
+        "lastTime": "int64" // 上次更新进度时间
+    },
+    "ActortExerciseData": { // 艺人训练队列
+        "<extends>": "ShardDBObject",
+        "<dbname>": "game",
+        "index": "int", // 训练槽位顺序
+        "actorUuid": "string", // 艺人 uuid
+        "startTime": "int64" // 开始时间
+    },
+    "OscarDesc": {
+        "id": "int", // 艺人id或者剧本id
+        "name": "string", // 艺人名字或者剧本名字
+        "playerName": "string", // 玩家姓名
+        "userId": "int" // 玩家id
+    },
+    "OscarData": {
+        "man": "array<OscarDesc>", // 最佳男艺人提名
+        "woman": "array<OscarDesc>", // 最佳女艺人提名
+        "perform": "array<OscarDesc>", // 最佳表演提名
+        "art": "array<OscarDesc>", // 最佳艺术提名
+        "publicPraise": "array<OscarDesc>", // 最佳口碑提名
+        "bestMan": "int", // 最佳男艺人下标
+        "bestWoman": "int", // 最佳女艺人下标
+        "bestPerform": "int", // 最佳表演下标
+        "bestArt": "int", // 最佳艺术下标
+        "bestPublicPraise": "int", // 最佳口碑下标
+        "blockLevel": "int" // 街区等级
+    },
+    "PlayerOscarData": {
+        "big_sell": "int", // 大卖电影数量
+        "movies": "int" // 电影拍摄数量
+    },
+    "DailyEventItem": {
+        "time": "int", // 时间
+        "uuid": "string", // 事件的 uuid
+        "name": "string" // 事件的名称
+    },
+    "DailyEvent": { // 日程事件
+        "<extends>": "ShardDBObject",
+        "<dbname>": "game",
+        "data": "array<DailyEventItem>"
+    },
+    "GuideData": { // 引导数据
+        "<extends>": "ShardDBObject",
+        "<dbname>": "game",
+        "guide": "array<int>", // 引导相关
+        "story": "array<int>" // 剧情相关
+    },
+    "PlayerCooperateData": { // 合作
+        "<extends>": "ShardDBObject",
+        "<dbname>": "game",
+        "lastReqTime": "int64", // 上次请求时间 
+        "lastAutoReqTime": "int64", // 上次公开请求时间 
+        "rewardStatus": "int", // 领取进度宝箱状态
+        "giveGoldTime": "int", //赠送金币的次数
+        "giveDollarTime": "int", // 赠送美元的次数
+        "lastTime": "int" // 领取时间
+    },
+    "AccountCooperateData": { // 账号邀请合作数据
+        "<extends>": "DBObject",
+        "<dbname>": "game_global",
+        "friendEntityId": "string", // 成为好友的玩家
+        "appList": "array<ApplyInfo>", //请求他为好友的玩家信息
+        "weekTimes": "int", // 一周内合作不同人的次数
+        "lastWeek": "int", // 合作时间
+        "firstCooperate": "bool", // 首次合作奖励 true 表示已经领取过
+        "firstACooperate": "bool", // 首次通过账号查找建立合作 true 表示已经领取过
+        "isCaptain": "bool", //
+        "isRead": "bool" // false 不需要播放特效，true需要播放 
+    },
+    "ApplyInfo": {
+        "entityId": "string",
+        "lastTime": "int64"
+    },
+    "AutoCooperateData": { // 公共邀请合作数据
+        "<extends>": "DBObject",
+        "<dbname>": "game_global",
+        "applyEntityId": "string", // 申请人
+        "lastTime": "int64" // 申请时间
+    },
+    "CooperateTaskData": { // 合作任务
+        "<extends>": "DBObject",
+        "<dbname>": "game_global",
+        "tasks": "array<Ctask>",
+        "currentStar": "int", // 当前星级
+        "progree": "int",
+        "lastTime": "int"
+    },
+    "Ctask": {
+        "star": "int", // 几星任务
+        "progree": "int", // 星级任务进度
+        "starTasks": "array<StarTask>"
+    },
+    "StarTask": { // 星级任务
+        "taskid": "int", // 任务ID
+        "taskType": "int", // 任务类型
+        "itemId": "int", // 奖励ID
+        "captainItemNum": "int", // 队长奖励物品数量
+        "itemNum": "int", // 队员奖励物品数量
+        "needParam": "array<int>", // 需要的参数
+        "progress": "int", // 任务进度
+        "status": "int", // 0未完成  1已完成 2领取
+        "helpUuid": "string", // 协助任务的玩家
+        "receiveUuid": "string" // 接取任务的玩家
+    },
+    "CooperateOrderData": { // 合作订单
+        "<extends>": "DBObject",
+        "<dbname>": "game_global",
+        "entityId": "int", // 订单方
+        "portrait": "int", // 头像ID
+        "orderUuid": "string", // 订单唯一ID
+        "itemId": "int",
+        "amount": "int64",
+        "lastTime": "int64" // 放入时间
+    },
+    "PlayerLevelUp": {
+        "old_level": "int", // 原来的等级
+        "now_level": "int", // 现在的等级
+        "story": "array<int>" // 升级赠送剧本
+    },
+    "GoldExchange": {
+        "count": "int" // 兑换次数
+    },
+    "NewMessageInfo": {
+        "num": "int", // 未读消息的数量
+        "type": "string", // 消息类型，user/system
+        "userMsg": "MessageInfo", // 最新一条未读消息
+        "systemMsg": "SystemMessage" // 系统消息
+    },
+    "MessageInfo": {
+        "userId": "int", // 玩家id
+        "name": "string", // 公司名
+        "portrait": "int", // 头像
+        "sex": "int", // 性别
+        "messageId": "int", // 信息id
+        "message": "string", // 信息
+        "time": "int" // 发送时间
+    },
+    "SystemMessage": {
+        "userId": "int", // 玩家id
+        "messageId": "int", // 信息id // 世界频道的消息id
+        "message": "int", // 信息id //MsgChat表
+        "time": "int", // 发送时间
+        "fieldInfo": "array<FieldInfo>" // 信息详情
+    },
+    "FieldInfo": {
+        "type": "int",
+        "text": "string",
+        "args": "string"
+    },
+    "PrivateListInfo": {
+        "roomId": "int", // 房间号
+        "userId": "int", // 玩家id
+        "name": "string", // 公司名
+        "portrait": "int", // 头像
+        "sex": "int", // 性别
+        "message": "MessageInfo", // 信息
+        "newMsgNum": "int" // 新消息的数量
+    },
+    "PushMessageInfo": {
+        "roomId": "int", // 房间号
+        "message": "array<MessageInfo>" // 信息
+    },
+    "RoomMember": {
+        "member": "int", // 成员id
+        "name": "string", // 公司名
+        "portrait": "int", // 头像
+        "sex": "int", // 性别
+        "lastRead": "int" // 上一次阅读的消息id
+    },
+    "LevelGiftData": {
+        "<extends>": "ShardDBObject",
+        "<dbname>": "game",
+        "giftId": "int" // 等级礼包id
+    },
+    "GetGuideReward": { // 完成所有引导任务领取奖励
+        "<extends>": "ShardDBObject",
+        "<dbname>": "game",
+        "staus": "int" // 领取宝箱状态
+    },
+    "CupPackage": { // 奖杯礼包
+        "<extends>": "ShardDBObject",
+        "<dbname>": "game",
+        "giftId": "int",
+        "process": "int", // 进度
+        "status": "int", // 任务状态
+        "startTime": "int" // 礼包开启时间
+    },
+    "StoryRefreshData": { // 剧本刷新时间信息
+        "<extends>": "ShardDBObject",
+        "<dbname>": "game",
+        "dayTime": "int", // 每日次数
+        "lastTime": "int"
+    }
+}

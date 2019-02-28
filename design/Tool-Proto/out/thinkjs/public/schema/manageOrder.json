@@ -1,0 +1,114 @@
+{
+  "manageOrder/PutItem/req": {
+    "comment": null,
+    "$id": "manageOrder/PutItem/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "entityId": {
+        "type": "number"
+      },
+      "itemId": {
+        "type": "number"
+      },
+      "type": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "uuid",
+      "entityId",
+      "itemId",
+      "type"
+    ]
+  },
+  "manageOrder/PutItem/resp": {
+    "comment": null,
+    "$id": "manageOrder/PutItem/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "itemInfo": {
+        "type": "object",
+        "properties": {
+          "itemId": {
+            "type": "number"
+          },
+          "amount": {
+            "type": "number"
+          }
+        }
+      },
+      "type": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "uuid",
+      "itemInfo",
+      "type"
+    ]
+  },
+  "manageOrder/DelOrder/req": {
+    "comment": null,
+    "$id": "manageOrder/DelOrder/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "manageOrder/DelOrder/resp": {
+    "comment": null,
+    "$id": "manageOrder/DelOrder/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "manageOrder/FinishOrder/req": {
+    "comment": null,
+    "$id": "manageOrder/FinishOrder/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "manageOrder/FinishOrder/resp": {
+    "comment": null,
+    "$id": "manageOrder/FinishOrder/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "manageOrder/DealOrder/req": {
+    "comment": null,
+    "$id": "manageOrder/DealOrder/req",
+    "properties": {},
+    "required": []
+  },
+  "manageOrder/DealOrder/resp": {
+    "comment": null,
+    "$id": "manageOrder/DealOrder/resp",
+    "properties": {},
+    "required": []
+  }
+}

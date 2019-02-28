@@ -5,6 +5,7 @@ import VersionConfig from "./VersionConfig";
 import VersionData from "./VersionData";
 import Game from "../Game";
 import AppSetting from "../Bridge/AppSetting";
+import Signal from "../Libs/signals/Signal";
 
 
 export default class VersionManager
@@ -27,7 +28,8 @@ export default class VersionManager
 	webRoot = "http://mbqb.ihaiu.com/Gidea-PF-Res/resources";
 	webVersionUrl = "http://mbqb.ihaiu.com/Gidea-PF-Res/resources/verinfo/DTGameVersion.json";
 
-
+	// 本地版本号发生变化
+	sLocalVersionChange: Signal = new Signal();
 
 
 	// 网络，版本信息配置		
@@ -174,6 +176,7 @@ export default class VersionManager
 	{
 		this.__localResVersion = version;
 		LocalStorage.setItem("__localResVersion", version);
+		this.sLocalVersionChange.dispatch();
 
 	}
 

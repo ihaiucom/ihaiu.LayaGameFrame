@@ -1,0 +1,73 @@
+{
+  "Danmu/set/req": {
+    "comment": null,
+    "$id": "Danmu/set/req",
+    "properties": {
+      "id": {
+        "type": "number"
+      },
+      "msg": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "id",
+      "msg"
+    ]
+  },
+  "Danmu/set/resp": {
+    "comment": null,
+    "$id": "Danmu/set/resp",
+    "properties": {},
+    "required": []
+  },
+  "Danmu/get/req": {
+    "comment": " 可以传入 time 表示获取这个时间戳以后的弹幕",
+    "$id": "Danmu/get/req",
+    "properties": {
+      "id": {
+        "type": "number"
+      },
+      "time": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "id",
+      "time"
+    ]
+  },
+  "Danmu/get/resp": {
+    "comment": null,
+    "$id": "Danmu/get/resp",
+    "properties": {
+      "data": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "number"
+            },
+            "name": {
+              "type": "string"
+            },
+            "time": {
+              "type": "number"
+            },
+            "msg": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "time": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "data",
+      "time"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+﻿int	string
+id	助手评价
+id	msg
+1	The media only gave {0} to our movie…well, as they say, failure is the path to succes!
+2	The movie's rating is only {0}, would it be the scheme of our opponents?
+3	Well, I'm sure not everyone thinks it can only gets a rating of {0}.
+4	Reviews of this movie are not very optimistic, the media rating is only {0}... But ratings ain't everything!
+5	The media's rating is only {0}, but maybe the box-office will be beyond expectation!
+6	The media gave us {0}, and the reviews are not bad~
+7	The media feedback was very good this time, we got {0}! I really look forward to our box-office!
+8	Our movie has received mass good reviews in all major media, with a rating of {0}! It’s really exciting!
+9	Gosh, I didn't expect that one day we could make a movie with a rating of {0}! It feels amazing!
+10	With a rating of {0}, we're definitly gonna win an Oskar Award!

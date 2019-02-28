@@ -1,0 +1,39 @@
+{
+  "list": 
+  [
+  	{
+  		"xlsx": "../Config-Release/Common/Global.xlsx",
+  		"idField": "id",
+  		"keyField": "key",
+  		"txtModuleField": "",
+  		"txtNameField": "name",
+  		"tplPath": "./ExportKey/Template/TS/KeyTemplate.txt",
+  		"codePath": "../../Gidea-PF-Client-Release/GamePF/src/Config/keys/GlobalKey.ts",
+  		"codeClassname": "GlobalKey",
+  		"generateEmptyKey": true,
+  		"generateFullPing": true,
+  		"generateCode": true,
+  		"generateCodeNote": true,
+  		"replaceCode": true,
+  		"replaceCodeRoot": "../../Gidea-PF-Client-Release/GamePF/src",
+  	},
+
+  	{
+  		"xlsx": "../Config-Release/Common/Msg.xlsx",
+  		"idField": "id",
+  		"keyField": "key",
+  		"txtModuleField": "module",
+  		"txtNameField": "name",
+  		"tplPath": "./ExportKey/Template/TS/KeyTemplate.txt",
+  		"codePath": "../../Gidea-PF-Client-Release/GamePF/src/Config/keys/MsgKey.ts",
+  		"codeClassname": "MsgKey",
+  		"generateEmptyKey": true,
+  		"generateFullPing": true,
+  		"generateCode": true,
+  		"generateCodeNote": true,
+  		"replaceCode": false,
+  		"replaceCodeRoot": "../../GamePF/Gidea-PF-Client-Release/GamePF/src",
+
+  	},
+  ]
+}

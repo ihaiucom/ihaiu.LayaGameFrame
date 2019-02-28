@@ -1,0 +1,11 @@
+{
+  "enableoverwrites": [
+  	{
+  		"src":"./out/laya/src", 
+  		"dst":"../../Gidea-PF-Client-Release/GamePF/src/proto"
+  	}
+  ],
+  "disableoverwrites": [
+  	
+  ]
+}

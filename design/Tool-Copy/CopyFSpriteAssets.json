@@ -1,0 +1,12 @@
+{
+  "enableoverwrites": [
+  	{
+  		"src":"../../gamepf_art/FairySpriteLower/assets", 
+  		"dst":"../../client/Game/bin/res/fspriteassets"
+  	}
+  
+  ],
+  "disableoverwrites": [
+  	
+  ]
+}

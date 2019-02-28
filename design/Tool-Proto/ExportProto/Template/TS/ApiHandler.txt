@@ -1,0 +1,22 @@
+/////////////////////////////////////
+// ihaiu.ExportProto生成
+// http://blog.ihaiu.com
+/////////////////////////////////////
+
+namespace Games
+{
+	/**
+	 * >:classNote:<
+	 */
+	export class >:className:< extends ProtoHandler
+	{
+	
+		moduleName: string = ProtoModuleNames.>:name:<;
+
+		>:FOREACH funCodeList:<
+		>:[0]:<
+		>:ENDFOREACH:<
+
+
+	}
+}

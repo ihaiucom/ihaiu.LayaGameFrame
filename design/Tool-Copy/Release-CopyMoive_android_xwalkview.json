@@ -1,0 +1,11 @@
+{
+  "enableoverwrites": [
+  	{
+  		"src":"../../Gidea-PF-Client-Release/GamePF/bin", 
+  		"dst":"../../Gidea-PF-Client-Release/Gidea-PF-SDK-Android-XWalkView/app/src/main/assets/www"
+  	}
+  ],
+  "disableoverwrites": [
+  	
+  ]
+}

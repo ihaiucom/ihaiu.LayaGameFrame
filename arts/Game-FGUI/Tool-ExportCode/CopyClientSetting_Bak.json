@@ -2,7 +2,7 @@
   "enableoverwrites": [
     {
       "src":"../../../client/Game/src/FGUI", 
-      "dst":"../../../_gen/FairyGUICodeBak/XXXX/fgui"
+      "dst":"../../../_gen/FairyGUICodeBak/XXXX/FGUI"
     }
   ],
   "disableoverwrites": [

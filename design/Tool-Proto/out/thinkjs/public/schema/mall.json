@@ -1,0 +1,30 @@
+{
+  "mall/buy/req": {
+    "comment": null,
+    "$id": "mall/buy/req",
+    "properties": {
+      "goodsId": {
+        "type": "number"
+      },
+      "amount": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "goodsId",
+      "amount"
+    ]
+  },
+  "mall/buy/resp": {
+    "comment": null,
+    "$id": "mall/buy/resp",
+    "properties": {
+      "result": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "result"
+    ]
+  }
+}

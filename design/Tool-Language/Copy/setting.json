@@ -1,0 +1,38 @@
+{
+  "enableoverwrites": [
+  	{
+  		"src":"../../_gen/ConfigOut/csv", 
+  		"dst":"../../_gen/ConfigOut2/csv"
+  	},
+  	{
+  		"src":"../../_gen/ConfigOut/json", 
+  		"dst":"../../_gen/ConfigOut2/json"
+  	},
+  	{
+  		"src":"../../_gen/ConfigOut/Client/Config/ConfigIncludes.ts", 
+  		"dst":"../../_gen/ConfigOut2/Client/Config/ConfigIncludes.ts"
+  	},
+  	{
+  		"src":"../../_gen/ConfigOut/Client/Config/ConfigManagerList.ts", 
+  		"dst":"../../_gen/ConfigOut2/Client/Config/ConfigManagerList.ts"
+  	},
+  	{
+  		"src":"../../_gen/ConfigOut/Client/Config/ConfigStructs", 
+  		"dst":"../../_gen/ConfigOut2/Client/Config/ConfigStructs"
+  	},
+  	{
+  		"src":"../../_gen/ConfigOut/Client/Config/ReaderStructs", 
+  		"dst":"../../_gen/ConfigOut2/Client/Config/ReaderStructs"
+  	}
+  ],
+  "disableoverwrites": [
+  	{
+  		"src":"../../_gen/ConfigOut/Client/Config/ConfigExtends", 
+  		"dst":"../../_gen/ConfigOut2/Client/Config/ConfigExtends"
+  	},
+  	{
+  		"src":"../../_gen/ConfigOut/Client/Config/ReaderExtends", 
+  		"dst":"../../_gen/ConfigOut2/Client/Config/ReaderExtends"
+  	}
+  ]
+}

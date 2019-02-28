@@ -1,0 +1,154 @@
+import MModel from "../../GameFrame/Module/MModel";
+import Dictionary from "../../Libs/Helpers/Dictionary";
+import ItemData from "../DataStructs/ItemData";
+
+
+//======================
+// 物品 数据模型
+//----------------------
+export default class ItemModel extends MModel
+{
+	// 物品字典
+	private dict: Dictionary<number, ItemData> = new Dictionary<number, ItemData>();
+	// 物品字典,用uuid作为字典
+	private dictByUuid: Dictionary<number, ItemData> = new Dictionary<number, ItemData>();
+
+	public CreateItem(id: number, num: number)
+	{
+		let item = new ItemData();
+		item.itemId = id;
+		item.itemNum = num;
+		return item;
+	}
+
+	// 获取物品列表，数量大于0，且config存在
+	get itemList(): ItemData[]
+	{
+		let list: ItemData[] = [];
+		let items = this.dict.getValues();
+		for (let i = 0; i < items.length; i++)
+		{
+			if (items[i].itemNum > 0 && items[i].itemConfig)
+			{
+				list.push(items[i]);
+			}
+		}
+		return list;
+	}
+
+	public GetItemListByType(types: number[])
+	{
+		let list: ItemData[] = [];
+		let items = this.dict.getValues();
+		for (let i = 0; i < items.length; i++)
+		{
+			for (var j = 0; j < types.length; j++)
+			{
+				var type = types[j];
+				if (items[i].itemType == type && items[i].itemNum > 0 && items[i].itemConfig)
+				{
+					list.push(items[i]);
+					break;
+				}
+			}
+		}
+		return list;
+	}
+
+
+	// 获取物品, 用uuid
+	getItemByUuid(uuid: string): ItemData
+	{
+		if (this.dictByUuid.hasKey(uuid))
+		{
+			return this.dictByUuid.getValue(uuid);
+		}
+		else
+		{
+			return null;
+		}
+	}
+
+
+	// 获取物品数量, 用uuid
+	getItemNumByUuid(uuid: string): number
+	{
+		let item = this.getItemByUuid(uuid);
+		if (item)
+		{
+			return item.itemNum;
+		}
+		return 0;
+	}
+
+
+
+	// 获取物品
+	getItem(itemId: number): ItemData
+	{
+		if (this.dict.hasKey(itemId))
+		{
+			return this.dict.getValue(itemId);
+		}
+		else
+		{
+			let item = ItemData.Create(itemId, 0);
+			this.dict.add(itemId, item);
+			return item;
+		}
+	}
+
+	// 获取物品数量文本
+	getItemNumTxt(itemId: number): string
+	{
+		return formatNumberUnit(this.getItemNum(itemId));
+	}
+
+	// 获取物品数量
+	getItemNum(itemId: number): number
+	{
+		let item = this.getItem(itemId);
+		if (item)
+		{
+			return item.itemNum;
+		}
+		return 0;
+	}
+
+	// 设置物品数量
+	setItemNum(itemId: number, itemNum: number, uuid?: string, createTime?: number): void
+	{
+		let item: ItemData;
+
+		if (uuid)
+		{
+			item = this.getItemByUuid(uuid);
+
+			if (!item && itemId > 0)
+			{
+				item = this.getItem(itemId);
+				item.uuid = uuid;
+				this.dictByUuid.add(uuid, item);
+			}
+		}
+
+		if (!item)
+		{
+			item = this.getItem(itemId);
+		}
+
+		item.itemNum = itemNum;
+
+		if (createTime !== undefined)
+		{
+			item.createTime = createTime;
+		}
+	}
+
+	// 是否满足物品数量
+	hasItemNum(itemId: number, needNum: number): boolean
+	{
+		return this.getItemNum(itemId) >= needNum;
+	}
+
+}

@@ -1,0 +1,12 @@
+{
+  "enableoverwrites": [
+  	{
+  		"src":"../../client/Game/bin", 
+  		"dst":"//172.16.50.177/GamePF/shenliangliang"
+  	},
+  
+  ],
+  "disableoverwrites": [
+  	
+  ]
+}

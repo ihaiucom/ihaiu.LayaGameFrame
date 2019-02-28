@@ -1,0 +1,708 @@
+{
+  "chat/MessageNotice/req": {
+    "comment": null,
+    "$id": "chat/MessageNotice/req",
+    "properties": {
+      "channel": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "channel"
+    ]
+  },
+  "chat/MessageNotice/resp": {
+    "comment": null,
+    "$id": "chat/MessageNotice/resp",
+    "properties": {
+      "roomId": {
+        "type": "number"
+      },
+      "newMessage": {
+        "type": "object",
+        "properties": {
+          "num": {
+            "type": "number"
+          },
+          "type": {
+            "type": "string"
+          },
+          "userMsg": {
+            "type": "object",
+            "properties": {
+              "userId": {
+                "type": "number"
+              },
+              "name": {
+                "type": "string"
+              },
+              "portrait": {
+                "type": "number"
+              },
+              "sex": {
+                "type": "number"
+              },
+              "messageId": {
+                "type": "number"
+              },
+              "message": {
+                "type": "string"
+              },
+              "time": {
+                "type": "number"
+              }
+            }
+          },
+          "systemMsg": {
+            "type": "object",
+            "properties": {
+              "userId": {
+                "type": "number"
+              },
+              "messageId": {
+                "type": "number"
+              },
+              "message": {
+                "type": "number"
+              },
+              "time": {
+                "type": "number"
+              },
+              "fieldInfo": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "number"
+                    },
+                    "text": {
+                      "type": "string"
+                    },
+                    "args": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "required": [
+      "roomId",
+      "newMessage"
+    ]
+  },
+  "chat/NewMessage/req": {
+    "comment": null,
+    "$id": "chat/NewMessage/req",
+    "properties": {},
+    "required": []
+  },
+  "chat/NewMessage/resp": {
+    "comment": null,
+    "$id": "chat/NewMessage/resp",
+    "properties": {
+      "worldInfo": {
+        "type": "object",
+        "properties": {
+          "num": {
+            "type": "number"
+          },
+          "type": {
+            "type": "string"
+          },
+          "userMsg": {
+            "type": "object",
+            "properties": {
+              "userId": {
+                "type": "number"
+              },
+              "name": {
+                "type": "string"
+              },
+              "portrait": {
+                "type": "number"
+              },
+              "sex": {
+                "type": "number"
+              },
+              "messageId": {
+                "type": "number"
+              },
+              "message": {
+                "type": "string"
+              },
+              "time": {
+                "type": "number"
+              }
+            }
+          },
+          "systemMsg": {
+            "type": "object",
+            "properties": {
+              "userId": {
+                "type": "number"
+              },
+              "messageId": {
+                "type": "number"
+              },
+              "message": {
+                "type": "number"
+              },
+              "time": {
+                "type": "number"
+              },
+              "fieldInfo": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "number"
+                    },
+                    "text": {
+                      "type": "string"
+                    },
+                    "args": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "privateInfo": {
+        "type": "object",
+        "properties": {
+          "num": {
+            "type": "number"
+          },
+          "type": {
+            "type": "string"
+          },
+          "userMsg": {
+            "type": "object",
+            "properties": {
+              "userId": {
+                "type": "number"
+              },
+              "name": {
+                "type": "string"
+              },
+              "portrait": {
+                "type": "number"
+              },
+              "sex": {
+                "type": "number"
+              },
+              "messageId": {
+                "type": "number"
+              },
+              "message": {
+                "type": "string"
+              },
+              "time": {
+                "type": "number"
+              }
+            }
+          },
+          "systemMsg": {
+            "type": "object",
+            "properties": {
+              "userId": {
+                "type": "number"
+              },
+              "messageId": {
+                "type": "number"
+              },
+              "message": {
+                "type": "number"
+              },
+              "time": {
+                "type": "number"
+              },
+              "fieldInfo": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "number"
+                    },
+                    "text": {
+                      "type": "string"
+                    },
+                    "args": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "companyInfo": {
+        "type": "object",
+        "properties": {
+          "num": {
+            "type": "number"
+          },
+          "type": {
+            "type": "string"
+          },
+          "userMsg": {
+            "type": "object",
+            "properties": {
+              "userId": {
+                "type": "number"
+              },
+              "name": {
+                "type": "string"
+              },
+              "portrait": {
+                "type": "number"
+              },
+              "sex": {
+                "type": "number"
+              },
+              "messageId": {
+                "type": "number"
+              },
+              "message": {
+                "type": "string"
+              },
+              "time": {
+                "type": "number"
+              }
+            }
+          },
+          "systemMsg": {
+            "type": "object",
+            "properties": {
+              "userId": {
+                "type": "number"
+              },
+              "messageId": {
+                "type": "number"
+              },
+              "message": {
+                "type": "number"
+              },
+              "time": {
+                "type": "number"
+              },
+              "fieldInfo": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "number"
+                    },
+                    "text": {
+                      "type": "string"
+                    },
+                    "args": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "required": [
+      "worldInfo",
+      "privateInfo",
+      "companyInfo"
+    ]
+  },
+  "chat/AllMessage/req": {
+    "comment": null,
+    "$id": "chat/AllMessage/req",
+    "properties": {},
+    "required": []
+  },
+  "chat/AllMessage/resp": {
+    "comment": null,
+    "$id": "chat/AllMessage/resp",
+    "properties": {
+      "worldUserInfo": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "userId": {
+              "type": "number"
+            },
+            "name": {
+              "type": "string"
+            },
+            "portrait": {
+              "type": "number"
+            },
+            "sex": {
+              "type": "number"
+            },
+            "messageId": {
+              "type": "number"
+            },
+            "message": {
+              "type": "string"
+            },
+            "time": {
+              "type": "number"
+            }
+          }
+        }
+      },
+      "worldSystemInfo": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "userId": {
+              "type": "number"
+            },
+            "messageId": {
+              "type": "number"
+            },
+            "message": {
+              "type": "number"
+            },
+            "time": {
+              "type": "number"
+            },
+            "fieldInfo": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "type": {
+                    "type": "number"
+                  },
+                  "text": {
+                    "type": "string"
+                  },
+                  "args": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "privateInfo": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "roomId": {
+              "type": "number"
+            },
+            "userId": {
+              "type": "number"
+            },
+            "name": {
+              "type": "string"
+            },
+            "portrait": {
+              "type": "number"
+            },
+            "sex": {
+              "type": "number"
+            },
+            "message": {
+              "type": "object",
+              "properties": {
+                "userId": {
+                  "type": "number"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "portrait": {
+                  "type": "number"
+                },
+                "sex": {
+                  "type": "number"
+                },
+                "messageId": {
+                  "type": "number"
+                },
+                "message": {
+                  "type": "string"
+                },
+                "time": {
+                  "type": "number"
+                }
+              }
+            },
+            "newMsgNum": {
+              "type": "number"
+            }
+          }
+        }
+      },
+      "companyInfo": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "userId": {
+              "type": "number"
+            },
+            "name": {
+              "type": "string"
+            },
+            "portrait": {
+              "type": "number"
+            },
+            "sex": {
+              "type": "number"
+            },
+            "messageId": {
+              "type": "number"
+            },
+            "message": {
+              "type": "string"
+            },
+            "time": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "required": [
+      "worldUserInfo",
+      "worldSystemInfo",
+      "privateInfo",
+      "companyInfo"
+    ]
+  },
+  "chat/SendMessage/req": {
+    "comment": null,
+    "$id": "chat/SendMessage/req",
+    "properties": {
+      "message": {
+        "type": "string"
+      },
+      "recipient": {
+        "type": "number"
+      },
+      "roomId": {
+        "type": "number"
+      },
+      "channel": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "message",
+      "recipient",
+      "roomId",
+      "channel"
+    ]
+  },
+  "chat/SendMessage/resp": {
+    "comment": null,
+    "$id": "chat/SendMessage/resp",
+    "properties": {
+      "roomId": {
+        "type": "number"
+      },
+      "message": {
+        "type": "object",
+        "properties": {
+          "userId": {
+            "type": "number"
+          },
+          "name": {
+            "type": "string"
+          },
+          "portrait": {
+            "type": "number"
+          },
+          "sex": {
+            "type": "number"
+          },
+          "messageId": {
+            "type": "number"
+          },
+          "message": {
+            "type": "string"
+          },
+          "time": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "required": [
+      "roomId",
+      "message"
+    ]
+  },
+  "chat/PullMessage/req": {
+    "comment": null,
+    "$id": "chat/PullMessage/req",
+    "properties": {
+      "channel": {
+        "type": "number"
+      },
+      "roomId": {
+        "type": "number"
+      },
+      "messageId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "channel",
+      "roomId",
+      "messageId"
+    ]
+  },
+  "chat/PullMessage/resp": {
+    "comment": null,
+    "$id": "chat/PullMessage/resp",
+    "properties": {
+      "messageInfo": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "userId": {
+              "type": "number"
+            },
+            "name": {
+              "type": "string"
+            },
+            "portrait": {
+              "type": "number"
+            },
+            "sex": {
+              "type": "number"
+            },
+            "messageId": {
+              "type": "number"
+            },
+            "message": {
+              "type": "string"
+            },
+            "time": {
+              "type": "number"
+            }
+          }
+        }
+      },
+      "systemMessageInfo": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "userId": {
+              "type": "number"
+            },
+            "messageId": {
+              "type": "number"
+            },
+            "message": {
+              "type": "number"
+            },
+            "time": {
+              "type": "number"
+            },
+            "fieldInfo": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "type": {
+                    "type": "number"
+                  },
+                  "text": {
+                    "type": "string"
+                  },
+                  "args": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "channel": {
+        "type": "number"
+      },
+      "roomId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "messageInfo",
+      "systemMessageInfo",
+      "channel",
+      "roomId"
+    ]
+  },
+  "chat/Sheielding/req": {
+    "comment": null,
+    "$id": "chat/Sheielding/req",
+    "properties": {
+      "userId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "userId"
+    ]
+  },
+  "chat/Sheielding/resp": {
+    "comment": null,
+    "$id": "chat/Sheielding/resp",
+    "properties": {},
+    "required": []
+  },
+  "chat/ReleaseShield/req": {
+    "comment": null,
+    "$id": "chat/ReleaseShield/req",
+    "properties": {
+      "userId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "userId"
+    ]
+  },
+  "chat/ReleaseShield/resp": {
+    "comment": null,
+    "$id": "chat/ReleaseShield/resp",
+    "properties": {},
+    "required": []
+  },
+  "chat/recruit/req": {
+    "comment": null,
+    "$id": "chat/recruit/req",
+    "properties": {},
+    "required": []
+  },
+  "chat/recruit/resp": {
+    "comment": null,
+    "$id": "chat/recruit/resp",
+    "properties": {},
+    "required": []
+  }
+}

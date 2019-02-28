@@ -1,0 +1,421 @@
+{
+  "Actor/NoseInfoActor/req": {
+    "comment": " 请求",
+    "$id": "Actor/NoseInfoActor/req",
+    "properties": {
+      "isUseCard": {
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "isUseCard"
+    ]
+  },
+  "Actor/NoseInfoActor/resp": {
+    "comment": null,
+    "$id": "Actor/NoseInfoActor/resp",
+    "properties": {
+      "result": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "result"
+    ]
+  },
+  "Actor/RecruitActor/req": {
+    "comment": null,
+    "$id": "Actor/RecruitActor/req",
+    "properties": {
+      "actorId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "actorId"
+    ]
+  },
+  "Actor/RecruitActor/resp": {
+    "comment": null,
+    "$id": "Actor/RecruitActor/resp",
+    "properties": {
+      "result": {
+        "type": "number"
+      },
+      "actorId": {
+        "type": "number"
+      },
+      "isNewActor": {
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "result",
+      "actorId",
+      "isNewActor"
+    ]
+  },
+  "Actor/HideActor/req": {
+    "comment": null,
+    "$id": "Actor/HideActor/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "isHide": {
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "uuid",
+      "isHide"
+    ]
+  },
+  "Actor/HideActor/resp": {
+    "comment": null,
+    "$id": "Actor/HideActor/resp",
+    "properties": {
+      "result": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "result"
+    ]
+  },
+  "Actor/AddActorSlot/req": {
+    "comment": null,
+    "$id": "Actor/AddActorSlot/req",
+    "properties": {},
+    "required": []
+  },
+  "Actor/AddActorSlot/resp": {
+    "comment": null,
+    "$id": "Actor/AddActorSlot/resp",
+    "properties": {
+      "result": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "result"
+    ]
+  },
+  "Actor/UpgradeActor/req": {
+    "comment": null,
+    "$id": "Actor/UpgradeActor/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "Actor/UpgradeActor/resp": {
+    "comment": null,
+    "$id": "Actor/UpgradeActor/resp",
+    "properties": {
+      "result": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "result"
+    ]
+  },
+  "Actor/GiveActorAssets/req": {
+    "comment": null,
+    "$id": "Actor/GiveActorAssets/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "giveType": {
+        "type": "number"
+      },
+      "giveLevel": {
+        "type": "number"
+      },
+      "giveNum": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "uuid",
+      "giveType",
+      "giveLevel",
+      "giveNum"
+    ]
+  },
+  "Actor/GiveActorAssets/resp": {
+    "comment": null,
+    "$id": "Actor/GiveActorAssets/resp",
+    "properties": {
+      "result": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "result"
+    ]
+  },
+  "Actor/UpgradeActorSkill/req": {
+    "comment": null,
+    "$id": "Actor/UpgradeActorSkill/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "skillId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "uuid",
+      "skillId"
+    ]
+  },
+  "Actor/UpgradeActorSkill/resp": {
+    "comment": null,
+    "$id": "Actor/UpgradeActorSkill/resp",
+    "properties": {
+      "result": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "result"
+    ]
+  },
+  "Actor/ActorTrain/req": {
+    "comment": null,
+    "$id": "Actor/ActorTrain/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "trainType": {
+        "type": "number"
+      },
+      "useDiamond": {
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "uuid",
+      "trainType",
+      "useDiamond"
+    ]
+  },
+  "Actor/ActorTrain/resp": {
+    "comment": null,
+    "$id": "Actor/ActorTrain/resp",
+    "properties": {
+      "result": {
+        "type": "number"
+      },
+      "uuid": {
+        "type": "string"
+      },
+      "trainType": {
+        "type": "number"
+      },
+      "attrChangeList": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "attrId": {
+              "type": "number"
+            },
+            "value": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "required": [
+      "result",
+      "uuid",
+      "trainType",
+      "attrChangeList"
+    ]
+  },
+  "Actor/ActorChangeName/req": {
+    "comment": null,
+    "$id": "Actor/ActorChangeName/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid",
+      "name"
+    ]
+  },
+  "Actor/ActorChangeName/resp": {
+    "comment": null,
+    "$id": "Actor/ActorChangeName/resp",
+    "properties": {
+      "result": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "result"
+    ]
+  },
+  "Actor/ActorExerciseStart/req": {
+    "comment": null,
+    "$id": "Actor/ActorExerciseStart/req",
+    "properties": {
+      "aId": {
+        "type": "string"
+      },
+      "eId": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "aId",
+      "eId"
+    ]
+  },
+  "Actor/ActorExerciseStart/resp": {
+    "comment": null,
+    "$id": "Actor/ActorExerciseStart/resp",
+    "properties": {
+      "aId": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "aId"
+    ]
+  },
+  "Actor/ActorExerciseReward/req": {
+    "comment": null,
+    "$id": "Actor/ActorExerciseReward/req",
+    "properties": {
+      "eId": {
+        "type": "string"
+      },
+      "useMoney": {
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "eId",
+      "useMoney"
+    ]
+  },
+  "Actor/ActorExerciseReward/resp": {
+    "comment": null,
+    "$id": "Actor/ActorExerciseReward/resp",
+    "properties": {
+      "aId": {
+        "type": "string"
+      },
+      "eId": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "aId",
+      "eId"
+    ]
+  },
+  "Actor/ActorExerciseAdd/req": {
+    "comment": null,
+    "$id": "Actor/ActorExerciseAdd/req",
+    "properties": {},
+    "required": []
+  },
+  "Actor/ActorExerciseAdd/resp": {
+    "comment": null,
+    "$id": "Actor/ActorExerciseAdd/resp",
+    "properties": {
+      "eId": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "eId"
+    ]
+  },
+  "Actor/GiveLoyaltyCard/req": {
+    "comment": null,
+    "$id": "Actor/GiveLoyaltyCard/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "giveType": {
+        "type": "number"
+      },
+      "num": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "uuid",
+      "giveType",
+      "num"
+    ]
+  },
+  "Actor/GiveLoyaltyCard/resp": {
+    "comment": null,
+    "$id": "Actor/GiveLoyaltyCard/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "giveType": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "uuid",
+      "giveType"
+    ]
+  },
+  "Actor/AssistantUpLv/req": {
+    "comment": null,
+    "$id": "Actor/AssistantUpLv/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "id": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "uuid",
+      "id"
+    ]
+  },
+  "Actor/AssistantUpLv/resp": {
+    "comment": null,
+    "$id": "Actor/AssistantUpLv/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "id": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "uuid",
+      "id"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "Gift/Exchange/req": {
+    "comment": null,
+    "$id": "Gift/Exchange/req",
+    "properties": {
+      "id": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "id"
+    ]
+  },
+  "Gift/Exchange/resp": {
+    "comment": null,
+    "$id": "Gift/Exchange/resp",
+    "properties": {
+      "result": {
+        "type": "number"
+      },
+      "dropout": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "itemId": {
+              "type": "number"
+            },
+            "amount": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "required": [
+      "result",
+      "dropout"
+    ]
+  }
+}

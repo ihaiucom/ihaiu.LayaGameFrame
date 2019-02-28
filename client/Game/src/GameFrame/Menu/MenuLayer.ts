@@ -1,6 +1,7 @@
 import Dictionary from "../../Libs/Helpers/Dictionary";
 import { MenuLayerType } from "./MenuLayerType";
 import Game from "../../Game";
+import BGModel from "../../FGUI/Extends/GameLaunch/BGModel";
 
 /**
  * 模块UI 层
@@ -49,7 +50,7 @@ export default class MenuLayer
     {
         if (!MenuLayer._dialogModel)
         {
-            MenuLayer._dialogModel = fgui.System.BGModel.createInstance();
+            MenuLayer._dialogModel = BGModel.createInstance();
         }
         return MenuLayer._dialogModel;
     }

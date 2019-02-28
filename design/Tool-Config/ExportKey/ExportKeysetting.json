@@ -1,0 +1,39 @@
+{
+  "list": 
+  [
+  	{
+  		"xlsx": "E:/zengfeng/GamePF/gamepf_doc/Config/Common/Global.xlsx",
+  		"idField": "id",
+  		"keyField": "key",
+  		"txtModuleField": "",
+  		"txtNameField": "name",
+  		"tplPath": "../../../Template/TS/KeyTemplate.txt",
+  		"codePath": "E:/zengfeng/GamePF/Gidea-PF-Client/GamePF/src/Config/keys/GlobalKey.ts",
+  		"codeClassname": "GlobalKey",
+  		"generateEmptyKey": true,
+  		"generateFullPing": true,
+  		"generateCode": true,
+  		"generateCodeNote": true,
+  		"replaceCode": true,
+  		"replaceCodeRoot": "E:/zengfeng/GamePF/Gidea-PF-Client/GamePF/src",
+  	},
+
+  	{
+  		"xlsx": "E:/zengfeng/GamePF/gamepf_doc/Config/Common/Msg.xlsx",
+  		"idField": "id",
+  		"keyField": "key",
+  		"txtModuleField": "module",
+  		"txtNameField": "name",
+  		"tplPath": "../../../Template/TS/KeyTemplate.txt",
+  		"codePath": "E:/zengfeng/GamePF/Gidea-PF-Client/GamePF/src/Config/keys/MsgKey.ts",
+  		"codeClassname": "MsgKey",
+  		"generateEmptyKey": true,
+  		"generateFullPing": true,
+  		"generateCode": true,
+  		"generateCodeNote": true,
+  		"replaceCode": false,
+  		"replaceCodeRoot": "E:/zengfeng/GamePF/Gidea-PF-Client/GamePF/src",
+
+  	},
+  ]
+}

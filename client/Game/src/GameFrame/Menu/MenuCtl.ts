@@ -1,4 +1,19 @@
 import { MenuId } from "../../GameModule/MenuId";
+import MenuManager from "./MenuManager";
+import MenuConfig from "../../Config/ConfigExtends/MenuConfig";
+import ModuleConfig from "../Module/ModuleConfig";
+import MWindow from "../Module/MWindow";
+import { MenuCtlStateType } from "./MenuCtlStateType";
+import MenuOpenParameter from "./MenuOpenParameter";
+import MenuLayer from "./MenuLayer";
+import Game from "../../Game";
+import GameEventKey from "../../GameEventKey";
+import AssetItemInfo from "../AssetManagers/AssetItemInfo";
+import Dictionary from "../../Libs/Helpers/Dictionary";
+import SoundKey from "../../FGUI/Generates/SoundKey";
+import { MenuCloseOtherType } from "./MenuCloseOtherType";
+import { MenuLayerType } from "./MenuLayerType";
+import HomeWindow from "../../GameModule/ViewWindows/HomeWindow";
 
 // 菜单控制器
 export default class MenuCtl

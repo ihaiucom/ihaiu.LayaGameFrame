@@ -1,0 +1,570 @@
+﻿int	string	string
+ID	Key	值
+id	key	value
+1	cannotRecharge	You need to link your account before you can complete this purchase
+2	cannotRechargeNoIos	IAP is not available for now
+3	rechargeError	Order uncompleted, please try again
+4	systemTip	Syetem Notice
+5	LangSelectMsg	Effective after restarting the game
+6	FunNoOpen	Coming Soon
+7	ButtonSelect	SELECT
+8	ButtonOk	OK
+9	ButtonCannel	CANCEL
+10	ButtonYes	YES
+11	ButtonNo	NO
+12	Complete	Complete
+13	Disable	Disabled
+14	Lock	Locked
+15	TitleTip	Tip
+16	ErorNoInitProto	Initialize network
+17	ErorRequestServerList	Request server list failed
+18	ErorAccountFrozen	Account frozen
+19	ErorAccountDropped	Account disabled
+20	TipEnterRoleName	Enter your name
+21	ErrorNameEmpty	Name is empty
+22	ErrorContentEmpty	Content is empty
+23	ErrorNameUsed	Name already taken
+24	ErrorHttpSendFail	Request Failed
+25	HttpTimeOut	Time out! Current setting time is {0}
+26	AlertTextBuyActor	Are you sure to spend {0} {1} to increase actor amount?
+27	AlertTextScountActor	Are you sure you want to spend {0} {1} to recruit?
+28	ToastTextItemNotEnough	Insufficient {0}
+29	ToastTextItemNotEnough2	Insufficient {0} {1}
+30	AfterToScountActor	Increase 1 searching time after {0}
+31	AfterToClearNoseTimes	Our scout has already left work today, you can sent them out after {0}. |n| You can also spend one magnifier to do it now
+32	ScountActor	Recruiting
+33	ActorMax	Recruiting amount reached max
+34	HideActorMax	Hidden actor amount reached max, you can update your company or Green Room
+35	DisHideAllActor	Can't hide all actor
+36	DisHideActorInUse	Can't hide actor who's in filming
+37	SureHideActor	Are you sure you want to hide {0}
+38	ActorWillLeave	These actors will leave in {0}
+39	ActorWillLeave1	Time Remaining:
+40	SureResetActors	Are you sure you want to refresh?
+41	CostToResetActors	Are you sure you want to spend magnifier to refresh?
+42	ResetNose	Refresh
+43	TalentText	Agency
+44	HiddenText	Hide
+45	TalentTimes	Recruitable
+46	UnlockSkill	Actor reaches Lv.{0}
+47	AlertNoseActor	Are you sure you want to spend {0} {1} to recruit?
+48	CanScountActorNums	Recruitable: {0}/{1}
+49	SrcActorName	Oringinal Name: {0}
+50	Lv	Lv.{0}
+51	LVDot	LV.{0}
+52	CurNextLv	Lv.{0}/[color=#488fc1]Lv.{1}[/color]
+53	UpgradeNeedGold	Upgrade costs: {0} Coin
+54	Upgrade	Upgrade
+55	RemainTimes	Remaining: {0}/{1}
+56	CanScountActor	Recruitable:
+57	CanHideActorNums	Hidden {0}/{1}
+58	ActorTrain	Train
+59	ActorTabBase	Basic
+60	ActorTabSkill	Skill
+61	ActorTabAsset	Property
+62	ActorTabExport	Adept
+63	ActorTabAgent	Assistant
+64	PopularValue	Popularity
+65	RewardTitle	Reward
+66	HideActor	Hide Actor
+67	HideActorDesc	Hidden actors can't go to work, you can reactivate them here
+68	RenameForActor	Rename Actor
+69	Rename	OK
+70	Sure	RECRUIT
+71	Num	{0}
+72	RenameDefault	OK
+73	He	him
+74	She	her
+75	NewActorJoin	New Actor Signed!
+76	NoseSuccess	Recruit Succeed
+77	SameActorJoin	Same name already exist!
+78	SureUseDefaultName	Use original name?
+79	RenameAnGoodName	Choose an unique name for {0}!
+80	NameDisNull	Name is empty
+81	Input4toNumChar	Enter 4-{0} characters
+82	NoseActor	Recruit
+83	AliveAcotr	Are you sure you want to spend {0} {1} to revive this actor?
+84	Hour	hr
+85	Minute	min
+86	Second	sec
+87	Input1toNumChar	Enter 1-{0} characters
+88	ActorRecoverToDealAsset	Converted into fragments and property
+89	NoForzen	No Hidden Actor
+90	ChooseSendAssetNum	Choose amount of property you want to sent
+91	GetAssetToGetProp	Once every {0}
+92	LoyaltyText	Loyalty
+93	NeedLoyalty	Requires loyalty Lv.{0}
+94	LvUpMax	Reached max level
+95	UpLvLimit	Raise Max Level
+96	LvUpTo	To raise {0}'s max level from{1} to {2} requires
+97	Send	Send
+98	ExpertStory	Adept Script
+99	ExpertCharacter	Adept Character
+100	ExpertType	Adept Type
+101	SendAssetMax	Amount reached max
+102	LvMax	Reached max level
+103	SkillLvMaxTip	Reached max skill level
+104	ExpCosts	Exp cost
+105	SkillExpNotEnough	Insufficient skill exp
+106	GetRandomTrainAttr	Increasing two attributes randomly
+107	CompanyTodayTrain	Remaining:
+108	ActorCanUseTrain	Available training times:
+109	ActorAutoVisit	Auto-receive
+110	ActorBreakToLv	This actor's max level is now {0}
+111	CompanyTodayTrainMax	You've trained too much times today~ have a rest!
+112	ActorTrainMax	This actor is tired~ let's continue tomorrow!
+113	TrainCompleteRightNow	Finish Now
+114	HaveAgentCanComplete	Unlock after hiring a secretary
+115	HaveAgentCanAutoRead	Unlock after hiring a secretary
+116	AutoRead	Auto-approve
+117	HaveAgentCanAutoPublicize	Unlock after hiring a secretary
+118	TrainOpen	Need to cover {0}
+119	SkillOpen	Requires company Lv.{0}
+120	AssetOpen	Requires company Lv.{0}
+121	CompanySignAcotr	{0} signed a new actor!
+122	ActorUpgradeAssetCount	Increase {0} to actor's max amount of property
+123	Use	USE
+124	AssetSendMax	Reached max amount
+125	AssetSendMaxToExpend	Upgrade or use a loyalty medal to rise gift amount limit
+126	AssetExpend	Increase max amount
+127	AssetChooseCardNum	Select amount
+128	AssetArtistUpgrade	Upgrade
+129	AssetUseCard	Use Item
+130	ActorSkillExp	Skill exp: {0}
+131	age	Age
+132	sex	Gender
+133	country	Nationality
+134	type	Type
+135	OldName	Oringinal Name:
+136	Level	Lv.
+137	RenameTip	Do you want to give me a stage name?
+138	DiamondTrain	Training via diamonds
+139	DiamondMustBeMax	(will definitely gain best result)
+140	PropertyTipMsg	You can resolve/compound property in depot
+141	ClickAnyWhereToClose	Tap anywhere to continue
+142	Year	Year
+143	Month	Month
+144	Day	Date
+145	MaxLevel	Max
+146	SecondBuyArtistMsg	You already signed this actor, would you like to cost {0} {1} to sign contract again? (This contract will convert into contract and property)
+147	TrainOpenLv	Requires actor Lv.{0}
+148	RelieveArtist	Activate
+149	FilmProficiencyTitle	Actor's Proficiency
+150	FilmSelectActorTitle	Select Actor
+151	FilmCostViewTitle	Total Cost
+152	PleaseSelectActor	Select Actor
+153	ActorForFilmTitle	Actor Fit
+154	FilmTypeSelectTitle	Select Type
+155	CurMarketTip	Current Market Survey
+156	FilmNoticeTitle	Select Activity
+157	FilmSQViewTitle	Attributes
+158	CinemaSelectionTitle	Select Theater
+159	FeedBackTitle	Media Ratings
+160	AudienceReputationTitle	Audience Review
+161	SysTipTitle	System Notice
+162	AllTempTip	Can't cast with extras only
+163	RefrushStory	Refresh Screenplay
+164	RefrushStoryTip	Are you sure to refresh screenplay? It'll cost you {0} {1}, you can refresh {2} today.
+165	RefrushStoryTipOver	Refresh Limit Reached
+166	NoStoryList	No script found
+167	ChangeStoryName	Rename script
+168	StoryNameLimit	Length within {0}
+169	SelectTypeNone	Select Type
+170	NoticeScore	{0}
+171	CostFree	Free
+172	SYNTH	OK
+173	Play	Play as:
+174	NoAttAdd	No Attribution
+175	NameLV	{0}|n|Lv.{1}
+176	FilmActor	Play as: {0}
+177	FilmProficiency	Proficiency Lv.{0}: +{1}
+178	FilmAverage	Average: {0}
+179	sexMan	Male
+180	sexWomen	Female
+181	sexChild	Child
+182	TotalFilm	Total box-office: {0}
+183	filmOverMarketTip1	Our movie's box-office increases [color=#d6621d]&nbsp;{0}%&nbsp;[/color] due to current market favor, more than  [color=#d6621d]&nbsp;{1}%&nbsp;[/color] audience like this story very much!
+184	filmOverMarketTip2	and  [color=#d6621d]&nbsp;{0}%&nbsp;[/color] thinks [color=#d6621d]&nbsp;{1}&nbsp;[/color] suits this story perfect
+185	filmOverMarketTip3	There's more
+186	filmOverMarketTip4	Now
+187	filmJiesuanWin	Earning: |n|+ {0}%
+188	filmJiesuanFail	Loss：|n|- {0}%
+189	filmJiesuanRewardTip	Here're our rewards:
+190	filmOverTip	Earnings have ended
+191	guanzhuduValue	Attention: {0}
+192	guanzhuduOpenTip	Unlock when attention reaches {0}
+193	continueTip	We may get these rewards:
+194	TimeLeftTip	Time Remaining:
+195	EndingTitle	Max Reached
+196	EndingTip	On showing movies reached limit
+197	promotionBtn	RAISE
+198	gainEvaluationOver	Final earning: {0}
+199	gainEvaluation	Earnings evalution: {0}/min
+200	GZMax	Reached max level
+201	CinemaSignTip	You didn't sign contract with this theater
+202	NineToFiftyTip	Please note that you cannot film new movies 5 minutes before Oskar.
+203	NineToFiftyFiveTip	Out of concern for fairness, you cannot film new movies 5 minutes before Oskar.
+204	FilmLongTime	{0}min
+205	FilmKouBei	Audience Review: {0}
+206	ActivityTitle	Events
+207	WelfTitle	Bonus
+208	NoGetReward	Unclaimed
+209	GetReward	Claim
+210	Secretary_DailyGiftTitle	Daily Package
+211	Secretary_NeedBuySecretary	Unlock after hiring a secretary
+212	Secretary_GetRewardDailySecretary	Available once a day
+213	Secretary_AlreadyPurchased	Purchased
+214	Buy	BUY
+215	SureBuy	Purchase
+216	Buyed	Purchased
+217	Secretary_GetWelfare	Bonus
+218	CooperateTaskType10	Film a movie
+219	CooperateTaskType11	|n|Type: {0}
+220	CooperateTaskType12	|n|Media Ratings: {0}
+221	CooperateTaskType13	|n|Review: {0}
+222	CooperateTaskType14	|n|Script: {0} Star
+223	CooperateTaskType15	|n|Earning: {0}
+224	CooperateTaskType20	Complete {0} Meeting/Business/Fans Visiting
+225	CooperateTaskType30	Complete {0} Orders
+226	CooperateTaskType40	Collect {0} {1}
+227	CooperateTaskType50	Collect {0} Products
+228	StoryRemainFindTime	Searching time: {0}/{1}
+229	CooperateTaskType60	Collect {0} City Earning
+230	CooperateTaskType70	Complete {0} Actor Training
+231	CooperateTaskType80	Consume {0} Diamonds
+232	CooperateTaskType90	Complete {0} Recruit
+233	CooperateTaskType100	Complete {0} Script Search
+234	CooperateTaskProgress	|n|（{0}/{1}）
+235	CooperateReceiveBtn	ACCEPT
+236	CooperateassistBtn	ASSIST
+237	CooperategetBtn	OK
+238	CooperateassitingText	Assisting
+239	CooperateHaveTaskText	You've accepted a quest, finish it first
+240	CooperationApplyTitle	Cooperation Apply
+241	CooperationremindTip	You can only cooperate with at most 3 different companies in a week
+242	CooperationrefuseBtn	REFUSE
+243	CooperationreceiveBtn	ACCEPT
+244	CooperationApplyTip	Sign Cooperation Contract?
+245	CooperationEndTitle	End Cooperation
+246	CooperationEndTip1	End Cooperation?
+247	CooperationEndTip2	Note that you can only cooperate with at most 3 different companies in a week
+248	CooperationMainPanelTitle	Cooperation
+249	Cooperationtext1	First cooperation built reward:
+250	Cooperationtext2	Cooperate with your friends!
+251	Cooperationtext3	Search for Cooperator
+252	Cooperationremind	Search via Account
+253	Cooperationintro	Enter ID
+254	CooperationinviteBtn1	Send Invite
+255	CooperationinviteBtn2	Open Invite
+256	CooperationdisinviteBtn	Cancel Invite
+257	CooperationMainPanelTip1	Please enter player's ID
+258	CooperationMainPanelTip2	Please enter ID again later
+259	CooperationMainPanelID	Your ID: {0}
+260	CooperationRealtionshipTitle	Quest
+261	CooperationRealtionshipTip	More rewards come with higher rank!
+262	CooperationRealtionshiprelieveBtn	END
+263	CooperationGiveRewardDollar	MovieCash
+264	CooperationGiveRewardGold	Coins
+265	Floor	Floor {0}
+266	BuildFloor	Expand Floor {0}
+267	BuildUpgrade	Lv.{0}
+268	BuildUpgrade_UBB	[color=#66ff66]Upgrade to Lv.{0}[/color]
+269	CompanyLevel	Unlock at Lv.{0}
+270	BuildEffect	Building Effect:
+271	BuildLevelEffect	Upgrade Effect:
+272	BuildLevelup	Upgrade
+273	BuildConfirm	OK
+274	BuildLevel	Lv.{0}
+275	BuildFloorAlert	Building Expansion Consumes
+276	BuildTitle	Build
+277	ActorExperciseExpedite	Speed up
+278	BuildFloorFailLevel	Requires company Lv.{0}
+279	BuildFloorFailCity	Requires cover city: {0} {1}
+280	BuildActorRoomTalentNpc	Agency
+281	BuildActorRoomTrainerNpc	Trainer
+282	TopFloor	Top Floor
+283	LincenceMax	License amount reached max
+284	ArtistDicUITitle	Actorbase
+285	ArtistDicUInotHired	Locked
+286	ArtistDicUIStar	Star Rank
+287	ArtistDicUICountry	Nationality
+288	ArtistDicUISex	Gender
+289	ArtistDicUIAge	Age Type
+290	ArtistDicUIShow	Perform Type
+291	ArtistDicUIDefName	Oringinal Name
+292	ArtistDicUIHowHave	How to sign this actor?
+293	ArtistDicUIPinglun	Enter content here
+294	ArtistDicUINoActor	No Actor Available
+295	ArtistDicUINoPinglun	No comment yet
+296	ArtistDicUIPinglunTitle	Message Board
+297	PlayerUpgradeGetAward	CLAIM
+298	PlayerSelfSignature	Edit Self-Intro
+299	PlayerSignature	This person didn't leave a messege, just like a closed book~
+300	ItemHave	Owned:
+301	PlayerInfoTab0	Home
+302	PlayerInfoTab1	Career
+303	PlayerInfoTab2	Trophy
+304	PlayerInfoTab3	Movies
+305	PlayerInfoTab4	Actors
+306	PlayerInfoTabHome_Rank0	Building Storey
+307	PlayerInfoTabHome_Rank1	Actor Amount
+308	PlayerInfoTabHome_Rank2	Friend Amount
+309	PlayerInfoTabHome_Rank3	Market Occupied
+310	PlayerInfoTabHome_Rank4	Trophy Amount
+311	PlayerInfoTabHome_Rank5	Depot Storage
+312	PlayerInfoTabCareer_Rank0	Movie Filmed
+313	PlayerInfoTabCareer_Rank1	Total Movie Amount
+314	PlayerInfoTabCareer_Rank2	Total Box-office
+315	PlayerInfoTabCareer_Rank3	Orders Completed
+316	PlayerInfoTabCareer_Rank4	Highest Production Line level
+317	PlayerInfoTabCareer_Rank5	Business Handled
+318	PlayerInfoTabCareer_Rank6	Meeting Completed
+319	PlayerInfoTabCareer_Rank7	Fans Received
+320	PlayerInfoTabCareer_Rank8	Top Ranking Times:
+321	PlayerInfoTabTrophy_Rank00	Best Actor Won:
+322	PlayerInfoTabTrophy_Rank11	Best Actress Won:
+323	PlayerInfoTabTrophy_Rank22	Best Perform Movie Won:
+324	PlayerInfoTabTrophy_Rank3	Best Art Movie Won:
+325	PlayerInfoTabTrophy_Rank4	Most Popular Movie Won:
+326	PlayerInfoTabTrophy_Rank5	Gold Cedar Award Won:
+327	PlayerInfoTabTrophy_Rank6	Silver Fox Award Won:
+328	PlayerInfoTabTrophy_Rank7	Venus Award:
+329	PlayerInfoTabTrophy_Rank8	Sour Lemon Award won:
+330	PlayerInfoTabFilm_Rank0	Best Reviewed
+331	PlayerInfoTabFilm_Rank1	Best Sell
+332	PlayerInfoTabFilm_Rank2	Horror Movie
+333	PlayerInfoTabFilm_Rank3	Suspense Movie
+334	PlayerInfoTabFilm_Rank4	Musical Movie
+335	PlayerInfoTabFilm_Rank5	Comedy Movie
+336	PlayerInfoTabFilm_Rank6	Cartoon Movie
+337	PlayerInfoTabTrophy_Rank0	Best Art Movie Award won
+338	PlayerInfoTabFilm_Rank7	Drama Movie
+339	PlayerInfoTabFilm_Rank8	Romance Movie
+340	PlayerInfoTabFilm_Rank9	Action Movie
+341	PlayerInfoTabActor_Rank0	Most Box-office Appeal
+342	PlayerInfoTabActor_Rank1	Most Award-winning
+343	PlayerInfoTabActor_Rank1Value	{0}
+344	PlayerInfoTabActor_Rank2	Most Dedicated
+345	PlayerInfoTabActor_Rank2Value	{0}
+346	PlayerInfoTabActor_Rank3	Your Favorite
+347	PlayerInfoTabActor_Rank3Value	{0}
+348	PlayerInfoTabActor_Rank4	Most Trained
+349	PlayerInfoTabActor_Rank4Value	{0}
+350	PlayerInfoTabActor_Rank5	Most Practised
+351	PlayerInfoTabActor_Rank5Value	{0}
+352	StoryFindTime	Remaining:
+353	StoryTitle	Script
+354	PlayerInfoTabTrophy_Rank1	Best Performance Movie Award won
+355	StoryCollect	Collect Script
+356	StoryFind	Search
+357	StoryCompleteAllChallenge	Challenge Accomplished
+358	StoryAchieve	Achievements
+359	ZuiGaoPiaoFang	Best Box-office
+360	StoryDesc1	{0} when use this set
+361	StoryDesc2	Add {1}% {0}
+362	StoryAchieveTarget1	Film {0}/5 times
+363	StoryAchieveTarget2	Media Ratings 8 or above for {0}/3 times
+364	StoryAchieveTarget3	Box-office great or above for {0}/5 times
+365	PlayerInfoTabTrophy_Rank2	Golden Olive Award won
+366	StorySou	Search
+367	StoryRewardTitle	Reward
+368	StoryRemainNotEnough	Insufficient remaining times
+369	StoryContentEmpty	Content is empty
+370	StoryContentToMax	Content should be within 50 characters
+371	StoryContentSpace	Can't start and end with blank
+372	StoryContentBlockWord	Illegal characters contained
+373	SendMsg	SEND
+374	StoryInputPromptText	Enter content here
+375	StoryAchievementDesc	Atctor may gain a burst after achievement reached
+376	StoryAchievementTitle	Achievement Goal
+377	StoryGetReward	COLLECT
+378	CantGetReward	Oops, you didn't meet the requirements!
+379	GetAllReward	You've received all level gifts!
+380	NextRewardTip	Next surprise: Lv.{0} Gift!
+381	ProduceTime	Single Produce Time: {0}
+382	ProduceGrade	Rank {0}
+383	ProduceLevel	Lv.{0}
+384	ProduceSkillType1	Line Amount
+385	ProduceSkillType2	Max Storage
+386	ProduceSkillType3	Decrease Produce Time
+387	ProduceSkillType4	Single Produce Amount
+388	ProduceActorTitle	Select Actor
+389	ProduceOffActorTitle	Actor is in [{0}]
+390	ProduceQuickBtnName	Auto-produce
+391	ProduceQuickAwardBtnName	Auto-receive
+392	ProduceStart	START
+393	ProduceItemStore	Storage
+394	ProduceUnlock	Unlock
+395	ProduceActorBusy	Busy
+396	ProduceActorFree	Not Assigned
+397	ProduceOffActor	RECALL
+398	OrderNeedTitle	Furfill fansclub's wish will make them support us more
+399	OrderNeed	Order Requirement
+400	OrderCompleteReward	Complete Reward
+401	OrderExtraReward	Extra Effect
+402	OrderNoneOrder	No orders for now
+403	OrderNewOrderWay	You can receive new orders by filming movies or advertising
+404	OrderSortOrder	Orders: {0}
+405	OrderCooperationComfirmTitle	Sponsor
+406	OrderTheBoxHasPut	This box is filled
+407	OrderSureDeleteOrder	Are you sure to decline this order? It'll take some time for another order to come|n|[color=#FF0000](Items in box will be deleted too)[/color]
+408	OrderRefuseOrder	Decline Order
+409	OrderComplete	Complete
+410	OrderNeedCompleteBox	Let's fill the box first!
+411	OrderRewardTitle	Reward
+412	OrderArealyGotReward	Collected
+413	OrderNeedCompleteBoxNum	Complete {0} orders
+414	OrderCooperation	Cooperator
+415	VisitNextFansNum	Fans awaiting: {0}/{1}
+416	VisitStartBtnOk	GO
+417	VisitAutoReceive	Auto-receive
+418	VisitFansTomeetActor	Hi boss, there's fans come to visit
+419	VisitNextVisitActor	We've got {0} fans awaiting in our reception room, do you want to meet them now?
+420	VisitNextFans	Next
+421	OscarRewardNameDesc_7	Total box-office ranking: {0} ({1})
+422	VisitHaveOtherFansWaiting	Already have fans awaiting
+423	VisitDonotHaveFans	No fans visiting for now
+424	VisitFansWantMeet	Fan expects to see
+425	BusinessRemainRead	Awaiting approval: {0}/{1}
+426	BusinessSendName	From: {0}
+427	BusinessNextPage	Next
+428	BusinessReadNewMsg	Loading…
+429	BusinessDonotHaveBusiness	No business for now
+430	BusinessGet	Reward
+431	MeetingNextNum	Meeting awaiting {0}/{1}
+432	MeetingInMeeting	In Meeting
+433	MeetingVisitCompany	Boss, {0}'s negotiator has been waiting for you
+434	MeetingStartOkBtnText	OK
+435	MeetingStartCancelBtnText	DECLINE
+436	MeetingMantianYaojia	Even Higher
+437	MeetingTaojiahuanjia	Raise Price
+438	OscarRewardNameDesc_8	Movies filmed today: {0}
+439	MeetingChengjiao	Deal
+440	MeetingChengjiaoSure	OK
+441	MeetingHuijue	DECLINE
+442	MeetingBye	BYE
+443	MeetingGameStop	STOP
+444	MeetingRewardTitle	Reward
+445	MeetingNext	{0}'s negotiator has been waiting for a while, do you want to start meeting now?
+446	MeetingNextMeet	Next
+447	MeetingNeedAddPiece	Raise Price
+448	MettingTitle	Meeting Room
+449	TaskArrangement	Tasks
+450	ActorExperciser	Trainer
+451	ActorExperciserStart	Tap "+" to choose actor you wanna train
+452	ActorExperciserOn	Finish in:
+453	ActorExperciseMaxLine	Training Room is full
+454	ActorExperciseUnlock	Requires:
+455	ActorExperciseQuick	Requires
+456	ActorExperciceCompleteDesc	Tap to finish
+457	ActorExperciceKey	Skill Exp
+458	MissionPanelTipMsg	Task Info
+459	NoticeTitle	Notice
+460	NoticeServerClose	Server maintaining, please quit game
+461	RankText	No.{0}
+462	MarketOccupe	City Occupied {0}/{1}
+463	MarketChangeHomeContent	Can only send brand ambassador to our HQ, do you want to switch HQ to this city?
+464	MarketChangeHomeTitle	Switch HQ
+465	TheBoxHasPut	This box is filled
+466	MarketAddFansTip	Benefiting from our advertising
+467	MainTaskAddFansTip	Main Task Reward
+468	MarketAddFansInfo	Fans  + {1}
+469	MarketLvUpNeedFans	{0} Fans needed to upgrade
+470	MarketShare	Market Cover Progress
+471	MarketReward	Reward
+472	MarketActorPromot	RAISE
+473	MarketNoSecretary	Go hire a secretary?
+474	MarketPublicityInfo	According to our survey, the local audience prefer {0} |n|If we assign the right actor, our advertising will be more effective!
+475	MarketSelectActor	Select Spokesperson for {0}
+476	MarketSelectActorForCity	Select Brand Ambassdor for {0}
+477	MarketMaxAsset	Store up to {0} hour's earnings
+478	MarketItemLockTitle	Not Start
+479	MarketItemLockTip	Required Ambassador: {0}
+480	MarketHomeActorLock	Ambassador Locked
+481	StreetCinemaInfo	{0} Theaters ({1})
+482	SureDeleteOrder	Are you sure to decline this order? It'll take some time for another order to come~ (Items in box will be deleted too)
+483	StreetTitle	Group {0} on {1}
+484	OscarTitle	{1}, {0}
+485	StreetCongratulateSelf	Cannot give like to your own movie!
+486	BagSelectNum	Choose Amount
+487	BagNeedMoreItem	Need {0} more to continue
+488	BagSelectCompoundNum	Choose Amount
+489	BagCompound	Compound
+490	BagSelectGive	Select Actor
+491	BagSelectGiveNum	Choose Amount
+492	BagGive	SEND
+493	BagSelectResolveNum	Choose Amount
+494	BagResolve	Resolve
+495	BagSelectSaleNum	Choose Amount
+496	BagSale	SELL
+497	BagSelectUseNum	Choose Amount
+498	BagUse	USE
+499	BagSelectActor	Select Actor
+500	ShopGive	Extra
+501	ShopDayLimit	Today's Deal
+502	RefuseOrder	Decline order
+503	ShopWeekLimit	Weekly Deal
+504	ShopRegistLimit	Limited
+505	RechargeTitle	Top-up
+506	RechargeTipsMsg	Top-up Info
+507	ShopAvailable	Available for {0} days
+508	AfterTime	Available after {0}
+509	OscarName	Oskar
+510	OscarRewardNameDesc_6	Best of Today:
+511	OscarRewardNameDesc_9	Great or above Today:
+512	OscarRewardValueDesc_7	No.{0} [color=#d6621d]&nbsp;({1})&nbsp;[/color]
+513	OscarRewardValueDesc_8	Movies Filmed Today: {0}
+514	OscarRewardValueDesc_9	{0}
+515	OscarRewardInfoDesc_6	Box-office Ranking: {0} ({1})
+516	OscarRewardInfoDesc_7	You've bested {0}% players! (In total of {2})
+517	OscarRewardNoMovie	No Movie
+518	OscarDanmuLong	Review length should be between [4-100]
+519	OscarDanmuSpace	Can't start and end with blank
+520	OscarDanmuBlockword	Illegal characters contained
+521	NeedCompleteBox	Need to fill the box first
+522	OscarMovie	{0} is a wrap!
+523	OscarInputTip	Enter content here
+524	Today	Today
+525	Yestoday	Yesterday
+526	SystemGoOtherFunction_Title	Notice
+527	SystemGoOtherFunction_Desc_1	Insufficient skill exp-you can train actors in training room!
+528	SystemGoOtherFunction_Desc_2	Are you sure to spend magnifier to search for new actors? (Note that current actors'll leave once you do that)
+529	SystemGoOtherFunction_Go_1	GO
+530	SystemGoOtherFunction_Go_2	Magnifier
+531	SecretaryRemainAutoReadNum	Auto-approve {0}
+532	SecretaryRemainAutoVisitNum	Auto-receive {0}
+533	SecretaryRemainAutoPublicizeNum	Auto-advertise {0}
+534	SecretaryForeverAgent	Secretary
+535	SystemDisAllowHaveNumber	Can't contain number
+536	SystemDisAllowHaveStartLastNumber	Can't start and end with number
+537	StateText	Completeness:
+538	SexTip	Select Actor
+539	LanguageSettings	Language
+540	FeedBackSettings	Feedback
+541	ArealyGotReward	Claimed
+542	SwitchAccount	Switch Account
+543	SwitchLanguage	Switch Language
+544	SureaSwitchAccount	Are you sure to switch account?
+545	MailTitle	MAIL
+546	DeleteRead	DELETE READ
+547	ToReader	Dear director:
+548	ReawrdMsg	Reward:
+549	TaskGetReward	Collect Reward
+550	Log	Log
+551	Get	COLLECT
+552	Go	GO
+553	GoldExchangeTitle	Exchange
+554	GoldExchangeRemainNum	Remaining：{0}
+555	GoldExchangeOne	Exchange *1
+556	GoldExchangeTen	Exchange *10
+557	GoldExchangeTimesNoEnough	Insufficient Exchange Times
+558	NeedCompleteBoxNum	Requires complete {0} orders
+559	GoldExchangeBuildingTitle	Accountant
+560	GoldExchangeOk	Succeed
+561	GuestBindError_1	You Account is Linked!
+562	GuestBindError_2	Link Failed
+563	GuestBindError_3	Account Already Exist
+564	SameActorName	Name did not change
+565	NetworkState_Title	Network Status
+566	NetworkState_Error	Connection seems lost, please check your network!
+567	NetworkState_Button	EXIT

@@ -1,0 +1,11 @@
+/////////////////////////////////////
+// ihaiu.ExportProto生成
+// http://blog.ihaiu.com
+/////////////////////////////////////
+
+namespace Games
+{
+	ProtoOobHandler.>:funName:< = (msg: >:fullClassName:<, ops: EGameDataOps, uuid: string) =>
+	{
+	}
+}

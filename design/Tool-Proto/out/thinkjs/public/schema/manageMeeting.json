@@ -1,0 +1,50 @@
+{
+  "manageMeeting/GetReward/req": {
+    "comment": null,
+    "$id": "manageMeeting/GetReward/req",
+    "properties": {
+      "type": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "type"
+    ]
+  },
+  "manageMeeting/GetReward/resp": {
+    "comment": null,
+    "$id": "manageMeeting/GetReward/resp",
+    "properties": {
+      "type": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "type"
+    ]
+  },
+  "manageMeeting/Markup/req": {
+    "comment": null,
+    "$id": "manageMeeting/Markup/req",
+    "properties": {
+      "type": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "type"
+    ]
+  },
+  "manageMeeting/Markup/resp": {
+    "comment": null,
+    "$id": "manageMeeting/Markup/resp",
+    "properties": {
+      "type": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "type"
+    ]
+  }
+}

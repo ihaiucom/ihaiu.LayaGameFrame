@@ -1,0 +1,8 @@
+﻿int	string	string	string	string	string	string	string	string	boolean	boolean	boolean	boolean	string
+id	平台	应用ID	资源网站	应用版本号	分包资源版本号	分包文件夹	补丁资源版本号	补丁资源文件夹	分包是否需要对话框提示	更新补丁资源是否需要对话框提示	是否显示GM	错误是否弹框	应用下载页面
+id	Platform	ApplicationId	ResWeb	AppVersion	PartialVersion	PartialFolder	PatchVersion	PatchFolder	IsPartialAlert	IsPatchAlert	VisiableGM	IsErrorAlert	AppDownloadWeb
+0	*	*	https://cdn-mv-release.shinezone.com/resources	1.08.00	0	ios/version-partial/v1_08_00	1.08.00	ios/version-patch/v1_08_00	0	0	1	0	https://testflight.apple.com/v1/app/1434375733
+101	ios	com.shinezone.movie	https://cdn-mv-release.shinezone.com/resources	1.08.00	0	ios/version-partial/v1_08_00	1.08.00	ios/version-patch/v1_08_00	0	0	1	0	https://testflight.apple.com/v1/app/1434375733
+102	ios	com.shinezone.movie.test	http://mbqb.ihaiu.com/Gidea-PF-Res/resources	1.08.00	0	ios/version-partial/v1_08_00	1.08.00	ios/version-patch/v1_08_00	0	0	1	0	https://testflight.apple.com/v1/app/1434375733
+201	android	com.shinezone.movie	https://cdn-mv-release.shinezone.com/resources	1.08.00	0	android/version-partial/v1_08_00	1.08.00	android/version-patch/v1_08_00	0	0	1	0	https://testflight.apple.com/v1/app/1434375733
+202	android	com.shinezone.movie.test	https://cdn-mv-release.shinezone.com/resources	1.08.00	0	android/version-partial/v1_08_00	1.08.00	android/version-patch/v1_08_00	0	0	1	0	https://testflight.apple.com/v1/app/1434375733

@@ -1,0 +1,60 @@
+{
+  "enableoverwrites": [
+  	{
+  		"src":"../../client/Game/bin/config", 
+  		"dst":"E:/zengfeng/GideaPF/Gidea-PF-Client/Gidea-PF-SDK-Android-XWalkView/app/src/main/assets/www/config"
+  	},
+  	{
+  		"src":"../../client/Game/bin/font", 
+  		"dst":"E:/zengfeng/GideaPF/Gidea-PF-Client/Gidea-PF-SDK-Android-XWalkView/app/src/main/assets/www/font"
+  	},
+  	{
+  		"src":"../../client/Game/bin/js-merge/Game.merge.js", 
+  		"dst":"E:/zengfeng/GideaPF/Gidea-PF-Client/Gidea-PF-SDK-Android-XWalkView/app/src/main/assets/www/js-merge/Game.merge.js"
+  	},
+  	{
+  		"src":"../../client/Game/bin/js-merge/GameLaunch.merge.js", 
+  		"dst":"E:/zengfeng/GideaPF/Gidea-PF-Client/Gidea-PF-SDK-Android-XWalkView/app/src/main/assets/www/js-merge/GameLaunch.merge.js"
+  	},
+  	{
+  		"src":"../../client/Game/bin/libs/bridge", 
+  		"dst":"E:/zengfeng/GideaPF/Gidea-PF-Client/Gidea-PF-SDK-Android-XWalkView/app/src/main/assets/www/libs/bridge"
+  	},
+  	{
+  		"src":"../../client/Game/bin/libs/fairygui", 
+  		"dst":"E:/zengfeng/GideaPF/Gidea-PF-Client/Gidea-PF-SDK-Android-XWalkView/app/src/main/assets/www/libs/fairygui"
+  	},
+  	{
+  		"src":"../../client/Game/bin/libs/game", 
+  		"dst":"E:/zengfeng/GideaPF/Gidea-PF-Client/Gidea-PF-SDK-Android-XWalkView/app/src/main/assets/www/libs/game"
+  	},
+  	{
+  		"src":"../../client/Game/bin/libs/min", 
+  		"dst":"E:/zengfeng/GideaPF/Gidea-PF-Client/Gidea-PF-SDK-Android-XWalkView/app/src/main/assets/www/libs/min"
+  	},
+  	{
+  		"src":"../../client/Game/bin/libs/rawinflate", 
+  		"dst":"E:/zengfeng/GideaPF/Gidea-PF-Client/Gidea-PF-SDK-Android-XWalkView/app/src/main/assets/www/libs/rawinflate"
+  	},
+  	{
+  		"src":"../../client/Game/bin/res", 
+  		"dst":"E:/zengfeng/GideaPF/Gidea-PF-Client/Gidea-PF-SDK-Android-XWalkView/app/src/main/assets/www/res"
+  	},
+  	{
+  		"src":"../../client/Game/bin/ClientGM.json", 
+  		"dst":"E:/zengfeng/GideaPF/Gidea-PF-Client/Gidea-PF-SDK-Android-XWalkView/app/src/main/assets/www/ClientGM.json"
+  	},
+  	{
+  		"src":"../../client/Game/bin/ServerGM.json", 
+  		"dst":"E:/zengfeng/GideaPF/Gidea-PF-Client/Gidea-PF-SDK-Android-XWalkView/app/src/main/assets/www/ServerGM.json"
+  	},
+  	{
+  		"src":"../../client/Game/bin/ServerList.json", 
+  		"dst":"E:/zengfeng/GideaPF/Gidea-PF-Client/Gidea-PF-SDK-Android-XWalkView/app/src/main/assets/www/ServerList.json"
+  	},
+  
+  ],
+  "disableoverwrites": [
+  	
+  ]
+}

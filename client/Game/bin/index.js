@@ -21,6 +21,7 @@ loadLib("libs/laya.html.js")
 loadLib("libs/fairygui/fairygui.js")
 
 // 扩展
+loadLib("libs/game/awaiter.js")
 loadLib("libs/game/EngineExtend.js")
 loadLib("libs/game/StringExtend.js")
 loadLib("libs/game/Fun.js")

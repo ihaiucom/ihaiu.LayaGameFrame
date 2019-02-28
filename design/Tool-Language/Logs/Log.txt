@@ -1,0 +1,16 @@
+2018-12-04 15:19:30.4731   (GenerateFguiManager.cs:89) 读取配置表 TextFgui
+2018-12-04 15:19:38.1096   (GenerateCodeManager.cs:54) 读取配置表 TextCode
+2018-12-04 15:19:38.3931   (Program.cs:28) TextCode.xlsx 存在多个id=Secretary_GetWelfare的行
+2018-12-04 15:19:38.3931   (Program.cs:28) TextCode.xlsx 存在多个id=Secretary_GetWelfare的行
+2018-12-04 15:19:38.3931   (Program.cs:28) TextCode.xlsx 存在多个id=StreetTitle的行
+2018-12-11 14:18:01.5127   (GenerateCodeManager.cs:54) 读取配置表 TextCode
+2018-12-11 14:18:01.9838   (Program.cs:28) TextCode.xlsx 存在多个id=Secretary_GetWelfare的行
+2018-12-11 14:18:01.9838   (Program.cs:28) TextCode.xlsx 存在多个id=Secretary_GetWelfare的行
+2018-12-11 14:18:01.9838   (Program.cs:28) TextCode.xlsx 存在多个id=StreetTitle的行
+2018-12-11 14:19:03.5331   (GenerateFguiManager.cs:89) 读取配置表 TextFgui
+2018-12-11 14:23:48.5718   (GenerateFguiManager.cs:89) 读取配置表 TextFgui
+2018-12-11 14:24:32.4039   (GenerateCodeManager.cs:54) 读取配置表 TextCode
+2018-12-11 14:24:32.6404   (Program.cs:28) TextCode.xlsx 存在多个id=Secretary_GetWelfare的行
+2018-12-11 14:24:32.6429   (Program.cs:28) TextCode.xlsx 存在多个id=Secretary_GetWelfare的行
+2018-12-11 14:24:32.6429   (Program.cs:28) TextCode.xlsx 存在多个id=StreetTitle的行
+2018-12-11 14:24:38.5636   (GenerateFguiManager.cs:89) 读取配置表 TextFgui

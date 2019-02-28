@@ -1,4 +1,5 @@
 import Handler = laya.utils.Handler;
+import SystemToastMessage from "../../FGUI/Extends/GameLaunch/SystemToastMessage";
 
 //======================
 // 浮动消息管理
@@ -6,10 +7,10 @@ import Handler = laya.utils.Handler;
 export default class SystemToastMessag
 {
     // 所有的
-    private list:fgui.System.SystemToastMessage[] = []; 
+    private list:SystemToastMessage[] = []; 
 
     // 可以使用的池
-    private pools:fgui.System.SystemToastMessage[] = []; 
+    private pools:SystemToastMessage[] = []; 
 
     //==============================
     // 添加一个相同文本出现的时间间隔
@@ -35,21 +36,21 @@ export default class SystemToastMessag
         this.lastTxt = txt;
         this.lastTime = getTime();
 
-        let item: fgui.System.SystemToastMessage;
+        let item: SystemToastMessage;
         if(this.pools.length > 0)
         {
             item = this.pools.pop();
         }
         else
         {
-            item = fgui.System.SystemToastMessage.createInstance();
+            item = SystemToastMessage.createInstance();
             this.list.push(item);
         }
 
         item.play(txt, Handler.create(this, this.onItemComplete));
     }
 
-    private onItemComplete(item: fgui.System.SystemToastMessage)
+    private onItemComplete(item: SystemToastMessage)
     {
         this.pools.push(item);
     }

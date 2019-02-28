@@ -1,0 +1,18 @@
+{
+	"EGameDataOps": { //gamedata的操作类型
+		"init": 1, //初始化
+		"add": 2, //增加
+		"update": 4, //更新
+		"remove": 8 //删除
+	},
+	"EError": { // 错误提示
+		"NoError": 0,
+		"ServerError": 1, //服务器错误
+		"DataError": 2, //数据错误
+		"UnknownError": 3, //不明错误
+		"DataBusy": 4, //数据繁忙
+		"NoUsrId": 5, //找不到用户id
+		"Frozen": 6, //账号被冻结
+		"Dropped": 7 //账号被停用
+	}
+}

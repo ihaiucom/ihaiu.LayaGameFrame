@@ -1,0 +1,224 @@
+{
+  "city/SetPropagandaActor/req": {
+    "comment": null,
+    "$id": "city/SetPropagandaActor/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "cityId": {
+        "type": "number"
+      },
+      "areaId": {
+        "type": "number"
+      },
+      "actorId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "uuid",
+      "cityId",
+      "areaId",
+      "actorId"
+    ]
+  },
+  "city/SetPropagandaActor/resp": {
+    "comment": null,
+    "$id": "city/SetPropagandaActor/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "city/Propaganda/req": {
+    "comment": null,
+    "$id": "city/Propaganda/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "cityId": {
+        "type": "number"
+      },
+      "areaId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "uuid",
+      "cityId",
+      "areaId"
+    ]
+  },
+  "city/Propaganda/resp": {
+    "comment": null,
+    "$id": "city/Propaganda/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "city/Roadshow/req": {
+    "comment": null,
+    "$id": "city/Roadshow/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "cityId": {
+        "type": "number"
+      },
+      "areaId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "uuid",
+      "cityId",
+      "areaId"
+    ]
+  },
+  "city/Roadshow/resp": {
+    "comment": null,
+    "$id": "city/Roadshow/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "result": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "uuid",
+      "result"
+    ]
+  },
+  "city/SetAmbassador/req": {
+    "comment": null,
+    "$id": "city/SetAmbassador/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "cityId": {
+        "type": "number"
+      },
+      "psition": {
+        "type": "number"
+      },
+      "actuuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid",
+      "cityId",
+      "psition",
+      "actuuid"
+    ]
+  },
+  "city/SetAmbassador/resp": {
+    "comment": null,
+    "$id": "city/SetAmbassador/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "dropout": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "itemId": {
+              "type": "number"
+            },
+            "amount": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "required": [
+      "uuid",
+      "dropout"
+    ]
+  },
+  "city/GetReward/req": {
+    "comment": null,
+    "$id": "city/GetReward/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "cityId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "uuid",
+      "cityId"
+    ]
+  },
+  "city/GetReward/resp": {
+    "comment": null,
+    "$id": "city/GetReward/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "dropout": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "itemId": {
+              "type": "number"
+            },
+            "amount": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "required": [
+      "uuid",
+      "dropout"
+    ]
+  },
+  "city/HoldCity/req": {
+    "comment": null,
+    "$id": "city/HoldCity/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "city/HoldCity/resp": {
+    "comment": null,
+    "$id": "city/HoldCity/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+dotnet ./Copy/Copy.dll --setting=./Release-CopyMoive_android_xwalkview.json

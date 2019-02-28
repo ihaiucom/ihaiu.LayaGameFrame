@@ -1,0 +1,1 @@
+dotnet ./Copy/Copy.dll --setting=./Release-CopyWeb_release.json

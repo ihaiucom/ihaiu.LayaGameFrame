@@ -1,0 +1,60 @@
+{
+  "enableoverwrites": [
+  	{
+  		"src":"../../Gidea-PF-Client-Release/GamePF/bin/config", 
+  		"dst":"E:/zengfeng/GideaPF/Gidea-PF-Client-Release/Gidea-PF-SDK-Android-XWalkView/app/src/main/assets/www/config"
+  	},
+  	{
+  		"src":"../../Gidea-PF-Client-Release/GamePF/bin/font", 
+  		"dst":"E:/zengfeng/GideaPF/Gidea-PF-Client-Release/Gidea-PF-SDK-Android-XWalkView/app/src/main/assets/www/font"
+  	},
+  	{
+  		"src":"../../Gidea-PF-Client-Release/GamePF/bin/js-merge/Game.merge.js", 
+  		"dst":"E:/zengfeng/GideaPF/Gidea-PF-Client-Release/Gidea-PF-SDK-Android-XWalkView/app/src/main/assets/www/js-merge/Game.merge.js"
+  	},
+  	{
+  		"src":"../../Gidea-PF-Client-Release/GamePF/bin/js-merge/GameLaunch.merge.js", 
+  		"dst":"E:/zengfeng/GideaPF/Gidea-PF-Client-Release/Gidea-PF-SDK-Android-XWalkView/app/src/main/assets/www/js-merge/GameLaunch.merge.js"
+  	},
+  	{
+  		"src":"../../Gidea-PF-Client-Release/GamePF/bin/libs/bridge", 
+  		"dst":"E:/zengfeng/GideaPF/Gidea-PF-Client-Release/Gidea-PF-SDK-Android-XWalkView/app/src/main/assets/www/libs/bridge"
+  	},
+  	{
+  		"src":"../../Gidea-PF-Client-Release/GamePF/bin/libs/fairygui", 
+  		"dst":"E:/zengfeng/GideaPF/Gidea-PF-Client-Release/Gidea-PF-SDK-Android-XWalkView/app/src/main/assets/www/libs/fairygui"
+  	},
+  	{
+  		"src":"../../Gidea-PF-Client-Release/GamePF/bin/libs/game", 
+  		"dst":"E:/zengfeng/GideaPF/Gidea-PF-Client-Release/Gidea-PF-SDK-Android-XWalkView/app/src/main/assets/www/libs/game"
+  	},
+  	{
+  		"src":"../../Gidea-PF-Client-Release/GamePF/bin/libs/min", 
+  		"dst":"E:/zengfeng/GideaPF/Gidea-PF-Client-Release/Gidea-PF-SDK-Android-XWalkView/app/src/main/assets/www/libs/min"
+  	},
+  	{
+  		"src":"../../Gidea-PF-Client-Release/GamePF/bin/libs/rawinflate", 
+  		"dst":"E:/zengfeng/GideaPF/Gidea-PF-Client-Release/Gidea-PF-SDK-Android-XWalkView/app/src/main/assets/www/libs/rawinflate"
+  	},
+  	{
+  		"src":"../../Gidea-PF-Client-Release/GamePF/bin/res", 
+  		"dst":"E:/zengfeng/GideaPF/Gidea-PF-Client-Release/Gidea-PF-SDK-Android-XWalkView/app/src/main/assets/www/res"
+  	},
+  	{
+  		"src":"../../Gidea-PF-Client-Release/GamePF/bin/ClientGM.json", 
+  		"dst":"E:/zengfeng/GideaPF/Gidea-PF-Client-Release/Gidea-PF-SDK-Android-XWalkView/app/src/main/assets/www/ClientGM.json"
+  	},
+  	{
+  		"src":"../../Gidea-PF-Client-Release/GamePF/bin/ServerGM.json", 
+  		"dst":"E:/zengfeng/GideaPF/Gidea-PF-Client-Release/Gidea-PF-SDK-Android-XWalkView/app/src/main/assets/www/ServerGM.json"
+  	},
+  	{
+  		"src":"../../Gidea-PF-Client-Release/GamePF/bin/ServerList.json", 
+  		"dst":"E:/zengfeng/GideaPF/Gidea-PF-Client-Release/Gidea-PF-SDK-Android-XWalkView/app/src/main/assets/www/ServerList.json"
+  	},
+  
+  ],
+  "disableoverwrites": [
+  	
+  ]
+}

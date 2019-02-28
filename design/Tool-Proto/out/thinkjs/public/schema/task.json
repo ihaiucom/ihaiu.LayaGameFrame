@@ -1,0 +1,41 @@
+{
+  "task/reward/req": {
+    "comment": " 请求",
+    "$id": "task/reward/req",
+    "properties": {
+      "tId": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "tId"
+    ]
+  },
+  "task/reward/resp": {
+    "comment": " 回复",
+    "$id": "task/reward/resp",
+    "properties": {
+      "tId": {
+        "type": "string"
+      },
+      "dropout": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "itemId": {
+              "type": "number"
+            },
+            "amount": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "required": [
+      "tId",
+      "dropout"
+    ]
+  }
+}

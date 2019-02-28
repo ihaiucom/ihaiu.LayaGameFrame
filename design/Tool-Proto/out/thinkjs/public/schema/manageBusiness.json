@@ -1,0 +1,14 @@
+{
+  "manageBusiness/GetReward/req": {
+    "comment": null,
+    "$id": "manageBusiness/GetReward/req",
+    "properties": {},
+    "required": []
+  },
+  "manageBusiness/GetReward/resp": {
+    "comment": null,
+    "$id": "manageBusiness/GetReward/resp",
+    "properties": {},
+    "required": []
+  }
+}

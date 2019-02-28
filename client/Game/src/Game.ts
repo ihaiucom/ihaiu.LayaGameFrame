@@ -17,6 +17,9 @@ import GameApplicationBrowser from "./Bridge/Browser/GameApplicationBrowser";
 import AudioManager from "./GameFrame/Sound/AudioManager";
 import GameTimeData from "./GameFrame/Datas/GameTimeData";
 import GameSystemMessag from "./GameModule/GameSystemMessage";
+import LaunchText from "./Config/Keys/LaunchText";
+import LoaderSettingHandler from "./GameFrame/Loader/LoaderSettingHandler";
+import LoaderManager from "./GameFrame/Loader/LoaderManager";
 
 export default class Game
 {
@@ -32,6 +35,8 @@ export default class Game
     static browserSetting: BrowserDetectConfig = new BrowserDetectConfig();
     // 应用桥接
     static application: GameApplication = new GameApplicationBrowser();
+    // 游戏启动文本
+    static launchText: LaunchText = new LaunchText();
 
 
 
@@ -52,6 +57,10 @@ export default class Game
     static time: GameTimeData = new GameTimeData();
     // 本地数据存储
     static localStorage: GameLocalStorage = GameLocalStorage.Instance;
+    // 加载界面
+    static loader: LoaderManager;
+    // 加载界面事件
+    static loaderSettingHandler: LoaderSettingHandler = new LoaderSettingHandler();
     // 菜单
     static menu: MenuManager = new MenuManager();
     // 消息对话框
@@ -99,7 +108,6 @@ export default class Game
     //----------------------
     static init()
     {
-
     }
 
 }

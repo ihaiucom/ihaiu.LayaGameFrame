@@ -1,0 +1,85 @@
+{
+  "pay/StartOrder/req": {
+    "comment": null,
+    "$id": "pay/StartOrder/req",
+    "properties": {
+      "id": {
+        "type": "number"
+      },
+      "amount": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "id",
+      "amount"
+    ]
+  },
+  "pay/StartOrder/resp": {
+    "comment": null,
+    "$id": "pay/StartOrder/resp",
+    "properties": {
+      "id": {
+        "type": "number"
+      },
+      "amount": {
+        "type": "number"
+      },
+      "orderId": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "id",
+      "amount",
+      "orderId"
+    ]
+  },
+  "pay/FinishOrder/req": {
+    "comment": null,
+    "$id": "pay/FinishOrder/req",
+    "properties": {
+      "orderId": {
+        "type": "string"
+      },
+      "result": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "orderId",
+      "result"
+    ]
+  },
+  "pay/FinishOrder/resp": {
+    "comment": null,
+    "$id": "pay/FinishOrder/resp",
+    "properties": {
+      "orderId": {
+        "type": "string"
+      },
+      "result": {
+        "type": "number"
+      },
+      "dropout": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "itemId": {
+              "type": "number"
+            },
+            "amount": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "required": [
+      "orderId",
+      "result",
+      "dropout"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+﻿int	string	string
+id	拍摄类型名称	类型说明
+id	name	type_des
+2201	Musical	Target Demographic: Children
+2202	Romance	Target Demographic: Female
+2203	Comedy	Target Demographic: Female
+2204	Drama	Target Demographic: Male
+2205	Action	Target Demographic: Male
+2206	Horror	Target Demographic: Female
+2207	Cartoon	Target Demographic: Children
+2208	Suspense	Target Demographic: Male

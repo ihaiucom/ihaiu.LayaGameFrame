@@ -1,0 +1,56 @@
+{
+  "smallTarget/LevGift/req": {
+    "comment": null,
+    "$id": "smallTarget/LevGift/req",
+    "properties": {},
+    "required": []
+  },
+  "smallTarget/LevGift/resp": {
+    "comment": null,
+    "$id": "smallTarget/LevGift/resp",
+    "properties": {
+      "giftId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "giftId"
+    ]
+  },
+  "smallTarget/CupGift/req": {
+    "comment": " 奖杯礼包",
+    "$id": "smallTarget/CupGift/req",
+    "properties": {},
+    "required": []
+  },
+  "smallTarget/CupGift/resp": {
+    "comment": null,
+    "$id": "smallTarget/CupGift/resp",
+    "properties": {
+      "giftId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "giftId"
+    ]
+  },
+  "smallTarget/GetCupMail/req": {
+    "comment": " 奖杯礼包邮件",
+    "$id": "smallTarget/GetCupMail/req",
+    "properties": {},
+    "required": []
+  },
+  "smallTarget/GetCupMail/resp": {
+    "comment": null,
+    "$id": "smallTarget/GetCupMail/resp",
+    "properties": {
+      "giftId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "giftId"
+    ]
+  }
+}

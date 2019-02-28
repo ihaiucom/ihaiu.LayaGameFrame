@@ -1,0 +1,34 @@
+{
+  "progressBox/GetReward/req": {
+    "comment": null,
+    "$id": "progressBox/GetReward/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "gear": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "uuid",
+      "gear"
+    ]
+  },
+  "progressBox/GetReward/resp": {
+    "comment": null,
+    "$id": "progressBox/GetReward/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "gear": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "uuid",
+      "gear"
+    ]
+  }
+}

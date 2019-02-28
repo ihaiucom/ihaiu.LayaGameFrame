@@ -1,0 +1,130 @@
+{
+  "CinemaBuild/ExtendFloor/req": {
+    "comment": " 请求",
+    "$id": "CinemaBuild/ExtendFloor/req",
+    "properties": {
+      "floor": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "floor"
+    ]
+  },
+  "CinemaBuild/ExtendFloor/resp": {
+    "comment": null,
+    "$id": "CinemaBuild/ExtendFloor/resp",
+    "properties": {
+      "result": {
+        "type": "number"
+      },
+      "floor": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "result",
+      "floor"
+    ]
+  },
+  "CinemaBuild/BuildRoom/req": {
+    "comment": null,
+    "$id": "CinemaBuild/BuildRoom/req",
+    "properties": {
+      "floor": {
+        "type": "number"
+      },
+      "roomType": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "floor",
+      "roomType"
+    ]
+  },
+  "CinemaBuild/BuildRoom/resp": {
+    "comment": null,
+    "$id": "CinemaBuild/BuildRoom/resp",
+    "properties": {
+      "result": {
+        "type": "number"
+      },
+      "floor": {
+        "type": "number"
+      },
+      "roomId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "result",
+      "floor",
+      "roomId"
+    ]
+  },
+  "CinemaBuild/UpgradeRoom/req": {
+    "comment": null,
+    "$id": "CinemaBuild/UpgradeRoom/req",
+    "properties": {
+      "roomId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "roomId"
+    ]
+  },
+  "CinemaBuild/UpgradeRoom/resp": {
+    "comment": null,
+    "$id": "CinemaBuild/UpgradeRoom/resp",
+    "properties": {
+      "result": {
+        "type": "number"
+      },
+      "preRoomId": {
+        "type": "number"
+      },
+      "roomId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "result",
+      "preRoomId",
+      "roomId"
+    ]
+  },
+  "CinemaBuild/goldExchange/req": {
+    "comment": null,
+    "$id": "CinemaBuild/goldExchange/req",
+    "properties": {
+      "count": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "count"
+    ]
+  },
+  "CinemaBuild/goldExchange/resp": {
+    "comment": null,
+    "$id": "CinemaBuild/goldExchange/resp",
+    "properties": {
+      "result": {
+        "type": "number"
+      },
+      "count": {
+        "type": "number"
+      },
+      "totalCount": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "result",
+      "count",
+      "totalCount"
+    ]
+  }
+}

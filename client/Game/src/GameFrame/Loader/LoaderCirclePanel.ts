@@ -1,3 +1,5 @@
+import GlobalModalWaiting from "../../FGUI/Extends/GameLaunch/GlobalModalWaiting";
+import LoaderPanel from "./LoaderPanel";
 
 //======================
 // 加载界面--转圈
@@ -12,7 +14,7 @@ export default class LoaderCirclePanel extends LoaderPanel
 
     protected onInit():void
     { 
-        this.contentPane = fgui.System.GlobalModalWaiting.createInstance();
+        this.contentPane = GlobalModalWaiting.createInstance();
         this.center();
         
         //弹出窗口的动效已中心为轴心

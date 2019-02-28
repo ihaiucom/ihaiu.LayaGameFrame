@@ -1,0 +1,323 @@
+{
+  "GameData/Auth/req": {
+    "comment": " 请求注册",
+    "$id": "GameData/Auth/req",
+    "properties": {
+      "pass": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "pass"
+    ]
+  },
+  "GameData/Auth/resp": {
+    "comment": null,
+    "$id": "GameData/Auth/resp",
+    "properties": {
+      "result": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "result"
+    ]
+  },
+  "GameData/VisitorAuth/req": {
+    "comment": " 请求游客转正",
+    "$id": "GameData/VisitorAuth/req",
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "pass": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "name",
+      "pass"
+    ]
+  },
+  "GameData/VisitorAuth/resp": {
+    "comment": null,
+    "$id": "GameData/VisitorAuth/resp",
+    "properties": {
+      "result": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "result"
+    ]
+  },
+  "GameData/InitGameData/req": {
+    "comment": null,
+    "$id": "GameData/InitGameData/req",
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "sex": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "name",
+      "sex"
+    ]
+  },
+  "GameData/InitGameData/resp": {
+    "comment": null,
+    "$id": "GameData/InitGameData/resp",
+    "properties": {
+      "result": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "result"
+    ]
+  },
+  "GameData/GetLoginGameData/req": {
+    "comment": " 请求登陆",
+    "$id": "GameData/GetLoginGameData/req",
+    "properties": {
+      "pass": {
+        "type": "string"
+      },
+      "channel": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "pass",
+      "channel"
+    ]
+  },
+  "GameData/GetLoginGameData/resp": {
+    "comment": null,
+    "$id": "GameData/GetLoginGameData/resp",
+    "properties": {
+      "serverCode": {
+        "type": "string"
+      },
+      "serverName": {
+        "type": "string"
+      },
+      "noticeList": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "content": {
+              "type": "string"
+            },
+            "messageDetailUrl": {
+              "type": "string"
+            },
+            "itemList": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "itemId": {
+                    "type": "number"
+                  },
+                  "amount": {
+                    "type": "number"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "timeZone": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "serverCode",
+      "serverName",
+      "noticeList",
+      "timeZone"
+    ]
+  },
+  "GameData/GetInitGameData/req": {
+    "comment": null,
+    "$id": "GameData/GetInitGameData/req",
+    "properties": {
+      "nameList": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "nameList"
+    ]
+  },
+  "GameData/GetInitGameData/resp": {
+    "comment": null,
+    "$id": "GameData/GetInitGameData/resp",
+    "properties": {},
+    "required": []
+  },
+  "GameData/RenameGameData/req": {
+    "comment": null,
+    "$id": "GameData/RenameGameData/req",
+    "properties": {
+      "playerName": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "playerName"
+    ]
+  },
+  "GameData/RenameGameData/resp": {
+    "comment": null,
+    "$id": "GameData/RenameGameData/resp",
+    "properties": {
+      "result": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "result"
+    ]
+  },
+  "GameData/RePerSignatureGameData/req": {
+    "comment": null,
+    "$id": "GameData/RePerSignatureGameData/req",
+    "properties": {
+      "perSignature": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "perSignature"
+    ]
+  },
+  "GameData/RePerSignatureGameData/resp": {
+    "comment": null,
+    "$id": "GameData/RePerSignatureGameData/resp",
+    "properties": {
+      "result": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "result"
+    ]
+  },
+  "GameData/RePortraitGameData/req": {
+    "comment": null,
+    "$id": "GameData/RePortraitGameData/req",
+    "properties": {
+      "type": {
+        "type": "number"
+      },
+      "portraitId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "type",
+      "portraitId"
+    ]
+  },
+  "GameData/RePortraitGameData/resp": {
+    "comment": null,
+    "$id": "GameData/RePortraitGameData/resp",
+    "properties": {
+      "result": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "result"
+    ]
+  },
+  "GameData/GetGameInfoExt/req": {
+    "comment": null,
+    "$id": "GameData/GetGameInfoExt/req",
+    "properties": {},
+    "required": []
+  },
+  "GameData/GetGameInfoExt/resp": {
+    "comment": null,
+    "$id": "GameData/GetGameInfoExt/resp",
+    "properties": {},
+    "required": []
+  },
+  "GameData/GetInitActor/req": {
+    "comment": null,
+    "$id": "GameData/GetInitActor/req",
+    "properties": {
+      "index": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "index"
+    ]
+  },
+  "GameData/GetInitActor/resp": {
+    "comment": null,
+    "$id": "GameData/GetInitActor/resp",
+    "properties": {},
+    "required": []
+  },
+  "GameData/GetNoticeList/req": {
+    "comment": null,
+    "$id": "GameData/GetNoticeList/req",
+    "properties": {},
+    "required": []
+  },
+  "GameData/GetNoticeList/resp": {
+    "comment": null,
+    "$id": "GameData/GetNoticeList/resp",
+    "properties": {
+      "noticeList": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "content": {
+              "type": "string"
+            },
+            "messageDetailUrl": {
+              "type": "string"
+            },
+            "itemList": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "itemId": {
+                    "type": "number"
+                  },
+                  "amount": {
+                    "type": "number"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "required": [
+      "noticeList"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+﻿int	string	int	int	int	int
+级别ID	级别名称	级别档位	图标	前置级别0表示没有前置	下一个级别
+id	zh_cn_name	stall	icon	pre_id	next_level
+1000	测试	1	1000	0	102
+1001	Street 1	1	1001	0	1002

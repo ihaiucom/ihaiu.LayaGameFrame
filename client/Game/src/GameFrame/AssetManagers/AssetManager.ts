@@ -1,6 +1,5 @@
 import ConfigLoaderInterface from "../../Config/Interfaces/ConfigLoaderInterface";
 import Dictionary from "../../Libs/Helpers/Dictionary";
-import ConfigLoaderCallback from "../../Config/Interfaces/ConfigLoaderCallback";
 import Handler = Laya.Handler;
 import Loader = Laya.Loader;
 import AssetItemInfo from "./AssetItemInfo";
@@ -9,6 +8,7 @@ import { AssetItemType } from "./AssetItemType";
 import Game from "../../Game";
 import GuiResPackageConfig from "../../FGUI/GuiResPackageConfig";
 import GuiSetting from "../../FGUI/GuiSetting";
+import { ConfigLoaderCallback } from "../../Config/Interfaces/ConfigLoaderCallback";
 
 export default class AssetManager implements ConfigLoaderInterface
 {

@@ -1,0 +1,12 @@
+{
+  "enableoverwrites": [
+  	{
+  		"src":"../Config/LangOut/lang", 
+  		"dst":"../../client/Game/bin/config/lang"
+  	},
+  	{
+  		"src":"../Config/LangOut/Client/LangConfigLoaderList.ts", 
+      "dst":"../../client/Game/src/Config/LangConfigLoaderList.ts"
+  	}
+  ]
+}

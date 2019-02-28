@@ -1,0 +1,105 @@
+﻿int	string
+编号	任务名称
+id	name
+1001	Film 5 movies
+1002	Upgrade actor 10 times
+1003	Train actor once
+1004	Send 10 gifts to actor
+1005	Complete skill training for 3 actors
+1006	Upgrade actor's skill once
+1007	Complete 30 business
+1008	Complete 10 Meeting
+1009	Complete 10 fans visiting
+1010	Complete 20 city advertising
+1011	Collect 5 city earnings
+1012	Congrat leaderboard once
+1013	Congrat box-office leaderboard once
+1014	Collect competition package once
+1015	Upgrade treasure once
+1016	Collect 10 productions
+1017	Complete 10 orders
+1018	Collect 3 movie earnings
+1019	Rise movie hype for 5 times
+1020	Send MovieDollars to cooperator once
+1021	Complete a cooperation quest
+1022	Complete a cooperation order
+1100	Build a Cinema
+1101	Build a Film Studio
+1102	Shoot your first movie
+1103	Collect your movie earnings
+1104	Build a Green Room
+1105	Hire a new actor
+1106	Upgrade an actor to level 10
+1107	Build a Marketing Department
+1108	Advertise at the Walk of Fame
+1109	Upgrade Marketing Departmen to level 2
+1110	Increase movie buzz twice
+1111	Advertise at Universal Studios Hollywood
+1112	Successfully complete a roadshow
+1113	Cover the Los Angeles market
+1114	Appoint a brand ambassador in Los Angeles
+1115	Select a city to do a Marketing Campaign
+1116	Shoot your second movie
+1117	Build an Advertising Department
+1118	Increase movie buzz a total of six times
+1119	Earn 8000 MoviedDollars in movie earnings
+1120	Collect city earnings
+1121	Build a Depot
+1122	Produce merchandise once
+1123	Build a Sales Department
+1124	Upgrade Film Studio to level 2
+1125	Build a Biz Dev Center
+1126	Upgrade one actor to level 20
+1127	Shoot your third movie
+1128	Check the leaderboard
+1129	Complete one order
+1130	Cover the New York market
+1131	Appoint 3 brand ambassadors in New York
+1132	Build an Office
+1133	Handle business three times
+1134	Collect city earnings twice
+1135	Complete production twice
+1136	Build a Reception Room
+1137	Welcome one fan
+1138	Occupy the Washington, D.C market
+1139	Appoint 3 brand ambassadors in Washington, D.C market
+1140	Raise an actor to level 20
+1141	Occupy the Chicago market
+1142	Build Office
+1143	Handle business three times
+1144	Collect more than 5000 MovieDollars in earnings
+1145	Collect city earnings
+1146	Complete production
+1147	Build Reception Room
+1148	Receive one fan
+1149	Check Leaderboard
+3101	unlock {0} scripts
+3102	unlock {0} scripts
+3103	unlock {0} scripts
+3104	unlock {0} scripts
+3105	unlock {0} scripts
+3106	unlock {0} scripts
+3107	unlock {0} scripts
+3108	unlock {0} scripts
+3109	unlock {0} scripts
+3110	unlock {0} scripts
+3201	Stars from unlocked scripts reached {0}
+3202	Stars from unlocked scripts reached {0}
+3203	Stars from unlocked scripts reached {0}
+3204	Stars from unlocked scripts reached {0}
+3205	Stars from unlocked scripts reached {0}
+3206	Stars from unlocked scripts reached {0}
+3207	Stars from unlocked scripts reached {0}
+3208	Stars from unlocked scripts reached {0}
+3209	Stars from unlocked scripts reached {0}
+3210	Stars from unlocked scripts reached {0}
+3301	Complete {0} script's challenge
+3302	Complete {0} script's challenge
+3303	Complete {0} script's challenge
+3304	Complete {0} script's challenge
+3305	Complete {0} script's challenge
+3306	Complete {0} script's challenge
+3307	Complete {0} script's challenge
+3308	Complete {0} script's challenge
+3309	Complete {0} script's challenge
+3310	Complete {0} script's challenge

@@ -1,0 +1,32 @@
+/////////////////////////////////////
+// ExportXlsx生成
+// http://blog.ihaiu.com/tool-ExportXlsx
+/////////////////////////////////////
+
+namespace configs
+{
+
+	export class >:classNameConfigReaderStruct:< extends CsvConfigRender<    >:classNameConfig:<      >
+	{
+		path = ">:tableName:<";
+
+
+        ParseCsv(csv: string[] )
+        {
+			let config = new >:classNameConfig:<();
+
+
+			>:FOREACH fields:<
+			config.>:[0]:< = >:[1]:<;
+			>:ENDFOREACH:<
+
+			
+			>:FOREACH dicts:<
+			config[">:[0]:<"] = >:[1]:<;
+			>:ENDFOREACH:<
+
+
+			this.addConfig(config);
+        }
+	}
+}

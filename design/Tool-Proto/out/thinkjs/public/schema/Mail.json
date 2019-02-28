@@ -1,0 +1,164 @@
+{
+  "Mail/MailGetReward/req": {
+    "comment": null,
+    "$id": "Mail/MailGetReward/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "Mail/MailGetReward/resp": {
+    "comment": null,
+    "$id": "Mail/MailGetReward/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "dropout": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "itemId": {
+              "type": "number"
+            },
+            "amount": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "required": [
+      "uuid",
+      "dropout"
+    ]
+  },
+  "Mail/MailGetRewardMany/req": {
+    "comment": null,
+    "$id": "Mail/MailGetRewardMany/req",
+    "properties": {
+      "uuid": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "Mail/MailGetRewardMany/resp": {
+    "comment": null,
+    "$id": "Mail/MailGetRewardMany/resp",
+    "properties": {
+      "uuid": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "dropout": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "itemId": {
+              "type": "number"
+            },
+            "amount": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "required": [
+      "uuid",
+      "dropout"
+    ]
+  },
+  "Mail/MailDeleteMany/req": {
+    "comment": null,
+    "$id": "Mail/MailDeleteMany/req",
+    "properties": {
+      "uuid": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "Mail/MailDeleteMany/resp": {
+    "comment": null,
+    "$id": "Mail/MailDeleteMany/resp",
+    "properties": {
+      "uuid": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "Mail/MailDelete/req": {
+    "comment": null,
+    "$id": "Mail/MailDelete/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "Mail/MailDelete/resp": {
+    "comment": null,
+    "$id": "Mail/MailDelete/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "Mail/MailRead/req": {
+    "comment": null,
+    "$id": "Mail/MailRead/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "Mail/MailRead/resp": {
+    "comment": null,
+    "$id": "Mail/MailRead/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  }
+}

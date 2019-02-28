@@ -1,0 +1,560 @@
+{
+  "rank/GetSelfList/req": {
+    "comment": null,
+    "$id": "rank/GetSelfList/req",
+    "properties": {},
+    "required": []
+  },
+  "rank/GetSelfList/resp": {
+    "comment": null,
+    "$id": "rank/GetSelfList/resp",
+    "properties": {
+      "data": {
+        "type": "object",
+        "properties": {
+          "MainRank": {
+            "type": "number"
+          },
+          "groupList": {
+            "type": "number"
+          },
+          "serverName": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "required": [
+      "data"
+    ]
+  },
+  "rank/GetServerRankList/req": {
+    "comment": null,
+    "$id": "rank/GetServerRankList/req",
+    "properties": {},
+    "required": []
+  },
+  "rank/GetServerRankList/resp": {
+    "comment": null,
+    "$id": "rank/GetServerRankList/resp",
+    "properties": {
+      "selfRank": {
+        "type": "number"
+      },
+      "selfData": {
+        "type": "object",
+        "properties": {
+          "portrait": {
+            "type": "number"
+          },
+          "sex": {
+            "type": "number"
+          },
+          "name": {
+            "type": "string"
+          },
+          "userId": {
+            "type": "number"
+          },
+          "movieUuid": {
+            "type": "string"
+          },
+          "movieId": {
+            "type": "number"
+          },
+          "movieName": {
+            "type": "string"
+          },
+          "totalBoxOffice": {
+            "type": "number"
+          }
+        }
+      },
+      "data": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "portrait": {
+              "type": "number"
+            },
+            "sex": {
+              "type": "number"
+            },
+            "name": {
+              "type": "string"
+            },
+            "userId": {
+              "type": "number"
+            },
+            "movieUuid": {
+              "type": "string"
+            },
+            "movieId": {
+              "type": "number"
+            },
+            "movieName": {
+              "type": "string"
+            },
+            "totalBoxOffice": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "required": [
+      "selfRank",
+      "selfData",
+      "data"
+    ]
+  },
+  "rank/GetGroupRankList/req": {
+    "comment": null,
+    "$id": "rank/GetGroupRankList/req",
+    "properties": {},
+    "required": []
+  },
+  "rank/GetGroupRankList/resp": {
+    "comment": null,
+    "$id": "rank/GetGroupRankList/resp",
+    "properties": {
+      "selfRank": {
+        "type": "number"
+      },
+      "selfData": {
+        "type": "object",
+        "properties": {
+          "portrait": {
+            "type": "number"
+          },
+          "sex": {
+            "type": "number"
+          },
+          "name": {
+            "type": "string"
+          },
+          "userId": {
+            "type": "number"
+          },
+          "totalBoxOffice": {
+            "type": "number"
+          }
+        }
+      },
+      "data": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "portrait": {
+              "type": "number"
+            },
+            "sex": {
+              "type": "number"
+            },
+            "name": {
+              "type": "string"
+            },
+            "userId": {
+              "type": "number"
+            },
+            "totalBoxOffice": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "required": [
+      "selfRank",
+      "selfData",
+      "data"
+    ]
+  },
+  "rank/GetGroupMovieRankList/req": {
+    "comment": null,
+    "$id": "rank/GetGroupMovieRankList/req",
+    "properties": {},
+    "required": []
+  },
+  "rank/GetGroupMovieRankList/resp": {
+    "comment": null,
+    "$id": "rank/GetGroupMovieRankList/resp",
+    "properties": {
+      "selfRank": {
+        "type": "number"
+      },
+      "selfData": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "movieUuid": {
+            "type": "string"
+          },
+          "movieId": {
+            "type": "number"
+          },
+          "movieName": {
+            "type": "string"
+          },
+          "userId": {
+            "type": "number"
+          },
+          "totalBoxOffice": {
+            "type": "number"
+          }
+        }
+      },
+      "data": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "movieUuid": {
+              "type": "string"
+            },
+            "movieId": {
+              "type": "number"
+            },
+            "movieName": {
+              "type": "string"
+            },
+            "userId": {
+              "type": "number"
+            },
+            "totalBoxOffice": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "required": [
+      "selfRank",
+      "selfData",
+      "data"
+    ]
+  },
+  "rank/GetMovieShortData/req": {
+    "comment": null,
+    "$id": "rank/GetMovieShortData/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "rank/GetMovieShortData/resp": {
+    "comment": null,
+    "$id": "rank/GetMovieShortData/resp",
+    "properties": {
+      "data": {
+        "type": "object",
+        "properties": {
+          "userId": {
+            "type": "number"
+          },
+          "uuid": {
+            "type": "string"
+          },
+          "movieId": {
+            "type": "number"
+          },
+          "name": {
+            "type": "string"
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "actorId": {
+                  "type": "number"
+                },
+                "name": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "type": {
+            "type": "number"
+          },
+          "totalBoxOffice": {
+            "type": "number"
+          },
+          "boxOfficeEvaluation": {
+            "type": "number"
+          },
+          "mediaCommend": {
+            "type": "number"
+          },
+          "publicPraise": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "required": [
+      "data"
+    ]
+  },
+  "rank/GetPlayerShortData/req": {
+    "comment": null,
+    "$id": "rank/GetPlayerShortData/req",
+    "properties": {
+      "userId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "userId"
+    ]
+  },
+  "rank/GetPlayerShortData/resp": {
+    "comment": null,
+    "$id": "rank/GetPlayerShortData/resp",
+    "properties": {
+      "data": {
+        "type": "object",
+        "properties": {
+          "userId": {
+            "type": "number"
+          },
+          "portrait": {
+            "type": "number"
+          },
+          "sex": {
+            "type": "number"
+          },
+          "name": {
+            "type": "string"
+          },
+          "level": {
+            "type": "number"
+          },
+          "blockLevel": {
+            "type": "number"
+          },
+          "perSignature": {
+            "type": "string"
+          },
+          "city": {
+            "type": "number"
+          },
+          "numActor": {
+            "type": "number"
+          },
+          "numBuilding": {
+            "type": "number"
+          },
+          "boxOfficeEvaluation": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          },
+          "dailyBestMovie": {
+            "type": "string"
+          },
+          "bestMovie": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "movieUuid": {
+                  "type": "string"
+                },
+                "movieId": {
+                  "type": "number"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "totalBoxOffice": {
+                  "type": "number"
+                },
+                "boxOfficeEvaluation": {
+                  "type": "number"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "required": [
+      "data"
+    ]
+  },
+  "rank/GetServerListReward/req": {
+    "comment": null,
+    "$id": "rank/GetServerListReward/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "rank/GetServerListReward/resp": {
+    "comment": null,
+    "$id": "rank/GetServerListReward/resp",
+    "properties": {
+      "dropout": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "itemId": {
+              "type": "number"
+            },
+            "amount": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "required": [
+      "dropout"
+    ]
+  },
+  "rank/ChangeServerName/req": {
+    "comment": null,
+    "$id": "rank/ChangeServerName/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid",
+      "name"
+    ]
+  },
+  "rank/ChangeServerName/resp": {
+    "comment": null,
+    "$id": "rank/ChangeServerName/resp",
+    "properties": {},
+    "required": []
+  },
+  "rank/GetOscarData/req": {
+    "comment": null,
+    "$id": "rank/GetOscarData/req",
+    "properties": {},
+    "required": []
+  },
+  "rank/GetOscarData/resp": {
+    "comment": null,
+    "$id": "rank/GetOscarData/resp",
+    "properties": {},
+    "required": []
+  },
+  "rank/GetOscarReward/req": {
+    "comment": null,
+    "$id": "rank/GetOscarReward/req",
+    "properties": {
+      "type": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "type"
+    ]
+  },
+  "rank/GetOscarReward/resp": {
+    "comment": null,
+    "$id": "rank/GetOscarReward/resp",
+    "properties": {
+      "dropout": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "itemId": {
+              "type": "number"
+            },
+            "amount": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "required": [
+      "dropout"
+    ]
+  },
+  "rank/ChoseTheater/req": {
+    "comment": null,
+    "$id": "rank/ChoseTheater/req",
+    "properties": {
+      "theaterId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "theaterId"
+    ]
+  },
+  "rank/ChoseTheater/resp": {
+    "comment": null,
+    "$id": "rank/ChoseTheater/resp",
+    "properties": {},
+    "required": []
+  },
+  "rank/GetStreetReward/req": {
+    "comment": null,
+    "$id": "rank/GetStreetReward/req",
+    "properties": {
+      "type": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "type"
+    ]
+  },
+  "rank/GetStreetReward/resp": {
+    "comment": null,
+    "$id": "rank/GetStreetReward/resp",
+    "properties": {
+      "type": {
+        "type": "number"
+      },
+      "dropout": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "itemId": {
+              "type": "number"
+            },
+            "amount": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "required": [
+      "type",
+      "dropout"
+    ]
+  }
+}

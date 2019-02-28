@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "Remove/1.0.0": {
+        "dependencies": {
+          "CommandLine": "2.0.275.0",
+          "System.Text.Encoding.CodePages": "4.1.1.0"
+        },
+        "runtime": {
+          "Remove.dll": {}
+        }
+      },
+      "CommandLine/2.0.275.0": {
+        "runtime": {
+          "CommandLine.dll": {}
+        }
+      },
+      "System.Text.Encoding.CodePages/4.1.1.0": {
+        "runtime": {
+          "System.Text.Encoding.CodePages.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Remove/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommandLine/2.0.275.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Text.Encoding.CodePages/4.1.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

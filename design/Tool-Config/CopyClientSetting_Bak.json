@@ -1,0 +1,15 @@
+{
+  "enableoverwrites": [
+  	{
+  		"src":"../../client/Game/bin/config/csv", 
+  		"dst":"../../_gen/ConfigBakClient/XXXX/csv"
+  	},
+  	{
+  		"src":"../../client/Game/src/Config", 
+      "dst":"../../_gen/ConfigBakClient/XXXX/Config/"
+  	}
+  ],
+  "disableoverwrites": [
+  	
+  ],
+}

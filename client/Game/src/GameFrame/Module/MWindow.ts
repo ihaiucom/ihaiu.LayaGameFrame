@@ -12,6 +12,9 @@ import { MenuOpenType } from "../Menu/MenuOpenType";
 import GameEventKey from "../../GameEventKey";
 import MSubwindow from "./MSubWindow";
 import Point = laya.maths.Point;
+import Handler = laya.utils.Handler;
+import AvatarConfig from "../../Config/ConfigExtends/AvatarConfig";
+import MenuConfig from "../../Config/ConfigExtends/MenuConfig";
 
 //======================
 // 模块窗口
@@ -97,17 +100,11 @@ export default abstract class MWindow extends FWindow
     {
         switch (packagename)
         {
-            case GuiPackageNames.Common:
-            case GuiPackageNames.Fx:
-            case GuiPackageNames.LangEn:
-            case GuiPackageNames.LangZhCn:
-            case GuiPackageNames.Sound:
-            case GuiPackageNames.System:
-            case GuiPackageNames.PfSkin:
-            case GuiPackageNames.PlayerInfo:
-            case GuiPackageNames.Guide:
-            case GuiPackageNames.MainUI:
-            case GuiPackageNames.WarMovie:
+            case GuiPackageNames.CommonBase:
+            case GuiPackageNames.CommonGame:
+            case GuiPackageNames.CommonNumber:
+            case GuiPackageNames.CommonFx:
+            case GuiPackageNames.SystemModuleDialog:
                 return;
         }
         Game.asset.unloadFgui(packagename);
@@ -388,18 +385,18 @@ export default abstract class MWindow extends FWindow
 
     calBuutonPos()
     {
-        let btn = Game.moduleModel.func.getMenuCtrlByMenuId(this.menuId);
-        if (btn)
-        {
-            let p = btn.getGlobalPos();
-            this.toPoint.x = p.x;
-            this.toPoint.y = p.y;
-        }
-        else
-        {
-            this.toPoint.x = ScreenSetting.screenWidth >> 1;
-            this.toPoint.y = ScreenSetting.screenHeight >> 1;
-        }
+        // let btn = Game.moduleModel.func.getMenuCtrlByMenuId(this.menuId);
+        // if (btn)
+        // {
+        //     let p = btn.getGlobalPos();
+        //     this.toPoint.x = p.x;
+        //     this.toPoint.y = p.y;
+        // }
+        // else
+        // {
+        //     this.toPoint.x = Game.screenSetting.screenWidth >> 1;
+        //     this.toPoint.y = Game.screenSetting.screenHeight >> 1;
+        // }
     }
 
 

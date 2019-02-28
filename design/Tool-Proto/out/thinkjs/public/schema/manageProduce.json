@@ -1,0 +1,214 @@
+{
+  "manageProduce/Produce/req": {
+    "comment": null,
+    "$id": "manageProduce/Produce/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "manageProduce/Produce/resp": {
+    "comment": null,
+    "$id": "manageProduce/Produce/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "manageProduce/GetReward/req": {
+    "comment": null,
+    "$id": "manageProduce/GetReward/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "manageProduce/GetReward/resp": {
+    "comment": null,
+    "$id": "manageProduce/GetReward/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "manageProduce/Uplevel/req": {
+    "comment": null,
+    "$id": "manageProduce/Uplevel/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "skillId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "uuid",
+      "skillId"
+    ]
+  },
+  "manageProduce/Uplevel/resp": {
+    "comment": null,
+    "$id": "manageProduce/Uplevel/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "skillId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "uuid",
+      "skillId"
+    ]
+  },
+  "manageProduce/SendActor/req": {
+    "comment": null,
+    "$id": "manageProduce/SendActor/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "actBaseId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "uuid",
+      "actBaseId"
+    ]
+  },
+  "manageProduce/SendActor/resp": {
+    "comment": null,
+    "$id": "manageProduce/SendActor/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "actBaseId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "uuid",
+      "actBaseId"
+    ]
+  },
+  "manageProduce/Deblocking/req": {
+    "comment": null,
+    "$id": "manageProduce/Deblocking/req",
+    "properties": {
+      "produceId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "produceId"
+    ]
+  },
+  "manageProduce/Deblocking/resp": {
+    "comment": null,
+    "$id": "manageProduce/Deblocking/resp",
+    "properties": {
+      "produceId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "produceId"
+    ]
+  },
+  "manageProduce/QuickGetReward/req": {
+    "comment": null,
+    "$id": "manageProduce/QuickGetReward/req",
+    "properties": {
+      "stall": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "stall"
+    ]
+  },
+  "manageProduce/QuickGetReward/resp": {
+    "comment": null,
+    "$id": "manageProduce/QuickGetReward/resp",
+    "properties": {
+      "stall": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "stall"
+    ]
+  },
+  "manageProduce/QuickProduce/req": {
+    "comment": null,
+    "$id": "manageProduce/QuickProduce/req",
+    "properties": {
+      "stall": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "stall"
+    ]
+  },
+  "manageProduce/QuickProduce/resp": {
+    "comment": null,
+    "$id": "manageProduce/QuickProduce/resp",
+    "properties": {
+      "stall": {
+        "type": "number"
+      },
+      "num": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "stall",
+      "num"
+    ]
+  },
+  "manageProduce/cleanTime/req": {
+    "comment": null,
+    "$id": "manageProduce/cleanTime/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "manageProduce/cleanTime/resp": {
+    "comment": null,
+    "$id": "manageProduce/cleanTime/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  }
+}

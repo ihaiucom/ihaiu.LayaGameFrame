@@ -1,0 +1,450 @@
+{
+  "test/AddItem/req": {
+    "comment": null,
+    "$id": "test/AddItem/req",
+    "properties": {
+      "itemId": {
+        "type": "number"
+      },
+      "amount": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "itemId",
+      "amount"
+    ]
+  },
+  "test/AddItem/resp": {
+    "comment": null,
+    "$id": "test/AddItem/resp",
+    "properties": {},
+    "required": []
+  },
+  "test/AddFans/req": {
+    "comment": null,
+    "$id": "test/AddFans/req",
+    "properties": {
+      "amount": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "amount"
+    ]
+  },
+  "test/AddFans/resp": {
+    "comment": null,
+    "$id": "test/AddFans/resp",
+    "properties": {},
+    "required": []
+  },
+  "test/AddExpect/req": {
+    "comment": null,
+    "$id": "test/AddExpect/req",
+    "properties": {
+      "amount": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "amount"
+    ]
+  },
+  "test/AddExpect/resp": {
+    "comment": null,
+    "$id": "test/AddExpect/resp",
+    "properties": {},
+    "required": []
+  },
+  "test/DeleteMovie/req": {
+    "comment": null,
+    "$id": "test/DeleteMovie/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "test/DeleteMovie/resp": {
+    "comment": null,
+    "$id": "test/DeleteMovie/resp",
+    "properties": {},
+    "required": []
+  },
+  "test/AddStarStory/req": {
+    "comment": null,
+    "$id": "test/AddStarStory/req",
+    "properties": {
+      "starId": {
+        "type": "number"
+      },
+      "amount": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "starId",
+      "amount"
+    ]
+  },
+  "test/AddStarStory/resp": {
+    "comment": null,
+    "$id": "test/AddStarStory/resp",
+    "properties": {},
+    "required": []
+  },
+  "test/AddStory/req": {
+    "comment": null,
+    "$id": "test/AddStory/req",
+    "properties": {
+      "storyId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "storyId"
+    ]
+  },
+  "test/AddStory/resp": {
+    "comment": null,
+    "$id": "test/AddStory/resp",
+    "properties": {},
+    "required": []
+  },
+  "test/AddActorSkillExp/req": {
+    "comment": null,
+    "$id": "test/AddActorSkillExp/req",
+    "properties": {
+      "actorId": {
+        "type": "number"
+      },
+      "amount": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "actorId",
+      "amount"
+    ]
+  },
+  "test/AddActorSkillExp/resp": {
+    "comment": null,
+    "$id": "test/AddActorSkillExp/resp",
+    "properties": {},
+    "required": []
+  },
+  "test/AddStoryProgress/req": {
+    "comment": null,
+    "$id": "test/AddStoryProgress/req",
+    "properties": {
+      "storyId": {
+        "type": "number"
+      },
+      "index": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "storyId",
+      "index"
+    ]
+  },
+  "test/AddStoryProgress/resp": {
+    "comment": null,
+    "$id": "test/AddStoryProgress/resp",
+    "properties": {},
+    "required": []
+  },
+  "test/FinishGuide/req": {
+    "comment": null,
+    "$id": "test/FinishGuide/req",
+    "properties": {},
+    "required": []
+  },
+  "test/FinishGuide/resp": {
+    "comment": null,
+    "$id": "test/FinishGuide/resp",
+    "properties": {},
+    "required": []
+  },
+  "test/debug/req": {
+    "comment": null,
+    "$id": "test/debug/req",
+    "properties": {
+      "num": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "num"
+    ]
+  },
+  "test/debug/resp": {
+    "comment": null,
+    "$id": "test/debug/resp",
+    "properties": {},
+    "required": []
+  },
+  "test/AddGift/req": {
+    "comment": null,
+    "$id": "test/AddGift/req",
+    "properties": {
+      "giftUuid": {
+        "type": "string"
+      },
+      "giftId": {
+        "type": "number"
+      },
+      "targetId": {
+        "type": "number"
+      },
+      "startTime": {
+        "type": "number"
+      },
+      "endTime": {
+        "type": "number"
+      },
+      "total": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "giftUuid",
+      "giftId",
+      "targetId",
+      "startTime",
+      "endTime",
+      "total"
+    ]
+  },
+  "test/AddGift/resp": {
+    "comment": null,
+    "$id": "test/AddGift/resp",
+    "properties": {},
+    "required": []
+  },
+  "test/SetBlockLevel/req": {
+    "comment": null,
+    "$id": "test/SetBlockLevel/req",
+    "properties": {
+      "level": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "level"
+    ]
+  },
+  "test/SetBlockLevel/resp": {
+    "comment": null,
+    "$id": "test/SetBlockLevel/resp",
+    "properties": {},
+    "required": []
+  },
+  "test/RefreshTime/req": {
+    "comment": null,
+    "$id": "test/RefreshTime/req",
+    "properties": {
+      "type": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "type"
+    ]
+  },
+  "test/RefreshTime/resp": {
+    "comment": null,
+    "$id": "test/RefreshTime/resp",
+    "properties": {},
+    "required": []
+  },
+  "test/PutOrderItems/req": {
+    "comment": null,
+    "$id": "test/PutOrderItems/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "test/PutOrderItems/resp": {
+    "comment": null,
+    "$id": "test/PutOrderItems/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "test/GetAutoCooperate/req": {
+    "comment": null,
+    "$id": "test/GetAutoCooperate/req",
+    "properties": {},
+    "required": []
+  },
+  "test/GetAutoCooperate/resp": {
+    "comment": null,
+    "$id": "test/GetAutoCooperate/resp",
+    "properties": {
+      "loseNum": {
+        "type": "number"
+      },
+      "successNum": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "loseNum",
+      "successNum"
+    ]
+  },
+  "test/UpdateOscar/req": {
+    "comment": null,
+    "$id": "test/UpdateOscar/req",
+    "properties": {},
+    "required": []
+  },
+  "test/UpdateOscar/resp": {
+    "comment": null,
+    "$id": "test/UpdateOscar/resp",
+    "properties": {},
+    "required": []
+  },
+  "test/setAllStoryGold/req": {
+    "comment": null,
+    "$id": "test/setAllStoryGold/req",
+    "properties": {},
+    "required": []
+  },
+  "test/setAllStoryGold/resp": {
+    "comment": null,
+    "$id": "test/setAllStoryGold/resp",
+    "properties": {},
+    "required": []
+  },
+  "test/LockAllProduce/req": {
+    "comment": null,
+    "$id": "test/LockAllProduce/req",
+    "properties": {},
+    "required": []
+  },
+  "test/LockAllProduce/resp": {
+    "comment": null,
+    "$id": "test/LockAllProduce/resp",
+    "properties": {},
+    "required": []
+  },
+  "test/SetSecretaryStatus/req": {
+    "comment": null,
+    "$id": "test/SetSecretaryStatus/req",
+    "properties": {
+      "status": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "status"
+    ]
+  },
+  "test/SetSecretaryStatus/resp": {
+    "comment": null,
+    "$id": "test/SetSecretaryStatus/resp",
+    "properties": {},
+    "required": []
+  },
+  "test/CleanSecretaryTimes/req": {
+    "comment": null,
+    "$id": "test/CleanSecretaryTimes/req",
+    "properties": {},
+    "required": []
+  },
+  "test/CleanSecretaryTimes/resp": {
+    "comment": null,
+    "$id": "test/CleanSecretaryTimes/resp",
+    "properties": {},
+    "required": []
+  },
+  "test/GetRechargeGift/req": {
+    "comment": null,
+    "$id": "test/GetRechargeGift/req",
+    "properties": {},
+    "required": []
+  },
+  "test/GetRechargeGift/resp": {
+    "comment": null,
+    "$id": "test/GetRechargeGift/resp",
+    "properties": {},
+    "required": []
+  },
+  "test/GotoCity/req": {
+    "comment": null,
+    "$id": "test/GotoCity/req",
+    "properties": {
+      "id": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "id"
+    ]
+  },
+  "test/GotoCity/resp": {
+    "comment": null,
+    "$id": "test/GotoCity/resp",
+    "properties": {},
+    "required": []
+  },
+  "test/GotoCityBefore/req": {
+    "comment": null,
+    "$id": "test/GotoCityBefore/req",
+    "properties": {
+      "id": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "id"
+    ]
+  },
+  "test/GotoCityBefore/resp": {
+    "comment": null,
+    "$id": "test/GotoCityBefore/resp",
+    "properties": {},
+    "required": []
+  },
+  "test/AddManage/req": {
+    "comment": null,
+    "$id": "test/AddManage/req",
+    "properties": {},
+    "required": []
+  },
+  "test/AddManage/resp": {
+    "comment": null,
+    "$id": "test/AddManage/resp",
+    "properties": {},
+    "required": []
+  },
+  "test/SetAllActorLv/req": {
+    "comment": null,
+    "$id": "test/SetAllActorLv/req",
+    "properties": {},
+    "required": []
+  },
+  "test/SetAllActorLv/resp": {
+    "comment": null,
+    "$id": "test/SetAllActorLv/resp",
+    "properties": {},
+    "required": []
+  }
+}

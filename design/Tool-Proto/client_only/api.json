@@ -1,0 +1,136 @@
+{
+	"account": {
+		"auth": {
+			"<req>": {
+				"account": "string"
+			},
+			"<res>": {
+				"account": "string",
+				"token": "string"
+			}
+		},
+		"login": {
+			"<req>": {
+				"account": "string",
+				"token": "string"
+			},
+			"<res>": {
+				"jwt": "string",
+				"userId": "int",
+				"timestamp": "int"
+			}
+		},
+		"refreshToken": {
+			"<req>": {
+			},
+			"<res>": {
+				"jwt": "string"
+			}
+		}
+	},
+    "ClientGM": // 客户端GM命令模块
+    {
+        "gmTest":{ // 测试
+            "<req>":{
+                
+            },
+            "<res>":{   
+                "num":"int"
+            }
+        },
+         "gmUpdateOscar":{ // 请求奥斯卡数据
+            "<req>":{
+            },
+            "<res>":{   
+            }
+        },
+         "gmPrintMem":{ // 打印内存
+            "<req>":{
+            },
+            "<res>":{   
+            }
+        },
+         "gmTestLocalStorageSave":{ // 测试几百个本地缓存同时存储
+            "<req>":{
+            },
+            "<res>":{   
+            }
+        },
+         "gmTestLocalStorageRead":{ // 测试几百个本地缓存同时读取
+            "<req>":{
+            },
+            "<res>":{   
+            }
+        }
+        ,
+         "gmTestTimerLoop":{ // 检测TimerLoop
+            "<req>":{
+            },
+            "<res>":{   
+            }
+        }
+        ,
+         "gmTestRelogin":{ // 重新登录
+            "<req>":{
+            },
+            "<res>":{   
+            }
+        }
+        ,
+         "gmTestRelogin2":{ // 重新登录2
+            "<req>":{
+            },
+            "<res>":{   
+            }
+        }
+        ,
+         "gmTestPrintTotalActiveTweens":{ // 打印有多少个fgui的动效
+            "<req>":{
+            },
+            "<res>":{   
+            }
+        }
+        ,
+         "gmTestKillAlphaTransition":{ // 停止透明的fgui动效
+            "<req>":{
+            },
+            "<res>":{   
+            }
+        }
+        ,
+         "gmPause":{ // 暂停游戏
+            "<req>":{
+            },
+            "<res>":{   
+            }
+        }
+        ,
+         "gmPauseRebder":{ // 暂停游戏渲染
+            "<req>":{
+            },
+            "<res>":{   
+            }
+        }
+        ,
+         "gmCacheAs":{ // 设置cacheAs
+            "<req>":{
+            },
+            "<res>":{   
+            }
+        }
+        ,
+         "gmStopAllTransform":{ // 停止所有东西
+            "<req>":{
+            },
+            "<res>":{   
+            }
+        }
+        ,
+         "gmEnablePrinLoop":{ // 是否打印loop开关
+            "<req>":{
+            },
+            "<res>":{   
+            }
+        }
+    }
+}

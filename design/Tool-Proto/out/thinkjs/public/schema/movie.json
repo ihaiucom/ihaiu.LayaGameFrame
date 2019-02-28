@@ -1,0 +1,451 @@
+{
+  "movie/MakeFilm/req": {
+    "comment": null,
+    "$id": "movie/MakeFilm/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "movie/MakeFilm/resp": {
+    "comment": null,
+    "$id": "movie/MakeFilm/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "movie/SetMovieName/req": {
+    "comment": null,
+    "$id": "movie/SetMovieName/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "index": {
+        "type": "number"
+      },
+      "name": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid",
+      "index",
+      "name"
+    ]
+  },
+  "movie/SetMovieName/resp": {
+    "comment": null,
+    "$id": "movie/SetMovieName/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "movie/SetActor/req": {
+    "comment": null,
+    "$id": "movie/SetActor/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "index": {
+        "type": "number"
+      },
+      "actorId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "uuid",
+      "index",
+      "actorId"
+    ]
+  },
+  "movie/SetActor/resp": {
+    "comment": null,
+    "$id": "movie/SetActor/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "movie/ConfirmSetActor/req": {
+    "comment": null,
+    "$id": "movie/ConfirmSetActor/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "movie/ConfirmSetActor/resp": {
+    "comment": null,
+    "$id": "movie/ConfirmSetActor/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "movie/ChoseType/req": {
+    "comment": null,
+    "$id": "movie/ChoseType/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "type": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "uuid",
+      "type"
+    ]
+  },
+  "movie/ChoseType/resp": {
+    "comment": null,
+    "$id": "movie/ChoseType/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "storyShootType": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "uuid",
+      "storyShootType"
+    ]
+  },
+  "movie/AcceptMediaVisit/req": {
+    "comment": null,
+    "$id": "movie/AcceptMediaVisit/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "mediaId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "uuid",
+      "mediaId"
+    ]
+  },
+  "movie/AcceptMediaVisit/resp": {
+    "comment": null,
+    "$id": "movie/AcceptMediaVisit/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "addExpection": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "uuid",
+      "addExpection"
+    ]
+  },
+  "movie/PublishMovie/req": {
+    "comment": null,
+    "$id": "movie/PublishMovie/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "theaterId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "uuid",
+      "theaterId"
+    ]
+  },
+  "movie/PublishMovie/resp": {
+    "comment": null,
+    "$id": "movie/PublishMovie/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "movie/BattleOver/req": {
+    "comment": null,
+    "$id": "movie/BattleOver/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "movie/BattleOver/resp": {
+    "comment": null,
+    "$id": "movie/BattleOver/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "dropout": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "itemId": {
+              "type": "number"
+            },
+            "amount": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "required": [
+      "uuid",
+      "dropout"
+    ]
+  },
+  "movie/SpreadMovie/req": {
+    "comment": null,
+    "$id": "movie/SpreadMovie/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "movie/SpreadMovie/resp": {
+    "comment": null,
+    "$id": "movie/SpreadMovie/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "movie/GetRewardMovie/req": {
+    "comment": null,
+    "$id": "movie/GetRewardMovie/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "movie/GetRewardMovie/resp": {
+    "comment": null,
+    "$id": "movie/GetRewardMovie/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "dropout": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "itemId": {
+              "type": "number"
+            },
+            "amount": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "required": [
+      "uuid",
+      "dropout"
+    ]
+  },
+  "movie/SwitchCity/req": {
+    "comment": null,
+    "$id": "movie/SwitchCity/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "cityId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "uuid",
+      "cityId"
+    ]
+  },
+  "movie/SwitchCity/resp": {
+    "comment": null,
+    "$id": "movie/SwitchCity/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "movie/UpdateMovieState/req": {
+    "comment": null,
+    "$id": "movie/UpdateMovieState/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "state": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "uuid",
+      "state"
+    ]
+  },
+  "movie/UpdateMovieState/resp": {
+    "comment": null,
+    "$id": "movie/UpdateMovieState/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "movie/GetStoryGoals/req": {
+    "comment": null,
+    "$id": "movie/GetStoryGoals/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "movie/GetStoryGoals/resp": {
+    "comment": null,
+    "$id": "movie/GetStoryGoals/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "movie/DeleteMovie/req": {
+    "comment": null,
+    "$id": "movie/DeleteMovie/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "movie/DeleteMovie/resp": {
+    "comment": null,
+    "$id": "movie/DeleteMovie/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      },
+      "dropout": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "itemId": {
+              "type": "number"
+            },
+            "amount": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "required": [
+      "uuid",
+      "dropout"
+    ]
+  },
+  "movie/RefreshMovieStory/req": {
+    "comment": null,
+    "$id": "movie/RefreshMovieStory/req",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  },
+  "movie/RefreshMovieStory/resp": {
+    "comment": null,
+    "$id": "movie/RefreshMovieStory/resp",
+    "properties": {
+      "uuid": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "uuid"
+    ]
+  }
+}

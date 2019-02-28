@@ -1,0 +1,15 @@
+{
+  "enableoverwrites": [
+  	{
+  		"src":"../../Gidea-PF-Proto/common", 
+  		"dst":"./common"
+  	},
+  	{
+      "src":"../../Gidea-PF-Proto/client_only", 
+      "dst":"./client_only"
+    }
+  ],
+  "disableoverwrites": [
+  	
+  ]
+}

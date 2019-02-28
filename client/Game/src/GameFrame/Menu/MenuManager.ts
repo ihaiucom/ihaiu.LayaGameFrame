@@ -7,6 +7,9 @@ import Game from "../../Game";
 import MenuOpenParameter from "./MenuOpenParameter";
 import { MenuLayerType } from "./MenuLayerType";
 import FGLoader from "../../FGUI/FGLoader";
+import Log from "../Log/Log";
+import MenuWindows from "../../GameModule/MenuWindows";
+import HomeWindow from "../../GameModule/ViewWindows/HomeWindow";
 
 //=================
 // 模块管理器
@@ -138,20 +141,20 @@ export default class MenuManager
             let menuConfig = Game.config.menu.getConfig(menuId);
             if (!menuConfig)
             {
-                error(`MenuManager.open 没有找到menuConfig, menuId=${menuId}`);
+                Log.Error(`MenuManager.open 没有找到menuConfig, menuId=${menuId}`);
                 return null;
             }
 
             let menuWindowConfig = MenuWindows.get(menuId);
             if (!menuWindowConfig)
             {
-                error(`MenuManager.open 没有找到menuWindowConfig, menuId=${menuId}`);
+                Log.Error(`MenuManager.open 没有找到menuWindowConfig, menuId=${menuId}`);
                 return null;
             }
 
             if (!menuWindowConfig.windowClass)
             {
-                error(`MenuManager.open menuWindowConfig.windowClass=${menuWindowConfig.windowClass}, menuId=${menuId}`);
+                Log.Error(`MenuManager.open menuWindowConfig.windowClass=${menuWindowConfig.windowClass}, menuId=${menuId}`);
                 return null;
             }
 

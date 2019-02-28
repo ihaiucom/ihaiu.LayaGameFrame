@@ -1,0 +1,168 @@
+{
+  "story/findStory/req": {
+    "comment": null,
+    "$id": "story/findStory/req",
+    "properties": {},
+    "required": []
+  },
+  "story/findStory/resp": {
+    "comment": null,
+    "$id": "story/findStory/resp",
+    "properties": {
+      "type": {
+        "type": "number"
+      },
+      "id": {
+        "type": "number"
+      },
+      "num": {
+        "type": "number"
+      },
+      "time": {
+        "type": "number"
+      },
+      "refreshTime": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "type",
+      "id",
+      "num",
+      "time",
+      "refreshTime"
+    ]
+  },
+  "story/cleanFindStory/req": {
+    "comment": null,
+    "$id": "story/cleanFindStory/req",
+    "properties": {},
+    "required": []
+  },
+  "story/cleanFindStory/resp": {
+    "comment": null,
+    "$id": "story/cleanFindStory/resp",
+    "properties": {
+      "result": {
+        "type": "number"
+      },
+      "refreshTime": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "result",
+      "refreshTime"
+    ]
+  },
+  "story/getReward/req": {
+    "comment": null,
+    "$id": "story/getReward/req",
+    "properties": {
+      "storySuitId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "storySuitId"
+    ]
+  },
+  "story/getReward/resp": {
+    "comment": null,
+    "$id": "story/getReward/resp",
+    "properties": {
+      "storySuitId": {
+        "type": "number"
+      },
+      "result": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "storySuitId",
+      "result"
+    ]
+  },
+  "story/GetMessage/req": {
+    "comment": null,
+    "$id": "story/GetMessage/req",
+    "properties": {
+      "stroyId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "stroyId"
+    ]
+  },
+  "story/GetMessage/resp": {
+    "comment": null,
+    "$id": "story/GetMessage/resp",
+    "properties": {
+      "stroyId": {
+        "type": "number"
+      },
+      "message": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "userId": {
+              "type": "number"
+            },
+            "portrait": {
+              "type": "number"
+            },
+            "sex": {
+              "type": "number"
+            },
+            "level": {
+              "type": "number"
+            },
+            "timestamp": {
+              "type": "number"
+            },
+            "message": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "required": [
+      "stroyId",
+      "message"
+    ]
+  },
+  "story/SetMessage/req": {
+    "comment": null,
+    "$id": "story/SetMessage/req",
+    "properties": {
+      "stroyId": {
+        "type": "number"
+      },
+      "content": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "stroyId",
+      "content"
+    ]
+  },
+  "story/SetMessage/resp": {
+    "comment": null,
+    "$id": "story/SetMessage/resp",
+    "properties": {
+      "stroyId": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "stroyId"
+    ]
+  }
+}
