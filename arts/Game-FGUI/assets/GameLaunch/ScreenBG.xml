@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="720,1280" extention="Label" initName="screenBG">
   <displayList>
-    <loader id="n0_5sas" name="icon" xy="0,0" size="720,1280" aspect="true" url="ui://47qsdr42f84s2" fill="scaleFree">
+    <loader id="n0_5sas" name="icon" xy="0,0" size="720,1280" aspect="true" url="ui://qjz790ecf84s2" fill="scaleFree">
       <relation target="" sidePair="width-width,height-height"/>
     </loader>
   </displayList>

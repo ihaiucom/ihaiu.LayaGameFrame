@@ -17,6 +17,10 @@ export default class LaunchText
 
     btnYes = "确定";
 
+    LoadedConfig = "加载配置文件";
+    LoadedUI = "加载UI";
+    LoadedEnd = "加载完成";
+
 
 
     //==============================================
@@ -35,5 +39,9 @@ export default class LaunchText
         ];
         
         this.btnYes = "Ok";
+        
+        this.LoadedConfig = "Loading Config...";
+        this.LoadedUI = "Loading UI...";
+        this.LoadedEnd = "Loading Complete";
     }
 }

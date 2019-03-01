@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="205,30" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <text id="n5_eikn" name="Title" xy="0,0" size="202,33" fontSize="24" color="#114d74" align="right" vAlign="middle" ubb="true" autoSize="none" underline="true" singleLine="true" text="Forgot Password"/>
+  </displayList>
+  <Button/>
+  <relation target="n5_eikn" sidePair="width-width"/>
+</component>

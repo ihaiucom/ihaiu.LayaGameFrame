@@ -3,12 +3,12 @@
 * 游戏初始化配置;
 */
 export default class GameConfig{
-    static width:number=640;
-    static height:number=1136;
-    static scaleMode:string="fixedwidth";
+    static width:number=720;
+    static height:number=1280;
+    static scaleMode:string=Laya.Stage.SCALE_SHOWALL;
     static screenMode:string="none";
-    static alignV:string="top";
-    static alignH:string="left";
+    static alignV:string=Laya.Stage.ALIGN_TOP;
+    static alignH:string=Laya.Stage.ALIGN_CENTER;
     static startScene:any="test/TestScene.scene";
     static sceneRoot:string="";
     static debug:boolean=false;

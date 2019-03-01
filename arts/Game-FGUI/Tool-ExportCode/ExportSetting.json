@@ -11,5 +11,7 @@
   "codeIgnorNoExported": true,
   "codeExportDepend": true,
   "codeUseOtherPkgType": true,
+  "codeIgnorNCode": true,
+  "codeIgnorNCodeFlag": "~NCode",
   "soundPackageName": "Sound"
 }

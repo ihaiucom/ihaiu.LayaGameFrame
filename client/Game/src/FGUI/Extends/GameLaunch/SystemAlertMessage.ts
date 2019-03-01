@@ -55,7 +55,7 @@ export default class SystemAlertMessage extends SystemAlertMessageStruct
 
         this.m_content.text = txt;
         this.m_title.text = title;
-        this.m_okBtn.m_title.text = yesTxt;
+        this.m_okBtn.title = yesTxt;
 
 
         this.m_okBtn.enabled = buttonEnable;

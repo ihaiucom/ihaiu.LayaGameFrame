@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="543,618">
+  <controller name="c1" pages="0,,1,hide" selected="0"/>
+  <displayList>
+    <component id="n55_cpc9" name="accountInput" src="nz0c1h" fileName="Component/input/accountInput.xml" xy="0,274"/>
+    <component id="n56_cpc9" name="passwordInput" src="nz0c1n" fileName="Component/input/passwordInput.xml" xy="1,395"/>
+    <component id="n33_8zgr" name="btn_onRegister" src="nz0c2i" fileName="Component/buttons/btn_yellow.xml" xy="2,511" size="477,75">
+      <Button title="注册"/>
+    </component>
+    <component id="n35_8zgr" name="lb_agreement" src="nz0c21" fileName="Component/buttons/btn_userAgreement.xml" xy="17,511" size="458,38">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <component id="n38_8zgr" name="btn_registerback" src="nz0c22" fileName="Component/buttons/btn_back.xml" xy="420,118"/>
+  </displayList>
+</component>

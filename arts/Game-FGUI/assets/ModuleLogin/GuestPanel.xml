@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="545,616">
+  <displayList>
+    <richtext id="n58_w5tk" name="n58" xy="11,268" size="458,270" group="n59_w5tk" fontSize="24" color="#114a6e" leading="2" ubb="true" autoSize="none" text="亲爱的朋友，访客模式不能保证数据安全！删除游戏替换设备等可以清除游戏数据。&#xA;&#xA;为了您的帐户安全，我建议您[color=#ff0000]绑定账号[/color]玩游戏。"/>
+    <component id="n56_w5tk" name="btn_guestlogin" src="nz0c1x" fileName="Component/buttons/btn_bule.xml" xy="12,540" size="220,75" group="n59_w5tk">
+      <Button title="登录"/>
+    </component>
+    <component id="n57_w5tk" name="btn_linkaccount" src="nz0c2i" fileName="Component/buttons/btn_yellow.xml" xy="244,540" size="220,75" group="n59_w5tk">
+      <Button title="绑定"/>
+    </component>
+    <component id="n60_w5tk" name="btn_back" src="nz0c22" fileName="Component/buttons/btn_back.xml" xy="422,58" group="n59_w5tk"/>
+    <group id="n59_w5tk" name="g_guestlogin" xy="11,58" size="543,557" advanced="true"/>
+  </displayList>
+</component>

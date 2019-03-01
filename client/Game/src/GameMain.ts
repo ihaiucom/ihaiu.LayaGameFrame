@@ -1,6 +1,5 @@
 import GameConfig from "./GameConfig";
-import Test from "./Test";
-import Game from "./Game";
+import GameLaunch from "./GameLaunch";
 class GameMain 
 {
     constructor() 
@@ -12,6 +11,10 @@ class GameMain
 		Laya["DebugPanel"] && Laya["DebugPanel"].enable();
 		Laya.stage.scaleMode = GameConfig.scaleMode;
 		Laya.stage.screenMode = GameConfig.screenMode;
+		
+		Laya.stage.alignH = GameConfig.alignH;
+		Laya.stage.alignV = GameConfig.alignV;
+
 		//兼容微信不支持加载scene后缀场景
 		Laya.URL.exportSceneToJson = GameConfig.exportSceneToJson;
 
@@ -22,10 +25,7 @@ class GameMain
         Laya.alertGlobalError = true;
         
         // 启动游戏
-        // new GameLaunch().install();
-
-        new Test().init();
-        Game.lang;
+        new GameLaunch().install();
 
 	}
 

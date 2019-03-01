@@ -1,4 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<packageDescription id="4698ugpk">
-  <resources/>
+<packageDescription id="4698ugpk" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="nz0c0" name="LoginWindowUI.xml" path="/" exported="true"/>
+    <image id="nz0c1" name="pic_login_bg.png" path="/_images_pic/" exported="true" scale="" atlas="alone_npot"/>
+    <component id="nz0c1g" name="LoginPanel.xml" path="/" exported="true"/>
+    <component id="nz0c1h" name="AccountInput.xml" path="/Component/input/"/>
+    <component id="nz0c1i" name="AccountComboBox.xml" path="/Component/input/"/>
+    <image id="nz0c1j" name="bg_input_login.png" path="/_images_ui/" scale="9grid" scale9grid="28,28,9,7"/>
+    <image id="nz0c1k" name="icon_user_login.png" path="/_images_ui/"/>
+    <component id="nz0c1l" name="btn_accountlist.xml" path="/Component~NCode/buttons/"/>
+    <image id="nz0c1m" name="icon_pulldown.png" path="/_images_ui/"/>
+    <component id="nz0c1n" name="passwordInput.xml" path="/Component/input/"/>
+    <image id="nz0c1o" name="icon_lock.png" path="/_images_ui/"/>
+    <component id="nz0c1p" name="btn_pwdeye.xml" path="/Component~NCode/buttons/"/>
+    <image id="nz0c1q" name="icon_eye.png" path="/_images_ui/"/>
+    <component id="nz0c1r" name="btn_forgot.xml" path="/Component~NCode/buttons/"/>
+    <component id="nz0c1s" name="btn_accoutsec.xml" path="/Component~NCode/buttons/"/>
+    <component id="nz0c1t" name="btn_login.xml" path="/Component~NCode/buttons/"/>
+    <image id="nz0c1u" name="btn_yellow.png" path="/_images_ui/" scale="9grid" scale9grid="36,23,157,24"/>
+    <image id="nz0c1w" name="btn_purple.png" path="/_images_ui/" scale="9grid" scale9grid="36,24,153,16"/>
+    <component id="nz0c1x" name="btn_bule.xml" path="/Component~NCode/buttons/"/>
+    <image id="nz0c1y" name="btn_blue.png" path="/_images_ui/"/>
+    <component id="nz0c1z" name="RegisterPanel.xml" path="/" exported="true"/>
+    <component id="nz0c22" name="btn_back.xml" path="/Component~NCode/buttons/"/>
+    <image id="nz0c23" name="btn_back_login.png" path="/_images_ui/"/>
+    <component id="nz0c24" name="GuestPanel.xml" path="/" exported="true"/>
+    <component id="nz0c27" name="Effect_bulbs_001.xml" path="/Component~NCode/fx_login/"/>
+    <component id="nz0c28" name="Effect_FxPicRollLogin.xml" path="/Component~NCode/fx_login/"/>
+    <image id="nz0c29" name="pic_roll_login.png" path="/_images_ui/fx_login/" scale=""/>
+    <image id="nz0c2a" name="pic_star551_login.png" path="/_images_ui/fx_login/" scale=""/>
+    <image id="nz0c2b" name="pic_star771_login.png" path="/_images_ui/fx_login/" scale=""/>
+    <image id="nz0c2c" name="light_dark02.png" path="/_images_ui/fx_login/"/>
+    <image id="nz0c2d" name="light_yellow.png" path="/_images_ui/fx_login/"/>
+    <image id="nz0c2e" name="light_blue.png" path="/_images_ui/fx_login/"/>
+    <image id="nz0c2f" name="light_red.png" path="/_images_ui/fx_login/"/>
+    <image id="nz0c2g" name="fx_light_login.png" path="/_images_ui/fx_login/" scale=""/>
+    <image id="nz0c2h" name="Effect_fireworks_01.png" path="/_images_ui/fx_login/" scale="9grid" scale9grid="0,0,110,110"/>
+    <component id="nz0c2i" name="btn_yellow.xml" path="/Component~NCode/buttons/"/>
+    <component id="nz0c2j" name="btn_purple.xml" path="/Component~NCode/buttons/"/>
+  </resources>
+  <publish name="ModuleLogin" genCode="true"/>
 </packageDescription>

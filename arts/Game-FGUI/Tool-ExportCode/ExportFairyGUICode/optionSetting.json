@@ -1,7 +1,7 @@
 {
   "autoEnd": true,
   "optionSetting": "./optionSetting.json",
-  "fairyProject": "../FairyGUI",
+  "fairyProject": "E:/zengfeng/githubs/ihaiu.LayaGameFrame/arts/Game-FGUI",
   "templateDir": "./Template",
   "codePath": "./FairyGUICode",
   "codeNamespace": "fgui",
@@ -11,5 +11,7 @@
   "codeIgnorNoExported": true,
   "codeExportDepend": true,
   "codeUseOtherPkgType": true,
+  "codeIgnorNCode": true,
+  "codeIgnorNCodeFlag": "~NCode",
   "soundPackageName": "Sound"
 }

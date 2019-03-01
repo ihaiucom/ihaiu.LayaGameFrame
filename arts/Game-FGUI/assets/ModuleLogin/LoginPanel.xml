@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="478,405">
+  <controller name="c1" pages="0,,1,hide" selected="0"/>
+  <displayList>
+    <component id="n10_eikn" name="accountInput" src="nz0c1h" fileName="Component/input/accountInput.xml" xy="2,0"/>
+    <component id="n15_eikn" name="passwordInput" src="nz0c1n" fileName="Component/input/passwordInput.xml" xy="1,119"/>
+    <component id="n27_eikn" name="btn_forgot" src="nz0c1r" fileName="Component/buttons/btn_forgot.xml" xy="250,73">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <component id="n28_eikn" name="btn_security" src="nz0c1s" fileName="Component/buttons/btn_accoutsec.xml" xy="250,192">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <component id="n6_eikn" name="btn_login" src="nz0c2i" fileName="Component/buttons/btn_yellow.xml" xy="6,238" size="465,75">
+      <Button title="登录"/>
+    </component>
+    <component id="n7_eikn" name="btn_register" src="nz0c2j" fileName="Component/buttons/btn_purple.xml" xy="252,330">
+      <Button title="注册"/>
+    </component>
+    <component id="n9_eikn" name="btn_guest" src="nz0c1x" fileName="Component/buttons/btn_bule.xml" xy="0,330">
+      <Button title="游客"/>
+    </component>
+  </displayList>
+</component>

@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<packageDescription id="qjz790ec">
-  <resources/>
+<packageDescription id="qjz790ec" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="f84s2" name="pic_bg_login.png" path="/" exported="true" scale="" atlas="alone_npot"/>
+  </resources>
+  <publish name="__ResImageTmp"/>
 </packageDescription>

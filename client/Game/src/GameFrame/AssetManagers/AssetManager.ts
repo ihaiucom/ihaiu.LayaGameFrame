@@ -162,6 +162,18 @@ export default class AssetManager implements ConfigLoaderInterface
         this.loadFgui(packageConfig, caller, method);
     }
 
+    async loadFguiByPackagenameAsync(packageName: string):Promise<GuiResPackageConfig>
+    {
+        return new Promise<GuiResPackageConfig>((resolve)=>{
+            this.loadFguiByPackagename(packageName, this, (packageConfig: GuiResPackageConfig)=>
+            {
+                resolve(packageConfig);
+            })
+		});
+    }
+
+
+
     // 加载fsprite包
     loadFSpriteByPackagename(packageName: string, caller?: any, method?: Function)
     {

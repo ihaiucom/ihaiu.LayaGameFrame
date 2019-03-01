@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="294,294">
+  <displayList>
+    <image id="n4_eikn" name="n4" src="nz0c29" fileName="images/Effect_LoginActivity/pic_roll_login.png" xy="0,0" pivot="0.5,0.5" size="294,294"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n4_eikn" tween="true" startValue="0" endValue="360" duration="96" ease="Linear" repeat="-1"/>
+  </transition>
+</component>

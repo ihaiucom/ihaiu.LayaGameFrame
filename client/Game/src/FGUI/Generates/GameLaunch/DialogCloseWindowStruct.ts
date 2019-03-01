@@ -3,12 +3,11 @@
 // http://blog.ihaiu.com
 /////////////////////////////////////
 
-import CloseButton from "../../Extends/GameLaunch/CloseButton";
 import DialogCloseWindow from "../../Extends/GameLaunch/DialogCloseWindow";
 
 export default class DialogCloseWindowStruct extends fairygui.GComponent
 {
-	public m_closeButton : CloseButton;
+	public m_closeButton : fairygui.GButton;
 
 	
 	public static URL:string = "ui://47qsdr42f84sg";
@@ -33,7 +32,7 @@ export default class DialogCloseWindowStruct extends fairygui.GComponent
 		
 
 		
-		this.m_closeButton = <CloseButton><any>(this.getChild("closeButton"));
+		this.m_closeButton = <fairygui.GButton><any>(this.getChild("closeButton"));
 		
 		
 	}

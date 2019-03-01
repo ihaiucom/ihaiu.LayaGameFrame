@@ -26,7 +26,12 @@ export default class Res
     // 获取Sprite图片
     static getSpritePath(path: string): string
     {
-        return Res.root + "fspriteassets/" + path + ".png";
+        return Res.root + "sprite/" + path + ".png";
+    }
+    
+    static getSpritePathHasExt(path: string): string
+    {
+        return Res.root + "sprite/" + path;
     }
 
     static getRoom(id: string | number): string

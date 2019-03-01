@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <controller name="TabCtrl" alias="Tab面板" autoRadioGroupDepth="true" pages="0,LoginPanel,1,GuestPanel,2,RegisterPanel" selected="0">
+    <remark page="0" value="登录面板"/>
+    <remark page="1" value="游客登录面板"/>
+    <remark page="2" value="注册面板"/>
+  </controller>
+  <displayList>
+    <component id="n0_5sas" name="screenBG" src="f84s1" fileName="ScreenBG.xml" pkg="47qsdr42" xy="0,0"/>
+    <image id="n8_nz0c" name="n8" src="nz0c1" fileName="_images_pic/pic_login_bg.png" xy="0,46" size="720,1188"/>
+    <component id="n16_nz0c" name="n16" src="nz0c27" fileName="Component~NCode/fx_login/Effect_bulbs_001.xml" xy="0,0"/>
+    <text id="n6_jbhb" name="txt_resVer" xy="8,1247" size="366,33" fontSize="22" color="#9aa8bd" vAlign="middle" autoSize="none" text="ResVersion:11293239.12312.123">
+      <relation target="" sidePair="top-bottom"/>
+    </text>
+    <text id="n7_jbhb" name="txt_gamever" xy="381,1247" size="322,33" fontSize="22" color="#9aa8bd" align="right" vAlign="middle" autoSize="none" text="GameVersion:1.0.18">
+      <relation target="" sidePair="bottom-bottom,right-right"/>
+    </text>
+    <component id="n13_nz0c" name="loginPanel" src="nz0c1g" fileName="LoginPanel.xml" xy="122,508">
+      <gearDisplay controller="TabCtrl" pages="0"/>
+    </component>
+    <component id="n15_nz0c" name="guestPanel" src="nz0c24" fileName="GuestPanel.xml" xy="121,294">
+      <gearDisplay controller="TabCtrl" pages="1"/>
+    </component>
+    <component id="n14_nz0c" name="registerPanel" src="nz0c1z" fileName="RegisterPanel.xml" xy="122,233" visible="false">
+      <gearDisplay controller="TabCtrl" pages="2"/>
+    </component>
+  </displayList>
+</component>

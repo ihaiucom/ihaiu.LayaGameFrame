@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" opaque="false">
+  <displayList>
+    <component id="n98_p6ob" name="n98" src="nz0c28" fileName="animation/Effect_LoginActivity/Effect_FxPicRollLogin.xml" xy="387,175" size="294,294" scale="0.8,0.8"/>
+    <component id="n97_p6ob" name="n97" src="nz0c28" fileName="animation/Effect_LoginActivity/Effect_FxPicRollLogin.xml" xy="106,121" pivot="0.5,0.5"/>
+    <image id="n100_p6ob" name="n100" src="nz0c2a" fileName="images/Effect_LoginActivity/pic_star551_login.png" xy="39,163" pivot="0.5,0.5"/>
+    <image id="n101_p6ob" name="n101" src="nz0c2b" fileName="images/Effect_LoginActivity/pic_star771_login.png" xy="573,211" pivot="0.5,0.5" size="78,76" aspect="true"/>
+    <image id="n102_p6ob" name="n102" src="nz0c2a" fileName="images/Effect_LoginActivity/pic_star551_login.png" xy="502,141" rotation="-13.4"/>
+    <image id="n103_p6ob" name="n103" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="50,448" pivot="0.5,0.5" group="n150_p6ob"/>
+    <image id="n104_p6ob" name="n104" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="45,494" pivot="0.5,0.5" group="n150_p6ob"/>
+    <image id="n105_p6ob" name="n105" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="45,541" pivot="0.5,0.5" group="n150_p6ob"/>
+    <image id="n106_p6ob" name="n106" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="44,588" pivot="0.5,0.5" group="n150_p6ob"/>
+    <image id="n107_p6ob" name="n107" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="43,633" group="n150_p6ob"/>
+    <image id="n108_p6ob" name="n108" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="43,679" pivot="0.5,0.5" group="n150_p6ob"/>
+    <image id="n109_p6ob" name="n109" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="44,729" pivot="0.5,0.5" group="n150_p6ob"/>
+    <image id="n110_p6ob" name="n110" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="44,776" pivot="0.5,0.5" group="n150_p6ob"/>
+    <image id="n111_p6ob" name="n111" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="44,821" pivot="0.5,0.5" group="n150_p6ob"/>
+    <image id="n112_p6ob" name="n112" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="44,868" pivot="0.5,0.5" group="n150_p6ob"/>
+    <image id="n113_p6ob" name="n113" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="48,915" pivot="0.5,0.5" group="n150_p6ob"/>
+    <image id="n114_p6ob" name="n114" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="78,944" pivot="0.5,0.5" group="n150_p6ob"/>
+    <image id="n115_p6ob" name="n115" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="125,945" pivot="0.5,0.5" group="n150_p6ob"/>
+    <image id="n116_p6ob" name="n116" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="170,947" pivot="0.5,0.5" group="n150_p6ob"/>
+    <image id="n117_p6ob" name="n117" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="216,949" pivot="0.5,0.5" group="n150_p6ob"/>
+    <image id="n118_p6ob" name="n118" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="263,951" pivot="0.5,0.5" group="n150_p6ob"/>
+    <image id="n119_p6ob" name="n119" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="310,953" pivot="0.5,0.5" group="n150_p6ob"/>
+    <image id="n120_p6ob" name="n120" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="358,953" pivot="0.5,0.5" group="n150_p6ob"/>
+    <image id="n121_p6ob" name="n121" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="404,955" pivot="0.5,0.5" group="n150_p6ob"/>
+    <image id="n122_p6ob" name="n122" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="450,958" pivot="0.5,0.5" group="n150_p6ob"/>
+    <image id="n123_p6ob" name="n123" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="497,958" group="n150_p6ob"/>
+    <image id="n124_p6ob" name="n124" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="542,961" group="n150_p6ob"/>
+    <image id="n125_p6ob" name="n125" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="588,962" group="n150_p6ob"/>
+    <image id="n126_p6ob" name="n126" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="628,944" group="n150_p6ob"/>
+    <image id="n127_p6ob" name="n127" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="634,904" group="n150_p6ob"/>
+    <image id="n128_p6ob" name="n128" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="635,858" group="n150_p6ob"/>
+    <image id="n129_p6ob" name="n129" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="637,812" group="n150_p6ob"/>
+    <image id="n130_p6ob" name="n130" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="637,766" group="n150_p6ob"/>
+    <image id="n131_p6ob" name="n131" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="639,670" group="n150_p6ob"/>
+    <image id="n132_p6ob" name="n132" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="638,719" group="n150_p6ob"/>
+    <image id="n133_p6ob" name="n133" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="641,625" group="n150_p6ob"/>
+    <image id="n134_p6ob" name="n134" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="641,578" group="n150_p6ob"/>
+    <image id="n135_p6ob" name="n135" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="642,531" group="n150_p6ob"/>
+    <image id="n136_p6ob" name="n136" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="643,485" group="n150_p6ob"/>
+    <image id="n137_p6ob" name="n137" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="640,438" group="n150_p6ob"/>
+    <image id="n138_p6ob" name="n138" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="606,410" group="n150_p6ob"/>
+    <image id="n139_p6ob" name="n139" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="560,411" group="n150_p6ob"/>
+    <image id="n140_p6ob" name="n140" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="515,411" group="n150_p6ob"/>
+    <image id="n141_p6ob" name="n141" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="468,413" group="n150_p6ob"/>
+    <image id="n142_p6ob" name="n142" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="421,416" group="n150_p6ob"/>
+    <image id="n143_p6ob" name="n143" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="376,416" group="n150_p6ob"/>
+    <image id="n144_p6ob" name="n144" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="326,419" group="n150_p6ob"/>
+    <image id="n145_p6ob" name="n145" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="280,420" group="n150_p6ob"/>
+    <image id="n146_p6ob" name="n146" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="234,421" group="n150_p6ob"/>
+    <image id="n147_p6ob" name="n147" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="187,423" group="n150_p6ob"/>
+    <image id="n148_p6ob" name="n148" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="141,424" group="n150_p6ob"/>
+    <image id="n149_p6ob" name="n149" src="nz0c2c" fileName="images/Effect_LoginActivity/light_dark02.png" xy="97,426" group="n150_p6ob"/>
+    <group id="n150_p6ob" name="n150" xy="43,410" size="632,583" collapsed="true"/>
+    <image id="n62_kw6s" name="n11" src="nz0c2d" fileName="images/Effect_LoginActivity/light_yellow.png" xy="59,385" group="n95_p6ob"/>
+    <image id="n12_u3sc" name="n12" src="nz0c2e" fileName="images/Effect_LoginActivity/light_blue.png" xy="104,383" group="n95_p6ob" alpha="0.78" blend="add"/>
+    <image id="n28_kw6s" name="n28" src="nz0c2d" fileName="images/Effect_LoginActivity/light_yellow.png" xy="150,381" group="n95_p6ob"/>
+    <image id="n29_kw6s" name="n29" src="nz0c2e" fileName="images/Effect_LoginActivity/light_blue.png" xy="197,380" group="n95_p6ob" blend="add"/>
+    <image id="n13_u3sc" name="n13" src="nz0c2f" fileName="images/Effect_LoginActivity/light_red.png" xy="243,378" group="n95_p6ob" filter="color" filterData="-0.25,0.00,0.00,0.00"/>
+    <image id="n34_kw6s" name="n34" src="nz0c2d" fileName="images/Effect_LoginActivity/light_yellow.png" xy="289,377" group="n95_p6ob"/>
+    <image id="n35_kw6s" name="n35" src="nz0c2e" fileName="images/Effect_LoginActivity/light_blue.png" xy="339,375" group="n95_p6ob" blend="add"/>
+    <image id="n14_u3sc" name="n14" src="nz0c2d" fileName="images/Effect_LoginActivity/light_yellow.png" xy="384,374" group="n95_p6ob"/>
+    <image id="n36_kw6s" name="n36" src="nz0c2f" fileName="images/Effect_LoginActivity/light_red.png" xy="431,372" group="n95_p6ob"/>
+    <image id="n37_kw6s" name="n37" src="nz0c2d" fileName="images/Effect_LoginActivity/light_yellow.png" xy="477,370" group="n95_p6ob"/>
+    <image id="n15_u3sc" name="n15" src="nz0c2e" fileName="images/Effect_LoginActivity/light_blue.png" xy="523,370" group="n95_p6ob" blend="add"/>
+    <image id="n38_kw6s" name="n38" src="nz0c2f" fileName="images/Effect_LoginActivity/light_red.png" xy="569,368" group="n95_p6ob"/>
+    <image id="n39_kw6s" name="n39" src="nz0c2d" fileName="images/Effect_LoginActivity/light_yellow.png" xy="602,397" group="n95_p6ob"/>
+    <image id="n17_u3sc" name="n17" src="nz0c2f" fileName="images/Effect_LoginActivity/light_red.png" xy="606,444" group="n95_p6ob"/>
+    <image id="n40_kw6s" name="n40" src="nz0c2e" fileName="images/Effect_LoginActivity/light_blue.png" xy="605,490" group="n95_p6ob" blend="add" filter="color" filterData="-0.05,0.00,0.00,0.00"/>
+    <image id="n41_kw6s" name="n41" src="nz0c2f" fileName="images/Effect_LoginActivity/light_red.png" xy="604,537" group="n95_p6ob"/>
+    <image id="n18_u3sc" name="n18" src="nz0c2d" fileName="images/Effect_LoginActivity/light_yellow.png" xy="603,583" group="n95_p6ob"/>
+    <image id="n42_kw6s" name="n42" src="nz0c2e" fileName="images/Effect_LoginActivity/light_blue.png" xy="602,629" group="n95_p6ob"/>
+    <image id="n43_kw6s" name="n43" src="nz0c2f" fileName="images/Effect_LoginActivity/light_red.png" xy="601,678" group="n95_p6ob"/>
+    <image id="n16_u3sc" name="n16" src="nz0c2e" fileName="images/Effect_LoginActivity/light_blue.png" xy="600,725" group="n95_p6ob" blend="add"/>
+    <image id="n44_kw6s" name="n44" src="nz0c2d" fileName="images/Effect_LoginActivity/light_yellow.png" xy="599,770" group="n95_p6ob"/>
+    <image id="n45_kw6s" name="n45" src="nz0c2e" fileName="images/Effect_LoginActivity/light_blue.png" xy="598,817" group="n95_p6ob" blend="add"/>
+    <image id="n19_u3sc" name="n19" src="nz0c2f" fileName="images/Effect_LoginActivity/light_red.png" xy="597,863" group="n95_p6ob"/>
+    <image id="n46_kw6s" name="n46" src="nz0c2d" fileName="images/Effect_LoginActivity/light_yellow.png" xy="591,903" group="n95_p6ob"/>
+    <image id="n47_kw6s" name="n47" src="nz0c2e" fileName="images/Effect_LoginActivity/light_blue.png" xy="551,921" group="n95_p6ob" blend="add"/>
+    <image id="n20_u3sc" name="n20" src="nz0c2d" fileName="images/Effect_LoginActivity/light_yellow.png" xy="505,920" group="n95_p6ob"/>
+    <image id="n48_kw6s" name="n48" src="nz0c2f" fileName="images/Effect_LoginActivity/light_red.png" xy="460,917" group="n95_p6ob"/>
+    <image id="n49_kw6s" name="n49" src="nz0c2d" fileName="images/Effect_LoginActivity/light_yellow.png" xy="413,916" group="n95_p6ob"/>
+    <image id="n21_u3sc" name="n21" src="nz0c2e" fileName="images/Effect_LoginActivity/light_blue.png" xy="367,914" group="n95_p6ob" blend="add"/>
+    <image id="n50_kw6s" name="n50" src="nz0c2f" fileName="images/Effect_LoginActivity/light_red.png" xy="321,912" group="n95_p6ob"/>
+    <image id="n51_kw6s" name="n51" src="nz0c2d" fileName="images/Effect_LoginActivity/light_yellow.png" xy="272,912" group="n95_p6ob"/>
+    <image id="n22_u3sc" name="n22" src="nz0c2f" fileName="images/Effect_LoginActivity/light_red.png" xy="226,910" group="n95_p6ob"/>
+    <image id="n52_kw6s" name="n52" src="nz0c2e" fileName="images/Effect_LoginActivity/light_blue.png" xy="179,908" group="n95_p6ob" blend="add"/>
+    <image id="n53_kw6s" name="n53" src="nz0c2f" fileName="images/Effect_LoginActivity/light_red.png" xy="133,906" group="n95_p6ob"/>
+    <image id="n23_u3sc" name="n23" src="nz0c2d" fileName="images/Effect_LoginActivity/light_yellow.png" xy="87,904" group="n95_p6ob"/>
+    <image id="n54_kw6s" name="n54" src="nz0c2e" fileName="images/Effect_LoginActivity/light_blue.png" xy="41,902" group="n95_p6ob"/>
+    <image id="n55_kw6s" name="n55" src="nz0c2f" fileName="images/Effect_LoginActivity/light_red.png" xy="11,874" group="n95_p6ob"/>
+    <image id="n24_u3sc" name="n24" src="nz0c2e" fileName="images/Effect_LoginActivity/light_blue.png" xy="7,827" group="n95_p6ob" blend="add"/>
+    <image id="n56_kw6s" name="n56" src="nz0c2d" fileName="images/Effect_LoginActivity/light_yellow.png" xy="7,780" group="n95_p6ob"/>
+    <image id="n57_kw6s" name="n57" src="nz0c2e" fileName="images/Effect_LoginActivity/light_blue.png" xy="7,734" group="n95_p6ob"/>
+    <image id="n25_u3sc" name="n25" src="nz0c2f" fileName="images/Effect_LoginActivity/light_red.png" xy="7,688" group="n95_p6ob"/>
+    <image id="n58_kw6s" name="n58" src="nz0c2d" fileName="images/Effect_LoginActivity/light_yellow.png" xy="6,638" group="n95_p6ob"/>
+    <image id="n59_kw6s" name="n59" src="nz0c2e" fileName="images/Effect_LoginActivity/light_blue.png" xy="6,592" group="n95_p6ob" blend="add"/>
+    <image id="n26_u3sc" name="n26" src="nz0c2d" fileName="images/Effect_LoginActivity/light_yellow.png" xy="7,546" group="n95_p6ob"/>
+    <image id="n27_u3sc" name="n27" src="nz0c2f" fileName="images/Effect_LoginActivity/light_red.png" xy="13,407" group="n95_p6ob"/>
+    <image id="n60_kw6s" name="n60" src="nz0c2f" fileName="images/Effect_LoginActivity/light_red.png" xy="8,500" group="n95_p6ob"/>
+    <image id="n61_kw6s" name="n61" src="nz0c2e" fileName="images/Effect_LoginActivity/light_blue.png" xy="8,453" group="n95_p6ob" blend="add"/>
+    <image id="n65_p6ob" name="n65" src="nz0c2g" fileName="images/Effect_LoginActivity/fx_light_login.png" xy="425,324" pivot="0.88,0.77" size="171,102" group="n95_p6ob" rotation="11.3" blend="add"/>
+    <image id="n66_p6ob" name="n66" src="nz0c2g" fileName="images/Effect_LoginActivity/fx_light_login.png" xy="15,349" pivot="0.87,0.44" size="154,118" group="n95_p6ob" aspect="true" rotation="161.4" blend="add"/>
+    <image id="n82_p6ob" name="n82" src="nz0c2h" fileName="images/Effect_fireworks/Effect_fireworks_01.png" xy="41,715" pivot="0.5,0.5" size="38,50" group="n95_p6ob" alpha="0" blend="add"/>
+    <image id="n83_p6ob" name="n83" src="nz0c2h" fileName="images/Effect_fireworks/Effect_fireworks_01.png" xy="642,482" pivot="0.5,0.5" size="33,33" group="n95_p6ob" aspect="true" alpha="0" blend="add" color="#ff66cc"/>
+    <image id="n84_p6ob" name="n84" src="nz0c2h" fileName="images/Effect_fireworks/Effect_fireworks_01.png" xy="620,886" pivot="0.5,0.5" size="61,61" group="n95_p6ob" aspect="true" alpha="0" blend="add"/>
+    <image id="n85_p6ob" name="n85" src="nz0c2h" fileName="images/Effect_fireworks/Effect_fireworks_01.png" xy="638,569" pivot="0.5,0.5" size="39,43" group="n95_p6ob" alpha="0" blend="add"/>
+    <image id="n86_p6ob" name="n86" src="nz0c2h" fileName="images/Effect_fireworks/Effect_fireworks_01.png" xy="46,535" pivot="0.5,0.5" size="31,37" group="n95_p6ob" alpha="0" blend="add"/>
+    <image id="n87_p6ob" name="n87" src="nz0c2h" fileName="images/Effect_fireworks/Effect_fireworks_01.png" xy="459,402" pivot="0.5,0.5" size="49,49" group="n95_p6ob" aspect="true" alpha="0" blend="add"/>
+    <image id="n88_p6ob" name="n88" src="nz0c2h" fileName="images/Effect_fireworks/Effect_fireworks_01.png" xy="160,935" pivot="0.5,0.5" size="53,53" group="n95_p6ob" aspect="true" alpha="0" blend="add"/>
+    <image id="n89_p6ob" name="n89" src="nz0c2h" fileName="images/Effect_fireworks/Effect_fireworks_01.png" xy="41,907" pivot="0.5,0.5" size="45,45" group="n95_p6ob" aspect="true" alpha="0" blend="add"/>
+    <image id="n90_p6ob" name="n90" src="nz0c2h" fileName="images/Effect_fireworks/Effect_fireworks_01.png" xy="273,408" pivot="0.5,0.5" size="47,47" group="n95_p6ob" aspect="true" alpha="0" blend="add"/>
+    <image id="n91_p6ob" name="n91" src="nz0c2h" fileName="images/Effect_fireworks/Effect_fireworks_01.png" xy="604,404" pivot="0.5,0.5" size="35,35" group="n95_p6ob" aspect="true" alpha="0" blend="add"/>
+    <image id="n93_p6ob" name="n93" src="nz0c2h" fileName="images/Effect_fireworks/Effect_fireworks_01.png" xy="44,438" pivot="0.5,0.5" size="46,46" group="n95_p6ob" aspect="true" alpha="0" blend="add"/>
+    <image id="n94_p6ob" name="n94" src="nz0c2h" fileName="images/Effect_fireworks/Effect_fireworks_01.png" xy="353,945" pivot="0.5,0.5" size="43,43" group="n95_p6ob" aspect="true" alpha="0" blend="add"/>
+    <group id="n95_p6ob" name="n95" xy="6,324" size="706,703"/>
+  </displayList>
+  <transition name="t033333" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Alpha" target="n22_u3sc" value="0"/>
+    <item time="0" type="Alpha" target="n27_u3sc" value="0"/>
+    <item time="0" type="Alpha" target="n28_kw6s" value="0"/>
+    <item time="0" type="Alpha" target="n29_kw6s" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Alpha" target="n15_u3sc" value="0"/>
+    <item time="0" type="Alpha" target="n34_kw6s" value="0"/>
+    <item time="0" type="Alpha" target="n35_kw6s" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Alpha" target="n16_u3sc" value="0"/>
+    <item time="0" type="Alpha" target="n36_kw6s" value="0"/>
+    <item time="0" type="Alpha" target="n37_kw6s" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Alpha" target="n18_u3sc" value="0"/>
+    <item time="0" type="Alpha" target="n38_kw6s" value="0"/>
+    <item time="0" type="Alpha" target="n39_kw6s" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Alpha" target="n24_u3sc" value="0"/>
+    <item time="0" type="Alpha" target="n40_kw6s" value="0"/>
+    <item time="0" type="Alpha" target="n41_kw6s" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Alpha" target="n42_kw6s" value="0"/>
+    <item time="0" type="Alpha" target="n43_kw6s" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Alpha" target="n14_u3sc" value="0"/>
+    <item time="0" type="Alpha" target="n44_kw6s" value="0"/>
+    <item time="0" type="Alpha" target="n45_kw6s" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Alpha" target="n19_u3sc" value="0"/>
+    <item time="0" type="Alpha" target="n46_kw6s" value="0"/>
+    <item time="0" type="Alpha" target="n47_kw6s" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Alpha" target="n53_kw6s" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Alpha" target="n54_kw6s" value="0"/>
+    <item time="0" type="Alpha" target="n49_kw6s" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Alpha" target="n26_u3sc" value="0"/>
+    <item time="0" type="Alpha" target="n61_kw6s" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Alpha" target="n51_kw6s" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Alpha" target="n62_kw6s" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Alpha" target="n59_kw6s" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Alpha" target="n13_u3sc" value="0"/>
+    <item time="0" type="Alpha" target="n25_u3sc" value="0"/>
+    <item time="0" type="Alpha" target="n12_u3sc" value="0"/>
+    <item time="0" type="Alpha" target="n55_kw6s" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Alpha" target="n89_p6ob" tween="true" startValue="0.2" endValue="0.54" duration="6"/>
+    <item time="0" type="Alpha" target="n56_kw6s" value="0"/>
+    <item time="0" type="Alpha" target="n57_kw6s" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Alpha" target="n23_u3sc" value="0"/>
+    <item time="0" type="Alpha" target="n58_kw6s" value="0"/>
+    <item time="0" type="Alpha" target="n60_kw6s" value="0"/>
+    <item time="0" type="Alpha" target="n20_u3sc" value="0"/>
+    <item time="0" type="Alpha" target="n52_kw6s" value="0"/>
+    <item time="0" type="Alpha" target="n17_u3sc" value="0"/>
+    <item time="0" type="Alpha" target="n50_kw6s" value="0"/>
+    <item time="0" type="Alpha" target="n21_u3sc" value="0"/>
+    <item time="0" type="Alpha" target="n48_kw6s" value="0"/>
+    <item time="0" type="Alpha" target="n66_p6ob" tween="true" startValue="1" endValue="0.67" duration="28"/>
+    <item time="0" type="Alpha" target="n85_p6ob" tween="true" startValue="0" endValue="0.61" duration="6"/>
+    <item time="0" type="Alpha" target="n88_p6ob" tween="true" startValue="0" endValue="0.35" duration="6"/>
+    <item time="0" type="Alpha" target="n84_p6ob" tween="true" startValue="0" endValue="0.66" duration="6"/>
+    <item time="0" type="Alpha" target="n65_p6ob" tween="true" startValue="1" endValue="0.63" duration="20"/>
+    <item time="0" type="Rotation" target="n65_p6ob" tween="true" startValue="12.6" endValue="20.4" duration="20"/>
+    <item time="0" type="Rotation" target="n66_p6ob" tween="true" startValue="157.2" endValue="150.8" duration="28" ease="Linear"/>
+    <item time="0" type="Scale" target="n65_p6ob" tween="true" startValue="1,1" endValue="1.04,1.06" duration="20"/>
+    <item time="6" type="Alpha" target="n57_kw6s" tween="true" startValue="1" endValue="0" duration="18" ease="Linear"/>
+    <item time="6" type="Alpha" target="n41_kw6s" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="6" type="Alpha" target="n89_p6ob" tween="true" startValue="0.54" endValue="0.2" duration="18"/>
+    <item time="6" type="Alpha" target="n37_kw6s" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="6" type="Alpha" target="n53_kw6s" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="6" type="Alpha" target="n29_kw6s" tween="true" startValue="1" endValue="0" duration="18" ease="Linear"/>
+    <item time="6" type="Alpha" target="n45_kw6s" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="6" type="Alpha" target="n39_kw6s" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="6" type="Alpha" target="n35_kw6s" tween="true" startValue="1" endValue="0" duration="18" ease="Linear"/>
+    <item time="6" type="Alpha" target="n47_kw6s" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="6" type="Alpha" target="n59_kw6s" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="6" type="Alpha" target="n49_kw6s" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="6" type="Alpha" target="n61_kw6s" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="6" type="Alpha" target="n85_p6ob" tween="true" startValue="0.61" endValue="0" duration="18" ease="Linear"/>
+    <item time="6" type="Alpha" target="n51_kw6s" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="6" type="Alpha" target="n62_kw6s" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="6" type="Alpha" target="n88_p6ob" tween="true" startValue="0.35" endValue="0" duration="18" ease="Linear"/>
+    <item time="6" type="Alpha" target="n43_kw6s" tween="true" startValue="1" endValue="0" duration="18" ease="Linear"/>
+    <item time="6" type="Alpha" target="n84_p6ob" tween="true" startValue="0.66" endValue="0" duration="18" ease="Linear"/>
+    <item time="6" type="Alpha" target="n55_kw6s" tween="true" startValue="1" endValue="0" duration="18" ease="Linear"/>
+    <item time="20" type="Alpha" target="n65_p6ob" tween="true" startValue="0.63" endValue="0.75" duration="25" ease="Linear"/>
+    <item time="20" type="Rotation" target="n65_p6ob" tween="true" startValue="20.4" endValue="9.9" duration="25"/>
+    <item time="20" type="Scale" target="n65_p6ob" tween="true" startValue="1.04,1.06" endValue="1,1" duration="25"/>
+    <item time="24" type="Alpha" target="n12_u3sc" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="24" type="Alpha" target="n20_u3sc" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="24" type="Alpha" target="n24_u3sc" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="24" type="Alpha" target="n25_u3sc" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="24" type="Alpha" target="n27_u3sc" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="24" type="Alpha" target="n22_u3sc" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="24" type="Alpha" target="n15_u3sc" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="24" type="Alpha" target="n23_u3sc" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="24" type="Alpha" target="n17_u3sc" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="24" type="Alpha" target="n14_u3sc" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="24" type="Alpha" target="n21_u3sc" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="24" type="Alpha" target="n93_p6ob" tween="true" startValue="0" endValue="0.62" duration="6"/>
+    <item time="24" type="Alpha" target="n90_p6ob" tween="true" startValue="0" endValue="0.63" duration="6"/>
+    <item time="24" type="Alpha" target="n83_p6ob" tween="true" startValue="0" endValue="0.63" duration="6"/>
+    <item time="24" type="Alpha" target="n16_u3sc" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="24" type="Alpha" target="n13_u3sc" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="24" type="Alpha" target="n18_u3sc" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="24" type="Alpha" target="n26_u3sc" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="24" type="Alpha" target="n19_u3sc" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="28" type="Alpha" target="n66_p6ob" tween="true" startValue="0.67" endValue="0.54" duration="27"/>
+    <item time="28" type="Rotation" target="n66_p6ob" tween="true" startValue="150.8" endValue="163.4" duration="27" ease="Linear"/>
+    <item time="30" type="Alpha" target="n15_u3sc" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="30" type="Alpha" target="n17_u3sc" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="30" type="Alpha" target="n27_u3sc" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="30" type="Alpha" target="n24_u3sc" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="30" type="Alpha" target="n12_u3sc" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="30" type="Alpha" target="n25_u3sc" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="30" type="Alpha" target="n22_u3sc" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="30" type="Alpha" target="n14_u3sc" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="30" type="Alpha" target="n83_p6ob" tween="true" startValue="0.63" endValue="0" duration="18"/>
+    <item time="30" type="Alpha" target="n23_u3sc" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="30" type="Alpha" target="n13_u3sc" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="30" type="Alpha" target="n20_u3sc" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="30" type="Alpha" target="n16_u3sc" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="30" type="Alpha" target="n19_u3sc" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="30" type="Alpha" target="n93_p6ob" tween="true" startValue="0.62" endValue="0" duration="18"/>
+    <item time="30" type="Alpha" target="n18_u3sc" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="30" type="Alpha" target="n26_u3sc" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="30" type="Alpha" target="n21_u3sc" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="30" type="Alpha" target="n90_p6ob" tween="true" startValue="0.63" endValue="0" duration="18"/>
+    <item time="45" type="Alpha" target="n65_p6ob" tween="true" startValue="0.75" endValue="0.99" duration="27" ease="Linear"/>
+    <item time="45" type="Rotation" target="n65_p6ob" tween="true" startValue="9.9" endValue="12.6" duration="27" ease="Linear"/>
+    <item time="45" type="Scale" target="n65_p6ob" tween="true" startValue="1,1" endValue="1,1" duration="27"/>
+    <item time="48" type="Alpha" target="n94_p6ob" tween="true" startValue="0" endValue="0.48" duration="6"/>
+    <item time="48" type="Alpha" target="n48_kw6s" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="48" type="Alpha" target="n52_kw6s" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="48" type="Alpha" target="n50_kw6s" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="48" type="Alpha" target="n44_kw6s" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="48" type="Alpha" target="n28_kw6s" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="48" type="Alpha" target="n54_kw6s" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="48" type="Alpha" target="n91_p6ob" tween="true" startValue="0" endValue="0.91" duration="6"/>
+    <item time="48" type="Alpha" target="n87_p6ob" tween="true" startValue="0" endValue="0.47" duration="6"/>
+    <item time="48" type="Alpha" target="n42_kw6s" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="48" type="Alpha" target="n36_kw6s" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="48" type="Alpha" target="n38_kw6s" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="48" type="Alpha" target="n58_kw6s" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="48" type="Alpha" target="n34_kw6s" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="48" type="Alpha" target="n46_kw6s" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="48" type="Alpha" target="n60_kw6s" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="48" type="Alpha" target="n56_kw6s" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="48" type="Alpha" target="n40_kw6s" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="54" type="Alpha" target="n36_kw6s" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="54" type="Alpha" target="n56_kw6s" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="54" type="Alpha" target="n46_kw6s" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="54" type="Alpha" target="n50_kw6s" tween="true" startValue="1" endValue="0" duration="18" ease="Linear"/>
+    <item time="54" type="Alpha" target="n42_kw6s" tween="true" startValue="1" endValue="0" duration="18" ease="Linear"/>
+    <item time="54" type="Alpha" target="n44_kw6s" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="54" type="Alpha" target="n48_kw6s" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="54" type="Alpha" target="n91_p6ob" tween="true" startValue="0.91" endValue="0" duration="18" ease="Linear"/>
+    <item time="54" type="Alpha" target="n40_kw6s" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="54" type="Alpha" target="n87_p6ob" tween="true" startValue="0.47" endValue="0" duration="18" ease="Linear"/>
+    <item time="54" type="Alpha" target="n52_kw6s" tween="true" startValue="1" endValue="0" duration="18" ease="Linear"/>
+    <item time="54" type="Alpha" target="n54_kw6s" tween="true" startValue="1" endValue="0" duration="18" ease="Linear"/>
+    <item time="54" type="Alpha" target="n58_kw6s" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="54" type="Alpha" target="n38_kw6s" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="54" type="Alpha" target="n94_p6ob" tween="true" startValue="0.48" endValue="0" duration="18" ease="Linear"/>
+    <item time="54" type="Alpha" target="n60_kw6s" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="54" type="Alpha" target="n28_kw6s" tween="true" startValue="1" endValue="0" duration="18"/>
+    <item time="54" type="Alpha" target="n34_kw6s" tween="true" startValue="1" endValue="0" duration="18" ease="Linear"/>
+    <item time="55" type="Alpha" target="n66_p6ob" tween="true" startValue="0.54" endValue="1" duration="17"/>
+    <item time="55" type="Rotation" target="n66_p6ob" tween="true" startValue="163.4" endValue="157.2" duration="17" ease="Linear"/>
+  </transition>
+</component>

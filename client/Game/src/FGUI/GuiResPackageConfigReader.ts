@@ -39,7 +39,27 @@ export default class GuiResPackageConfigReader
             config.packageName = "GameLaunch";
             config.resBin = "GameLaunch.bin";
             config.resAtlas.push("GameLaunch_atlas0.png");
-            config.resAtlas.push("GameLaunch_atlas_f84s2.png");
+            this.addconfig(config)
+
+
+
+
+		config = new GuiResPackageConfig();
+            config.resDir = "fgui";
+            config.packageName = "ModuleLogin";
+            config.resBin = "ModuleLogin.bin";
+            config.resAtlas.push("ModuleLogin_atlas0.png");
+            config.resAtlas.push("ModuleLogin_atlas_nz0c1.png");
+            this.addconfig(config)
+
+
+
+
+		config = new GuiResPackageConfig();
+            config.resDir = "fgui";
+            config.packageName = "__ResImageTmp";
+            config.resBin = "__ResImageTmp.bin";
+            config.resAtlas.push("__ResImageTmp_atlas_f84s2.png");
             this.addconfig(config)
 
 

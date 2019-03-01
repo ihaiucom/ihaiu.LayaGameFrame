@@ -23,6 +23,18 @@ export default class LangConfigLoader extends LangConfigLoaderList
 
     // 是否已经加载完成
     isLoadCompleted = false;
+    
+    async loadAllAsync():Promise<void>
+    {
+        return new Promise<void>((resolve)=>{
+           this.loadAll();
+           
+           this.sLoaded.addOnce(()=>
+           {
+                resolve();
+           }, this);
+		});
+    }
 
     // 加载所有
     loadAll()

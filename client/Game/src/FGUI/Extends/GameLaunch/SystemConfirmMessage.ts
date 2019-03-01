@@ -62,8 +62,8 @@ export default class SystemConfirmMessage extends SystemConfirmMessageStruct
 
         this.m_content.text = txt;
         this.m_title.text = title;
-        this.m_okBtn.m_title.text = yesTxt;
-        this.m_cancleBtn.m_title.text = noTxt;
+        this.m_okBtn.title = yesTxt;
+        this.m_cancleBtn.title = noTxt;
 
 
         this.closeButton.visible = closeButtonVisiable;

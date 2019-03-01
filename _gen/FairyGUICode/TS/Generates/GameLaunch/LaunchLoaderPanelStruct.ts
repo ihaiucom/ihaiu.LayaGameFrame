@@ -4,17 +4,16 @@
 /////////////////////////////////////
 
 import ScreenBG from "../../Extends/GameLaunch/ScreenBG";
-import ProgressRedBar from "../../Extends/GameLaunch/ProgressRedBar";
 import LaunchLoaderPanel from "../../Extends/GameLaunch/LaunchLoaderPanel";
 
 export default class LaunchLoaderPanelStruct extends fairygui.GComponent
 {
 	public m_title : fairygui.GTextField;
-	public m_help : fairygui.GRichTextField;
+	public m_help : fairygui.GTextField;
 	public m_txt_resVer : fairygui.GTextField;
 	public m_txt_gamever : fairygui.GTextField;
 	public m_screenBG : ScreenBG;
-	public m_progressBar : ProgressRedBar;
+	public m_progressBar : fairygui.GProgressBar;
 
 	
 	public static URL:string = "ui://47qsdr42f84s0";
@@ -40,11 +39,11 @@ export default class LaunchLoaderPanelStruct extends fairygui.GComponent
 
 		
 		this.m_title = <fairygui.GTextField><any>(this.getChild("title"));
-		this.m_help = <fairygui.GRichTextField><any>(this.getChild("help"));
+		this.m_help = <fairygui.GTextField><any>(this.getChild("help"));
 		this.m_txt_resVer = <fairygui.GTextField><any>(this.getChild("txt_resVer"));
 		this.m_txt_gamever = <fairygui.GTextField><any>(this.getChild("txt_gamever"));
 		this.m_screenBG = <ScreenBG><any>(this.getChild("screenBG"));
-		this.m_progressBar = <ProgressRedBar><any>(this.getChild("progressBar"));
+		this.m_progressBar = <fairygui.GProgressBar><any>(this.getChild("progressBar"));
 		
 		
 	}

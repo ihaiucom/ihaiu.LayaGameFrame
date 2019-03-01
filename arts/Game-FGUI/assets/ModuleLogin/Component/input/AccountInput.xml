@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="475,74">
+  <displayList>
+    <component id="n23_m23g" name="accountComboBox" src="nz0c1i" fileName="component/AccountComboBox.xml" xy="0,0">
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <text id="n20_eikn" name="txt_account" xy="79,4" size="309,65" input="true" prompt="UserName" maxLength="12" restrict="a-zA-Z0-9\u0021-\u007e" fontSize="24" color="#114d74" vAlign="middle" autoSize="none" singleLine="true" text=""/>
+    <component id="n24_l8d8" name="button" src="nz0c1l" fileName="buttons/btn_accountlist.xml" xy="405,25" pivot="0.5,0.5"/>
+  </displayList>
+</component>

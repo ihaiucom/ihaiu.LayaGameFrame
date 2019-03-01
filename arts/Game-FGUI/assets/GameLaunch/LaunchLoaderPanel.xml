@@ -6,13 +6,12 @@
       <relation target="" sidePair="bottom-bottom,center-center"/>
       <ProgressBar value="75" max="100"/>
     </component>
-    <text id="n4_5sas" name="title" xy="277,1133" size="162,39" fontSize="30" color="#ffffff" align="center" text="LOADING...">
+    <text id="n4_5sas" name="title" xy="199,1133" size="321,39" fontSize="30" color="#ffffff" align="center" autoSize="none" text="LOADING...">
       <relation target="n3_5sas" sidePair="bottom-bottom,center-center"/>
     </text>
-    <richtext id="n5_5sas" name="help" xy="60,1207" size="600,31" fontSize="24" color="#ffffff" align="center" ubb="true" autoSize="none" text="帮助提示文字">
+    <text id="n5_5sas" name="help" xy="60,1207" size="600,31" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="帮助提示文字">
       <relation target="n3_5sas" sidePair="width-width,bottom-bottom"/>
-      <relation target="" sidePair="center-center"/>
-    </richtext>
+    </text>
     <text id="n6_jbhb" name="txt_resVer" xy="8,1247" size="366,33" fontSize="22" color="#9aa8bd" vAlign="middle" autoSize="none" text="ResVersion:11293239.12312.123">
       <relation target="" sidePair="top-bottom"/>
     </text>

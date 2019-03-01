@@ -3,6 +3,7 @@ import { MenuId } from "./MenuId";
 import ModuleConfig from "../GameFrame/Module/ModuleConfig";
 import MWindow from "../GameFrame/Module/MWindow";
 import HomeWindow from "./ViewWindows/HomeWindow";
+import LoginWindow from "./ViewWindows/LoginWindow";
 
 //======================
 // 模块配置
@@ -25,6 +26,7 @@ export default class MenuWindows
     static install()
     {
 
+        MenuWindows.add(MenuId.Login, LoginWindow);
         MenuWindows.add(MenuId.Home, HomeWindow);
         
     }

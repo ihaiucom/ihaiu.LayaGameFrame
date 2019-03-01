@@ -3,5 +3,5 @@
   <resources>
     <component id="nk8t0" name="Text.xml" path="/"/>
   </resources>
-  <publish name=""/>
+  <publish name="__Style"/>
 </packageDescription>

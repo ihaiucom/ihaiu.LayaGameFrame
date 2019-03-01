@@ -3,11 +3,10 @@
   <resources>
     <component id="f84s0" name="LaunchLoaderPanel.xml" path="/" exported="true"/>
     <component id="f84s1" name="ScreenBG.xml" path="/" exported="true"/>
-    <image id="f84s2" name="pic_bg_login.png" path="/_images_pic/" exported="true" scale="" atlas="alone_npot"/>
-    <component id="f84s3" name="ProgressRedBar.xml" path="/Component/" exported="true"/>
+    <component id="f84s3" name="ProgressRedBar.xml" path="/Component~NCode/" exported="true"/>
     <image id="f84s4" name="bar_rad_bg.png" path="/_images_ui/" scale="9grid" scale9grid="9,9,1,1"/>
     <image id="f84s5" name="bar_red.png" path="/_images_ui/" scale="9grid" scale9grid="9,0,16,29"/>
-    <component id="f84s6" name="BarSquare.xml" path="/Component/" exported="true"/>
+    <component id="f84s6" name="BarSquare.xml" path="/Component~NCode/" exported="true"/>
     <image id="f84s7" name="bar_square.png" path="/_images_ui/" scale=""/>
     <image id="f84s8" name="bar_top_red.png" path="/_images_ui/"/>
     <image id="f84sa" name="progress_circle.png" path="/_images_ui/"/>
@@ -20,10 +19,10 @@
     <image id="f84sk" name="btn_purple.png" path="/_images_ui/" scale="9grid" scale9grid="36,24,153,16"/>
     <image id="f84sl" name="bg_tips.png" path="/_images_ui/" scale="9grid" scale9grid="30,25,15,7"/>
     <component id="f84sg" name="DialogCloseWindow.xml" path="/Component/" exported="true"/>
-    <component id="f84sh" name="DialogWindow.xml" path="/Component/" exported="true"/>
-    <component id="f84sj" name="CloseButton.xml" path="/Component/" exported="true" favorite="true"/>
-    <component id="f84sm" name="YelloButton.xml" path="/Component/" exported="true" favorite="true"/>
-    <component id="f84sn" name="PurpleButton.xml" path="/Component/" exported="true" favorite="true"/>
+    <component id="f84sh" name="DialogWindow.xml" path="/Component~NCode/" exported="true"/>
+    <component id="f84sj" name="CloseButton.xml" path="/Component~NCode/" exported="true" favorite="true"/>
+    <component id="f84sm" name="YelloButton.xml" path="/Component~NCode/" exported="true" favorite="true"/>
+    <component id="f84sn" name="PurpleButton.xml" path="/Component~NCode/" exported="true" favorite="true"/>
     <component id="f84so" name="BGModel.xml" path="/" exported="true"/>
     <component id="nk8t0" name="GlobalModalWaiting.xml" path="/" exported="true"/>
     <component id="nk8t1" name="SystemAlertMessage.xml" path="/" exported="true"/>

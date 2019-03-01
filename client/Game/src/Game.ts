@@ -58,7 +58,7 @@ export default class Game
     // 本地数据存储
     static localStorage: GameLocalStorage = GameLocalStorage.Instance;
     // 加载界面
-    static loader: LoaderManager;
+    static loader: LoaderManager = LoaderManager.Instance;
     // 加载界面事件
     static loaderSettingHandler: LoaderSettingHandler = new LoaderSettingHandler();
     // 菜单
