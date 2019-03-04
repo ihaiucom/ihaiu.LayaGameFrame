@@ -94,6 +94,7 @@ export default class LoginWindow extends MWindow
         super.onMenuOpen(parameter);
     }
 
+    // 打开Tab面板
     openTab(tabIndex: number | string)
     {
         if(this.conent)
