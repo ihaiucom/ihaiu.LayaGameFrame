@@ -10,7 +10,7 @@ export default class MenuValidateEnableOpen extends MenuValidate
 {
 	install()
 	{
-		this.dict.add(MenuId.War, this.warEnableOpen);
+		this.dict.add(MenuId.Studio, this.warEnableOpen);
 	}
 
 
@@ -18,7 +18,7 @@ export default class MenuValidateEnableOpen extends MenuValidate
 	{
 		switch (menuId)
 		{
-			case MenuId.War:
+			case MenuId.Studio:
 				return this.warEnableOpen();
 			
 		}

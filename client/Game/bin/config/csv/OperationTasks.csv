@@ -1,4 +1,0 @@
-﻿int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	DTItemNum[]	string	string
-任务id	任务类型（1：普通，2：限时）	任务开始时间（时间戳）	任务结束时间（时间戳）	国家（通用：0）	平台（通用：0）	任务功能id	目标参数	任务类别代号	通用计数	演员数量（默认0）	演员国籍（Property）（默认0）	演员性别（Property）（默认0）	演员类别（Property）（默认0）	票房等级（Property）（默认0）	电影类型（Property）（默认0）	任务奖励	任务归类名（显示用）	活动描述
-id	type	starttime	endtime	country	plate	functionid	parameter	typename	counts	actors	actor_nation	actor_sex	actor_type	box_level	movie_type	reward	zh_cn_classname	zh_cn_description
-1001	1	0	0	0	0	2	20									1:100;2:100		

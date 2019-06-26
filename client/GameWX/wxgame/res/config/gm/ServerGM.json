@@ -1,0 +1,107 @@
+﻿[
+  {
+    "cnname": "增加经验",
+    "name": "addexp",
+    "data": {
+      "exp": 1000
+    }
+  },
+  {
+    "cnname": "添加玩家等级",
+    "name": "addlevel",
+    "data": {
+      "level": 1
+    }
+  },
+  {
+    "cnname": "设置玩家等级",
+    "name": "setlevel",
+    "data": {
+      "level": 1
+    }
+  },
+  {
+    "cnname": " 加物品",
+    "name": "additem",
+    "data": {
+      "itemId": 1,
+      "amount": 1
+    }
+  },
+  {
+    "cnname": " 减物品",
+    "name": "subitem",
+    "data": {
+      "itemId": 1,
+      "amount": 1
+    }
+  },
+  {
+    "cnname": " 添加艺人",
+    "name": "addactor",
+    "data": {
+      "actorId": 1001
+    }
+  },
+  {
+    "cnname": "设置艺人等级",
+    "name": "setactorlevel",
+    "data": {
+      "actorId": 1001,
+      "level": 1
+    }
+  },
+  {
+    "cnname": "设置艺人星级",
+    "name": "setactorstar",
+    "data": {
+      "actorId": 1001,
+      "star": 1
+    }
+  },
+  {
+    "cnname": "设置建筑等级",
+    "name": "setbuildlevel",
+    "data": {
+      "buildType": 1,
+      "level": 1
+    }
+  },
+  {
+    "cnname": "添加情报",
+    "name": "addinfo",
+    "data": {
+      "labelId": 1702,
+      "amount": 1
+    }
+  },
+  {
+    "cnname": "添加剧本",
+    "name": "addstory",
+    "data": {
+      "storyId": 8001
+    }
+  },
+  {
+    "cnname": "发送邮件",
+    "name": "sendmail",
+    "data": {
+      "title": "系统邮件",
+      "content": "欢迎来到王牌制作人,请收下小小心意吧！",
+      "itemType": 1,
+      "itemId": 1,
+      "itemNum": 1000
+    }
+  },
+  {
+    "cnname": "发送世界邮件",
+    "name": "sendworldmail",
+    "data": {
+      "title": "系统邮件",
+      "content": "欢迎来到王牌制作人,请收下小小心意吧！",
+      "itemType": 1,
+      "itemId": 1,
+      "itemNum": 1000
+    }
+  }
+]

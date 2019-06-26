@@ -21,6 +21,7 @@ export default class AudioManager
 		// this.musicVolume = this.musicVolume;
 		// this.soundVolume = this.soundVolume;
 
+
 		this.onLogin();
 
 		Game.application.sAppResume.add(this.onAppResume, this);
@@ -54,6 +55,11 @@ export default class AudioManager
 	{
 		// if (BrowserDetect.isMobile)
 		// 	return;
+		if(this.lastMusic == soundKey)
+		{
+			return;
+		}
+
 		this.lastMusic = soundKey;
 		if (this.musicMuted)
 		{
@@ -75,7 +81,7 @@ export default class AudioManager
 		}
 		else
 		{
-			this.playMusic(SoundKey.MM_BGM_Cinema);
+			this.playMusic(SoundKey.MM_BGM_01);
 		}
 	}
 

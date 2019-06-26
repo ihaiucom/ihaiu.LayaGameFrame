@@ -7,12 +7,12 @@ import SystemToastMessage from "../../Extends/GameLaunch/SystemToastMessage";
 
 export default class SystemToastMessageStruct extends fairygui.GComponent
 {
-	public m_title : fairygui.GRichTextField;
+	public m_title : fairygui.GTextField;
 
 	
 	public static URL:string = "ui://47qsdr42nk8t3";
 	
-	public static DependPackages:string[] = ["GameLaunch"];
+	public static DependPackages:string[] = ["GameLaunch","_ResImageUIV1"];
 
 	
 	public static createInstance():SystemToastMessage {
@@ -32,7 +32,7 @@ export default class SystemToastMessageStruct extends fairygui.GComponent
 		
 
 		
-		this.m_title = <fairygui.GRichTextField><any>(this.getChild("title"));
+		this.m_title = <fairygui.GTextField><any>(this.getChild("title"));
 		
 		
 	}

@@ -71,7 +71,7 @@ export default class LangManager
 				// lang = LangType.toLang(lang);
 				// this._lang = lang;
 
-				this._lang = LangType.en;
+				this._lang = LangType.zh_cn;
 			}
 
 			this.httpLang = this._lang;

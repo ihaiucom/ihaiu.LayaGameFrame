@@ -1,6 +1,0 @@
-﻿int	int	int	int	int	int	int	int	int	string
-id	任务类别代号（1：电影拍摄；2：完成订单；3：完成合作人物；4：完成粉丝接待；5：完成公务审批；6：进行生产；7：提升关注等级；8：领取市场收益；9：搜罗剧本；10：处理会议；11：训练艺人）	通用计数	演员数量（默认0）	演员国籍（Property）（默认0）	演员性别（Property）（默认0）	演员类别（Property）（默认0）	票房等级（Property）（默认0）	电影类型（Property）（默认0）	备注
-id	type	counts	actors	actor_nation	actor_sex	actor_type	box_level	movie_type	info
-1001	2	10							占位
-1002	3	20							占位
-1003	4	30							占位

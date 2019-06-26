@@ -1,8 +1,8 @@
 {
   "enableoverwrites": [
   	{
-  		"src":"../../_gen/ConfigOut/csv", 
-  		"dst":"//172.16.50.177/GamePF/plan_ShangJingBo/config/csv"
+  		"src":"../../../_gen/ConfigOut/csv", 
+  		"dst":"//192.168.2.224/GamePF/plan_ShangJingBo/config/csv"
   	}
   	
   ],

@@ -14,6 +14,8 @@ export default interface VersionConfig
 	ResWeb: string;
 	// 应用版本： 1.0.0.0
 	AppVersion: string;
+	// 资源版本： 1.0.0.0
+	ResVersion: string;
 	// 分包资源版本:  1.0.0.0
 	PartialVersion: string;
 	// 分包资源目录: partial_v1_00_00_00

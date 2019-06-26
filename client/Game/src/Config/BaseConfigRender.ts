@@ -3,6 +3,7 @@ import Dictionary from "../Libs/Helpers/Dictionary";
 import ConfigRenderInterface from "./Interfaces/ConfigRenderInterface";
 import ConfigLoaderInterface from "./Interfaces/ConfigLoaderInterface";
 import ConfigRenderComplete from "./Interfaces/ConfigRenderComplete";
+import Res from "./Keys/Res";
 
 export default abstract class BaseConfigRender<T extends BaseConfig> implements ConfigRenderInterface
 {
@@ -45,7 +46,7 @@ export default abstract class BaseConfigRender<T extends BaseConfig> implements 
     // 获取配置文件路径        
     getConfigPath(): string
     {
-        return `config/csv/${this.tableName}.csv`;
+        return Res.config + `csv/${this.tableName}.csv`;
     }
 
     // 加载配置

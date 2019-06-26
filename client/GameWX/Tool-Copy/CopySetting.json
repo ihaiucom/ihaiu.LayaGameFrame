@@ -1,0 +1,43 @@
+{
+  "enableoverwrites": [
+    {
+      "src":"../../Game/release/wxgame/bundle.js", 
+      "dst":"../wxgame/game/js/bundle.js"
+    },
+    {
+      "src":"../../Game/release/wxgame/libs/AntFrame/Net/net.js", 
+      "dst":"../wxgame/game/libs/AntFrame/Net/net.js"
+    },
+    {
+      "src":"../../Game/release/wxgame/libs/AntFrame/Net/netproto.js", 
+      "dst":"../wxgame/game/libs/AntFrame/Net/netproto.js"
+    },
+    {
+      "src":"../../Game/release/wxgame/libs/AntFrame/Net/proto.js", 
+      "dst":"../wxgame/game/libs/AntFrame/Net/proto.js"
+    },
+    {
+      "src":"../../Game/release/wxgame/libs/game", 
+      "dst":"../wxgame/libs/game"
+    },
+    {
+      "src":"../../Game/bin/res/config/gm", 
+      "dst":"../wxgame/res/config/gm"
+    },
+    {
+      "src":"../../Game/bin/ServerList.json", 
+      "dst":"../wxgame/ServerList.json"
+    },
+    {
+      "src":"../../Game/bin/res/fgui/GameLaunch.bin", 
+      "dst":"../wxgame/res/fgui/GameLaunch.bin"
+    },
+    {
+      "src":"../../Game/bin/res/fgui/GameLaunch_atlas0.png", 
+      "dst":"../wxgame/res/fgui/GameLaunch_atlas0.png"
+    },
+  ],
+  "disableoverwrites": [
+    
+  ]
+}

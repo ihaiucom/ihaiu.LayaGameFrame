@@ -1,6 +1,0 @@
-﻿int	string	string	string	int
-语言id	语言名称	备注	值	开关（0：关闭，1：开启）
-id	type	info	value	languageswitch
-1001	简体中文	简中	zh_cn	1
-1002	繁体中文	繁中	zh_tw	0
-1003	English	英文	en	1

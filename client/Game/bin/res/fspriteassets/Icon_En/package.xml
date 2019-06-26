@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="af3vhw05" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="dta10" name="icon_rank_average.png" path="/" exported="true"/>
+    <image id="dta11" name="icon_rank_epic.png" path="/" exported="true"/>
+    <image id="dta12" name="icon_rank_good.png" path="/" exported="true"/>
+    <image id="dta13" name="icon_rank_great.png" path="/" exported="true"/>
+    <image id="dta14" name="icon_rank_perfect.png" path="/" exported="true"/>
+    <image id="dta15" name="icon_rank_teriffic.png" path="/" exported="true"/>
+  </resources>
+  <publish name="Icon_En"/>
+</packageDescription>

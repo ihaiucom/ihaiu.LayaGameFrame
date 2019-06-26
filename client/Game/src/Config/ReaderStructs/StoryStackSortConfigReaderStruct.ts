@@ -21,9 +21,9 @@ export default class StoryStackSortConfigReaderStruct extends CsvConfigRender<  
 
 		config.id = csvGetInt(csv,  this.GetHeadIndex(  "id"  )   );
 		config.zh_cn_name = csvGetString(csv,  this.GetHeadIndex(  "zh_cn_name"  )   );
-		config.scripts =  toIntArray(       csvGetString(csv,  this.GetHeadIndex(  "scripts"  )   )   );
+		config.storySeriesId =  toIntArray(       csvGetString(csv,  this.GetHeadIndex(  "storySeriesId"  )   )   );
 		config.rewards =  DTItemNum.parseArray(       csvGetString(csv,  this.GetHeadIndex(  "rewards"  )   )   );
-		config.addition_scene =  DTStoryEffect.parseArray(       csvGetString(csv,  this.GetHeadIndex(  "addition_scene"  )   )   );
+		config.additionScene =  DTStoryEffect.parseArray(       csvGetString(csv,  this.GetHeadIndex(  "additionScene"  )   )   );
 
 		
 

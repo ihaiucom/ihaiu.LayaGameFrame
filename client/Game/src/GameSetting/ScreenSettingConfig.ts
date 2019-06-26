@@ -4,8 +4,8 @@
 export default class ScreenSettingConfig
 {
 	// 开发分辨率
-	developWidth = 720;
-	developHeight = 1280;
+	developWidth = 750;
+	developHeight = 1334;
 	get developAspect(): number
 	{
 		return this.developWidth / this.developHeight;
@@ -14,12 +14,32 @@ export default class ScreenSettingConfig
 	// 屏幕分辨率
 	get screenWidth(): number
 	{
-		return fairygui.GRoot.inst.width;
+		return Laya.stage.width;
 	}
 
 	get screenHeight(): number
 	{
-		return fairygui.GRoot.inst.height;
+		return Laya.stage.height;
+	}
+
+	
+	/** 刘海屏幕高度 */
+	get liuHaiHeightTop(): number
+	{
+		return 65;
+	}
+
+	
+	/** 刘海屏幕高度 */
+	get liuHaiHeightBottom(): number
+	{
+		return 60 + 50;
+	}
+	
+	/** 刘海屏幕高度 */
+	get screenHeightLiuHai(): number
+	{
+		return fairygui.GRoot.inst.height - this.liuHaiHeightTop - this.liuHaiHeightBottom;
 	}
 
 	get screenAspect(): number
@@ -42,17 +62,28 @@ export default class ScreenSettingConfig
 		return rate;
 	}
 
+	get screenScaleX()
+	{
+		return this.screenWidth / this.developWidth;
+	}
+
+	get screenScaleY()
+	{
+		return this.screenHeight / this.developHeight;
+	}
+
 	get screenScaleShrink(): number
 	{
-		let rate = 1;
-		if (this.screenAspect <= this.developAspect)
-		{
-			rate = this.screenHeight / this.developHeight;
-		}
-		else
-		{
-			rate = this.screenWidth / this.developWidth;
-		}
-		return rate;
+		return Math.min(this.screenScaleX,this.screenScaleY);
+		// let rate = 1;
+		// if (this.screenAspect <= this.developAspect)
+		// {
+		// 	rate = this.screenHeight / this.developHeight;
+		// }
+		// else
+		// {
+		// 	rate = this.screenWidth / this.developWidth;
+		// }
+		// return rate;
 	}
 }

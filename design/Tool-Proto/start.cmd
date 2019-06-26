@@ -1,2 +1,0 @@
-unthink run
-pause

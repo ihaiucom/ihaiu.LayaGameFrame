@@ -1,9 +1,0 @@
-﻿int	string	string
-ID	Key	描述
-id	key	tip
-1	PopUp_2days	次日登录奖励提示
-2	PopUp_3days	三日登录奖励提示
-3	GuideReward	新手奖励
-4	CupPackage	奖杯礼包
-5	LevelPackage	等级礼包
-6	Label_Hot	hot标签

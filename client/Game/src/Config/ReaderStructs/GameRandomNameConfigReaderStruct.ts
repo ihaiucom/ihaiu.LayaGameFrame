@@ -20,7 +20,6 @@ export default class GameRandomNameConfigReaderStruct extends CsvConfigRender<  
 		config.id = csvGetInt(csv,  this.GetHeadIndex(  "id"  )   );
 		config.type = csvGetInt(csv,  this.GetHeadIndex(  "type"  )   );
 		config.zh_cn_names =  toStringArray(       csvGetString(csv,  this.GetHeadIndex(  "zh_cn_names"  )   )   );
-		config.tips = csvGetString(csv,  this.GetHeadIndex(  "tips"  )   );
 
 		
 

@@ -7,5 +7,5 @@ interface String
     trimLeft(targetString): string;
     trimRight(targetString): string;
     // replaceAll(searchValue, replaceValue): string;
-}
 
+}

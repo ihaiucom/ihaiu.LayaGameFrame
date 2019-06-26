@@ -10,7 +10,7 @@
 			"useBuildInServer": true,
 			"sourceMaps": true,
 			"webRoot": "${workspaceRoot}",
-			"port": 9222,
+			"port": 4000,
 			"fixedPort":false,
 			"sourceMapPathOverrides": {
 				"src/*": "${workspaceRoot}/src/*"
@@ -21,6 +21,7 @@
 			"type": "chrome",
 			"request": "launch",
 			"file": "${workspaceRoot}/bin/index.html",
+			"port":4000,
 			// "换成自己的谷歌安装路径，": 比如
 			//window 默认安装路径为: "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"
 			//mac 系统上的默认安装路径为 "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";

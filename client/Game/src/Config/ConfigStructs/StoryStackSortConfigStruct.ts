@@ -16,9 +16,9 @@ export default class StoryStackSortConfigStruct extends BaseConfig
 
 	id : number;
 	zh_cn_name : string;
-	scripts : number[];
+	storySeriesId : number[];
 	rewards : DTItemNum[];
-	addition_scene : DTStoryEffect[];
+	additionScene : DTStoryEffect[];
 
 
 

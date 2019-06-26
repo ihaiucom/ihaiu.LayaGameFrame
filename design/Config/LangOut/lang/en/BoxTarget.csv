@@ -1,7 +1,0 @@
-﻿int	string	string	string	string	string	string	string	string	string
-id	对话气泡	目标标题	目标票房	限定时间文本	达成奖励	终极目标说明	确认按钮文本	目标票房	限定时间文本
-id	dialog	title	targettext	timetext	reward	final	button	target	time
-1001	Let's give ourselves something aim for.	Daily Goal 1	Tickets sold:	Time limit: {0}hr {1}min {2}sec	Rewards:		Challenge accepted.	Tickets sold:	Time limit: {0}hr {1}min {2}sec
-1002	Great job!	Daily Goal 2	Tickets sold:	Time limit: {0}hr {1}min {2}sec	Rewards:		Challenge accepted.	Tickets sold:	Time limit: {0}hr {1}min {2}sec
-1003	Keep up the good work!	Daily Goal 3	Tickets sold:	Time limit: {0}hr {1}min {2}sec	Rewards:		Challenge accepted.	Tickets sold:	Time limit: {0}hr {1}min {2}sec
-1004	Congrats, you’ve completed all of today's box-office goals.	Box-Office	Total Sales:			Even when you finish a goal, addition box-office sales still contribute to more daily rewards.	Got it	Total sales:	

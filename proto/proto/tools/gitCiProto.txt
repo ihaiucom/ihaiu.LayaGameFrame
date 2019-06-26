@@ -1,0 +1,18 @@
+[gitCiProtoConfig]
+
+#分支  配置自己的分支提交的远端分支
+gitBranch = dev_proto_wjf
+
+#本地服务器生成客户端协议代码
+serverPath = D:\Work\master\server\xserver
+
+antFramePath = %(serverPath)s\tools\auto\js\cocos
+pbPath =  %(serverPath)s\src\idl\pb3
+
+gitProtoPath = D:\Work\proto\Gidea-Brokerage-Proto\proto
+
+gitAntFrame = %(gitProtoPath)s\AntFrame
+gitPb = %(gitProtoPath)s\pb3
+
+
+gitLog = "task:1 proto协议提交"

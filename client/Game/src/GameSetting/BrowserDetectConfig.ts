@@ -9,6 +9,11 @@ export default class BrowserDetectConfig
 	isConch: boolean = false;
 	isCrosswalk: boolean = false;
 	
+	get isWeixinMinigame(): boolean
+	{
+		return Laya.Browser.onWeiXin && Laya.MiniAdpter != undefined;
+	}
+	
 	isFirefox: boolean;
 	isOpera: boolean;
 	isChrome: boolean;
@@ -104,30 +109,70 @@ export default class BrowserDetectConfig
 		return this.deviceInfo["devicename"];
 	}
 
-
-
-	get isIphoneX(): boolean
+	
+	private _isPhoneX: boolean | number = -1;
+	get isPhoneX(): boolean
 	{
-		if (this.deviceName && this.deviceName.indexOf("iPhone") != -1)
+		if(this._isPhoneX === -1)
 		{
-			try
+			this._isPhoneX = false;
+			if(window.navigator && window.navigator.userAgent)
 			{
-
-				let v = this.deviceName.replace("iPhone", "").replace(",", ".");
-				let num = parseFloat(v);
-				if (num >= 10.3)
+				let index = window.navigator.userAgent.indexOf("iPhone OS ");
+				if(index != -1)
 				{
-					return true;
+					let v = window.navigator.userAgent.substring(window.navigator.userAgent.indexOf("iPhone OS ") + "iPhone OS ".length, window.navigator.userAgent.indexOf(" like"));
+					v = v.replace(/\_/g, '.');
+					let num = parseFloat(v);
+					
+					if (num >= 10.3)
+					{
+						this._isPhoneX = true;
+					}
 				}
+			}
 
-			}
-			catch (error)
-			{
-				return false;
-			}
+			// if (this.deviceName && this.deviceName.indexOf("iPhone") != -1)
+			// {
+			// 	try
+			// 	{
+
+			// 		let v = this.deviceName.replace("iPhone", "").replace(",", ".");
+			// 		let num = parseFloat(v);
+			// 		if (num >= 10.3)
+			// 		{
+			// 			return true;
+			// 		}
+
+			// 	}
+			// 	catch (error)
+			// 	{
+			// 		return false;
+			// 	}
+			// }
+
 		}
 
-		return false;
+		return <boolean>this._isPhoneX;
+	}
+
+
+
+	/** 是否有刘海 */
+	private _isLiuHai:boolean;
+	get isLiuHai(): boolean
+	{
+		if(this._isLiuHai === undefined)
+		{
+			if(Laya.Browser.onMiniGame || this.isConch)
+			{
+				this._isLiuHai = window.innerWidth / window.innerHeight <= 0.5;
+				// return this.isPhoneX;
+			}
+
+		}
+
+		return this._isLiuHai;
 	}
 
 
@@ -135,6 +180,12 @@ export default class BrowserDetectConfig
 
 	constructor()
 	{
+		console.log("this.isWeixinMinigame=" + this.isWeixinMinigame);
+		
+		if (window["conch"])
+		{
+			this.isConch = true;
+		}
 
 		if (window && window.navigator && window.navigator.userAgent)
 		{

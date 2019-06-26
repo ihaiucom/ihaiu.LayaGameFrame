@@ -14,7 +14,7 @@ export default class MenuConfigStruct extends BaseConfig
 
 	id : number;
 	zh_cn_name : string;
-	icon : number;
+	icon : string;
 	moduleName : string;
 	layer : number;
 	closeOtherType : number;

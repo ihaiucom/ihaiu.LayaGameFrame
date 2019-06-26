@@ -2,7 +2,7 @@
   "autoEnd": true,
   "optionSetting": "./Release-ExportXlsxSetting.json",
   "xlsxDir": "../Config-Release/Common;../Config-Release/Client",
-  "outDir": "../../_gen/ConfigOut-Release",
+  "outDir": "../../../_gen/ConfigOut-Release",
   "exportSettingXlsx": "../Config-Release/ExportSetting.xlsx",
   "settingStructSheet": "StructSheet",
   "settingIgnoreSheet": "IgnoreSheet",

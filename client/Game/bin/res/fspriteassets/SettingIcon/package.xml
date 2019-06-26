@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="5crasoeh" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="qj3sa" name="icon_music_setting.png" path="/" exported="true"/>
+    <image id="qj3sb" name="icon_notice_setting.png" path="/" exported="true"/>
+    <image id="qj3sc" name="icon_power_setting.png" path="/" exported="true"/>
+    <image id="qj3sd" name="icon_redeem_setting.png" path="/" exported="true"/>
+    <image id="qj3se" name="icon_sound_setting.png" path="/" exported="true"/>
+    <image id="qj3sf" name="icon_title_setting.png" path="/" exported="true"/>
+    <image id="tsvkg" name="icon_language_setting.png" path="/" exported="true"/>
+  </resources>
+  <publish name="SettingIcon"/>
+</packageDescription>

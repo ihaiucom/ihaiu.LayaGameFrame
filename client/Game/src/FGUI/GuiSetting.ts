@@ -37,6 +37,12 @@ export default class GuiSetting
         }
     }
 
+    // 地图
+    static getMapPath(filename: string)
+    {
+        return this.getResPath(filename, "map");
+    }
+
     
 
 

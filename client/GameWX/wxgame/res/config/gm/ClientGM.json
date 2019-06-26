@@ -1,0 +1,45 @@
+﻿[
+  {
+    "cnname": " 测试",
+    "name": "gmTest",
+    "data": {
+      "num": 1
+    }
+  },
+  {
+    "cnname": " 打印内存",
+    "name": "gmPrintMem",
+    "data": {}
+  },
+  {
+    "cnname": " 所有情报一键添加10个",
+    "name": "gmAddInfoationAll",
+    "data": {
+      "num": 20
+    }
+  },
+  {
+    "cnname": " 创建激励视频广告",
+    "name": "wx_createRewardedVideoAd",
+    "data": 
+    {
+      "adUnitId": ""
+    }
+  },
+  {
+    "cnname": " 测试-Text-FGUI",
+    "name": "test_Text_Fgui",
+    "data": 
+    {
+      "adUnitId": ""
+    }
+  },
+  {
+    "cnname": " 测试-Text-Laya",
+    "name": "test_Text_Laya",
+    "data": 
+    {
+      "adUnitId": ""
+    }
+  }
+]

@@ -13,12 +13,14 @@ export default class PropertyConfigStruct extends BaseConfig
 
 
 	id : number;
-	type : number;
 	field : string;
-	enName : string;
 	zh_cn_name : string;
+	zh_cn_addname : string;
+	addnamenum : number;
+	details : boolean;
 	icon : number;
-	tip : string;
+	groupType : number;
+	visible : boolean;
 
 
 
@@ -36,6 +38,18 @@ export default class PropertyConfigStruct extends BaseConfig
 			return value;
 		}
 		return this.zh_cn_name
+	}
+	get addname():string
+	{
+		if(!Game.lang.isUseLang)
+			return this.zh_cn_addname
+
+		let value = <string> Game.lang.getValue("property", this.id, "addname");
+		if (!isNullOrEmpty(value))
+		{
+			return value;
+		}
+		return this.zh_cn_addname
 	}
 
 }

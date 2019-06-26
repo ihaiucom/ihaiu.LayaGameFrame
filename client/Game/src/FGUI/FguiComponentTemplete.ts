@@ -1,4 +1,5 @@
 import MWindow from "../GameFrame/Module/MWindow";
+import Game from "../Game";
 
 // 组件代码模版, 没有用到的方法尽量删掉
 export class FguiComponentTemplete extends fairygui.GComponent
@@ -18,16 +19,29 @@ export class FguiComponentTemplete extends fairygui.GComponent
         return false;
     }
 
+    // 窗口即将打开，可以在这里做缓动
+    onWindowWillShow()
+    {
+
+    }
+
+    // 窗口即将关闭，可以在这里做缓动
+    onWindowWillHide(): void
+    {
+
+    }
+
     // 窗口显示
     onWindowShow(): void
     {
+        Game.net.gamerLoginGetDataS2C.on(this.updateData, this);
 
     }
 
     // 窗口隐藏
     onWindowHide(): void
     {
-
+        Game.net.gamerLoginGetDataS2C.off(this.updateData, this);
     }
 
 
@@ -41,5 +55,10 @@ export class FguiComponentTemplete extends fairygui.GComponent
     onTabHide(): void
     {
 
+    }
+
+    // 刷新数据
+    updateData()
+    {
     }
 }

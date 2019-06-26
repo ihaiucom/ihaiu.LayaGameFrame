@@ -1,6 +1,0 @@
-﻿int	string	int	int[]	DTItemNum	DTItemNum[]	DTVector2	DTStoryNum
-编号	名称	年龄	int 数组	单个|n|物品数量\tHello	物品数组|n|1.测试换行|n|2.测试换行	坐标	剧情星 阶数A BA   B
-id	name	age	intArray	coin	items	position	story
-1	赵钱	30	1;2;3	1001:100	1001:100;1003:23;1009:29	100;105	1:03
-2	孙李	20	4;5;6	1002; 324	1001:100	200:105	4:02
-3	周吴,"Abc",Def,Hello 'World'	50	101;2;33;99	1003; 999		200:106	100:5

@@ -14,6 +14,8 @@ import TEXT from "../Keys/TEXT";
 import MenuValidateEnableOpen from "../../GameModule/MenuValidateEnableOpen";
 import MenuValidateNew from "../../GameModule/MenuValidateNew";
 import MenuWindows from "../../GameModule/MenuWindows";
+import { MenuBarType } from "../../GameFrame/Menu/MenuBarType";
+import Res from "../Keys/Res";
 
 export default class MenuConfig extends MenuConfigStruct
 {
@@ -42,19 +44,20 @@ export default class MenuConfig extends MenuConfigStruct
         return this.loaderId;
     }
 
+
+    private _iconUrl: string;
     // 	菜单图片	
     get iconUrl(): string
     {
-        let avatarConfig = Game.config.avatar.getConfig(this.icon);
-        if (avatarConfig)
+        if(!this._iconUrl)
         {
-            return avatarConfig.iconUrl;
-        }
-        else
-        {
-            return "";
+            if(!isNullOrEmpty(this.icon))
+            {
+                this._iconUrl = Res.getMenuIconUrl(this.icon);
+            }
         }
 
+       return this._iconUrl;
     }
 
     /**
@@ -87,6 +90,21 @@ export default class MenuConfig extends MenuConfigStruct
     }
 
     /**
+     * 锁住情况下是否显示
+     */
+    get lockVisiable(): boolean
+    {
+        // TODO ZF
+        return this.barType == MenuBarType.Bottom;
+        let unlockConfig = Game.config.unlock.getConfig(this.menuId);
+        if (unlockConfig)
+        {
+            return unlockConfig.icon_type == 1;
+        }
+        return true;
+    }
+
+    /**
      * 是否可以打开
      */
     get enableOpen(): boolean
@@ -106,30 +124,40 @@ export default class MenuConfig extends MenuConfigStruct
     /**
      * 前往
      */
-    openMenu(): boolean
+    async openMenu(): Promise<boolean>
     {
         if (this.menuId < MenuId.SubMenuButtonBegin)
         {
             if (!this.isUnlock)
             {
                 Game.system.toastText(this.lockText);
-                return false;
+                return Promise.resolve(false);
             }
 
+            let windowConfig = MenuWindows.get(this.menuId);
 
-            if (!MenuWindows.get(this.menuId))
+            if (!windowConfig)
             {
                 Game.system.toastText(TEXT.Disable);
-                return false;
+                return Promise.resolve(false);
+            }
+
+            if(windowConfig.windowClass)
+            {
+                let result = await windowConfig.windowClass.AsyncEnableOpen();
+                if(!result)
+                {
+                    return Promise.resolve(false);
+                }
             }
 
             if (this.enableOpen)
             {
                 Game.menu.open(this.menuId);
-                return true;
+                return Promise.resolve(true);
             }
         }
-        return true;
+        return Promise.resolve(true);
     }
 
 

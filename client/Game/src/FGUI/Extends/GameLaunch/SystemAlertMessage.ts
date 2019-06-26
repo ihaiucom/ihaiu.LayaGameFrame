@@ -9,6 +9,7 @@ import FguiHelper from "../../../Libs/Helpers/FguiHelper";
 import Ease = Laya.Ease;
 import Tween = Laya.Tween;
 import Handler = Laya.Handler;
+import Game from "../../../Game";
 
 export default class SystemAlertMessage extends SystemAlertMessageStruct
 {
@@ -65,13 +66,16 @@ export default class SystemAlertMessage extends SystemAlertMessageStruct
 
 
         this.m_okBtn.onClick(this, this.onClickYes);
-        this.closeButton.onClick(this, this.onClickYes);
+        this.closeButton.onClick(this, this.close);
 
         MenuLayer.showDialogModel();
         FguiHelper.centerScreen(this);
         this.scaleX = 0;
         this.scaleY = 0;
-        Tween.to(this, {scaleX: 1, scaleY: 1}, 500, Ease.backInOut);
+        this.x = Game.screenSetting.screenWidth >> 1;
+        this.y = Game.screenSetting.screenHeight >> 1;
+        this.alpha = 0;
+        Tween.to(this, {scaleX: 1, scaleY: 1, alpha: 1}, 250, Ease.backInOut);
         MenuLayer.floatMsg.addChild(this);
         
     }
@@ -79,7 +83,7 @@ export default class SystemAlertMessage extends SystemAlertMessageStruct
     close()
     {
         MenuLayer.hideDialogModel();
-        Tween.to(this, {scaleX: 0, scaleY: 0}, 500, Ease.quadInOut, Handler.create(this, this.onHide));
+        Tween.to(this, {scaleX: 0, scaleY: 0, alpha: 0}, 250, Ease.quadInOut, Handler.create(this, this.onHide));
     }
 
     private onHide()

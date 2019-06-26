@@ -12465,6 +12465,14 @@ var MouseManager=(function(){
 	}
 
 	__proto.check=function(sp,mouseX,mouseY,callBack){
+		// if(
+		// 	(window['avatarF'] && sp == window['avatarF'].skeleton) ||
+		// 	(window['avatarB'] && sp == window['avatarB'].skeleton)
+		// )
+		// {
+		// 	console.log("MouseManager check", sp);
+		// }
+
 		this._point.setTo(mouseX,mouseY);
 		sp.fromParentPoint(this._point);
 		mouseX=this._point.x;
@@ -12480,6 +12488,13 @@ var MouseManager=(function(){
 			}
 			for (var i=sp._children.length-1;i >-1;i--){
 				var child=sp._children[i];
+				// if(
+				// 	(window['avatarF'] && child == window['avatarF'].skeleton) ||
+				// 	(window['avatarB'] && child == window['avatarB'].skeleton)
+				// )
+				// {
+				// 	console.log("MouseManager check", child);
+				// }
 				if (!child.destroyed && child._mouseState > 1 && child._visible){
 					if (this.check(child,mouseX,mouseY,callBack))return true;
 				}
@@ -21258,6 +21273,12 @@ var Stage=(function(_super){
 			this._conchData._float32Data[ /*laya.display.SpriteConst.POSSCALEY*/11]=this._formatData(scaleY / (realHeight / canvasHeight));
 			this._conchData._float32Data[ /*laya.display.SpriteConst.POSTRANSFORM_FLAG*/15]=1;
 		}
+		console.log('designSize:', this.designWidth, this.designHeight);
+		console.log('canvasSize:', canvasWidth, canvasHeight);
+		console.log('realSize:', realWidth, realHeight);
+		console.log('scale:', scaleX, scaleY);
+		console.log('this:', this._width, this._height);
+
 		canvas.size(canvasWidth,canvasHeight);
 		RunDriver.changeWebGLSize(canvasWidth,canvasHeight);
 		mat.scale(realWidth / canvasWidth / pixelRatio,realHeight / canvasHeight / pixelRatio);

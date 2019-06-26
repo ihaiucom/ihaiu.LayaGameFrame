@@ -3,15 +3,16 @@ import LoginWindowUI from "../../FGUI/Extends/ModuleLogin/LoginWindowUI";
 import MenuOpenParameter from "../../GameFrame/Menu/MenuOpenParameter";
 import { MenuOpenType } from "../../GameFrame/Menu/MenuOpenType";
 import Game from "../../Game";
+import GuiPackageNames from "../../FGUI/Generates/GuiPackageNames";
 
 export enum LoginTabType
 {
     // 登录
     Login,
-    // 注册
-    Register,
     // 游客登录
     LoginGuest,
+    // 注册
+    Register,
     // 注册协议
     Agreement
 }
@@ -30,6 +31,21 @@ export default class LoginWindow extends MWindow
 
         // 添加依赖资源
         this.addAssetForFguiComponent(LoginWindowUI);
+
+        // TODO Test
+        this.addAssetForFguiPackagename(GuiPackageNames.CommonNumber);
+        this.addAssetForFguiPackagename(GuiPackageNames.ModuleStudioMovieClip00Common);
+        this.addAssetForFguiPackagename(GuiPackageNames.ModuleStudioMovieClip01Normal);
+        this.addAssetForFguiPackagename(GuiPackageNames._ResImageUI);
+        this.addAssetForFguiPackagename(GuiPackageNames.CommonBase);
+        
+        this.addAssetForFguiPackagename(GuiPackageNames._ResFont);
+        this.addAssetForFguiPackagename(GuiPackageNames.ModuleStudio);
+        this.addAssetForFguiPackagename(GuiPackageNames._ResImageUIV1);
+        this.addAssetForFguiPackagename(GuiPackageNames._ResImagePic);
+        this.addAssetForFguiPackagename(GuiPackageNames.CommonGame);
+        this.addAssetForFguiPackagename(GuiPackageNames.ModuleDailyTask);
+        
     }
 
 
@@ -72,11 +88,11 @@ export default class LoginWindow extends MWindow
         // //弹出窗口的动效已中心为轴心
         // this.setPivot(0.5, 0.5);
 
-
-        this.openTab(LoginTabType.Login);
-
+        // 注册控制器Tab
+        this.registerControllerTab(this.conent.m_TabCtrl, this.contentPane);
 
         super.onMenuCreate();
+        this.openTab(LoginTabType.Login);
     }
 
 
@@ -85,16 +101,16 @@ export default class LoginWindow extends MWindow
     {
         if (parameter.openType == MenuOpenType.None)
         {
-            if (Game.localStorage.isGuest)
-            {
+            if (Game.localStorage.isGuest) {
                 parameter.openType = MenuOpenType.Tab;
                 parameter.openIndex = LoginTabType.LoginGuest;
             }
         }
+        console.log("parameter: ", parameter);
+        
         super.onMenuOpen(parameter);
     }
 
-    // 打开Tab面板
     openTab(tabIndex: number | string)
     {
         if(this.conent)

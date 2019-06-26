@@ -1,5 +1,5 @@
 import GameConfig from "./GameConfig";
-import GameLaunch from "./GameLaunch";
+import Game from "./Game";
 class GameMain 
 {
     constructor() 
@@ -25,7 +25,7 @@ class GameMain
         Laya.alertGlobalError = true;
         
         // 启动游戏
-        new GameLaunch().install();
+        Game.launch.install();
 
 	}
 

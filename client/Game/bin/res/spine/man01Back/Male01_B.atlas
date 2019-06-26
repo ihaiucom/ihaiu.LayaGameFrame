@@ -1,0 +1,118 @@
+
+Male01_B.png
+size: 334,334
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lian
+  rotate: false
+  xy: 2, 19
+  size: 77, 86
+  orig: 77, 86
+  offset: 0, 0
+  index: -1
+toufa
+  rotate: false
+  xy: 2, 219
+  size: 101, 113
+  orig: 101, 113
+  offset: 0, 0
+  index: -1
+tunbu
+  rotate: false
+  xy: 2, 107
+  size: 99, 110
+  orig: 99, 110
+  offset: 0, 0
+  index: -1
+xiong
+  rotate: false
+  xy: 105, 222
+  size: 99, 110
+  orig: 99, 110
+  offset: 0, 0
+  index: -1
+youjiao
+  rotate: false
+  xy: 209, 96
+  size: 58, 62
+  orig: 58, 62
+  offset: 0, 0
+  index: -1
+youshangbi
+  rotate: false
+  xy: 269, 239
+  size: 55, 93
+  orig: 55, 93
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: false
+  xy: 196, 49
+  size: 37, 45
+  orig: 37, 45
+  offset: 0, 0
+  index: -1
+youtuishang
+  rotate: false
+  xy: 81, 15
+  size: 53, 90
+  orig: 53, 90
+  offset: 0, 0
+  index: -1
+youtuixia
+  rotate: false
+  xy: 269, 76
+  size: 49, 82
+  orig: 49, 82
+  offset: 0, 0
+  index: -1
+youxiabi
+  rotate: false
+  xy: 206, 243
+  size: 61, 89
+  orig: 61, 89
+  offset: 0, 0
+  index: -1
+zuojiao
+  rotate: false
+  xy: 136, 34
+  size: 58, 60
+  orig: 58, 60
+  offset: 0, 0
+  index: -1
+zuoshangbi
+  rotate: false
+  xy: 209, 160
+  size: 54, 81
+  orig: 54, 81
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: false
+  xy: 196, 2
+  size: 37, 45
+  orig: 37, 45
+  offset: 0, 0
+  index: -1
+zuotuishang
+  rotate: false
+  xy: 103, 132
+  size: 53, 85
+  orig: 53, 85
+  offset: 0, 0
+  index: -1
+zuotuixia
+  rotate: false
+  xy: 158, 136
+  size: 49, 84
+  orig: 49, 84
+  offset: 0, 0
+  index: -1
+zuoxiabi
+  rotate: false
+  xy: 265, 160
+  size: 54, 77
+  orig: 54, 77
+  offset: 0, 0
+  index: -1

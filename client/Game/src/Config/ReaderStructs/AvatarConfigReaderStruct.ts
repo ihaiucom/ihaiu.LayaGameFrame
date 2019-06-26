@@ -19,16 +19,18 @@ export default class AvatarConfigReaderStruct extends CsvConfigRender<    Avatar
 
 
 		config.id = csvGetInt(csv,  this.GetHeadIndex(  "id"  )   );
-		config.name_e = csvGetString(csv,  this.GetHeadIndex(  "name_e"  )   );
-		config.name_c = csvGetString(csv,  this.GetHeadIndex(  "name_c"  )   );
-		config.body_icon = csvGetString(csv,  this.GetHeadIndex(  "body_icon"  )   );
+		config.en_name = csvGetString(csv,  this.GetHeadIndex(  "en_name"  )   );
+		config.zh_cn_name = csvGetString(csv,  this.GetHeadIndex(  "zh_cn_name"  )   );
+		config.bodyIcon = csvGetString(csv,  this.GetHeadIndex(  "bodyIcon"  )   );
+		config.halfIcon = csvGetString(csv,  this.GetHeadIndex(  "halfIcon"  )   );
+		config.diamondHeadIcon = csvGetString(csv,  this.GetHeadIndex(  "diamondHeadIcon"  )   );
 		config.zh_cn_icon = csvGetString(csv,  this.GetHeadIndex(  "zh_cn_icon"  )   );
 		config.en_icon = csvGetString(csv,  this.GetHeadIndex(  "en_icon"  )   );
-		config.piece_icon = csvGetString(csv,  this.GetHeadIndex(  "piece_icon"  )   );
-		config.model_skin = csvGetString(csv,  this.GetHeadIndex(  "model_skin"  )   );
-		config.model_bones = csvGetString(csv,  this.GetHeadIndex(  "model_bones"  )   );
-		config.bg_pic = csvGetString(csv,  this.GetHeadIndex(  "bg_pic"  )   );
-		config.co_vector =  DTVector2.parse(       csvGetString(csv,  this.GetHeadIndex(  "co_vector"  )   )   );
+		config.pieceIcon = csvGetString(csv,  this.GetHeadIndex(  "pieceIcon"  )   );
+		config.modelSkin = csvGetString(csv,  this.GetHeadIndex(  "modelSkin"  )   );
+		config.modelBones = csvGetString(csv,  this.GetHeadIndex(  "modelBones"  )   );
+		config.bgPic = csvGetString(csv,  this.GetHeadIndex(  "bgPic"  )   );
+		config.coVector =  DTVector2.parse(       csvGetString(csv,  this.GetHeadIndex(  "coVector"  )   )   );
 
 		
 

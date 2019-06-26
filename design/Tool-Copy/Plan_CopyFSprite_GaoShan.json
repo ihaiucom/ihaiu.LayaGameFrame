@@ -1,0 +1,12 @@
+{
+  "enableoverwrites": [
+  	{
+  		"src":"../../arts/fspriteassets",  
+  		"dst":"//192.168.2.224/www/wp/plan_GaoShan/res/fspriteassets"
+  	}
+  
+  ],
+  "disableoverwrites": [
+  	
+  ]
+}

@@ -3,7 +3,8 @@
 	var __un=Laya.un,__uns=Laya.uns,__static=Laya.static,__class=Laya.class,__getset=Laya.getset,__newvec=Laya.__newvec;
 
 	var Browser=laya.utils.Browser,Byte=laya.utils.Byte,ColorFilter=laya.filters.ColorFilter,Event=laya.events.Event;
-	var EventDispatcher=laya.events.EventDispatcher,Graphics=laya.display.Graphics,HTMLDivElement=laya.html.dom.HTMLDivElement;
+	var EventDispatcher=laya.events.EventDispatcher,Graphics=laya.display.Graphics;
+	var HTMLDivElement=laya.html.dom.HTMLDivElement;
 	var Handler=laya.utils.Handler,HitArea=laya.utils.HitArea,Input=laya.display.Input,Loader=laya.net.Loader;
 	var Log=laya.utils.Log,Node=laya.display.Node,Point=laya.maths.Point,Rectangle=laya.maths.Rectangle,Render=laya.renders.Render;
 	var SoundManager=laya.media.SoundManager,Sprite=laya.display.Sprite,Stage=laya.display.Stage,Text=laya.display.Text;
@@ -16005,6 +16006,7 @@ var GRichTextField=(function(_super){
 	__getset(0,__proto,'text',function(){
 		return this._text;
 		},function(value){
+			
 		this._text=value;
 		var text2=this._text;
 		if (this._templateVars !=null)
@@ -16179,6 +16181,11 @@ var GProgressBar=(function(_super){
 		}
 		if((this._aniObject instanceof fairygui.GMovieClip ))
 			(this._aniObject).frame=Math.round(percent *100);
+
+
+		// TODO ZF
+		 this._barObjectH && (this._barObjectH.width=Math.max(1, this._barObjectH.width));
+		 this._barObjectV && (this._barObjectV.height=Math.max(1, this._barObjectV.height));
 	}
 
 	__proto.constructExtension=function(buffer){

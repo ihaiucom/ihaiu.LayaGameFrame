@@ -1,7 +1,7 @@
 {
   "enableoverwrites": [
   	{
-  		"src":"../../client/Game/bin", 
+  		"src":"../../../client/Game/bin", 
   		"dst":"E:/wamp/www/Gidea-PF-Res/resources/ios/web"
   	},
   

@@ -1,0 +1,35 @@
+{
+  "enableoverwrites": [
+  	{
+  		"src":"E:/zengfeng/GameWP/client/Game/bin", 
+  		"dst":"E:/wamp64/www/wp/develop"
+  	},
+  	{
+  		"src":"E:/zengfeng/GameWP/client/Game/bin", 
+  		"dst":"E:/wamp64/www/wp/plan_GaoShan"
+  	},
+  	{
+  		"src":"E:/zengfeng/GameWP/client/Game/bin", 
+  		"dst":"E:/wamp64/www/wp/plan_LiChao"
+  	},
+  	{
+  		"src":"E:/zengfeng/GameWP/client/Game/bin", 
+  		"dst":"E:/wamp64/www/wp/plan_TuYuWei"
+  	},
+  	{
+  		"src":"E:/zengfeng/GameWP/client/Game/bin", 
+  		"dst":"E:/wamp64/www/wp/plan_WangYiQinag"
+  	},
+  	{
+  		"src":"E:/zengfeng/GameWP/client/Game/bin", 
+  		"dst":"E:/wamp64/www/wp/plan_YuYaNing"
+  	},
+  	{
+  		"src":"E:/zengfeng/GameWP/client/Game/bin", 
+  		"dst":"E:/wamp64/www/wp/plan_ZhangRuoAn"
+  	},
+  ],
+  "disableoverwrites": [
+  	
+  ]
+}

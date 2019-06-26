@@ -31,7 +31,6 @@ export default class UnlockConfigStruct extends BaseConfig
 	continue : number;
 	is_new : boolean;
 	zh_cn_touch_txt : string;
-	tips : string;
 
 
 

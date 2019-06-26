@@ -1,0 +1,174 @@
+{
+	"isLocal": false,
+	"textureName": "res/particles/textures/star_glow.png",
+	"positionVariance": {
+		"0": 0,
+		"1": 0,
+		"2": 0
+	},
+
+
+
+	"maxPartices": 200,
+	"duration": 2,
+	"emissionRate": 40,
+
+	"minStartSize": 15,
+	"maxStartSize": 25,
+	"maxEndSize": 5,
+	"minEndSize": 5,
+	
+	"minRotateSpeed": 0,
+	"maxRotateSpeed": 5,
+
+	
+	"minStartRadius": 1,
+	"maxStartRadius": 0,
+
+	"minEndRadius": 0,
+	"maxEndRadius": 0,
+
+	
+	"useEndRadian": false,
+	"minHorizontalStartRadian": 0,
+	"maxHorizontalStartRadian": 0,
+
+
+	"minHorizontalEndRadian": 0,
+	"maxHorizontalEndRadian": 0,
+
+	"minVerticalStartRadian": 0,
+	"maxVerticalStartRadian": 0,
+	
+	"minVerticalEndRadian": 0,
+	"maxVerticalEndRadian": 0,
+
+
+
+
+	"minAngle": 0,
+	"maxAngle": 360,
+	
+	"minHorizontalVelocity": 80,
+	"maxHorizontalVelocity": 80,
+
+	"minVerticalVelocity": 0,
+	"maxVerticalVelocity": 0,
+
+
+	"endVelocity": 1,
+	"emitterVelocitySensitivity": 0,
+
+	"gravity": {
+		"0": 0,
+		"1": 0,
+		"2": 0
+	},
+	"blendState": 1,
+	"ageAddScale": 0,
+	"backColor": "#000000",
+	"textureFileName": "comp\\clip_num.png",
+	"textureCount": 1,
+	"emitterType": "null",
+	"sphereEmitterRadius": 1,
+	"sphereEmitterVelocity": 0,
+	"sphereEmitterVelocityAddVariance": 0,
+	"ringEmitterRadius": 30,
+	"ringEmitterVelocity": 0,
+	"ringEmitterVelocityAddVariance": 0,
+	"ringEmitterUp": 2,
+
+	
+	"colorComponentInter": true,
+
+	"minColor": {
+		"0": 1,
+		"1": 1,
+		"2": 1,
+		"3": 1
+	},
+	
+	"maxColor": {
+		"0": 1,
+		"1": 1,
+		"2": 1,
+		"3": 1
+	},
+
+	"minStartColor": {
+		"0": 1,
+		"1": 1,
+		"2": 1,
+		"3": 1
+	},
+	"maxStartColor": {
+		"0": 1,
+		"1": 1,
+		"2": 1,
+		"3": 1
+	},
+	"minEndColor": {
+		"0": 1,
+		"1": 1,
+		"2": 1,
+		"3": 1
+	},
+	"maxEndColor": {
+		"0": 1,
+		"1": 1,
+		"2": 1,
+		"3":1
+	},
+
+	"pointEmitterPosition": {
+		"0": 0,
+		"1": 0,
+		"2": 0
+	},
+	"pointEmitterPositionVariance": {
+		"0": 0,
+		"1": 0,
+		"2": 0
+	},
+	"pointEmitterVelocity": {
+		"0": 0,
+		"1": 0,
+		"2": 0
+	},
+	"pointEmitterVelocityAddVariance": {
+		"0": 0,
+		"1": 0,
+		"2": 0
+	},
+	"boxEmitterCenterPosition": {
+		"0": 0,
+		"1": 0,
+		"2": 0
+	},
+	"boxEmitterSize": {
+		"0": 0,
+		"1": 0,
+		"2": 0
+	},
+	"boxEmitterVelocity": {
+		"0": 0,
+		"1": 0,
+		"2": 0
+	},
+	"boxEmitterVelocityAddVariance": {
+		"0": 0,
+		"1": 0,
+		"2": 0
+	},
+	"sphereEmitterCenterPosition": {
+		"0": 0,
+		"1": 0,
+		"2": 0
+	},
+	"ringEmitterCenterPosition": {
+		"0": 0,
+		"1": 0,
+		"2": 0
+	},
+	"disableColor": false
+}

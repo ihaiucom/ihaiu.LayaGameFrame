@@ -12,6 +12,7 @@ export default class AssetHelper
         {
             let dict = new Dictionary<string, AssetItemType>();
             dict.add(Loader.IMAGE, AssetItemType.Image);
+            dict.add(Loader.TEXTURE2D, AssetItemType.TEXTURE2D);
             dict.add(Loader.BUFFER, AssetItemType.Buffer);
             dict.add(Loader.SOUND, AssetItemType.Sound);
             dict.add(Loader.TEXT, AssetItemType.Text);
@@ -26,9 +27,35 @@ export default class AssetHelper
         return AssetHelper._layaLoaderType2AssetItemTypeDict;
     }
 
+    
+    private static _assetItemType2LayaLoaderTypeDict;
+    static get assetItemType2LayaLoaderTypeDict(): Dictionary<AssetItemType, string>
+    {
+        if (!AssetHelper._assetItemType2LayaLoaderTypeDict)
+        {
+            let d = this.layaLoaderType2AssetItemTypeDict.__getDict();
+            let dict = new Dictionary<AssetItemType, string>();
+            for(let key in d)
+            {
+                dict[d[key]] = d;
+            }
+
+            AssetHelper._assetItemType2LayaLoaderTypeDict = dict;
+        }
+
+        return AssetHelper._assetItemType2LayaLoaderTypeDict;
+    }
+
+
+
     static layaLoaderType2AssetItemType(loader: string | Loader): AssetItemType
     {
         return AssetHelper.layaLoaderType2AssetItemTypeDict.getValue(<string>loader);
+    }
+    
+    static assetItemType2LayaLoaderType(type: AssetItemType): string
+    {
+        return AssetHelper.assetItemType2LayaLoaderTypeDict.getValue(type);
     }
 
     

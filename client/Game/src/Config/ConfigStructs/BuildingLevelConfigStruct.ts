@@ -18,16 +18,30 @@ export default class BuildingLevelConfigStruct extends BaseConfig
 	zh_cn_name : string;
 	type : number;
 	level : number;
+	breCost : DTItemNum[];
+	breLevel : boolean;
+	breIndex : number;
+	seatNum : number;
+	breLevelMax : number;
+	prop_buildingCd : number;
 	cost : DTItemNum[];
-	level_req : number;
-	type_level : DTBuildingReq[];
-	block_req : number;
-	function_open : number[];
-	UI : boolean;
-	effect_id : number[];
-	zh_cn_effect_tips : string;
-	zh_cn_level_tips : string;
-	building_small : number;
+	levelReq : number;
+	typeLevel : DTBuildingReq[];
+	produceItemId : number;
+	produceItemType : number;
+	prop_produceNum : number;
+	prop_produceCd : number;
+	prop_storyProbabilitySe : number;
+	prop_storyProbabilityCl : number;
+	prop_storyNum : number;
+	prop_criticalHitChance : number;
+	prop_critEffect : number;
+	prop_reserve : number;
+	menuId : number[];
+	ui : boolean;
+	levelRegionId : number[];
+	breakRegionId : number[];
+	regionLevel : string;
 
 
 
@@ -45,30 +59,6 @@ export default class BuildingLevelConfigStruct extends BaseConfig
 			return value;
 		}
 		return this.zh_cn_name
-	}
-	get effect_tips():string
-	{
-		if(!Game.lang.isUseLang)
-			return this.zh_cn_effect_tips
-
-		let value = <string> Game.lang.getValue("buildingLevel", this.id, "effect_tips");
-		if (!isNullOrEmpty(value))
-		{
-			return value;
-		}
-		return this.zh_cn_effect_tips
-	}
-	get level_tips():string
-	{
-		if(!Game.lang.isUseLang)
-			return this.zh_cn_level_tips
-
-		let value = <string> Game.lang.getValue("buildingLevel", this.id, "level_tips");
-		if (!isNullOrEmpty(value))
-		{
-			return value;
-		}
-		return this.zh_cn_level_tips
 	}
 
 }

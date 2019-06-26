@@ -4,6 +4,7 @@
 /////////////////////////////////////
 
 import BaseConfig from "../BaseConfig";
+import DTSkillTiggerCondition from "../ConfigExtends/DTSkillTiggerCondition";
 
 
 
@@ -12,8 +13,12 @@ export default class SkillEffectConfigStruct extends BaseConfig
 
 
 	id : number;
-	effect : number;
-	tips : string;
+	type : number;
+	target : number;
+	targetProp : number;
+	value : number;
+	tiggerRate : number;
+	tiggerCondition : DTSkillTiggerCondition[];
 
 
 

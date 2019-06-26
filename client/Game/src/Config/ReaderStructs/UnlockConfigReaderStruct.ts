@@ -36,7 +36,6 @@ export default class UnlockConfigReaderStruct extends CsvConfigRender<    Unlock
 		config.continue = csvGetInt(csv,  this.GetHeadIndex(  "continue"  )   );
 		config.is_new = csvGetBoolean(csv,  this.GetHeadIndex(  "is_new"  )   );
 		config.zh_cn_touch_txt = csvGetString(csv,  this.GetHeadIndex(  "zh_cn_touch_txt"  )   );
-		config.tips = csvGetString(csv,  this.GetHeadIndex(  "tips"  )   );
 
 		
 

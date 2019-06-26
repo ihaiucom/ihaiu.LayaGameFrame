@@ -13,6 +13,7 @@ import SystemAlertMessage from "../../Extends/GameLaunch/SystemAlertMessage";
 import SystemConfirmMessage from "../../Extends/GameLaunch/SystemConfirmMessage";
 import SystemToastMessage from "../../Extends/GameLaunch/SystemToastMessage";
 import WindowModalWaiting from "../../Extends/GameLaunch/WindowModalWaiting";
+import GMButton from "../../Extends/GameLaunch/GMButton";
 
 export default class GameLaunchBinder
 {
@@ -28,5 +29,6 @@ export default class GameLaunchBinder
 		bind(SystemConfirmMessage.URL, SystemConfirmMessage);
 		bind(SystemToastMessage.URL, SystemToastMessage);
 		bind(WindowModalWaiting.URL, WindowModalWaiting);
+		bind(GMButton.URL, GMButton);
 	}
 }

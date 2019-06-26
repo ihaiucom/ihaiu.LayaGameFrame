@@ -8,8 +8,8 @@ import SystemAlertMessage from "../../Extends/GameLaunch/SystemAlertMessage";
 
 export default class SystemAlertMessageStruct extends fairygui.GComponent
 {
-	public m_content : fairygui.GRichTextField;
-	public m_title : fairygui.GRichTextField;
+	public m_content : fairygui.GTextField;
+	public m_title : fairygui.GTextField;
 	public m_dialog : DialogCloseWindow;
 	public m_okBtn : fairygui.GButton;
 
@@ -36,8 +36,8 @@ export default class SystemAlertMessageStruct extends fairygui.GComponent
 		
 
 		
-		this.m_content = <fairygui.GRichTextField><any>(this.getChild("content"));
-		this.m_title = <fairygui.GRichTextField><any>(this.getChild("title"));
+		this.m_content = <fairygui.GTextField><any>(this.getChild("content"));
+		this.m_title = <fairygui.GTextField><any>(this.getChild("title"));
 		this.m_dialog = <DialogCloseWindow><any>(this.getChild("dialog"));
 		this.m_okBtn = <fairygui.GButton><any>(this.getChild("okBtn"));
 		

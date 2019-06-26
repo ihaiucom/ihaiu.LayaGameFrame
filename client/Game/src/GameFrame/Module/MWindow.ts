@@ -15,12 +15,21 @@ import Point = laya.maths.Point;
 import Handler = laya.utils.Handler;
 import AvatarConfig from "../../Config/ConfigExtends/AvatarConfig";
 import MenuConfig from "../../Config/ConfigExtends/MenuConfig";
+import FguiHelper from "../../Libs/Helpers/FguiHelper";
 
 //======================
 // 模块窗口
 //----------------------
 export default abstract class MWindow extends FWindow
 {
+    /** 异步检查该模块是否可以打开 */
+    static async AsyncEnableOpen(): Promise<boolean>
+    {
+        return Promise.resolve(true);
+    }
+
+
+
     // 消息--显示完成
     sShowComplete: Signal = new Signal();
     // 消息--隐藏完成
@@ -39,8 +48,6 @@ export default abstract class MWindow extends FWindow
     // 是否已经销毁
     isDestoryed = false;
 
-    // 窗口容器
-    windowContainer: fairygui.GRoot;
 
     // 是否可以出现显示过度动画
     protected enableShowAnimation: boolean = true;
@@ -199,6 +206,24 @@ export default abstract class MWindow extends FWindow
         this.callChildOnWindowInited(this.contentPane);
         this.menuIsCreated = true;
         this.onMenuOpen(this.menuParameter);
+    }
+
+    // 设置关闭按钮 关闭当前窗口
+    setCloseBtnEvent()
+    {
+        if(this.contentPane && this.contentPane["m_frame"] && this.contentPane["m_frame"].getChild("closeBtn"))
+        {
+            this.contentPane["m_frame"].getChild("closeBtn").onClick(this, this.menuClose);
+        }
+    }
+
+    // 设置返回按钮 返回之前的窗口
+    setBackBtnEvent()
+    {
+        if(this.contentPane && this.contentPane["m_frame"] && this.contentPane["m_frame"].getChild("closeBtn"))
+        {
+            this.contentPane["m_frame"].getChild("closeBtn").onClick(this, this.menuBack);
+        }
     }
 
     // 菜单打开事件，传递参数
@@ -417,7 +442,7 @@ export default abstract class MWindow extends FWindow
 
     protected onShown(): void
     {
-        this.panel.setScale(1, 1);
+        // this.panel.setScale(1, 1);
         this.enableHideSignal = true;
         this.onShowComplete();
 
@@ -698,6 +723,40 @@ export default abstract class MWindow extends FWindow
         return list;
     }
 
+    // 注册控制器Tab
+    registerControllerTab(tabCtrl: fairygui.Controller, contentPane: fairygui.GComponent = null)
+    {
+        if(!contentPane)
+            contentPane = this.contentPane;
+
+        let count = contentPane.numChildren;
+        for(let i = 0; i < count; i ++)
+        {
+            let obj:fairygui.GObject = contentPane.getChildAt(i);
+            if(obj._gears && obj._gears.length > 0)
+            {
+                for(let gear of obj._gears)
+                {
+                    if(gear && gear.controller == tabCtrl)
+                    {
+                        if(gear instanceof fairygui.gears.GearDisplay)
+                        {
+                            if(gear.pages && gear.pages.length > 0)
+                            {
+                                for(let pageIndexStr of gear.pages)
+                                {
+                                    let tabIndex = toInt(pageIndexStr);
+                                    this.registerTab(tabIndex, obj);
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     // 注册Tab内容
     registerTab(tabIndex: number | string, displayObject: fairygui.GObject)
     {
@@ -816,18 +875,7 @@ export default abstract class MWindow extends FWindow
     //-------------------------
     private setChildWindow(com: fairygui.GComponent)
     {
-        if (com)
-        {
-            com["moduleWindow"] = this;
-
-            if (com._children)
-            {
-                for (let i = 0; i < com._children.length; i++)
-                {
-                    this.setChildWindow(com._children[i]);
-                }
-            }
-        }
+        FguiHelper.setChildWindow(com, this);
     }
 
     //=========================
@@ -835,23 +883,7 @@ export default abstract class MWindow extends FWindow
     //-------------------------
     private callChildOnWindowInited(com: fairygui.GComponent)
     {
-        if (com)
-        {
-
-            let fun: Function = com["onWindowInited"];
-            if (fun)
-            {
-                fun.apply(com);
-            }
-
-            if (com._children)
-            {
-                for (let i = 0; i < com._children.length; i++)
-                {
-                    this.callChildOnWindowInited(com._children[i]);
-                }
-            }
-        }
+        FguiHelper.callChildOnWindowInited(com);
     }
 
 
@@ -860,37 +892,7 @@ export default abstract class MWindow extends FWindow
     //-------------------------
     private callChildOnWindowDestory(com: fairygui.GObject)
     {
-
-        let container;
-        if (com instanceof fairygui.GObject)
-        {
-            container = com.displayObject;
-        }
-
-
-        if (com)
-        {
-
-            // if (getClassName(com) == "GuideClickHand")
-            //     console.log(com);
-
-
-            let fun: Function = com["onWindowDestory"];
-            if (fun)
-            {
-                if (fun.apply(com))
-                {
-                    return;
-                }
-            }
-
-            for (let i = container.numChildren - 1; i >= 0; i--)
-            {
-                let display = <laya.display.Sprite>container.getChildAt(i);
-                if (display["$owner"])
-                    this.callChildOnWindowDestory(display["$owner"]);
-            }
-        }
+        FguiHelper.callChildOnWindowDestory(com);
     }
 
 
@@ -901,38 +903,7 @@ export default abstract class MWindow extends FWindow
     //-------------------------
     private callChildOnWindowShow(com: fairygui.GComponent)
     {
-        if (com)
-        {
-            let enbaleCall: boolean = true;
-            let fun: Function = com["onWindowShow"];
-            if (fun)
-            {
-                if (com["whenSelfVisiableCallWindowShowAndHide"] !== undefined)
-                {
-                    let whenSelfVisiableCallWindowShowAndHide: boolean = com["whenSelfVisiableCallWindowShowAndHide"];
-                    if (whenSelfVisiableCallWindowShowAndHide)
-                    {
-                        if (com.visible == false)
-                        {
-                            enbaleCall = false;
-                        }
-                    }
-                }
-
-                if (enbaleCall)
-                {
-                    fun.apply(com);
-                }
-            }
-
-            if (enbaleCall && com._children)
-            {
-                for (let i = 0; i < com._children.length; i++)
-                {
-                    this.callChildOnWindowShow(com._children[i]);
-                }
-            }
-        }
+        FguiHelper.callChildOnWindowShow(com);
     }
 
     //=========================
@@ -940,38 +911,7 @@ export default abstract class MWindow extends FWindow
     //-------------------------
     private callChildOnWindowHide(com: fairygui.GComponent)
     {
-        if (com)
-        {
-            let enbaleCall: boolean = true;
-            let fun: Function = com["onWindowHide"];
-            if (fun)
-            {
-                if (com["whenSelfVisiableCallWindowShowAndHide"] !== undefined)
-                {
-                    let whenSelfVisiableCallWindowShowAndHide: boolean = com["whenSelfVisiableCallWindowShowAndHide"];
-                    if (whenSelfVisiableCallWindowShowAndHide)
-                    {
-                        if (com.visible == false)
-                        {
-                            enbaleCall = false;
-                        }
-                    }
-                }
-
-                if (enbaleCall)
-                {
-                    fun.apply(com);
-                }
-            }
-
-            if (enbaleCall && com._children)
-            {
-                for (let i = 0; i < com._children.length; i++)
-                {
-                    this.callChildOnWindowHide(com._children[i]);
-                }
-            }
-        }
+        FguiHelper.callChildOnWindowHide(com);
     }
 
 
@@ -980,24 +920,7 @@ export default abstract class MWindow extends FWindow
     //-------------------------
     private callChildOnTabShow(com: fairygui.GObject)
     {
-        if (com)
-        {
-
-            let fun: Function = com["onTabShow"];
-            if (fun)
-            {
-                fun.apply(com);
-            }
-
-
-            if (com["_children"])
-            {
-                for (let i = 0; i < com["_children"]["length"]; i++)
-                {
-                    this.callChildOnTabShow(com["_children"][i]);
-                }
-            }
-        }
+        FguiHelper.callChildOnTabShow(com);
     }
 
 
@@ -1006,23 +929,7 @@ export default abstract class MWindow extends FWindow
     //-------------------------
     private callChildOnTabHide(com: fairygui.GObject)
     {
-        if (com)
-        {
-
-            let fun: Function = com["onTabHide"];
-            if (fun)
-            {
-                fun.apply(com);
-            }
-
-            if (com["_children"])
-            {
-                for (let i = 0; i < com["_children"]["length"]; i++)
-                {
-                    this.callChildOnTabHide(com["_children"][i]);
-                }
-            }
-        }
+        FguiHelper.callChildOnTabHide(com);
     }
 
 

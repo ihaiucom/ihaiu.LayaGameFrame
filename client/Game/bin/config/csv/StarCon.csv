@@ -1,9 +1,0 @@
-﻿int	int	int	int	int	int
-id	剧本星级系数	属性值系数	拍摄随机次数	媒体评价系数	观众口碑系数
-id	story_star_con	att_con	count	evaluate_protect	opinions_protect
-1301	100	15	30	150	600
-1302	150	15	35	155	625
-1303	200	12	40	160	650
-1304	300	12	45	165	675
-1305	400	10	50	170	700
-1306	500	10	60	175	725

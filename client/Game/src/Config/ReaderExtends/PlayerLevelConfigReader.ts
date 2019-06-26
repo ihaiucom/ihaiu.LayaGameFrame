@@ -8,4 +8,16 @@ import PlayerLevelConfigReaderStruct from "../ReaderStructs/PlayerLevelConfigRea
 
 export default class PlayerLevelConfigReader extends PlayerLevelConfigReaderStruct
 {
+    maxLevel: number = 1;
+    
+    onGameLoadedAll()
+    {
+        super.onGameLoadedAll();
+        let list = this.configs.getValues();
+        
+        for(let config of list)
+        {
+            this.maxLevel = Math.max(this.maxLevel, config.id);
+        }
+    }
 }

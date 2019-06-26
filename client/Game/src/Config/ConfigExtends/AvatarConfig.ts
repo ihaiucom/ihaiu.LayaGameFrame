@@ -33,44 +33,67 @@ export default class AvatarConfig extends AvatarConfigStruct
 
 
 
-    get modelPath(): string
+    // 模型_皮肤_前
+    
+    private _modelSkinUrlF: string;
+    get modelSkinUrlF(): string
     {
-        let arr = this.model_skin.split("/");
-        return this.model_skin.replace("Unit/", "") + "/" + arr[arr.length - 1];
-    }
-
-    // 模型_皮肤
-    private _modelSkinUrl: string;
-    get modelSkinUrl(): string
-    {
-        if (!this.model_skin)
-        {
+        if(isNullOrEmpty(this.modelBones) || isNullOrEmpty(this.modelSkin))
             return null;
-        }
 
-        if (!this._modelSkinUrl)
+        if (!this._modelSkinUrlF)
         {
-            this._modelSkinUrl = Res.getSpinePngPath(this.model_skin);
+            this._modelSkinUrlF = Res.getSpinePngPathF(this.modelBones, this.modelSkin);
         }
-        return this._modelSkinUrl;
+        return this._modelSkinUrlF;
     }
-
-    // 模型_骨骼
-    private _modelBoneUrl: string;
-    get modelBoneUrl(): string
+    
+    // 模型_皮肤_背面
+    private _modelSkinUrlB: string;
+    get modelSkinUrlB(): string
     {
-        if (!this.model_bones)
-        {
+        if(isNullOrEmpty(this.modelBones) || isNullOrEmpty(this.modelSkin))
             return null;
-        }
 
-        if (!this._modelBoneUrl)
+        if (!this._modelSkinUrlB)
         {
-
-            this._modelBoneUrl = Res.getSpineSKPath(this.model_bones);
+            this._modelSkinUrlB = Res.getSpinePngPathB(this.modelBones, this.modelSkin);
         }
-        return this._modelBoneUrl;
+        return this._modelSkinUrlB;
     }
+
+
+    // 模型_骨骼_前
+    private _modelBoneUrlF: string;
+    get modelBoneUrlF(): string
+    {
+        if(isNullOrEmpty(this.modelBones) || isNullOrEmpty(this.modelSkin))
+            return null;
+        
+        if(!this._modelBoneUrlF)
+        {
+            this._modelBoneUrlF = Res.getSpineSKPathF(this.modelBones, this.modelSkin);
+        }
+        return this._modelBoneUrlF;
+    }
+
+    
+    // 模型_骨骼_背面
+    private _modelBoneUrlB: string;
+    get modelBoneUrlB(): string
+    {
+        if(isNullOrEmpty(this.modelBones) || isNullOrEmpty(this.modelSkin))
+            return null;
+        
+        if(!this._modelBoneUrlB)
+        {
+            this._modelBoneUrlB = Res.getSpineSKPathB(this.modelBones, this.modelSkin);
+        }
+        return this._modelBoneUrlB;
+    }
+
+
+
 
 
 
@@ -78,14 +101,14 @@ export default class AvatarConfig extends AvatarConfigStruct
     private _picUrl: string;
     get picUrl(): string
     {
-        if (!this.bg_pic)
+        if (!this.bgPic)
         {
             return null;
         }
 
         if (!this._picUrl)
         {
-            this._picUrl = Res.getSpritePath(this.bg_pic);
+            this._picUrl = Res.getSpritePath(this.bgPic);
         }
         return this._picUrl;
     }
@@ -94,44 +117,76 @@ export default class AvatarConfig extends AvatarConfigStruct
     /* ---------------------------------------  我是漂亮的分割线  --------------------------------------- */
 
     // 模型_皮肤
-    private _modelSkinAssetItem: AssetItemInfo;
-    get modelSkinAssetItem(): AssetItemInfo
+    private _modelSkinAssetItemF: AssetItemInfo;
+    get modelSkinAssetItemF(): AssetItemInfo
     {
-        if (isNullOrEmpty(this.model_skin))
+        if (!this.modelSkinUrlF)
         {
             return null;
         }
 
-        if (!this._modelSkinAssetItem)
+        if (!this._modelSkinAssetItemF)
         {
-            this._modelSkinAssetItem = { url: this.modelSkinUrl, type: AssetItemType.Image };
+            this._modelSkinAssetItemF = { url: this.modelSkinUrlF, type: AssetItemType.Image };
         }
 
-        return this._modelSkinAssetItem;
+        return this._modelSkinAssetItemF;
+    }
+    
+    private _modelSkinAssetItemB: AssetItemInfo;
+    get modelSkinAssetItemB(): AssetItemInfo
+    {
+        if (!this.modelSkinUrlB)
+        {
+            return null;
+        }
+
+        if (!this._modelSkinAssetItemB)
+        {
+            this._modelSkinAssetItemB = { url: this.modelSkinUrlB, type: AssetItemType.Image };
+        }
+
+        return this._modelSkinAssetItemB;
     }
 
     // 模型_骨骼
-    private _modelBoneAssetItem: AssetItemInfo;
-    get modelBoneAssetItem(): AssetItemInfo
+    private _modelBoneAssetItemF: AssetItemInfo;
+    get modelBoneAssetItemF(): AssetItemInfo
     {
-        if (isNullOrEmpty(this.model_bones))
+        if (!this.modelBoneUrlF)
         {
             return null;
         }
 
-        if (!this._modelBoneAssetItem)
+        if (!this._modelBoneAssetItemF)
         {
-            this._modelBoneAssetItem = { url: this.modelBoneUrl, type: AssetItemType.Buffer };
+            this._modelBoneAssetItemF = { url: this.modelBoneUrlF, type: AssetItemType.Buffer };
         }
 
-        return this._modelBoneAssetItem;
+        return this._modelBoneAssetItemF;
+    }
+    
+    private _modelBoneAssetItemB: AssetItemInfo;
+    get modelBoneAssetItemB(): AssetItemInfo
+    {
+        if (!this.modelBoneUrlB)
+        {
+            return null;
+        }
+
+        if (!this._modelBoneAssetItemB)
+        {
+            this._modelBoneAssetItemB = { url: this.modelBoneUrlB, type: AssetItemType.Buffer };
+        }
+
+        return this._modelBoneAssetItemB;
     }
 
     // 场景_图片
     private _picAssetItem: AssetItemInfo;
     get picAssetItem(): AssetItemInfo
     {
-        if (isNullOrEmpty(this.bg_pic))
+        if (isNullOrEmpty(this.bgPic))
         {
             return null;
         }
@@ -185,23 +240,46 @@ export default class AvatarConfig extends AvatarConfigStruct
     }
 
     // 半身像
+    private _halfIconUrl: string;
+    get halfIconUrl(): string
+    {
+        if (!this._halfIconUrl)
+        {
+            this._halfIconUrl = "res/fspriteassets/" + this.halfIcon + ".png";
+        }
+        return this._halfIconUrl;
+    }
+    //全身像
     private _bodyIconUrl: string;
     get bodyIconUrl(): string
     {
         if (!this._bodyIconUrl)
         {
-            // let packageName = this.getPackagenameByUrl(this.body_icon);
+            // let packageName = this.getPackagenameByUrl(this.bodyIcon);
             // if (packageName == "ActorBodyIcon")
             {
-                this._bodyIconUrl = "res/fspriteassets/" + this.body_icon + ".png";
+                this._bodyIconUrl = "res/fspriteassets/" + this.bodyIcon + ".png";
             }
             // else
             // {
-            // 	this._bodyIconUrl = "ui://" + this.body_icon;
+            // 	this._bodyIconUrl = "ui://" + this.bodyIcon;
             // }
         }
         return this._bodyIconUrl;
     }
+
+      //全身像
+      private _diamondIconUrl: string = null;
+      get diamondIconUrl(): string
+      {
+          if (!this._diamondIconUrl)
+          {
+              {
+                  this._diamondIconUrl = "res/fspriteassets/" + this.diamondHeadIcon + ".png";
+              }
+          }
+          return this._diamondIconUrl;
+      }
 
     // 碎片图标
     private _pieceIconUrl: string;
@@ -209,9 +287,9 @@ export default class AvatarConfig extends AvatarConfigStruct
     {
         if (!this._pieceIconUrl)
         {
-            this._pieceIconUrl = "res/fspriteassets/" + this.piece_icon + ".png";
+            this._pieceIconUrl = "res/fspriteassets/" + this.pieceIcon + ".png";
 
-            // this._pieceIconUrl = "ui://" + this.piece_icon;
+            // this._pieceIconUrl = "ui://" + this.pieceIcon;
         }
         return this._pieceIconUrl;
     }
@@ -241,14 +319,14 @@ export default class AvatarConfig extends AvatarConfigStruct
     private _bodyIconPackageName: string;
     private get bodyIconPackageName(): string
     {
-        if (isNullOrEmpty(this.body_icon))
+        if (isNullOrEmpty(this.bodyIcon))
         {
             return null;
         }
 
         if (!this._bodyIconPackageName)
         {
-            this._bodyIconPackageName = this.body_icon.split("/")[0];
+            this._bodyIconPackageName = this.bodyIcon.split("/")[0];
         }
 
         return this._bodyIconPackageName;
@@ -259,14 +337,14 @@ export default class AvatarConfig extends AvatarConfigStruct
     private _pieceIconPackageName: string;
     private get pieceIconPackageName(): string
     {
-        if (isNullOrEmpty(this.piece_icon))
+        if (isNullOrEmpty(this.pieceIcon))
         {
             return null;
         }
 
         if (!this._pieceIconPackageName)
         {
-            this._pieceIconPackageName = this.piece_icon.split("/")[0];
+            this._pieceIconPackageName = this.pieceIcon.split("/")[0];
         }
 
         return this._pieceIconPackageName;
@@ -298,7 +376,7 @@ export default class AvatarConfig extends AvatarConfigStruct
     private _bodyIconAssetItem: AssetItemInfo;
     get bodyIconAssetItem(): AssetItemInfo
     {
-        if (isNullOrEmpty(this.body_icon))
+        if (isNullOrEmpty(this.bodyIcon))
         {
             return null;
         }
@@ -316,7 +394,7 @@ export default class AvatarConfig extends AvatarConfigStruct
     private _pieceIconAssetItem: AssetItemInfo;
     get pieceIconAssetItem(): AssetItemInfo
     {
-        if (isNullOrEmpty(this.piece_icon))
+        if (isNullOrEmpty(this.pieceIcon))
         {
             return null;
         }
@@ -351,12 +429,15 @@ export default class AvatarConfig extends AvatarConfigStruct
                 this._assetList.push(this.pieceIconAssetItem);
 
 
-            if (this.modelSkinAssetItem)
-                this._assetList.push(this.modelSkinAssetItem);
+            // if (this.modelBoneAssetItemF)
+            // {
+            //     this._assetList.push(this.modelBoneAssetItemF);
+            //     this._assetList.push(this.modelSkinAssetItemF);
+            //     this._assetList.push(this.modelBoneAssetItemB);
+            //     this._assetList.push(this.modelSkinAssetItemB);
+            // }
 
 
-            if (this.modelBoneAssetItem)
-                this._assetList.push(this.modelBoneAssetItem);
 
 
             if (this.picAssetItem)

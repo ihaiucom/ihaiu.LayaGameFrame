@@ -1,4 +1,0 @@
-﻿int	string	string	int	int	DTItemNum[]
-id	名称	规则描述	目标分数	目标天数	奖励
-id	zh_cn_name	zh_cn_des	target_score	target_days	reward
-1	周积分活动	活动期间内只要每日的任务积分达到{0}，就可领取到特殊奖励！	100	7	1:100;2:100

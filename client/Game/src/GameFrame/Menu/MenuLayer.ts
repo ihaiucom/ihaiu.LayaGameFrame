@@ -89,16 +89,16 @@ export default class MenuLayer
         MenuLayer.root = fairygui.GRoot.inst;
 
 
-        MenuLayer.home = MenuLayer.createLayer("MenuLayer-home");
-        MenuLayer.homeTop = MenuLayer.createLayer("MenuLayer-homeTop");
-        MenuLayer.module = MenuLayer.createLayer("MenuLayer-module");
-        MenuLayer.moduleTop = MenuLayer.createLayer("MenuLayer-moduleTop");
-        MenuLayer.mainUI = MenuLayer.createLayer("MenuLayer-mainUI");
-        MenuLayer.dialog = MenuLayer.createLayer("MenuLayer-dialog");
-        MenuLayer.guide = MenuLayer.createLayer("MenuLayer-guide");
-        MenuLayer.loader = MenuLayer.createLayer("MenuLayer-loader");
-        MenuLayer.gm = MenuLayer.createLayer("MenuLayer-gm");
-        MenuLayer.floatMsg = MenuLayer.createLayer("MenuLayer-floatMsg");
+        MenuLayer.home = MenuLayer.createLayer(MenuLayerType.Home, "MenuLayer-home");
+        MenuLayer.homeTop = MenuLayer.createLayer(MenuLayerType.HomeTop, "MenuLayer-homeTop");
+        MenuLayer.module = MenuLayer.createLayer(MenuLayerType.Module, "MenuLayer-module");
+        MenuLayer.moduleTop = MenuLayer.createLayer(MenuLayerType.ModuleTop, "MenuLayer-moduleTop");
+        MenuLayer.mainUI = MenuLayer.createLayer(MenuLayerType.MainUI, "MenuLayer-mainUI");
+        MenuLayer.dialog = MenuLayer.createLayer(MenuLayerType.Dialog, "MenuLayer-dialog");
+        MenuLayer.guide = MenuLayer.createLayer(MenuLayerType.Guide, "MenuLayer-guide");
+        MenuLayer.loader = MenuLayer.createLayer(MenuLayerType.Loader, "MenuLayer-loader");
+        MenuLayer.gm = MenuLayer.createLayer(MenuLayerType.GM, "MenuLayer-gm");
+        MenuLayer.floatMsg = MenuLayer.createLayer(MenuLayerType.FloatMsg, "MenuLayer-floatMsg");
 
         MenuLayer.dict.add(MenuLayerType.Home, MenuLayer.home);
         MenuLayer.dict.add(MenuLayerType.HomeTop, MenuLayer.homeTop);
@@ -117,18 +117,54 @@ export default class MenuLayer
         return MenuLayer.dict.getValue(layerType);
     }
 
-    private static createLayer(name?: string): fairygui.GRoot
+    private static createLayer(menuLayer:MenuLayerType ,  name?: string): fairygui.GRoot
     {
         let root = MenuLayer.root;
         let v = new fairygui.GRoot();
+        v["menuLayer"] = menuLayer;
         if (name)
         {
             v.name = name;
         }
-        v.setSize(root.width, root.height);
+
+        if(Game.browserSetting.isLiuHai)
+        {
+            switch(menuLayer)
+            {
+                case MenuLayerType.Loader:
+                    v.setSize(root.width, root.height);
+                    break;
+    
+                default:
+                    v.y = Game.screenSetting.liuHaiHeightTop;
+                    v.setSize(root.width, root.height - Game.screenSetting.screenHeightLiuHai);
+            }
+        }
+        else
+        {
+            v.setSize(root.width, root.height);
+        }
         root.addChild(v);
         return v;
     }
 
+    public static getLayerHeight(menuLayer:MenuLayer)
+    {
+        if(Game.browserSetting.isLiuHai)
+        {
+            switch(menuLayer)
+            {
+                case MenuLayer.loader:
+                    return  Game.screenSetting.screenHeight;
+    
+                default:
+                    return  Game.screenSetting.screenHeightLiuHai;
+                    
+            }
+        }
+        return  Game.screenSetting.screenHeight;
+    }
+
 
 }
+window["MenuLayer"] = MenuLayer;

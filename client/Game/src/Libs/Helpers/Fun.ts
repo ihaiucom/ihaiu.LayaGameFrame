@@ -29,6 +29,11 @@ function isNullOrEmpty(x: string | string[])
 	return x == null || x == undefined || x == "";
 }
 
+function isNaNOrEmpty(x: number)
+{
+	return isNaN(x) || x === undefined || x === null
+}
+
 // 获取类名
 function getClassName(obj: any): string
 {
@@ -84,6 +89,17 @@ function kbToStr(kb): string
 
 	let gb = mb / 1024;
 	return (Math.ceil(gb * 100) / 100) + "GB";
+}
+
+function arrayRemoveItem(arr: any[], item: any): boolean
+{
+	var i = arr.indexOf(item);
+	if(i != -1)
+	{
+		arr.splice(i, 1);
+		return true;
+	}
+	return false;
 }
 
 

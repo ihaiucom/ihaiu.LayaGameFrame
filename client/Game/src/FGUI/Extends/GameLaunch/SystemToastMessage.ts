@@ -23,6 +23,7 @@ export default class SystemToastMessage extends SystemToastMessageStruct
             this._onCompleteHandler.recover();
         }
         this._onCompleteHandler = onComplete;
+        // if(this.m_title.div) this.m_title.div.style.lineHeight = this.height;
         this.m_title.text = txt;
         Tween.clearAll(this);
         MenuLayer.floatMsg.addChild(this);

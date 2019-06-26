@@ -4,7 +4,6 @@
 /////////////////////////////////////
 
 import BaseConfig from "../BaseConfig";
-import DTItemNum from "../ConfigExtends/DTItemNum";
 import Game from "../../Game";
 
 
@@ -14,24 +13,21 @@ export default class MaintaskConfigStruct extends BaseConfig
 
 
 	id : number;
-	cn_name : string;
-	en_name : string;
-	trigger : number;
-	t_value : number;
+	zh_cn_name : string;
+	level : number;
+	next_id : number;
 	require : number;
 	r_value : number;
 	s_r_value : number;
-	goal : number;
-	cn_info : string;
-	en_info : string;
-	cn_cinfo : string;
-	en_cinfo : string;
-	cn_content : string;
-	en_content : string;
-	reward : DTItemNum[];
+	zh_cn_info : string;
+	reward : number;
 	pre_quest : number;
-	guide : boolean;
-	guide_id : number;
+	plot : boolean;
+	UI : number;
+	finger : boolean;
+	finger_postion : string;
+	halo : boolean;
+	halo_postion : string;
 
 
 
@@ -41,50 +37,26 @@ export default class MaintaskConfigStruct extends BaseConfig
 	get name():string
 	{
 		if(!Game.lang.isUseLang)
-			return this.cn_name
+			return this.zh_cn_name
 
 		let value = <string> Game.lang.getValue("maintask", this.id, "name");
 		if (!isNullOrEmpty(value))
 		{
 			return value;
 		}
-		return this.cn_name
+		return this.zh_cn_name
 	}
 	get info():string
 	{
 		if(!Game.lang.isUseLang)
-			return this.cn_info
+			return this.zh_cn_info
 
 		let value = <string> Game.lang.getValue("maintask", this.id, "info");
 		if (!isNullOrEmpty(value))
 		{
 			return value;
 		}
-		return this.cn_info
-	}
-	get cinfo():string
-	{
-		if(!Game.lang.isUseLang)
-			return this.cn_cinfo
-
-		let value = <string> Game.lang.getValue("maintask", this.id, "cinfo");
-		if (!isNullOrEmpty(value))
-		{
-			return value;
-		}
-		return this.cn_cinfo
-	}
-	get content():string
-	{
-		if(!Game.lang.isUseLang)
-			return this.cn_content
-
-		let value = <string> Game.lang.getValue("maintask", this.id, "content");
-		if (!isNullOrEmpty(value))
-		{
-			return value;
-		}
-		return this.cn_content
+		return this.zh_cn_info
 	}
 
 }

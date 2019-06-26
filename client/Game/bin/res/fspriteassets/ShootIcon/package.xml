@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="b4cjudy0" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="ojqt11" name="flag_type_action.png" path="/" exported="true"/>
+    <image id="ojqt12" name="flag_type_cartoon.png" path="/" exported="true"/>
+    <image id="ojqt13" name="flag_type_comedy.png" path="/" exported="true"/>
+    <image id="ojqt14" name="flag_type_dance.png" path="/" exported="true"/>
+    <image id="ojqt15" name="flag_type_drama.png" path="/" exported="true"/>
+    <image id="ojqt16" name="flag_type_horror.png" path="/" exported="true"/>
+    <image id="ojqt17" name="flag_type_romance.png" path="/" exported="true"/>
+    <image id="ojqt18" name="flag_type_spy.png" path="/" exported="true"/>
+    <image id="ojqt19" name="flag_type_wenhao.png" path="/" exported="true"/>
+    <image id="ojqt1a" name="icon_act.png" path="/" exported="true"/>
+    <image id="ojqt1b" name="icon_art.png" path="/" exported="true"/>
+    <image id="ojqt1c" name="icon_artist.png" path="/" exported="true"/>
+    <image id="ojqt1d" name="icon_as.png" path="/" exported="true"/>
+    <image id="ojqt1e" name="icon_drama.png" path="/" exported="true"/>
+    <image id="ojqt1f" name="icon_entertainment.png" path="/" exported="true"/>
+    <image id="ojqt1g" name="icon_ethic.png" path="/" exported="true"/>
+    <image id="ojqt1h" name="icon_eu.png" path="/" exported="true"/>
+    <image id="ojqt1i" name="icon_idol.png" path="/" exported="true"/>
+    <image id="ojqt1j" name="icon_man.png" path="/" exported="true"/>
+    <image id="ojqt1k" name="icon_na.png" path="/" exported="true"/>
+    <image id="ojqt1l" name="icon_sence.png" path="/" exported="true"/>
+    <image id="ojqt1m" name="icon_women.png" path="/" exported="true"/>
+    <image id="ojqt1n" name="icon_young.png" path="/" exported="true"/>
+    <image id="ojqt1o" name="bg_property_blue_shoot.png" path="/" exported="true"/>
+    <image id="ojqt1p" name="bg_property_grey_shoot.png" path="/" exported="true"/>
+    <image id="ojqt1q" name="bg_property_purple_shoot.png" path="/" exported="true"/>
+    <image id="ojqt1r" name="bg_property_yellow_shoot.png" path="/" exported="true"/>
+    <image id="l2j31s" name="img_nonehero_shoot.png" path="/" exported="true"/>
+    <image id="cyk91t" name="BruisedPeaches.png" path="/" exported="true"/>
+    <image id="cyk91u" name="FIS.png" path="/" exported="true"/>
+    <image id="cyk91v" name="PeopleReview.png" path="/" exported="true"/>
+    <image id="s55y1w" name="icon_star.png" path="/" exported="true"/>
+    <image id="yjhj1x" name="banner_australia.png" path="/" exported="true"/>
+    <image id="yjhj1y" name="banner_canada.png" path="/" exported="true"/>
+    <image id="yjhj1z" name="banner_england.png" path="/" exported="true"/>
+    <image id="yjhj20" name="banner_france.png" path="/" exported="true"/>
+    <image id="yjhj21" name="banner_usa.png" path="/" exported="true"/>
+    <image id="yjhj22" name="scene1_zouxiu.png" path="/" exported="true"/>
+    <image id="yjhj23" name="scene2_caifang.png" path="/" exported="true"/>
+    <image id="yjhj24" name="scene3_fabuhui.png" path="/" exported="true"/>
+    <image id="yjhj25" name="scene4_fangtan.png" path="/" exported="true"/>
+    <image id="yjhj26" name="scene5_yanchanghui.png" path="/" exported="true"/>
+    <image id="yjhj27" name="scene6_paishe.png" path="/" exported="true"/>
+    <image id="yjhj28" name="scene7_qianshouhui.png" path="/" exported="true"/>
+    <image id="yjhj29" name="scene8_zongyi.png" path="/" exported="true"/>
+  </resources>
+  <publish name="ShootIcon"/>
+</packageDescription>

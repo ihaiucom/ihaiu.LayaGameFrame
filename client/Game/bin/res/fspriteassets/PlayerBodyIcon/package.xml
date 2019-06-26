@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="tcq1rj6x" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="khnc1" name="npc2.png" path="/" exported="true"/>
+    <image id="mm6h2" name="Rocky.png" path="/" exported="true"/>
+    <image id="omjs3" name="npc1.png" path="/" exported="true"/>
+    <image id="l2j34" name="Scarlett.png" path="/" exported="true"/>
+    <image id="nieo5" name="zhuli.png" path="/" exported="true"/>
+    <image id="gkbt6" name="nanmishu.png" path="/" exported="true"/>
+    <image id="gkbt7" name="nvmishu.png" path="/" exported="true"/>
+  </resources>
+  <publish name="PlayerBodyIcon"/>
+</packageDescription>

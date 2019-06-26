@@ -4,7 +4,6 @@
 /////////////////////////////////////
 
 import BaseConfig from "../BaseConfig";
-import Game from "../../Game";
 
 
 
@@ -14,15 +13,14 @@ export default class ActivitiesConfigStruct extends BaseConfig
 
 	id : number;
 	type : number;
-	zh_cn_activities_name : string;
-	start_type : number;
-	level_req : number;
-	block_req : number;
+	name : string;
+	startType : number;
+	levelReq : number;
+	blockReq : number;
 	start : number;
 	duration : number;
 	icon : number;
-	icon_chosen : number;
-	zh_cn_activities_info : string;
+	iconChosen : number;
 	info : string;
 
 
@@ -30,29 +28,5 @@ export default class ActivitiesConfigStruct extends BaseConfig
 
 
 	
-	get activities_name():string
-	{
-		if(!Game.lang.isUseLang)
-			return this.zh_cn_activities_name
-
-		let value = <string> Game.lang.getValue("activities", this.id, "activities_name");
-		if (!isNullOrEmpty(value))
-		{
-			return value;
-		}
-		return this.zh_cn_activities_name
-	}
-	get activities_info():string
-	{
-		if(!Game.lang.isUseLang)
-			return this.zh_cn_activities_info
-
-		let value = <string> Game.lang.getValue("activities", this.id, "activities_info");
-		if (!isNullOrEmpty(value))
-		{
-			return value;
-		}
-		return this.zh_cn_activities_info
-	}
 
 }

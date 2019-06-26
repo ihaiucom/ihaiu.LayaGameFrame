@@ -1,0 +1,19 @@
+/////////////////////////////////////
+// ExportKey生成
+// http://blog.ihaiu.com
+/////////////////////////////////////
+
+export default class >:className:<
+{
+	// 0 KeyField
+	// 1 KeyValue
+	// 2 ID
+	// 3 ModuleName
+	// 4 Name
+
+	>:FOREACH fields:<
+	/** >:[2]:<  >:[3]:< --- >:[4]:< */
+	static >:[0]:< = >:[1]:<;
+
+	>:ENDFOREACH:<
+}

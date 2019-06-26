@@ -1,7 +1,0 @@
-﻿int	string	string	string	string	string	string	string	string	string
-id	对话气泡	目标标题	目标票房	限定时间文本	达成奖励	终极目标说明	确认按钮文本	目标票房	限定时间文本
-id	dialog	title	targettext	timetext	reward	final	button	target	time
-1001									
-1002									
-1003									
-1004									

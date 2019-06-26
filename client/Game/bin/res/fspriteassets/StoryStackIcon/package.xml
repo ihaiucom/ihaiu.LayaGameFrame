@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="lr0tqb6k" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="stc00" name="icon_achievement.png" path="/" exported="true"/>
+  </resources>
+  <publish name="StoryStackIcon"/>
+</packageDescription>

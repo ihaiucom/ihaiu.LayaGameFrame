@@ -1,0 +1,16 @@
+{
+  "enableoverwrites": [
+	  {
+  		"src":"../../arts/SpineWorkspace/ExportSK", 
+  		"dst":"//192.168.2.224/www/wp/plan_ZhangRuoAn/res/spine"
+  	},
+    {
+      "src":"../../arts/SpineWorkspace/ExportSKRes", 
+      "dst":"//192.168.2.224/www/wp/plan_ZhangRuoAn/res/spine"
+    }
+  
+  ],
+  "disableoverwrites": [
+  	
+  ]
+}

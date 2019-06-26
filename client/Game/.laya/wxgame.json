@@ -2,7 +2,7 @@
     "copyFilesFilter": [
         "../bin/**/*.*"
     ],
-    "openDataZone": true,
+    "openDataZone": false,
     "compressJson": false,
     "compressJsonFilter": [
         "$basePath/**/*.{json,atlas}"
@@ -19,7 +19,7 @@
     ],
     "compressJs": true,
     "compressJsFilter": [
-        "$basePath/**/*.js"
+        "$basePath/js/**/*.js"
     ],
     "compressJsNoteList": [
         ""
@@ -29,9 +29,15 @@
         "$basePath/**/*.*",
         "!$basePath/*.html",
         "!$basePath/{version.json,game.js,game.json,project.config.json,weapp-adapter.js,project.swan.json,swan-game-adapter.js,main.js,gameConfig.json}",
-        "!$basePath/layaforqq/**/*.*"
+        "!$basePath/layaforqq/**/*.*",
+        "!$basePath/**/*.js",
+        "!$basePath/res/fgui/*Launch*",
+        "!$basePath/res/sprite/Launch/**/*.*"
     ],
     "versionNoteList": [
+        "",
+        "",
+        "",
         "",
         "",
         "",
@@ -55,5 +61,5 @@
     "clearReleaseDir": true,
     "compile": false,
     "projectType": "ts",
-    "pubTime": 1551353303678
+    "pubTime": 1561380310993
 }

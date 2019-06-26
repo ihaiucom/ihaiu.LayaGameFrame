@@ -6,6 +6,7 @@
 import ItemConfigStruct from "../ConfigStructs/ItemConfigStruct";
 import AvatarConfig from "./AvatarConfig";
 import Game from "../../Game";
+import MenuConfig from "./MenuConfig";
 
 export default class ItemConfig extends ItemConfigStruct
 {
@@ -51,5 +52,36 @@ export default class ItemConfig extends ItemConfigStruct
             return star;
         }
         return 0;
+    }
+
+    private _getWayMenus: MenuConfig[];
+    /** 获取所有可以获取的菜单 */
+    get getWayMenus(): MenuConfig[]
+    {
+        if(!this._getWayMenus)
+        {
+            this._getWayMenus = [];
+            for(let menuId of this.get_way)
+            {
+                let menuConfig = Game.config.menu.getConfig(menuId);
+                if(menuConfig)
+                    this._getWayMenus.push(menuConfig);
+            }
+        }
+        return this._getWayMenus;
+    }
+
+    /** 获取已经开放的可以获取的菜单 */
+    getWayMenusForEnable(): MenuConfig[]
+    {
+        let list = [];
+        for(let menuConfig of this.getWayMenus)
+        {
+            if(menuConfig.isUnlock)
+            {
+                list.push(menuConfig);
+            }
+        }
+        return list;
     }
 }

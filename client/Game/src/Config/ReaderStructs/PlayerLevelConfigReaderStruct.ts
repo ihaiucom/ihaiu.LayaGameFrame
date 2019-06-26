@@ -5,6 +5,7 @@
 
 import CsvConfigRender from "../CsvConfigRender";
 import PlayerLevelConfig from "../ConfigExtends/PlayerLevelConfig";
+import DTFixItemNum from "../ConfigExtends/DTFixItemNum";
 import DTItemNum from "../ConfigExtends/DTItemNum";
 
 
@@ -19,9 +20,9 @@ export default class PlayerLevelConfigReaderStruct extends CsvConfigRender<    P
 
 
 		config.id = csvGetInt(csv,  this.GetHeadIndex(  "id"  )   );
-		config.fans = csvGetInt(csv,  this.GetHeadIndex(  "fans"  )   );
+		config.exp = csvGetInt(csv,  this.GetHeadIndex(  "exp"  )   );
+		config.reward =  DTFixItemNum.parseArray(       csvGetString(csv,  this.GetHeadIndex(  "reward"  )   )   );
 		config.story =  DTItemNum.parse(       csvGetString(csv,  this.GetHeadIndex(  "story"  )   )   );
-		config.reward =  DTItemNum.parseArray(       csvGetString(csv,  this.GetHeadIndex(  "reward"  )   )   );
 		config.order_qua =  toIntArray(       csvGetString(csv,  this.GetHeadIndex(  "order_qua"  )   )   );
 		config.order_num = csvGetInt(csv,  this.GetHeadIndex(  "order_num"  )   );
 		config.train_max = csvGetInt(csv,  this.GetHeadIndex(  "train_max"  )   );

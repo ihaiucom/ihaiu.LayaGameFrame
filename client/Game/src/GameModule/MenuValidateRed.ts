@@ -31,7 +31,7 @@ export default class MenuValidateRed extends MenuValidate
 		// switch (menuId)
 		// {
 		// 	// 艺人
-		// 	case MenuId.ArtistList:
+		// 	case MenuId.ActorList:
 		// 		return Game.moduleModel.actor.isCanNoseActor;
 		// 	// 拍摄
 		// 	case MenuId.War:

@@ -2,7 +2,7 @@
   "enableoverwrites": [
   	{
   		"src":"../../gamepf_art/Animation/Sk", 
-  		"dst":"//172.16.50.177/GamePF/plan_WangXueJun/res/spine"
+  		"dst":"//192.168.2.224/www/wp/plan_WangXueJun/res/spine"
   	},
   
   ],

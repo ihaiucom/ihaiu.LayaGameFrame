@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="tczmtpgy" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="ojqt1e" name="icon_bill.png" path="/" exported="true"/>
+    <image id="ojqt1f" name="icon_coin.png" path="/" exported="true"/>
+    <image id="ojqt1g" name="icon_diamond.png" path="/" exported="true"/>
+    <image id="m3871h" name="icon_trophy.png" path="/" exported="true"/>
+    <image id="w1bq1i" name="icon_bishou.png" path="/" exported="true"/>
+    <image id="w1bq1j" name="icon_changpianji.png" path="/" exported="true"/>
+    <image id="w1bq1k" name="icon_diannao.png" path="/" exported="true"/>
+    <image id="w1bq1l" name="icon_diaoxiang.png" path="/" exported="true"/>
+    <image id="w1bq1m" name="icon_duijiangji.png" path="/" exported="true"/>
+    <image id="w1bq1n" name="icon_dunpai.png" path="/" exported="true"/>
+    <image id="w1bq1o" name="icon_fazhang.png" path="/" exported="true"/>
+    <image id="w1bq1p" name="icon_feichuan.png" path="/" exported="true"/>
+    <image id="w1bq1q" name="icon_gaimingka.png" path="/" exported="true"/>
+    <image id="w1bq1s" name="icon_gangcai.png" path="/" exported="true"/>
+    <image id="w1bq1t" name="icon_gangkui.png" path="/" exported="true"/>
+    <image id="w1bq1u" name="icon_gaogenxie.png" path="/" exported="true"/>
+    <image id="w1bq1v" name="icon_gonggao.png" path="/" exported="true"/>
+    <image id="w1bq1w" name="icon_hongyaoping.png" path="/" exported="true"/>
+    <image id="w1bq1x" name="icon_huaban.png" path="/" exported="true"/>
+    <image id="w1bq1z" name="icon_kuanyanmao.png" path="/" exported="true"/>
+    <image id="w1bq20" name="icon_lihe1.png" path="/" exported="true"/>
+    <image id="w1bq21" name="icon_lihe2.png" path="/" exported="true"/>
+    <image id="w1bq22" name="icon_meiriqiandao.png" path="/" exported="true"/>
+    <image id="w1bq23" name="icon_mianju.png" path="/" exported="true"/>
+    <image id="w1bq24" name="icon_peiyangshouce.png" path="/" exported="true"/>
+    <image id="w1bq25" name="icon_praise.png" path="/" exported="true"/>
+    <image id="w1bq26" name="icon_qidai.png" path="/" exported="true"/>
+    <image id="w1bq27" name="icon_qiqiu.png" path="/" exported="true"/>
+    <image id="w1bq28" name="icon_qiriqiandao.png" path="/" exported="true"/>
+    <image id="w1bq29" name="icon_quantao.png" path="/" exported="true"/>
+    <image id="w1bq2a" name="icon_renqi.png" path="/" exported="true"/>
+    <image id="w1bq2b" name="icon_rijiben.png" path="/" exported="true"/>
+    <image id="w1bq2c" name="icon_shanzi.png" path="/" exported="true"/>
+    <image id="w1bq2d" name="icon_shoubiao.png" path="/" exported="true"/>
+    <image id="w1bq2e" name="icon_shouji.png" path="/" exported="true"/>
+    <image id="w1bq2f" name="icon_shoutao.png" path="/" exported="true"/>
+    <image id="w1bq2g" name="icon_shuini.png" path="/" exported="true"/>
+    <image id="w1bq2i" name="icon_tuliao.png" path="/" exported="true"/>
+    <image id="w1bq2k" name="icon_wanou.png" path="/" exported="true"/>
+    <image id="w1bq2l" name="icon_xiaochouxie.png" path="/" exported="true"/>
+    <image id="w1bq2m" name="icon_xiaotiqin.png" path="/" exported="true"/>
+    <image id="w1bq2n" name="icon_xiezi.png" path="/" exported="true"/>
+    <image id="w1bq2o" name="icon_xingtanjing.png" path="/" exported="true"/>
+    <image id="w1bq2p" name="icon_xuanchuance.png" path="/" exported="true"/>
+    <image id="w1bq2q" name="icon_xukezheng.png" path="/" exported="true"/>
+    <image id="w1bq2r" name="icon_yandou.png" path="/" exported="true"/>
+    <image id="w1bq2s" name="icon_yaoqinghan.png" path="/" exported="true"/>
+    <image id="w1bq2u" name="icon_zhongchengjiangzhang.png" path="/" exported="true"/>
+    <image id="w1bq2v" name="icon_zhuantou.png" path="/" exported="true"/>
+    <image id="uyxw2w" name="icon_yashemao.png" path="/" exported="true"/>
+    <image id="j5x92x" name="icon_study.png" path="/" exported="true"/>
+    <image id="mf7z2y" name="icon_order.png" path="/" exported="true"/>
+    <image id="yjhj2z" name="icon_diaosu.png" path="/" exported="true"/>
+    <image id="yjhj30" name="icon_lanseyaopin.png" path="/" exported="true"/>
+    <image id="yjhj31" name="icon_tonggaozheng.png" path="/" exported="true"/>
+  </resources>
+  <publish name="ItemIcon"/>
+</packageDescription>

@@ -19,7 +19,7 @@ export default class MenuConfigReaderStruct extends CsvConfigRender<    MenuConf
 
 		config.id = csvGetInt(csv,  this.GetHeadIndex(  "id"  )   );
 		config.zh_cn_name = csvGetString(csv,  this.GetHeadIndex(  "zh_cn_name"  )   );
-		config.icon = csvGetInt(csv,  this.GetHeadIndex(  "icon"  )   );
+		config.icon = csvGetString(csv,  this.GetHeadIndex(  "icon"  )   );
 		config.moduleName = csvGetString(csv,  this.GetHeadIndex(  "moduleName"  )   );
 		config.layer = csvGetInt(csv,  this.GetHeadIndex(  "layer"  )   );
 		config.closeOtherType = csvGetInt(csv,  this.GetHeadIndex(  "closeOtherType"  )   );

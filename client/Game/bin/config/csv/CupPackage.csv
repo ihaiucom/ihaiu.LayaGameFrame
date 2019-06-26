@@ -1,4 +1,0 @@
-﻿int	string	string	int[]	int	DTItemNum[]	int	string
-id	名称	描述	目标条件	目标数量	奖励	目标时间限制（秒）	海报
-id	zh_cn_name	zh_cn_des	target_type	target_num	reward	limit_time	image
-1	票房奖励	拍摄3部大卖佳片即可获得额外奖励！	3;4;5;6	3	14:5	86400	CupPackage

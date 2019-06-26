@@ -1,4 +1,0 @@
-﻿int	string	string
-id	名称	规则描述
-id	name	des
-1	周积分活动	活动期间内只要每日的任务积分达到{0}，就可领取到特殊奖励！

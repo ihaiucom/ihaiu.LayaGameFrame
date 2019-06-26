@@ -1,0 +1,12 @@
+{
+  "enableoverwrites": [
+  	{
+  		"src":"E:/zengfeng/GameWP/client/Game/bin", 
+  		"dst":"E:/wamp64/www/wp/develop"
+  	},
+  
+  ],
+  "disableoverwrites": [
+  	
+  ]
+}

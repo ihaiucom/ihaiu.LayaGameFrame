@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="h43gin6z" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="toebv" name="female1.png" path="/" exported="true"/>
+    <image id="toebz" name="female2.png" path="/" exported="true"/>
+    <image id="toeb10" name="female3.png" path="/" exported="true"/>
+    <image id="toeb11" name="female4.png" path="/" exported="true"/>
+    <image id="toeb12" name="female5.png" path="/" exported="true"/>
+    <image id="toeb13" name="female6.png" path="/" exported="true"/>
+    <image id="toeb14" name="female7.png" path="/" exported="true"/>
+    <image id="toeb17" name="male1.png" path="/" exported="true"/>
+    <image id="toeb1i" name="male2.png" path="/" exported="true"/>
+    <image id="toeb1j" name="male3.png" path="/" exported="true"/>
+    <image id="toeb1k" name="male4.png" path="/" exported="true"/>
+    <image id="toeb1l" name="male5.png" path="/" exported="true"/>
+    <image id="toeb1m" name="male6.png" path="/" exported="true"/>
+    <image id="toeb1n" name="male7.png" path="/" exported="true"/>
+  </resources>
+  <publish name="NPCHeadIcon"/>
+</packageDescription>

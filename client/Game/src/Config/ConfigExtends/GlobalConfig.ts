@@ -5,8 +5,8 @@
 
 import GlobalConfigStruct from "../ConfigStructs/GlobalConfigStruct";
 import Game from "../../Game";
-import DTlValue2 from "./DTlValue2";
-import DTlValue3 from "./DTlValue3";
+import DTValue2 from "./DTValue2";
+import DTValue3 from "./DTValue3";
 
 export default class GlobalConfig extends GlobalConfigStruct
 {
@@ -38,7 +38,7 @@ export default class GlobalConfig extends GlobalConfigStruct
     }
 
     // 获取二维数组
-    static getValue2(key: TKey): DTlValue2[]
+    static getValue2(key: TKey): DTValue2[]
     {
         let config = GlobalConfig.getConfig(key);
         if (config)
@@ -49,7 +49,7 @@ export default class GlobalConfig extends GlobalConfigStruct
     }
 
     // 获取三维数组
-    static getValue3(key: TKey): DTlValue3[]
+    static getValue3(key: TKey): DTValue3[]
     {
         let config = GlobalConfig.getConfig(key);
         if (config)
@@ -68,5 +68,15 @@ export default class GlobalConfig extends GlobalConfigStruct
             return config.value4;
         }
         return "";
+    }
+
+    static getValue6(key: TKey): number 
+    {
+        let config = GlobalConfig.getConfig(key);
+        if (config)
+        {
+            return config.value6;
+        }
+        return 0;
     }
 }

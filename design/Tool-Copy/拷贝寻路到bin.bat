@@ -1,0 +1,1 @@
+dotnet ./Copy/Copy.dll --setting=./CopyPath_toBin.json

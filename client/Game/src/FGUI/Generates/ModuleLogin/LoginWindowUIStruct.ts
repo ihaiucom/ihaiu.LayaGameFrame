@@ -18,6 +18,7 @@ export default class LoginWindowUIStruct extends fairygui.GComponent
 	public m_loginPanel : LoginPanel;
 	public m_guestPanel : GuestPanel;
 	public m_registerPanel : RegisterPanel;
+	public m_testBtn : fairygui.GButton;
 
 	
 	public static URL:string = "ui://4698ugpknz0c0";
@@ -49,6 +50,7 @@ export default class LoginWindowUIStruct extends fairygui.GComponent
 		this.m_loginPanel = <LoginPanel><any>(this.getChild("loginPanel"));
 		this.m_guestPanel = <GuestPanel><any>(this.getChild("guestPanel"));
 		this.m_registerPanel = <RegisterPanel><any>(this.getChild("registerPanel"));
+		this.m_testBtn = <fairygui.GButton><any>(this.getChild("testBtn"));
 		
 		
 	}

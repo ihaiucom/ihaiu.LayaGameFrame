@@ -1,8 +1,8 @@
 {
   "enableoverwrites": [
   	{
-  		"src":"../../gamepf_art/FairySprite/res", 
-  		"dst":"//172.16.50.177/GamePF/plan_ShangJingBo/res/fsprite"
+  		"src":"../../arts/fspriteassets",  
+  		"dst":"//192.168.2.224/www/wp/plan_ShangJingBo/res/fsprite"
   	}
   
   ],

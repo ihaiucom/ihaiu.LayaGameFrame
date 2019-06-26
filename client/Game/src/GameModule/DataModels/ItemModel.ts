@@ -2,6 +2,15 @@ import MModel from "../../GameFrame/Module/MModel";
 import Dictionary from "../../Libs/Helpers/Dictionary";
 import ItemData from "../DataStructs/ItemData";
 
+export enum eItemTab
+{
+	/*** 道具 */
+	NormalItem,
+	/** 资产 */
+	PropertyItem,
+	/** 合同 */
+	ContractItem
+}
 
 //======================
 // 物品 数据模型
@@ -16,8 +25,8 @@ export default class ItemModel extends MModel
 	public CreateItem(id: number, num: number)
 	{
 		let item = new ItemData();
-		item.itemId = id;
-		item.itemNum = num;
+		item.id = id;
+		item.count = num;
 		return item;
 	}
 
@@ -28,7 +37,7 @@ export default class ItemModel extends MModel
 		let items = this.dict.getValues();
 		for (let i = 0; i < items.length; i++)
 		{
-			if (items[i].itemNum > 0 && items[i].itemConfig)
+			if (items[i].count > 0 && items[i].itemConfig)
 			{
 				list.push(items[i]);
 			}
@@ -36,23 +45,62 @@ export default class ItemModel extends MModel
 		return list;
 	}
 
-	public GetItemListByType(types: number[])
+	public GetItemListByType(tab: eItemTab)
 	{
 		let list: ItemData[] = [];
+		let types = this.getTypesByTab(tab);
 		let items = this.dict.getValues();
 		for (let i = 0; i < items.length; i++)
 		{
 			for (var j = 0; j < types.length; j++)
 			{
 				var type = types[j];
-				if (items[i].itemType == type && items[i].itemNum > 0 && items[i].itemConfig)
+				if (items[i].itemType == type && items[i].count > 0 && items[i].itemConfig)
 				{
 					list.push(items[i]);
 					break;
 				}
 			}
 		}
-		return list;
+		let itemList = [];
+		list.forEach(itemObj=>{
+			let item = itemObj.clone();
+			let maxCount = item.itemConfig.max_num;
+			if(item.count > maxCount)
+			{
+				let itemCount = Math.ceil(item.count / maxCount);
+				for(let i = 0; i < itemCount; i++)
+				{
+					let cnt = maxCount;
+					i == itemCount-1 && (cnt = item.count % maxCount);
+					let subItem = ItemData.Create(item.id, cnt);
+					itemList.push(subItem);
+				}
+			}
+			else
+				itemList.push(item);
+		})
+		return itemList;
+	}
+
+	private getTypesByTab(tab:eItemTab = eItemTab.NormalItem): number[]
+	{
+		let types = [5,8,9,17,30];
+		switch (tab) {
+			case eItemTab.NormalItem:
+				types = [5,8,9,17,30];
+				break;
+			case eItemTab.PropertyItem:
+				types = [6];
+			break;
+			case eItemTab.ContractItem:
+				types = [7,16];
+			break;
+			default:
+				types = [5,8,9,17,30];
+				break;
+		}
+		return types;
 	}
 
 
@@ -76,7 +124,7 @@ export default class ItemModel extends MModel
 		let item = this.getItemByUuid(uuid);
 		if (item)
 		{
-			return item.itemNum;
+			return item.count;
 		}
 		return 0;
 	}
@@ -110,13 +158,13 @@ export default class ItemModel extends MModel
 		let item = this.getItem(itemId);
 		if (item)
 		{
-			return item.itemNum;
+			return item.count;
 		}
 		return 0;
 	}
 
 	// 设置物品数量
-	setItemNum(itemId: number, itemNum: number, uuid?: string, createTime?: number): void
+	setItemNum(itemId: number, itemNum: number, createTime?: number,uuid?: string): void
 	{
 		let item: ItemData;
 
@@ -127,7 +175,7 @@ export default class ItemModel extends MModel
 			if (!item && itemId > 0)
 			{
 				item = this.getItem(itemId);
-				item.uuid = uuid;
+				item.uid = uuid;
 				this.dictByUuid.add(uuid, item);
 			}
 		}
@@ -137,11 +185,11 @@ export default class ItemModel extends MModel
 			item = this.getItem(itemId);
 		}
 
-		item.itemNum = itemNum;
+		item.count = itemNum;
 
 		if (createTime !== undefined)
 		{
-			item.createTime = createTime;
+			item.obtainTime = createTime;
 		}
 	}
 

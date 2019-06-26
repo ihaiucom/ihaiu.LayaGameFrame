@@ -1,0 +1,87 @@
+{
+  "enableoverwrites": [
+    {
+      "src":"../AntFrame/Net/AntNet.ts", 
+      "dst":"../../../client/Game/src/AntFrame/Net/AntNet.ts"
+    },
+    {
+      "src":"../AntFrame/Net/proto.d.ts", 
+      "dst":"../../../client/Game/libs/proto.d.ts"
+    },
+
+    {
+      "src":"../AntFrame/Handlers/ProtoHandlerList.ts", 
+      "dst":"../../../client/Game/src/AntFrame/Handlers/ProtoHandlerList.ts"
+    },
+    {
+      "src":"../AntFrame/Handlers/ProtoName.ts", 
+      "dst":"../../../client/Game/src/AntFrame/Handlers/ProtoName.ts"
+    },
+    
+
+    {
+      "src":"../AntFrame/Net/proto.js", 
+      "dst":"../../../client/Game/bin/libs/AntFrame/Net/proto.js"
+    },
+    {
+      "src":"../AntFrame/Net/netproto.js", 
+      "dst":"../../../client/Game/bin/libs/AntFrame/Net/netproto.js"
+    },
+    {
+      "src":"../gm/ServerGM.json", 
+      "dst":"../../../client/Game/bin/res/config/gm/ServerGM.json"
+    },
+  ],
+  "disableoverwrites": [
+    {
+      "src":"../AntFrame/AntFrame.ts", 
+      "dst":"../../../client/Game/src/AntFrame/AntFrame.ts"
+    },
+    {
+      "src":"../AntFrame/AntFrameConfig.ts", 
+      "dst":"../../../client/Game/src/AntFrame/AntFrameConfig.ts"
+    },
+    {
+      "src":"../AntFrame/Util/md5.d.ts", 
+      "dst":"../../../client/Game/src/AntFrame/Util/md5.d.ts"
+    },
+    {
+      "src":"../AntFrame/Platform/AntMine.ts", 
+      "dst":"../../../client/Game/src/AntFrame/Platform/AntMine.ts"
+    },
+    {
+      "src":"../AntFrame/Platform/AntWX.ts", 
+      "dst":"../../../client/Game/src/AntFrame/Platform/AntWX.ts"
+    },
+    {
+      "src":"../AntFrame/Platform/AntPlatformBase.ts", 
+      "dst":"../../../client/Game/src/AntFrame/Platform/AntPlatformBase.ts"
+    },
+    {
+      "src":"../AntFrame/Handlers", 
+      "dst":"../../../client/Game/src/AntFrame/Handlers"
+    },
+
+
+    {
+      "src":"../AntFrame/Net/net.js", 
+      "dst":"../../../client/Game/bin/libs/AntFrame/Net/net.js"
+    },
+    {
+      "src":"../AntFrame/Net/pako.js", 
+      "dst":"../../../client/Game/bin/libs/AntFrame/Net/pako.js"
+    },
+    {
+      "src":"../AntFrame/Net/protobuf.js", 
+      "dst":"../../../client/Game/bin/libs/AntFrame/Net/protobuf.js"
+    },
+    {
+      "src":"../AntFrame/Util/awaiter.js", 
+      "dst":"../../../client/Game/bin/libs/AntFrame/Util/awaiter.js"
+    },
+    {
+      "src":"../AntFrame/Util/md5.js", 
+      "dst":"../../../client/Game/bin/libs/AntFrame/Util/md5.js"
+    },
+  ]
+}

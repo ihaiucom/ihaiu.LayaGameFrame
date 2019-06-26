@@ -16,16 +16,7 @@ export enum MenuBarType
 	// 右上
 	Right_Top = 3,
 
-	// 子菜单_经营
-	SumBar_Run = 10001,
-
-
-	// 子菜单_管理
-	SumBar_Manage = 10002,
 
 	// 子菜单_社交
-	SumBar_Social = 10003,
-
-	// 子菜单_合作
-	SumBar_Cooperation = 10004,
+	SumBar_Social = 1000001,
 }

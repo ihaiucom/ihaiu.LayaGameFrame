@@ -1,0 +1,2 @@
+python gitCiProto.py
+pause

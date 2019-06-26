@@ -1,4 +1,5 @@
 import Game from "../../Game";
+import MenuLayer from "../Menu/MenuLayer";
 
 //======================
 // 扩展 fairygui.Window
@@ -6,6 +7,8 @@ import Game from "../../Game";
 export default class FWindow extends fairygui.Window
 {
 
+    // 窗口容器
+    windowContainer: fairygui.GRoot;
 	get isShowed(): boolean
 	{
 		if (this.contentPane)
@@ -46,8 +49,20 @@ export default class FWindow extends fairygui.Window
 	{
 		if (this.contentPane)
 		{
-			this.contentPane.width = Game.screenSetting.screenWidth;
-			this.contentPane.height = Game.screenSetting.screenHeight;
+			if(this.windowContainer && this.windowContainer["menuLayer"] !== undefined)
+			{
+				this.width = this.windowContainer.width;
+				this.height = MenuLayer.getLayerHeight(this.windowContainer["menuLayer"]);
+				this.contentPane.width = this.windowContainer.width;
+				this.contentPane.height = this.height;
+			}
+			else
+			{
+				this.width = Game.screenSetting.screenWidth;
+				this.height = Game.screenSetting.screenHeight;
+				this.contentPane.width = Game.screenSetting.screenWidth;
+				this.contentPane.height = Game.screenSetting.screenHeight;
+			}
 			this.callChildOnWindowResize(this.contentPane);
 
 			// this.contentPane.displayObject.graphics.drawRect(0, 0, this.contentPane.width, this.contentPane.height, "red");

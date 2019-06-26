@@ -1,12 +1,12 @@
 {
   "enableoverwrites": [
   	{
-  		"src":"../../gamepf_art/FairySprite/res", 
-  		"dst":"../../client/Game/bin/res/fsprite"
+  		"src":"../../arts/fspriteassets",  
+  		"dst":"../../../client/Game/bin/res/fsprite"
   	},
   	{
-  		"src":"../../gamepf_art/FairySprite/assets/Building", 
-  		"dst":"../../client/Game/bin/res/texture/Room"
+  		"src":"../../arts/fspriteassets/assets/Building", 
+  		"dst":"../../../client/Game/bin/res/texture/Room"
   	},
   
   ],

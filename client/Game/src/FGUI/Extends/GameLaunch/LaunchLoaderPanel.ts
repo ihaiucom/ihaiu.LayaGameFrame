@@ -14,5 +14,6 @@ export default class LaunchLoaderPanel extends LaunchLoaderPanelStruct
 	{
         super.constructFromXML(xml);
         this.m_screenBG.m_icon.url = Res.getSpritePathHasExt(R.sprite.Launch_launch);
+        this.m_screenBG.setScreenSize();
     }
 }

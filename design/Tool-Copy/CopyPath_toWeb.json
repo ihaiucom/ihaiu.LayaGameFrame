@@ -1,0 +1,16 @@
+{
+  "enableoverwrites": [
+  	{
+  		"src":"../../../arts/Game-Unity/Assets/Game/Paths", 
+  		"dst":"//192.168.2.224/www/wp/develop/res/config/path"
+  	},
+  	{
+  		"src":"../../../arts/Game-Unity/Assets/Game/Paths", 
+  		"dst":"//192.168.2.224/www/wp/plan_YuYaNing/res/config/path"
+  	},
+  
+  ],
+  "disableoverwrites": [
+  	
+  ]
+}

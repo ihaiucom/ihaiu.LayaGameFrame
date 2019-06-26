@@ -1,8 +1,0 @@
-
-		/**
-		 * >:cnname:<
-		 */
-		>:funName:<(msg: >:msgType:<)
-		{
-
-		}

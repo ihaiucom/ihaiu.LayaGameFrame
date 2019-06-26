@@ -4,7 +4,6 @@
 /////////////////////////////////////
 
 import BaseConfig from "../BaseConfig";
-import DTItemNum from "../ConfigExtends/DTItemNum";
 import Game from "../../Game";
 
 
@@ -21,9 +20,7 @@ export default class ItemConfigStruct extends BaseConfig
 	type : number;
 	max_num : number;
 	get_way : number[];
-	can_use : boolean;
-	use_type : number;
-	reward : DTItemNum[];
+	rewardid : number;
 	can_sell : boolean;
 	price : number;
 	syn_id : number;

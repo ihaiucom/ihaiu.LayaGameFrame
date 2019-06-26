@@ -3,8 +3,9 @@ import TypedSignal from "../Libs/signals/TypedSignal";
 import Signal from "../Libs/signals/Signal";
 import ConfigLoaderInterface from "./Interfaces/ConfigLoaderInterface";
 import Typed3Signal from "../Libs/signals/Typed3Signal";
+import ConfigManagerExpressionList from "./ConfigManagerExpressionList";
 
-export default class ConfigManager extends ConfigManagerList
+export default class ConfigManager extends ConfigManagerExpressionList
 {
     // 消息--加载进度
     sLoadProgress: Typed3Signal<number, number, number> = new Typed3Signal<number, number, number>();
@@ -66,4 +67,7 @@ export default class ConfigManager extends ConfigManagerList
 
         this.sLoaded.dispatch();
     }
+
+
+
 }

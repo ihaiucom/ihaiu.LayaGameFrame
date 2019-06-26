@@ -4,6 +4,7 @@
 /////////////////////////////////////
 
 import BaseConfig from "../BaseConfig";
+import DTFixItemNum from "../ConfigExtends/DTFixItemNum";
 import DTItemNum from "../ConfigExtends/DTItemNum";
 
 
@@ -13,9 +14,9 @@ export default class PlayerLevelConfigStruct extends BaseConfig
 
 
 	id : number;
-	fans : number;
+	exp : number;
+	reward : DTFixItemNum[];
 	story : DTItemNum;
-	reward : DTItemNum[];
 	order_qua : number[];
 	order_num : number;
 	train_max : number;

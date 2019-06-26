@@ -1,5 +1,0 @@
-﻿int	int	string	int	int	int	int	int	int	int	string	string
-id	活动类型	活动名称	起始类型（0：随开服时间；1：随配置时间；2：随玩家注册时间）	需求玩家等级	需求街区等级	开始时间（起始类型为1时读取）	活动时长（天）	默认图标	图标选中状态	活动说明	备注说明
-id	type	zh_cn_activities_name	start_type	level_req	block_req	start	duration	icon	icon_chosen	zh_cn_activities_info	info
-1	1	首周登陆	2	0	0	0	10	5121	5125	活动期间每日登录均可领取相应奖励	首周登陆活动
-2	2	周积分	2	30	0	0	10	5121	5125	活动期间每日日常积分达到一定目标后可领取相应奖励	

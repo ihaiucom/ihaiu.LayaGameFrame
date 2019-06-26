@@ -10,6 +10,87 @@ export default class GameEventKey
     static GameFrame_ReLoginData_Begin = "GameFrame_ReLoginData_Begin";
     // 重刷登录数据--处理数据之后
     static GameFrame_ReLoginData_End = "GameFrame_ReLoginData_End";
+    
+    /* --------------------- Home --------------------*/
+    // 场景缩放变化zoom
+    static Home_SceneZoomChange = "Home_SceneZoomChange";
+    // 场景缩放完成zoom
+    static Home_SceneZoomEnd = "Home_SceneZoomEnd";
+    // 场景移动到建筑，并隐藏主界面UI, Enter
+    static Home_SceneZoomBuildingEnter = "Home_SceneZoomBuildingEnter";
+    // 场景移动到建筑，并隐藏主界面UI, Exit
+    static Home_SceneZoomBuildingExit = "Home_SceneZoomBuildingExit";
+    // 场景Exit移动到建筑，并显示主界面UI
+    static Home_SendSceneZoomBuildingExit = "Home_SendSceneZoomBuildingExit";
+    // 拖到单位，开始
+    static Home_DragUnitEnter = "Home_DragUnitEnter";
+    // 拖到单位，结束
+    static Home_DragUnitExit = "Home_DragUnitExit";
+
+    /* --------------------- 物品 --------------------*/
+    static Item_Change = "Item_Change";
+
+    /* --------------------- 邮件 --------------------*/
+    //接收邮件
+    static Mail_Update: string = "Mail_Update";
+   
+    //邮件状态改变
+    static Mail_Change: string = "Mail_Change";
+    //删除单条邮件
+    static Mail_DelOne: string = "Mail_DelOne";
+    
+    /* --------------------- 建筑 --------------------*/
+
+    //关闭UI界面
+    static Build_CloseWindowUI: string = "Build_CloseWindowUI";
+
+    //关闭建筑界面
+    static Build_CloseWindow: string = "Build_CloseWindow";
+
+    static Build_LevelUp: string = "Build_LevelUp";
+
+    //关闭成功界面
+    static Build_CloseSuccessDialog: string = "Build_CloseSuccessDialog";
+
+    //聚焦到建筑，并自动点击
+    static Build_FocusBuilding: string = "Build_FocusBuilding";
+
+    //聚焦到建筑，并自动点击
+    static Build_FocusBuilding: string = "Build_FocusBuilding";
+
+    
+    /* --------------------- 艺人 --------------------*/
+    //艺人界面跳转
+    static Actor_SelectView: string = "Actor_SelectView";
+
+    /* --------------------- 剧本 --------------------*/
+    //艺人界面跳转
+    static Story_SelectView: string = "Story_SelectView";
+
+    /* --------------------- 剧本招募 --------------------*/
+    // 获取状态
+    static StoryLottery_State: string = "StoryLoteery_State";
+    // 刷新抽奖界面
+    static StoryLoteery_UpdateView: string = "StoryLoteery_UpdateView";
+    // 更新抽奖结果
+    static StoryLoteery_award: string = "StoryLoteery_award";
+
+    /*---------------------- 主线任务 --------------------*/
+    //任务状态更改
+    static MainTask_state: string = "MainTask_state";
+    //领奖成功
+    static MainTask_award: string = "MainTask_award";
+
+    /* --------------------- 情报 --------------------*/
+    //情报界面跳转
+    static Information_SelectView: string = "Information_SelectView";
+    //情报选择
+    static Information_SelectInfo: string = "Information_SelectInfo";
+
+    /* --------------------- 活动 --------------------*/
+
+    //关闭7日活动UI界面
+    static ActivityDay7_CloseWindowUI: string = "ActivityDay7_CloseWindowUI";
 
     /* --------------------- 游戏消息 --------------------*/
 

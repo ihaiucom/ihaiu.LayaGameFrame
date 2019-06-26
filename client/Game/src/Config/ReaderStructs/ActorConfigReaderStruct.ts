@@ -6,10 +6,8 @@
 import CsvConfigRender from "../CsvConfigRender";
 import ActorConfig from "../ConfigExtends/ActorConfig";
 import DTActorSkill from "../ConfigExtends/DTActorSkill";
+import DTInitialLabel from "../ConfigExtends/DTInitialLabel";
 import DTActorStory from "../ConfigExtends/DTActorStory";
-import DTActorFeature from "../ConfigExtends/DTActorFeature";
-import DTActorCharacter from "../ConfigExtends/DTActorCharacter";
-import DTItemNum from "../ConfigExtends/DTItemNum";
 
 
 export default class ActorConfigReaderStruct extends CsvConfigRender<    ActorConfig      >
@@ -23,39 +21,52 @@ export default class ActorConfigReaderStruct extends CsvConfigRender<    ActorCo
 
 
 		config.id = csvGetInt(csv,  this.GetHeadIndex(  "id"  )   );
-		config.en_name = csvGetString(csv,  this.GetHeadIndex(  "en_name"  )   );
-		config.cn_name = csvGetString(csv,  this.GetHeadIndex(  "cn_name"  )   );
-		config.random_name = csvGetInt(csv,  this.GetHeadIndex(  "random_name"  )   );
-		config.star = csvGetInt(csv,  this.GetHeadIndex(  "star"  )   );
-		config.sex = csvGetInt(csv,  this.GetHeadIndex(  "sex"  )   );
-		config.country = csvGetInt(csv,  this.GetHeadIndex(  "country"  )   );
-		config.show_type = csvGetInt(csv,  this.GetHeadIndex(  "show_type"  )   );
-		config.age_type = csvGetInt(csv,  this.GetHeadIndex(  "age_type"  )   );
+		config.name = csvGetString(csv,  this.GetHeadIndex(  "name"  )   );
+		config.setId = csvGetInt(csv,  this.GetHeadIndex(  "setId"  )   );
+		config.label_birthplace = csvGetInt(csv,  this.GetHeadIndex(  "label_birthplace"  )   );
+		config.age = csvGetInt(csv,  this.GetHeadIndex(  "age"  )   );
+		config.birthday = csvGetString(csv,  this.GetHeadIndex(  "birthday"  )   );
+		config.height = csvGetFloat(csv,  this.GetHeadIndex(  "height"  )   );
+		config.bodyWeight = csvGetFloat(csv,  this.GetHeadIndex(  "bodyWeight"  )   );
+		config.label_color = csvGetInt(csv,  this.GetHeadIndex(  "label_color"  )   );
+		config.storyEventId =  toIntArray(       csvGetString(csv,  this.GetHeadIndex(  "storyEventId"  )   )   );
+		config.label_sex = csvGetInt(csv,  this.GetHeadIndex(  "label_sex"  )   );
+		config.label_country = csvGetInt(csv,  this.GetHeadIndex(  "label_country"  )   );
+		config.label_showType = csvGetInt(csv,  this.GetHeadIndex(  "label_showType"  )   );
+		config.label_ageType = csvGetInt(csv,  this.GetHeadIndex(  "label_ageType"  )   );
+		config.randomNameId = csvGetInt(csv,  this.GetHeadIndex(  "randomNameId"  )   );
+		config.label_bloodType = csvGetInt(csv,  this.GetHeadIndex(  "label_bloodType"  )   );
+		config.label_list_hobby =  toIntArray(       csvGetString(csv,  this.GetHeadIndex(  "label_list_hobby"  )   )   );
+		config.label_constellation = csvGetInt(csv,  this.GetHeadIndex(  "label_constellation"  )   );
+		config.label_list_character =  toIntArray(       csvGetString(csv,  this.GetHeadIndex(  "label_list_character"  )   )   );
+		config.label_list_experience =  toIntArray(       csvGetString(csv,  this.GetHeadIndex(  "label_list_experience"  )   )   );
+		config.label_specialIntelligence = csvGetInt(csv,  this.GetHeadIndex(  "label_specialIntelligence"  )   );
+		config.label_bodyheight = csvGetInt(csv,  this.GetHeadIndex(  "label_bodyheight"  )   );
+		config.label_list_looks =  toIntArray(       csvGetString(csv,  this.GetHeadIndex(  "label_list_looks"  )   )   );
+		config.weight = csvGetInt(csv,  this.GetHeadIndex(  "weight"  )   );
+		config.assistanceCard = csvGetInt(csv,  this.GetHeadIndex(  "assistanceCard"  )   );
 		config.avatar = csvGetInt(csv,  this.GetHeadIndex(  "avatar"  )   );
-		config.spectacle = csvGetInt(csv,  this.GetHeadIndex(  "spectacle"  )   );
-		config.perform = csvGetInt(csv,  this.GetHeadIndex(  "perform"  )   );
-		config.plot = csvGetInt(csv,  this.GetHeadIndex(  "plot"  )   );
-		config.art = csvGetInt(csv,  this.GetHeadIndex(  "art"  )   );
-		config.entertainment = csvGetInt(csv,  this.GetHeadIndex(  "entertainment"  )   );
-		config.main_id = csvGetInt(csv,  this.GetHeadIndex(  "main_id"  )   );
+		config.prop_act = csvGetInt(csv,  this.GetHeadIndex(  "prop_act"  )   );
+		config.prop_talent = csvGetInt(csv,  this.GetHeadIndex(  "prop_talent"  )   );
+		config.prop_charm = csvGetInt(csv,  this.GetHeadIndex(  "prop_charm"  )   );
+		config.prop_eloquence = csvGetInt(csv,  this.GetHeadIndex(  "prop_eloquence"  )   );
+		config.prop_entertainment = csvGetInt(csv,  this.GetHeadIndex(  "prop_entertainment"  )   );
+		config.actGrowRate =  toFloatArray(       csvGetString(csv,  this.GetHeadIndex(  "actGrowRate"  )   )   );
+		config.talentGrowRate =  toFloatArray(       csvGetString(csv,  this.GetHeadIndex(  "talentGrowRate"  )   )   );
+		config.charmGrowRate =  toFloatArray(       csvGetString(csv,  this.GetHeadIndex(  "charmGrowRate"  )   )   );
+		config.eloquenceGrowRate =  toFloatArray(       csvGetString(csv,  this.GetHeadIndex(  "eloquenceGrowRate"  )   )   );
+		config.entertainmentGrowRate =  toFloatArray(       csvGetString(csv,  this.GetHeadIndex(  "entertainmentGrowRate"  )   )   );
+		config.mainPropertyField = csvGetString(csv,  this.GetHeadIndex(  "mainPropertyField"  )   );
 		config.skill =  DTActorSkill.parseArray(       csvGetString(csv,  this.GetHeadIndex(  "skill"  )   )   );
-		config.story_type =  DTActorStory.parseArray(       csvGetString(csv,  this.GetHeadIndex(  "story_type"  )   )   );
-		config.story_feature =  DTActorFeature.parseArray(       csvGetString(csv,  this.GetHeadIndex(  "story_feature"  )   )   );
-		config.character =  DTActorCharacter.parseArray(       csvGetString(csv,  this.GetHeadIndex(  "character"  )   )   );
+		config.initialLabel =  DTInitialLabel.parseArray(       csvGetString(csv,  this.GetHeadIndex(  "initialLabel"  )   )   );
+		config.actorLabelSetId =  toIntArray(       csvGetString(csv,  this.GetHeadIndex(  "actorLabelSetId"  )   )   );
+		config.adLabelSetId = csvGetInt(csv,  this.GetHeadIndex(  "adLabelSetId"  )   );
+		config.buyLabelSetId = csvGetInt(csv,  this.GetHeadIndex(  "buyLabelSetId"  )   );
+		config.expandLabelSetId =  toIntArray(       csvGetString(csv,  this.GetHeadIndex(  "expandLabelSetId"  )   )   );
+		config.storyType =  DTActorStory.parseArray(       csvGetString(csv,  this.GetHeadIndex(  "storyType"  )   )   );
 		config.surprise = csvGetInt(csv,  this.GetHeadIndex(  "surprise"  )   );
-		config.cost =  DTItemNum.parse(       csvGetString(csv,  this.GetHeadIndex(  "cost"  )   )   );
-		config.recruit_reward =  DTItemNum.parseArray(       csvGetString(csv,  this.GetHeadIndex(  "recruit_reward"  )   )   );
-		config.enable_cost =  DTItemNum.parse(       csvGetString(csv,  this.GetHeadIndex(  "enable_cost"  )   )   );
-		config.random_value = csvGetInt(csv,  this.GetHeadIndex(  "random_value"  )   );
-		config.exp = csvGetInt(csv,  this.GetHeadIndex(  "exp"  )   );
-		config.paycheck = csvGetInt(csv,  this.GetHeadIndex(  "paycheck"  )   );
-		config.stamina = csvGetInt(csv,  this.GetHeadIndex(  "stamina"  )   );
-		config.culture = csvGetInt(csv,  this.GetHeadIndex(  "culture"  )   );
-		config.assets = csvGetInt(csv,  this.GetHeadIndex(  "assets"  )   );
-		config.en_tips = csvGetString(csv,  this.GetHeadIndex(  "en_tips"  )   );
-		config.cn_tips = csvGetString(csv,  this.GetHeadIndex(  "cn_tips"  )   );
-		config.en_getway = csvGetString(csv,  this.GetHeadIndex(  "en_getway"  )   );
-		config.cn_getway = csvGetString(csv,  this.GetHeadIndex(  "cn_getway"  )   );
+		config.zh_cn_tips = csvGetString(csv,  this.GetHeadIndex(  "zh_cn_tips"  )   );
+		config.zh_cn_getWay = csvGetString(csv,  this.GetHeadIndex(  "zh_cn_getWay"  )   );
 
 		
 

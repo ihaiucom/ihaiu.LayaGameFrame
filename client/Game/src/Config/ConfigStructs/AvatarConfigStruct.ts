@@ -14,22 +14,36 @@ export default class AvatarConfigStruct extends BaseConfig
 
 
 	id : number;
-	name_e : string;
-	name_c : string;
-	body_icon : string;
+	en_name : string;
+	zh_cn_name : string;
+	bodyIcon : string;
+	halfIcon : string;
+	diamondHeadIcon : string;
 	zh_cn_icon : string;
 	en_icon : string;
-	piece_icon : string;
-	model_skin : string;
-	model_bones : string;
-	bg_pic : string;
-	co_vector : DTVector2;
+	pieceIcon : string;
+	modelSkin : string;
+	modelBones : string;
+	bgPic : string;
+	coVector : DTVector2;
 
 
 
 
 
 	
+	get name():string
+	{
+		if(!Game.lang.isUseLang)
+			return this.zh_cn_name
+
+		let value = <string> Game.lang.getValue("avatar", this.id, "name");
+		if (!isNullOrEmpty(value))
+		{
+			return value;
+		}
+		return this.zh_cn_name
+	}
 	get icon():string
 	{
 		if(!Game.lang.isUseLang)

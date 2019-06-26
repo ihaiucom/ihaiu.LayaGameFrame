@@ -3,6 +3,8 @@ import Handler = laya.utils.Handler;
 import Loader = laya.net.Loader;
 import Game from "../../Game";
 import { MenuId } from "../../GameModule/MenuId";
+import GameURL from "../../Config/Keys/GameURL";
+import TimeHelper from "../../GameHelpers/TimeHelper";
 export enum ServerStateType
 {
 	Close = 0,
@@ -27,6 +29,9 @@ export interface ServerItem
 	noticUrl?: string;
 	// 充值验证url
 	marketVerifyUrl?: string;
+
+	// https://nisak.123u.com:5000
+	main?: string;
 }
 
 
@@ -68,7 +73,11 @@ export default class ChannelManager
     }
 
 
-	serverListUrl = "http://mbqb.ihaiu.com/GamePF/ServerList.json";
+	get serverListUrl()
+	{
+		return GameURL.serverListUrl;
+	}
+
 	serverList: ServerList;
 	serverNoticData: ServerNoticData;
 
@@ -96,7 +105,7 @@ export default class ChannelManager
 	}
 
 	// 程序内置默认		
-	defaultServerItem: ServerItem = { name: "QA", ip: "172.81.240.224", port: 80, state: ServerStateType.Noraml, https: false, test: true };
+	defaultServerItem: ServerItem = { name: "默认", ip: "nisak.123u.com", port: 5000, state: ServerStateType.Noraml, https: true, test: false, main:"https://nisak.123u.com:5000"};
 
 	private getServerItem(serverName: string): ServerItem
 	{
@@ -189,10 +198,28 @@ export default class ChannelManager
 		return this.defaultServerItem;
 	}
 
+    async requestServerListAsync():Promise<boolean>
+    {
+        return new Promise<boolean>((resolve)=>{
+			this.requestServerList(null, 
+				// onSucess
+				()=>
+				{
+					resolve(true);
+				},
+				// onFail
+				()=>
+				{
+					resolve(false);
+				}
+			);
+		});
+    }
+
 
 
 	// 请求服务器列表
-	requestServerList(url?: string, caller?: any, onSucess?: Function, onFail?: Function)
+	requestServerList(caller?: any, onSucess?: Function, onFail?: Function)
 	{
 		function callSuccess()
 		{
@@ -235,6 +262,7 @@ export default class ChannelManager
 
 
 
+		let url = this.serverListUrl;
 		if (!url)
 		{
 			url = Game.browserSetting.urlServerList;
@@ -245,14 +273,19 @@ export default class ChannelManager
 
 
 
-		this.serverListUrl = url;
-
 		Laya.loader.load(url, Handler.create(this, function ()
 		{
 			let resust = Laya.loader.getRes(url);
 			if (resust)
 			{
 				this.serverList = isString(resust) ? JSON.parse(resust) : <ServerNoticData>resust;
+				if(this.serverList && this.serverList.list)
+				{
+					for(let item of this.serverList.list)
+					{
+						item.main = GameURL.getServerMainUrl(item);
+					}
+				}
 				console.log("获取服务器列表：");
 				console.log(resust);
 				console.log(JSON.stringify(this.serverList));
@@ -276,8 +309,7 @@ export default class ChannelManager
 			if (Game.localStorage.hasItem("lastOpenNoticeTime", true))
 			{
 				let lastOpenTime = Game.localStorage.getInt("lastOpenNoticeTime", true);
-				let isToday = Game.time.isLocalToday(lastOpenTime);
-				return !isToday;
+				return !TimeHelper.isToday(lastOpenTime);;
 			}
 		}
 		return true;

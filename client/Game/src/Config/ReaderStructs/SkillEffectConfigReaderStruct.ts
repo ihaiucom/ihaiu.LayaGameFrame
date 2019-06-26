@@ -5,6 +5,7 @@
 
 import CsvConfigRender from "../CsvConfigRender";
 import SkillEffectConfig from "../ConfigExtends/SkillEffectConfig";
+import DTSkillTiggerCondition from "../ConfigExtends/DTSkillTiggerCondition";
 
 
 export default class SkillEffectConfigReaderStruct extends CsvConfigRender<    SkillEffectConfig      >
@@ -18,8 +19,12 @@ export default class SkillEffectConfigReaderStruct extends CsvConfigRender<    S
 
 
 		config.id = csvGetInt(csv,  this.GetHeadIndex(  "id"  )   );
-		config.effect = csvGetInt(csv,  this.GetHeadIndex(  "effect"  )   );
-		config.tips = csvGetString(csv,  this.GetHeadIndex(  "tips"  )   );
+		config.type = csvGetInt(csv,  this.GetHeadIndex(  "type"  )   );
+		config.target = csvGetInt(csv,  this.GetHeadIndex(  "target"  )   );
+		config.targetProp = csvGetInt(csv,  this.GetHeadIndex(  "targetProp"  )   );
+		config.value = csvGetFloat(csv,  this.GetHeadIndex(  "value"  )   );
+		config.tiggerRate = csvGetInt(csv,  this.GetHeadIndex(  "tiggerRate"  )   );
+		config.tiggerCondition =  DTSkillTiggerCondition.parseArray(       csvGetString(csv,  this.GetHeadIndex(  "tiggerCondition"  )   )   );
 
 		
 

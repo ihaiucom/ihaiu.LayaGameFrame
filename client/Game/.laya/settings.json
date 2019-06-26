@@ -1,0 +1,23 @@
+{
+    // //default is false
+    "debug.hideActionBar": false,
+    // //default is false
+    // "debug.inlineValues": true,
+    // "debug.openExplorerOnEnd": false,
+    // "debug.showInStatusBar": false,
+    // "javascript.referencesCodeLens.enabled": true,
+    // "typescript": {
+    //     // 定义非空圆括号的左括号后面和右括号前面的空格处理。
+    //     "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+    //     // 定义控制块的左括号是否放置在新的一行。
+    //     "typescript.format.placeOpenBraceOnNewLineForControlBlocks": false,
+    //     // 定义函数的左大括号是否放置在新的一行。
+    //     "typescript.format.placeOpenBraceOnNewLineForFunctions": false,
+    //     // 启用/禁用实现 CodeLens。要求 TypeScript >= 2.2.0。
+    //     "typescript.implementationsCodeLens.enabled": false,
+    //     // 启用/禁用在 TypeScript 文件中引用 CodeLens。要求 TypeScript >= 2.0.6。
+    //     "typescript.referencesCodeLens.enabled": false,
+    //     // 完成函数的参数签名。
+    //     "typescript.useCodeSnippetsOnMethodSuggest": true,
+    // }
+}

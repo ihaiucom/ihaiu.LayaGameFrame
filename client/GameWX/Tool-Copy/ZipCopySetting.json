@@ -1,0 +1,20 @@
+{
+  "enableoverwrites": [
+    {
+      "src":"../../Game/bin/config", 
+      "dst":"../zip/v1_00_00/config"
+    },
+    
+    {
+      "src":"../../Game/bin/res", 
+      "dst":"..//zip/v1_00_00/res"
+    },
+    {
+      "src":"../../Game/bin/ServerList.json", 
+      "dst":"../zip/v1_00_00/ServerList.json"
+    },
+  ],
+  "disableoverwrites": [
+    
+  ]
+}

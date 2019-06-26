@@ -50,6 +50,11 @@ export default class VersionManager
 	webPartialVersionData: VersionData = new VersionData();
 
 
+	init()
+	{
+		this.localAppVersionData.setVersionTxt(VersionConfig.AppVersion);
+		this.localResVersionData.setVersionTxt(VersionConfig.ResVersion);
+	}
 
 
 

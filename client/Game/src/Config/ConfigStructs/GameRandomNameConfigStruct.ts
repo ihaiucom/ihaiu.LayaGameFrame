@@ -15,7 +15,6 @@ export default class GameRandomNameConfigStruct extends BaseConfig
 	id : number;
 	type : number;
 	zh_cn_names : string[];
-	tips : string;
 
 
 

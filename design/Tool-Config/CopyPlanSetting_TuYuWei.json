@@ -1,0 +1,11 @@
+{
+  "enableoverwrites": [
+  	{
+  		"src":"../../../_gen/ConfigOut/csv", 
+  		"dst":"//192.168.2.224/plan_TuYuWei/res/config/csv"
+  	}
+  ],
+  "disableoverwrites": [
+  	
+  ]
+}

@@ -1,3 +1,5 @@
+import Loger from "./Loger";
+
 export enum LogLevel
 {
     Debug = 0,
@@ -16,48 +18,59 @@ export enum LogLevelText
 
 export default class Log
 {
+    public static mineloger = new Loger();
     private static logger = console;
     private static level: LogLevel = LogLevel.Debug;
 
     public static get Level():LogLevel
     {
-        return Log.level;
+        return this.level;
     }
 
     public static set Level(level:LogLevel)
     {
-        Log.level = level;
+        this.level = level;
     }
 
     public static Debug(...args)
     {
-        if(Log.level > LogLevel.Debug)
+        if(this.level > LogLevel.Debug)
             return;
         
-        Log.logger.debug(args);
+        this.logger.debug(...args);
+        this.mineloger.debug(...args);
     }
 
     public static Info(...args)
     {
-        if(Log.level > LogLevel.Info)
+        if(this.level > LogLevel.Info)
             return;
         
-        Log.logger.info(args);
+        this.logger.info(...args);
+        this.mineloger.info(...args);
     }
 
     public static Warn(...args)
     {
-        if(Log.level > LogLevel.Warn)
+        if(this.level > LogLevel.Warn)
             return;
         
-        Log.logger.warn(args);
+        this.logger.warn(...args);
+        this.mineloger.warn(...args);
     }
 
     public static Error(...args)
     {
-        if(Log.level > LogLevel.Warn)
+        if(this.level > LogLevel.Warn)
             return;
         
-        Log.logger.error(args);
+        this.logger.error(...args);
+        this.mineloger.error(...args);
+    }
+
+    public static clear()
+    {
+        this.logger.clear();
+        this.mineloger.clear();
     }
 }

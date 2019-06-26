@@ -1,1 +1,0 @@
-dotnet ./Copy/Copy.dll --setting=./CopyClient.json

@@ -9,6 +9,11 @@ import Game from "../../Game";
 import GuiResPackageConfig from "../../FGUI/GuiResPackageConfig";
 import GuiSetting from "../../FGUI/GuiSetting";
 import { ConfigLoaderCallback } from "../../Config/Interfaces/ConfigLoaderCallback";
+import AssetHelper from "./AssetHelper";
+import Res from "../../Config/Keys/Res";
+import ParticleSetting from "../../EngineParticle/ParticleSetting";
+import Particle2D from "../../EngineParticle/Particle2D";
+import GameSkeleton from "../../Home/SkeletonCaches/GameSkeleton";
 
 export default class AssetManager implements ConfigLoaderInterface
 {
@@ -265,5 +270,118 @@ export default class AssetManager implements ConfigLoaderInterface
         }), null, Loader.JSON);
     }
 
+    // 加载资源
+    load(path: string, complete: Function, caller:any, type:AssetItemType)
+    {
+        Laya.loader.load(path, 
+            Handler.create(null, (res: any) =>
+            {
+                if (complete)
+                {
+                    if (caller)
+                    {
+                        complete.apply(caller, [res]);
+                    }
+                    else
+                    {
+                        complete(res);
+                    }
+                }
+            }), 
+            null, AssetHelper.assetItemType2LayaLoaderType(type));
+    }
+
+    // 加载资源, 异步
+    async loadAsync(path: string, type:AssetItemType): Promise<any>
+    {
+        return new Promise<void>((resolve)=>
+        {
+            this.load(path, (res: any)=>
+            {
+                resolve(res);
+            }, null, type);
+         });
+    }
+
+    // 加载Shader
+    async loadShaderVSAsync(filename: string): Promise<string>
+    {
+        let code = await this.loadAsync(Res.getShaderVS(filename), AssetItemType.Text);
+        return code.replace(/\r/g, "");
+    }
+
+    // 加载Shader
+    async loadShaderPSAsync(filename: string): Promise<string>
+    {
+        let code =  await this.loadAsync(Res.getShaderPS(filename), AssetItemType.Text);
+        return code.replace(/\r/g, "");
+    }
+
+    // 加载粒子
+    async loadParticleAsync(filename: string): Promise<ParticleSetting>
+    {
+        let setting =  await this.loadAsync(Res.getParticles(filename), AssetItemType.Json);
+        return setting;
+    }
+    
+    // 创建粒子
+    async createParticle(filename:string, texturename: string = null):  Promise<Particle2D>
+    {
+        let settings = await this.loadParticleAsync(filename);
+
+        if(isNullOrEmpty(settings.sourceTextureName))
+            settings.sourceTextureName = settings.textureName;
+        else if(isNullOrEmpty(texturename))
+        {
+            settings.textureName = settings.sourceTextureName;
+        }
+
+        if(!isNullOrEmpty(texturename))
+        {
+            settings.sourceTextureName = texturename;
+        }
+        
+        let p = new Particle2D(settings);
+        return p;
+    }
+
+    
+    // UI骨骼动画--获取
+    async uiSkeletonRequrestItemAsynByName(name: string):  Promise<Laya.Skeleton>
+    {
+        let texturePath = Res.getSpineUIPngPath(name);
+        let skPath = Res.getSpineUISkPath(name);
+        return await this.uiSkeletonRequrestItemAsyn(texturePath, skPath);
+    }
+
+
+    // UI骨骼动画--获取
+    async uiSkeletonRequrestItemAsyn(texturePath: string, skPath: string):  Promise<Laya.Skeleton>
+    {
+        let skeleton = await GameSkeleton.uiSkeletonCache.requrestItemAsync(texturePath, skPath);
+        if(skeleton)
+        {
+            skeleton["$__texturePath"] = skeleton;
+        }
+        return skeleton;
+    }
+
+
+    // UI骨骼动画--返回
+    uiSkeletonRecoverItem(skeleton: Laya.Skeleton, texturePath?: string):void
+    {
+        if(!skeleton)
+            return;
+
+        if(!texturePath)
+        {
+            texturePath = skeleton["$__texturePath"];
+        }
+
+        GameSkeleton.uiSkeletonCache.recoverItem(texturePath, skeleton);
+    }
+
 
 }
+
+window['AssetManager'] = AssetManager;

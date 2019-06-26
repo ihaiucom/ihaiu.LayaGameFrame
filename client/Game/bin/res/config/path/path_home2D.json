@@ -1,0 +1,366 @@
+{
+    "routeNodes": [
+        {
+            "id": 1,
+            "x": 1014.0,
+            "y": -761.0,
+            "z": 0.0,
+            "size": 1.0,
+            "buildId": 0,
+            "decorationType": 0,
+            "orientationType": 0
+        },
+        {
+            "id": 2,
+            "x": 1150.0,
+            "y": -854.0,
+            "z": 0.0,
+            "size": 1.0,
+            "buildId": 0,
+            "decorationType": 0,
+            "orientationType": 0
+        },
+        {
+            "id": 3,
+            "x": 1165.0,
+            "y": -634.0,
+            "z": 0.0,
+            "size": 1.0,
+            "buildId": 0,
+            "decorationType": 0,
+            "orientationType": 0
+        },
+        {
+            "id": 4,
+            "x": 1103.0,
+            "y": -593.0,
+            "z": 0.0,
+            "size": 1.0,
+            "buildId": 0,
+            "decorationType": 0,
+            "orientationType": 0
+        },
+        {
+            "id": 5,
+            "x": 967.0,
+            "y": -446.0,
+            "z": 0.0,
+            "size": 1.0,
+            "buildId": 0,
+            "decorationType": 0,
+            "orientationType": 0
+        },
+        {
+            "id": 6,
+            "x": 1025.0,
+            "y": -415.0,
+            "z": 0.0,
+            "size": 1.0,
+            "buildId": 0,
+            "decorationType": 0,
+            "orientationType": 0
+        },
+        {
+            "id": 7,
+            "x": 1253.0,
+            "y": -554.0,
+            "z": 0.0,
+            "size": 1.0,
+            "buildId": 0,
+            "decorationType": 0,
+            "orientationType": 0
+        },
+        {
+            "id": 8,
+            "x": 1052.0,
+            "y": -341.0,
+            "z": 0.0,
+            "size": 1.0,
+            "buildId": 0,
+            "decorationType": 0,
+            "orientationType": 0
+        },
+        {
+            "id": 9,
+            "x": 942.0,
+            "y": -792.0,
+            "z": 0.0,
+            "size": 1.0,
+            "buildId": 0,
+            "decorationType": 0,
+            "orientationType": 0
+        },
+        {
+            "id": 10,
+            "x": 999.0,
+            "y": -820.0,
+            "z": 0.0,
+            "size": 1.0,
+            "buildId": 0,
+            "decorationType": 0,
+            "orientationType": 0
+        },
+        {
+            "id": 11,
+            "x": 835.0,
+            "y": -926.0,
+            "z": 0.0,
+            "size": 1.0,
+            "buildId": 0,
+            "decorationType": 0,
+            "orientationType": 0
+        },
+        {
+            "id": 12,
+            "x": 895.0,
+            "y": -951.0,
+            "z": 0.0,
+            "size": 1.0,
+            "buildId": 0,
+            "decorationType": 0,
+            "orientationType": 0
+        },
+        {
+            "id": 13,
+            "x": 786.0,
+            "y": -983.0,
+            "z": 0.0,
+            "size": 1.0,
+            "buildId": 0,
+            "decorationType": 0,
+            "orientationType": 0
+        },
+        {
+            "id": 14,
+            "x": 1041.0,
+            "y": -1132.0,
+            "z": 0.0,
+            "size": 1.0,
+            "buildId": 0,
+            "decorationType": 0,
+            "orientationType": 0
+        },
+        {
+            "id": 15,
+            "x": 715.0,
+            "y": -964.0,
+            "z": 0.0,
+            "size": 1.0,
+            "buildId": 0,
+            "decorationType": 0,
+            "orientationType": 0
+        },
+        {
+            "id": 16,
+            "x": 540.0,
+            "y": -862.0,
+            "z": 0.0,
+            "size": 1.0,
+            "buildId": 0,
+            "decorationType": 0,
+            "orientationType": 0
+        },
+        {
+            "id": 17,
+            "x": 738.0,
+            "y": -572.0,
+            "z": 0.0,
+            "size": 1.0,
+            "buildId": 0,
+            "decorationType": 0,
+            "orientationType": 0
+        },
+        {
+            "id": 18,
+            "x": 666.2999877929688,
+            "y": -1036.5999755859375,
+            "z": 0.0,
+            "size": 1.0,
+            "buildId": 0,
+            "decorationType": 0,
+            "orientationType": 0
+        },
+        {
+            "id": 19,
+            "x": 754.5999755859375,
+            "y": -351.79998779296877,
+            "z": 0.0,
+            "size": 1.0,
+            "buildId": 8,
+            "decorationType": 0,
+            "orientationType": 0
+        },
+        {
+            "id": 20,
+            "x": 753.2000122070313,
+            "y": -332.79998779296877,
+            "z": 0.0,
+            "size": 1.0,
+            "buildId": 8,
+            "decorationType": 1,
+            "orientationType": 1
+        },
+        {
+            "id": 22,
+            "x": 849.9000244140625,
+            "y": -1129.199951171875,
+            "z": 0.0,
+            "size": 1.0,
+            "buildId": 2,
+            "decorationType": 1,
+            "orientationType": 1
+        },
+        {
+            "id": 23,
+            "x": 755.9000244140625,
+            "y": -1111.9000244140625,
+            "z": 0.0,
+            "size": 1.0,
+            "buildId": 2,
+            "decorationType": 0,
+            "orientationType": 0
+        },
+        {
+            "id": 24,
+            "x": 797.0,
+            "y": -1142.9000244140625,
+            "z": 0.0,
+            "size": 1.0,
+            "buildId": 2,
+            "decorationType": 0,
+            "orientationType": 0
+        },
+        {
+            "id": 26,
+            "x": 843.2000122070313,
+            "y": -1132.4000244140625,
+            "z": 0.0,
+            "size": 1.0,
+            "buildId": 2,
+            "decorationType": 0,
+            "orientationType": 0
+        }
+    ],
+    "lines": [
+        {
+            "a": 1,
+            "b": 2,
+            "cost": 100.0
+        },
+        {
+            "a": 1,
+            "b": 3,
+            "cost": 100.0
+        },
+        {
+            "a": 3,
+            "b": 4,
+            "cost": 100.0
+        },
+        {
+            "a": 4,
+            "b": 5,
+            "cost": 100.0
+        },
+        {
+            "a": 5,
+            "b": 6,
+            "cost": 100.0
+        },
+        {
+            "a": 6,
+            "b": 7,
+            "cost": 100.0
+        },
+        {
+            "a": 6,
+            "b": 8,
+            "cost": 100.0
+        },
+        {
+            "a": 1,
+            "b": 9,
+            "cost": 100.0
+        },
+        {
+            "a": 1,
+            "b": 10,
+            "cost": 100.0
+        },
+        {
+            "a": 9,
+            "b": 11,
+            "cost": 100.0
+        },
+        {
+            "a": 10,
+            "b": 12,
+            "cost": 100.0
+        },
+        {
+            "a": 11,
+            "b": 13,
+            "cost": 100.0
+        },
+        {
+            "a": 12,
+            "b": 13,
+            "cost": 100.0
+        },
+        {
+            "a": 13,
+            "b": 14,
+            "cost": 100.0
+        },
+        {
+            "a": 13,
+            "b": 15,
+            "cost": 100.0
+        },
+        {
+            "a": 15,
+            "b": 16,
+            "cost": 100.0
+        },
+        {
+            "a": 5,
+            "b": 17,
+            "cost": 100.0
+        },
+        {
+            "a": 13,
+            "b": 18,
+            "cost": 100.0
+        },
+        {
+            "a": 5,
+            "b": 19,
+            "cost": 100.0
+        },
+        {
+            "a": 18,
+            "b": 23,
+            "cost": 100.0
+        },
+        {
+            "a": 19,
+            "b": 20,
+            "cost": 100.0
+        },
+        {
+            "a": 23,
+            "b": 24,
+            "cost": 100.0
+        },
+        {
+            "a": 24,
+            "b": 26,
+            "cost": 100.0
+        },
+        {
+            "a": 22,
+            "b": 26,
+            "cost": 100.0
+        }
+    ]
+}

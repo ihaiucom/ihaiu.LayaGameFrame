@@ -5,7 +5,6 @@
 
 import CsvConfigRender from "../CsvConfigRender";
 import ItemConfig from "../ConfigExtends/ItemConfig";
-import DTItemNum from "../ConfigExtends/DTItemNum";
 
 
 export default class ItemConfigReaderStruct extends CsvConfigRender<    ItemConfig      >
@@ -26,9 +25,7 @@ export default class ItemConfigReaderStruct extends CsvConfigRender<    ItemConf
 		config.type = csvGetInt(csv,  this.GetHeadIndex(  "type"  )   );
 		config.max_num = csvGetInt(csv,  this.GetHeadIndex(  "max_num"  )   );
 		config.get_way =  toIntArray(       csvGetString(csv,  this.GetHeadIndex(  "get_way"  )   )   );
-		config.can_use = csvGetBoolean(csv,  this.GetHeadIndex(  "can_use"  )   );
-		config.use_type = csvGetInt(csv,  this.GetHeadIndex(  "use_type"  )   );
-		config.reward =  DTItemNum.parseArray(       csvGetString(csv,  this.GetHeadIndex(  "reward"  )   )   );
+		config.rewardid = csvGetInt(csv,  this.GetHeadIndex(  "rewardid"  )   );
 		config.can_sell = csvGetBoolean(csv,  this.GetHeadIndex(  "can_sell"  )   );
 		config.price = csvGetInt(csv,  this.GetHeadIndex(  "price"  )   );
 		config.syn_id = csvGetInt(csv,  this.GetHeadIndex(  "syn_id"  )   );

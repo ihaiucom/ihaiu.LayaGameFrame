@@ -4,6 +4,7 @@
 /////////////////////////////////////
 
 import BaseConfig from "../BaseConfig";
+import DTFixItemNum from "../ConfigExtends/DTFixItemNum";
 import Game from "../../Game";
 
 
@@ -13,17 +14,20 @@ export default class StoryCharactersConfigStruct extends BaseConfig
 
 
 	id : number;
-	story_id : number;
-	character_num : number;
+	storyId : number;
 	zh_cn_name : string;
-	type : number;
-	type_pic : number;
-	sex : number;
-	country : number;
-	show_type : number;
-	age_type : number;
-	tags : number[];
-	effect : number[];
+	label_sex : number;
+	label_country : number;
+	label_showType : number;
+	label_ageType : number;
+	storyPositionId : number;
+	label_storyTag : number[];
+	randomPropId : number[];
+	storyEventId : number[];
+	characterNum : number;
+	typePic : number;
+	bestActor : number;
+	costItem : DTFixItemNum[];
 	zh_cn_introduction : string;
 
 

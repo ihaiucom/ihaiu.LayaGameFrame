@@ -133,7 +133,7 @@ export default class LocalStorage
 
     hasItem(key: string, isGobal: boolean = false): boolean
     {
-        return Laya.LocalStorage.getItem(this.getKey(key, isGobal)) !== null;
+        return !isNullOrEmpty(Laya.LocalStorage.getItem(this.getKey(key, isGobal)));
     }
 
 

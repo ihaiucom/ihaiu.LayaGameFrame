@@ -1,9 +1,9 @@
-function toStringArray(txt: string, separator = /[:,;]/): string[]
+function toStringArray(txt: string, separator = /[:,;&]/): string[]
 {
     return txt.split(separator);
 }
 
-function toIntArray(txt: string, separator = /[:,;]/): number[]
+function toIntArray(txt: string, separator = /[:,;&]/): number[]
 {
     let list: number[] = [];
     let arr = toStringArray(txt, separator);
@@ -16,7 +16,7 @@ function toIntArray(txt: string, separator = /[:,;]/): number[]
 
 
 
-function toFloatArray(txt: string, separator = /[:,;]/): number[]
+function toFloatArray(txt: string, separator = /[:,;&]/): number[]
 {
     let list: number[] = [];
     let arr = toStringArray(txt, separator);
@@ -58,7 +58,7 @@ function toBoolean(val: any): boolean
 }
 
 
-function toBooleanArray(txt: string, separator = /[:,;]/): boolean[]
+function toBooleanArray(txt: string, separator = /[:,;&]/): boolean[]
 {
     let list: boolean[] = [];
     let arr = toStringArray(txt, separator);

@@ -1,6 +1,0 @@
-﻿int	string	int	int	int	int	int	int
-id	名字	等级	资产1	资产2	资产3	资产4	艺人限时（秒）
-id	name	lv	Asset_type_num_1	Asset_type_num_2	Asset_type_num_3	Asset_type_num_4	time_limit
-5004	丹尼	120	200	200	200	200	259200
-5024	奈拉	120	200	200	200	200	259200
-5029	房龙	120	200	200	200	200	259200

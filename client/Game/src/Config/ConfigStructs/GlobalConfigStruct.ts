@@ -4,8 +4,8 @@
 /////////////////////////////////////
 
 import BaseConfig from "../BaseConfig";
-import DTlValue2 from "../ConfigExtends/DTlValue2";
-import DTlValue3 from "../ConfigExtends/DTlValue3";
+import DTValue2 from "../ConfigExtends/DTValue2";
+import DTValue3 from "../ConfigExtends/DTValue3";
 import DTPerformActoin from "../ConfigExtends/DTPerformActoin";
 
 
@@ -18,12 +18,12 @@ export default class GlobalConfigStruct extends BaseConfig
 	key : string;
 	name : string;
 	value : number;
+	value6 : number;
 	value4 : string;
 	value1 : number[];
-	value2 : DTlValue2[];
-	value3 : DTlValue3[];
+	value2 : DTValue2[];
+	value3 : DTValue3[];
 	value5 : DTPerformActoin[];
-	tips : string;
 
 
 

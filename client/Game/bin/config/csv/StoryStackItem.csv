@@ -1,6 +1,0 @@
-﻿int	int	string	int	int
-物品id	物品类型（1：剧本，2：其他物品）	物品名称	数量	产出权重
-id	type	name	num	rate
-1	1	剧本	1	10
-2	2	羽毛笔	5	0
-3	2	美元	100	110

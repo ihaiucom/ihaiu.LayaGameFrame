@@ -1,0 +1,12 @@
+{
+  "enableoverwrites": [
+  	{
+  		"src":"../../../arts/Game-Unity/Assets/Game/Paths", 
+  		"dst":"../../../client/Game/bin/res/config/path"
+  	},
+  
+  ],
+  "disableoverwrites": [
+  	
+  ]
+}

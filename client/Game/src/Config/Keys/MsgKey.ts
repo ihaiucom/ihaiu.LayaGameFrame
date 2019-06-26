@@ -11,6 +11,9 @@ export default class MsgKey
 	// 3 ModuleName
 	// 4 Name
 
+	/** 1000  测试 --- 测试 */
+	static Msg_test = "Msg_test";
+
 	/** 1001  账号信息 --- 名称长度不对 */
 	static account_name_long = "account_name_long";
 
@@ -1078,5 +1081,14 @@ export default class MsgKey
 
 	/** 2196  形象大使 --- 解锁第5位城市形象大使 */
 	static ambassador_unlock = "ambassador_unlock";
+
+	/** 2197  剧本招募 --- 说明 */
+	static story_lottery_do = "story_lottery_do";
+
+	/** 2198  剧本招募 --- 说明 */
+	static story_lottery_buy_num = "story_lottery_buy_num";
+
+	/** 2199  剧本招募 --- 说明 */
+	static story_lottery_time_gold = "story_lottery_time_gold";
 
 }

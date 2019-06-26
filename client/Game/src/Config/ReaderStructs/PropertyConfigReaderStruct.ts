@@ -18,12 +18,14 @@ export default class PropertyConfigReaderStruct extends CsvConfigRender<    Prop
 
 
 		config.id = csvGetInt(csv,  this.GetHeadIndex(  "id"  )   );
-		config.type = csvGetInt(csv,  this.GetHeadIndex(  "type"  )   );
 		config.field = csvGetString(csv,  this.GetHeadIndex(  "field"  )   );
-		config.enName = csvGetString(csv,  this.GetHeadIndex(  "enName"  )   );
 		config.zh_cn_name = csvGetString(csv,  this.GetHeadIndex(  "zh_cn_name"  )   );
+		config.zh_cn_addname = csvGetString(csv,  this.GetHeadIndex(  "zh_cn_addname"  )   );
+		config.addnamenum = csvGetInt(csv,  this.GetHeadIndex(  "addnamenum"  )   );
+		config.details = csvGetBoolean(csv,  this.GetHeadIndex(  "details"  )   );
 		config.icon = csvGetInt(csv,  this.GetHeadIndex(  "icon"  )   );
-		config.tip = csvGetString(csv,  this.GetHeadIndex(  "tip"  )   );
+		config.groupType = csvGetInt(csv,  this.GetHeadIndex(  "groupType"  )   );
+		config.visible = csvGetBoolean(csv,  this.GetHeadIndex(  "visible"  )   );
 
 		
 

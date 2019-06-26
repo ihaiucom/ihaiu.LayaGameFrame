@@ -23,16 +23,30 @@ export default class BuildingLevelConfigReaderStruct extends CsvConfigRender<   
 		config.zh_cn_name = csvGetString(csv,  this.GetHeadIndex(  "zh_cn_name"  )   );
 		config.type = csvGetInt(csv,  this.GetHeadIndex(  "type"  )   );
 		config.level = csvGetInt(csv,  this.GetHeadIndex(  "level"  )   );
+		config.breCost =  DTItemNum.parseArray(       csvGetString(csv,  this.GetHeadIndex(  "breCost"  )   )   );
+		config.breLevel = csvGetBoolean(csv,  this.GetHeadIndex(  "breLevel"  )   );
+		config.breIndex = csvGetInt(csv,  this.GetHeadIndex(  "breIndex"  )   );
+		config.seatNum = csvGetInt(csv,  this.GetHeadIndex(  "seatNum"  )   );
+		config.breLevelMax = csvGetInt(csv,  this.GetHeadIndex(  "breLevelMax"  )   );
+		config.prop_buildingCd = csvGetInt(csv,  this.GetHeadIndex(  "prop_buildingCd"  )   );
 		config.cost =  DTItemNum.parseArray(       csvGetString(csv,  this.GetHeadIndex(  "cost"  )   )   );
-		config.level_req = csvGetInt(csv,  this.GetHeadIndex(  "level_req"  )   );
-		config.type_level =  DTBuildingReq.parseArray(       csvGetString(csv,  this.GetHeadIndex(  "type_level"  )   )   );
-		config.block_req = csvGetInt(csv,  this.GetHeadIndex(  "block_req"  )   );
-		config.function_open =  toIntArray(       csvGetString(csv,  this.GetHeadIndex(  "function_open"  )   )   );
-		config.UI = csvGetBoolean(csv,  this.GetHeadIndex(  "UI"  )   );
-		config.effect_id =  toIntArray(       csvGetString(csv,  this.GetHeadIndex(  "effect_id"  )   )   );
-		config.zh_cn_effect_tips = csvGetString(csv,  this.GetHeadIndex(  "zh_cn_effect_tips"  )   );
-		config.zh_cn_level_tips = csvGetString(csv,  this.GetHeadIndex(  "zh_cn_level_tips"  )   );
-		config.building_small = csvGetInt(csv,  this.GetHeadIndex(  "building_small"  )   );
+		config.levelReq = csvGetInt(csv,  this.GetHeadIndex(  "levelReq"  )   );
+		config.typeLevel =  DTBuildingReq.parseArray(       csvGetString(csv,  this.GetHeadIndex(  "typeLevel"  )   )   );
+		config.produceItemId = csvGetInt(csv,  this.GetHeadIndex(  "produceItemId"  )   );
+		config.produceItemType = csvGetInt(csv,  this.GetHeadIndex(  "produceItemType"  )   );
+		config.prop_produceNum = csvGetInt(csv,  this.GetHeadIndex(  "prop_produceNum"  )   );
+		config.prop_produceCd = csvGetInt(csv,  this.GetHeadIndex(  "prop_produceCd"  )   );
+		config.prop_storyProbabilitySe = csvGetInt(csv,  this.GetHeadIndex(  "prop_storyProbabilitySe"  )   );
+		config.prop_storyProbabilityCl = csvGetFloat(csv,  this.GetHeadIndex(  "prop_storyProbabilityCl"  )   );
+		config.prop_storyNum = csvGetInt(csv,  this.GetHeadIndex(  "prop_storyNum"  )   );
+		config.prop_criticalHitChance = csvGetFloat(csv,  this.GetHeadIndex(  "prop_criticalHitChance"  )   );
+		config.prop_critEffect = csvGetFloat(csv,  this.GetHeadIndex(  "prop_critEffect"  )   );
+		config.prop_reserve = csvGetInt(csv,  this.GetHeadIndex(  "prop_reserve"  )   );
+		config.menuId =  toIntArray(       csvGetString(csv,  this.GetHeadIndex(  "menuId"  )   )   );
+		config.ui = csvGetBoolean(csv,  this.GetHeadIndex(  "ui"  )   );
+		config.levelRegionId =  toIntArray(       csvGetString(csv,  this.GetHeadIndex(  "levelRegionId"  )   )   );
+		config.breakRegionId =  toIntArray(       csvGetString(csv,  this.GetHeadIndex(  "breakRegionId"  )   )   );
+		config.regionLevel = csvGetString(csv,  this.GetHeadIndex(  "regionLevel"  )   );
 
 		
 

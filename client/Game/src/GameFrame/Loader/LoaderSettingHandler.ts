@@ -39,6 +39,8 @@ export default class LoaderSettingHandler
 		{
 			this.showPercent = Math.ceil(Mathf.Lerp(this.showPercent, this.percent, 0.1));
 			this.setPercent(this.showPercent);
+			if(this.showPercent >= 100)
+				this.stopTweenPrecent();
 		}, 100);
 	}
 

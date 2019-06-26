@@ -80,7 +80,7 @@ export default class MenuCtl
     // 延时关闭，等把主界面打开再关闭
     __delayClose()
     {
-        this.backMenuId = -1;
+        // this.backMenuId = -1;
         if (this.moduleWindow && this.moduleWindow.menuIsCreated)
         {
             Game.event.dispatch(GameEventKey.GameFrame_CloseMenu, this.moduleWindow.menuId)
@@ -191,10 +191,10 @@ export default class MenuCtl
         switch (this.menuId)
         {
             case MenuId.Login:
-                Game.sound.playMusic(SoundKey.MM_BGM_Cinema);
+                Game.sound.playMusic(SoundKey.MM_BGM_01);
                 break;
             case MenuId.Home:
-                Game.sound.playMusic(SoundKey.MM_BGM_Cinema);
+                Game.sound.playMusic(SoundKey.MM_BGM_01);
                 break;
         }
     }
@@ -284,7 +284,15 @@ export default class MenuCtl
 
         }
 
-        this.backMenuId = hasCloseOtherMenu ? backMenuId : -1;
+        if(hasCloseOtherMenu)
+        {
+            if(backMenuId != -1)
+                this.backMenuId = backMenuId;
+        }
+        else
+            this.backMenuId = -1;
+
+
 
     }
 

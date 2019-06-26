@@ -1,0 +1,1233 @@
+syntax = "proto3";
+import "common.proto";
+import "league.proto";
+import "const_define.proto";
+//玩家登陆
+message GamerLoginC2S
+{
+	 int32  id      = 1;//玩家id
+	 string session = 2;//快速重连session，正常登陆不用填
+	 string addr = 3;  //代理使用
+}
+
+//玩家登陆
+message GamerLoginS2C
+{
+	 int32 error = 1;
+	 GamerMain main = 2;             //玩家主信息
+}
+
+message GamerLoginGetDataC2S
+{
+	 int32 id = 1;				//玩家id
+}
+
+message GamerLoginGetDataS2C
+{
+	 int32 error = 1;
+	 ServerTime time = 2;  //服务器当前时间
+	 repeated GamerFriendRequest friendReqs = 3;
+	 repeated GamerFriend friends = 4;
+	 int32 lengthRank = 5;
+}
+
+// 服务器时间
+message ServerTimeC2S
+{
+   int32 id = 1;
+}
+
+// 服务器时间
+message ServerTimeS2C
+{
+	 int32 error = 1;
+	 ServerTime time = 2;  //服务器当前时间
+}
+
+message GamerNotifyLoginOtherS2C
+{
+    int32 error = 1;
+}
+
+message GamerSubChatChannelC2S
+{
+	 int32 id = 1;				//玩家id
+	 int32 channel = 2;
+	 bool open = 3;
+}
+
+message GamerSubChatChannelS2C
+{
+	 int32 error = 1;				//玩家id
+}
+
+
+
+//通知客户端经验等级
+message GamerNotifyExpLevelS2C
+{
+    int32 error    = 1; 
+    int32 exp      = 2; //经验
+    int32 level    = 3; //等级
+}
+
+
+
+
+//--------------------------------------------------------------------------社交
+//好友聊天
+message GamerFriendChatC2S
+{
+	 int32 id = 1;	//个人id
+     int32 toId = 2;   //接收好友id
+     string msg = 3;  //聊天内容
+}
+
+//好友聊天
+message GamerFriendChatS2C
+{
+	 int32 error = 1;
+}
+
+//世界聊天
+message GamerWorldChatC2S
+{
+	 int32 id = 1;	//个人id
+	 int32 server = 2;//服务器
+     string msg = 3;  //聊天内容
+}
+
+//世界聊天
+message GamerWorldChatS2C
+{
+	 int32 error = 1;
+}
+
+//好友聊天
+message GamerTestChatC2S
+{
+	 int32 id = 1;	//个人id
+     int32 toId = 2;   //接收好友id
+     string msg = 3;  //聊天内容
+}
+
+//好友聊天
+message GamerTestChatS2C
+{
+	 int32 error = 1;
+	 int32 id = 2;	//个人id
+}
+
+//好友聊天
+message GamerClubRequestC2S
+{
+	 int32 id = 1;	//个人id
+     int32 clubId = 2;   //接收好友id
+     string msg = 3;  //聊天内容
+}
+
+//好友聊天
+message GamerClubRequestS2C
+{
+    int32 error = 1;
+	int32 id = 2;	//个人id
+    bool ok = 3;
+}
+
+message GamerNotifyNewChatS2C
+{
+    int32 error = 1;
+    repeated ChatData chats = 2;
+}
+
+message GamerNewFriendReqC2S
+{
+    int32 id = 1;  //玩家id
+    int32 oid = 2; //对方id
+    string msg = 3;//说的话
+}
+
+message GamerNewFriendReqS2C
+{
+    int32 error = 1;
+}
+
+message GamerNotifyNewFriendReqS2C
+{
+    int32 error = 1;
+    GamerFriendRequest request = 2;
+}
+
+message GamerProcessFriendReqC2S
+{
+    int32 id = 1;   //玩家id
+    int32 oid = 2;  //对方id
+    bool result = 3;//结果  接受  拒绝
+}
+
+message GamerProcessFriendReqS2C
+{
+    int32 error = 1;
+}
+
+message GamerNotifyNewFriendS2C
+{
+    int32 error = 1;
+    GamerFriend friend = 2;
+}
+
+//---------------------------------邮件-------------------------------------------//
+message GamerNotifyMailS2C
+{
+    int32 error = 1;
+    int32 leftMailNum = 2;
+    repeated Mail mails = 3;
+}
+
+message GamerNotifyNewMailS2C
+{
+    int32 error = 1;
+    repeated Mail mails = 2;
+}
+
+message GamerGetMailC2S
+{
+    int32 id = 1;
+}
+
+message GamerGetMailS2C
+{
+    int32 error = 1;
+}
+
+message GamerDelMailC2S
+{
+    int32 id = 1;
+    string mailId = 2;
+}
+
+message GamerDelMailS2C
+{
+    int32 error = 1;
+}
+
+message GamerDelHaveReadMailC2S
+{
+    int32 id = 1;
+}
+
+message GamerDelHaveReadMailS2C
+{
+    int32 error = 1;
+}
+
+message GamerOneKeyRcvMailRewardC2S
+{
+    int32 id = 1;
+}
+
+message GamerOneKeyRcvMailRewardS2C
+{
+    int32 error = 1;
+}
+
+message GamerChangeMailStateC2S
+{
+    int32 id = 1;
+    string mailId = 2;
+    MailState state = 3;
+}
+
+message GamerChangeMailStateS2C
+{
+    int32 error = 1;
+}
+
+//--------------------------------------------------------------------------社交
+
+//--------------------------------------------------------------------------匹配
+message GamerMatchC2S
+{
+    int32 id = 1;   //玩家id
+    int32 type = 2;
+}
+
+message GamerMatchS2C
+{
+    int32 error = 1;
+}
+
+message GamerNotifyMatchInfoS2C
+{
+    int32 error = 1;
+    MatchInfo matchInfo = 2;
+    bool reconn = 3;
+}
+
+message GamerPVPSyncC2S
+{
+    int32 id = 1;   //玩家id
+	string  session = 2;
+	PVPInput input = 3;
+	repeated int32 needFrames = 4;
+	repeated uint64  crc = 5;//CRC校验
+	repeated PVPInput agents = 6;//ai托管序列
+	bool reconn = 7;//断线重连
+	int32 index = 8;
+	string addr = 9;
+	PVPResult result = 10;
+}
+
+message GamerPVPSyncS2C
+{
+	int32 error = 1;
+}
+
+message GamerNotifyPVPSyncS2C
+{
+    int32 maxFrameCount = 1;
+    repeated PVPFrame frames = 2;
+    bytes framesData = 3;
+    repeated bytes frameData = 4;
+    int32 index = 5;
+    int32 delta = 6;
+    string session = 7;
+}
+
+message GamerNotifyNewPVPResultS2C
+{
+    int32 error = 1;
+    int32 icon = 2;
+    int32 oldLengthRank = 3;
+    int32 newLengthRank = 4;
+    PVPResult result = 5;
+}
+
+message GamerNotifyIconChangeS2C
+{
+    int32 error = 1;
+    int32 icon = 2;
+}
+
+
+message GamerGetRealTimeRankC2S
+{
+    int32 id = 1;
+}
+
+message GamerGetRealTimeRankS2C
+{
+    int32 error = 1;
+    repeated RankLength ranks = 2;
+}
+
+message GamerCheckPVPBattleC2S
+{
+    int32 id = 1;
+    string session = 2;
+}
+
+message GamerCheckPVPBattleS2C
+{
+    int32 error = 1;
+    MatchInfo matchInfo = 2;
+}
+
+message GamerUploadWXInfoC2S
+{
+    int32 id = 1;
+    WXInfo wxInfo = 2;
+}
+
+message GamerUploadWXInfoS2C
+{
+    int32 error = 1;
+}
+
+
+//创建联盟
+message CreateLeagueC2S
+{
+     int32 id = 1;  //个人id
+     string name =2;    //联盟名字
+     string declaration = 3;//宣言
+}
+
+//创建联盟返回
+message CreateLeagueS2C
+{
+    int32 error = 1;
+    LeagueData data =2;
+}
+
+//玩家上线推送联盟数据
+message GamerNotifyLeagueDataS2C
+{
+    int32 error = 1;
+    LeagueData data = 2; //联盟数据
+    repeated int32 onlineGamerList =3;//在线玩家列表
+}
+
+//玩家上线告知其他在线玩家
+message GamerNotifyLeagueGamerOnlineS2C
+{
+    int32 error = 1;
+    int32 gid =2;
+}
+
+
+//--------------------------------背包-------------------------------------------//
+message GamerGetBackpackC2S
+{
+    int32 id = 1;
+}
+
+message GamerGetBackpackS2C
+{
+    int32 error = 1;
+    repeated GameItem items = 2;
+}
+
+//单个道具更变消息
+message GamerNotifyItemS2C
+{
+    int32 error = 1;
+    GameItem item = 2;
+}
+
+message GamerSellItemC2S
+{
+    int32 id = 1;
+    int32 itemId = 2;
+    int32 num = 3;
+}
+
+message  GamerSellItemS2C
+{
+    int32 error = 1;
+}
+
+message GamerUseItemC2S
+{
+    int32 id = 1;
+    int32 itemId = 2;
+    int32 num = 3;
+}
+
+message  GamerUseItemS2C
+{
+    int32 error = 1;
+    int32 useItemId = 2;
+    repeated GameItem items = 3;
+}
+
+message GamerCompoundItemC2S
+{
+    int32 id = 1;
+    int32 itemId = 3;
+    int32 num = 4;
+}
+
+message  GamerCompoundItemS2C
+{
+    int32 error = 1;
+}
+
+message GamerSplitItemC2S
+{
+    int32 id = 1;
+    int32 itemId = 2;
+    int32 num = 3;
+}
+
+message  GamerSplitItemS2C
+{
+    int32 error = 1;
+}
+
+message GamerNotifyItemChangeS2C
+{
+    int32 error = 1;
+    repeated GameItem itemsChange = 2;
+}
+
+//***************艺人****************//
+message GamerGetActorListC2S
+{
+    int32 id = 1;
+}
+
+message  GamerGetActorListS2C
+{
+    int32 error = 1;
+    int32 maxActorNum = 2;
+    repeated Actor actors = 3;
+}
+
+message GamerChangeActorNameC2S
+{
+    int32 id = 1;
+    int32 actorId = 2;
+    string name = 3;
+}
+
+message  GamerChangeActorNameS2C
+{
+    int32 error = 1;
+}
+
+message GamerActorUpLevelC2S
+{
+    int32 id = 1;
+    int32 actorId = 2;
+}
+
+message  GamerActorUpLevelS2C
+{
+    int32 error = 1;
+}
+
+message GamerNotifyActorChangeS2C
+{
+    int32 error = 1;
+    Actor actor = 2;
+}
+
+////////获得艺人图鉴
+message GamerGetActorSetListC2S
+{
+    int32 id = 1;
+}
+
+message  GamerGetActorSetListS2C
+{
+    int32 error = 1;
+    repeated ActorSet actorSet = 2;
+}
+
+//艺人图鉴领取奖励
+message GamerGetActorSetRewardC2S
+{
+    int32 id = 1;
+    int32 actorSetId = 2;
+}
+
+message  GamerGetActorSetRewardS2C
+{
+    int32 error = 1;
+    repeated GameItem items = 2;
+}
+
+//艺人图鉴变更通知
+message GamerNotifyActorSetChangeS2C
+{
+    int32 error = 1;
+    ActorSet actorSet = 2;
+}
+
+//艺人突破送礼
+message GamerActorSendGiftC2S
+{
+    int32 id = 1;
+    int32 actorId = 2;
+    int32 giftId = 3;
+    int32 giftNum = 4;
+}
+
+message  GamerActorSendGiftS2C
+{
+    int32 error = 1;
+}
+
+//艺人标签升级
+message GamerActorLabelUpLevelC2S
+{
+    int32 id = 1;
+    int32 actorId = 2;
+    int32 labelId = 3;
+    int32 itemId = 4;
+    int32 itemNum = 5;
+}
+
+message  GamerActorLabelUpLevelS2C
+{
+    int32 error = 1;
+}
+
+//艺人开启新标签
+message GamerActorOpenNewLabelC2S
+{
+    int32 id = 1;
+    int32 actorId = 2;
+    int32 slotId = 3;
+    int32 labelId = 4;
+}
+
+message  GamerActorOpenNewLabelS2C
+{
+    int32 error = 1;
+}
+
+//艺人购买新标签
+message GamerActorBuyNewLabelC2S
+{
+    int32 id = 1;
+    int32 actorId = 2;
+    int32 labelId = 3;
+}
+
+message  GamerActorBuyNewLabelS2C
+{
+    int32 error = 1;
+}
+
+//艺人看广告获得新标签
+message GamerActorAdNewLabelC2S
+{
+    int32 id = 1;
+    int32 actorId = 2;
+    int32 labelId = 3;
+}
+
+message  GamerActorAdNewLabelS2C
+{
+    int32 error = 1;
+}
+
+//艺人羁绊升级
+message GamerActorFriendshipUpLevelC2S
+{
+    int32 id = 1;
+    int32 actorId = 2;
+    int32 itemNum = 3;
+}
+
+message  GamerActorFriendshipUpLevelS2C
+{
+    int32 error = 1;
+}
+
+//艺人羁绊任务状态上报
+message GamerActorFriendshipTaskReportC2S
+{
+    int32 id = 1;
+    int32 actorId = 2;
+    int32 taskId = 3;
+    int32 progress = 4;
+    TaskState state = 5;
+}
+
+message  GamerActorFriendshipTaskReportS2C
+{
+    int32 error = 1;
+}
+
+//艺人技能升级
+message GamerActorSkillUpLevelC2S
+{
+    int32 id = 1;
+    int32 actorId = 2;
+    int32 skillType = 3;
+}
+
+message  GamerActorSkillUpLevelS2C
+{
+    int32 error = 1;
+}
+
+
+//--------------------------------GM-------------------------------------------//
+message GMC2S
+{
+    int32 id = 1;
+    string gm = 2;
+}
+
+message GMS2C
+{
+   int32 error = 1;
+}
+
+//***************剧本系统****************//
+
+message GamerNotifyStoryListS2C
+{
+    int32 error = 1;
+    repeated Story storyList =2;
+}
+
+
+message StoryGiveLikeC2S
+{
+	int32    id                = 1;    
+	int32    commentId         = 2;     //评论id
+	int32    storyId     = 3;    //剧本序列ID
+}
+
+message StoryGiveLikeS2C
+{
+	int32    error             = 1;
+	StoryComment storyComment   = 2;
+	int32    storyId       =3;
+}
+
+
+message StoryCommentC2S
+{	
+	int32 id            = 1;
+	int32 storyId       = 2;  //剧本Id
+	string   content    = 3;  //评论内容
+}
+
+message StoryCommentS2C
+{
+	int32 error = 1;
+	int32 storyId =2;
+	repeated StoryComment storyCommentList =3; //评论内容
+}
+
+message StoryReadCommentC2S
+{
+	int32  id  =1;
+	int32  storyId  =2;
+}
+
+message StoryReadCommentS2C
+{
+	int32 error = 1;
+	int32 storyId  = 2;
+	repeated StoryComment maxLikeCommentList =3; //最高评论
+	repeated StoryComment storyCommentList =4; //评论内容
+}
+
+message StoryGetCommentC2S
+{
+	int32  id  =1;
+	int32  storyId  =2;
+}
+
+message StoryGetCommentS2C
+{
+	int32 error = 1;
+	int32 storyId  = 2;
+	repeated StoryComment storyCommentList =3; //评论内容
+}
+
+message StoryChangeNameC2S
+{
+	int32   id       = 1;
+	int32   storyId  = 2;//剧本唯一ID
+	string  name     = 3;
+}
+
+message StoryChangeNameS2C
+{
+	int32 error = 1;
+	int32  storyId = 2;//剧本唯一ID
+}
+
+//**********************建筑系统****************//
+
+//上线通知建筑信息
+message GamerNotifyBuildInfoS2C
+{
+    int32 error = 1;
+    repeated BuildInfo buildInfo = 2;
+}
+
+
+//建筑创建和升级
+message BuildLevelUpC2S
+{
+    int32 id = 1;
+    int32 buildType =2; //建筑Id
+}
+
+message BuildLevelUpS2C
+{
+    int32 error = 1;
+    BuildInfo buildInfo = 2;
+	int64 currentServerTime =3;
+}
+
+//升级成功
+message BuildEndOfLevelUpC2S
+{
+    int32 id = 1;
+    int32 buildType =2; //建筑Id
+}
+
+message BuildEndOfLevelUpS2C
+{
+    int32 error = 1;
+    BuildInfo buildInfo = 2;
+}
+
+
+//建筑突破
+message BuildBreakUpC2S
+{
+    int32 id = 1;
+    int32 buildType =2;//建筑Id
+}
+
+message BuildBreakUpS2C
+{
+    int32 error = 1;
+    BuildInfo buildInfo = 2;
+}
+
+//建筑升级加速
+message BuildSpeedUpC2S
+{
+    int32 id = 1;
+    int32 buildType =2;//建筑Id
+    SpeedUpType speedUpType =3; //加速类型
+}
+
+message BuildSpeedUpS2C
+{
+    int32 error = 1;
+    BuildInfo buildInfo = 2;
+	int64  currentServerTime = 3;//服务器当前时间
+}
+
+message BuildGetProductC2S
+{
+    int32 id = 1;
+    int32 buildType =2;
+}
+
+message BuildGetProductS2C
+{
+    int32 error = 1;
+    int32 buildType =2;
+    repeated BuildProduct productInfo =3;
+}
+
+//艺人进驻建筑
+message ActorEnterBuildC2S
+{
+    int32 id = 1;
+    int32 actorId =2; //艺人id
+    int32 cellId =3; //槽位id
+}
+
+//艺人进驻建筑
+message ActorEnterBuildS2C
+{
+    int32 error = 1;
+    int32 buildType =2;
+    BuildActorCell actorCell = 3;
+	repeated BuildProduct productInfo =4;
+}
+
+
+////艺人退出建筑
+message ActorLeaveBuildC2S
+{
+    int32 id = 1;
+    int32 actorId =2; //艺人id
+}
+
+
+//艺人退出建筑
+message ActorLeaveBuildS2C
+{
+    int32 error = 1;
+    int32 buildType =2;
+    BuildActorCell actorCell = 3;
+	int32 actorId =4;
+}
+
+//**********************抽奖系统****************//
+//获取已抽奖信息
+message GamerNotifyGashaponInfoS2C
+{
+    int32 error = 1;
+    repeated Gashapon infos = 2;
+}
+
+//抽奖
+message GamerExtractGashaponC2S
+{
+    int32 id = 1;
+    int32 gashaponId = 2;
+}
+
+message GamerExtractGashaponS2C
+{
+    int32 error      = 1;
+    int32 gashaponId = 2;
+	int32 storyExtractState = 3;
+    repeated GameItem items = 4;
+}
+
+message StoryExtractGashaponC2S
+{
+	int32 id = 1;
+    int32 gashaponId = 2;
+}
+
+message StoryExtractGashaponS2C
+{
+	int32 error      = 1;
+    int32 gashaponId = 2;
+	int32 storyExtractState = 3;
+    repeated GameItem items = 4;
+}
+
+//抽奖次数累积一定次数后，领取奖励
+message GamerGetAllowanceC2S
+{
+    int32 id = 1;
+    int32 type = 2;
+}
+
+message GamerGetAllowanceS2C
+{
+    int32 error      = 1;
+    int32 type = 2;
+    repeated GameItem items = 3;
+}
+
+//获取剧本抽取信息
+message GetStoryExtractInfoC2S
+{
+	int32 id = 1;
+    int32 gashaponId = 2;
+}
+
+message GetStoryExtractInfoS2C
+{
+	int32 error   = 1;
+    Gashapon gashapon   = 2;
+}
+
+//清除剧本抽取CD
+message CleanStoryExtractCDC2S
+{
+	int32 id = 1;
+    int32 gashaponId = 2;
+}
+
+message CleanStoryExtractCDS2C
+{
+	int32 error   = 1;
+    Gashapon gashapon   = 2;
+}
+
+//购买剧本抽取次数
+message PurchaseStoryExtractNumC2S
+{
+	int32 id = 1;
+	int32 gashaponId = 2;
+}
+
+message PurchaseStoryExtractNumS2C
+{
+	int32 error   = 1;
+    Gashapon gashapon   = 2;
+}
+
+
+//**********************情报系统****************//
+message GamerNotifyIntelligenceS2C
+{
+    int32 error = 1;
+    repeated Intelligence intelligences = 2;
+}
+
+message GamerGetIntelligenceC2S
+{
+    int32 id = 1;
+}
+
+message  GamerGetIntelligenceS2C
+{
+    int32 error = 1;
+    repeated Intelligence intelligences = 2;
+}
+
+//情报红点
+message GamerChangeIntelligenceStateC2S
+{
+    int32 id = 1;
+    repeated int32 intelligencesId = 2;
+}
+
+message  GamerChangeIntelligenceStateS2C
+{
+    int32 error = 1;
+}
+
+//情报解析
+message GamerIntelligenceParseC2S
+{
+    int32 id = 1;
+    IntelligencePaseType type = 2;
+    repeated int32 intelligencesId = 3;
+}
+
+message GamerIntelligenceParseS2C
+{
+    int32 error = 1;
+    IntelligencePaseResultType type = 2;
+    int32 actorId = 3;
+    repeated GameItem items = 4;
+    repeated int32 notMatchIntelligencesId = 5;
+}
+
+//*************************************拍摄系统*************************************************\\
+//拍摄
+message StudioC2S
+{
+    int32 id = 1;
+}
+
+message StudioS2C
+{
+    int32 error = 1;                       
+    StudioData data = 2;                                  // 拍摄数据, step(如果是重新拍摄， selectStory， 其他就是之前缓存)
+    repeated StudioActorHistoryPos actorPosList = 3;      //不是第一期（要和艺人上次拍摄艺人相同，换阵要产生费用）
+}
+
+
+//拍摄--选择剧本
+message StudioStorySelectC2S
+{
+    int32 id = 1;
+    int32 storyId   = 2;                //剧本ID
+    string name     = 3;                //剧本名称
+}
+
+message StudioStorySelectS2C
+{
+    int32       error = 1;         //反馈, 0成功, 1名称不符, step-> selectActor
+    StudioData  data  = 2;        // 拍摄数据
+}
+
+//拍摄--选择艺人
+message StudioActorSelectC2S
+{
+    int32 id = 1;
+    int32 storyCharactersId     = 2;                //艺人槽位ID
+    int32 actorId               = 3;                //艺人ID
+}
+
+message StudioActorSelectS2C
+{
+    int32 error                         = 1;             //反馈, 0成功, 1选择艺人槽位不符
+    repeated StudioActor    actors      = 2;            // 艺人列表
+}
+
+//匹配展示完成
+message StudioMatchingDisplayEndC2S
+{
+     int32 id = 1;
+}
+
+
+//匹配展示完成
+message StudioMatchingDisplayEndS2C
+{
+        int32 error                 = 1;  //  step-> selectEventOption
+}
+
+//拍摄--事件 step-> selectEventOption
+message GamerNotifyStudioEventS2C
+{
+    int32                   error           = 1; 
+    int32                   eventId         = 2;                            //事件ID
+    StudioEventType         eventType       = 3;                            //事件类型  
+    int32                   actorId         = 4;                            //艺人事件的艺人ID
+}
+
+//拍摄--事件--选择选项
+message StudioEventOptionSelectC2S
+{
+    int32 id = 1;
+    int32 eventOption       = 2;                            //事件选项
+}
+
+message StudioEventOptionSelectS2C
+{
+    int32 error                             = 1; 
+    StudioEvent event                       = 2;        // step-> eventEvaluations
+}
+
+
+//拍摄--开始,事件结束后就是开始
+message StudioStartC2S
+{
+    int32 id = 1;
+}
+
+message StudioStartS2C
+{
+    int32 error                 = 1;                //反馈, 0成功, 1行动力不足，2上阵艺人不足
+    StudioData data             = 2;                // 拍摄数据  step-> matchingDisplay
+}
+
+//拍摄--继续下一步骤
+message StudioNextStepC2S
+{
+    int32 id = 1;
+    StudioStep              step                = 2;            // 步骤
+}
+
+
+message StudioNextStepS2C
+{
+    int32                   error               = 1;
+    StudioStep              step                = 2;            // 步骤
+}
+
+//首次奖励通知
+message GamerNotifyStudioFirstRewardS2C
+{
+    int32                 error                 = 1;
+    repeated GameItem     firstReward           = 2;    //首次 奖励 经验以道具的方式展示
+    StudioContinuedData   continueEarning       = 3;    //持续收益
+}
+
+//==========================================================
+// 拍摄后期收益
+//-----------------------------------------------------------
+
+//拍摄后期收益--数据列表
+message StudioContinuedListC2S
+{
+    int32 id = 1;           
+}
+
+message StudioContinuedListS2C
+{
+    int32                                       error       = 1;
+    repeated StudioContinuedData                list        = 2;                //拍摄后期收益数据列表
+}
+
+
+
+//拍摄后期收益--获取收益
+message StudioContinuedReceiveC2S
+{
+    int32 id = 1;
+    int32 uid = 2;                  
+}
+
+message StudioContinuedReceiveS2C
+{
+    int32                     error             = 1;
+    StudioContinuedUpdateData data              = 2;
+    int32                     goldNum           = 3;
+}
+
+
+//拍摄后期收益--获取所有收益
+message StudioContinuedReceiveAllC2S
+{
+    int32 id = 1;               
+}
+
+message StudioContinuedReceiveAllS2C
+{
+    int32                               error             = 1;
+    repeated StudioContinuedUpdateData  dataList          = 2;
+    int32                               goldNum           = 3;
+}
+
+//*************************************活动系统*************************************************\\
+message GamerNotifyActivitiesS2C
+{
+	int32 error  = 1;
+	CountActivity countActivity = 2;
+}
+
+message GetActivityRewardC2S
+{
+	int32 id = 1;
+	int32 activityId = 2;
+}
+
+message GetActivityRewardS2C
+{
+	int32 error  = 1;
+	int32 activityId = 2;
+//*************************************任务系统*************************************************\\
+message GamerNotifyDailyTaskS2C
+{
+    int32                   error          = 1;
+    int32                   activityDegree = 2; //活跃度
+    repeated DailyTaskGift  dailyGifts     = 3; //每日任务礼包
+}
+
+message GamerNotifyTaskS2C
+{
+    int32          error          = 1;
+    repeated Task  tasks          = 2;
+}
+
+//领取任务
+message GamerAcceptTaskC2S
+{
+    int32 id = 1;
+    TaskType type = 2;
+    int32 taskId = 3;
+}
+
+message GamerAcceptTaskS2C
+{
+    int32 error = 1;
+}
+
+//任务完成领取奖励
+message GamerGetTaskRewardC2S
+{
+    int32 id = 1;
+    TaskType type = 2;
+    int32 taskId = 3;
+}
+
+message GamerGetTaskRewardS2C
+{
+    int32 error = 1;
+    repeated GameItem items = 2;
+}
+
+//每日任务活跃度奖励
+message GamerGetDailyTaskActivityDegreeRewardC2S
+{
+    int32 id = 1;
+    int32 giftId = 2;//礼包ID
+}
+
+message GamerGetDailyTaskActivityDegreeRewardS2C
+{
+    int32 error = 1;
+    repeated GameItem items = 2;
+}
+
+//获得新手引导进度
+message GamerGetGuideProgressC2S
+{
+    int32 id = 1;
+}
+
+message GamerGetGuideProgressS2C
+{
+    int32 error = 1;
+    int32 progress = 2;
+}
+
+//设置新手引导进度
+message GamerSetGuideProgressC2S
+{
+    int32 id = 1;
+    int32 progress = 2;
+}
+
+message GamerSetGuideProgressS2C
+{
+    int32 error = 1;
+}

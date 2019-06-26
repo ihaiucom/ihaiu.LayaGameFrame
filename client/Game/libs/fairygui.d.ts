@@ -659,6 +659,7 @@ declare module fairygui {
         onStage: boolean;
         resourceURL: string;
         group: GGroup;
+        _gears: fairygui.gears.GearBase[];
         gearDisplay: fairygui.gears.GearDisplay;
         gearXY: fairygui.gears.GearXY;
         gearSize: fairygui.gears.GearSize;
@@ -1113,6 +1114,7 @@ declare module fairygui {
 declare module fairygui {
     class Transition {
         name: string;
+        _timeScale:number;
         constructor(owner: GComponent);
         play(onComplete?: laya.utils.Handler, times?: number, delay?: number, startTime?: number, endTime?: number): void;
         playReverse(onComplete?: laya.utils.Handler, times?: number, delay?: number): void;

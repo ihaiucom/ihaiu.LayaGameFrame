@@ -3,6 +3,9 @@
 // ---------------------------
 export default class TEXT
 {
+    static Login = "登录";
+    static Auth = "授权";
+
     static cannotRecharge = "游客不能充值";
     static cannotRechargeNoIos = "只支持ios内购";
     static rechargeError = "充值失败，请稍候重试";
@@ -35,6 +38,7 @@ export default class TEXT
     static AfterToScountActor = "{0}后探查次数加1";
     static AfterToClearNoseTimes = "星探今天已下班，{0}后即可在派他出去。\n也可消耗星探卡即刻派出";
     static ScountActor = "探查";
+    static ActorCapacity = "{0}/{1}";//可招募艺人：2/10
     static ActorMax = "艺人招募数量最大";
     static HideActorMax = "雪藏艺人数量达到最大,请升级公司等级或艺人教室等级";
     static DisHideAllActor = "无法雪藏全部艺人";
@@ -82,7 +86,7 @@ export default class TEXT
     static SureUseDefaultName = "确认使用默认名字？";
     static RenameAnGoodName = "给{0}取个好名字吧";
     static NameDisNull = "名字不能为空";
-    static Input4toNumChar = "输入4到{0}个字符";
+    static RenameInputPlaceholder = "输入{0}到{1}个字符";
     static NoseActor = "招募";
     static AliveAcotr = "是否确认花费{0}{1}复活该艺人";
     static Hour = "小时";
@@ -96,7 +100,7 @@ export default class TEXT
     static NeedLoyalty = "需要忠诚度{0}级";
     static LvUpMax = "等级达到最大";
     static UpLvLimit = "提高等级上限";
-    static LvUpTo = "{0} 等级上限 {1} → {2}";
+    static LvUpTo = "玩家升级 {0} → {1}";
     static Send = "赠送";
     static ExpertStory = "擅长的剧本";
     static ExpertCharacter = "擅长的角色";
@@ -138,7 +142,7 @@ export default class TEXT
     static type = "类型";
     static OldName = "原艺名：";
     static Level = "等级:";
-    static RenameTip = "老板，要给我重新起个艺名吗?";
+    static RenameTitle = "老板，要给我重新起个艺名吗?";
     static DiamondTrain = "钻石培养";
     static DiamondMustBeMax = "(钻石培养必然获得最大值)";
     static PropertyTipMsg = "在仓库可分解高星资产，或者用低星资产合成。";
@@ -208,6 +212,8 @@ export default class TEXT
     static NineToFiftyFiveTip = "很抱歉，为保证比赛公平，21点55分后将无法进行电影拍摄";
     static GoldFilmActorTalk = ["金本爆发时的人物喊话1金本爆发时的人物喊话1金本爆发时的人物喊话1", "金本爆发时的人物喊话2金本爆发时的人物喊话2金本爆发时的人物喊话2", "金本爆发时的人物喊话3金本爆发时的人物喊话3金本爆发时的人物喊话3"];
 
+    static LevelLockTitle = "{0}级可解锁";
+    static LevelUnLockTitle = "可解锁";
 
     static FilmLongTime = "{0}分钟";
     static FilmKouBei = "观众口碑：{0}";
@@ -277,25 +283,30 @@ export default class TEXT
     static CooperationGiveRewardDollar = "赠送美元";
     static CooperationGiveRewardGold = "赠送金币";
 
+    static TimeEnd = "00:00:00";
+
     //Build	
-    static Floor = "第{0}层";
-    static BuildFloor = "扩建第{0}层";
-    static BuildUpgrade = "升级至 {0}级";
-    static BuildUpgrade_UBB = "[color=#66ff66]升级至{0}级[/color]";
-    static CompanyLevel = "LV.{0}解锁";
-    static BuildEffect = "建筑作用：";
+    static BuildTitleType = ["建筑详情", "建筑建造", "建筑升级", "建筑突破"];
+    static BuildTitleCost = "消耗";
+    static BuildOpenBre  = "{0}等级上限提高至{1}级";
+    static BuildReturnActor = "召回艺人{0}入驻{1}"
+    static BuildBreakOpen= "突破后开启";
+    static BuildActorRemove = "移除";
+    static BuildSpeedUp  = "花费{0}钻石完成建造！";
+    static BuildBreak = "建筑突破";
+    static BuildContent = "详情";
+    static BuildEffect = "建筑说明";
     static BuildLevelEffect = "升级效果：";
-    static BuildLevelup = "升级";
-    static BuildConfirm = "确认";
-    static BuildLevel = "等级{0}";
-    static BuildFloorAlert = "确认要扩建{0}层吗？";
-    static BuildTitle = "建造";
-    static ActorExperciseExpedite = "加速";
-    static BuildFloorFailLevel = "需要公司等级达到：{0}";
-    static BuildFloorFailCity = "需要占领城市：{0}. {1}";
-    static BuildActorRoomTalentNpc = "星探"; //
-    static BuildActorRoomTrainerNpc = "培训师";
-    static TopFloor = "Top Floor";
+    static BuildNextLevel = "下一等级 {0}";
+    static BuildSuccessLevel = "建筑等级："
+    static BuildPlusNum = "+{0}";
+    static BuildNeedTimeTail = "{0}后存满";
+    static BuildOpenNewCell = "开启新的进驻席位";
+
+
+
+    //Actor
+    static ActorLevelUpSuccess = "艺人升级成功";
 
     //
     static LincenceMax = "拍摄许可证达到上限";
@@ -365,21 +376,33 @@ export default class TEXT
     static PlayerInfoTabFilm_Rank7 = "拍摄过的叙事片数量";
     static PlayerInfoTabFilm_Rank8 = "拍摄过的爱情片数量";
     static PlayerInfoTabFilm_Rank9 = "拍摄过的动作片数量";
-    //ACTORS
-    static PlayerInfoTabActor_Rank0 = "票房号召力最强的艺人";
-    static PlayerInfoTabActor_Rank1 = "得奖最多的艺人";
-    static PlayerInfoTabActor_Rank1Value = "{0}次";
-    static PlayerInfoTabActor_Rank2 = "拍摄电影最多的艺人";
-    static PlayerInfoTabActor_Rank2Value = "{0}部";
-    static PlayerInfoTabActor_Rank3 = "最偏爱的艺人";
-    static PlayerInfoTabActor_Rank3Value = "赠送{0}个";
-    static PlayerInfoTabActor_Rank4 = "最重视的艺人";
-    static PlayerInfoTabActor_Rank4Value = "培养{0}次";
-    static PlayerInfoTabActor_Rank5 = "最信赖的艺人";
-    static PlayerInfoTabActor_Rank5Value = "技能共{0}级";
+    //ACTOR
+    // static PlayerInfoTabActor_Rank0 = "票房号召力最强的艺人";
+    // static PlayerInfoTabActor_Rank1 = "得奖最多的艺人";
+    // static PlayerInfoTabActor_Rank1Value = "{0}次";
+    // static PlayerInfoTabActor_Rank2 = "拍摄电影最多的艺人";
+    // static PlayerInfoTabActor_Rank2Value = "{0}部";
+    // static PlayerInfoTabActor_Rank3 = "最偏爱的艺人";
+    // static PlayerInfoTabActor_Rank3Value = "赠送{0}个";
+    // static PlayerInfoTabActor_Rank4 = "最重视的艺人";
+    // static PlayerInfoTabActor_Rank4Value = "培养{0}次";
+    // static PlayerInfoTabActor_Rank5 = "最信赖的艺人";
+    // static PlayerInfoTabActor_Rank5Value = "技能共{0}级";
+   
+
+
+    //Information
+    static InformationMineTitle = "我的情报";
+    static InformationAddTitle = "添加情报";
+    static InformationBeyondMax = "最多添加{0}条情报";
+
+    static InformationFreeTime = "{0}后免费";
+    static InformationNoEnough = "至少需要3条情报";
+    static InformationSpecialNoEnough = "请放入情报";    
+
+    
 
     //Story
-    static StoryFindTime = "搜罗次数:";
     static StoryTitle = "剧本";
     static StoryCollect = "集齐剧本";
     static StoryFind = "收罗剧本";
@@ -407,6 +430,8 @@ export default class TEXT
     static GetAllReward = "恭喜您已获得全部礼包";
     static NextRewardTip = "Unlock at LV.{0}";
     static GiftTipTitle = "LV.{0} Gift";
+
+    static StoryNumLable = "剧本{0}/{1}";
 
     //Produce
     static ProduceTime = "每次生产时间：{0}";
@@ -635,8 +660,6 @@ export default class TEXT
     //
     static AssistantTrainTimes = "培养次数：";
     //
-    static AssistantUnlockTrain = "{0}级解锁";
-    //
     static AssistantUnlockTag = "{0}级解锁";
     //
     static AssistantStudy = "学习";
@@ -648,4 +671,82 @@ export default class TEXT
     static GuideCompleteRewardTitle = "完成主线任务奖励";
     //
     static GuideCompleteGetBtnTitle = "领取";
+
+    static Progress = "{0}/{1}";
+    
+    // 数字
+    static N0 = "零";
+    static N1 = "一";
+    static N2 = "二";
+    static N3 = "三";
+    static N4 = "四";
+    static N5 = "五";
+    static N6 = "六";
+    static N7 = "七";
+    static N8 = "八";
+    static N9 = "九";
+    static N10 = "十";
+    static N100 = "百";
+    static N1000 = "千";
+    static N10000 = "万";
+
+
+    // 拍摄
+    static StudioNotOpen = "拍摄中心暂未开放";
+    static StudioEventAllCollected = "已完成";
+    static StudioEventCollecting = "已完成{0}/{1}";
+    static StudioSelectStoryTip = "请先选择剧本";
+    static StudioStoryName = "《{0}》";
+    static StudioStoryNameSeason = "《{0} 第{1}季》";
+    static StudioStoryNameEpisode = "《{0}》 第{1}期";
+    static StudioStoryNameAll = "《{0} {1}》 第{1}期";
+    static StudioStorySeasonEpisode = "第{0}季 第{1}期";
+    static StudioStorySeason = "第{0}季";
+    static StudioStoryEpisode = "第{1}期";
+    static StudioStoryNoEmpty = "剧本名字不能为空";
+    static StudioEventContent = "《{0}》{1}";
+    static TabAll = "综合";
+    static StudioSABannerTip = "该艺人位，{0}属性、{1}属性效果更佳";
+    static StudioCommentTitle = "评论 {0}";
+    static StudioSACost  = "拍摄消耗行动力x{0}";
+    static StudioEventComment = "{0}";
+    static StudioRating = "收视率 {0}";
+    static StudioScorePart2 = ".{0}分";
+    static StudioContinueTime = "网综收益将持续{0}";
+    static StudioTicketsSold = "{0}人已购买";
+    static StudioTotalProfit = "总收益{0}元";
+    static StudioPropNum = "{0}: {1}";
+    static StudioPlusNum = "+ {0}";
+
+    static CompanyExperience = "公司经验值 +{0}";
+    
+    static RewardItemCount = "x{0}";
+
+    static StudioContinueReward = "获得奖励：金币x{0}";
+    static StudioContinueNotInTime = "没到时间";
+    // Home
+    static HomeUnitSeatOccupy = "座位已有人";
+    
+    static StoryLotteryGoldNum = "金币 {0}";
+    static StoryLotteryNum = "创作次数：{0}/{1}";
+    static StoryLotteryCD = "清除CD";
+    static StoryLotteryBtn = "创作";
+    static StoryLotteryFiald = "剧本招募未成功，返还部分金币";
+    static MainTaskAward = "领奖成功";
+    
+
+    //每日任务
+    /** 活跃度 */
+    static DailyTaskActivity = "活跃度：{0}";
+    /** 完成度 */
+    static DailyTaskCompletion = "完成度：{0}/{1}";
+
+
+    // Time xx前
+    static DATE_MonthBefore = "{0}个月前";
+    static DATE_WeekBefore = "{0}周前";
+    static DATE_DayBefore = "{0}天前";
+    static DATE_HourBefore = "{0}小时前";
+    static DATE_MinuteBefore = "{0}分钟前";
+    static DATE_SecondeBefore = "{0}秒前";
 }
