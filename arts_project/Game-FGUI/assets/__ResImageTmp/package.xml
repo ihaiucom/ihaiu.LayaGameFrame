@@ -1,38 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <packageDescription id="qjz790ec" jpegQuality="80" compressPNG="true">
-  <resources>
-    <image id="szhv4" name="icon_film_zjm.png" path="/MenuIcon/"/>
-    <image id="szhvg" name="icon_run_zjm.png" path="/MenuIcon/"/>
-    <image id="szhvi" name="icon_set_zjm.png" path="/MenuIcon/"/>
-    <image id="szhvk" name="icon_awards_zjm.png" path="/MenuIcon/"/>
-    <image id="krdky" name="任务.png" path="/MenuIcon/"/>
-    <image id="krdkz" name="商城.png" path="/MenuIcon/"/>
-    <image id="krdk10" name="奖励.png" path="/MenuIcon/"/>
-    <image id="krdk11" name="活动.png" path="/MenuIcon/"/>
-    <image id="krdk12" name="福利.png" path="/MenuIcon/" exported="true"/>
-    <image id="krdk13" name="邮件.png" path="/MenuIcon/" exported="true"/>
-    <image id="krdk14" name="icon剧本.png" path="/MenuIcon/" exported="true"/>
-    <image id="krdk15" name="icon社交.png" path="/MenuIcon/" exported="true"/>
-    <image id="krdk16" name="icon背包.png" path="/MenuIcon/" exported="true"/>
-    <image id="krdk17" name="icon艺人.png" path="/MenuIcon/" exported="true"/>
-    <image id="krdk18" name="打板器.png" path="/MenuIcon/" exported="true"/>
-    <image id="krdk19" name="摄像.png" path="/MenuIcon/"/>
-    <image id="l291j" name="CaiXukun.png" path="/ActorBodyIcon/" exported="true"/>
-    <image id="l291g" name="OuyangNana.png" path="/ActorBodyIcon/" exported="true"/>
-    <image id="l291i" name="WuXuanyi.png" path="/ActorBodyIcon/" exported="true"/>
-    <image id="l291k" name="WuYifan.png" path="/ActorBodyIcon/" exported="true"/>
-    <image id="l291h" name="YangMi.png" path="/ActorBodyIcon/" exported="true"/>
-    <image id="l2912" name="changjing.png" path="/StoryScene/" exported="true"/>
-    <image id="jej7xu" name="主界面效果图.png" path="/效果图/"/>
-    <image id="e9ray3" name="movie1.png" path="/StoryIcon/" exported="true"/>
-    <image id="e9ray4" name="movie2.png" path="/StoryIcon/" exported="true"/>
-    <image id="e9ray5" name="movie3.png" path="/StoryIcon/" exported="true"/>
-    <image id="g2f5zj" name="defalut.png" path="/StoryScene/" exported="true"/>
-    <image id="g2f5zk" name="normal_01.png" path="/StoryScene/" exported="true"/>
-    <image id="n3dz15o" name="DiLiReBa.png" path="/ActorBodyIcon/" exported="true"/>
-    <image id="n3dz15q" name="WangJiaer.png" path="/ActorBodyIcon/"/>
-    <image id="n3dz15r" name="WangJunkai.png" path="/ActorBodyIcon/" exported="true"/>
-    <image id="7rmy15t" name="JuJingyi.png" path="/ActorBodyIcon/"/>
-  </resources>
+  <resources/>
   <publish name="__ResImageTmp" genCode="true"/>
 </packageDescription>

@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <packageDescription id="vh8b3r0j" jpegQuality="80" compressPNG="true">
   <resources>
-    <image id="oh5i1x" name="拍摄背景.png" path="/" exported="true"/>
-    <image id="agif4n" name="shoot_bg_share.jpg" path="/" exported="true"/>
-    <image id="l44g4o" name="intelligence_bg.png" path="/" exported="true"/>
     <image id="mfsp11r" name="背景底板.png" path="/" exported="true"/>
     <image id="o24t11t" name="半透遮罩.png" path="/" exported="true" scale="9grid" scale9grid="10,680,730,60"/>
-    <image id="mfsp11e" name="豆瓣评分背景.png" path="/" exported="true"/>
   </resources>
   <publish name="_ResImagePic"/>
 </packageDescription>

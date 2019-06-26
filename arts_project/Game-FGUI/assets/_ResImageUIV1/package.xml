@@ -14,45 +14,20 @@
     <image id="jp8ru" name="top金币.png" path="/_公用--标识和图标/货币图标/" exported="true"/>
     <image id="jp8rt" name="top体力.png" path="/_公用--标识和图标/货币图标/" exported="true"/>
     <image id="jp8rv" name="top钻石.png" path="/_公用--标识和图标/货币图标/" exported="true"/>
-    <image id="pz3xx" name="bg_artistlock.png" path="/__临时UI/"/>
-    <image id="pz3xy" name="bg_artistselect.png" path="/__临时UI/"/>
-    <image id="pz3x11" name="bg_headicon.png" path="/__临时UI/" exported="true"/>
     <image id="pz3x13" name="线--大小2--灰--透明度.png" path="/_公用--线/" exported="true" scale="9grid" scale9grid="0,0,4,2"/>
     <image id="pz3x15" name="0xece3e4_Alpha_50--灰.png" path="/_公用--背景--色块/半透/" exported="true"/>
-    <image id="pz3x17" name="bg_popupbox.png" path="/__临时UI/" exported="true"/>
-    <image id="pz3x18" name="bg_remove.png" path="/__临时UI/" exported="true"/>
     <image id="pz3x19" name="bg_resource.png" path="/_公共--背景--栏目标题/" exported="true" scale="9grid" scale9grid="30,10,68,26"/>
-    <image id="pz3x1c" name="btn_tabbig_down.png" path="/__临时UI/" exported="true"/>
-    <image id="pz3x1d" name="btn_tabbig_up.png" path="/__临时UI/" exported="true"/>
-    <image id="pz3x1e" name="btn_tabsmall_down.png" path="/__临时UI/" exported="true"/>
-    <image id="pz3x1f" name="btn_tabsmall_up.png" path="/__临时UI/" exported="true"/>
-    <image id="pz3x1g" name="btn_x.png" path="/__临时UI/" exported="true"/>
     <image id="pz3x1h" name="icon_financecenter.png" path="/_公用--标识和图标/临时可能删除/" exported="true"/>
-    <image id="i3pq1i" name="building_bg_artistlock.png" path="/__临时UI/" exported="true"/>
-    <image id="i3pq1j" name="building_bg_artistselect.png" path="/__临时UI/" exported="true"/>
-    <image id="i3pq1m" name="building_bg_dot01.png" path="/__临时UI/" exported="true"/>
-    <image id="i3pq1n" name="building_bg_dot02.png" path="/__临时UI/" exported="true"/>
-    <image id="i3pq1p" name="building_bg_maskartist.png" path="/__临时UI/" exported="true"/>
     <image id="i3pq1q" name="bg_arrow.png" path="/_公用--标识和图标/" exported="true"/>
-    <image id="i3pq1r" name="building_bg_breakthroughlight.png" path="/__临时UI/" exported="true"/>
-    <image id="i3pq1s" name="building_bg_breakthroughlight01.png" path="/__临时UI/" exported="true"/>
-    <image id="i3pq1t" name="building_bg_breakthroughtext.png" path="/__临时UI/" exported="true"/>
     <image id="i3pq1u" name="building_bg_finishedtext.png" path="/_文本/" exported="true"/>
-    <image id="i3pq1v" name="building_bg_upgrad.png" path="/__临时UI/" exported="true" scale="9grid" scale9grid="10,180,730,35"/>
-    <image id="i3pq1w" name="building_bg_upgradelight.png" path="/__临时UI/" exported="true"/>
-    <image id="i3pq1x" name="building_bg_upgradelight01.png" path="/__临时UI/" exported="true"/>
     <image id="i3pq1y" name="building_bg_upgradetext.png" path="/_文本/" exported="true"/>
     <image id="i3pq1z" name="building_btn_breakthrough.png" path="/_公用--按钮/临时--建筑菜单/" exported="true"/>
     <image id="i3pq20" name="building_btn_in.png" path="/_公用--按钮/临时--建筑菜单/" exported="true"/>
     <image id="i3pq21" name="building_btn_speed.png" path="/_公用--按钮/临时--建筑菜单/" exported="true"/>
-    <image id="i3pq23" name="btn_commonsmall.png" path="/__临时UI/" exported="true"/>
     <image id="i3pq2a" name="script_bg_frame.png" path="/_公用--背景-框/" exported="true"/>
     <image id="i3pq2b" name="script_flag_gpld.png" path="/_公用--标识和图标/临时需要替换/" exported="true"/>
     <image id="i3pq2c" name="script_flag_grey.png" path="/_公用--标识和图标/临时需要替换/" exported="true"/>
     <image id="i3pq2d" name="script_star.png" path="/_公用--标识和图标/" exported="true"/>
-    <image id="i3pq2i" name="artist_bg_name.png" path="/__临时UI/" exported="true" scale="9grid" scale9grid="79,96,158,192"/>
-    <image id="i3pq2j" name="artist_bg_resource.png" path="/__临时UI/" exported="true" scale="9grid" scale9grid="36,40,6,9"/>
-    <image id="i3pq2k" name="btn_vertical.png" path="/__临时UI/" exported="true"/>
     <image id="i3pq2l" name="icon_information.png" path="/_公用--标识和图标/临时可能删除/" exported="true"/>
     <image id="i3pq2m" name="icon_photograph.png" path="/_公用--标识和图标/临时可能删除/" exported="true"/>
     <image id="i3pq2n" name="半透--全边框--蓝紫色.png" path="/_公用--背景--色块/半透--有边框效果/" exported="true" scale="9grid" scale9grid="4,4,4,4"/>
@@ -77,7 +52,6 @@
     <image id="u6m73u" name="8.png" path="/_文本--数字/数字--白色-58x71/" exported="true"/>
     <image id="u6m73w" name="9.png" path="/_文本--数字/数字--白色-58x71/" exported="true"/>
     <image id="u6m746" name="透明渐变--粉红--00--30.png" path="/_公用--背景--色块/渐变/" exported="true"/>
-    <image id="u6m749" name="半透格子不对称.png" path="/__临时UI/" exported="true"/>
     <image id="u6m74b" name="播放.png" path="/_公用--标识和图标/" exported="true"/>
     <image id="u6m74c" name="收视率.png" path="/_文本/" exported="true"/>
     <image id="u6m74e" name="标题底板(1).png" path="/_公共--背景--栏目标题/" exported="true"/>
@@ -90,8 +64,6 @@
     <image id="u6m756" name="线--大小3--灰--渐变.png" path="/_公用--线/" exported="true" scale="9grid" scale9grid="1,0,3,3"/>
     <image id="u6m75a" name="星星1.png" path="/_公用--标识和图标/" exported="true"/>
     <image id="u6m75b" name="星星2.png" path="/_公用--标识和图标/"/>
-    <image id="i6113z" name="bg_share.png" path="/__临时UI/" exported="true"/>
-    <image id="i61140" name="bg_title.png" path="/__临时UI/" exported="true"/>
     <image id="i61142" name="btn_microblog.png" path="/_公用--标识和图标/" exported="true"/>
     <image id="i61143" name="btn_wechat.png" path="/_公用--标识和图标/" exported="true"/>
     <image id="i61145" name="building_btn_decoration.png" path="/_公用--按钮/临时--建筑菜单/" exported="true"/>
@@ -107,8 +79,6 @@
     <image id="iq088u" name="bg_chequer03.png" path="/_公用--背景/临时/" exported="true" scale="tile"/>
     <image id="iq088v" name="0xF6F6F6FF--灰.png" path="/_公用--背景--色块/纯色/" exported="true" scale="9grid" scale9grid="5,5,5,7"/>
     <image id="iq088w" name="0x89839f_Alpha_50--蓝.png" path="/_公用--背景--色块/半透/" exported="true"/>
-    <image id="iq088x" name="btn_commonstretch.png" path="/__临时UI/" exported="true" scale="9grid" scale9grid="10,10,4,4"/>
-    <image id="iq088y" name="btn_write.png" path="/__临时UI/" exported="true"/>
     <image id="iq0890" name="script_bg_litle.png" path="/_文本/" exported="true"/>
     <image id="iq0896" name="小标签底板2.png" path="/_公共--背景--栏目标题/" exported="true"/>
     <image id="iq0897" name="点线--大小2--白和灰.png" path="/_公用--线/" exported="true" scale="tile"/>
@@ -122,29 +92,9 @@
     <image id="wpxm7q" name="tips.png" path="/_公共--背景--栏目标题/" exported="true" scale="9grid" scale9grid="335,13,70,4"/>
     <image id="e2wx7r" name="script_bg_frame_glod.png" path="/_公用--背景-框/" exported="true"/>
     <image id="p9er9e" name="气泡框.png" path="/_公用--背景--气泡说话/" exported="true" scale="9grid" scale9grid="48,12,12,15"/>
-    <image id="jej79f" name="bg_add.png" path="/__临时UI/" exported="true"/>
-    <image id="jej79g" name="bg_new.png" path="/__临时UI/" exported="true"/>
     <image id="jej79i" name="半透--圆角--边框--灰.png" path="/_公用--背景--色块/半透--圆角--有边框效果/" exported="true" scale="9grid" scale9grid="15,15,10,10"/>
     <image id="jej79j" name="btn_commonmiddle.png" path="/_公用--按钮/临时/" exported="true"/>
-    <image id="jej79l" name="intelligence_bg_number.png" path="/__临时UI/" exported="true"/>
-    <image id="jej79n" name="intelligence_bg_signwhite.png" path="/__临时UI/" exported="true"/>
-    <image id="jej79o" name="intelligence_btn_remove.png" path="/__临时UI/" exported="true"/>
-    <image id="l44g9r" name="intelligence_bg_signgold.png" path="/情报系统/" exported="true"/>
-    <image id="l44g9t" name="情报社一览icon.png" path="/情报系统/" exported="true"/>
-    <image id="l44g9u" name="我的情报字底板横向拉伸.png" path="/情报系统/" exported="true" scale="9grid" scale9grid="3,10,5,30"/>
-    <image id="l44g9v" name="按钮1.png" path="/情报系统/" exported="true"/>
-    <image id="l44g9w" name="按钮2.png" path="/情报系统/" exported="true"/>
-    <image id="l44g9x" name="海报.png" path="/情报系统/" exported="true"/>
-    <image id="l44g9y" name="情报解析底板.png" path="/情报系统/" exported="true"/>
     <image id="l44g9z" name="0x000000FF--黑.png" path="/_公用--背景--色块/纯色/" exported="true" scale="9grid" scale9grid="3,3,6,6"/>
-    <image id="l44ga0" name="精度条颜色.png" path="/情报系统/" exported="true" scale="9grid" scale9grid="13,10,4,6"/>
-    <image id="l44ga1" name="进度条底板.png" path="/情报系统/" exported="true" scale="9grid" scale9grid="13,10,4,6"/>
-    <image id="aprja4" name="礼盒.png" path="/情报系统/" exported="true"/>
-    <image id="sz6ua6" name="bg_information.png" path="/建筑系统/" exported="true" scale="9grid" scale9grid="190,75,380,160"/>
-    <image id="sz6uao" name="资源生产框.png" path="/建筑系统/" exported="true"/>
-    <image id="sz6uap" name="锁定.png" path="/建筑系统/" exported="true"/>
-    <image id="t8drwh" name="资源生产底图.png" path="/建筑系统/" exported="true"/>
-    <image id="eqmnwv" name="表.png" path="/建筑系统/" exported="true"/>
     <image id="kplq85" name="海报上面底板.png" path="/_公用--背景-框/" exported="true"/>
     <image id="kplq7u" name="0xFFF4FBFF--外发光--粉色.png" path="/_公用--背景--色块/纯色--有边框效果/" exported="true" scale="9grid" scale9grid="8,8,16,16"/>
     <image id="kplq87" name="0xFFFFFFFF--白.png" path="/_公用--背景--色块/纯色/" exported="true" scale="9grid" scale9grid="1,1,4,4"/>
@@ -198,9 +148,6 @@
     <image id="g2f5zg" name="艺人属性才艺.png" path="/_公用--标识和图标/属性图标/" exported="true"/>
     <image id="g2f5zh" name="艺人属性表演.png" path="/_公用--标识和图标/属性图标/" exported="true"/>
     <image id="g2f5zi" name="艺人属性魅力.png" path="/_公用--标识和图标/属性图标/" exported="true"/>
-    <image id="m5zowz" name="广告加速.png" path="/建筑系统/" exported="true"/>
-    <image id="m5zox0" name="钻石加速.png" path="/建筑系统/" exported="true"/>
-    <image id="m5zox1" name="对号.png" path="/建筑系统/" exported="true"/>
     <image id="m5zox3" name="气泡.png" path="/_公用--背景--气泡说话/" exported="true" scale9grid="38,0,76,126"/>
     <image id="e12kza" name="颜色渐变--白--浅.png" path="/_公用--背景--色块/渐变/" exported="true" scale="9grid" scale9grid="2,0,3,38"/>
     <image id="e12kzb" name="白条上的装饰.png" path="/_公用--背景/" exported="true"/>
@@ -211,7 +158,6 @@
     <image id="9th1zg" name="flag_type_SongAndDanceShow.png" path="/_公共--背景--栏目标题/"/>
     <image id="9th1zh" name="flag_type_TalentShow.png" path="/_公共--背景--栏目标题/"/>
     <image id="9th1zi" name="flag_type_TalkShow.png" path="/_公共--背景--栏目标题/"/>
-    <image id="9th1zm" name="背景.png" path="/_____将要移到其他包/" exported="true"/>
     <image id="9th1zo" name="顶部白条.png" path="/_公用--背景--不规则/" exported="true" scale="9grid" scale9grid="0,2,752,23"/>
     <image id="9th1zp" name="按钮.png" path="/_公用--按钮/" exported="true"/>
     <image id="cwvwzq" name="渐变线.png" path="/_公用--背景-框/" exported="true" scale="9grid" scale9grid="6,53,2,106"/>
@@ -226,42 +172,25 @@
     <image id="ex1n10w" name="特邀头像框.png" path="/_公用--背景-框/" exported="true" scale="9grid" scale9grid="22,0,6,175"/>
     <image id="ex1n10x" name="0xFDEBFFFF--圆角5度.png" path="/_公用--背景--色块/纯色--圆角--有边框效果/" exported="true" scale="9grid" scale9grid="6,9,6,6"/>
     <image id="ex1n10y" name="关注线框.png" path="/_公用--标识和图标/" exported="true" scale="9grid" scale9grid="5,5,5,4"/>
-    <image id="ex1n10z" name="手机.png" path="/_____将要移到其他包/" exported="true" scale="9grid" scale9grid="0,480,635,19"/>
     <image id="ex1n110" name="手机按键.png" path="/_公用--标识和图标/" exported="true"/>
-    <image id="ex1n111" name="海报.png" path="/_____将要移到其他包/" exported="true"/>
     <image id="ex1n112" name="点赞(1).png" path="/_公用--标识和图标/" exported="true"/>
     <image id="ex1n113" name="粉色tips.png" path="/_公共--背景--栏目标题/" exported="true"/>
     <image id="ex1n114" name="线--大小3--白.png" path="/_公用--线/" exported="true" scale="9grid" scale9grid="5,0,8,3"/>
     <image id="ex1n115" name="评论.png" path="/_公用--标识和图标/" exported="true"/>
     <image id="ex1n116" name="转发.png" path="/_公用--标识和图标/" exported="true"/>
     <image id="ex1n117" name="0xcccccc_Alpha_30--灰.png" path="/_公用--背景--色块/半透/" exported="true" scale="9grid" scale9grid="5,7,4,6"/>
-    <image id="m5zox5" name="房子.png" path="/建筑系统/" exported="true"/>
-    <image id="m5zoxi" name="lv.png" path="/建筑系统/房间名牌/" exported="true"/>
-    <image id="m5zoxk" name="摄像机.png" path="/建筑系统/房间名牌/" exported="true"/>
-    <image id="m5zoxl" name="未标题-1.png" path="/建筑系统/房间名牌/" exported="true"/>
-    <image id="m5zoxm" name="未标题-12.png" path="/建筑系统/房间名牌/" exported="true"/>
-    <image id="m5zoxp" name="电话.png" path="/建筑系统/房间名牌/" exported="true"/>
-    <image id="m5zoxq" name="￥.png" path="/建筑系统/房间名牌/" exported="true"/>
-    <image id="9ff3xs" name="底2.png" path="/建筑系统/房间名牌/" exported="true"/>
     <image id="mfsp119" name="半透--上下边框--剧本半透白色横条.png" path="/_公用--背景--色块/半透--有边框效果/" exported="true"/>
     <image id="mfsp11a" name="线--大小4--灰--后面有点.png" path="/_公用--线/" exported="true" scale="9grid" scale9grid="2,0,3,4"/>
     <image id="mfsp11c" name="0xFEF3FDFF--上下描边.png" path="/_公用--背景--色块/纯色--有边框效果/" exported="true" scale="9grid" scale9grid="1,3,2,99"/>
     <image id="mfsp11d" name="豆瓣评分.png" path="/_文本/" exported="true"/>
-    <image id="mfsp11f" name="刻度.png" path="/拍摄/拍摄过程/" exported="true"/>
     <image id="mfsp11g" name="常驻嘉宾.png" path="/_文本/拍摄场文本/" exported="true"/>
     <image id="mfsp11h" name="常驻嘉宾底.png" path="/_公共--背景--栏目标题/" exported="true"/>
     <image id="mfsp11i" name="总分.png" path="/_文本/" exported="true"/>
-    <image id="mfsp11j" name="方框.png" path="/拍摄/拍摄过程/" exported="true" scale="9grid" scale9grid="53,53,106,106"/>
-    <image id="mfsp11k" name="方框斜线.png" path="/拍摄/拍摄过程/" exported="true"/>
-    <image id="mfsp11l" name="方框角.png" path="/拍摄/拍摄过程/" exported="true"/>
     <image id="mfsp11m" name="热门.png" path="/_文本/拍摄等级文本/" exported="true"/>
     <image id="mfsp11n" name="爆红.png" path="/_文本/拍摄等级文本/" exported="true"/>
     <image id="mfsp11o" name="王牌.png" path="/_文本/拍摄等级文本/" exported="true"/>
     <image id="mfsp11p" name="半透--上下边框--背景中间底板.png" path="/_公用--背景--色块/半透--有边框效果/" exported="true" scale="9grid" scale9grid="12,14,24,28"/>
-    <image id="mfsp11q" name="背景半透角.png" path="/拍摄/拍摄过程/" exported="true"/>
-    <image id="mfsp11s" name="蓝色半透底.png" path="/拍摄/拍摄过程/" exported="true"/>
     <image id="mfsp11t" name="超凡.png" path="/_文本/拍摄等级文本/" exported="true"/>
-    <image id="mfsp11u" name="进度条底板.png" path="/拍摄/拍摄过程/" exported="true"/>
     <image id="mfsp124" name="叹号.png" path="/_公用--标识和图标/" exported="true"/>
     <image id="mfsp126" name="盖章_1.png" path="/_公共--背景--栏目标题/" exported="true"/>
     <image id="mfsp127" name="盖章_2.png" path="/_公共--背景--栏目标题/" exported="true"/>
@@ -279,7 +208,6 @@
     <image id="fa3912n" name="爆红_Low.png" path="/_文本/拍摄等级文本/" exported="true"/>
     <image id="fa3912o" name="王牌_Low.png" path="/_文本/拍摄等级文本/" exported="true"/>
     <image id="fa3912p" name="超凡_Low.png" path="/_文本/拍摄等级文本/" exported="true"/>
-    <image id="fa3912q" name="进度条蓝底.png" path="/拍摄/拍摄过程/" exported="true"/>
     <image id="fa3912r" name="竖线--大小14--白.png" path="/_公用--线/" exported="true" scale9grid="0,21,14,42"/>
     <image id="mfsp12j" name="0xC5CAFFFF--蓝.png" path="/_公用--背景--色块/纯色/" exported="true" scale="9grid" scale9grid="6,6,8,8"/>
     <image id="9t6d12s" name="透明渐变--黑--10--80.png" path="/_公用--背景--色块/渐变/" exported="true"/>
@@ -327,10 +255,7 @@
     <image id="ipdk15q" name="下拉框.png" path="/_公用--滚动条/" exported="true" scale="9grid" scale9grid="0,5,11,2"/>
     <component id="ipdk15r" name="__PreviewScrollBar.xml" path="/___Preview~NCode/"/>
     <image id="ipdk15s" name="经验条渐变.png" path="/_公用--进度条/" exported="true"/>
-    <image id="m8r115p" name="breakArrow.png" path="/建筑系统/房间名牌/" exported="true"/>
-    <image id="m8r115q" name="levelArrow.png" path="/建筑系统/房间名牌/" exported="true"/>
     <image id="m8r115r" name="透明渐变--黑--重-100--00.png" path="/_公用--背景--色块/渐变/"/>
-    <image id="kchl15m" name="侧弹窗线框箭头引导.png" path="/__临时UI/" exported="true"/>
     <image id="t6bw15p" name="透明渐变--黑--重-100--00.png" path="/_公用--背景--色块/渐变/"/>
     <image id="t6bw15q" name="按钮箭头.png" path="/_公用--按钮/" exported="true" scale9grid="6,0,193,21"/>
     <image id="t6bw15r" name="淡紫色按钮.png" path="/_公用--按钮/" exported="true" scale="9grid" scale9grid="39,0,8,65"/>
@@ -370,10 +295,6 @@
     <image id="jarm16p" name="标签4.png" path="/_公用--背景/" exported="true"/>
     <image id="rqys16t" name="building_btn_upgrade.png" path="/_公用--按钮/临时--建筑菜单/" exported="true"/>
     <image id="rqys16u" name="视角恢复.png" path="/_公用--按钮/临时--建筑菜单/" exported="true"/>
-    <image id="j6x816o" name="底1.png" path="/建筑系统/房间名牌/" exported="true"/>
-    <image id="j6x816p" name="未标题-5.png" path="/建筑系统/房间名牌/" exported="true"/>
-    <image id="j6x816q" name="对号1.png" path="/建筑系统/" exported="true"/>
-    <image id="j6x816r" name="按钮.png" path="/建筑系统/" exported="true"/>
     <image id="lvev16v" name="招募入口.png" path="/_公用--按钮/临时--建筑菜单/" exported="true"/>
     <image id="rvi616w" name="icon剧本.png" path="/_公用--按钮/临时--建筑菜单/" exported="true"/>
   </resources>

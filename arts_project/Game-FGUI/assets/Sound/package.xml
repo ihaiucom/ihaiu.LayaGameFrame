@@ -1,44 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <packageDescription id="44whq70o" jpegQuality="80" compressPNG="true">
   <resources>
-    <sound id="s3xz1n" name="MM_BGM_Cinema.mp3" path="/" exported="true"/>
-    <sound id="s3xz1o" name="MM_BGM_Propaganda.mp3" path="/" exported="true"/>
-    <sound id="s3xz1p" name="MM_BGM_RoadShow.mp3" path="/" exported="true"/>
     <sound id="i7ne2w" name="MM_BGM_Award.mp3" path="/" exported="true"/>
     <sound id="tys94p" name="MM_BGM_01.mp3" path="/" exported="true"/>
     <sound id="tys94s" name="MM01_Button.wav" path="/" exported="true"/>
     <sound id="tys94t" name="MM02_Popup.wav" path="/" exported="true"/>
-    <sound id="tys94u" name="MM03_ReachGoal.wav" path="/" exported="true"/>
     <sound id="tys94v" name="MM04_Lose.wav" path="/" exported="true"/>
     <sound id="tys94w" name="MM05_Upgrade.wav" path="/" exported="true"/>
-    <sound id="tys94x" name="MM06_Building.wav" path="/" exported="true"/>
-    <sound id="tys94y" name="MM07_GoldMuch.wav" path="/" exported="true"/>
-    <sound id="tys94z" name="MM08_GoldLess.wav" path="/" exported="true"/>
-    <sound id="tys950" name="MM09_GoldReward.wav" path="/" exported="true"/>
-    <sound id="tys951" name="MM11_NewsPaperTop.wav" path="/" exported="true"/>
-    <sound id="tys952" name="MM12_RecruitArtist.wav" path="/" exported="true"/>
-    <sound id="tys953" name="MM13_GetArtist.wav" path="/" exported="true"/>
-    <sound id="tys954" name="MM14_ArtistGradeUp.wav" path="/" exported="true"/>
-    <sound id="tys955" name="MM15_Propaganda.wav" path="/" exported="true"/>
-    <sound id="tys956" name="MM16_ScriptRolling.wav" path="/" exported="true"/>
-    <sound id="tys957" name="MM17_FoundArtist.wav" path="/" exported="true"/>
-    <sound id="tys958" name="MM18_Screen.wav" path="/" exported="true"/>
-    <sound id="tys959" name="MM19_ArtistShow.wav" path="/" exported="true"/>
-    <sound id="tys95a" name="MM20_ArtistData.wav" path="/" exported="true"/>
-    <sound id="tys95b" name="MM21_ArtistAccord.wav" path="/" exported="true"/>
-    <sound id="tys95c" name="MM22_ScreenOver.wav" path="/" exported="true"/>
-    <sound id="tys95d" name="MM23_Premiere.wav" path="/" exported="true"/>
-    <sound id="tys95e" name="MM24_NiceScore1.wav" path="/" exported="true"/>
-    <sound id="tys95f" name="MM25_NiceScore2.wav" path="/" exported="true"/>
-    <sound id="tys95g" name="MM26_NiceScore3.wav" path="/" exported="true"/>
-    <sound id="tys95h" name="MM27_TicketsOrdinary.wav" path="/" exported="true"/>
-    <sound id="tys95i" name="MM28_TicketsGood.wav" path="/" exported="true"/>
-    <sound id="tys95j" name="MM29_TicketsGreat.wav" path="/" exported="true"/>
-    <sound id="tys95k" name="MM30_Settlements.wav" path="/" exported="true"/>
-    <sound id="tys95l" name="MM31_ClickScreenMenu.wav" path="/" exported="true"/>
-    <sound id="tys95m" name="MM32_GetScript .wav" path="/" exported="true"/>
-    <sound id="tys95n" name="MM33_NiceScore4.wav" path="/" exported="true"/>
-    <sound id="tys95o" name="MM34_CultrueArtist.wav" path="/" exported="true"/>
   </resources>
   <publish name="Sound" genCode="true" maxAtlasSize="1024"/>
 </packageDescription>

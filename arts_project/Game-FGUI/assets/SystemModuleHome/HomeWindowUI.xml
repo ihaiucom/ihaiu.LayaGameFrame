@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="750,1334" opaque="false">
   <displayList>
+    <image id="n11_n91k" name="n11" src="mfsp11r" fileName="背景底板.png" pkg="vh8b3r0j" xy="0,-136" size="750,1633">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
     <image id="n10_9t6d" name="bgBottom" src="ecjy15j" fileName="_公用--背景--色块/渐变/透明渐变--黑--重--00--100.png" pkg="g17ofscz" xy="0,1173" size="750,323">
       <relation target="" sidePair="bottom-bottom,width-width"/>
     </image>
