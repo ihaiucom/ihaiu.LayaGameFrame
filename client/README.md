@@ -7,24 +7,24 @@
 ### Game                        ---- 目录
     |__ bin                       ---- 编译js和资源目录
     |__ src                       ---- TS 源码目录
-    	|__ Config                ---- 配置文件目录
-    		|__ ConfigExtends                ---- 配置文件数据结构(扩展逻辑)目录
-    		|__ ConfigStructs                ---- 配置文件数据结构(根据配置表生成)目录
-    		|__ ReaderExtends                ---- 配置读取器(扩展逻辑)目录
-    		|__ ReaderStructs                ----  配置读取器(根据配置表生成)目录
-    	|__ FGUI                ---- ui目录
-    		|__ Extends                ---- 扩展逻辑目录
-    		|__ Genderates             ---- 生成代码目录
-    	|__ GameFrame           ---- 框架基础目录
-    	|__ GameModule          ---- 游戏模块目录
-    		|__ DataEnums             ---- 数据的枚举
-    		|__ DataStructs           ---- 数据结构
-    		|__ DataModels            ---- 模块数据Model
-    		|__ ViewWindows           ---- 模块主窗口
-    		|__ ViewPanel             ---- 模块子视图
-    		|__ TickHandler           ---- 定时处理器
+        |__ Config                ---- 配置文件目录
+            |__ ConfigExtends                ---- 配置文件数据结构(扩展逻辑)目录
+            |__ ConfigStructs                ---- 配置文件数据结构(根据配置表生成)目录
+            |__ ReaderExtends                ---- 配置读取器(扩展逻辑)目录
+            |__ ReaderStructs                ----  配置读取器(根据配置表生成)目录
+        |__ FGUI                ---- ui目录
+            |__ Extends                ---- 扩展逻辑目录
+            |__ Genderates             ---- 生成代码目录
+        |__ GameFrame           ---- 框架基础目录
+        |__ GameModule          ---- 游戏模块目录
+            |__ DataEnums             ---- 数据的枚举
+            |__ DataStructs           ---- 数据结构
+            |__ DataModels            ---- 模块数据Model
+            |__ ViewWindows           ---- 模块主窗口
+            |__ ViewPanel             ---- 模块子视图
+            |__ TickHandler           ---- 定时处理器
         |__ GameVersion         ---- 游戏版本管理目录
-    	|__ GameHelpers         ---- 游戏帮助工具类目录
+        |__ GameHelpers         ---- 游戏帮助工具类目录
         |__ GameSetting         ---- 游戏设置（环境参数配置）目录
         |__ Libs                ---- 第三方或者扩展js代码库目录
         |__ GM                  ---- GM代码目录
@@ -53,6 +53,7 @@
 ### 全局游戏事件
 * 定义游戏事件KEY，在GameEventKey.ts文件中
 * 监听
+
 ```
 Game.event.add(GameEventKey.XXXX, this.onXXX, this);
 
@@ -63,6 +64,7 @@ void onXXX(arg1, arg2)
 ```
 
 * 移除监听
+
 ```
 Game.event.remove(GameEventKey.XXXX, this.onXXX, this);
 
@@ -73,12 +75,14 @@ void onXXX(arg1, arg2)
 ```
 
 * 派发消息
+
 ```
 Game.event.dispatch(GameEventKey.XXXX, [参数]);
 ```
 
 
 ### 打开关闭模块
+
 ```
 // 打开模块
 Game.menu.open(menuId: MenuId, ...args: any[]);
@@ -245,6 +249,7 @@ let menu: XXXConfig = Game.config.xxx.getConfig(id);
 ```
 
 实例
+
 ```
 // 获取登录界面配置
 let menuConfig: MenuConfig = Game.config.menu.getConfig(MenuId.Login);
@@ -273,10 +278,10 @@ Game.sound.stopAllSound();
 
 ```
 // 浮动消息,代码里的文本
-Game.sound.toastText(TEXT.Hello);
+Game.system.toastText(TEXT.Hello);
 
 // 浮动消息，MSG配置表
-Game.sound.toastMsg(MsgKey.xxxx);
+Game.system.toastMsg(MsgKey.xxxx);
 
 // 浮动消息，格式化的, 格式化方式和C#一样
 Game.system.toastFormatText("My Name Is {0}, age: {1}", "张三", 12);
@@ -381,4 +386,5 @@ confirmMsg(msgkey: TKey,
 * 来自TEXT.ts
 
 以上3中方式，可以生产多语言配置，给策划做多语言。
-主要： 代码里的文本都需要定义在TEXT.ts里，不允许写在代码其他地方。
+
+注意： 代码里的文本都需要定义在TEXT.ts里，不允许写在代码其他地方。

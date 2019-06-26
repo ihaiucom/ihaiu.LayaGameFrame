@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,400">
+  <displayList>
+    <component id="n4_8zxs" name="s1" src="8zxs4" fileName="Component2.xml" xy="-50,-50"/>
+    <component id="n0_8zxs" name="s2" src="8zxs4" fileName="Component2.xml" xy="-120,-120" scale="2,2"/>
+    <graph id="n2_8zxs" name="n2" xy="20,20" pivot="0.5,0.5" anchor="true" size="20,20" type="eclipse" fillColor="#6bff0000"/>
+    <graph id="n5_8zxs" name="n5" xy="200,200" pivot="0.5,0.5" anchor="true" size="20,20" type="eclipse" fillColor="#6bff0000"/>
+    <component id="n6_8zxs" name="s3" src="8zxs4" fileName="Component2.xml" xy="-190,-190" scale="3,3"/>
+    <component id="n7_8zxs" name="s3" src="8zxs4" fileName="Component2.xml" xy="-260,-260" scale="4,4"/>
+    <component id="n8_8zxs" name="s2" src="8zxs4" fileName="Component2.xml" xy="-120,-120"/>
+  </displayList>
+</component>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <packageDescription id="vb0p0v1s" jpegQuality="80" compressPNG="true">
   <resources>
-    <image id="f84s9" name="btn_gm.png" path="/"/>
+    <image id="f84s9" name="btn_gm.png" path="/" exported="true"/>
   </resources>
   <publish name="_ResImageUI"/>
 </packageDescription>

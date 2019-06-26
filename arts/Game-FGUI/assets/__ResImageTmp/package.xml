@@ -2,6 +2,10 @@
 <packageDescription id="qjz790ec" jpegQuality="80" compressPNG="true">
   <resources>
     <image id="f84s2" name="pic_bg_login.png" path="/" exported="true" scale="" atlas="alone_npot"/>
+    <component id="8zxs3" name="Component1.xml" path="/"/>
+    <component id="8zxs4" name="Component2.xml" path="/"/>
+    <component id="8zxs5" name="Component3.xml" path="/"/>
+    <component id="8zxs6" name="Component4.xml" path="/"/>
   </resources>
   <publish name="__ResImageTmp"/>
 </packageDescription>
