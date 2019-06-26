@@ -36,16 +36,6 @@ export default class GuiResPackageConfigReader
 		
 		config = new GuiResPackageConfig();
             config.resDir = "fgui";
-            config.packageName = "BlackSkin";
-            config.resBin = "BlackSkin.bin";
-            config.resAtlas.push("BlackSkin_atlas0.png");
-            this.addconfig(config)
-
-
-
-
-		config = new GuiResPackageConfig();
-            config.resDir = "fgui";
             config.packageName = "CommonBase";
             config.resBin = "CommonBase.bin";
             this.addconfig(config)
@@ -72,25 +62,6 @@ export default class GuiResPackageConfigReader
             config.resDir = "fgui";
             config.packageName = "CommonGame";
             config.resBin = "CommonGame.bin";
-            this.addconfig(config)
-
-
-
-
-		config = new GuiResPackageConfig();
-            config.resDir = "fgui";
-            config.packageName = "CommonNumber";
-            config.resBin = "CommonNumber.bin";
-            this.addconfig(config)
-
-
-
-
-		config = new GuiResPackageConfig();
-            config.resDir = "fgui";
-            config.packageName = "FontA";
-            config.resBin = "FontA.bin";
-            config.resAtlas.push("FontA_atlas0.png");
             this.addconfig(config)
 
 
@@ -153,42 +124,6 @@ export default class GuiResPackageConfigReader
 
 		config = new GuiResPackageConfig();
             config.resDir = "fgui";
-            config.packageName = "ModuleActivity";
-            config.resBin = "ModuleActivity.bin";
-            this.addconfig(config)
-
-
-
-
-		config = new GuiResPackageConfig();
-            config.resDir = "fgui";
-            config.packageName = "ModuleActor";
-            config.resBin = "ModuleActor.bin";
-            this.addconfig(config)
-
-
-
-
-		config = new GuiResPackageConfig();
-            config.resDir = "fgui";
-            config.packageName = "ModuleActorGJC";
-            config.resBin = "ModuleActorGJC.bin";
-            this.addconfig(config)
-
-
-
-
-		config = new GuiResPackageConfig();
-            config.resDir = "fgui";
-            config.packageName = "ModuleArtist";
-            config.resBin = "ModuleArtist.bin";
-            this.addconfig(config)
-
-
-
-
-		config = new GuiResPackageConfig();
-            config.resDir = "fgui";
             config.packageName = "ModuleBag";
             config.resBin = "ModuleBag.bin";
             this.addconfig(config)
@@ -198,62 +133,8 @@ export default class GuiResPackageConfigReader
 
 		config = new GuiResPackageConfig();
             config.resDir = "fgui";
-            config.packageName = "ModuleBuilding";
-            config.resBin = "ModuleBuilding.bin";
-            this.addconfig(config)
-
-
-
-
-		config = new GuiResPackageConfig();
-            config.resDir = "fgui";
-            config.packageName = "ModuleBuildingActor";
-            config.resBin = "ModuleBuildingActor.bin";
-            this.addconfig(config)
-
-
-
-
-		config = new GuiResPackageConfig();
-            config.resDir = "fgui";
-            config.packageName = "ModuleBuildingGJC";
-            config.resBin = "ModuleBuildingGJC.bin";
-            this.addconfig(config)
-
-
-
-
-		config = new GuiResPackageConfig();
-            config.resDir = "fgui";
-            config.packageName = "ModuleDailyTask";
-            config.resBin = "ModuleDailyTask.bin";
-            this.addconfig(config)
-
-
-
-
-		config = new GuiResPackageConfig();
-            config.resDir = "fgui";
             config.packageName = "ModuleEmail";
             config.resBin = "ModuleEmail.bin";
-            this.addconfig(config)
-
-
-
-
-		config = new GuiResPackageConfig();
-            config.resDir = "fgui";
-            config.packageName = "ModuleInformation";
-            config.resBin = "ModuleInformation.bin";
-            this.addconfig(config)
-
-
-
-
-		config = new GuiResPackageConfig();
-            config.resDir = "fgui";
-            config.packageName = "ModuleInformationGJC";
-            config.resBin = "ModuleInformationGJC.bin";
             this.addconfig(config)
 
 
@@ -299,112 +180,14 @@ export default class GuiResPackageConfigReader
 
 		config = new GuiResPackageConfig();
             config.resDir = "fgui";
-            config.packageName = "ModuleStory";
-            config.resBin = "ModuleStory.bin";
-            this.addconfig(config)
-
-
-
-
-		config = new GuiResPackageConfig();
-            config.resDir = "fgui";
-            config.packageName = "ModuleStoryGJC";
-            config.resBin = "ModuleStoryGJC.bin";
-            this.addconfig(config)
-
-
-
-
-		config = new GuiResPackageConfig();
-            config.resDir = "fgui";
-            config.packageName = "ModuleStoryLottery";
-            config.resBin = "ModuleStoryLottery.bin";
-            this.addconfig(config)
-
-
-
-
-		config = new GuiResPackageConfig();
-            config.resDir = "fgui";
-            config.packageName = "ModuleStudio";
-            config.resBin = "ModuleStudio.bin";
-            this.addconfig(config)
-
-
-
-
-		config = new GuiResPackageConfig();
-            config.resDir = "fgui";
-            config.packageName = "ModuleStudioMovieClip";
-            config.resBin = "ModuleStudioMovieClip.bin";
-            config.resAtlas.push("ModuleStudioMovieClip_atlas0.png");
-            config.resAtlas.push("ModuleStudioMovieClip_atlas0_1.png");
-            this.addconfig(config)
-
-
-
-
-		config = new GuiResPackageConfig();
-            config.resDir = "fgui";
-            config.packageName = "ModuleStudioMovieClip00Common";
-            config.resBin = "ModuleStudioMovieClip00Common.bin";
-            config.resAtlas.push("ModuleStudioMovieClip00Common_atlas0.png");
-            this.addconfig(config)
-
-
-
-
-		config = new GuiResPackageConfig();
-            config.resDir = "fgui";
-            config.packageName = "ModuleStudioMovieClip01Normal";
-            config.resBin = "ModuleStudioMovieClip01Normal.bin";
-            this.addconfig(config)
-
-
-
-
-		config = new GuiResPackageConfig();
-            config.resDir = "fgui";
             config.packageName = "Sound";
             config.resBin = "Sound.bin";
             config.sounds.push("Sound_i7ne2w.mp3");
-            config.sounds.push("Sound_s3xz1n.mp3");
-            config.sounds.push("Sound_s3xz1o.mp3");
-            config.sounds.push("Sound_s3xz1p.mp3");
             config.sounds.push("Sound_tys94p.mp3");
             config.sounds.push("Sound_tys94s.wav");
             config.sounds.push("Sound_tys94t.wav");
-            config.sounds.push("Sound_tys94u.wav");
             config.sounds.push("Sound_tys94v.wav");
             config.sounds.push("Sound_tys94w.wav");
-            config.sounds.push("Sound_tys94x.wav");
-            config.sounds.push("Sound_tys94y.wav");
-            config.sounds.push("Sound_tys94z.wav");
-            config.sounds.push("Sound_tys950.wav");
-            config.sounds.push("Sound_tys951.wav");
-            config.sounds.push("Sound_tys952.wav");
-            config.sounds.push("Sound_tys953.wav");
-            config.sounds.push("Sound_tys954.wav");
-            config.sounds.push("Sound_tys955.wav");
-            config.sounds.push("Sound_tys956.wav");
-            config.sounds.push("Sound_tys957.wav");
-            config.sounds.push("Sound_tys958.wav");
-            config.sounds.push("Sound_tys959.wav");
-            config.sounds.push("Sound_tys95a.wav");
-            config.sounds.push("Sound_tys95b.wav");
-            config.sounds.push("Sound_tys95c.wav");
-            config.sounds.push("Sound_tys95d.wav");
-            config.sounds.push("Sound_tys95e.wav");
-            config.sounds.push("Sound_tys95f.wav");
-            config.sounds.push("Sound_tys95g.wav");
-            config.sounds.push("Sound_tys95h.wav");
-            config.sounds.push("Sound_tys95i.wav");
-            config.sounds.push("Sound_tys95j.wav");
-            config.sounds.push("Sound_tys95k.wav");
-            config.sounds.push("Sound_tys95l.wav");
-            config.sounds.push("Sound_tys95m.wav");
-            config.sounds.push("Sound_tys95n.wav");
-            config.sounds.push("Sound_tys95o.wav");
             this.addconfig(config)
 
 
@@ -439,20 +222,6 @@ export default class GuiResPackageConfigReader
 
 		config = new GuiResPackageConfig();
             config.resDir = "fgui";
-            config.packageName = "SystemModuleHomeMap";
-            config.resBin = "SystemModuleHomeMap.bin";
-            config.resAtlas.push("SystemModuleHomeMap_atlas0.png");
-            config.resAtlas.push("SystemModuleHomeMap_atlas0_1.png");
-            config.resAtlas.push("SystemModuleHomeMap_atlas0_2.png");
-            config.resAtlas.push("SystemModuleHomeMap_atlas0_3.png");
-            config.resAtlas.push("SystemModuleHomeMap_atlas0_4.png");
-            this.addconfig(config)
-
-
-
-
-		config = new GuiResPackageConfig();
-            config.resDir = "fgui";
             config.packageName = "SystemModuleMenu";
             config.resBin = "SystemModuleMenu.bin";
             this.addconfig(config)
@@ -480,15 +249,6 @@ export default class GuiResPackageConfigReader
 
 		config = new GuiResPackageConfig();
             config.resDir = "fgui";
-            config.packageName = "Test";
-            config.resBin = "Test.bin";
-            this.addconfig(config)
-
-
-
-
-		config = new GuiResPackageConfig();
-            config.resDir = "fgui";
             config.packageName = "_ResFont";
             config.resBin = "_ResFont.bin";
             config.resAtlas.push("_ResFont_atlas0.png");
@@ -502,8 +262,6 @@ export default class GuiResPackageConfigReader
             config.packageName = "_ResImagePic";
             config.resBin = "_ResImagePic.bin";
             config.resAtlas.push("_ResImagePic_atlas0.png");
-            config.resAtlas.push("_ResImagePic_atlas0_1.png");
-            config.resAtlas.push("_ResImagePic_atlas0_2.png");
             this.addconfig(config)
 
 
@@ -527,16 +285,6 @@ export default class GuiResPackageConfigReader
             config.resBin = "_ResImageUIV1.bin";
             config.resAtlas.push("_ResImageUIV1_atlas0.png");
             config.resAtlas.push("_ResImageUIV1_atlas0_1.png");
-            config.resAtlas.push("_ResImageUIV1_atlas0_2.png");
-            this.addconfig(config)
-
-
-
-
-		config = new GuiResPackageConfig();
-            config.resDir = "fgui";
-            config.packageName = "_Test";
-            config.resBin = "_Test.bin";
             this.addconfig(config)
 
 
@@ -546,10 +294,6 @@ export default class GuiResPackageConfigReader
             config.resDir = "fgui";
             config.packageName = "__ResImageTmp";
             config.resBin = "__ResImageTmp.bin";
-            config.resAtlas.push("__ResImageTmp_atlas0.png");
-            config.resAtlas.push("__ResImageTmp_atlas0_1.png");
-            config.resAtlas.push("__ResImageTmp_atlas0_2.png");
-            config.resAtlas.push("__ResImageTmp_atlas0_3.png");
             this.addconfig(config)
 
 

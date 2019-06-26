@@ -2,3 +2,4 @@ _gen
 !*.dll
 !*.exe
 design/Tool-Config/Logs/Log.txt
+arts_project/Game-FGUI/Tool-ExportCode/Logs/Log.txt
