@@ -44,12 +44,11 @@ export default class MapComponent {
 
         this.loader.setXY(posX, posY);
         this.loader.displayObject.zOrder = posY;
-        // if (this.loader.data == 3) {
-        //     homeMapUI.mapTopLayout.addChild(this.loader.displayObject);   
-        // } else {
-        //     homeMapUI.mapAvatarLayout.addChild(this.loader.displayObject);   
-        // }
-        homeMapUI.mapAvatarLayout.addChild(this.loader.displayObject);   
+        if (this.loader.data == 3) {
+            homeMapUI.mapTopLayout.addChild(this.loader.displayObject);   
+        } else {
+            homeMapUI.mapAvatarLayout.addChild(this.loader.displayObject);   
+        }
     }
 
     install(loader: fairygui.GLoader ,componentData: BuildingComponentData)
@@ -90,9 +89,10 @@ export default class MapComponent {
         // DecorationAnimationHelper.showIn(this.loader, this.loader.y);
     }
 
-    showReady(buildId: number, level: string)
+    showReady(buildId: number)
     {
-        this.loader.url = Res.getHomeBuildingFurniture(buildId, this.componentData.config[level]);
+        let level = this.componentData.level ? this.componentData.level : "level1";
+        this.loader.url = Res.getHomeBuildingFurniture(buildId, this.componentData.config["preview" + level]);
         this.loader.alpha = 0.0;
         this.lightTween();
     }

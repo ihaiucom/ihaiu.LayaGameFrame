@@ -20,7 +20,6 @@ import UserLevelAndExpPlay from "../FGUI/Customs/UserLevelAndExpPlay";
 import Game from "../Game";
 import TEXT from "../Config/Keys/TEXT";
 import ItemGetWayDialog from "../FGUI/Extends/SystemModuleDialog/ItemGetWayDialog";
-import BuildingInfoDialog from "../FGUI/Extends/SystemModuleDialog/BuildingInfoDialog";
 
 //======================
 // 消息对话框API
@@ -40,14 +39,9 @@ export default class GameSystemMessag extends SystemMessag
 		}
 		return this._getRewardDialog;
     }
-    /**
-     * 
-     * @param items 物品数组 ItemData[]
-     * @param isItemTip yes: 获得物品提示（暂未获得），no: 获得物品
-     */
-    async rewardDialog(items: any[], isItemTip: boolean = false)
+    async rewardDialog(items: any[])
     {
-        return this.getRewardDialog.open(items, isItemTip);
+        return this.getRewardDialog.open(items);
     }
     // 使用物品对话框
 	private _setNumberDialog: SetNumberDialog;
@@ -172,7 +166,7 @@ export default class GameSystemMessag extends SystemMessag
 
     //建造成功展示框---需要弹多个
     private _buildingSuccessDialog: BuildingSuccessDialog;
-    get buildingSuccessDialog(): BuildingSuccessDialog
+     get buildingSuccessDialog(): BuildingSuccessDialog
     {
         if (!this._buildingSuccessDialog) {
             this._buildingSuccessDialog = BuildingSuccessDialog.createInstance();
@@ -184,22 +178,6 @@ export default class GameSystemMessag extends SystemMessag
     buildingSuccessShow(datasource: BuildingData)
     {
         return this.buildingSuccessDialog.open(datasource);
-    }
-
-    //建筑产出展示框
-    private _buildingInfoDialog: BuildingInfoDialog;
-    private get buildingInfoDialog(): BuildingInfoDialog
-    {
-        if (!this._buildingInfoDialog) {
-            this._buildingInfoDialog = BuildingInfoDialog.createInstance();
-        }
-
-        return this._buildingInfoDialog;
-    }
-
-    buildingInfoShow(datasource:BuildingData)
-    {
-        return this.buildingInfoDialog.open(datasource);
     }
 
 

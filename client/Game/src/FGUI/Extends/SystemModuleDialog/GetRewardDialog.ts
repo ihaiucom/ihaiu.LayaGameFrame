@@ -30,8 +30,7 @@ export default class GetRewardDialog extends GetRewardDialogStruct {
         this.m_list.itemRenderer = Laya.Handler.create(this, this.RenderItem, null, false);
     }
 
-    async open(items: any[], isItemTip: boolean = false) {
-        this.m_isItemTip.setSelectedIndex(isItemTip?1:0);
+    async open(items: any[]) {
         this.itemDataList = [];
         this.setupDatasource(items);
         let selectedIndex = items.length > 3?1:0;

@@ -33,7 +33,6 @@ import CursorManager from "./GameFrame/Cursor/CursorManager";
 import GamePreload from "./GamePreload";
 import ConstConfig from './Config/ConstConfig';
 import TookManager from "./SystemTook/TookManager";
-import GuideManager from "./SystemGuide/GuideManager";
 
 export default class Game
 {
@@ -148,9 +147,6 @@ export default class Game
     //=====================
     // 其他
     //----------------------
-
-    /** 引导 */
-    static guide:GuideManager = new GuideManager();
     
     /** 屏幕点击特效 */
     static stageClickFx = new StageClickFx();

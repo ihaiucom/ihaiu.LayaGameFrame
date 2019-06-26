@@ -1,7 +1,0 @@
-import GamerGetDailyTaskActivityDegreeRewardS2C = proto.GamerGetDailyTaskActivityDegreeRewardS2C;
-var GamerGetDailyTaskActivityDegreeRewardS2CHandler = function(msg: GamerGetDailyTaskActivityDegreeRewardS2C)
-{
-
-}
-
-export {GamerGetDailyTaskActivityDegreeRewardS2CHandler}

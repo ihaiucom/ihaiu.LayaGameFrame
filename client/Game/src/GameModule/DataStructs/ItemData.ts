@@ -193,15 +193,6 @@ export default class ItemData {
         return item;
     }
 
-    public clone(): ItemData
-    {
-        let item = new ItemData();
-        item.id = this.id;
-        item.count = this.count;
-        item.obtainTime = this.obtainTime;
-        return item;
-    }
-
     static GetIconUrl(id: number)  {
         let itemConfig = Game.config.item.getConfig(id);
         if (itemConfig)  {
@@ -221,9 +212,6 @@ export default class ItemData {
         }
         return "";
     }
-
-   
-    
     // static Binning(data: Proto.SS.ItemDesc | DTItemNum | ItemData)
     // {
     //     if (data instanceof ItemData)

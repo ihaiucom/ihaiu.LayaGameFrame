@@ -10,9 +10,6 @@ import { BuildingContentType } from "./BuildingWindowUIGJC";
 import BuildingLevelConfig from "../../../Config/ConfigExtends/BuildingLevelConfig";
 import BuildingConfigItem from "./BuildingConfigItem";
 import Game from "../../../Game";
-import TimeHelper from "../../../GameHelpers/TimeHelper";
-import TEXT from "../../../Config/Keys/TEXT";
-import ProduceNowItem from "../CommonGame/ProduceNowItem";
 
 export default class BuildingContentPage extends BuildingContentPageStruct
 {
@@ -27,18 +24,20 @@ export default class BuildingContentPage extends BuildingContentPageStruct
 
     //窗口初始化完毕
     onWindowInited(): void {
-        this.m_btnInfo.onClick(this, this.infoShow)
         this.m_listProduce.itemRenderer = Laya.Handler.create(this, this.renderListProduce, null, false);  
-    }
+        this.m_listConfig.itemRenderer = Laya.Handler.create(this, this.renderListConfig, null, false);
+        this.m_listConfig.on(fairygui.Events.PULL_UP_RELEASE, this, this.pullUpToRefresh);
+        this.m_listConfig.setVirtual();
 
-    // 展示具体信息
-    infoShow()
-    {
-        Game.system.buildingInfoShow(this.buildingData);
+        this.m_tabContent.m_tab.on(fairygui.Events.STATE_CHANGED, this, this.changeTab);
+    }
+    //更换标签
+    changeTab(): void {
+        this.m_tab.selectedIndex = this.m_tabContent.m_tab.selectedIndex;
     }
 
     //产出List刷新回调
-    renderListProduce(index: number, item: ProduceNowItem): void  {
+    renderListProduce(index: number, item: ProduceItem): void  {
         item.renderItem(index, this.buildingData);
     }
 
@@ -56,62 +55,47 @@ export default class BuildingContentPage extends BuildingContentPageStruct
         
     }
 
-    onSecond()
-    {   
-        this.m_labTime.text = format(TEXT.BuildNeedTimeTail, TimeHelper.TimeFormatFixedHHMMSS(this._time));
-        this.m_progressReserves.value = this.buildingData.currentProduceNumAll;
-        if (this._time == 0) {
-            Laya.timer.clear(this, this.onSecond);
-        }
-
-
-        this._time--;
-    }
-
-    private _produceNum: number;
-    private _produceCD: number;
-    private _time: number;
-
-    updateReservesShow(): void {
-        let building: BuildingData = this.buildingData;
-
-        let produce = building.currentProduceSlow();
-
-        if (!produce) {
-            this.m_valGroup.visible = false;
-            return;
-        }
-
-        this.m_valGroup.visible = true;
-
-        let nowtime = building.getProduceCDById(produce.itemId);
-        let nowNum  = building.currentProduceNum(produce.itemId);
-
-        let reserves = building.propReserve.val;
-        this.m_progressReserves.max = reserves * building.currentProduceListNum;
-
-        this._produceNum = building.propProduceNum.val;
-        this._produceCD= building.propProduceCd.val;
-        this._time = Math.floor((reserves - nowNum) / this._produceNum * this._produceCD) - nowtime;
-
-        Laya.timer.clear(this, this.onSecond);
-        Laya.timer.loop(1000, this, this.onSecond, null, true);
-        this.onSecond();
-    }
-
     buildingProduceShow(): void {
         let building: BuildingData = this.buildingData;
+
+        //当前等级属性
+        let levelconfig:BuildingLevelConfig = building.levelConfig;
+
+        this.m_labTime.text = String(levelconfig.prop_produceCd);
+        let timeAdd = building.propProduceCd - levelconfig.prop_produceCd;
+        this.m_labTimeAdd.text = (timeAdd ? "+" + timeAdd : ""); 
+
+        this.m_labNum.text = String(levelconfig.prop_produceNum);
+        let numAdd  = building.propProduceNum - levelconfig.prop_produceNum;
+        this.m_labNumAdd.text = (numAdd ? "-" + numAdd : ""); 
+
+        this.m_labReserve.text = String(levelconfig.prop_reserve);
+        let reserveAdd = building.propReserveMax - levelconfig.prop_reserve
+        this.m_labReserveAdd.text = (reserveAdd ? "+" + reserveAdd : "");
+
 
         this.produceList = building.currentProduceList;
         this.m_listProduce.numItems = this.produceList.length;
     }
 
+    buildingConfigShow(): void {
+        let building: BuildingData = this.buildingData;
+
+        this.configList = building.underBreLevelMaxConfigs;
+        this.m_listConfig.numItems = this.configList.length;
+
+        let itemNum = (this.configList.length < 8) ? this.configList.length : 8;
+        this.m_listConfig.resizeToFit(itemNum); 
+        this.m_listConfig.scrollToView(this.scrollIndex);
+    }
+
     updateView(building: BuildingData): void {
         this.buildingData = building;
         this.m_labIntroduce.text = building.config.tip1;        
+        this.m_tabContent.m_tab.selectedIndex = BuildingContentType.Produce; 
         
-        this.updateReservesShow();
         this.buildingProduceShow();
+        this.buildingConfigShow();
     }
 
     hideView(): void {
@@ -122,7 +106,7 @@ export default class BuildingContentPage extends BuildingContentPageStruct
             }
         }
         this.m_listProduce.removeChildren(0, this.m_listProduce.numChildren, true);
-        Laya.timer.clear(this, this.onSecond);
+        this.m_listConfig.numItems = 0;
         this.buildingData = null;
         this.produceList = [];
         this.configList  = [];

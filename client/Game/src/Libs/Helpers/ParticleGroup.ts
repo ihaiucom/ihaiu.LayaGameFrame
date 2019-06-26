@@ -89,27 +89,6 @@ export default class ParticleGroup
         }
     }
 
-    /** 设置粒子数量 */
-    setMaxParticesScale(scale: number)
-    {
-        for(let item of this.particles)
-        {
-            // item.setMaxParticesScale(scale);
-        }
-    }
-
-    /**
-     * 设置粒子发送速度
-     * @param scale 
-     */
-    setEmissionRateScale(scale: number)
-    {
-        for(let item of this.particles)
-        {
-            // item.setEmissionRateScale(scale);
-        }
-    }
-
     addToContainerBottom()
     {
         for(let item of this.particles)

@@ -272,6 +272,11 @@ var netlogic =
 	},
 	gamerExtractGashaponS2C: new _EventDispatch(),
 
+	storyExtractGashaponC2S: function(gashaponId){
+		C2S("StoryExtractGashaponC2S",{gashaponId: gashaponId});
+	},
+	storyExtractGashaponS2C: new _EventDispatch(),
+
 	gamerGetAllowanceC2S: function(type){
 		C2S("GamerGetAllowanceC2S",{type: type});
 	},
@@ -357,30 +362,10 @@ var netlogic =
 	},
 	studioContinuedReceiveAllS2C: new _EventDispatch(),
 
-	gamerAcceptTaskC2S: function(type, taskId){
-		C2S("GamerAcceptTaskC2S",{type: type, taskId: taskId});
+	getActivityRewardC2S: function(activityId){
+		C2S("GetActivityRewardC2S",{activityId: activityId});
 	},
-	gamerAcceptTaskS2C: new _EventDispatch(),
-
-	gamerGetTaskRewardC2S: function(type, taskId){
-		C2S("GamerGetTaskRewardC2S",{type: type, taskId: taskId});
-	},
-	gamerGetTaskRewardS2C: new _EventDispatch(),
-
-	gamerGetDailyTaskActivityDegreeRewardC2S: function(giftId){
-		C2S("GamerGetDailyTaskActivityDegreeRewardC2S",{giftId: giftId});
-	},
-	gamerGetDailyTaskActivityDegreeRewardS2C: new _EventDispatch(),
-
-	gamerGetGuideProgressC2S: function(){
-		C2S("GamerGetGuideProgressC2S",{});
-	},
-	gamerGetGuideProgressS2C: new _EventDispatch(),
-
-	gamerSetGuideProgressC2S: function(progress){
-		C2S("GamerSetGuideProgressC2S",{progress: progress});
-	},
-	gamerSetGuideProgressS2C: new _EventDispatch(),
+	getActivityRewardS2C: new _EventDispatch(),
 
 	gamerNotifyLoginOtherS2C: new _EventDispatch(),
 	gamerNotifyExpLevelS2C: new _EventDispatch(),
@@ -405,8 +390,7 @@ var netlogic =
 	gamerNotifyIntelligenceS2C: new _EventDispatch(),
 	gamerNotifyStudioEventS2C: new _EventDispatch(),
 	gamerNotifyStudioFirstRewardS2C: new _EventDispatch(),
-	gamerNotifyDailyTaskS2C: new _EventDispatch(),
-	gamerNotifyTaskS2C: new _EventDispatch(),
+	gamerNotifyActivitiesS2C: new _EventDispatch(),
 };
 
 for(var key in netlogic)

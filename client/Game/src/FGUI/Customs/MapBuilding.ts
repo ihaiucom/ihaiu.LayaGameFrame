@@ -133,6 +133,12 @@ export default class MapBuilding
         this.anchor.x = this.nameLabel.x;
         this.anchor.y = this.nameLabel.y;
 
+        // let help = new Laya.Sprite();
+        // help.x = this.anchor.x;
+        // help.y = this.anchor.y;
+        // help.graphics.drawCircle(0, 0, 10, '#FF000055')
+        // this.picComponent.displayObject.addChild(help);
+
         let buildAndLevelAndItemBubble = BuildingBubble.createInstance();
         buildAndLevelAndItemBubble.setXY(this.anchor.x, this.anchor.y);
         buildAndLevelAndItemBubble.init(this);
@@ -192,7 +198,6 @@ export default class MapBuilding
         this.homeMapUI.mapRegionManager.update(regionDatas);
         for (let i = 0; i < this._regionList.length; i++) {
             this._regionList[i].showIn();
-            this.homeMapUI.mapEffectManager.removeEffect(this._regionList[i].regionData.buildId, this._regionList[i].regionData.level);    
         }
     }
 
@@ -234,7 +239,6 @@ export default class MapBuilding
                         Game.sender.building.buildingGetProductItem(this.buildingData.id);
                         break;
                     case 2:
-                        this.buildAndLevelAndItemBubble.visible = false;
                         this.homeMapUI.scene2D.movieToBuilding(this.buildingId);
                         Game.sender.building.buildingEndOfLevelUp(this.buildingData.id);
                         break;
@@ -400,7 +404,10 @@ export default class MapBuilding
                     break;
                 case 1:
                     //播放升级中动画
-                    this.homeMapUI.mapRegionManager.regionShow(this.buildingData.nextLevelConfig);
+                    let _currentTime = Game.time.serverSeconds - this.buildingData.buildingOrUpleveingTimeStart;
+                    let _totalTime = Math.max(this.buildingData.buildingOrUpleveingTimestamp - this.buildingData.buildingOrUpleveingTimeStart, 0);
+                    let time = Math.max(_totalTime - _currentTime, 0)
+                    this.homeMapUI.mapRegionManager.regionShow(this.buildingData.nextLevelConfig, time * 1000);
                     this.buildAndLevelAndBreakEffect.setXY(this.anchor.x - 100, this.anchor.y);   
                     // if (time) {
                         

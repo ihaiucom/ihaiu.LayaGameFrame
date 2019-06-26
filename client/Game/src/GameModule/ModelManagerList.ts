@@ -10,10 +10,6 @@ import StudioModel from "./DataModels/StudioModel";
 import StudioContinuedModel from "./DataModels/StudioContinuedModel";
 import GashaponModel from "./DataModels/GashaponModel";
 import StoryLotteryModel from "./DataModels/StoryLotteryModel";
-import ActivityModel from "./DataModels/ActivityModel";
-import DailyTaskModel from './DataModels/DailyTaskModel';
-import MainTaskModel from "./DataModels/MainTaskMoudle";
-import GuideModule from "./DataModels/GuideMoudle";
 
 //======================
 // 模块 数据模型 管理器
@@ -45,17 +41,9 @@ export default class ModelManagerList
 	studioContinued: StudioContinuedModel = new StudioContinuedModel();
 	/**剧本招募 */
 	storyLottery: StoryLotteryModel = new StoryLotteryModel();
+	
 	/** 抽奖*/
 	gashapon: GashaponModel = new GashaponModel();
-	/**主线任务 */
-	mainTask: MainTaskModel = new MainTaskModel();
-	/**新手引导 */
-	guide: GuideModule = new GuideModule();
-
-	/** 活动*/
-	activity: ActivityModel = new ActivityModel();
-	/** 每日任务 */
-	dailyTask: DailyTaskModel = new DailyTaskModel();
 
 	// 初始化列表
 	initList()
@@ -69,10 +57,6 @@ export default class ModelManagerList
 		this.list.push(this.building);
 		this.list.push(this.studio);
 		this.list.push(this.studioContinued);
-		this.list.push(this.storyLottery);
 		this.list.push(this.gashapon);
-		this.list.push(this.activity);
-		this.list.push(this.mainTask);
-		this.list.push(this.guide);
 	}
 }

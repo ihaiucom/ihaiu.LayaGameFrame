@@ -182,12 +182,6 @@ export default class Res
         return  Res.root + `fspriteassets/HomeBuildingFurniture/${idStr}/${furnitureId}.png`;
     }
 
-    // 获取--建筑Logo
-    static getBuildingLogo(buildingId:int)
-    {
-        return  Res.root + `fspriteassets/BuildingLogo/buildingLogo_${buildingId}.png`;
-    }
-
 
     // 获取--地图
     static getHomeMap(i:int):string

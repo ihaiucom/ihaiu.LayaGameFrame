@@ -208,14 +208,14 @@ export default class HomeWorld extends Engine
                 this.path.setAreaOpen(building.id);
         }
 
-        Game.event.add(GameEventKey.Build_CloseSuccessDialog, this.onBuildingChange, this);
+        Game.event.add(GameEventKey.Build_CloseSuccess, this.onBuildingChange, this);
     }
 
 
     destory()
     {
         this.actorModel.sAdd.remove(this.onActorAdd, this);
-        Game.event.remove(GameEventKey.Build_CloseSuccessDialog, this.onBuildingChange, this);
+        Game.event.remove(GameEventKey.Build_CloseSuccess, this.onBuildingChange, this);
     }
 
     onBuildingChange(building: BuildingData)

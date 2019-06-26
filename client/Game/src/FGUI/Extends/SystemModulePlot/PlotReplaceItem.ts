@@ -7,7 +7,4 @@ import PlotReplaceItemStruct from "../../Generates/SystemModulePlot/PlotReplaceI
 
 export default class PlotReplaceItem extends PlotReplaceItemStruct
 {
-    RenderItem( data: Array<any> ){
-
-    }
 }

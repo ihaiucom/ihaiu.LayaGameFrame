@@ -21,12 +21,11 @@ export default class GuiPackageNames
 	public static Lang_en : string = "Lang_en";
 	public static Lang_zh_cn : string = "Lang_zh-cn";
 	public static Lang_zh_tw : string = "Lang_zh_tw";
+	public static ModuleActivity : string = "ModuleActivity";
 	public static ModuleActorGJC : string = "ModuleActorGJC";
 	public static ModuleBag : string = "ModuleBag";
 	public static ModuleBuildingActor : string = "ModuleBuildingActor";
 	public static ModuleBuildingGJC : string = "ModuleBuildingGJC";
-	public static ModuleDailyTask : string = "ModuleDailyTask";
-	public static ModuleDay7Activity : string = "ModuleDay7Activity";
 	public static ModuleEmail : string = "ModuleEmail";
 	public static ModuleInformation : string = "ModuleInformation";
 	public static ModuleInformationGJC : string = "ModuleInformationGJC";
@@ -45,7 +44,6 @@ export default class GuiPackageNames
 	public static SystemModuleHome : string = "SystemModuleHome";
 	public static SystemModuleHomeMap : string = "SystemModuleHomeMap";
 	public static SystemModuleMenu : string = "SystemModuleMenu";
-	public static SystemModulePlot : string = "SystemModulePlot";
 	public static SystemModuleTask : string = "SystemModuleTask";
 	public static _ResFont : string = "_ResFont";
 	public static _ResImagePic : string = "_ResImagePic";

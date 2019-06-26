@@ -39,6 +39,7 @@ export default class BuildingSuccessDialog extends BuildingSuccessDialogStruct
     close(): void  {
         this.m_content.close();
         this.dialogCtrl.close();  
-        Game.event.dispatch(GameEventKey.Build_CloseSuccessDialog, this.buildingData);        
+        Game.event.dispatch(GameEventKey.Build_CloseSuccess, this.buildingData);        
+        Game.event.dispatch(GameEventKey.Home_SendSceneZoomBuildingExit);   
     }
 }

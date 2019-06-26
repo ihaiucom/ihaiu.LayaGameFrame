@@ -7,7 +7,4 @@ import PlotAwardItemStruct from "../../Generates/SystemModulePlot/PlotAwardItemS
 
 export default class PlotAwardItem extends PlotAwardItemStruct
 {
-    RenderItem( data: Array<any> ){
-        
-    }
 }

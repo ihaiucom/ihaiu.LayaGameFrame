@@ -5,7 +5,7 @@
 
 import StoryLotteryAwardViewStruct from "../../Generates/ModuleStoryLottery/StoryLotteryAwardViewStruct";
 import Game from "../../../Game";
-import { ItemType } from "../../../GameModule/DataEnums/ItemType";
+import { EItemId } from "../../../GameModule/DataEnums/ItemType";
 
 export default class StoryLotteryAwardView extends StoryLotteryAwardViewStruct
 {
@@ -21,7 +21,7 @@ export default class StoryLotteryAwardView extends StoryLotteryAwardViewStruct
         this.awardState = data.storyExtractState;
 
         for ( let d of data.items ){
-            if ( d.type == ItemType.story ){
+            if ( d.type == EItemId.story ){
                 let baseData = Game.config.storySeries.getConfig( d.id );
                 let storyIDs = baseData.storyID;
                 let itemID = storyIDs[0];

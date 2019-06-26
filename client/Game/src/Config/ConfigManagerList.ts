@@ -22,6 +22,7 @@ import BuildingConfigReader from "./ReaderExtends/BuildingConfigReader";
 import BuildingActorCellConfigReader from "./ReaderExtends/BuildingActorCellConfigReader";
 import BuildingBrePicConfigReader from "./ReaderExtends/BuildingBrePicConfigReader";
 import BuildingComponentConfigReader from "./ReaderExtends/BuildingComponentConfigReader";
+import BuildingDecorationRegionConfigReader from "./ReaderExtends/BuildingDecorationRegionConfigReader";
 import BuildingLevelConfigReader from "./ReaderExtends/BuildingLevelConfigReader";
 import BuildingRegionConfigReader from "./ReaderExtends/BuildingRegionConfigReader";
 import ChapterConfigReader from "./ReaderExtends/ChapterConfigReader";
@@ -95,6 +96,7 @@ export default class ConfigManagerList
     buildingActorCell  : BuildingActorCellConfigReader = new BuildingActorCellConfigReader();
     buildingBrePic  : BuildingBrePicConfigReader = new BuildingBrePicConfigReader();
     buildingComponent  : BuildingComponentConfigReader = new BuildingComponentConfigReader();
+    buildingDecorationRegion  : BuildingDecorationRegionConfigReader = new BuildingDecorationRegionConfigReader();
     buildingLevel  : BuildingLevelConfigReader = new BuildingLevelConfigReader();
     buildingRegion  : BuildingRegionConfigReader = new BuildingRegionConfigReader();
     chapter  : ChapterConfigReader = new ChapterConfigReader();
@@ -166,6 +168,7 @@ export default class ConfigManagerList
         this.renders.push(this.buildingActorCell);
         this.renders.push(this.buildingBrePic);
         this.renders.push(this.buildingComponent);
+        this.renders.push(this.buildingDecorationRegion);
         this.renders.push(this.buildingLevel);
         this.renders.push(this.buildingRegion);
         this.renders.push(this.chapter);

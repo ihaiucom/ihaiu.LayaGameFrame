@@ -13,9 +13,6 @@ import StudioMovieClip01Normal from "../ModuleStudioMovieClip01Normal/StudioMovi
 import StudioContinueInfoUI from '../ModuleStudio/StudioContinueInfoUI';
 import StudioContinueWindowUI from "../ModuleStudio/StudioContinueWindowUI";
 import FguiHelper from '../../../Libs/Helpers/FguiHelper';
-import DailyTaskUI from '../ModuleDailyTask/DailyTaskUI';
-import SegmentProgressHelper from '../../../Libs/Helpers/SegmentProgressHelper';
-import StudioMovieClipSkill from '../ModuleStudioMovieClip00Common/StudioMovieClipSkill';
 
 export default class LoginWindowUI extends LoginWindowUIStruct
 {
@@ -50,10 +47,8 @@ export default class LoginWindowUI extends LoginWindowUIStruct
     test()
     {
         this.m_testBtn.onClick(this, this.onClickTestButton);
-        this.m_testBtn.visible = true;
+        // this.m_testBtn.visible = true;
     }
-    studioSkill: StudioMovieClipSkill;
-    dailyTask: DailyTaskUI;
     
     continueWindow: StudioContinueWindowUI;
     chartWindow: StudioContinueInfoUI;
@@ -62,39 +57,23 @@ export default class LoginWindowUI extends LoginWindowUIStruct
     chart: ChartPolygonPropertyView
     onClickTestButton()
     {
-
-        this.studioSkill = StudioMovieClipSkill.createInstance();
-        this.addChild(this.studioSkill);
-        FguiHelper.callChildOnWindowShow(this.studioSkill);
-        
-        // this.dailyTask = DailyTaskUI.createInstance();
-        // this.addChild(this.dailyTask);
-        // FguiHelper.callChildOnWindowShow(this.dailyTask);
-        
-        // this.chartWindow = StudioContinueInfoUI.createInstance();
-        // this.addChild(this.chartWindow);
-        // FguiHelper.callChildOnWindowShow(this.chartWindow);
+        this.chartWindow = StudioContinueInfoUI.createInstance();
+        this.addChild(this.chartWindow);
+        FguiHelper.callChildOnWindowShow(this.chartWindow);
 
         // this.continueWindow = StudioContinueWindowUI.createInstance();
         // this.addChild(this.continueWindow);
         // FguiHelper.callChildOnWindowShow(this.continueWindow);
         
         
-        // this.studioMovieClip = StudioMovieClip01Normal.createInstance();
-        // this.addChild(this.studioMovieClip);
-        // this.studioMovieClip.onWindowShow();
+        this.studioMovieClip = StudioMovieClip01Normal.createInstance();
+        this.addChild(this.studioMovieClip);
+        this.studioMovieClip.onWindowShow();
 
         // this.chart = ChartPolygonPropertyView.createInstance();
         // this.chart.x = Laya.stage.width >> 1;
         // this.chart.y = 200;
         // this.addChild(this.chart);
         
-    }
-
-    testTask(val: number)
-    {
-
-        let result = SegmentProgressHelper.getRate(val, [25,35,50], 10, 70);
-        console.log(result);
     }
 }

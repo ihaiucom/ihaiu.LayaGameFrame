@@ -65,6 +65,7 @@ $root.C2S = (function() {
     C2S.prototype.actorEnterBuildC2S = null;
     C2S.prototype.actorLeaveBuildC2S = null;
     C2S.prototype.gamerExtractGashaponC2S = null;
+    C2S.prototype.storyExtractGashaponC2S = null;
     C2S.prototype.gamerGetAllowanceC2S = null;
     C2S.prototype.getStoryExtractInfoC2S = null;
     C2S.prototype.cleanStoryExtractCDC2S = null;
@@ -82,11 +83,7 @@ $root.C2S = (function() {
     C2S.prototype.studioContinuedListC2S = null;
     C2S.prototype.studioContinuedReceiveC2S = null;
     C2S.prototype.studioContinuedReceiveAllC2S = null;
-    C2S.prototype.gamerAcceptTaskC2S = null;
-    C2S.prototype.gamerGetTaskRewardC2S = null;
-    C2S.prototype.gamerGetDailyTaskActivityDegreeRewardC2S = null;
-    C2S.prototype.gamerGetGuideProgressC2S = null;
-    C2S.prototype.gamerSetGuideProgressC2S = null;
+    C2S.prototype.getActivityRewardC2S = null;
     C2S.create = function create(properties) {
         return new C2S(properties);
     };
@@ -201,50 +198,44 @@ $root.C2S = (function() {
             $root.ActorLeaveBuildC2S.encode(message.actorLeaveBuildC2S, writer.uint32(/* id 53, wireType 2 =*/426).fork()).ldelim();
         if (message.gamerExtractGashaponC2S != null && message.hasOwnProperty("gamerExtractGashaponC2S"))
             $root.GamerExtractGashaponC2S.encode(message.gamerExtractGashaponC2S, writer.uint32(/* id 54, wireType 2 =*/434).fork()).ldelim();
+        if (message.storyExtractGashaponC2S != null && message.hasOwnProperty("storyExtractGashaponC2S"))
+            $root.StoryExtractGashaponC2S.encode(message.storyExtractGashaponC2S, writer.uint32(/* id 55, wireType 2 =*/442).fork()).ldelim();
         if (message.gamerGetAllowanceC2S != null && message.hasOwnProperty("gamerGetAllowanceC2S"))
-            $root.GamerGetAllowanceC2S.encode(message.gamerGetAllowanceC2S, writer.uint32(/* id 55, wireType 2 =*/442).fork()).ldelim();
+            $root.GamerGetAllowanceC2S.encode(message.gamerGetAllowanceC2S, writer.uint32(/* id 56, wireType 2 =*/450).fork()).ldelim();
         if (message.getStoryExtractInfoC2S != null && message.hasOwnProperty("getStoryExtractInfoC2S"))
-            $root.GetStoryExtractInfoC2S.encode(message.getStoryExtractInfoC2S, writer.uint32(/* id 56, wireType 2 =*/450).fork()).ldelim();
+            $root.GetStoryExtractInfoC2S.encode(message.getStoryExtractInfoC2S, writer.uint32(/* id 57, wireType 2 =*/458).fork()).ldelim();
         if (message.cleanStoryExtractCDC2S != null && message.hasOwnProperty("cleanStoryExtractCDC2S"))
-            $root.CleanStoryExtractCDC2S.encode(message.cleanStoryExtractCDC2S, writer.uint32(/* id 57, wireType 2 =*/458).fork()).ldelim();
+            $root.CleanStoryExtractCDC2S.encode(message.cleanStoryExtractCDC2S, writer.uint32(/* id 58, wireType 2 =*/466).fork()).ldelim();
         if (message.purchaseStoryExtractNumC2S != null && message.hasOwnProperty("purchaseStoryExtractNumC2S"))
-            $root.PurchaseStoryExtractNumC2S.encode(message.purchaseStoryExtractNumC2S, writer.uint32(/* id 58, wireType 2 =*/466).fork()).ldelim();
+            $root.PurchaseStoryExtractNumC2S.encode(message.purchaseStoryExtractNumC2S, writer.uint32(/* id 59, wireType 2 =*/474).fork()).ldelim();
         if (message.gamerGetIntelligenceC2S != null && message.hasOwnProperty("gamerGetIntelligenceC2S"))
-            $root.GamerGetIntelligenceC2S.encode(message.gamerGetIntelligenceC2S, writer.uint32(/* id 59, wireType 2 =*/474).fork()).ldelim();
+            $root.GamerGetIntelligenceC2S.encode(message.gamerGetIntelligenceC2S, writer.uint32(/* id 60, wireType 2 =*/482).fork()).ldelim();
         if (message.gamerChangeIntelligenceStateC2S != null && message.hasOwnProperty("gamerChangeIntelligenceStateC2S"))
-            $root.GamerChangeIntelligenceStateC2S.encode(message.gamerChangeIntelligenceStateC2S, writer.uint32(/* id 60, wireType 2 =*/482).fork()).ldelim();
+            $root.GamerChangeIntelligenceStateC2S.encode(message.gamerChangeIntelligenceStateC2S, writer.uint32(/* id 61, wireType 2 =*/490).fork()).ldelim();
         if (message.gamerIntelligenceParseC2S != null && message.hasOwnProperty("gamerIntelligenceParseC2S"))
-            $root.GamerIntelligenceParseC2S.encode(message.gamerIntelligenceParseC2S, writer.uint32(/* id 61, wireType 2 =*/490).fork()).ldelim();
+            $root.GamerIntelligenceParseC2S.encode(message.gamerIntelligenceParseC2S, writer.uint32(/* id 62, wireType 2 =*/498).fork()).ldelim();
         if (message.studioC2S != null && message.hasOwnProperty("studioC2S"))
-            $root.StudioC2S.encode(message.studioC2S, writer.uint32(/* id 62, wireType 2 =*/498).fork()).ldelim();
+            $root.StudioC2S.encode(message.studioC2S, writer.uint32(/* id 63, wireType 2 =*/506).fork()).ldelim();
         if (message.studioStorySelectC2S != null && message.hasOwnProperty("studioStorySelectC2S"))
-            $root.StudioStorySelectC2S.encode(message.studioStorySelectC2S, writer.uint32(/* id 63, wireType 2 =*/506).fork()).ldelim();
+            $root.StudioStorySelectC2S.encode(message.studioStorySelectC2S, writer.uint32(/* id 64, wireType 2 =*/514).fork()).ldelim();
         if (message.studioActorSelectC2S != null && message.hasOwnProperty("studioActorSelectC2S"))
-            $root.StudioActorSelectC2S.encode(message.studioActorSelectC2S, writer.uint32(/* id 64, wireType 2 =*/514).fork()).ldelim();
+            $root.StudioActorSelectC2S.encode(message.studioActorSelectC2S, writer.uint32(/* id 65, wireType 2 =*/522).fork()).ldelim();
         if (message.studioMatchingDisplayEndC2S != null && message.hasOwnProperty("studioMatchingDisplayEndC2S"))
-            $root.StudioMatchingDisplayEndC2S.encode(message.studioMatchingDisplayEndC2S, writer.uint32(/* id 65, wireType 2 =*/522).fork()).ldelim();
+            $root.StudioMatchingDisplayEndC2S.encode(message.studioMatchingDisplayEndC2S, writer.uint32(/* id 66, wireType 2 =*/530).fork()).ldelim();
         if (message.studioEventOptionSelectC2S != null && message.hasOwnProperty("studioEventOptionSelectC2S"))
-            $root.StudioEventOptionSelectC2S.encode(message.studioEventOptionSelectC2S, writer.uint32(/* id 66, wireType 2 =*/530).fork()).ldelim();
+            $root.StudioEventOptionSelectC2S.encode(message.studioEventOptionSelectC2S, writer.uint32(/* id 67, wireType 2 =*/538).fork()).ldelim();
         if (message.studioStartC2S != null && message.hasOwnProperty("studioStartC2S"))
-            $root.StudioStartC2S.encode(message.studioStartC2S, writer.uint32(/* id 67, wireType 2 =*/538).fork()).ldelim();
+            $root.StudioStartC2S.encode(message.studioStartC2S, writer.uint32(/* id 68, wireType 2 =*/546).fork()).ldelim();
         if (message.studioNextStepC2S != null && message.hasOwnProperty("studioNextStepC2S"))
-            $root.StudioNextStepC2S.encode(message.studioNextStepC2S, writer.uint32(/* id 68, wireType 2 =*/546).fork()).ldelim();
+            $root.StudioNextStepC2S.encode(message.studioNextStepC2S, writer.uint32(/* id 69, wireType 2 =*/554).fork()).ldelim();
         if (message.studioContinuedListC2S != null && message.hasOwnProperty("studioContinuedListC2S"))
-            $root.StudioContinuedListC2S.encode(message.studioContinuedListC2S, writer.uint32(/* id 69, wireType 2 =*/554).fork()).ldelim();
+            $root.StudioContinuedListC2S.encode(message.studioContinuedListC2S, writer.uint32(/* id 70, wireType 2 =*/562).fork()).ldelim();
         if (message.studioContinuedReceiveC2S != null && message.hasOwnProperty("studioContinuedReceiveC2S"))
-            $root.StudioContinuedReceiveC2S.encode(message.studioContinuedReceiveC2S, writer.uint32(/* id 70, wireType 2 =*/562).fork()).ldelim();
+            $root.StudioContinuedReceiveC2S.encode(message.studioContinuedReceiveC2S, writer.uint32(/* id 71, wireType 2 =*/570).fork()).ldelim();
         if (message.studioContinuedReceiveAllC2S != null && message.hasOwnProperty("studioContinuedReceiveAllC2S"))
-            $root.StudioContinuedReceiveAllC2S.encode(message.studioContinuedReceiveAllC2S, writer.uint32(/* id 71, wireType 2 =*/570).fork()).ldelim();
-        if (message.gamerAcceptTaskC2S != null && message.hasOwnProperty("gamerAcceptTaskC2S"))
-            $root.GamerAcceptTaskC2S.encode(message.gamerAcceptTaskC2S, writer.uint32(/* id 72, wireType 2 =*/578).fork()).ldelim();
-        if (message.gamerGetTaskRewardC2S != null && message.hasOwnProperty("gamerGetTaskRewardC2S"))
-            $root.GamerGetTaskRewardC2S.encode(message.gamerGetTaskRewardC2S, writer.uint32(/* id 73, wireType 2 =*/586).fork()).ldelim();
-        if (message.gamerGetDailyTaskActivityDegreeRewardC2S != null && message.hasOwnProperty("gamerGetDailyTaskActivityDegreeRewardC2S"))
-            $root.GamerGetDailyTaskActivityDegreeRewardC2S.encode(message.gamerGetDailyTaskActivityDegreeRewardC2S, writer.uint32(/* id 74, wireType 2 =*/594).fork()).ldelim();
-        if (message.gamerGetGuideProgressC2S != null && message.hasOwnProperty("gamerGetGuideProgressC2S"))
-            $root.GamerGetGuideProgressC2S.encode(message.gamerGetGuideProgressC2S, writer.uint32(/* id 75, wireType 2 =*/602).fork()).ldelim();
-        if (message.gamerSetGuideProgressC2S != null && message.hasOwnProperty("gamerSetGuideProgressC2S"))
-            $root.GamerSetGuideProgressC2S.encode(message.gamerSetGuideProgressC2S, writer.uint32(/* id 76, wireType 2 =*/610).fork()).ldelim();
+            $root.StudioContinuedReceiveAllC2S.encode(message.studioContinuedReceiveAllC2S, writer.uint32(/* id 72, wireType 2 =*/578).fork()).ldelim();
+        if (message.getActivityRewardC2S != null && message.hasOwnProperty("getActivityRewardC2S"))
+            $root.GetActivityRewardC2S.encode(message.getActivityRewardC2S, writer.uint32(/* id 73, wireType 2 =*/586).fork()).ldelim();
         return writer;
     };
     C2S.encodeDelimited = function encodeDelimited(message, writer) {
@@ -420,70 +411,61 @@ $root.C2S = (function() {
                 message.gamerExtractGashaponC2S = $root.GamerExtractGashaponC2S.decode(reader, reader.uint32());
                 break;
             case 55:
-                message.gamerGetAllowanceC2S = $root.GamerGetAllowanceC2S.decode(reader, reader.uint32());
+                message.storyExtractGashaponC2S = $root.StoryExtractGashaponC2S.decode(reader, reader.uint32());
                 break;
             case 56:
-                message.getStoryExtractInfoC2S = $root.GetStoryExtractInfoC2S.decode(reader, reader.uint32());
+                message.gamerGetAllowanceC2S = $root.GamerGetAllowanceC2S.decode(reader, reader.uint32());
                 break;
             case 57:
-                message.cleanStoryExtractCDC2S = $root.CleanStoryExtractCDC2S.decode(reader, reader.uint32());
+                message.getStoryExtractInfoC2S = $root.GetStoryExtractInfoC2S.decode(reader, reader.uint32());
                 break;
             case 58:
-                message.purchaseStoryExtractNumC2S = $root.PurchaseStoryExtractNumC2S.decode(reader, reader.uint32());
+                message.cleanStoryExtractCDC2S = $root.CleanStoryExtractCDC2S.decode(reader, reader.uint32());
                 break;
             case 59:
-                message.gamerGetIntelligenceC2S = $root.GamerGetIntelligenceC2S.decode(reader, reader.uint32());
+                message.purchaseStoryExtractNumC2S = $root.PurchaseStoryExtractNumC2S.decode(reader, reader.uint32());
                 break;
             case 60:
-                message.gamerChangeIntelligenceStateC2S = $root.GamerChangeIntelligenceStateC2S.decode(reader, reader.uint32());
+                message.gamerGetIntelligenceC2S = $root.GamerGetIntelligenceC2S.decode(reader, reader.uint32());
                 break;
             case 61:
-                message.gamerIntelligenceParseC2S = $root.GamerIntelligenceParseC2S.decode(reader, reader.uint32());
+                message.gamerChangeIntelligenceStateC2S = $root.GamerChangeIntelligenceStateC2S.decode(reader, reader.uint32());
                 break;
             case 62:
-                message.studioC2S = $root.StudioC2S.decode(reader, reader.uint32());
+                message.gamerIntelligenceParseC2S = $root.GamerIntelligenceParseC2S.decode(reader, reader.uint32());
                 break;
             case 63:
-                message.studioStorySelectC2S = $root.StudioStorySelectC2S.decode(reader, reader.uint32());
+                message.studioC2S = $root.StudioC2S.decode(reader, reader.uint32());
                 break;
             case 64:
-                message.studioActorSelectC2S = $root.StudioActorSelectC2S.decode(reader, reader.uint32());
+                message.studioStorySelectC2S = $root.StudioStorySelectC2S.decode(reader, reader.uint32());
                 break;
             case 65:
-                message.studioMatchingDisplayEndC2S = $root.StudioMatchingDisplayEndC2S.decode(reader, reader.uint32());
+                message.studioActorSelectC2S = $root.StudioActorSelectC2S.decode(reader, reader.uint32());
                 break;
             case 66:
-                message.studioEventOptionSelectC2S = $root.StudioEventOptionSelectC2S.decode(reader, reader.uint32());
+                message.studioMatchingDisplayEndC2S = $root.StudioMatchingDisplayEndC2S.decode(reader, reader.uint32());
                 break;
             case 67:
-                message.studioStartC2S = $root.StudioStartC2S.decode(reader, reader.uint32());
+                message.studioEventOptionSelectC2S = $root.StudioEventOptionSelectC2S.decode(reader, reader.uint32());
                 break;
             case 68:
-                message.studioNextStepC2S = $root.StudioNextStepC2S.decode(reader, reader.uint32());
+                message.studioStartC2S = $root.StudioStartC2S.decode(reader, reader.uint32());
                 break;
             case 69:
-                message.studioContinuedListC2S = $root.StudioContinuedListC2S.decode(reader, reader.uint32());
+                message.studioNextStepC2S = $root.StudioNextStepC2S.decode(reader, reader.uint32());
                 break;
             case 70:
-                message.studioContinuedReceiveC2S = $root.StudioContinuedReceiveC2S.decode(reader, reader.uint32());
+                message.studioContinuedListC2S = $root.StudioContinuedListC2S.decode(reader, reader.uint32());
                 break;
             case 71:
-                message.studioContinuedReceiveAllC2S = $root.StudioContinuedReceiveAllC2S.decode(reader, reader.uint32());
+                message.studioContinuedReceiveC2S = $root.StudioContinuedReceiveC2S.decode(reader, reader.uint32());
                 break;
             case 72:
-                message.gamerAcceptTaskC2S = $root.GamerAcceptTaskC2S.decode(reader, reader.uint32());
+                message.studioContinuedReceiveAllC2S = $root.StudioContinuedReceiveAllC2S.decode(reader, reader.uint32());
                 break;
             case 73:
-                message.gamerGetTaskRewardC2S = $root.GamerGetTaskRewardC2S.decode(reader, reader.uint32());
-                break;
-            case 74:
-                message.gamerGetDailyTaskActivityDegreeRewardC2S = $root.GamerGetDailyTaskActivityDegreeRewardC2S.decode(reader, reader.uint32());
-                break;
-            case 75:
-                message.gamerGetGuideProgressC2S = $root.GamerGetGuideProgressC2S.decode(reader, reader.uint32());
-                break;
-            case 76:
-                message.gamerSetGuideProgressC2S = $root.GamerSetGuideProgressC2S.decode(reader, reader.uint32());
+                message.getActivityRewardC2S = $root.GetActivityRewardC2S.decode(reader, reader.uint32());
                 break;
             default:
                 reader.skipType(tag & 7);
@@ -768,6 +750,11 @@ $root.C2S = (function() {
             if (error)
                 return "gamerExtractGashaponC2S." + error;
         }
+        if (message.storyExtractGashaponC2S != null && message.hasOwnProperty("storyExtractGashaponC2S")) {
+            var error = $root.StoryExtractGashaponC2S.verify(message.storyExtractGashaponC2S);
+            if (error)
+                return "storyExtractGashaponC2S." + error;
+        }
         if (message.gamerGetAllowanceC2S != null && message.hasOwnProperty("gamerGetAllowanceC2S")) {
             var error = $root.GamerGetAllowanceC2S.verify(message.gamerGetAllowanceC2S);
             if (error)
@@ -853,30 +840,10 @@ $root.C2S = (function() {
             if (error)
                 return "studioContinuedReceiveAllC2S." + error;
         }
-        if (message.gamerAcceptTaskC2S != null && message.hasOwnProperty("gamerAcceptTaskC2S")) {
-            var error = $root.GamerAcceptTaskC2S.verify(message.gamerAcceptTaskC2S);
+        if (message.getActivityRewardC2S != null && message.hasOwnProperty("getActivityRewardC2S")) {
+            var error = $root.GetActivityRewardC2S.verify(message.getActivityRewardC2S);
             if (error)
-                return "gamerAcceptTaskC2S." + error;
-        }
-        if (message.gamerGetTaskRewardC2S != null && message.hasOwnProperty("gamerGetTaskRewardC2S")) {
-            var error = $root.GamerGetTaskRewardC2S.verify(message.gamerGetTaskRewardC2S);
-            if (error)
-                return "gamerGetTaskRewardC2S." + error;
-        }
-        if (message.gamerGetDailyTaskActivityDegreeRewardC2S != null && message.hasOwnProperty("gamerGetDailyTaskActivityDegreeRewardC2S")) {
-            var error = $root.GamerGetDailyTaskActivityDegreeRewardC2S.verify(message.gamerGetDailyTaskActivityDegreeRewardC2S);
-            if (error)
-                return "gamerGetDailyTaskActivityDegreeRewardC2S." + error;
-        }
-        if (message.gamerGetGuideProgressC2S != null && message.hasOwnProperty("gamerGetGuideProgressC2S")) {
-            var error = $root.GamerGetGuideProgressC2S.verify(message.gamerGetGuideProgressC2S);
-            if (error)
-                return "gamerGetGuideProgressC2S." + error;
-        }
-        if (message.gamerSetGuideProgressC2S != null && message.hasOwnProperty("gamerSetGuideProgressC2S")) {
-            var error = $root.GamerSetGuideProgressC2S.verify(message.gamerSetGuideProgressC2S);
-            if (error)
-                return "gamerSetGuideProgressC2S." + error;
+                return "getActivityRewardC2S." + error;
         }
         return null;
     };
@@ -1151,6 +1118,11 @@ $root.C2S = (function() {
                 throw TypeError(".C2S.gamerExtractGashaponC2S: object expected");
             message.gamerExtractGashaponC2S = $root.GamerExtractGashaponC2S.fromObject(object.gamerExtractGashaponC2S);
         }
+        if (object.storyExtractGashaponC2S != null) {
+            if (typeof object.storyExtractGashaponC2S !== "object")
+                throw TypeError(".C2S.storyExtractGashaponC2S: object expected");
+            message.storyExtractGashaponC2S = $root.StoryExtractGashaponC2S.fromObject(object.storyExtractGashaponC2S);
+        }
         if (object.gamerGetAllowanceC2S != null) {
             if (typeof object.gamerGetAllowanceC2S !== "object")
                 throw TypeError(".C2S.gamerGetAllowanceC2S: object expected");
@@ -1236,30 +1208,10 @@ $root.C2S = (function() {
                 throw TypeError(".C2S.studioContinuedReceiveAllC2S: object expected");
             message.studioContinuedReceiveAllC2S = $root.StudioContinuedReceiveAllC2S.fromObject(object.studioContinuedReceiveAllC2S);
         }
-        if (object.gamerAcceptTaskC2S != null) {
-            if (typeof object.gamerAcceptTaskC2S !== "object")
-                throw TypeError(".C2S.gamerAcceptTaskC2S: object expected");
-            message.gamerAcceptTaskC2S = $root.GamerAcceptTaskC2S.fromObject(object.gamerAcceptTaskC2S);
-        }
-        if (object.gamerGetTaskRewardC2S != null) {
-            if (typeof object.gamerGetTaskRewardC2S !== "object")
-                throw TypeError(".C2S.gamerGetTaskRewardC2S: object expected");
-            message.gamerGetTaskRewardC2S = $root.GamerGetTaskRewardC2S.fromObject(object.gamerGetTaskRewardC2S);
-        }
-        if (object.gamerGetDailyTaskActivityDegreeRewardC2S != null) {
-            if (typeof object.gamerGetDailyTaskActivityDegreeRewardC2S !== "object")
-                throw TypeError(".C2S.gamerGetDailyTaskActivityDegreeRewardC2S: object expected");
-            message.gamerGetDailyTaskActivityDegreeRewardC2S = $root.GamerGetDailyTaskActivityDegreeRewardC2S.fromObject(object.gamerGetDailyTaskActivityDegreeRewardC2S);
-        }
-        if (object.gamerGetGuideProgressC2S != null) {
-            if (typeof object.gamerGetGuideProgressC2S !== "object")
-                throw TypeError(".C2S.gamerGetGuideProgressC2S: object expected");
-            message.gamerGetGuideProgressC2S = $root.GamerGetGuideProgressC2S.fromObject(object.gamerGetGuideProgressC2S);
-        }
-        if (object.gamerSetGuideProgressC2S != null) {
-            if (typeof object.gamerSetGuideProgressC2S !== "object")
-                throw TypeError(".C2S.gamerSetGuideProgressC2S: object expected");
-            message.gamerSetGuideProgressC2S = $root.GamerSetGuideProgressC2S.fromObject(object.gamerSetGuideProgressC2S);
+        if (object.getActivityRewardC2S != null) {
+            if (typeof object.getActivityRewardC2S !== "object")
+                throw TypeError(".C2S.getActivityRewardC2S: object expected");
+            message.getActivityRewardC2S = $root.GetActivityRewardC2S.fromObject(object.getActivityRewardC2S);
         }
         return message;
     };
@@ -1322,6 +1274,7 @@ $root.C2S = (function() {
             object.actorEnterBuildC2S = null;
             object.actorLeaveBuildC2S = null;
             object.gamerExtractGashaponC2S = null;
+            object.storyExtractGashaponC2S = null;
             object.gamerGetAllowanceC2S = null;
             object.getStoryExtractInfoC2S = null;
             object.cleanStoryExtractCDC2S = null;
@@ -1339,11 +1292,7 @@ $root.C2S = (function() {
             object.studioContinuedListC2S = null;
             object.studioContinuedReceiveC2S = null;
             object.studioContinuedReceiveAllC2S = null;
-            object.gamerAcceptTaskC2S = null;
-            object.gamerGetTaskRewardC2S = null;
-            object.gamerGetDailyTaskActivityDegreeRewardC2S = null;
-            object.gamerGetGuideProgressC2S = null;
-            object.gamerSetGuideProgressC2S = null;
+            object.getActivityRewardC2S = null;
         }
         if (message.key != null && message.hasOwnProperty("key"))
             object.key = message.key;
@@ -1453,6 +1402,8 @@ $root.C2S = (function() {
             object.actorLeaveBuildC2S = $root.ActorLeaveBuildC2S.toObject(message.actorLeaveBuildC2S, options);
         if (message.gamerExtractGashaponC2S != null && message.hasOwnProperty("gamerExtractGashaponC2S"))
             object.gamerExtractGashaponC2S = $root.GamerExtractGashaponC2S.toObject(message.gamerExtractGashaponC2S, options);
+        if (message.storyExtractGashaponC2S != null && message.hasOwnProperty("storyExtractGashaponC2S"))
+            object.storyExtractGashaponC2S = $root.StoryExtractGashaponC2S.toObject(message.storyExtractGashaponC2S, options);
         if (message.gamerGetAllowanceC2S != null && message.hasOwnProperty("gamerGetAllowanceC2S"))
             object.gamerGetAllowanceC2S = $root.GamerGetAllowanceC2S.toObject(message.gamerGetAllowanceC2S, options);
         if (message.getStoryExtractInfoC2S != null && message.hasOwnProperty("getStoryExtractInfoC2S"))
@@ -1487,16 +1438,8 @@ $root.C2S = (function() {
             object.studioContinuedReceiveC2S = $root.StudioContinuedReceiveC2S.toObject(message.studioContinuedReceiveC2S, options);
         if (message.studioContinuedReceiveAllC2S != null && message.hasOwnProperty("studioContinuedReceiveAllC2S"))
             object.studioContinuedReceiveAllC2S = $root.StudioContinuedReceiveAllC2S.toObject(message.studioContinuedReceiveAllC2S, options);
-        if (message.gamerAcceptTaskC2S != null && message.hasOwnProperty("gamerAcceptTaskC2S"))
-            object.gamerAcceptTaskC2S = $root.GamerAcceptTaskC2S.toObject(message.gamerAcceptTaskC2S, options);
-        if (message.gamerGetTaskRewardC2S != null && message.hasOwnProperty("gamerGetTaskRewardC2S"))
-            object.gamerGetTaskRewardC2S = $root.GamerGetTaskRewardC2S.toObject(message.gamerGetTaskRewardC2S, options);
-        if (message.gamerGetDailyTaskActivityDegreeRewardC2S != null && message.hasOwnProperty("gamerGetDailyTaskActivityDegreeRewardC2S"))
-            object.gamerGetDailyTaskActivityDegreeRewardC2S = $root.GamerGetDailyTaskActivityDegreeRewardC2S.toObject(message.gamerGetDailyTaskActivityDegreeRewardC2S, options);
-        if (message.gamerGetGuideProgressC2S != null && message.hasOwnProperty("gamerGetGuideProgressC2S"))
-            object.gamerGetGuideProgressC2S = $root.GamerGetGuideProgressC2S.toObject(message.gamerGetGuideProgressC2S, options);
-        if (message.gamerSetGuideProgressC2S != null && message.hasOwnProperty("gamerSetGuideProgressC2S"))
-            object.gamerSetGuideProgressC2S = $root.GamerSetGuideProgressC2S.toObject(message.gamerSetGuideProgressC2S, options);
+        if (message.getActivityRewardC2S != null && message.hasOwnProperty("getActivityRewardC2S"))
+            object.getActivityRewardC2S = $root.GetActivityRewardC2S.toObject(message.getActivityRewardC2S, options);
         return object;
     };
     C2S.prototype.toJSON = function toJSON() {
@@ -13908,7 +13851,6 @@ $root.GamerExtractGashaponS2C = (function() {
     }
     GamerExtractGashaponS2C.prototype.error = 0;
     GamerExtractGashaponS2C.prototype.gashaponId = 0;
-    GamerExtractGashaponS2C.prototype.storyExtractState = 0;
     GamerExtractGashaponS2C.prototype.items = $util.emptyArray;
     GamerExtractGashaponS2C.create = function create(properties) {
         return new GamerExtractGashaponS2C(properties);
@@ -13920,11 +13862,9 @@ $root.GamerExtractGashaponS2C = (function() {
             writer.uint32(/* id 1, wireType 0 =*/8).int32(message.error);
         if (message.gashaponId != null && message.hasOwnProperty("gashaponId"))
             writer.uint32(/* id 2, wireType 0 =*/16).int32(message.gashaponId);
-        if (message.storyExtractState != null && message.hasOwnProperty("storyExtractState"))
-            writer.uint32(/* id 3, wireType 0 =*/24).int32(message.storyExtractState);
         if (message.items != null && message.items.length)
             for (var i = 0; i < message.items.length; ++i)
-                $root.GameItem.encode(message.items[i], writer.uint32(/* id 4, wireType 2 =*/34).fork()).ldelim();
+                $root.GameItem.encode(message.items[i], writer.uint32(/* id 3, wireType 2 =*/26).fork()).ldelim();
         return writer;
     };
     GamerExtractGashaponS2C.encodeDelimited = function encodeDelimited(message, writer) {
@@ -13944,9 +13884,6 @@ $root.GamerExtractGashaponS2C = (function() {
                 message.gashaponId = reader.int32();
                 break;
             case 3:
-                message.storyExtractState = reader.int32();
-                break;
-            case 4:
                 if (!(message.items && message.items.length))
                     message.items = [];
                 message.items.push($root.GameItem.decode(reader, reader.uint32()));
@@ -13972,9 +13909,6 @@ $root.GamerExtractGashaponS2C = (function() {
         if (message.gashaponId != null && message.hasOwnProperty("gashaponId"))
             if (!$util.isInteger(message.gashaponId))
                 return "gashaponId: integer expected";
-        if (message.storyExtractState != null && message.hasOwnProperty("storyExtractState"))
-            if (!$util.isInteger(message.storyExtractState))
-                return "storyExtractState: integer expected";
         if (message.items != null && message.hasOwnProperty("items")) {
             if (!Array.isArray(message.items))
                 return "items: array expected";
@@ -13994,8 +13928,6 @@ $root.GamerExtractGashaponS2C = (function() {
             message.error = object.error | 0;
         if (object.gashaponId != null)
             message.gashaponId = object.gashaponId | 0;
-        if (object.storyExtractState != null)
-            message.storyExtractState = object.storyExtractState | 0;
         if (object.items) {
             if (!Array.isArray(object.items))
                 throw TypeError(".GamerExtractGashaponS2C.items: array expected");
@@ -14009,6 +13941,231 @@ $root.GamerExtractGashaponS2C = (function() {
         return message;
     };
     GamerExtractGashaponS2C.toObject = function toObject(message, options) {
+        if (!options)
+            options = {};
+        var object = {};
+        if (options.arrays || options.defaults)
+            object.items = [];
+        if (options.defaults) {
+            object.error = 0;
+            object.gashaponId = 0;
+        }
+        if (message.error != null && message.hasOwnProperty("error"))
+            object.error = message.error;
+        if (message.gashaponId != null && message.hasOwnProperty("gashaponId"))
+            object.gashaponId = message.gashaponId;
+        if (message.items && message.items.length) {
+            object.items = [];
+            for (var j = 0; j < message.items.length; ++j)
+                object.items[j] = $root.GameItem.toObject(message.items[j], options);
+        }
+        return object;
+    };
+    GamerExtractGashaponS2C.prototype.toJSON = function toJSON() {
+        return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+    };
+    return GamerExtractGashaponS2C;
+})();
+$root.StoryExtractGashaponC2S = (function() {
+    function StoryExtractGashaponC2S(properties) {
+        if (properties)
+            for (var keys = Object.keys(properties), i = 0; i < keys.length; ++i)
+                if (properties[keys[i]] != null)
+                    this[keys[i]] = properties[keys[i]];
+    }
+    StoryExtractGashaponC2S.prototype.id = 0;
+    StoryExtractGashaponC2S.prototype.gashaponId = 0;
+    StoryExtractGashaponC2S.create = function create(properties) {
+        return new StoryExtractGashaponC2S(properties);
+    };
+    StoryExtractGashaponC2S.encode = function encode(message, writer) {
+        if (!writer)
+            writer = $Writer.create();
+        if (message.id != null && message.hasOwnProperty("id"))
+            writer.uint32(/* id 1, wireType 0 =*/8).int32(message.id);
+        if (message.gashaponId != null && message.hasOwnProperty("gashaponId"))
+            writer.uint32(/* id 2, wireType 0 =*/16).int32(message.gashaponId);
+        return writer;
+    };
+    StoryExtractGashaponC2S.encodeDelimited = function encodeDelimited(message, writer) {
+        return this.encode(message, writer).ldelim();
+    };
+    StoryExtractGashaponC2S.decode = function decode(reader, length) {
+        if (!(reader instanceof $Reader))
+            reader = $Reader.create(reader);
+        var end = length === undefined ? reader.len : reader.pos + length, message = new $root.StoryExtractGashaponC2S();
+        while (reader.pos < end) {
+            var tag = reader.uint32();
+            switch (tag >>> 3) {
+            case 1:
+                message.id = reader.int32();
+                break;
+            case 2:
+                message.gashaponId = reader.int32();
+                break;
+            default:
+                reader.skipType(tag & 7);
+                break;
+            }
+        }
+        return message;
+    };
+    StoryExtractGashaponC2S.decodeDelimited = function decodeDelimited(reader) {
+        if (!(reader instanceof $Reader))
+            reader = new $Reader(reader);
+        return this.decode(reader, reader.uint32());
+    };
+    StoryExtractGashaponC2S.verify = function verify(message) {
+        if (typeof message !== "object" || message === null)
+            return "object expected";
+        if (message.id != null && message.hasOwnProperty("id"))
+            if (!$util.isInteger(message.id))
+                return "id: integer expected";
+        if (message.gashaponId != null && message.hasOwnProperty("gashaponId"))
+            if (!$util.isInteger(message.gashaponId))
+                return "gashaponId: integer expected";
+        return null;
+    };
+    StoryExtractGashaponC2S.fromObject = function fromObject(object) {
+        if (object instanceof $root.StoryExtractGashaponC2S)
+            return object;
+        var message = new $root.StoryExtractGashaponC2S();
+        if (object.id != null)
+            message.id = object.id | 0;
+        if (object.gashaponId != null)
+            message.gashaponId = object.gashaponId | 0;
+        return message;
+    };
+    StoryExtractGashaponC2S.toObject = function toObject(message, options) {
+        if (!options)
+            options = {};
+        var object = {};
+        if (options.defaults) {
+            object.id = 0;
+            object.gashaponId = 0;
+        }
+        if (message.id != null && message.hasOwnProperty("id"))
+            object.id = message.id;
+        if (message.gashaponId != null && message.hasOwnProperty("gashaponId"))
+            object.gashaponId = message.gashaponId;
+        return object;
+    };
+    StoryExtractGashaponC2S.prototype.toJSON = function toJSON() {
+        return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
+    };
+    return StoryExtractGashaponC2S;
+})();
+$root.StoryExtractGashaponS2C = (function() {
+    function StoryExtractGashaponS2C(properties) {
+        this.items = [];
+        if (properties)
+            for (var keys = Object.keys(properties), i = 0; i < keys.length; ++i)
+                if (properties[keys[i]] != null)
+                    this[keys[i]] = properties[keys[i]];
+    }
+    StoryExtractGashaponS2C.prototype.error = 0;
+    StoryExtractGashaponS2C.prototype.gashaponId = 0;
+    StoryExtractGashaponS2C.prototype.storyExtractState = 0;
+    StoryExtractGashaponS2C.prototype.items = $util.emptyArray;
+    StoryExtractGashaponS2C.create = function create(properties) {
+        return new StoryExtractGashaponS2C(properties);
+    };
+    StoryExtractGashaponS2C.encode = function encode(message, writer) {
+        if (!writer)
+            writer = $Writer.create();
+        if (message.error != null && message.hasOwnProperty("error"))
+            writer.uint32(/* id 1, wireType 0 =*/8).int32(message.error);
+        if (message.gashaponId != null && message.hasOwnProperty("gashaponId"))
+            writer.uint32(/* id 2, wireType 0 =*/16).int32(message.gashaponId);
+        if (message.storyExtractState != null && message.hasOwnProperty("storyExtractState"))
+            writer.uint32(/* id 3, wireType 0 =*/24).int32(message.storyExtractState);
+        if (message.items != null && message.items.length)
+            for (var i = 0; i < message.items.length; ++i)
+                $root.GameItem.encode(message.items[i], writer.uint32(/* id 4, wireType 2 =*/34).fork()).ldelim();
+        return writer;
+    };
+    StoryExtractGashaponS2C.encodeDelimited = function encodeDelimited(message, writer) {
+        return this.encode(message, writer).ldelim();
+    };
+    StoryExtractGashaponS2C.decode = function decode(reader, length) {
+        if (!(reader instanceof $Reader))
+            reader = $Reader.create(reader);
+        var end = length === undefined ? reader.len : reader.pos + length, message = new $root.StoryExtractGashaponS2C();
+        while (reader.pos < end) {
+            var tag = reader.uint32();
+            switch (tag >>> 3) {
+            case 1:
+                message.error = reader.int32();
+                break;
+            case 2:
+                message.gashaponId = reader.int32();
+                break;
+            case 3:
+                message.storyExtractState = reader.int32();
+                break;
+            case 4:
+                if (!(message.items && message.items.length))
+                    message.items = [];
+                message.items.push($root.GameItem.decode(reader, reader.uint32()));
+                break;
+            default:
+                reader.skipType(tag & 7);
+                break;
+            }
+        }
+        return message;
+    };
+    StoryExtractGashaponS2C.decodeDelimited = function decodeDelimited(reader) {
+        if (!(reader instanceof $Reader))
+            reader = new $Reader(reader);
+        return this.decode(reader, reader.uint32());
+    };
+    StoryExtractGashaponS2C.verify = function verify(message) {
+        if (typeof message !== "object" || message === null)
+            return "object expected";
+        if (message.error != null && message.hasOwnProperty("error"))
+            if (!$util.isInteger(message.error))
+                return "error: integer expected";
+        if (message.gashaponId != null && message.hasOwnProperty("gashaponId"))
+            if (!$util.isInteger(message.gashaponId))
+                return "gashaponId: integer expected";
+        if (message.storyExtractState != null && message.hasOwnProperty("storyExtractState"))
+            if (!$util.isInteger(message.storyExtractState))
+                return "storyExtractState: integer expected";
+        if (message.items != null && message.hasOwnProperty("items")) {
+            if (!Array.isArray(message.items))
+                return "items: array expected";
+            for (var i = 0; i < message.items.length; ++i) {
+                var error = $root.GameItem.verify(message.items[i]);
+                if (error)
+                    return "items." + error;
+            }
+        }
+        return null;
+    };
+    StoryExtractGashaponS2C.fromObject = function fromObject(object) {
+        if (object instanceof $root.StoryExtractGashaponS2C)
+            return object;
+        var message = new $root.StoryExtractGashaponS2C();
+        if (object.error != null)
+            message.error = object.error | 0;
+        if (object.gashaponId != null)
+            message.gashaponId = object.gashaponId | 0;
+        if (object.storyExtractState != null)
+            message.storyExtractState = object.storyExtractState | 0;
+        if (object.items) {
+            if (!Array.isArray(object.items))
+                throw TypeError(".StoryExtractGashaponS2C.items: array expected");
+            message.items = [];
+            for (var i = 0; i < object.items.length; ++i) {
+                if (typeof object.items[i] !== "object")
+                    throw TypeError(".StoryExtractGashaponS2C.items: object expected");
+                message.items[i] = $root.GameItem.fromObject(object.items[i]);
+            }
+        }
+        return message;
+    };
+    StoryExtractGashaponS2C.toObject = function toObject(message, options) {
         if (!options)
             options = {};
         var object = {};
@@ -14032,10 +14189,10 @@ $root.GamerExtractGashaponS2C = (function() {
         }
         return object;
     };
-    GamerExtractGashaponS2C.prototype.toJSON = function toJSON() {
+    StoryExtractGashaponS2C.prototype.toJSON = function toJSON() {
         return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
     };
-    return GamerExtractGashaponS2C;
+    return StoryExtractGashaponS2C;
 })();
 $root.GamerGetAllowanceC2S = (function() {
     function GamerGetAllowanceC2S(properties) {
@@ -17875,39 +18032,34 @@ $root.StudioContinuedReceiveAllS2C = (function() {
     };
     return StudioContinuedReceiveAllS2C;
 })();
-$root.GamerNotifyDailyTaskS2C = (function() {
-    function GamerNotifyDailyTaskS2C(properties) {
-        this.dailyGifts = [];
+$root.GamerNotifyActivitiesS2C = (function() {
+    function GamerNotifyActivitiesS2C(properties) {
         if (properties)
             for (var keys = Object.keys(properties), i = 0; i < keys.length; ++i)
                 if (properties[keys[i]] != null)
                     this[keys[i]] = properties[keys[i]];
     }
-    GamerNotifyDailyTaskS2C.prototype.error = 0;
-    GamerNotifyDailyTaskS2C.prototype.activityDegree = 0;
-    GamerNotifyDailyTaskS2C.prototype.dailyGifts = $util.emptyArray;
-    GamerNotifyDailyTaskS2C.create = function create(properties) {
-        return new GamerNotifyDailyTaskS2C(properties);
+    GamerNotifyActivitiesS2C.prototype.error = 0;
+    GamerNotifyActivitiesS2C.prototype.countActivity = null;
+    GamerNotifyActivitiesS2C.create = function create(properties) {
+        return new GamerNotifyActivitiesS2C(properties);
     };
-    GamerNotifyDailyTaskS2C.encode = function encode(message, writer) {
+    GamerNotifyActivitiesS2C.encode = function encode(message, writer) {
         if (!writer)
             writer = $Writer.create();
         if (message.error != null && message.hasOwnProperty("error"))
             writer.uint32(/* id 1, wireType 0 =*/8).int32(message.error);
-        if (message.activityDegree != null && message.hasOwnProperty("activityDegree"))
-            writer.uint32(/* id 2, wireType 0 =*/16).int32(message.activityDegree);
-        if (message.dailyGifts != null && message.dailyGifts.length)
-            for (var i = 0; i < message.dailyGifts.length; ++i)
-                $root.DailyTaskGift.encode(message.dailyGifts[i], writer.uint32(/* id 3, wireType 2 =*/26).fork()).ldelim();
+        if (message.countActivity != null && message.hasOwnProperty("countActivity"))
+            $root.CountActivity.encode(message.countActivity, writer.uint32(/* id 2, wireType 2 =*/18).fork()).ldelim();
         return writer;
     };
-    GamerNotifyDailyTaskS2C.encodeDelimited = function encodeDelimited(message, writer) {
+    GamerNotifyActivitiesS2C.encodeDelimited = function encodeDelimited(message, writer) {
         return this.encode(message, writer).ldelim();
     };
-    GamerNotifyDailyTaskS2C.decode = function decode(reader, length) {
+    GamerNotifyActivitiesS2C.decode = function decode(reader, length) {
         if (!(reader instanceof $Reader))
             reader = $Reader.create(reader);
-        var end = length === undefined ? reader.len : reader.pos + length, message = new $root.GamerNotifyDailyTaskS2C();
+        var end = length === undefined ? reader.len : reader.pos + length, message = new $root.GamerNotifyActivitiesS2C();
         while (reader.pos < end) {
             var tag = reader.uint32();
             switch (tag >>> 3) {
@@ -17915,12 +18067,7 @@ $root.GamerNotifyDailyTaskS2C = (function() {
                 message.error = reader.int32();
                 break;
             case 2:
-                message.activityDegree = reader.int32();
-                break;
-            case 3:
-                if (!(message.dailyGifts && message.dailyGifts.length))
-                    message.dailyGifts = [];
-                message.dailyGifts.push($root.DailyTaskGift.decode(reader, reader.uint32()));
+                message.countActivity = $root.CountActivity.decode(reader, reader.uint32());
                 break;
             default:
                 reader.skipType(tag & 7);
@@ -17929,218 +18076,84 @@ $root.GamerNotifyDailyTaskS2C = (function() {
         }
         return message;
     };
-    GamerNotifyDailyTaskS2C.decodeDelimited = function decodeDelimited(reader) {
+    GamerNotifyActivitiesS2C.decodeDelimited = function decodeDelimited(reader) {
         if (!(reader instanceof $Reader))
             reader = new $Reader(reader);
         return this.decode(reader, reader.uint32());
     };
-    GamerNotifyDailyTaskS2C.verify = function verify(message) {
+    GamerNotifyActivitiesS2C.verify = function verify(message) {
         if (typeof message !== "object" || message === null)
             return "object expected";
         if (message.error != null && message.hasOwnProperty("error"))
             if (!$util.isInteger(message.error))
                 return "error: integer expected";
-        if (message.activityDegree != null && message.hasOwnProperty("activityDegree"))
-            if (!$util.isInteger(message.activityDegree))
-                return "activityDegree: integer expected";
-        if (message.dailyGifts != null && message.hasOwnProperty("dailyGifts")) {
-            if (!Array.isArray(message.dailyGifts))
-                return "dailyGifts: array expected";
-            for (var i = 0; i < message.dailyGifts.length; ++i) {
-                var error = $root.DailyTaskGift.verify(message.dailyGifts[i]);
-                if (error)
-                    return "dailyGifts." + error;
-            }
+        if (message.countActivity != null && message.hasOwnProperty("countActivity")) {
+            var error = $root.CountActivity.verify(message.countActivity);
+            if (error)
+                return "countActivity." + error;
         }
         return null;
     };
-    GamerNotifyDailyTaskS2C.fromObject = function fromObject(object) {
-        if (object instanceof $root.GamerNotifyDailyTaskS2C)
+    GamerNotifyActivitiesS2C.fromObject = function fromObject(object) {
+        if (object instanceof $root.GamerNotifyActivitiesS2C)
             return object;
-        var message = new $root.GamerNotifyDailyTaskS2C();
+        var message = new $root.GamerNotifyActivitiesS2C();
         if (object.error != null)
             message.error = object.error | 0;
-        if (object.activityDegree != null)
-            message.activityDegree = object.activityDegree | 0;
-        if (object.dailyGifts) {
-            if (!Array.isArray(object.dailyGifts))
-                throw TypeError(".GamerNotifyDailyTaskS2C.dailyGifts: array expected");
-            message.dailyGifts = [];
-            for (var i = 0; i < object.dailyGifts.length; ++i) {
-                if (typeof object.dailyGifts[i] !== "object")
-                    throw TypeError(".GamerNotifyDailyTaskS2C.dailyGifts: object expected");
-                message.dailyGifts[i] = $root.DailyTaskGift.fromObject(object.dailyGifts[i]);
-            }
+        if (object.countActivity != null) {
+            if (typeof object.countActivity !== "object")
+                throw TypeError(".GamerNotifyActivitiesS2C.countActivity: object expected");
+            message.countActivity = $root.CountActivity.fromObject(object.countActivity);
         }
         return message;
     };
-    GamerNotifyDailyTaskS2C.toObject = function toObject(message, options) {
+    GamerNotifyActivitiesS2C.toObject = function toObject(message, options) {
         if (!options)
             options = {};
         var object = {};
-        if (options.arrays || options.defaults)
-            object.dailyGifts = [];
         if (options.defaults) {
             object.error = 0;
-            object.activityDegree = 0;
+            object.countActivity = null;
         }
         if (message.error != null && message.hasOwnProperty("error"))
             object.error = message.error;
-        if (message.activityDegree != null && message.hasOwnProperty("activityDegree"))
-            object.activityDegree = message.activityDegree;
-        if (message.dailyGifts && message.dailyGifts.length) {
-            object.dailyGifts = [];
-            for (var j = 0; j < message.dailyGifts.length; ++j)
-                object.dailyGifts[j] = $root.DailyTaskGift.toObject(message.dailyGifts[j], options);
-        }
+        if (message.countActivity != null && message.hasOwnProperty("countActivity"))
+            object.countActivity = $root.CountActivity.toObject(message.countActivity, options);
         return object;
     };
-    GamerNotifyDailyTaskS2C.prototype.toJSON = function toJSON() {
+    GamerNotifyActivitiesS2C.prototype.toJSON = function toJSON() {
         return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
     };
-    return GamerNotifyDailyTaskS2C;
+    return GamerNotifyActivitiesS2C;
 })();
-$root.GamerNotifyTaskS2C = (function() {
-    function GamerNotifyTaskS2C(properties) {
-        this.tasks = [];
+$root.GetActivityRewardC2S = (function() {
+    function GetActivityRewardC2S(properties) {
         if (properties)
             for (var keys = Object.keys(properties), i = 0; i < keys.length; ++i)
                 if (properties[keys[i]] != null)
                     this[keys[i]] = properties[keys[i]];
     }
-    GamerNotifyTaskS2C.prototype.error = 0;
-    GamerNotifyTaskS2C.prototype.tasks = $util.emptyArray;
-    GamerNotifyTaskS2C.create = function create(properties) {
-        return new GamerNotifyTaskS2C(properties);
+    GetActivityRewardC2S.prototype.id = 0;
+    GetActivityRewardC2S.prototype.activityId = 0;
+    GetActivityRewardC2S.create = function create(properties) {
+        return new GetActivityRewardC2S(properties);
     };
-    GamerNotifyTaskS2C.encode = function encode(message, writer) {
-        if (!writer)
-            writer = $Writer.create();
-        if (message.error != null && message.hasOwnProperty("error"))
-            writer.uint32(/* id 1, wireType 0 =*/8).int32(message.error);
-        if (message.tasks != null && message.tasks.length)
-            for (var i = 0; i < message.tasks.length; ++i)
-                $root.Task.encode(message.tasks[i], writer.uint32(/* id 2, wireType 2 =*/18).fork()).ldelim();
-        return writer;
-    };
-    GamerNotifyTaskS2C.encodeDelimited = function encodeDelimited(message, writer) {
-        return this.encode(message, writer).ldelim();
-    };
-    GamerNotifyTaskS2C.decode = function decode(reader, length) {
-        if (!(reader instanceof $Reader))
-            reader = $Reader.create(reader);
-        var end = length === undefined ? reader.len : reader.pos + length, message = new $root.GamerNotifyTaskS2C();
-        while (reader.pos < end) {
-            var tag = reader.uint32();
-            switch (tag >>> 3) {
-            case 1:
-                message.error = reader.int32();
-                break;
-            case 2:
-                if (!(message.tasks && message.tasks.length))
-                    message.tasks = [];
-                message.tasks.push($root.Task.decode(reader, reader.uint32()));
-                break;
-            default:
-                reader.skipType(tag & 7);
-                break;
-            }
-        }
-        return message;
-    };
-    GamerNotifyTaskS2C.decodeDelimited = function decodeDelimited(reader) {
-        if (!(reader instanceof $Reader))
-            reader = new $Reader(reader);
-        return this.decode(reader, reader.uint32());
-    };
-    GamerNotifyTaskS2C.verify = function verify(message) {
-        if (typeof message !== "object" || message === null)
-            return "object expected";
-        if (message.error != null && message.hasOwnProperty("error"))
-            if (!$util.isInteger(message.error))
-                return "error: integer expected";
-        if (message.tasks != null && message.hasOwnProperty("tasks")) {
-            if (!Array.isArray(message.tasks))
-                return "tasks: array expected";
-            for (var i = 0; i < message.tasks.length; ++i) {
-                var error = $root.Task.verify(message.tasks[i]);
-                if (error)
-                    return "tasks." + error;
-            }
-        }
-        return null;
-    };
-    GamerNotifyTaskS2C.fromObject = function fromObject(object) {
-        if (object instanceof $root.GamerNotifyTaskS2C)
-            return object;
-        var message = new $root.GamerNotifyTaskS2C();
-        if (object.error != null)
-            message.error = object.error | 0;
-        if (object.tasks) {
-            if (!Array.isArray(object.tasks))
-                throw TypeError(".GamerNotifyTaskS2C.tasks: array expected");
-            message.tasks = [];
-            for (var i = 0; i < object.tasks.length; ++i) {
-                if (typeof object.tasks[i] !== "object")
-                    throw TypeError(".GamerNotifyTaskS2C.tasks: object expected");
-                message.tasks[i] = $root.Task.fromObject(object.tasks[i]);
-            }
-        }
-        return message;
-    };
-    GamerNotifyTaskS2C.toObject = function toObject(message, options) {
-        if (!options)
-            options = {};
-        var object = {};
-        if (options.arrays || options.defaults)
-            object.tasks = [];
-        if (options.defaults)
-            object.error = 0;
-        if (message.error != null && message.hasOwnProperty("error"))
-            object.error = message.error;
-        if (message.tasks && message.tasks.length) {
-            object.tasks = [];
-            for (var j = 0; j < message.tasks.length; ++j)
-                object.tasks[j] = $root.Task.toObject(message.tasks[j], options);
-        }
-        return object;
-    };
-    GamerNotifyTaskS2C.prototype.toJSON = function toJSON() {
-        return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
-    };
-    return GamerNotifyTaskS2C;
-})();
-$root.GamerAcceptTaskC2S = (function() {
-    function GamerAcceptTaskC2S(properties) {
-        if (properties)
-            for (var keys = Object.keys(properties), i = 0; i < keys.length; ++i)
-                if (properties[keys[i]] != null)
-                    this[keys[i]] = properties[keys[i]];
-    }
-    GamerAcceptTaskC2S.prototype.id = 0;
-    GamerAcceptTaskC2S.prototype.type = 0;
-    GamerAcceptTaskC2S.prototype.taskId = 0;
-    GamerAcceptTaskC2S.create = function create(properties) {
-        return new GamerAcceptTaskC2S(properties);
-    };
-    GamerAcceptTaskC2S.encode = function encode(message, writer) {
+    GetActivityRewardC2S.encode = function encode(message, writer) {
         if (!writer)
             writer = $Writer.create();
         if (message.id != null && message.hasOwnProperty("id"))
             writer.uint32(/* id 1, wireType 0 =*/8).int32(message.id);
-        if (message.type != null && message.hasOwnProperty("type"))
-            writer.uint32(/* id 2, wireType 0 =*/16).int32(message.type);
-        if (message.taskId != null && message.hasOwnProperty("taskId"))
-            writer.uint32(/* id 3, wireType 0 =*/24).int32(message.taskId);
+        if (message.activityId != null && message.hasOwnProperty("activityId"))
+            writer.uint32(/* id 2, wireType 0 =*/16).int32(message.activityId);
         return writer;
     };
-    GamerAcceptTaskC2S.encodeDelimited = function encodeDelimited(message, writer) {
+    GetActivityRewardC2S.encodeDelimited = function encodeDelimited(message, writer) {
         return this.encode(message, writer).ldelim();
     };
-    GamerAcceptTaskC2S.decode = function decode(reader, length) {
+    GetActivityRewardC2S.decode = function decode(reader, length) {
         if (!(reader instanceof $Reader))
             reader = $Reader.create(reader);
-        var end = length === undefined ? reader.len : reader.pos + length, message = new $root.GamerAcceptTaskC2S();
+        var end = length === undefined ? reader.len : reader.pos + length, message = new $root.GetActivityRewardC2S();
         while (reader.pos < end) {
             var tag = reader.uint32();
             switch (tag >>> 3) {
@@ -18148,10 +18161,7 @@ $root.GamerAcceptTaskC2S = (function() {
                 message.id = reader.int32();
                 break;
             case 2:
-                message.type = reader.int32();
-                break;
-            case 3:
-                message.taskId = reader.int32();
+                message.activityId = reader.int32();
                 break;
             default:
                 reader.skipType(tag & 7);
@@ -18160,322 +18170,79 @@ $root.GamerAcceptTaskC2S = (function() {
         }
         return message;
     };
-    GamerAcceptTaskC2S.decodeDelimited = function decodeDelimited(reader) {
+    GetActivityRewardC2S.decodeDelimited = function decodeDelimited(reader) {
         if (!(reader instanceof $Reader))
             reader = new $Reader(reader);
         return this.decode(reader, reader.uint32());
     };
-    GamerAcceptTaskC2S.verify = function verify(message) {
+    GetActivityRewardC2S.verify = function verify(message) {
         if (typeof message !== "object" || message === null)
             return "object expected";
         if (message.id != null && message.hasOwnProperty("id"))
             if (!$util.isInteger(message.id))
                 return "id: integer expected";
-        if (message.type != null && message.hasOwnProperty("type"))
-            switch (message.type) {
-            default:
-                return "type: enum value expected";
-            case 0:
-            case 100:
-            case 1:
-            case 2:
-            case 3:
-                break;
-            }
-        if (message.taskId != null && message.hasOwnProperty("taskId"))
-            if (!$util.isInteger(message.taskId))
-                return "taskId: integer expected";
+        if (message.activityId != null && message.hasOwnProperty("activityId"))
+            if (!$util.isInteger(message.activityId))
+                return "activityId: integer expected";
         return null;
     };
-    GamerAcceptTaskC2S.fromObject = function fromObject(object) {
-        if (object instanceof $root.GamerAcceptTaskC2S)
+    GetActivityRewardC2S.fromObject = function fromObject(object) {
+        if (object instanceof $root.GetActivityRewardC2S)
             return object;
-        var message = new $root.GamerAcceptTaskC2S();
+        var message = new $root.GetActivityRewardC2S();
         if (object.id != null)
             message.id = object.id | 0;
-        switch (object.type) {
-        case "TaskType_Invalid":
-        case 0:
-            message.type = 0;
-            break;
-        case "MainTask":
-        case 100:
-            message.type = 100;
-            break;
-        case "DailyTask":
-        case 1:
-            message.type = 1;
-            break;
-        case "Achievement":
-        case 2:
-            message.type = 2;
-            break;
-        case "PlotAchievement":
-        case 3:
-            message.type = 3;
-            break;
-        }
-        if (object.taskId != null)
-            message.taskId = object.taskId | 0;
+        if (object.activityId != null)
+            message.activityId = object.activityId | 0;
         return message;
     };
-    GamerAcceptTaskC2S.toObject = function toObject(message, options) {
+    GetActivityRewardC2S.toObject = function toObject(message, options) {
         if (!options)
             options = {};
         var object = {};
         if (options.defaults) {
             object.id = 0;
-            object.type = options.enums === String ? "TaskType_Invalid" : 0;
-            object.taskId = 0;
+            object.activityId = 0;
         }
         if (message.id != null && message.hasOwnProperty("id"))
             object.id = message.id;
-        if (message.type != null && message.hasOwnProperty("type"))
-            object.type = options.enums === String ? $root.TaskType[message.type] : message.type;
-        if (message.taskId != null && message.hasOwnProperty("taskId"))
-            object.taskId = message.taskId;
+        if (message.activityId != null && message.hasOwnProperty("activityId"))
+            object.activityId = message.activityId;
         return object;
     };
-    GamerAcceptTaskC2S.prototype.toJSON = function toJSON() {
+    GetActivityRewardC2S.prototype.toJSON = function toJSON() {
         return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
     };
-    return GamerAcceptTaskC2S;
+    return GetActivityRewardC2S;
 })();
-$root.GamerAcceptTaskS2C = (function() {
-    function GamerAcceptTaskS2C(properties) {
+$root.GetActivityRewardS2C = (function() {
+    function GetActivityRewardS2C(properties) {
         if (properties)
             for (var keys = Object.keys(properties), i = 0; i < keys.length; ++i)
                 if (properties[keys[i]] != null)
                     this[keys[i]] = properties[keys[i]];
     }
-    GamerAcceptTaskS2C.prototype.error = 0;
-    GamerAcceptTaskS2C.create = function create(properties) {
-        return new GamerAcceptTaskS2C(properties);
+    GetActivityRewardS2C.prototype.error = 0;
+    GetActivityRewardS2C.prototype.activityId = 0;
+    GetActivityRewardS2C.create = function create(properties) {
+        return new GetActivityRewardS2C(properties);
     };
-    GamerAcceptTaskS2C.encode = function encode(message, writer) {
+    GetActivityRewardS2C.encode = function encode(message, writer) {
         if (!writer)
             writer = $Writer.create();
         if (message.error != null && message.hasOwnProperty("error"))
             writer.uint32(/* id 1, wireType 0 =*/8).int32(message.error);
+        if (message.activityId != null && message.hasOwnProperty("activityId"))
+            writer.uint32(/* id 2, wireType 0 =*/16).int32(message.activityId);
         return writer;
     };
-    GamerAcceptTaskS2C.encodeDelimited = function encodeDelimited(message, writer) {
+    GetActivityRewardS2C.encodeDelimited = function encodeDelimited(message, writer) {
         return this.encode(message, writer).ldelim();
     };
-    GamerAcceptTaskS2C.decode = function decode(reader, length) {
+    GetActivityRewardS2C.decode = function decode(reader, length) {
         if (!(reader instanceof $Reader))
             reader = $Reader.create(reader);
-        var end = length === undefined ? reader.len : reader.pos + length, message = new $root.GamerAcceptTaskS2C();
-        while (reader.pos < end) {
-            var tag = reader.uint32();
-            switch (tag >>> 3) {
-            case 1:
-                message.error = reader.int32();
-                break;
-            default:
-                reader.skipType(tag & 7);
-                break;
-            }
-        }
-        return message;
-    };
-    GamerAcceptTaskS2C.decodeDelimited = function decodeDelimited(reader) {
-        if (!(reader instanceof $Reader))
-            reader = new $Reader(reader);
-        return this.decode(reader, reader.uint32());
-    };
-    GamerAcceptTaskS2C.verify = function verify(message) {
-        if (typeof message !== "object" || message === null)
-            return "object expected";
-        if (message.error != null && message.hasOwnProperty("error"))
-            if (!$util.isInteger(message.error))
-                return "error: integer expected";
-        return null;
-    };
-    GamerAcceptTaskS2C.fromObject = function fromObject(object) {
-        if (object instanceof $root.GamerAcceptTaskS2C)
-            return object;
-        var message = new $root.GamerAcceptTaskS2C();
-        if (object.error != null)
-            message.error = object.error | 0;
-        return message;
-    };
-    GamerAcceptTaskS2C.toObject = function toObject(message, options) {
-        if (!options)
-            options = {};
-        var object = {};
-        if (options.defaults)
-            object.error = 0;
-        if (message.error != null && message.hasOwnProperty("error"))
-            object.error = message.error;
-        return object;
-    };
-    GamerAcceptTaskS2C.prototype.toJSON = function toJSON() {
-        return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
-    };
-    return GamerAcceptTaskS2C;
-})();
-$root.GamerGetTaskRewardC2S = (function() {
-    function GamerGetTaskRewardC2S(properties) {
-        if (properties)
-            for (var keys = Object.keys(properties), i = 0; i < keys.length; ++i)
-                if (properties[keys[i]] != null)
-                    this[keys[i]] = properties[keys[i]];
-    }
-    GamerGetTaskRewardC2S.prototype.id = 0;
-    GamerGetTaskRewardC2S.prototype.type = 0;
-    GamerGetTaskRewardC2S.prototype.taskId = 0;
-    GamerGetTaskRewardC2S.create = function create(properties) {
-        return new GamerGetTaskRewardC2S(properties);
-    };
-    GamerGetTaskRewardC2S.encode = function encode(message, writer) {
-        if (!writer)
-            writer = $Writer.create();
-        if (message.id != null && message.hasOwnProperty("id"))
-            writer.uint32(/* id 1, wireType 0 =*/8).int32(message.id);
-        if (message.type != null && message.hasOwnProperty("type"))
-            writer.uint32(/* id 2, wireType 0 =*/16).int32(message.type);
-        if (message.taskId != null && message.hasOwnProperty("taskId"))
-            writer.uint32(/* id 3, wireType 0 =*/24).int32(message.taskId);
-        return writer;
-    };
-    GamerGetTaskRewardC2S.encodeDelimited = function encodeDelimited(message, writer) {
-        return this.encode(message, writer).ldelim();
-    };
-    GamerGetTaskRewardC2S.decode = function decode(reader, length) {
-        if (!(reader instanceof $Reader))
-            reader = $Reader.create(reader);
-        var end = length === undefined ? reader.len : reader.pos + length, message = new $root.GamerGetTaskRewardC2S();
-        while (reader.pos < end) {
-            var tag = reader.uint32();
-            switch (tag >>> 3) {
-            case 1:
-                message.id = reader.int32();
-                break;
-            case 2:
-                message.type = reader.int32();
-                break;
-            case 3:
-                message.taskId = reader.int32();
-                break;
-            default:
-                reader.skipType(tag & 7);
-                break;
-            }
-        }
-        return message;
-    };
-    GamerGetTaskRewardC2S.decodeDelimited = function decodeDelimited(reader) {
-        if (!(reader instanceof $Reader))
-            reader = new $Reader(reader);
-        return this.decode(reader, reader.uint32());
-    };
-    GamerGetTaskRewardC2S.verify = function verify(message) {
-        if (typeof message !== "object" || message === null)
-            return "object expected";
-        if (message.id != null && message.hasOwnProperty("id"))
-            if (!$util.isInteger(message.id))
-                return "id: integer expected";
-        if (message.type != null && message.hasOwnProperty("type"))
-            switch (message.type) {
-            default:
-                return "type: enum value expected";
-            case 0:
-            case 100:
-            case 1:
-            case 2:
-            case 3:
-                break;
-            }
-        if (message.taskId != null && message.hasOwnProperty("taskId"))
-            if (!$util.isInteger(message.taskId))
-                return "taskId: integer expected";
-        return null;
-    };
-    GamerGetTaskRewardC2S.fromObject = function fromObject(object) {
-        if (object instanceof $root.GamerGetTaskRewardC2S)
-            return object;
-        var message = new $root.GamerGetTaskRewardC2S();
-        if (object.id != null)
-            message.id = object.id | 0;
-        switch (object.type) {
-        case "TaskType_Invalid":
-        case 0:
-            message.type = 0;
-            break;
-        case "MainTask":
-        case 100:
-            message.type = 100;
-            break;
-        case "DailyTask":
-        case 1:
-            message.type = 1;
-            break;
-        case "Achievement":
-        case 2:
-            message.type = 2;
-            break;
-        case "PlotAchievement":
-        case 3:
-            message.type = 3;
-            break;
-        }
-        if (object.taskId != null)
-            message.taskId = object.taskId | 0;
-        return message;
-    };
-    GamerGetTaskRewardC2S.toObject = function toObject(message, options) {
-        if (!options)
-            options = {};
-        var object = {};
-        if (options.defaults) {
-            object.id = 0;
-            object.type = options.enums === String ? "TaskType_Invalid" : 0;
-            object.taskId = 0;
-        }
-        if (message.id != null && message.hasOwnProperty("id"))
-            object.id = message.id;
-        if (message.type != null && message.hasOwnProperty("type"))
-            object.type = options.enums === String ? $root.TaskType[message.type] : message.type;
-        if (message.taskId != null && message.hasOwnProperty("taskId"))
-            object.taskId = message.taskId;
-        return object;
-    };
-    GamerGetTaskRewardC2S.prototype.toJSON = function toJSON() {
-        return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
-    };
-    return GamerGetTaskRewardC2S;
-})();
-$root.GamerGetTaskRewardS2C = (function() {
-    function GamerGetTaskRewardS2C(properties) {
-        this.items = [];
-        if (properties)
-            for (var keys = Object.keys(properties), i = 0; i < keys.length; ++i)
-                if (properties[keys[i]] != null)
-                    this[keys[i]] = properties[keys[i]];
-    }
-    GamerGetTaskRewardS2C.prototype.error = 0;
-    GamerGetTaskRewardS2C.prototype.items = $util.emptyArray;
-    GamerGetTaskRewardS2C.create = function create(properties) {
-        return new GamerGetTaskRewardS2C(properties);
-    };
-    GamerGetTaskRewardS2C.encode = function encode(message, writer) {
-        if (!writer)
-            writer = $Writer.create();
-        if (message.error != null && message.hasOwnProperty("error"))
-            writer.uint32(/* id 1, wireType 0 =*/8).int32(message.error);
-        if (message.items != null && message.items.length)
-            for (var i = 0; i < message.items.length; ++i)
-                $root.GameItem.encode(message.items[i], writer.uint32(/* id 2, wireType 2 =*/18).fork()).ldelim();
-        return writer;
-    };
-    GamerGetTaskRewardS2C.encodeDelimited = function encodeDelimited(message, writer) {
-        return this.encode(message, writer).ldelim();
-    };
-    GamerGetTaskRewardS2C.decode = function decode(reader, length) {
-        if (!(reader instanceof $Reader))
-            reader = $Reader.create(reader);
-        var end = length === undefined ? reader.len : reader.pos + length, message = new $root.GamerGetTaskRewardS2C();
+        var end = length === undefined ? reader.len : reader.pos + length, message = new $root.GetActivityRewardS2C();
         while (reader.pos < end) {
             var tag = reader.uint32();
             switch (tag >>> 3) {
@@ -18483,9 +18250,7 @@ $root.GamerGetTaskRewardS2C = (function() {
                 message.error = reader.int32();
                 break;
             case 2:
-                if (!(message.items && message.items.length))
-                    message.items = [];
-                message.items.push($root.GameItem.decode(reader, reader.uint32()));
+                message.activityId = reader.int32();
                 break;
             default:
                 reader.skipType(tag & 7);
@@ -18494,592 +18259,50 @@ $root.GamerGetTaskRewardS2C = (function() {
         }
         return message;
     };
-    GamerGetTaskRewardS2C.decodeDelimited = function decodeDelimited(reader) {
+    GetActivityRewardS2C.decodeDelimited = function decodeDelimited(reader) {
         if (!(reader instanceof $Reader))
             reader = new $Reader(reader);
         return this.decode(reader, reader.uint32());
     };
-    GamerGetTaskRewardS2C.verify = function verify(message) {
+    GetActivityRewardS2C.verify = function verify(message) {
         if (typeof message !== "object" || message === null)
             return "object expected";
         if (message.error != null && message.hasOwnProperty("error"))
             if (!$util.isInteger(message.error))
                 return "error: integer expected";
-        if (message.items != null && message.hasOwnProperty("items")) {
-            if (!Array.isArray(message.items))
-                return "items: array expected";
-            for (var i = 0; i < message.items.length; ++i) {
-                var error = $root.GameItem.verify(message.items[i]);
-                if (error)
-                    return "items." + error;
-            }
-        }
+        if (message.activityId != null && message.hasOwnProperty("activityId"))
+            if (!$util.isInteger(message.activityId))
+                return "activityId: integer expected";
         return null;
     };
-    GamerGetTaskRewardS2C.fromObject = function fromObject(object) {
-        if (object instanceof $root.GamerGetTaskRewardS2C)
+    GetActivityRewardS2C.fromObject = function fromObject(object) {
+        if (object instanceof $root.GetActivityRewardS2C)
             return object;
-        var message = new $root.GamerGetTaskRewardS2C();
+        var message = new $root.GetActivityRewardS2C();
         if (object.error != null)
             message.error = object.error | 0;
-        if (object.items) {
-            if (!Array.isArray(object.items))
-                throw TypeError(".GamerGetTaskRewardS2C.items: array expected");
-            message.items = [];
-            for (var i = 0; i < object.items.length; ++i) {
-                if (typeof object.items[i] !== "object")
-                    throw TypeError(".GamerGetTaskRewardS2C.items: object expected");
-                message.items[i] = $root.GameItem.fromObject(object.items[i]);
-            }
-        }
+        if (object.activityId != null)
+            message.activityId = object.activityId | 0;
         return message;
     };
-    GamerGetTaskRewardS2C.toObject = function toObject(message, options) {
-        if (!options)
-            options = {};
-        var object = {};
-        if (options.arrays || options.defaults)
-            object.items = [];
-        if (options.defaults)
-            object.error = 0;
-        if (message.error != null && message.hasOwnProperty("error"))
-            object.error = message.error;
-        if (message.items && message.items.length) {
-            object.items = [];
-            for (var j = 0; j < message.items.length; ++j)
-                object.items[j] = $root.GameItem.toObject(message.items[j], options);
-        }
-        return object;
-    };
-    GamerGetTaskRewardS2C.prototype.toJSON = function toJSON() {
-        return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
-    };
-    return GamerGetTaskRewardS2C;
-})();
-$root.GamerGetDailyTaskActivityDegreeRewardC2S = (function() {
-    function GamerGetDailyTaskActivityDegreeRewardC2S(properties) {
-        if (properties)
-            for (var keys = Object.keys(properties), i = 0; i < keys.length; ++i)
-                if (properties[keys[i]] != null)
-                    this[keys[i]] = properties[keys[i]];
-    }
-    GamerGetDailyTaskActivityDegreeRewardC2S.prototype.id = 0;
-    GamerGetDailyTaskActivityDegreeRewardC2S.prototype.giftId = 0;
-    GamerGetDailyTaskActivityDegreeRewardC2S.create = function create(properties) {
-        return new GamerGetDailyTaskActivityDegreeRewardC2S(properties);
-    };
-    GamerGetDailyTaskActivityDegreeRewardC2S.encode = function encode(message, writer) {
-        if (!writer)
-            writer = $Writer.create();
-        if (message.id != null && message.hasOwnProperty("id"))
-            writer.uint32(/* id 1, wireType 0 =*/8).int32(message.id);
-        if (message.giftId != null && message.hasOwnProperty("giftId"))
-            writer.uint32(/* id 2, wireType 0 =*/16).int32(message.giftId);
-        return writer;
-    };
-    GamerGetDailyTaskActivityDegreeRewardC2S.encodeDelimited = function encodeDelimited(message, writer) {
-        return this.encode(message, writer).ldelim();
-    };
-    GamerGetDailyTaskActivityDegreeRewardC2S.decode = function decode(reader, length) {
-        if (!(reader instanceof $Reader))
-            reader = $Reader.create(reader);
-        var end = length === undefined ? reader.len : reader.pos + length, message = new $root.GamerGetDailyTaskActivityDegreeRewardC2S();
-        while (reader.pos < end) {
-            var tag = reader.uint32();
-            switch (tag >>> 3) {
-            case 1:
-                message.id = reader.int32();
-                break;
-            case 2:
-                message.giftId = reader.int32();
-                break;
-            default:
-                reader.skipType(tag & 7);
-                break;
-            }
-        }
-        return message;
-    };
-    GamerGetDailyTaskActivityDegreeRewardC2S.decodeDelimited = function decodeDelimited(reader) {
-        if (!(reader instanceof $Reader))
-            reader = new $Reader(reader);
-        return this.decode(reader, reader.uint32());
-    };
-    GamerGetDailyTaskActivityDegreeRewardC2S.verify = function verify(message) {
-        if (typeof message !== "object" || message === null)
-            return "object expected";
-        if (message.id != null && message.hasOwnProperty("id"))
-            if (!$util.isInteger(message.id))
-                return "id: integer expected";
-        if (message.giftId != null && message.hasOwnProperty("giftId"))
-            if (!$util.isInteger(message.giftId))
-                return "giftId: integer expected";
-        return null;
-    };
-    GamerGetDailyTaskActivityDegreeRewardC2S.fromObject = function fromObject(object) {
-        if (object instanceof $root.GamerGetDailyTaskActivityDegreeRewardC2S)
-            return object;
-        var message = new $root.GamerGetDailyTaskActivityDegreeRewardC2S();
-        if (object.id != null)
-            message.id = object.id | 0;
-        if (object.giftId != null)
-            message.giftId = object.giftId | 0;
-        return message;
-    };
-    GamerGetDailyTaskActivityDegreeRewardC2S.toObject = function toObject(message, options) {
-        if (!options)
-            options = {};
-        var object = {};
-        if (options.defaults) {
-            object.id = 0;
-            object.giftId = 0;
-        }
-        if (message.id != null && message.hasOwnProperty("id"))
-            object.id = message.id;
-        if (message.giftId != null && message.hasOwnProperty("giftId"))
-            object.giftId = message.giftId;
-        return object;
-    };
-    GamerGetDailyTaskActivityDegreeRewardC2S.prototype.toJSON = function toJSON() {
-        return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
-    };
-    return GamerGetDailyTaskActivityDegreeRewardC2S;
-})();
-$root.GamerGetDailyTaskActivityDegreeRewardS2C = (function() {
-    function GamerGetDailyTaskActivityDegreeRewardS2C(properties) {
-        this.items = [];
-        if (properties)
-            for (var keys = Object.keys(properties), i = 0; i < keys.length; ++i)
-                if (properties[keys[i]] != null)
-                    this[keys[i]] = properties[keys[i]];
-    }
-    GamerGetDailyTaskActivityDegreeRewardS2C.prototype.error = 0;
-    GamerGetDailyTaskActivityDegreeRewardS2C.prototype.items = $util.emptyArray;
-    GamerGetDailyTaskActivityDegreeRewardS2C.create = function create(properties) {
-        return new GamerGetDailyTaskActivityDegreeRewardS2C(properties);
-    };
-    GamerGetDailyTaskActivityDegreeRewardS2C.encode = function encode(message, writer) {
-        if (!writer)
-            writer = $Writer.create();
-        if (message.error != null && message.hasOwnProperty("error"))
-            writer.uint32(/* id 1, wireType 0 =*/8).int32(message.error);
-        if (message.items != null && message.items.length)
-            for (var i = 0; i < message.items.length; ++i)
-                $root.GameItem.encode(message.items[i], writer.uint32(/* id 2, wireType 2 =*/18).fork()).ldelim();
-        return writer;
-    };
-    GamerGetDailyTaskActivityDegreeRewardS2C.encodeDelimited = function encodeDelimited(message, writer) {
-        return this.encode(message, writer).ldelim();
-    };
-    GamerGetDailyTaskActivityDegreeRewardS2C.decode = function decode(reader, length) {
-        if (!(reader instanceof $Reader))
-            reader = $Reader.create(reader);
-        var end = length === undefined ? reader.len : reader.pos + length, message = new $root.GamerGetDailyTaskActivityDegreeRewardS2C();
-        while (reader.pos < end) {
-            var tag = reader.uint32();
-            switch (tag >>> 3) {
-            case 1:
-                message.error = reader.int32();
-                break;
-            case 2:
-                if (!(message.items && message.items.length))
-                    message.items = [];
-                message.items.push($root.GameItem.decode(reader, reader.uint32()));
-                break;
-            default:
-                reader.skipType(tag & 7);
-                break;
-            }
-        }
-        return message;
-    };
-    GamerGetDailyTaskActivityDegreeRewardS2C.decodeDelimited = function decodeDelimited(reader) {
-        if (!(reader instanceof $Reader))
-            reader = new $Reader(reader);
-        return this.decode(reader, reader.uint32());
-    };
-    GamerGetDailyTaskActivityDegreeRewardS2C.verify = function verify(message) {
-        if (typeof message !== "object" || message === null)
-            return "object expected";
-        if (message.error != null && message.hasOwnProperty("error"))
-            if (!$util.isInteger(message.error))
-                return "error: integer expected";
-        if (message.items != null && message.hasOwnProperty("items")) {
-            if (!Array.isArray(message.items))
-                return "items: array expected";
-            for (var i = 0; i < message.items.length; ++i) {
-                var error = $root.GameItem.verify(message.items[i]);
-                if (error)
-                    return "items." + error;
-            }
-        }
-        return null;
-    };
-    GamerGetDailyTaskActivityDegreeRewardS2C.fromObject = function fromObject(object) {
-        if (object instanceof $root.GamerGetDailyTaskActivityDegreeRewardS2C)
-            return object;
-        var message = new $root.GamerGetDailyTaskActivityDegreeRewardS2C();
-        if (object.error != null)
-            message.error = object.error | 0;
-        if (object.items) {
-            if (!Array.isArray(object.items))
-                throw TypeError(".GamerGetDailyTaskActivityDegreeRewardS2C.items: array expected");
-            message.items = [];
-            for (var i = 0; i < object.items.length; ++i) {
-                if (typeof object.items[i] !== "object")
-                    throw TypeError(".GamerGetDailyTaskActivityDegreeRewardS2C.items: object expected");
-                message.items[i] = $root.GameItem.fromObject(object.items[i]);
-            }
-        }
-        return message;
-    };
-    GamerGetDailyTaskActivityDegreeRewardS2C.toObject = function toObject(message, options) {
-        if (!options)
-            options = {};
-        var object = {};
-        if (options.arrays || options.defaults)
-            object.items = [];
-        if (options.defaults)
-            object.error = 0;
-        if (message.error != null && message.hasOwnProperty("error"))
-            object.error = message.error;
-        if (message.items && message.items.length) {
-            object.items = [];
-            for (var j = 0; j < message.items.length; ++j)
-                object.items[j] = $root.GameItem.toObject(message.items[j], options);
-        }
-        return object;
-    };
-    GamerGetDailyTaskActivityDegreeRewardS2C.prototype.toJSON = function toJSON() {
-        return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
-    };
-    return GamerGetDailyTaskActivityDegreeRewardS2C;
-})();
-$root.GamerGetGuideProgressC2S = (function() {
-    function GamerGetGuideProgressC2S(properties) {
-        if (properties)
-            for (var keys = Object.keys(properties), i = 0; i < keys.length; ++i)
-                if (properties[keys[i]] != null)
-                    this[keys[i]] = properties[keys[i]];
-    }
-    GamerGetGuideProgressC2S.prototype.id = 0;
-    GamerGetGuideProgressC2S.create = function create(properties) {
-        return new GamerGetGuideProgressC2S(properties);
-    };
-    GamerGetGuideProgressC2S.encode = function encode(message, writer) {
-        if (!writer)
-            writer = $Writer.create();
-        if (message.id != null && message.hasOwnProperty("id"))
-            writer.uint32(/* id 1, wireType 0 =*/8).int32(message.id);
-        return writer;
-    };
-    GamerGetGuideProgressC2S.encodeDelimited = function encodeDelimited(message, writer) {
-        return this.encode(message, writer).ldelim();
-    };
-    GamerGetGuideProgressC2S.decode = function decode(reader, length) {
-        if (!(reader instanceof $Reader))
-            reader = $Reader.create(reader);
-        var end = length === undefined ? reader.len : reader.pos + length, message = new $root.GamerGetGuideProgressC2S();
-        while (reader.pos < end) {
-            var tag = reader.uint32();
-            switch (tag >>> 3) {
-            case 1:
-                message.id = reader.int32();
-                break;
-            default:
-                reader.skipType(tag & 7);
-                break;
-            }
-        }
-        return message;
-    };
-    GamerGetGuideProgressC2S.decodeDelimited = function decodeDelimited(reader) {
-        if (!(reader instanceof $Reader))
-            reader = new $Reader(reader);
-        return this.decode(reader, reader.uint32());
-    };
-    GamerGetGuideProgressC2S.verify = function verify(message) {
-        if (typeof message !== "object" || message === null)
-            return "object expected";
-        if (message.id != null && message.hasOwnProperty("id"))
-            if (!$util.isInteger(message.id))
-                return "id: integer expected";
-        return null;
-    };
-    GamerGetGuideProgressC2S.fromObject = function fromObject(object) {
-        if (object instanceof $root.GamerGetGuideProgressC2S)
-            return object;
-        var message = new $root.GamerGetGuideProgressC2S();
-        if (object.id != null)
-            message.id = object.id | 0;
-        return message;
-    };
-    GamerGetGuideProgressC2S.toObject = function toObject(message, options) {
-        if (!options)
-            options = {};
-        var object = {};
-        if (options.defaults)
-            object.id = 0;
-        if (message.id != null && message.hasOwnProperty("id"))
-            object.id = message.id;
-        return object;
-    };
-    GamerGetGuideProgressC2S.prototype.toJSON = function toJSON() {
-        return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
-    };
-    return GamerGetGuideProgressC2S;
-})();
-$root.GamerGetGuideProgressS2C = (function() {
-    function GamerGetGuideProgressS2C(properties) {
-        if (properties)
-            for (var keys = Object.keys(properties), i = 0; i < keys.length; ++i)
-                if (properties[keys[i]] != null)
-                    this[keys[i]] = properties[keys[i]];
-    }
-    GamerGetGuideProgressS2C.prototype.error = 0;
-    GamerGetGuideProgressS2C.prototype.progress = 0;
-    GamerGetGuideProgressS2C.create = function create(properties) {
-        return new GamerGetGuideProgressS2C(properties);
-    };
-    GamerGetGuideProgressS2C.encode = function encode(message, writer) {
-        if (!writer)
-            writer = $Writer.create();
-        if (message.error != null && message.hasOwnProperty("error"))
-            writer.uint32(/* id 1, wireType 0 =*/8).int32(message.error);
-        if (message.progress != null && message.hasOwnProperty("progress"))
-            writer.uint32(/* id 2, wireType 0 =*/16).int32(message.progress);
-        return writer;
-    };
-    GamerGetGuideProgressS2C.encodeDelimited = function encodeDelimited(message, writer) {
-        return this.encode(message, writer).ldelim();
-    };
-    GamerGetGuideProgressS2C.decode = function decode(reader, length) {
-        if (!(reader instanceof $Reader))
-            reader = $Reader.create(reader);
-        var end = length === undefined ? reader.len : reader.pos + length, message = new $root.GamerGetGuideProgressS2C();
-        while (reader.pos < end) {
-            var tag = reader.uint32();
-            switch (tag >>> 3) {
-            case 1:
-                message.error = reader.int32();
-                break;
-            case 2:
-                message.progress = reader.int32();
-                break;
-            default:
-                reader.skipType(tag & 7);
-                break;
-            }
-        }
-        return message;
-    };
-    GamerGetGuideProgressS2C.decodeDelimited = function decodeDelimited(reader) {
-        if (!(reader instanceof $Reader))
-            reader = new $Reader(reader);
-        return this.decode(reader, reader.uint32());
-    };
-    GamerGetGuideProgressS2C.verify = function verify(message) {
-        if (typeof message !== "object" || message === null)
-            return "object expected";
-        if (message.error != null && message.hasOwnProperty("error"))
-            if (!$util.isInteger(message.error))
-                return "error: integer expected";
-        if (message.progress != null && message.hasOwnProperty("progress"))
-            if (!$util.isInteger(message.progress))
-                return "progress: integer expected";
-        return null;
-    };
-    GamerGetGuideProgressS2C.fromObject = function fromObject(object) {
-        if (object instanceof $root.GamerGetGuideProgressS2C)
-            return object;
-        var message = new $root.GamerGetGuideProgressS2C();
-        if (object.error != null)
-            message.error = object.error | 0;
-        if (object.progress != null)
-            message.progress = object.progress | 0;
-        return message;
-    };
-    GamerGetGuideProgressS2C.toObject = function toObject(message, options) {
+    GetActivityRewardS2C.toObject = function toObject(message, options) {
         if (!options)
             options = {};
         var object = {};
         if (options.defaults) {
             object.error = 0;
-            object.progress = 0;
+            object.activityId = 0;
         }
         if (message.error != null && message.hasOwnProperty("error"))
             object.error = message.error;
-        if (message.progress != null && message.hasOwnProperty("progress"))
-            object.progress = message.progress;
+        if (message.activityId != null && message.hasOwnProperty("activityId"))
+            object.activityId = message.activityId;
         return object;
     };
-    GamerGetGuideProgressS2C.prototype.toJSON = function toJSON() {
+    GetActivityRewardS2C.prototype.toJSON = function toJSON() {
         return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
     };
-    return GamerGetGuideProgressS2C;
-})();
-$root.GamerSetGuideProgressC2S = (function() {
-    function GamerSetGuideProgressC2S(properties) {
-        if (properties)
-            for (var keys = Object.keys(properties), i = 0; i < keys.length; ++i)
-                if (properties[keys[i]] != null)
-                    this[keys[i]] = properties[keys[i]];
-    }
-    GamerSetGuideProgressC2S.prototype.id = 0;
-    GamerSetGuideProgressC2S.prototype.progress = 0;
-    GamerSetGuideProgressC2S.create = function create(properties) {
-        return new GamerSetGuideProgressC2S(properties);
-    };
-    GamerSetGuideProgressC2S.encode = function encode(message, writer) {
-        if (!writer)
-            writer = $Writer.create();
-        if (message.id != null && message.hasOwnProperty("id"))
-            writer.uint32(/* id 1, wireType 0 =*/8).int32(message.id);
-        if (message.progress != null && message.hasOwnProperty("progress"))
-            writer.uint32(/* id 2, wireType 0 =*/16).int32(message.progress);
-        return writer;
-    };
-    GamerSetGuideProgressC2S.encodeDelimited = function encodeDelimited(message, writer) {
-        return this.encode(message, writer).ldelim();
-    };
-    GamerSetGuideProgressC2S.decode = function decode(reader, length) {
-        if (!(reader instanceof $Reader))
-            reader = $Reader.create(reader);
-        var end = length === undefined ? reader.len : reader.pos + length, message = new $root.GamerSetGuideProgressC2S();
-        while (reader.pos < end) {
-            var tag = reader.uint32();
-            switch (tag >>> 3) {
-            case 1:
-                message.id = reader.int32();
-                break;
-            case 2:
-                message.progress = reader.int32();
-                break;
-            default:
-                reader.skipType(tag & 7);
-                break;
-            }
-        }
-        return message;
-    };
-    GamerSetGuideProgressC2S.decodeDelimited = function decodeDelimited(reader) {
-        if (!(reader instanceof $Reader))
-            reader = new $Reader(reader);
-        return this.decode(reader, reader.uint32());
-    };
-    GamerSetGuideProgressC2S.verify = function verify(message) {
-        if (typeof message !== "object" || message === null)
-            return "object expected";
-        if (message.id != null && message.hasOwnProperty("id"))
-            if (!$util.isInteger(message.id))
-                return "id: integer expected";
-        if (message.progress != null && message.hasOwnProperty("progress"))
-            if (!$util.isInteger(message.progress))
-                return "progress: integer expected";
-        return null;
-    };
-    GamerSetGuideProgressC2S.fromObject = function fromObject(object) {
-        if (object instanceof $root.GamerSetGuideProgressC2S)
-            return object;
-        var message = new $root.GamerSetGuideProgressC2S();
-        if (object.id != null)
-            message.id = object.id | 0;
-        if (object.progress != null)
-            message.progress = object.progress | 0;
-        return message;
-    };
-    GamerSetGuideProgressC2S.toObject = function toObject(message, options) {
-        if (!options)
-            options = {};
-        var object = {};
-        if (options.defaults) {
-            object.id = 0;
-            object.progress = 0;
-        }
-        if (message.id != null && message.hasOwnProperty("id"))
-            object.id = message.id;
-        if (message.progress != null && message.hasOwnProperty("progress"))
-            object.progress = message.progress;
-        return object;
-    };
-    GamerSetGuideProgressC2S.prototype.toJSON = function toJSON() {
-        return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
-    };
-    return GamerSetGuideProgressC2S;
-})();
-$root.GamerSetGuideProgressS2C = (function() {
-    function GamerSetGuideProgressS2C(properties) {
-        if (properties)
-            for (var keys = Object.keys(properties), i = 0; i < keys.length; ++i)
-                if (properties[keys[i]] != null)
-                    this[keys[i]] = properties[keys[i]];
-    }
-    GamerSetGuideProgressS2C.prototype.error = 0;
-    GamerSetGuideProgressS2C.create = function create(properties) {
-        return new GamerSetGuideProgressS2C(properties);
-    };
-    GamerSetGuideProgressS2C.encode = function encode(message, writer) {
-        if (!writer)
-            writer = $Writer.create();
-        if (message.error != null && message.hasOwnProperty("error"))
-            writer.uint32(/* id 1, wireType 0 =*/8).int32(message.error);
-        return writer;
-    };
-    GamerSetGuideProgressS2C.encodeDelimited = function encodeDelimited(message, writer) {
-        return this.encode(message, writer).ldelim();
-    };
-    GamerSetGuideProgressS2C.decode = function decode(reader, length) {
-        if (!(reader instanceof $Reader))
-            reader = $Reader.create(reader);
-        var end = length === undefined ? reader.len : reader.pos + length, message = new $root.GamerSetGuideProgressS2C();
-        while (reader.pos < end) {
-            var tag = reader.uint32();
-            switch (tag >>> 3) {
-            case 1:
-                message.error = reader.int32();
-                break;
-            default:
-                reader.skipType(tag & 7);
-                break;
-            }
-        }
-        return message;
-    };
-    GamerSetGuideProgressS2C.decodeDelimited = function decodeDelimited(reader) {
-        if (!(reader instanceof $Reader))
-            reader = new $Reader(reader);
-        return this.decode(reader, reader.uint32());
-    };
-    GamerSetGuideProgressS2C.verify = function verify(message) {
-        if (typeof message !== "object" || message === null)
-            return "object expected";
-        if (message.error != null && message.hasOwnProperty("error"))
-            if (!$util.isInteger(message.error))
-                return "error: integer expected";
-        return null;
-    };
-    GamerSetGuideProgressS2C.fromObject = function fromObject(object) {
-        if (object instanceof $root.GamerSetGuideProgressS2C)
-            return object;
-        var message = new $root.GamerSetGuideProgressS2C();
-        if (object.error != null)
-            message.error = object.error | 0;
-        return message;
-    };
-    GamerSetGuideProgressS2C.toObject = function toObject(message, options) {
-        if (!options)
-            options = {};
-        var object = {};
-        if (options.defaults)
-            object.error = 0;
-        if (message.error != null && message.hasOwnProperty("error"))
-            object.error = message.error;
-        return object;
-    };
-    GamerSetGuideProgressS2C.prototype.toJSON = function toJSON() {
-        return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
-    };
-    return GamerSetGuideProgressS2C;
+    return GetActivityRewardS2C;
 })();
 $root.ServerTime = (function() {
     function ServerTime(properties) {
@@ -20129,7 +19352,6 @@ $root.GamerMain = (function() {
     GamerMain.prototype.avatar = "";
     GamerMain.prototype.leagueId = 0;
     GamerMain.prototype.isNewbie = false;
-    GamerMain.prototype.guideProgress = 0;
     GamerMain.create = function create(properties) {
         return new GamerMain(properties);
     };
@@ -20172,8 +19394,6 @@ $root.GamerMain = (function() {
             writer.uint32(/* id 17, wireType 0 =*/136).int32(message.leagueId);
         if (message.isNewbie != null && message.hasOwnProperty("isNewbie"))
             writer.uint32(/* id 18, wireType 0 =*/144).bool(message.isNewbie);
-        if (message.guideProgress != null && message.hasOwnProperty("guideProgress"))
-            writer.uint32(/* id 19, wireType 0 =*/152).int32(message.guideProgress);
         return writer;
     };
     GamerMain.encodeDelimited = function encodeDelimited(message, writer) {
@@ -20239,9 +19459,6 @@ $root.GamerMain = (function() {
                 break;
             case 18:
                 message.isNewbie = reader.bool();
-                break;
-            case 19:
-                message.guideProgress = reader.int32();
                 break;
             default:
                 reader.skipType(tag & 7);
@@ -20320,9 +19537,6 @@ $root.GamerMain = (function() {
         if (message.isNewbie != null && message.hasOwnProperty("isNewbie"))
             if (typeof message.isNewbie !== "boolean")
                 return "isNewbie: boolean expected";
-        if (message.guideProgress != null && message.hasOwnProperty("guideProgress"))
-            if (!$util.isInteger(message.guideProgress))
-                return "guideProgress: integer expected";
         return null;
     };
     GamerMain.fromObject = function fromObject(object) {
@@ -20406,8 +19620,6 @@ $root.GamerMain = (function() {
             message.leagueId = object.leagueId | 0;
         if (object.isNewbie != null)
             message.isNewbie = Boolean(object.isNewbie);
-        if (object.guideProgress != null)
-            message.guideProgress = object.guideProgress | 0;
         return message;
     };
     GamerMain.toObject = function toObject(message, options) {
@@ -20445,7 +19657,6 @@ $root.GamerMain = (function() {
             object.avatar = "";
             object.leagueId = 0;
             object.isNewbie = false;
-            object.guideProgress = 0;
         }
         if (message.id != null && message.hasOwnProperty("id"))
             object.id = message.id;
@@ -20492,8 +19703,6 @@ $root.GamerMain = (function() {
             object.leagueId = message.leagueId;
         if (message.isNewbie != null && message.hasOwnProperty("isNewbie"))
             object.isNewbie = message.isNewbie;
-        if (message.guideProgress != null && message.hasOwnProperty("guideProgress"))
-            object.guideProgress = message.guideProgress;
         return object;
     };
     GamerMain.prototype.toJSON = function toJSON() {
@@ -28085,55 +27294,37 @@ $root.Gashapon = (function() {
     };
     return Gashapon;
 })();
-$root.Task = (function() {
-    function Task(properties) {
+$root.CountActivity = (function() {
+    function CountActivity(properties) {
         if (properties)
             for (var keys = Object.keys(properties), i = 0; i < keys.length; ++i)
                 if (properties[keys[i]] != null)
                     this[keys[i]] = properties[keys[i]];
     }
-    Task.prototype.id = 0;
-    Task.prototype.type = 0;
-    Task.prototype.state = 0;
-    Task.prototype.triggerCondition = 0;
-    Task.prototype.triggerConditionValue = 0;
-    Task.prototype.finishCondition = 0;
-    Task.prototype.finishConditionValue1 = 0;
-    Task.prototype.finishConditionValue2 = 0;
-    Task.prototype.curFinishValue = 0;
-    Task.create = function create(properties) {
-        return new Task(properties);
+    CountActivity.prototype.id = 0;
+    CountActivity.prototype.currentDay = 0;
+    CountActivity.prototype.alreadyGetDay = 0;
+    CountActivity.create = function create(properties) {
+        return new CountActivity(properties);
     };
-    Task.encode = function encode(message, writer) {
+    CountActivity.encode = function encode(message, writer) {
         if (!writer)
             writer = $Writer.create();
         if (message.id != null && message.hasOwnProperty("id"))
             writer.uint32(/* id 1, wireType 0 =*/8).int32(message.id);
-        if (message.type != null && message.hasOwnProperty("type"))
-            writer.uint32(/* id 2, wireType 0 =*/16).int32(message.type);
-        if (message.state != null && message.hasOwnProperty("state"))
-            writer.uint32(/* id 3, wireType 0 =*/24).int32(message.state);
-        if (message.triggerCondition != null && message.hasOwnProperty("triggerCondition"))
-            writer.uint32(/* id 4, wireType 0 =*/32).int32(message.triggerCondition);
-        if (message.triggerConditionValue != null && message.hasOwnProperty("triggerConditionValue"))
-            writer.uint32(/* id 5, wireType 0 =*/40).int32(message.triggerConditionValue);
-        if (message.finishCondition != null && message.hasOwnProperty("finishCondition"))
-            writer.uint32(/* id 6, wireType 0 =*/48).int32(message.finishCondition);
-        if (message.finishConditionValue1 != null && message.hasOwnProperty("finishConditionValue1"))
-            writer.uint32(/* id 7, wireType 0 =*/56).int32(message.finishConditionValue1);
-        if (message.finishConditionValue2 != null && message.hasOwnProperty("finishConditionValue2"))
-            writer.uint32(/* id 8, wireType 0 =*/64).int32(message.finishConditionValue2);
-        if (message.curFinishValue != null && message.hasOwnProperty("curFinishValue"))
-            writer.uint32(/* id 9, wireType 0 =*/72).int32(message.curFinishValue);
+        if (message.currentDay != null && message.hasOwnProperty("currentDay"))
+            writer.uint32(/* id 2, wireType 0 =*/16).int32(message.currentDay);
+        if (message.alreadyGetDay != null && message.hasOwnProperty("alreadyGetDay"))
+            writer.uint32(/* id 3, wireType 0 =*/24).int32(message.alreadyGetDay);
         return writer;
     };
-    Task.encodeDelimited = function encodeDelimited(message, writer) {
+    CountActivity.encodeDelimited = function encodeDelimited(message, writer) {
         return this.encode(message, writer).ldelim();
     };
-    Task.decode = function decode(reader, length) {
+    CountActivity.decode = function decode(reader, length) {
         if (!(reader instanceof $Reader))
             reader = $Reader.create(reader);
-        var end = length === undefined ? reader.len : reader.pos + length, message = new $root.Task();
+        var end = length === undefined ? reader.len : reader.pos + length, message = new $root.CountActivity();
         while (reader.pos < end) {
             var tag = reader.uint32();
             switch (tag >>> 3) {
@@ -28141,28 +27332,10 @@ $root.Task = (function() {
                 message.id = reader.int32();
                 break;
             case 2:
-                message.type = reader.int32();
+                message.currentDay = reader.int32();
                 break;
             case 3:
-                message.state = reader.int32();
-                break;
-            case 4:
-                message.triggerCondition = reader.int32();
-                break;
-            case 5:
-                message.triggerConditionValue = reader.int32();
-                break;
-            case 6:
-                message.finishCondition = reader.int32();
-                break;
-            case 7:
-                message.finishConditionValue1 = reader.int32();
-                break;
-            case 8:
-                message.finishConditionValue2 = reader.int32();
-                break;
-            case 9:
-                message.curFinishValue = reader.int32();
+                message.alreadyGetDay = reader.int32();
                 break;
             default:
                 reader.skipType(tag & 7);
@@ -28171,490 +27344,58 @@ $root.Task = (function() {
         }
         return message;
     };
-    Task.decodeDelimited = function decodeDelimited(reader) {
+    CountActivity.decodeDelimited = function decodeDelimited(reader) {
         if (!(reader instanceof $Reader))
             reader = new $Reader(reader);
         return this.decode(reader, reader.uint32());
     };
-    Task.verify = function verify(message) {
+    CountActivity.verify = function verify(message) {
         if (typeof message !== "object" || message === null)
             return "object expected";
         if (message.id != null && message.hasOwnProperty("id"))
             if (!$util.isInteger(message.id))
                 return "id: integer expected";
-        if (message.type != null && message.hasOwnProperty("type"))
-            switch (message.type) {
-            default:
-                return "type: enum value expected";
-            case 0:
-            case 100:
-            case 1:
-            case 2:
-            case 3:
-                break;
-            }
-        if (message.state != null && message.hasOwnProperty("state"))
-            switch (message.state) {
-            default:
-                return "state: enum value expected";
-            case 0:
-            case 1:
-            case 2:
-            case 3:
-            case 4:
-                break;
-            }
-        if (message.triggerCondition != null && message.hasOwnProperty("triggerCondition"))
-            switch (message.triggerCondition) {
-            default:
-                return "triggerCondition: enum value expected";
-            case 0:
-            case 1:
-            case 2:
-            case 3:
-            case 4:
-            case 5:
-            case 6:
-            case 7:
-            case 8:
-            case 9:
-            case 10:
-            case 11:
-            case 12:
-            case 13:
-            case 14:
-            case 15:
-            case 16:
-            case 17:
-            case 18:
-            case 100:
-            case 101:
-            case 102:
-                break;
-            }
-        if (message.triggerConditionValue != null && message.hasOwnProperty("triggerConditionValue"))
-            if (!$util.isInteger(message.triggerConditionValue))
-                return "triggerConditionValue: integer expected";
-        if (message.finishCondition != null && message.hasOwnProperty("finishCondition"))
-            switch (message.finishCondition) {
-            default:
-                return "finishCondition: enum value expected";
-            case 0:
-            case 1:
-            case 2:
-            case 3:
-            case 4:
-            case 5:
-            case 6:
-            case 7:
-            case 8:
-            case 9:
-            case 10:
-            case 11:
-            case 12:
-            case 13:
-            case 14:
-            case 15:
-            case 16:
-            case 17:
-            case 18:
-            case 100:
-            case 101:
-            case 102:
-                break;
-            }
-        if (message.finishConditionValue1 != null && message.hasOwnProperty("finishConditionValue1"))
-            if (!$util.isInteger(message.finishConditionValue1))
-                return "finishConditionValue1: integer expected";
-        if (message.finishConditionValue2 != null && message.hasOwnProperty("finishConditionValue2"))
-            if (!$util.isInteger(message.finishConditionValue2))
-                return "finishConditionValue2: integer expected";
-        if (message.curFinishValue != null && message.hasOwnProperty("curFinishValue"))
-            if (!$util.isInteger(message.curFinishValue))
-                return "curFinishValue: integer expected";
+        if (message.currentDay != null && message.hasOwnProperty("currentDay"))
+            if (!$util.isInteger(message.currentDay))
+                return "currentDay: integer expected";
+        if (message.alreadyGetDay != null && message.hasOwnProperty("alreadyGetDay"))
+            if (!$util.isInteger(message.alreadyGetDay))
+                return "alreadyGetDay: integer expected";
         return null;
     };
-    Task.fromObject = function fromObject(object) {
-        if (object instanceof $root.Task)
+    CountActivity.fromObject = function fromObject(object) {
+        if (object instanceof $root.CountActivity)
             return object;
-        var message = new $root.Task();
+        var message = new $root.CountActivity();
         if (object.id != null)
             message.id = object.id | 0;
-        switch (object.type) {
-        case "TaskType_Invalid":
-        case 0:
-            message.type = 0;
-            break;
-        case "MainTask":
-        case 100:
-            message.type = 100;
-            break;
-        case "DailyTask":
-        case 1:
-            message.type = 1;
-            break;
-        case "Achievement":
-        case 2:
-            message.type = 2;
-            break;
-        case "PlotAchievement":
-        case 3:
-            message.type = 3;
-            break;
-        }
-        switch (object.state) {
-        case "CannotAccept":
-        case 0:
-            message.state = 0;
-            break;
-        case "CanAccept":
-        case 1:
-            message.state = 1;
-            break;
-        case "Doing":
-        case 2:
-            message.state = 2;
-            break;
-        case "Complete":
-        case 3:
-            message.state = 3;
-            break;
-        case "TaskFinish":
-        case 4:
-            message.state = 4;
-            break;
-        }
-        switch (object.triggerCondition) {
-        case "E_Invalid":
-        case 0:
-            message.triggerCondition = 0;
-            break;
-        case "E_Build":
-        case 1:
-            message.triggerCondition = 1;
-            break;
-        case "E_BuildLevelUp":
-        case 2:
-            message.triggerCondition = 2;
-            break;
-        case "E_ActorLevelUp":
-        case 3:
-            message.triggerCondition = 3;
-            break;
-        case "E_ParseInformationNormal":
-        case 4:
-            message.triggerCondition = 4;
-            break;
-        case "E_ParseInformationSpecial":
-        case 5:
-            message.triggerCondition = 5;
-            break;
-        case "E_OpenEnvelope":
-        case 6:
-            message.triggerCondition = 6;
-            break;
-        case "E_GetBuildRewardNum":
-        case 7:
-            message.triggerCondition = 7;
-            break;
-        case "E_Studio":
-        case 8:
-            message.triggerCondition = 8;
-            break;
-        case "E_WatchStudioRewardNum":
-        case 9:
-            message.triggerCondition = 9;
-            break;
-        case "E_GetStudioRewardNum":
-        case 10:
-            message.triggerCondition = 10;
-            break;
-        case "E_StudioAndGetResult":
-        case 11:
-            message.triggerCondition = 11;
-            break;
-        case "E_BuildBreak":
-        case 12:
-            message.triggerCondition = 12;
-            break;
-        case "E_BulidActorIn":
-        case 13:
-            message.triggerCondition = 13;
-            break;
-        case "E_OpenRank":
-        case 14:
-            message.triggerCondition = 14;
-            break;
-        case "E_Story":
-        case 15:
-            message.triggerCondition = 15;
-            break;
-        case "E_ActorGift":
-        case 16:
-            message.triggerCondition = 16;
-            break;
-        case "E_Ad":
-        case 17:
-            message.triggerCondition = 17;
-            break;
-        case "E_Share":
-        case 18:
-            message.triggerCondition = 18;
-            break;
-        case "E_GamerLevelUp":
-        case 100:
-            message.triggerCondition = 100;
-            break;
-        case "E_BuildUnLock":
-        case 101:
-            message.triggerCondition = 101;
-            break;
-        case "E_TaskComplete":
-        case 102:
-            message.triggerCondition = 102;
-            break;
-        }
-        if (object.triggerConditionValue != null)
-            message.triggerConditionValue = object.triggerConditionValue | 0;
-        switch (object.finishCondition) {
-        case "E_Invalid":
-        case 0:
-            message.finishCondition = 0;
-            break;
-        case "E_Build":
-        case 1:
-            message.finishCondition = 1;
-            break;
-        case "E_BuildLevelUp":
-        case 2:
-            message.finishCondition = 2;
-            break;
-        case "E_ActorLevelUp":
-        case 3:
-            message.finishCondition = 3;
-            break;
-        case "E_ParseInformationNormal":
-        case 4:
-            message.finishCondition = 4;
-            break;
-        case "E_ParseInformationSpecial":
-        case 5:
-            message.finishCondition = 5;
-            break;
-        case "E_OpenEnvelope":
-        case 6:
-            message.finishCondition = 6;
-            break;
-        case "E_GetBuildRewardNum":
-        case 7:
-            message.finishCondition = 7;
-            break;
-        case "E_Studio":
-        case 8:
-            message.finishCondition = 8;
-            break;
-        case "E_WatchStudioRewardNum":
-        case 9:
-            message.finishCondition = 9;
-            break;
-        case "E_GetStudioRewardNum":
-        case 10:
-            message.finishCondition = 10;
-            break;
-        case "E_StudioAndGetResult":
-        case 11:
-            message.finishCondition = 11;
-            break;
-        case "E_BuildBreak":
-        case 12:
-            message.finishCondition = 12;
-            break;
-        case "E_BulidActorIn":
-        case 13:
-            message.finishCondition = 13;
-            break;
-        case "E_OpenRank":
-        case 14:
-            message.finishCondition = 14;
-            break;
-        case "E_Story":
-        case 15:
-            message.finishCondition = 15;
-            break;
-        case "E_ActorGift":
-        case 16:
-            message.finishCondition = 16;
-            break;
-        case "E_Ad":
-        case 17:
-            message.finishCondition = 17;
-            break;
-        case "E_Share":
-        case 18:
-            message.finishCondition = 18;
-            break;
-        case "E_GamerLevelUp":
-        case 100:
-            message.finishCondition = 100;
-            break;
-        case "E_BuildUnLock":
-        case 101:
-            message.finishCondition = 101;
-            break;
-        case "E_TaskComplete":
-        case 102:
-            message.finishCondition = 102;
-            break;
-        }
-        if (object.finishConditionValue1 != null)
-            message.finishConditionValue1 = object.finishConditionValue1 | 0;
-        if (object.finishConditionValue2 != null)
-            message.finishConditionValue2 = object.finishConditionValue2 | 0;
-        if (object.curFinishValue != null)
-            message.curFinishValue = object.curFinishValue | 0;
+        if (object.currentDay != null)
+            message.currentDay = object.currentDay | 0;
+        if (object.alreadyGetDay != null)
+            message.alreadyGetDay = object.alreadyGetDay | 0;
         return message;
     };
-    Task.toObject = function toObject(message, options) {
+    CountActivity.toObject = function toObject(message, options) {
         if (!options)
             options = {};
         var object = {};
         if (options.defaults) {
             object.id = 0;
-            object.type = options.enums === String ? "TaskType_Invalid" : 0;
-            object.state = options.enums === String ? "CannotAccept" : 0;
-            object.triggerCondition = options.enums === String ? "E_Invalid" : 0;
-            object.triggerConditionValue = 0;
-            object.finishCondition = options.enums === String ? "E_Invalid" : 0;
-            object.finishConditionValue1 = 0;
-            object.finishConditionValue2 = 0;
-            object.curFinishValue = 0;
+            object.currentDay = 0;
+            object.alreadyGetDay = 0;
         }
         if (message.id != null && message.hasOwnProperty("id"))
             object.id = message.id;
-        if (message.type != null && message.hasOwnProperty("type"))
-            object.type = options.enums === String ? $root.TaskType[message.type] : message.type;
-        if (message.state != null && message.hasOwnProperty("state"))
-            object.state = options.enums === String ? $root.TaskState[message.state] : message.state;
-        if (message.triggerCondition != null && message.hasOwnProperty("triggerCondition"))
-            object.triggerCondition = options.enums === String ? $root.Event[message.triggerCondition] : message.triggerCondition;
-        if (message.triggerConditionValue != null && message.hasOwnProperty("triggerConditionValue"))
-            object.triggerConditionValue = message.triggerConditionValue;
-        if (message.finishCondition != null && message.hasOwnProperty("finishCondition"))
-            object.finishCondition = options.enums === String ? $root.Event[message.finishCondition] : message.finishCondition;
-        if (message.finishConditionValue1 != null && message.hasOwnProperty("finishConditionValue1"))
-            object.finishConditionValue1 = message.finishConditionValue1;
-        if (message.finishConditionValue2 != null && message.hasOwnProperty("finishConditionValue2"))
-            object.finishConditionValue2 = message.finishConditionValue2;
-        if (message.curFinishValue != null && message.hasOwnProperty("curFinishValue"))
-            object.curFinishValue = message.curFinishValue;
+        if (message.currentDay != null && message.hasOwnProperty("currentDay"))
+            object.currentDay = message.currentDay;
+        if (message.alreadyGetDay != null && message.hasOwnProperty("alreadyGetDay"))
+            object.alreadyGetDay = message.alreadyGetDay;
         return object;
     };
-    Task.prototype.toJSON = function toJSON() {
+    CountActivity.prototype.toJSON = function toJSON() {
         return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
     };
-    return Task;
-})();
-$root.DailyTaskGift = (function() {
-    function DailyTaskGift(properties) {
-        if (properties)
-            for (var keys = Object.keys(properties), i = 0; i < keys.length; ++i)
-                if (properties[keys[i]] != null)
-                    this[keys[i]] = properties[keys[i]];
-    }
-    DailyTaskGift.prototype.id = 0;
-    DailyTaskGift.prototype.state = 0;
-    DailyTaskGift.create = function create(properties) {
-        return new DailyTaskGift(properties);
-    };
-    DailyTaskGift.encode = function encode(message, writer) {
-        if (!writer)
-            writer = $Writer.create();
-        if (message.id != null && message.hasOwnProperty("id"))
-            writer.uint32(/* id 1, wireType 0 =*/8).int32(message.id);
-        if (message.state != null && message.hasOwnProperty("state"))
-            writer.uint32(/* id 2, wireType 0 =*/16).int32(message.state);
-        return writer;
-    };
-    DailyTaskGift.encodeDelimited = function encodeDelimited(message, writer) {
-        return this.encode(message, writer).ldelim();
-    };
-    DailyTaskGift.decode = function decode(reader, length) {
-        if (!(reader instanceof $Reader))
-            reader = $Reader.create(reader);
-        var end = length === undefined ? reader.len : reader.pos + length, message = new $root.DailyTaskGift();
-        while (reader.pos < end) {
-            var tag = reader.uint32();
-            switch (tag >>> 3) {
-            case 1:
-                message.id = reader.int32();
-                break;
-            case 2:
-                message.state = reader.int32();
-                break;
-            default:
-                reader.skipType(tag & 7);
-                break;
-            }
-        }
-        return message;
-    };
-    DailyTaskGift.decodeDelimited = function decodeDelimited(reader) {
-        if (!(reader instanceof $Reader))
-            reader = new $Reader(reader);
-        return this.decode(reader, reader.uint32());
-    };
-    DailyTaskGift.verify = function verify(message) {
-        if (typeof message !== "object" || message === null)
-            return "object expected";
-        if (message.id != null && message.hasOwnProperty("id"))
-            if (!$util.isInteger(message.id))
-                return "id: integer expected";
-        if (message.state != null && message.hasOwnProperty("state"))
-            switch (message.state) {
-            default:
-                return "state: enum value expected";
-            case 0:
-            case 2:
-                break;
-            }
-        return null;
-    };
-    DailyTaskGift.fromObject = function fromObject(object) {
-        if (object instanceof $root.DailyTaskGift)
-            return object;
-        var message = new $root.DailyTaskGift();
-        if (object.id != null)
-            message.id = object.id | 0;
-        switch (object.state) {
-        case "Unreceived":
-        case 0:
-            message.state = 0;
-            break;
-        case "Received":
-        case 2:
-            message.state = 2;
-            break;
-        }
-        return message;
-    };
-    DailyTaskGift.toObject = function toObject(message, options) {
-        if (!options)
-            options = {};
-        var object = {};
-        if (options.defaults) {
-            object.id = 0;
-            object.state = options.enums === String ? "Unreceived" : 0;
-        }
-        if (message.id != null && message.hasOwnProperty("id"))
-            object.id = message.id;
-        if (message.state != null && message.hasOwnProperty("state"))
-            object.state = options.enums === String ? $root.DailyTaskGiftState[message.state] : message.state;
-        return object;
-    };
-    DailyTaskGift.prototype.toJSON = function toJSON() {
-        return this.constructor.toObject(this, $protobuf.util.toJSONOptions);
-    };
-    return DailyTaskGift;
+    return CountActivity;
 })();
 $root.GamerStatus = (function() {
     var valuesById = {}, values = Object.create(valuesById);
@@ -28748,6 +27489,7 @@ $root.ItemType = (function() {
     values[valuesById[19] = "completeType"] = 19;
     values[valuesById[20] = "information"] = 20;
     values[valuesById[21] = "story"] = 21;
+    values[valuesById[22] = "actorType"] = 22;
     values[valuesById[30] = "envelope"] = 30;
     return values;
 })();
@@ -28874,31 +27616,18 @@ $root.TaskState = (function() {
     values[valuesById[4] = "TaskFinish"] = 4;
     return values;
 })();
-$root.TaskType = (function() {
-    var valuesById = {}, values = Object.create(valuesById);
-    values[valuesById[0] = "TaskType_Invalid"] = 0;
-    values[valuesById[100] = "MainTask"] = 100;
-    values[valuesById[1] = "DailyTask"] = 1;
-    values[valuesById[2] = "Achievement"] = 2;
-    values[valuesById[3] = "PlotAchievement"] = 3;
-    return values;
-})();
-$root.DailyTaskGiftState = (function() {
-    var valuesById = {}, values = Object.create(valuesById);
-    values[valuesById[0] = "Unreceived"] = 0;
-    values[valuesById[2] = "Received"] = 2;
-    return values;
-})();
 $root.ActorConst = (function() {
     var valuesById = {}, values = Object.create(valuesById);
     values[valuesById[0] = "ActorInvalid"] = 0;
     values[valuesById[4] = "FiendshipMaxLevel"] = 4;
     return values;
 })();
-$root.GashaponState = (function() {
+$root.GashaponType = (function() {
     var valuesById = {}, values = Object.create(valuesById);
-    values[valuesById[0] = "CanDraw"] = 0;
-    values[valuesById[1] = "CoolDown"] = 1;
+    values[valuesById[0] = "GashaponTypeInvalid"] = 0;
+    values[valuesById[1] = "IntelligenceGashapon"] = 1;
+    values[valuesById[2] = "ItemGashapon"] = 2;
+    values[valuesById[3] = "StoryGashapon"] = 3;
     return values;
 })();
 $root.StoryExtractRes = (function() {
@@ -28907,32 +27636,6 @@ $root.StoryExtractRes = (function() {
     values[valuesById[1] = "NoRepetition"] = 1;
     values[valuesById[2] = "IsRepetition"] = 2;
     values[valuesById[3] = "Fail"] = 3;
-    return values;
-})();
-$root.Event = (function() {
-    var valuesById = {}, values = Object.create(valuesById);
-    values[valuesById[0] = "E_Invalid"] = 0;
-    values[valuesById[1] = "E_Build"] = 1;
-    values[valuesById[2] = "E_BuildLevelUp"] = 2;
-    values[valuesById[3] = "E_ActorLevelUp"] = 3;
-    values[valuesById[4] = "E_ParseInformationNormal"] = 4;
-    values[valuesById[5] = "E_ParseInformationSpecial"] = 5;
-    values[valuesById[6] = "E_OpenEnvelope"] = 6;
-    values[valuesById[7] = "E_GetBuildRewardNum"] = 7;
-    values[valuesById[8] = "E_Studio"] = 8;
-    values[valuesById[9] = "E_WatchStudioRewardNum"] = 9;
-    values[valuesById[10] = "E_GetStudioRewardNum"] = 10;
-    values[valuesById[11] = "E_StudioAndGetResult"] = 11;
-    values[valuesById[12] = "E_BuildBreak"] = 12;
-    values[valuesById[13] = "E_BulidActorIn"] = 13;
-    values[valuesById[14] = "E_OpenRank"] = 14;
-    values[valuesById[15] = "E_Story"] = 15;
-    values[valuesById[16] = "E_ActorGift"] = 16;
-    values[valuesById[17] = "E_Ad"] = 17;
-    values[valuesById[18] = "E_Share"] = 18;
-    values[valuesById[100] = "E_GamerLevelUp"] = 100;
-    values[valuesById[101] = "E_BuildUnLock"] = 101;
-    values[valuesById[102] = "E_TaskComplete"] = 102;
     return values;
 })();
 $root.LeagueData = (function() {
@@ -29289,6 +27992,7 @@ $root.S2C = (function() {
     S2C.prototype.actorLeaveBuildS2C = null;
     S2C.prototype.gamerNotifyGashaponInfoS2C = null;
     S2C.prototype.gamerExtractGashaponS2C = null;
+    S2C.prototype.storyExtractGashaponS2C = null;
     S2C.prototype.gamerGetAllowanceS2C = null;
     S2C.prototype.getStoryExtractInfoS2C = null;
     S2C.prototype.cleanStoryExtractCDS2C = null;
@@ -29309,13 +28013,8 @@ $root.S2C = (function() {
     S2C.prototype.studioContinuedListS2C = null;
     S2C.prototype.studioContinuedReceiveS2C = null;
     S2C.prototype.studioContinuedReceiveAllS2C = null;
-    S2C.prototype.gamerNotifyDailyTaskS2C = null;
-    S2C.prototype.gamerNotifyTaskS2C = null;
-    S2C.prototype.gamerAcceptTaskS2C = null;
-    S2C.prototype.gamerGetTaskRewardS2C = null;
-    S2C.prototype.gamerGetDailyTaskActivityDegreeRewardS2C = null;
-    S2C.prototype.gamerGetGuideProgressS2C = null;
-    S2C.prototype.gamerSetGuideProgressS2C = null;
+    S2C.prototype.gamerNotifyActivitiesS2C = null;
+    S2C.prototype.getActivityRewardS2C = null;
     S2C.create = function create(properties) {
         return new S2C(properties);
     };
@@ -29472,60 +28171,52 @@ $root.S2C = (function() {
             $root.GamerNotifyGashaponInfoS2C.encode(message.gamerNotifyGashaponInfoS2C, writer.uint32(/* id 74, wireType 2 =*/594).fork()).ldelim();
         if (message.gamerExtractGashaponS2C != null && message.hasOwnProperty("gamerExtractGashaponS2C"))
             $root.GamerExtractGashaponS2C.encode(message.gamerExtractGashaponS2C, writer.uint32(/* id 75, wireType 2 =*/602).fork()).ldelim();
+        if (message.storyExtractGashaponS2C != null && message.hasOwnProperty("storyExtractGashaponS2C"))
+            $root.StoryExtractGashaponS2C.encode(message.storyExtractGashaponS2C, writer.uint32(/* id 76, wireType 2 =*/610).fork()).ldelim();
         if (message.gamerGetAllowanceS2C != null && message.hasOwnProperty("gamerGetAllowanceS2C"))
-            $root.GamerGetAllowanceS2C.encode(message.gamerGetAllowanceS2C, writer.uint32(/* id 76, wireType 2 =*/610).fork()).ldelim();
+            $root.GamerGetAllowanceS2C.encode(message.gamerGetAllowanceS2C, writer.uint32(/* id 77, wireType 2 =*/618).fork()).ldelim();
         if (message.getStoryExtractInfoS2C != null && message.hasOwnProperty("getStoryExtractInfoS2C"))
-            $root.GetStoryExtractInfoS2C.encode(message.getStoryExtractInfoS2C, writer.uint32(/* id 77, wireType 2 =*/618).fork()).ldelim();
+            $root.GetStoryExtractInfoS2C.encode(message.getStoryExtractInfoS2C, writer.uint32(/* id 78, wireType 2 =*/626).fork()).ldelim();
         if (message.cleanStoryExtractCDS2C != null && message.hasOwnProperty("cleanStoryExtractCDS2C"))
-            $root.CleanStoryExtractCDS2C.encode(message.cleanStoryExtractCDS2C, writer.uint32(/* id 78, wireType 2 =*/626).fork()).ldelim();
+            $root.CleanStoryExtractCDS2C.encode(message.cleanStoryExtractCDS2C, writer.uint32(/* id 79, wireType 2 =*/634).fork()).ldelim();
         if (message.purchaseStoryExtractNumS2C != null && message.hasOwnProperty("purchaseStoryExtractNumS2C"))
-            $root.PurchaseStoryExtractNumS2C.encode(message.purchaseStoryExtractNumS2C, writer.uint32(/* id 79, wireType 2 =*/634).fork()).ldelim();
+            $root.PurchaseStoryExtractNumS2C.encode(message.purchaseStoryExtractNumS2C, writer.uint32(/* id 80, wireType 2 =*/642).fork()).ldelim();
         if (message.gamerNotifyIntelligenceS2C != null && message.hasOwnProperty("gamerNotifyIntelligenceS2C"))
-            $root.GamerNotifyIntelligenceS2C.encode(message.gamerNotifyIntelligenceS2C, writer.uint32(/* id 80, wireType 2 =*/642).fork()).ldelim();
+            $root.GamerNotifyIntelligenceS2C.encode(message.gamerNotifyIntelligenceS2C, writer.uint32(/* id 81, wireType 2 =*/650).fork()).ldelim();
         if (message.gamerGetIntelligenceS2C != null && message.hasOwnProperty("gamerGetIntelligenceS2C"))
-            $root.GamerGetIntelligenceS2C.encode(message.gamerGetIntelligenceS2C, writer.uint32(/* id 81, wireType 2 =*/650).fork()).ldelim();
+            $root.GamerGetIntelligenceS2C.encode(message.gamerGetIntelligenceS2C, writer.uint32(/* id 82, wireType 2 =*/658).fork()).ldelim();
         if (message.gamerChangeIntelligenceStateS2C != null && message.hasOwnProperty("gamerChangeIntelligenceStateS2C"))
-            $root.GamerChangeIntelligenceStateS2C.encode(message.gamerChangeIntelligenceStateS2C, writer.uint32(/* id 82, wireType 2 =*/658).fork()).ldelim();
+            $root.GamerChangeIntelligenceStateS2C.encode(message.gamerChangeIntelligenceStateS2C, writer.uint32(/* id 83, wireType 2 =*/666).fork()).ldelim();
         if (message.gamerIntelligenceParseS2C != null && message.hasOwnProperty("gamerIntelligenceParseS2C"))
-            $root.GamerIntelligenceParseS2C.encode(message.gamerIntelligenceParseS2C, writer.uint32(/* id 83, wireType 2 =*/666).fork()).ldelim();
+            $root.GamerIntelligenceParseS2C.encode(message.gamerIntelligenceParseS2C, writer.uint32(/* id 84, wireType 2 =*/674).fork()).ldelim();
         if (message.studioS2C != null && message.hasOwnProperty("studioS2C"))
-            $root.StudioS2C.encode(message.studioS2C, writer.uint32(/* id 84, wireType 2 =*/674).fork()).ldelim();
+            $root.StudioS2C.encode(message.studioS2C, writer.uint32(/* id 85, wireType 2 =*/682).fork()).ldelim();
         if (message.studioStorySelectS2C != null && message.hasOwnProperty("studioStorySelectS2C"))
-            $root.StudioStorySelectS2C.encode(message.studioStorySelectS2C, writer.uint32(/* id 85, wireType 2 =*/682).fork()).ldelim();
+            $root.StudioStorySelectS2C.encode(message.studioStorySelectS2C, writer.uint32(/* id 86, wireType 2 =*/690).fork()).ldelim();
         if (message.studioActorSelectS2C != null && message.hasOwnProperty("studioActorSelectS2C"))
-            $root.StudioActorSelectS2C.encode(message.studioActorSelectS2C, writer.uint32(/* id 86, wireType 2 =*/690).fork()).ldelim();
+            $root.StudioActorSelectS2C.encode(message.studioActorSelectS2C, writer.uint32(/* id 87, wireType 2 =*/698).fork()).ldelim();
         if (message.studioMatchingDisplayEndS2C != null && message.hasOwnProperty("studioMatchingDisplayEndS2C"))
-            $root.StudioMatchingDisplayEndS2C.encode(message.studioMatchingDisplayEndS2C, writer.uint32(/* id 87, wireType 2 =*/698).fork()).ldelim();
+            $root.StudioMatchingDisplayEndS2C.encode(message.studioMatchingDisplayEndS2C, writer.uint32(/* id 88, wireType 2 =*/706).fork()).ldelim();
         if (message.gamerNotifyStudioEventS2C != null && message.hasOwnProperty("gamerNotifyStudioEventS2C"))
-            $root.GamerNotifyStudioEventS2C.encode(message.gamerNotifyStudioEventS2C, writer.uint32(/* id 88, wireType 2 =*/706).fork()).ldelim();
+            $root.GamerNotifyStudioEventS2C.encode(message.gamerNotifyStudioEventS2C, writer.uint32(/* id 89, wireType 2 =*/714).fork()).ldelim();
         if (message.studioEventOptionSelectS2C != null && message.hasOwnProperty("studioEventOptionSelectS2C"))
-            $root.StudioEventOptionSelectS2C.encode(message.studioEventOptionSelectS2C, writer.uint32(/* id 89, wireType 2 =*/714).fork()).ldelim();
+            $root.StudioEventOptionSelectS2C.encode(message.studioEventOptionSelectS2C, writer.uint32(/* id 90, wireType 2 =*/722).fork()).ldelim();
         if (message.studioStartS2C != null && message.hasOwnProperty("studioStartS2C"))
-            $root.StudioStartS2C.encode(message.studioStartS2C, writer.uint32(/* id 90, wireType 2 =*/722).fork()).ldelim();
+            $root.StudioStartS2C.encode(message.studioStartS2C, writer.uint32(/* id 91, wireType 2 =*/730).fork()).ldelim();
         if (message.studioNextStepS2C != null && message.hasOwnProperty("studioNextStepS2C"))
-            $root.StudioNextStepS2C.encode(message.studioNextStepS2C, writer.uint32(/* id 91, wireType 2 =*/730).fork()).ldelim();
+            $root.StudioNextStepS2C.encode(message.studioNextStepS2C, writer.uint32(/* id 92, wireType 2 =*/738).fork()).ldelim();
         if (message.gamerNotifyStudioFirstRewardS2C != null && message.hasOwnProperty("gamerNotifyStudioFirstRewardS2C"))
-            $root.GamerNotifyStudioFirstRewardS2C.encode(message.gamerNotifyStudioFirstRewardS2C, writer.uint32(/* id 92, wireType 2 =*/738).fork()).ldelim();
+            $root.GamerNotifyStudioFirstRewardS2C.encode(message.gamerNotifyStudioFirstRewardS2C, writer.uint32(/* id 93, wireType 2 =*/746).fork()).ldelim();
         if (message.studioContinuedListS2C != null && message.hasOwnProperty("studioContinuedListS2C"))
-            $root.StudioContinuedListS2C.encode(message.studioContinuedListS2C, writer.uint32(/* id 93, wireType 2 =*/746).fork()).ldelim();
+            $root.StudioContinuedListS2C.encode(message.studioContinuedListS2C, writer.uint32(/* id 94, wireType 2 =*/754).fork()).ldelim();
         if (message.studioContinuedReceiveS2C != null && message.hasOwnProperty("studioContinuedReceiveS2C"))
-            $root.StudioContinuedReceiveS2C.encode(message.studioContinuedReceiveS2C, writer.uint32(/* id 94, wireType 2 =*/754).fork()).ldelim();
+            $root.StudioContinuedReceiveS2C.encode(message.studioContinuedReceiveS2C, writer.uint32(/* id 95, wireType 2 =*/762).fork()).ldelim();
         if (message.studioContinuedReceiveAllS2C != null && message.hasOwnProperty("studioContinuedReceiveAllS2C"))
-            $root.StudioContinuedReceiveAllS2C.encode(message.studioContinuedReceiveAllS2C, writer.uint32(/* id 95, wireType 2 =*/762).fork()).ldelim();
-        if (message.gamerNotifyDailyTaskS2C != null && message.hasOwnProperty("gamerNotifyDailyTaskS2C"))
-            $root.GamerNotifyDailyTaskS2C.encode(message.gamerNotifyDailyTaskS2C, writer.uint32(/* id 96, wireType 2 =*/770).fork()).ldelim();
-        if (message.gamerNotifyTaskS2C != null && message.hasOwnProperty("gamerNotifyTaskS2C"))
-            $root.GamerNotifyTaskS2C.encode(message.gamerNotifyTaskS2C, writer.uint32(/* id 97, wireType 2 =*/778).fork()).ldelim();
-        if (message.gamerAcceptTaskS2C != null && message.hasOwnProperty("gamerAcceptTaskS2C"))
-            $root.GamerAcceptTaskS2C.encode(message.gamerAcceptTaskS2C, writer.uint32(/* id 98, wireType 2 =*/786).fork()).ldelim();
-        if (message.gamerGetTaskRewardS2C != null && message.hasOwnProperty("gamerGetTaskRewardS2C"))
-            $root.GamerGetTaskRewardS2C.encode(message.gamerGetTaskRewardS2C, writer.uint32(/* id 99, wireType 2 =*/794).fork()).ldelim();
-        if (message.gamerGetDailyTaskActivityDegreeRewardS2C != null && message.hasOwnProperty("gamerGetDailyTaskActivityDegreeRewardS2C"))
-            $root.GamerGetDailyTaskActivityDegreeRewardS2C.encode(message.gamerGetDailyTaskActivityDegreeRewardS2C, writer.uint32(/* id 100, wireType 2 =*/802).fork()).ldelim();
-        if (message.gamerGetGuideProgressS2C != null && message.hasOwnProperty("gamerGetGuideProgressS2C"))
-            $root.GamerGetGuideProgressS2C.encode(message.gamerGetGuideProgressS2C, writer.uint32(/* id 101, wireType 2 =*/810).fork()).ldelim();
-        if (message.gamerSetGuideProgressS2C != null && message.hasOwnProperty("gamerSetGuideProgressS2C"))
-            $root.GamerSetGuideProgressS2C.encode(message.gamerSetGuideProgressS2C, writer.uint32(/* id 102, wireType 2 =*/818).fork()).ldelim();
+            $root.StudioContinuedReceiveAllS2C.encode(message.studioContinuedReceiveAllS2C, writer.uint32(/* id 96, wireType 2 =*/770).fork()).ldelim();
+        if (message.gamerNotifyActivitiesS2C != null && message.hasOwnProperty("gamerNotifyActivitiesS2C"))
+            $root.GamerNotifyActivitiesS2C.encode(message.gamerNotifyActivitiesS2C, writer.uint32(/* id 97, wireType 2 =*/778).fork()).ldelim();
+        if (message.getActivityRewardS2C != null && message.hasOwnProperty("getActivityRewardS2C"))
+            $root.GetActivityRewardS2C.encode(message.getActivityRewardS2C, writer.uint32(/* id 98, wireType 2 =*/786).fork()).ldelim();
         return writer;
     };
     S2C.encodeDelimited = function encodeDelimited(message, writer) {
@@ -29764,85 +28455,73 @@ $root.S2C = (function() {
                 message.gamerExtractGashaponS2C = $root.GamerExtractGashaponS2C.decode(reader, reader.uint32());
                 break;
             case 76:
-                message.gamerGetAllowanceS2C = $root.GamerGetAllowanceS2C.decode(reader, reader.uint32());
+                message.storyExtractGashaponS2C = $root.StoryExtractGashaponS2C.decode(reader, reader.uint32());
                 break;
             case 77:
-                message.getStoryExtractInfoS2C = $root.GetStoryExtractInfoS2C.decode(reader, reader.uint32());
+                message.gamerGetAllowanceS2C = $root.GamerGetAllowanceS2C.decode(reader, reader.uint32());
                 break;
             case 78:
-                message.cleanStoryExtractCDS2C = $root.CleanStoryExtractCDS2C.decode(reader, reader.uint32());
+                message.getStoryExtractInfoS2C = $root.GetStoryExtractInfoS2C.decode(reader, reader.uint32());
                 break;
             case 79:
-                message.purchaseStoryExtractNumS2C = $root.PurchaseStoryExtractNumS2C.decode(reader, reader.uint32());
+                message.cleanStoryExtractCDS2C = $root.CleanStoryExtractCDS2C.decode(reader, reader.uint32());
                 break;
             case 80:
-                message.gamerNotifyIntelligenceS2C = $root.GamerNotifyIntelligenceS2C.decode(reader, reader.uint32());
+                message.purchaseStoryExtractNumS2C = $root.PurchaseStoryExtractNumS2C.decode(reader, reader.uint32());
                 break;
             case 81:
-                message.gamerGetIntelligenceS2C = $root.GamerGetIntelligenceS2C.decode(reader, reader.uint32());
+                message.gamerNotifyIntelligenceS2C = $root.GamerNotifyIntelligenceS2C.decode(reader, reader.uint32());
                 break;
             case 82:
-                message.gamerChangeIntelligenceStateS2C = $root.GamerChangeIntelligenceStateS2C.decode(reader, reader.uint32());
+                message.gamerGetIntelligenceS2C = $root.GamerGetIntelligenceS2C.decode(reader, reader.uint32());
                 break;
             case 83:
-                message.gamerIntelligenceParseS2C = $root.GamerIntelligenceParseS2C.decode(reader, reader.uint32());
+                message.gamerChangeIntelligenceStateS2C = $root.GamerChangeIntelligenceStateS2C.decode(reader, reader.uint32());
                 break;
             case 84:
-                message.studioS2C = $root.StudioS2C.decode(reader, reader.uint32());
+                message.gamerIntelligenceParseS2C = $root.GamerIntelligenceParseS2C.decode(reader, reader.uint32());
                 break;
             case 85:
-                message.studioStorySelectS2C = $root.StudioStorySelectS2C.decode(reader, reader.uint32());
+                message.studioS2C = $root.StudioS2C.decode(reader, reader.uint32());
                 break;
             case 86:
-                message.studioActorSelectS2C = $root.StudioActorSelectS2C.decode(reader, reader.uint32());
+                message.studioStorySelectS2C = $root.StudioStorySelectS2C.decode(reader, reader.uint32());
                 break;
             case 87:
-                message.studioMatchingDisplayEndS2C = $root.StudioMatchingDisplayEndS2C.decode(reader, reader.uint32());
+                message.studioActorSelectS2C = $root.StudioActorSelectS2C.decode(reader, reader.uint32());
                 break;
             case 88:
-                message.gamerNotifyStudioEventS2C = $root.GamerNotifyStudioEventS2C.decode(reader, reader.uint32());
+                message.studioMatchingDisplayEndS2C = $root.StudioMatchingDisplayEndS2C.decode(reader, reader.uint32());
                 break;
             case 89:
-                message.studioEventOptionSelectS2C = $root.StudioEventOptionSelectS2C.decode(reader, reader.uint32());
+                message.gamerNotifyStudioEventS2C = $root.GamerNotifyStudioEventS2C.decode(reader, reader.uint32());
                 break;
             case 90:
-                message.studioStartS2C = $root.StudioStartS2C.decode(reader, reader.uint32());
+                message.studioEventOptionSelectS2C = $root.StudioEventOptionSelectS2C.decode(reader, reader.uint32());
                 break;
             case 91:
-                message.studioNextStepS2C = $root.StudioNextStepS2C.decode(reader, reader.uint32());
+                message.studioStartS2C = $root.StudioStartS2C.decode(reader, reader.uint32());
                 break;
             case 92:
-                message.gamerNotifyStudioFirstRewardS2C = $root.GamerNotifyStudioFirstRewardS2C.decode(reader, reader.uint32());
+                message.studioNextStepS2C = $root.StudioNextStepS2C.decode(reader, reader.uint32());
                 break;
             case 93:
-                message.studioContinuedListS2C = $root.StudioContinuedListS2C.decode(reader, reader.uint32());
+                message.gamerNotifyStudioFirstRewardS2C = $root.GamerNotifyStudioFirstRewardS2C.decode(reader, reader.uint32());
                 break;
             case 94:
-                message.studioContinuedReceiveS2C = $root.StudioContinuedReceiveS2C.decode(reader, reader.uint32());
+                message.studioContinuedListS2C = $root.StudioContinuedListS2C.decode(reader, reader.uint32());
                 break;
             case 95:
-                message.studioContinuedReceiveAllS2C = $root.StudioContinuedReceiveAllS2C.decode(reader, reader.uint32());
+                message.studioContinuedReceiveS2C = $root.StudioContinuedReceiveS2C.decode(reader, reader.uint32());
                 break;
             case 96:
-                message.gamerNotifyDailyTaskS2C = $root.GamerNotifyDailyTaskS2C.decode(reader, reader.uint32());
+                message.studioContinuedReceiveAllS2C = $root.StudioContinuedReceiveAllS2C.decode(reader, reader.uint32());
                 break;
             case 97:
-                message.gamerNotifyTaskS2C = $root.GamerNotifyTaskS2C.decode(reader, reader.uint32());
+                message.gamerNotifyActivitiesS2C = $root.GamerNotifyActivitiesS2C.decode(reader, reader.uint32());
                 break;
             case 98:
-                message.gamerAcceptTaskS2C = $root.GamerAcceptTaskS2C.decode(reader, reader.uint32());
-                break;
-            case 99:
-                message.gamerGetTaskRewardS2C = $root.GamerGetTaskRewardS2C.decode(reader, reader.uint32());
-                break;
-            case 100:
-                message.gamerGetDailyTaskActivityDegreeRewardS2C = $root.GamerGetDailyTaskActivityDegreeRewardS2C.decode(reader, reader.uint32());
-                break;
-            case 101:
-                message.gamerGetGuideProgressS2C = $root.GamerGetGuideProgressS2C.decode(reader, reader.uint32());
-                break;
-            case 102:
-                message.gamerSetGuideProgressS2C = $root.GamerSetGuideProgressS2C.decode(reader, reader.uint32());
+                message.getActivityRewardS2C = $root.GetActivityRewardS2C.decode(reader, reader.uint32());
                 break;
             default:
                 reader.skipType(tag & 7);
@@ -30230,6 +28909,11 @@ $root.S2C = (function() {
             if (error)
                 return "gamerExtractGashaponS2C." + error;
         }
+        if (message.storyExtractGashaponS2C != null && message.hasOwnProperty("storyExtractGashaponS2C")) {
+            var error = $root.StoryExtractGashaponS2C.verify(message.storyExtractGashaponS2C);
+            if (error)
+                return "storyExtractGashaponS2C." + error;
+        }
         if (message.gamerGetAllowanceS2C != null && message.hasOwnProperty("gamerGetAllowanceS2C")) {
             var error = $root.GamerGetAllowanceS2C.verify(message.gamerGetAllowanceS2C);
             if (error)
@@ -30330,40 +29014,15 @@ $root.S2C = (function() {
             if (error)
                 return "studioContinuedReceiveAllS2C." + error;
         }
-        if (message.gamerNotifyDailyTaskS2C != null && message.hasOwnProperty("gamerNotifyDailyTaskS2C")) {
-            var error = $root.GamerNotifyDailyTaskS2C.verify(message.gamerNotifyDailyTaskS2C);
+        if (message.gamerNotifyActivitiesS2C != null && message.hasOwnProperty("gamerNotifyActivitiesS2C")) {
+            var error = $root.GamerNotifyActivitiesS2C.verify(message.gamerNotifyActivitiesS2C);
             if (error)
-                return "gamerNotifyDailyTaskS2C." + error;
+                return "gamerNotifyActivitiesS2C." + error;
         }
-        if (message.gamerNotifyTaskS2C != null && message.hasOwnProperty("gamerNotifyTaskS2C")) {
-            var error = $root.GamerNotifyTaskS2C.verify(message.gamerNotifyTaskS2C);
+        if (message.getActivityRewardS2C != null && message.hasOwnProperty("getActivityRewardS2C")) {
+            var error = $root.GetActivityRewardS2C.verify(message.getActivityRewardS2C);
             if (error)
-                return "gamerNotifyTaskS2C." + error;
-        }
-        if (message.gamerAcceptTaskS2C != null && message.hasOwnProperty("gamerAcceptTaskS2C")) {
-            var error = $root.GamerAcceptTaskS2C.verify(message.gamerAcceptTaskS2C);
-            if (error)
-                return "gamerAcceptTaskS2C." + error;
-        }
-        if (message.gamerGetTaskRewardS2C != null && message.hasOwnProperty("gamerGetTaskRewardS2C")) {
-            var error = $root.GamerGetTaskRewardS2C.verify(message.gamerGetTaskRewardS2C);
-            if (error)
-                return "gamerGetTaskRewardS2C." + error;
-        }
-        if (message.gamerGetDailyTaskActivityDegreeRewardS2C != null && message.hasOwnProperty("gamerGetDailyTaskActivityDegreeRewardS2C")) {
-            var error = $root.GamerGetDailyTaskActivityDegreeRewardS2C.verify(message.gamerGetDailyTaskActivityDegreeRewardS2C);
-            if (error)
-                return "gamerGetDailyTaskActivityDegreeRewardS2C." + error;
-        }
-        if (message.gamerGetGuideProgressS2C != null && message.hasOwnProperty("gamerGetGuideProgressS2C")) {
-            var error = $root.GamerGetGuideProgressS2C.verify(message.gamerGetGuideProgressS2C);
-            if (error)
-                return "gamerGetGuideProgressS2C." + error;
-        }
-        if (message.gamerSetGuideProgressS2C != null && message.hasOwnProperty("gamerSetGuideProgressS2C")) {
-            var error = $root.GamerSetGuideProgressS2C.verify(message.gamerSetGuideProgressS2C);
-            if (error)
-                return "gamerSetGuideProgressS2C." + error;
+                return "getActivityRewardS2C." + error;
         }
         return null;
     };
@@ -30740,6 +29399,11 @@ $root.S2C = (function() {
                 throw TypeError(".S2C.gamerExtractGashaponS2C: object expected");
             message.gamerExtractGashaponS2C = $root.GamerExtractGashaponS2C.fromObject(object.gamerExtractGashaponS2C);
         }
+        if (object.storyExtractGashaponS2C != null) {
+            if (typeof object.storyExtractGashaponS2C !== "object")
+                throw TypeError(".S2C.storyExtractGashaponS2C: object expected");
+            message.storyExtractGashaponS2C = $root.StoryExtractGashaponS2C.fromObject(object.storyExtractGashaponS2C);
+        }
         if (object.gamerGetAllowanceS2C != null) {
             if (typeof object.gamerGetAllowanceS2C !== "object")
                 throw TypeError(".S2C.gamerGetAllowanceS2C: object expected");
@@ -30840,40 +29504,15 @@ $root.S2C = (function() {
                 throw TypeError(".S2C.studioContinuedReceiveAllS2C: object expected");
             message.studioContinuedReceiveAllS2C = $root.StudioContinuedReceiveAllS2C.fromObject(object.studioContinuedReceiveAllS2C);
         }
-        if (object.gamerNotifyDailyTaskS2C != null) {
-            if (typeof object.gamerNotifyDailyTaskS2C !== "object")
-                throw TypeError(".S2C.gamerNotifyDailyTaskS2C: object expected");
-            message.gamerNotifyDailyTaskS2C = $root.GamerNotifyDailyTaskS2C.fromObject(object.gamerNotifyDailyTaskS2C);
+        if (object.gamerNotifyActivitiesS2C != null) {
+            if (typeof object.gamerNotifyActivitiesS2C !== "object")
+                throw TypeError(".S2C.gamerNotifyActivitiesS2C: object expected");
+            message.gamerNotifyActivitiesS2C = $root.GamerNotifyActivitiesS2C.fromObject(object.gamerNotifyActivitiesS2C);
         }
-        if (object.gamerNotifyTaskS2C != null) {
-            if (typeof object.gamerNotifyTaskS2C !== "object")
-                throw TypeError(".S2C.gamerNotifyTaskS2C: object expected");
-            message.gamerNotifyTaskS2C = $root.GamerNotifyTaskS2C.fromObject(object.gamerNotifyTaskS2C);
-        }
-        if (object.gamerAcceptTaskS2C != null) {
-            if (typeof object.gamerAcceptTaskS2C !== "object")
-                throw TypeError(".S2C.gamerAcceptTaskS2C: object expected");
-            message.gamerAcceptTaskS2C = $root.GamerAcceptTaskS2C.fromObject(object.gamerAcceptTaskS2C);
-        }
-        if (object.gamerGetTaskRewardS2C != null) {
-            if (typeof object.gamerGetTaskRewardS2C !== "object")
-                throw TypeError(".S2C.gamerGetTaskRewardS2C: object expected");
-            message.gamerGetTaskRewardS2C = $root.GamerGetTaskRewardS2C.fromObject(object.gamerGetTaskRewardS2C);
-        }
-        if (object.gamerGetDailyTaskActivityDegreeRewardS2C != null) {
-            if (typeof object.gamerGetDailyTaskActivityDegreeRewardS2C !== "object")
-                throw TypeError(".S2C.gamerGetDailyTaskActivityDegreeRewardS2C: object expected");
-            message.gamerGetDailyTaskActivityDegreeRewardS2C = $root.GamerGetDailyTaskActivityDegreeRewardS2C.fromObject(object.gamerGetDailyTaskActivityDegreeRewardS2C);
-        }
-        if (object.gamerGetGuideProgressS2C != null) {
-            if (typeof object.gamerGetGuideProgressS2C !== "object")
-                throw TypeError(".S2C.gamerGetGuideProgressS2C: object expected");
-            message.gamerGetGuideProgressS2C = $root.GamerGetGuideProgressS2C.fromObject(object.gamerGetGuideProgressS2C);
-        }
-        if (object.gamerSetGuideProgressS2C != null) {
-            if (typeof object.gamerSetGuideProgressS2C !== "object")
-                throw TypeError(".S2C.gamerSetGuideProgressS2C: object expected");
-            message.gamerSetGuideProgressS2C = $root.GamerSetGuideProgressS2C.fromObject(object.gamerSetGuideProgressS2C);
+        if (object.getActivityRewardS2C != null) {
+            if (typeof object.getActivityRewardS2C !== "object")
+                throw TypeError(".S2C.getActivityRewardS2C: object expected");
+            message.getActivityRewardS2C = $root.GetActivityRewardS2C.fromObject(object.getActivityRewardS2C);
         }
         return message;
     };
@@ -30957,6 +29596,7 @@ $root.S2C = (function() {
             object.actorLeaveBuildS2C = null;
             object.gamerNotifyGashaponInfoS2C = null;
             object.gamerExtractGashaponS2C = null;
+            object.storyExtractGashaponS2C = null;
             object.gamerGetAllowanceS2C = null;
             object.getStoryExtractInfoS2C = null;
             object.cleanStoryExtractCDS2C = null;
@@ -30977,13 +29617,8 @@ $root.S2C = (function() {
             object.studioContinuedListS2C = null;
             object.studioContinuedReceiveS2C = null;
             object.studioContinuedReceiveAllS2C = null;
-            object.gamerNotifyDailyTaskS2C = null;
-            object.gamerNotifyTaskS2C = null;
-            object.gamerAcceptTaskS2C = null;
-            object.gamerGetTaskRewardS2C = null;
-            object.gamerGetDailyTaskActivityDegreeRewardS2C = null;
-            object.gamerGetGuideProgressS2C = null;
-            object.gamerSetGuideProgressS2C = null;
+            object.gamerNotifyActivitiesS2C = null;
+            object.getActivityRewardS2C = null;
         }
         if (message.error != null && message.hasOwnProperty("error"))
             object.error = message.error;
@@ -31135,6 +29770,8 @@ $root.S2C = (function() {
             object.gamerNotifyGashaponInfoS2C = $root.GamerNotifyGashaponInfoS2C.toObject(message.gamerNotifyGashaponInfoS2C, options);
         if (message.gamerExtractGashaponS2C != null && message.hasOwnProperty("gamerExtractGashaponS2C"))
             object.gamerExtractGashaponS2C = $root.GamerExtractGashaponS2C.toObject(message.gamerExtractGashaponS2C, options);
+        if (message.storyExtractGashaponS2C != null && message.hasOwnProperty("storyExtractGashaponS2C"))
+            object.storyExtractGashaponS2C = $root.StoryExtractGashaponS2C.toObject(message.storyExtractGashaponS2C, options);
         if (message.gamerGetAllowanceS2C != null && message.hasOwnProperty("gamerGetAllowanceS2C"))
             object.gamerGetAllowanceS2C = $root.GamerGetAllowanceS2C.toObject(message.gamerGetAllowanceS2C, options);
         if (message.getStoryExtractInfoS2C != null && message.hasOwnProperty("getStoryExtractInfoS2C"))
@@ -31175,20 +29812,10 @@ $root.S2C = (function() {
             object.studioContinuedReceiveS2C = $root.StudioContinuedReceiveS2C.toObject(message.studioContinuedReceiveS2C, options);
         if (message.studioContinuedReceiveAllS2C != null && message.hasOwnProperty("studioContinuedReceiveAllS2C"))
             object.studioContinuedReceiveAllS2C = $root.StudioContinuedReceiveAllS2C.toObject(message.studioContinuedReceiveAllS2C, options);
-        if (message.gamerNotifyDailyTaskS2C != null && message.hasOwnProperty("gamerNotifyDailyTaskS2C"))
-            object.gamerNotifyDailyTaskS2C = $root.GamerNotifyDailyTaskS2C.toObject(message.gamerNotifyDailyTaskS2C, options);
-        if (message.gamerNotifyTaskS2C != null && message.hasOwnProperty("gamerNotifyTaskS2C"))
-            object.gamerNotifyTaskS2C = $root.GamerNotifyTaskS2C.toObject(message.gamerNotifyTaskS2C, options);
-        if (message.gamerAcceptTaskS2C != null && message.hasOwnProperty("gamerAcceptTaskS2C"))
-            object.gamerAcceptTaskS2C = $root.GamerAcceptTaskS2C.toObject(message.gamerAcceptTaskS2C, options);
-        if (message.gamerGetTaskRewardS2C != null && message.hasOwnProperty("gamerGetTaskRewardS2C"))
-            object.gamerGetTaskRewardS2C = $root.GamerGetTaskRewardS2C.toObject(message.gamerGetTaskRewardS2C, options);
-        if (message.gamerGetDailyTaskActivityDegreeRewardS2C != null && message.hasOwnProperty("gamerGetDailyTaskActivityDegreeRewardS2C"))
-            object.gamerGetDailyTaskActivityDegreeRewardS2C = $root.GamerGetDailyTaskActivityDegreeRewardS2C.toObject(message.gamerGetDailyTaskActivityDegreeRewardS2C, options);
-        if (message.gamerGetGuideProgressS2C != null && message.hasOwnProperty("gamerGetGuideProgressS2C"))
-            object.gamerGetGuideProgressS2C = $root.GamerGetGuideProgressS2C.toObject(message.gamerGetGuideProgressS2C, options);
-        if (message.gamerSetGuideProgressS2C != null && message.hasOwnProperty("gamerSetGuideProgressS2C"))
-            object.gamerSetGuideProgressS2C = $root.GamerSetGuideProgressS2C.toObject(message.gamerSetGuideProgressS2C, options);
+        if (message.gamerNotifyActivitiesS2C != null && message.hasOwnProperty("gamerNotifyActivitiesS2C"))
+            object.gamerNotifyActivitiesS2C = $root.GamerNotifyActivitiesS2C.toObject(message.gamerNotifyActivitiesS2C, options);
+        if (message.getActivityRewardS2C != null && message.hasOwnProperty("getActivityRewardS2C"))
+            object.getActivityRewardS2C = $root.GetActivityRewardS2C.toObject(message.getActivityRewardS2C, options);
         return object;
     };
     S2C.prototype.toJSON = function toJSON() {

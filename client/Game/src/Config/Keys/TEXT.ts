@@ -286,22 +286,50 @@ export default class TEXT
     static TimeEnd = "00:00:00";
 
     //Build	
-    static BuildTitleType = ["建筑详情", "建筑建造", "建筑升级", "建筑突破"];
+    static BuildTitleType = ["建造", "升级", "突破"];
     static BuildTitleCost = "消耗";
+    static BuildSuccessType = ["建造成功", "升级成功", "突破成功"]
+    static BuildOpenItem = "解锁{0}产出";
+    static BuildOpenSys  = "解锁{0}系统";
+    static BuildOpenCell = "新的入驻席位开启";
+    static BuildPicChange = "建筑外观变化";
     static BuildOpenBre  = "{0}等级上限提高至{1}级";
+    static BuildLevelMax = "提高等级上限";
     static BuildReturnActor = "召回艺人{0}入驻{1}"
+    static BuildEnter    = "进驻：";
     static BuildBreakOpen= "突破后开启";
     static BuildActorRemove = "移除";
     static BuildSpeedUp  = "花费{0}钻石完成建造！";
+    static BuildNoProduce= "暂无产出，请耐心等待";
     static BuildBreak = "建筑突破";
     static BuildContent = "详情";
+
+    static BuildNoCd         = "0秒";
+    static Floor = "第{0}层";
+    static BuildFloor = "扩建第{0}层";
+    static BuildUpgrade = "升级至 {0}级";
+    static BuildUpgrade_UBB = "[color=#66ff66]升级至{0}级[/color]";
+    static CompanyLevel = "LV.{0}解锁";
     static BuildEffect = "建筑说明";
     static BuildLevelEffect = "升级效果：";
+    static BuildLevelup = "升级";
+    static BuildConfirm = "确认";
+    static BuildLevel = "等级{0}";
     static BuildNextLevel = "下一等级 {0}";
+    static BuildFloorAlert = "确认要扩建{0}层吗？";
+    static BuildTitle = "建造";
+    static ActorExperciseExpedite = "加速";
+    static BuildFloorFailLevel = "需要公司等级达到：{0}";
+    static BuildFloorFailCity = "需要占领城市：{0}. {1}";
+    static BuildActorRoomTalentNpc = "星探"; 
+    static BuildActorRoomTrainerNpc = "培训师";
+    static TopFloor = "Top Floor";
+
+    static BuildGetItem = "{0}x{1}"
+    static BuildNeedLevel = "公司{0}级可建造"
+    static BuildNeedOK = "可建造"
+    static BuildFinish = "施工结束，点击完成"
     static BuildSuccessLevel = "建筑等级："
-    static BuildPlusNum = "+{0}";
-    static BuildNeedTimeTail = "{0}后存满";
-    static BuildOpenNewCell = "开启新的进驻席位";
 
 
 
@@ -732,14 +760,6 @@ export default class TEXT
     static StoryLotteryCD = "清除CD";
     static StoryLotteryBtn = "创作";
     static StoryLotteryFiald = "剧本招募未成功，返还部分金币";
-    static MainTaskAward = "领奖成功";
-    
-
-    //每日任务
-    /** 活跃度 */
-    static DailyTaskActivity = "活跃度：{0}";
-    /** 完成度 */
-    static DailyTaskCompletion = "完成度：{0}/{1}";
 
 
     // Time xx前

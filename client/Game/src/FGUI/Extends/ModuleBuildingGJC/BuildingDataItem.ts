@@ -5,12 +5,18 @@
 
 import BuildingDataItemStruct from "../../Generates/ModuleBuildingGJC/BuildingDataItemStruct";
 import { BuildingBuildType } from "./BuildingWindowUIGJC";
-import TEXT from "../../../Config/Keys/TEXT";
 
 export default class BuildingDataItem extends BuildingDataItemStruct
 {
-    RenderItem(nowVal: number, nextVal: number): void {
-        this.m_labNowData.text = String(nowVal);
-        this.m_labNextData.text= format(TEXT.BuildPlusNum, (nextVal - nowVal));
+    public RenderItem(data: any, type: number): void {
+        this.m_build.selectedIndex = type;
+        if (type == BuildingBuildType.Level) {
+            this.m_labEffect.text = data.config.addname;
+            this.m_labData.text = data.val;
+            this.m_labDataAdd.text= data.sub >= 0 ? "+" + data.sub : data.sub;
+        } else {
+            this.m_labEffect.text = data;  
+
+        }
     }
 }

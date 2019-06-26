@@ -27,7 +27,6 @@ export default class HomeWindow extends MWindow
         this.addAssetForFguiPackagename(GuiPackageNames.CommonGame);
         this.addAssetForFguiPackagename(GuiPackageNames.CommonFx);
         this.addAssetForFguiPackagename(GuiPackageNames.SystemModuleDialog);
-        this.addAssetForFguiPackagename(GuiPackageNames.SystemModuleGuide);
         this.addAssetForFguiComponent(HomeWindowUI);
         this.addAssetForFguiPackagename(GuiPackageNames.SystemModuleHomeMap);
         this.addDynamicAsset( { url: Res.getHomePath(), type: AssetItemType.Json });
@@ -50,8 +49,6 @@ export default class HomeWindow extends MWindow
         Game.home.install();
         this.setMySelfData();
         Game.home.show();
-
-        // Game.guide.install();
     }
 
 

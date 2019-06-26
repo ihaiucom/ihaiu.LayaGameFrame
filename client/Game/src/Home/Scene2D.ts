@@ -384,7 +384,7 @@ export default class Scene2D extends Sprite
     private zoomBuildingEnterPos = new Point();
     private zoomBuildingEnterZoom = 1;
     // 移动到建筑，并隐藏主UI, Enter
-    zoomBuildingEnter(buildingId: BuildingType, dx: number = 0, dy: number = 0, offsetY: number = 300, duration: number = 200, scale?: number)
+    zoomBuildingEnter(buildingId: BuildingType, dx: number = 0, dy: number = 0, offsetY: number = 200, duration: number = 200, scale?: number)
     {
         this.isZoomBuildingEnter = true;
         let p = this.getCenter();

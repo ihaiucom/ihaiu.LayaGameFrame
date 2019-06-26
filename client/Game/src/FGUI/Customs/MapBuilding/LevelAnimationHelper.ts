@@ -7,6 +7,8 @@ export class LevelAnimation
 
     clear()
     {
+        Laya.timer.clearAll(this);
+        Laya.Tween.clearAll(this);
         Laya.Tween.clearAll(this.obj);
         this.particleGroup.stop();
         this.obj.alpha = 1.0;
@@ -27,27 +29,18 @@ export class LevelAnimation
     {
         if(!this.particleGroup)
         {
+            let arr = [
+                R.particles.BuildingLevelShow
+            ];
             this.particleGroup = new ParticleGroup();
-            let arr = [];
-            if (this.obj.width < 160 && this.obj.height < 160) {
-                arr.push(R.particles.BuildingLevelShow_Yun);
-                this.particleGroup.setPosRangeScale(this.obj.width / 160, this.obj.height / 160);
-            }
-            if (this.obj.width < 240 && this.obj.height < 240) {
-                arr.push(R.particles.BuildingLevelShow_YunBig1);
-                this.particleGroup.setPosRangeScale(this.obj.width / 240, this.obj.height / 240);
-            }
-            if (this.obj.width < 360 && this.obj.height < 360) {
-                arr.push(R.particles.BuildingLevelShow_YunBig2);
-                this.particleGroup.setPosRangeScale(this.obj.width / 360, this.obj.height / 360);
-            }
-            
             await this.particleGroup.init(this.obj, arr);
         }
-        
+        this.particleGroup.setPosRangeScale(this.obj.width / 100, this.obj.height / 150);
         this.particleGroup.setContainer(this.obj);
-		this.particleGroup.x = this.obj.width * 0.5;
-		this.particleGroup.y = this.obj.height * 0.5;
+		// this.particleGroup.addToContainerTop();
+		// this.particleGroup.generateHelperPoint();
+		this.particleGroup.x = this.obj.width >> 1;
+		this.particleGroup.y = this.obj.height * 0.8;
 		this.particleGroup.stop();
     }
 

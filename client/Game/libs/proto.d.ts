@@ -109,6 +109,8 @@ declare module proto {
 	
 	    gamerExtractGashaponC2S?: (IGamerExtractGashaponC2S|null);
 	
+	    storyExtractGashaponC2S?: (IStoryExtractGashaponC2S|null);
+	
 	    gamerGetAllowanceC2S?: (IGamerGetAllowanceC2S|null);
 	
 	    getStoryExtractInfoC2S?: (IGetStoryExtractInfoC2S|null);
@@ -143,15 +145,7 @@ declare module proto {
 	
 	    studioContinuedReceiveAllC2S?: (IStudioContinuedReceiveAllC2S|null);
 	
-	    gamerAcceptTaskC2S?: (IGamerAcceptTaskC2S|null);
-	
-	    gamerGetTaskRewardC2S?: (IGamerGetTaskRewardC2S|null);
-	
-	    gamerGetDailyTaskActivityDegreeRewardC2S?: (IGamerGetDailyTaskActivityDegreeRewardC2S|null);
-	
-	    gamerGetGuideProgressC2S?: (IGamerGetGuideProgressC2S|null);
-	
-	    gamerSetGuideProgressC2S?: (IGamerSetGuideProgressC2S|null);
+	    getActivityRewardC2S?: (IGetActivityRewardC2S|null);
 	}
 	
 	 class C2S implements IC2S {
@@ -266,6 +260,8 @@ declare module proto {
 	
 	    public gamerExtractGashaponC2S?: (IGamerExtractGashaponC2S|null);
 	
+	    public storyExtractGashaponC2S?: (IStoryExtractGashaponC2S|null);
+	
 	    public gamerGetAllowanceC2S?: (IGamerGetAllowanceC2S|null);
 	
 	    public getStoryExtractInfoC2S?: (IGetStoryExtractInfoC2S|null);
@@ -300,15 +296,7 @@ declare module proto {
 	
 	    public studioContinuedReceiveAllC2S?: (IStudioContinuedReceiveAllC2S|null);
 	
-	    public gamerAcceptTaskC2S?: (IGamerAcceptTaskC2S|null);
-	
-	    public gamerGetTaskRewardC2S?: (IGamerGetTaskRewardC2S|null);
-	
-	    public gamerGetDailyTaskActivityDegreeRewardC2S?: (IGamerGetDailyTaskActivityDegreeRewardC2S|null);
-	
-	    public gamerGetGuideProgressC2S?: (IGamerGetGuideProgressC2S|null);
-	
-	    public gamerSetGuideProgressC2S?: (IGamerSetGuideProgressC2S|null);
+	    public getActivityRewardC2S?: (IGetActivityRewardC2S|null);
 	
 	}
 	
@@ -2583,14 +2571,52 @@ declare module proto {
 	
 	    gashaponId?: (number|null);
 	
-	    storyExtractState?: (number|null);
-	
 	    items?: (IGameItem[]|null);
 	}
 	
 	 class GamerExtractGashaponS2C implements IGamerExtractGashaponS2C {
 	
 	    constructor(properties?: IGamerExtractGashaponS2C);
+	
+	    public error: number;
+	
+	    public gashaponId: number;
+	
+	    public items: IGameItem[];
+	
+	}
+	
+	 interface IStoryExtractGashaponC2S {
+	
+	    id?: (number|null);
+	
+	    gashaponId?: (number|null);
+	}
+	
+	 class StoryExtractGashaponC2S implements IStoryExtractGashaponC2S {
+	
+	    constructor(properties?: IStoryExtractGashaponC2S);
+	
+	    public id: number;
+	
+	    public gashaponId: number;
+	
+	}
+	
+	 interface IStoryExtractGashaponS2C {
+	
+	    error?: (number|null);
+	
+	    gashaponId?: (number|null);
+	
+	    storyExtractState?: (number|null);
+	
+	    items?: (IGameItem[]|null);
+	}
+	
+	 class StoryExtractGashaponS2C implements IStoryExtractGashaponS2C {
+	
+	    constructor(properties?: IStoryExtractGashaponS2C);
 	
 	    public error: number;
 	
@@ -3251,207 +3277,54 @@ declare module proto {
 	
 	}
 	
-	 interface IGamerNotifyDailyTaskS2C {
+	 interface IGamerNotifyActivitiesS2C {
 	
 	    error?: (number|null);
 	
-	    activityDegree?: (number|null);
-	
-	    dailyGifts?: (IDailyTaskGift[]|null);
+	    countActivity?: (ICountActivity|null);
 	}
 	
-	 class GamerNotifyDailyTaskS2C implements IGamerNotifyDailyTaskS2C {
+	 class GamerNotifyActivitiesS2C implements IGamerNotifyActivitiesS2C {
 	
-	    constructor(properties?: IGamerNotifyDailyTaskS2C);
+	    constructor(properties?: IGamerNotifyActivitiesS2C);
 	
 	    public error: number;
 	
-	    public activityDegree: number;
-	
-	    public dailyGifts: IDailyTaskGift[];
+	    public countActivity?: (ICountActivity|null);
 	
 	}
 	
-	 interface IGamerNotifyTaskS2C {
-	
-	    error?: (number|null);
-	
-	    tasks?: (ITask[]|null);
-	}
-	
-	 class GamerNotifyTaskS2C implements IGamerNotifyTaskS2C {
-	
-	    constructor(properties?: IGamerNotifyTaskS2C);
-	
-	    public error: number;
-	
-	    public tasks: ITask[];
-	
-	}
-	
-	 interface IGamerAcceptTaskC2S {
+	 interface IGetActivityRewardC2S {
 	
 	    id?: (number|null);
 	
-	    type?: (TaskType|null);
-	
-	    taskId?: (number|null);
+	    activityId?: (number|null);
 	}
 	
-	 class GamerAcceptTaskC2S implements IGamerAcceptTaskC2S {
+	 class GetActivityRewardC2S implements IGetActivityRewardC2S {
 	
-	    constructor(properties?: IGamerAcceptTaskC2S);
+	    constructor(properties?: IGetActivityRewardC2S);
 	
 	    public id: number;
 	
-	    public type: TaskType;
-	
-	    public taskId: number;
+	    public activityId: number;
 	
 	}
 	
-	 interface IGamerAcceptTaskS2C {
-	
-	    error?: (number|null);
-	}
-	
-	 class GamerAcceptTaskS2C implements IGamerAcceptTaskS2C {
-	
-	    constructor(properties?: IGamerAcceptTaskS2C);
-	
-	    public error: number;
-	
-	}
-	
-	 interface IGamerGetTaskRewardC2S {
-	
-	    id?: (number|null);
-	
-	    type?: (TaskType|null);
-	
-	    taskId?: (number|null);
-	}
-	
-	 class GamerGetTaskRewardC2S implements IGamerGetTaskRewardC2S {
-	
-	    constructor(properties?: IGamerGetTaskRewardC2S);
-	
-	    public id: number;
-	
-	    public type: TaskType;
-	
-	    public taskId: number;
-	
-	}
-	
-	 interface IGamerGetTaskRewardS2C {
+	 interface IGetActivityRewardS2C {
 	
 	    error?: (number|null);
 	
-	    items?: (IGameItem[]|null);
+	    activityId?: (number|null);
 	}
 	
-	 class GamerGetTaskRewardS2C implements IGamerGetTaskRewardS2C {
+	 class GetActivityRewardS2C implements IGetActivityRewardS2C {
 	
-	    constructor(properties?: IGamerGetTaskRewardS2C);
+	    constructor(properties?: IGetActivityRewardS2C);
 	
 	    public error: number;
 	
-	    public items: IGameItem[];
-	
-	}
-	
-	 interface IGamerGetDailyTaskActivityDegreeRewardC2S {
-	
-	    id?: (number|null);
-	
-	    giftId?: (number|null);
-	}
-	
-	 class GamerGetDailyTaskActivityDegreeRewardC2S implements IGamerGetDailyTaskActivityDegreeRewardC2S {
-	
-	    constructor(properties?: IGamerGetDailyTaskActivityDegreeRewardC2S);
-	
-	    public id: number;
-	
-	    public giftId: number;
-	
-	}
-	
-	 interface IGamerGetDailyTaskActivityDegreeRewardS2C {
-	
-	    error?: (number|null);
-	
-	    items?: (IGameItem[]|null);
-	}
-	
-	 class GamerGetDailyTaskActivityDegreeRewardS2C implements IGamerGetDailyTaskActivityDegreeRewardS2C {
-	
-	    constructor(properties?: IGamerGetDailyTaskActivityDegreeRewardS2C);
-	
-	    public error: number;
-	
-	    public items: IGameItem[];
-	
-	}
-	
-	 interface IGamerGetGuideProgressC2S {
-	
-	    id?: (number|null);
-	}
-	
-	 class GamerGetGuideProgressC2S implements IGamerGetGuideProgressC2S {
-	
-	    constructor(properties?: IGamerGetGuideProgressC2S);
-	
-	    public id: number;
-	
-	}
-	
-	 interface IGamerGetGuideProgressS2C {
-	
-	    error?: (number|null);
-	
-	    progress?: (number|null);
-	}
-	
-	 class GamerGetGuideProgressS2C implements IGamerGetGuideProgressS2C {
-	
-	    constructor(properties?: IGamerGetGuideProgressS2C);
-	
-	    public error: number;
-	
-	    public progress: number;
-	
-	}
-	
-	 interface IGamerSetGuideProgressC2S {
-	
-	    id?: (number|null);
-	
-	    progress?: (number|null);
-	}
-	
-	 class GamerSetGuideProgressC2S implements IGamerSetGuideProgressC2S {
-	
-	    constructor(properties?: IGamerSetGuideProgressC2S);
-	
-	    public id: number;
-	
-	    public progress: number;
-	
-	}
-	
-	 interface IGamerSetGuideProgressS2C {
-	
-	    error?: (number|null);
-	}
-	
-	 class GamerSetGuideProgressS2C implements IGamerSetGuideProgressS2C {
-	
-	    constructor(properties?: IGamerSetGuideProgressS2C);
-	
-	    public error: number;
+	    public activityId: number;
 	
 	}
 	
@@ -3706,8 +3579,6 @@ declare module proto {
 	    leagueId?: (number|null);
 	
 	    isNewbie?: (boolean|null);
-	
-	    guideProgress?: (number|null);
 	}
 	
 	 class GamerMain implements IGamerMain {
@@ -3749,8 +3620,6 @@ declare module proto {
 	    public leagueId: number;
 	
 	    public isNewbie: boolean;
-	
-	    public guideProgress: number;
 	
 	}
 	
@@ -5147,65 +5016,24 @@ declare module proto {
 	
 	}
 	
-	 interface ITask {
+	 interface ICountActivity {
 	
 	    id?: (number|null);
 	
-	    type?: (TaskType|null);
+	    currentDay?: (number|null);
 	
-	    state?: (TaskState|null);
-	
-	    triggerCondition?: (Event|null);
-	
-	    triggerConditionValue?: (number|null);
-	
-	    finishCondition?: (Event|null);
-	
-	    finishConditionValue1?: (number|null);
-	
-	    finishConditionValue2?: (number|null);
-	
-	    curFinishValue?: (number|null);
+	    alreadyGetDay?: (number|null);
 	}
 	
-	 class Task implements ITask {
+	 class CountActivity implements ICountActivity {
 	
-	    constructor(properties?: ITask);
+	    constructor(properties?: ICountActivity);
 	
 	    public id: number;
 	
-	    public type: TaskType;
+	    public currentDay: number;
 	
-	    public state: TaskState;
-	
-	    public triggerCondition: Event;
-	
-	    public triggerConditionValue: number;
-	
-	    public finishCondition: Event;
-	
-	    public finishConditionValue1: number;
-	
-	    public finishConditionValue2: number;
-	
-	    public curFinishValue: number;
-	
-	}
-	
-	 interface IDailyTaskGift {
-	
-	    id?: (number|null);
-	
-	    state?: (DailyTaskGiftState|null);
-	}
-	
-	 class DailyTaskGift implements IDailyTaskGift {
-	
-	    constructor(properties?: IDailyTaskGift);
-	
-	    public id: number;
-	
-	    public state: DailyTaskGiftState;
+	    public alreadyGetDay: number;
 	
 	}
 	
@@ -5293,6 +5121,7 @@ declare module proto {
 	    completeType = 19,
 	    information = 20,
 	    story = 21,
+	    actorType = 22,
 	    envelope = 30
 	}
 	
@@ -5406,27 +5235,16 @@ declare module proto {
 	    TaskFinish = 4
 	}
 	
-	 enum TaskType {
-	    TaskType_Invalid = 0,
-	    MainTask = 100,
-	    DailyTask = 1,
-	    Achievement = 2,
-	    PlotAchievement = 3
-	}
-	
-	 enum DailyTaskGiftState {
-	    Unreceived = 0,
-	    Received = 2
-	}
-	
 	 enum ActorConst {
 	    ActorInvalid = 0,
 	    FiendshipMaxLevel = 4
 	}
 	
-	 enum GashaponState {
-	    CanDraw = 0,
-	    CoolDown = 1
+	 enum GashaponType {
+	    GashaponTypeInvalid = 0,
+	    IntelligenceGashapon = 1,
+	    ItemGashapon = 2,
+	    StoryGashapon = 3
 	}
 	
 	 enum StoryExtractRes {
@@ -5434,31 +5252,6 @@ declare module proto {
 	    NoRepetition = 1,
 	    IsRepetition = 2,
 	    Fail = 3
-	}
-	
-	 enum Event {
-	    E_Invalid = 0,
-	    E_Build = 1,
-	    E_BuildLevelUp = 2,
-	    E_ActorLevelUp = 3,
-	    E_ParseInformationNormal = 4,
-	    E_ParseInformationSpecial = 5,
-	    E_OpenEnvelope = 6,
-	    E_GetBuildRewardNum = 7,
-	    E_Studio = 8,
-	    E_WatchStudioRewardNum = 9,
-	    E_GetStudioRewardNum = 10,
-	    E_StudioAndGetResult = 11,
-	    E_BuildBreak = 12,
-	    E_BulidActorIn = 13,
-	    E_OpenRank = 14,
-	    E_Story = 15,
-	    E_ActorGift = 16,
-	    E_Ad = 17,
-	    E_Share = 18,
-	    E_GamerLevelUp = 100,
-	    E_BuildUnLock = 101,
-	    E_TaskComplete = 102
 	}
 	
 	 interface ILeagueData {
@@ -5663,6 +5456,8 @@ declare module proto {
 	
 	    gamerExtractGashaponS2C?: (IGamerExtractGashaponS2C|null);
 	
+	    storyExtractGashaponS2C?: (IStoryExtractGashaponS2C|null);
+	
 	    gamerGetAllowanceS2C?: (IGamerGetAllowanceS2C|null);
 	
 	    getStoryExtractInfoS2C?: (IGetStoryExtractInfoS2C|null);
@@ -5703,19 +5498,9 @@ declare module proto {
 	
 	    studioContinuedReceiveAllS2C?: (IStudioContinuedReceiveAllS2C|null);
 	
-	    gamerNotifyDailyTaskS2C?: (IGamerNotifyDailyTaskS2C|null);
+	    gamerNotifyActivitiesS2C?: (IGamerNotifyActivitiesS2C|null);
 	
-	    gamerNotifyTaskS2C?: (IGamerNotifyTaskS2C|null);
-	
-	    gamerAcceptTaskS2C?: (IGamerAcceptTaskS2C|null);
-	
-	    gamerGetTaskRewardS2C?: (IGamerGetTaskRewardS2C|null);
-	
-	    gamerGetDailyTaskActivityDegreeRewardS2C?: (IGamerGetDailyTaskActivityDegreeRewardS2C|null);
-	
-	    gamerGetGuideProgressS2C?: (IGamerGetGuideProgressS2C|null);
-	
-	    gamerSetGuideProgressS2C?: (IGamerSetGuideProgressS2C|null);
+	    getActivityRewardS2C?: (IGetActivityRewardS2C|null);
 	}
 	
 	 class S2C implements IS2C {
@@ -5872,6 +5657,8 @@ declare module proto {
 	
 	    public gamerExtractGashaponS2C?: (IGamerExtractGashaponS2C|null);
 	
+	    public storyExtractGashaponS2C?: (IStoryExtractGashaponS2C|null);
+	
 	    public gamerGetAllowanceS2C?: (IGamerGetAllowanceS2C|null);
 	
 	    public getStoryExtractInfoS2C?: (IGetStoryExtractInfoS2C|null);
@@ -5912,19 +5699,9 @@ declare module proto {
 	
 	    public studioContinuedReceiveAllS2C?: (IStudioContinuedReceiveAllS2C|null);
 	
-	    public gamerNotifyDailyTaskS2C?: (IGamerNotifyDailyTaskS2C|null);
+	    public gamerNotifyActivitiesS2C?: (IGamerNotifyActivitiesS2C|null);
 	
-	    public gamerNotifyTaskS2C?: (IGamerNotifyTaskS2C|null);
-	
-	    public gamerAcceptTaskS2C?: (IGamerAcceptTaskS2C|null);
-	
-	    public gamerGetTaskRewardS2C?: (IGamerGetTaskRewardS2C|null);
-	
-	    public gamerGetDailyTaskActivityDegreeRewardS2C?: (IGamerGetDailyTaskActivityDegreeRewardS2C|null);
-	
-	    public gamerGetGuideProgressS2C?: (IGamerGetGuideProgressS2C|null);
-	
-	    public gamerSetGuideProgressS2C?: (IGamerSetGuideProgressS2C|null);
+	    public getActivityRewardS2C?: (IGetActivityRewardS2C|null);
 	
 	}
 }

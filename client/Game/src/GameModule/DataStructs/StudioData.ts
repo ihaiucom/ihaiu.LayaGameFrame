@@ -2,6 +2,7 @@ import StudioStoryData from "./StudioStoryData";
 import StudioEventData from "./StudioEventData";
 import StudioActorData from "./StudioActorData";
 import StudioResultData from "./StudioResultData";
+import { EItemId } from "../DataEnums/ItemType";
 import StudioActorCellData from "./StudioActorCellData";
 import Dictionary from "../../Libs/Helpers/Dictionary";
 import PropLevelDataList from '../../GameFrame/Props/PropLevelDataList';
@@ -152,6 +153,14 @@ export default class StudioData
 
 
 
+
+
+    /** 获取 行动力 物品ID */
+    get costItemId():int
+    {
+        return EItemId.abilityPower;
+    }
+
     /** 获取 消耗行动力 */
     get costTotal():int
     {
@@ -162,6 +171,13 @@ export default class StudioData
         }
 
         return total;
+    }
+
+
+    /** 获取 艺人换阵花费 物品ID */
+    get actorChangeCostItemId():int
+    {
+        return EItemId.studioActorChangeCell;
     }
 
     /** 获取 艺人换阵花费 */
@@ -344,7 +360,7 @@ export default class StudioData
             let result = 0;
             for(let item of this.actors)
             {
-                result += item.scoreSkillTotal;
+                result += item.scoreTotal;
             }
 
             this._scoreTotal = result;

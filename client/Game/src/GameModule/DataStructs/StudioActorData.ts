@@ -1,7 +1,7 @@
 import Prop from "../../GameFrame/Props/Prop";
 import LabelConfig from "../../Config/ConfigExtends/LabelConfig";
 import ActorConfig from "../../Config/ConfigExtends/ActorConfig";
-import Game from '../../Game';
+import Game from "../../Game";
 import ActorData from "./ActorData";
 import GlobalConfig from '../../Config/ConfigExtends/GlobalConfig';
 import GlobalKey from '../../Config/Keys/GlobalKey';
@@ -11,7 +11,6 @@ import IStudioActor = proto.IStudioActor;
 import StudioData from "./StudioData";
 import StudioActorState = proto.StudioActorState;
 import PropHelper from "../../GameFrame/Props/PropHelper";
-import ActorSkillConfig from '../../Config/ConfigExtends/ActorSkillConfig';
 
 /** 拍摄--艺人 */
 export default class StudioActorData
@@ -169,7 +168,7 @@ export default class StudioActorData
 
     /** 获取总分数 */
     private _scoreTotal = -1;
-    get scoreSkillTotal(): number
+    get scoreTotal(): number
     {
         if(this._scoreTotal <= 0)
         {
@@ -219,17 +218,8 @@ export class StudioActorSkillData
     /** 技能得分 */
     score:int;   
     
-    get skillName(): string
+    get name(): string
     {
-        if(this.config)
-            return this.config.name;
-        return "";
-    }
-
-    get config(): ActorSkillConfig
-    {
-        let conf = Game.config.actorSkill.getConfig(this.skillId);
-        if(conf)
-            return conf;
+        return "技能" + this.skillId;
     }
 }

@@ -49,13 +49,13 @@ export default class ProduceItem extends ProduceItemStruct
         this.iconItem  = produce.itemId;  
         
         let nownum = building.currentProduceNum(produce.itemId);
-        let maxnum = building.propReserve.val;
+        let maxnum = building.propReserveMax;
 
         Laya.timer.clearAll(this);
         if (nownum == maxnum) {
             this.fillCD = 1;
         } else {
-            this._cdTime   = building.propProduceCd.val * 1000;
+            this._cdTime   = building.propProduceCd * 1000;
             this._totalTime= building.getProduceCDByIndex(this._index) * 1000;
             this.fillCD = this._totalTime / this._cdTime;
                 
@@ -75,10 +75,10 @@ export default class ProduceItem extends ProduceItemStruct
         this.fillCD = this._totalTime / this._cdTime;
         if (this._ratio >= 1) {
             this._totalTime = 0;
-            this._cdTime = this.dataSource.propProduceCd.val * 1000
+            this._cdTime = this.dataSource.propProduceCd * 1000
 
             let nownum = this.dataSource.currentProduceNum(this._itemId);
-            let maxnum = this.dataSource.propReserve.val;
+            let maxnum = this.dataSource.propReserveMax;
             this.textItem= `${nownum}/${maxnum}`;
             if (nownum == maxnum) {
                 Laya.timer.clearAll(this);

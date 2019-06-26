@@ -210,8 +210,8 @@ export default class ParticleTemplateWebGL extends ParticleTemplateBase
 		{
 			this.offsetX = this.x - this.lastX;
 			this.offsetY = this.y - this.lastY;
-			// if(this.offsetX < 0.1 && this.offsetY < 0.1)
-			// 	return;
+			if(this.offsetX < 0.1 && this.offsetY < 0.1)
+				return;
 
 			var bufi=0;
 			var bufStart=0;

@@ -140,17 +140,11 @@ export default class GlobalKey
 	/** 2033   --- 低分天数权重系数 */
 	static studio_continue_reward_rand_low_score = "studio_continue_reward_rand_low_score";
 
-	/** 2034   --- 技能释放的个数，一场战斗中最多释放技能的人数 */
-	static studio_skill_time = "studio_skill_time";
-
 	/** 2050   --- 剧本搜罗每阶段搜罗冷却加速消耗资源类型和数量 */
 	static story_stack_cd_stage_cost = "story_stack_cd_stage_cost";
 
 	/** 2101   --- 拍摄后续收益提示文本 */
 	static studio_income_prompt = "studio_income_prompt";
-
-	/** 2200   --- 拍摄前N次固定评分和口碑的随机范围，(第一部)上限&下限;(第二部)上限&下限 */
-	static studio_constant_forward_time_random = "studio_constant_forward_time_random";
 
 	/** 3001   --- 改名提示最小长度 */
 	static rename_prompt_min = "rename_prompt_min";
@@ -167,9 +161,6 @@ export default class GlobalKey
 	/** 3005   --- 情报解析-选择情报最大数量 */
 	static information_select_max = "information_select_max";
 
-	/** 3006   --- 情报解析前N次出现艺人-艺人ID */
-	static information_forward_time_reward = "information_forward_time_reward";
-
 	/** 4001   --- 初始可进行商演次数上限 */
 	static initial_performance_limit = "initial_performance_limit";
 
@@ -185,10 +176,7 @@ export default class GlobalKey
 	/** 5002   --- 单挑情报匹配后提供的权重 */
 	static information_match_con = "information_match_con";
 
-	/** 5003   --- 抽取到重复艺人时获取该艺人应援卡数量 */
-	static duplication_actor_card_amount = "duplication_actor_card_amount";
-
-	/** 6001   --- 每日抽取剧本次数 */
+	/** 6001   --- 抽取剧本每日恢复次数上限 */
 	static story_create_times_max = "story_create_times_max";
 
 	/** 6002   --- 抽取剧本冷却CD */
@@ -205,8 +193,5 @@ export default class GlobalKey
 
 	/** 6006   --- 抽取剧本保底奖励 */
 	static story_create_reward = "story_create_reward";
-
-	/** 6007   --- 前N次综艺抽取获得的综艺奖励 */
-	static story_create_forward_time_reward = "story_create_forward_time_reward";
 
 }

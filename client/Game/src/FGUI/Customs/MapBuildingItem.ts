@@ -63,7 +63,7 @@ export default class MapBuildingItem
                 this.mapBuilding.buildAndLevelAndItemBubble.visible = false;
                 if (this._isLoop == false) {
                     this._isLoop = true;
-                    let _cdTime = this.buildingData.propProduceCd.val * 1000;
+                    let _cdTime = this.buildingData.propProduceCd * 1000;
                     let _deTime = (Game.time.serverSeconds - produce.startTime) * 1000;
                     Laya.timer.once((_cdTime - _deTime), this, ()=>{
                         this._isLoop = false;

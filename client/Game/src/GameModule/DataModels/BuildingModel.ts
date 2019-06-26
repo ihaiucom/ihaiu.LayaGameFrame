@@ -64,19 +64,6 @@ export default class BuildingModel extends MModel
         return this.buildings;
     }
 
-    /** 已创建建筑列表 */
-    get buildedBuildingList(): BuildingData[]
-    {
-        let list = [];
-        for (let i = 0; i < this.buildings.length; i++) {
-            if (this.buildings[i].builded) {
-                list.push(this.buildings[i]);
-            }
-        }
-
-        return list;
-    }
-
     /** 获取建筑 */
     getBuilding(buldingId:int):BuildingData
     {

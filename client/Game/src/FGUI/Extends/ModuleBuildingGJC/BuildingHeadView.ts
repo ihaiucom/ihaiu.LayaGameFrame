@@ -12,9 +12,12 @@ export default class BuildingHeadView extends BuildingHeadViewStruct
     private dataSource: BuildingData;
     updateView(building: BuildingData, index: number): void {
         this.dataSource = building;
-
-        let type: number = building.nowBuildType;
-        let key = index == 0 ? index : index + type;
-        this.m_titile.text = TEXT.BuildTitleType[key];
+        if (index) {
+            let type: number = building.nowBuildType;
+            this.m_titile.text = building.name + TEXT.BuildTitleType[type];
+        } else {
+            this.m_titile.text = building.name + TEXT.BuildContent;
+        }
+        this.m_labLv.text = building.builded ? format(TEXT.BuildLevel, building.level) : "";
     }
 }

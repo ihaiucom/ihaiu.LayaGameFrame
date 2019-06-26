@@ -7,9 +7,4 @@ import StudioMovieClipSkillActorStruct from "../../Generates/ModuleStudioMovieCl
 
 export default class StudioMovieClipSkillActor extends StudioMovieClipSkillActorStruct
 {
-    setActorIcon(icon: string)
-    {
-        this.m_icon.icon = icon;
-        this.m_shadow.icon = icon;
-    }
 }

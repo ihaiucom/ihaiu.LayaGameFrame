@@ -8,7 +8,7 @@ import Game from "../../../Game";
 import ItemData from "../../../GameModule/DataStructs/ItemData";
 import MsgKey from "../../../Config/Keys/MsgKey";
 import TEXT from "../../../Config/Keys/TEXT";
-import { ItemType } from "../../../GameModule/DataEnums/ItemType";
+import { EItemId } from "../../../GameModule/DataEnums/ItemType";
 
 export default class StoryLotteryFaildView extends StoryLotteryFaildViewStruct
 {
@@ -19,7 +19,7 @@ export default class StoryLotteryFaildView extends StoryLotteryFaildViewStruct
     updateView( data ): void{
         let items = data.items
         for ( let d of data.items ){
-            if ( d.type == ItemType.gold ){
+            if ( d.type == EItemId.gold ){
                 let item: ItemData = Game.moduleModel.item.getItem( d.id )
                 this.m_costNum.text = "X" + d["count"];
                 this.m_costName.text = item.itemName;

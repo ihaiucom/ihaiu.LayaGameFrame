@@ -150,7 +150,7 @@ export default class ActorData
         return this.avatarConfig ? this.avatarConfig.iconUrl : StringUtils.empty;
     }
 
-    //全身像
+    //半身像
     public get bodyIcon(): string {
         return this.avatarConfig ? this.avatarConfig.bodyIconUrl : StringUtils.empty;
     }

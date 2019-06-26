@@ -4,7 +4,6 @@ import MapRegion from "./MapRegion";
 import BuildingRegionData from "../../GameModule/DataStructs/BuildingRegionData";
 import BuildingLevelConfig from "../../Config/ConfigExtends/BuildingLevelConfig";
 import Game from "../../Game";
-import DoubleKeyMap from "../../Libs/Helpers/DoubleKeyMap";
 
 export default class MapRegionManager {
     // 地图
@@ -102,31 +101,17 @@ export default class MapRegionManager {
         }
     }
 
-    private _nextLevelConfig:BuildingLevelConfig;
-    regionShow(nextLevelConfig:BuildingLevelConfig)
+    regionShow(nextLevelConfig:BuildingLevelConfig, time: number)
     {
-        if (nextLevelConfig && nextLevelConfig != this._nextLevelConfig) {
-            this._nextLevelConfig = nextLevelConfig;
-            
-            let rect: Laya.Rectangle = null;
+        if (nextLevelConfig) {
             for (let i = 0; i < nextLevelConfig.levelRegionId.length; i++) {
                 let regionId = nextLevelConfig.levelRegionId[i];
                 let regionData = BuildingRegionData.Create(Game.config.buildingRegion.getConfig(regionId))
                 regionData.level = nextLevelConfig.regionLevel;
 
                 let region = this.regionDict.getValue(regionId);
-                let regionrect = new Laya.Rectangle(region.x - region.width /2, region.y - region.height /2, region.width, region.height);
-                if (rect) {
-                    rect.union(regionrect, rect);
-                } else {
-                    rect = regionrect.clone();
-                }
-            }
-
-            if (rect) {
-                this.homeMapUI.mapEffectManager.addEffect(nextLevelConfig.type, nextLevelConfig.regionLevel, rect);    
+                region.show(time);
             }
         }
-
     }
 }

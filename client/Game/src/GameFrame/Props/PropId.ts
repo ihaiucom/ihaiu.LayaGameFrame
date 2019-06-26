@@ -41,15 +41,6 @@ export default class PropId
 
     /** 额外产出 */
     public static additionalOutput = 15;
-
-    /** 剧本概率增加后台 */
-    public static storyProbabilitySe = 16;
-
-    /** 剧本抽取次数增加 */
-    public static storyNum = 17;
-
-    /** 剧本概率增加客户端 */
-    public static storyProbabilityCl = 18;
     
     /** 魅力 */
     public static charm = 1601;

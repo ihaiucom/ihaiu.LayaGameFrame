@@ -15,36 +15,45 @@ import TimeHelper from "../../../GameHelpers/TimeHelper";
 import Game from "../../../Game";
 import MsgKey from "../../../Config/Keys/MsgKey";
 import GameEventKey from "../../../GameEventKey";
-import PropId from "../../../GameFrame/Props/PropId";
-import { BuildingType } from "../../../GameModule/DataEnums/BuildingType";
 
 export default class BuildingLevelPage extends BuildingLevelPageStruct
 {
     //建筑数据
     private buildingData: BuildingData;
 
+    //效果列表
+    private propDataList: Array<any> = [];
+
     //消耗材料列表
     private costDataList: Array<any> = [];
 
     //预览状态
-    private _costEnough: boolean = true;
+    private _preView: boolean = false;
 
     //窗口初始化完毕
-    onWindowInited(): void {       
+    onWindowInited(): void {
+        this.m_listData.itemRenderer = Laya.Handler.create(this, this.renderListItemData, null, false);        
         this.m_listCost.itemRenderer = Laya.Handler.create(this, this.renderListItemCost, null, false);
-        this.m_listCost.on(fairygui.Events.CLICK_ITEM, this, this.getMaterials);
 
+        this.m_btnCondition.onClick(this, this.conditionFunc);
         this.m_btnBuild.onClick(this, this.buildFunc);
+        this.m_btnPreView.onClick(this, this.preViewFunc);
+    }
+
+    //获取材料
+    conditionFunc(): void {
+        console.log("==========获取材料")
+    }
+
+    //预览
+    preViewFunc(): void {
+        this._preView = !this._preView;
+        Game.event.dispatch(GameEventKey.Build_PreView, this.buildingData.id, this._preView);
     }
 
     buildFunc(): void {
-        // 材料不足
-        if (this._costEnough = false) {
-            this.getMaterials();
-            return;
-        }
-
         let building: BuildingData = this.buildingData;
+
         if (this.m_build.selectedIndex != BuildingBuildType.Break) {
             if (building.userLevelRequest) {
                 Game.system.toastMsg(MsgKey.build_non_level, building.userLevelRequest);
@@ -63,23 +72,22 @@ export default class BuildingLevelPage extends BuildingLevelPageStruct
     }
 
 
-    //获取材料
-    getMaterials(item?: ItemCostItem): void {
-        if (!item.m_enough.selectedIndex) {
-            console.log("==========获取材料")   
-        }
+    //等级数据列表
+    renderListItemData(index: number, item: BuildingDataItem): void {
+        item.RenderItem(this.propDataList[index], this.buildingData.nowBuildType);
     }
 
     //消耗材料列表
     renderListItemCost(index: number, item: ItemCostItem): void {
         if (!item.RenderItem(this.costDataList[index])) {
-            this._costEnough = false;
+            this.m_condition.selectedIndex = BuildingConditionType.NO;
         }
     }
 
     buildingCostShow(): void {
         let building: BuildingData = this.buildingData;
 
+        this.m_condition.selectedIndex = BuildingConditionType.OK;
         let config: BuildingLevelConfig = building.nowConfig;  
         let type = building.nowBuildType;
         if (type == BuildingBuildType.Break) {
@@ -89,50 +97,35 @@ export default class BuildingLevelPage extends BuildingLevelPageStruct
             this.m_labTime.text = TimeHelper.TimeFormatFixedHHMMSS(config.prop_buildingCd);
         }
 
-        this._costEnough = true;
         this.m_listCost.numItems = this.costDataList.length;
+        this.m_labCost.text = TEXT.BuildTitleType[type] + TEXT.BuildTitleCost;
     }
 
     //等级效果
     buildingPropShow(): void {
         let building: BuildingData = this.buildingData;
 
+        this.propDataList = [];
         switch (building.nowBuildType) {
             case BuildingBuildType.Make:
                 this.m_labIntroduce.text = building.config.tip1;
+                this.m_labLevel.text = TEXT.BuildEffect;
                 break;
             case BuildingBuildType.Level:
-                this.m_labNowLevel.text = format(TEXT.Lv, building.level);
-                if (building.hasNextLevel) {
-                    this.m_labNextLevel.text = format(TEXT.Lv, building.nextLevelConfig.level);
-                }
-
-                if (building.id == BuildingType.CommerceDepartment) {
-                    // this.m_type.selectedIndex = 1;
-                    let prop_storyProbabilityCl = building.propStoryProbabilityCl;
-                    let prop_storyNum = building.propStoryNum;
-
-                    // this.m_dataProbability.RenderItem(prop_storyProbabilityCl.val, prop_storyProbabilityCl.nextVal, 1);
-                    // this.m_dataLimit.RenderItem(prop_storyNum.val, prop_storyNum.nextVal, 0);
-                } else {
-                    // this.m_type.selectedIndex = 0;
-                    let prop_produceNum = building.propProduceNum;
-                    let prop_produceCd = building.propProduceCd;
-                    let prop_reserve = building.propReserve;
-
-                    let nowSpeed = Math.floor((60 * 60) / prop_produceCd.val * prop_produceNum.val);
-                    let nextSpeed = Math.floor((60 * 60) / prop_produceCd.nextVal * prop_produceNum.nextVal);
-                    this.m_dataSpeed.RenderItem(nowSpeed, nextSpeed, 0);
-                    this.m_dataReserves.RenderItem(prop_reserve.val, prop_reserve.nextVal, 0);
-                }
-                
+                this.propDataList = this.matchProps();
+                this.m_labLevel.text = format(TEXT.BuildNextLevel, building.level + 1);
                 break;
             case BuildingBuildType.Break:
-                this.m_labIntroduce.text = building.config.tip2;
+                this.propDataList.push(TEXT.BuildPicChange);
+                this.propDataList.push(TEXT.BuildLevelMax);
+                this.propDataList.push(TEXT.BuildOpenCell);
+                this.m_labLevel.text = TEXT.BuildBreak;
                 break;
             default:
                 break;
         }
+
+        this.m_listData.numItems = this.propDataList.length;
     }
 
     //筛选效果
@@ -159,7 +152,13 @@ export default class BuildingLevelPage extends BuildingLevelPageStruct
     }
 
     hideView(): void {
+        if (this._preView) {
+            this._preView = false;
+            this.m_btnPreView.selected = false;            
+            Game.event.dispatch(GameEventKey.Build_PreView, this.buildingData.id, false);
+        }
         this.buildingData = null;
+        this.propDataList = [];
         this.costDataList = [];
     }
 }

@@ -33,19 +33,17 @@ export default class LoginWindow extends MWindow
         this.addAssetForFguiComponent(LoginWindowUI);
 
         // TODO Test
-        this.addAssetForFguiPackagename(GuiPackageNames.CommonNumber);
-        this.addAssetForFguiPackagename(GuiPackageNames.ModuleStudioMovieClip00Common);
-        this.addAssetForFguiPackagename(GuiPackageNames.ModuleStudioMovieClip01Normal);
-        this.addAssetForFguiPackagename(GuiPackageNames._ResImageUI);
-        this.addAssetForFguiPackagename(GuiPackageNames.CommonBase);
+        // this.addAssetForFguiPackagename(GuiPackageNames.CommonNumber);
+        // this.addAssetForFguiPackagename(GuiPackageNames.ModuleStudioMovieClip00Common);
+        // this.addAssetForFguiPackagename(GuiPackageNames.ModuleStudioMovieClip01Normal);
+        // this.addAssetForFguiPackagename(GuiPackageNames._ResImageUI);
+        // this.addAssetForFguiPackagename(GuiPackageNames.CommonBase);
         
-        this.addAssetForFguiPackagename(GuiPackageNames._ResFont);
-        this.addAssetForFguiPackagename(GuiPackageNames.ModuleStudio);
-        this.addAssetForFguiPackagename(GuiPackageNames._ResImageUIV1);
-        this.addAssetForFguiPackagename(GuiPackageNames._ResImagePic);
-        this.addAssetForFguiPackagename(GuiPackageNames.CommonGame);
-        this.addAssetForFguiPackagename(GuiPackageNames.ModuleDailyTask);
-        
+        // this.addAssetForFguiPackagename(GuiPackageNames._ResFont);
+        // this.addAssetForFguiPackagename(GuiPackageNames.ModuleStudio);
+        // this.addAssetForFguiPackagename(GuiPackageNames._ResImageUIV1);
+        // this.addAssetForFguiPackagename(GuiPackageNames._ResImagePic);
+        // this.addAssetForFguiPackagename(GuiPackageNames.CommonGame);
     }
 
 

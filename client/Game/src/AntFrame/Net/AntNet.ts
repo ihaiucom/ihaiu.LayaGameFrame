@@ -57,6 +57,7 @@ import BuildGetProductS2C = proto.BuildGetProductS2C;
 import ActorEnterBuildS2C = proto.ActorEnterBuildS2C;
 import ActorLeaveBuildS2C = proto.ActorLeaveBuildS2C;
 import GamerExtractGashaponS2C = proto.GamerExtractGashaponS2C;
+import StoryExtractGashaponS2C = proto.StoryExtractGashaponS2C;
 import GamerGetAllowanceS2C = proto.GamerGetAllowanceS2C;
 import GetStoryExtractInfoS2C = proto.GetStoryExtractInfoS2C;
 import CleanStoryExtractCDS2C = proto.CleanStoryExtractCDS2C;
@@ -76,15 +77,7 @@ import StudioStep = proto.StudioStep;
 import StudioContinuedListS2C = proto.StudioContinuedListS2C;
 import StudioContinuedReceiveS2C = proto.StudioContinuedReceiveS2C;
 import StudioContinuedReceiveAllS2C = proto.StudioContinuedReceiveAllS2C;
-import GamerAcceptTaskS2C = proto.GamerAcceptTaskS2C;
-import TaskType = proto.TaskType;
-import GamerGetTaskRewardS2C = proto.GamerGetTaskRewardS2C;
-import GamerGetDailyTaskActivityDegreeRewardS2C = proto.GamerGetDailyTaskActivityDegreeRewardS2C;
-<<<<<<< HEAD
-=======
-import GamerGetGuideProgressS2C = proto.GamerGetGuideProgressS2C;
-import GamerSetGuideProgressS2C = proto.GamerSetGuideProgressS2C;
->>>>>>> 9f65d9effc3027883579984400d2397459530e93
+import GetActivityRewardS2C = proto.GetActivityRewardS2C;
 
 declare var net;
 export default class AntNet
@@ -1377,6 +1370,30 @@ export default class AntNet
 		});
 	}
 
+	public static StoryExtractGashaponC2S(gashaponId: number){
+		net.logic.storyExtractGashaponC2S(gashaponId);
+	}
+
+	public static get storyExtractGashaponS2C(){
+		return net.logic.storyExtractGashaponS2C;
+	}
+
+	public static async AsyncStoryExtractGashaponC2S(gashaponId: number):Promise<StoryExtractGashaponS2C>{
+		return new Promise<StoryExtractGashaponS2C>((resolve)=>{
+			let s2c = {error:200} as StoryExtractGashaponS2C;
+			let timeObj = setTimeout(()=>{
+				resolve(s2c);
+			}, 5000);
+			let fun = function(e:StoryExtractGashaponS2C){
+				clearTimeout(timeObj);
+				AntNet.storyExtractGashaponS2C.off(fun);
+				resolve(e);
+			}
+			AntNet.storyExtractGashaponS2C.on(fun);
+			AntNet.StoryExtractGashaponC2S(gashaponId);
+		});
+	}
+
 	public static GamerGetAllowanceC2S(type: number){
 		net.logic.gamerGetAllowanceC2S(type);
 	}
@@ -1785,129 +1802,30 @@ export default class AntNet
 		});
 	}
 
-	public static GamerAcceptTaskC2S(type: TaskType, taskId: number){
-		net.logic.gamerAcceptTaskC2S(type, taskId);
+	public static GetActivityRewardC2S(activityId: number){
+		net.logic.getActivityRewardC2S(activityId);
 	}
 
-	public static get gamerAcceptTaskS2C(){
-		return net.logic.gamerAcceptTaskS2C;
+	public static get getActivityRewardS2C(){
+		return net.logic.getActivityRewardS2C;
 	}
 
-	public static async AsyncGamerAcceptTaskC2S(type: TaskType, taskId: number):Promise<GamerAcceptTaskS2C>{
-		return new Promise<GamerAcceptTaskS2C>((resolve)=>{
-			let s2c = {error:200} as GamerAcceptTaskS2C;
+	public static async AsyncGetActivityRewardC2S(activityId: number):Promise<GetActivityRewardS2C>{
+		return new Promise<GetActivityRewardS2C>((resolve)=>{
+			let s2c = {error:200} as GetActivityRewardS2C;
 			let timeObj = setTimeout(()=>{
 				resolve(s2c);
 			}, 5000);
-			let fun = function(e:GamerAcceptTaskS2C){
+			let fun = function(e:GetActivityRewardS2C){
 				clearTimeout(timeObj);
-				AntNet.gamerAcceptTaskS2C.off(fun);
+				AntNet.getActivityRewardS2C.off(fun);
 				resolve(e);
 			}
-			AntNet.gamerAcceptTaskS2C.on(fun);
-			AntNet.GamerAcceptTaskC2S(type, taskId);
+			AntNet.getActivityRewardS2C.on(fun);
+			AntNet.GetActivityRewardC2S(activityId);
 		});
 	}
 
-	public static GamerGetTaskRewardC2S(type: TaskType, taskId: number){
-		net.logic.gamerGetTaskRewardC2S(type, taskId);
-	}
-
-	public static get gamerGetTaskRewardS2C(){
-		return net.logic.gamerGetTaskRewardS2C;
-	}
-
-	public static async AsyncGamerGetTaskRewardC2S(type: TaskType, taskId: number):Promise<GamerGetTaskRewardS2C>{
-		return new Promise<GamerGetTaskRewardS2C>((resolve)=>{
-			let s2c = {error:200} as GamerGetTaskRewardS2C;
-			let timeObj = setTimeout(()=>{
-				resolve(s2c);
-			}, 5000);
-			let fun = function(e:GamerGetTaskRewardS2C){
-				clearTimeout(timeObj);
-				AntNet.gamerGetTaskRewardS2C.off(fun);
-				resolve(e);
-			}
-			AntNet.gamerGetTaskRewardS2C.on(fun);
-			AntNet.GamerGetTaskRewardC2S(type, taskId);
-		});
-	}
-
-	public static GamerGetDailyTaskActivityDegreeRewardC2S(giftId: number){
-		net.logic.gamerGetDailyTaskActivityDegreeRewardC2S(giftId);
-	}
-
-	public static get gamerGetDailyTaskActivityDegreeRewardS2C(){
-		return net.logic.gamerGetDailyTaskActivityDegreeRewardS2C;
-	}
-
-	public static async AsyncGamerGetDailyTaskActivityDegreeRewardC2S(giftId: number):Promise<GamerGetDailyTaskActivityDegreeRewardS2C>{
-		return new Promise<GamerGetDailyTaskActivityDegreeRewardS2C>((resolve)=>{
-			let s2c = {error:200} as GamerGetDailyTaskActivityDegreeRewardS2C;
-			let timeObj = setTimeout(()=>{
-				resolve(s2c);
-			}, 5000);
-			let fun = function(e:GamerGetDailyTaskActivityDegreeRewardS2C){
-				clearTimeout(timeObj);
-				AntNet.gamerGetDailyTaskActivityDegreeRewardS2C.off(fun);
-				resolve(e);
-			}
-			AntNet.gamerGetDailyTaskActivityDegreeRewardS2C.on(fun);
-			AntNet.GamerGetDailyTaskActivityDegreeRewardC2S(giftId);
-		});
-	}
-
-<<<<<<< HEAD
-=======
-	public static GamerGetGuideProgressC2S(){
-		net.logic.gamerGetGuideProgressC2S();
-	}
-
-	public static get gamerGetGuideProgressS2C(){
-		return net.logic.gamerGetGuideProgressS2C;
-	}
-
-	public static async AsyncGamerGetGuideProgressC2S():Promise<GamerGetGuideProgressS2C>{
-		return new Promise<GamerGetGuideProgressS2C>((resolve)=>{
-			let s2c = {error:200} as GamerGetGuideProgressS2C;
-			let timeObj = setTimeout(()=>{
-				resolve(s2c);
-			}, 5000);
-			let fun = function(e:GamerGetGuideProgressS2C){
-				clearTimeout(timeObj);
-				AntNet.gamerGetGuideProgressS2C.off(fun);
-				resolve(e);
-			}
-			AntNet.gamerGetGuideProgressS2C.on(fun);
-			AntNet.GamerGetGuideProgressC2S();
-		});
-	}
-
-	public static GamerSetGuideProgressC2S(progress: number){
-		net.logic.gamerSetGuideProgressC2S(progress);
-	}
-
-	public static get gamerSetGuideProgressS2C(){
-		return net.logic.gamerSetGuideProgressS2C;
-	}
-
-	public static async AsyncGamerSetGuideProgressC2S(progress: number):Promise<GamerSetGuideProgressS2C>{
-		return new Promise<GamerSetGuideProgressS2C>((resolve)=>{
-			let s2c = {error:200} as GamerSetGuideProgressS2C;
-			let timeObj = setTimeout(()=>{
-				resolve(s2c);
-			}, 5000);
-			let fun = function(e:GamerSetGuideProgressS2C){
-				clearTimeout(timeObj);
-				AntNet.gamerSetGuideProgressS2C.off(fun);
-				resolve(e);
-			}
-			AntNet.gamerSetGuideProgressS2C.on(fun);
-			AntNet.GamerSetGuideProgressC2S(progress);
-		});
-	}
-
->>>>>>> 9f65d9effc3027883579984400d2397459530e93
 	public static get gamerNotifyLoginOtherS2C(){
 		return net.logic.gamerNotifyLoginOtherS2C;
 	}
@@ -2000,12 +1918,8 @@ export default class AntNet
 		return net.logic.gamerNotifyStudioFirstRewardS2C;
 	}
 
-	public static get gamerNotifyDailyTaskS2C(){
-		return net.logic.gamerNotifyDailyTaskS2C;
-	}
-
-	public static get gamerNotifyTaskS2C(){
-		return net.logic.gamerNotifyTaskS2C;
+	public static get gamerNotifyActivitiesS2C(){
+		return net.logic.gamerNotifyActivitiesS2C;
 	}
 
 }

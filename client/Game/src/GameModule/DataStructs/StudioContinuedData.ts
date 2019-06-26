@@ -218,7 +218,7 @@ export default class StudioContinuedData {
         if(index > this.profitList.length)
             return 0;
         let tmpList = this.profitList.slice(0, index);
-        let max = Math.max(...tmpList);
+        let max = Math.max.apply(null, tmpList);
         return max;
     }
 

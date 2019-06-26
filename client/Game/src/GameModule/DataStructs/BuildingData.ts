@@ -13,7 +13,6 @@ import BuildingActorCellConfig from "../../Config/ConfigExtends/BuildingActorCel
 import { BuildingBuildType } from "../../FGUI/Extends/ModuleBuildingGJC/BuildingWindowUIGJC";
 import BuildingRegionConfig from "../../Config/ConfigExtends/BuildingRegionConfig";
 import BuildingRegionData from "./BuildingRegionData";
-import PropLevelDataItem from "../../GameFrame/Props/PropLevelDataItem";
 
 //建造状态
 export enum BuildingStateType {
@@ -63,28 +62,15 @@ export default class BuildingData
      */
     currentProduceNum(itemId: number)
     {
-        if(this.propProduceCd.val <= 0 || this.propProduceNum.val <= 0)
+        if(this.propProduceCd <= 0 || this.propProduceNum <= 0)
             return 0;
 
         let serverProduce: any = this.serverProduceDict.getValue(itemId);
         // 生产次数
-        let count = serverProduce.startTime > 0 ? Math.floor((Game.time.serverSeconds - serverProduce.startTime) / this.propProduceCd.val) : 0;
-        let num = serverProduce.notGetNum + count * this.propProduceNum.val;
-        num = Math.min(num, this.propReserve.val);
+        let count = serverProduce.startTime > 0 ? Math.floor((Game.time.serverSeconds - serverProduce.startTime) / this.propProduceCd) : 0;
+        let num = serverProduce.notGetNum + count * this.propProduceNum;
+        num = Math.min(num, this.propReserveMax);
         return num;
-    }
-
-    /**
-     * 获取当前产出最少的产线
-     * @param index 
-     */
-    currentProduceSlow(): any {
-        let list = this.serverProduceDict.getValues();
-        list.sort((a, b)=>{
-            return a.startTime - b.startTime;
-        })
-        
-        return list[0];
     }
 
     /**
@@ -95,8 +81,6 @@ export default class BuildingData
         return this.serverProduceDict.getValues()[index];
     }
 
-    
-
     /**
      * 获取某条产线当前CD
      * @param index 
@@ -104,21 +88,7 @@ export default class BuildingData
     getProduceCDByIndex(index: number): any {
         let produce = this.getProduceByIndex(index);
         if (produce) {
-            let time = (Game.time.serverSeconds - produce.startTime) % this.propProduceCd.val;
-            return time;
-        }
-
-        return 0;
-    }
-
-    /**
-     * 获取某条产线当前CD
-     * @param id 
-     */
-    getProduceCDById(id: number): any {
-        let produce = this.serverProduceDict.getValue(id);
-        if (produce) {
-            let time = (Game.time.serverSeconds - produce.startTime) % this.propProduceCd.val;
+            let time = (Game.time.serverSeconds - produce.startTime) % this.propProduceCd;
             return time;
         }
 
@@ -130,13 +100,6 @@ export default class BuildingData
      */
     get currentProduceList(): Array<any> {
         return this.serverProduceDict.getValues();
-    }
-
-    /**
-     * 当前拥有产线的数量
-     */
-    get currentProduceListNum(): number {
-        return this.serverProduceDict.count;
     }
 
     /**
@@ -206,41 +169,25 @@ export default class BuildingData
     /**
      * 属性--储量
      */
-    get propReserve(): PropLevelDataItem
+    get propReserveMax():int
     {
-        return this.prop.get(PropId.reserve);
+        return this.prop.getVal(PropId.reserve);
     }
 
     /**
      * 属性--生产数量
      */
-    get propProduceNum():PropLevelDataItem
+    get propProduceNum():int
     {
-        return this.prop.get(PropId.produceNum);
+        return this.prop.getVal(PropId.produceNum);
     }
 
     /**
      * 属性--生产CD
      */
-    get propProduceCd():PropLevelDataItem
+    get propProduceCd():int
     {
-        return this.prop.get(PropId.produceCd);
-    }
-
-    /**
-     * 属性--剧本概率增加后台
-     */
-    get propStoryProbabilityCl():PropLevelDataItem
-    {
-        return this.prop.get(PropId.storyProbabilityCl);
-    }
-
-    /**
-     * 属性--剧本抽取次数增加
-     */
-    get propStoryNum():PropLevelDataItem
-    {
-        return this.prop.get(PropId.storyNum);
+        return this.prop.getVal(PropId.produceCd);
     }
 
     /**

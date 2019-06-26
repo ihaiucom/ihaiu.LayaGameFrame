@@ -144,10 +144,18 @@ export default class Particle2D extends Laya.Sprite
        }
    }
 
+   private isSetMmat: boolean  = false;
    customRender(context,x,y)
    {
        if(Render.isWebGL)
        {
+           if(this.isSetMmat)
+           {
+            // && this._particleTemplate.settings.isLocal
+            //    return;
+           }
+
+            this.isSetMmat = true;
             this._matrix4[0]=context._curMat.a;
             this._matrix4[1]=context._curMat.b;
             this._matrix4[4]=context._curMat.c;

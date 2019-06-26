@@ -78,15 +78,15 @@ export default class ItemSender {
         return Promise.resolve(s2c.error == 0);
     }
 
-    // private SetItemModel(items: any[]) {
-    //     for (let index in items) {
-    //         let itemInfo = items[index];
-    //         // let item = Game.moduleModel.item.getItem(itemInfo.id);
-    //         Game.moduleModel.item.setItemNum(itemInfo.id, itemInfo.count, itemInfo.obtainTime);
-    //     }
-    //     Game.event.dispatch(GameEventKey.Item_Change);
+    private SetItemModel(items: any[]) {
+        for (let index in items) {
+            let itemInfo = items[index];
+            // let item = Game.moduleModel.item.getItem(itemInfo.id);
+            Game.moduleModel.item.setItemNum(itemInfo.id, itemInfo.count, itemInfo.obtainTime);
+        }
+        Game.event.dispatch(GameEventKey.Item_Change);
 
-    // }
+    }
 
 
 }

@@ -17,8 +17,8 @@ export default class ItemCostItem extends ItemCostItemStruct
         //图标
         this.m_icon.url    = ItemData.GetIconUrl(data.itemId);
         //所需数量
-        this.m_labNum.text = String(nownum);
-        this.m_enough.selectedIndex = allnum >= nownum ? 1 : 0;
+        this.m_labNum.text = nownum + "/" + allnum;
+        this.m_labNum.color= allnum >= nownum ? "#00ff00" : "#ff0000"; 
 
         return allnum >= nownum;
     }

@@ -28,14 +28,11 @@ import MapComponentManager from "../../Customs/MapComponentManager";
 import BuildingInfo from "../../Customs/BuildingInfo";
 import HomeScene from "../../../Home/HomeScene";
 import { PathFinding } from "../../../Libs/PathFinding/PathFinding";
-import MapEffectManager from "../../Customs/MapEffectManager";
-import SyncHellper from "../../../Libs/Helpers/SyncHelper";
 
 export default class HomeMapUI extends HomeMapUIStruct
 {
     mapRegionManager: MapRegionManager = new MapRegionManager();
     mapComponentManager: MapComponentManager = new MapComponentManager();
-    mapEffectManager: MapEffectManager = new MapEffectManager();
 
     private _scene2D: Scene2D;
     get scene2D(): Scene2D
@@ -189,7 +186,6 @@ export default class HomeMapUI extends HomeMapUIStruct
             let regionConfis = Game.config.buildingRegion.getConfigsByBuildingType(config.id);
             for (let i = 0; i < regionConfis.length; i++) {
                 let mapRegion = MapRegion.poolGet();
-                
                 mapRegion.install(item, BuildingRegionData.Create(regionConfis[i]));
                 this.mapRegionManager.addRegion(regionConfis[i].id, mapRegion);
             }
@@ -316,11 +312,10 @@ export default class HomeMapUI extends HomeMapUIStruct
     // 建筑改变
     onBuildingChange(data: BuildingData)
     {
-        Game.event.dispatch(GameEventKey.Home_SendSceneZoomBuildingExit);
-
         let building: MapBuilding = this.getBuilding(data.id);
         if(building)
         {
+            // this.scene2D.movieToBuilding(building.buildingId);
             building.refresh(data);
             building.successClose(data);
             if (data.builded && !data.buildingOrUpleveing) {
@@ -345,8 +340,6 @@ export default class HomeMapUI extends HomeMapUIStruct
     // 建筑关闭气泡
     onWindowClose(data: BuildingData)
     {
-        Game.event.dispatch(GameEventKey.Home_SendSceneZoomBuildingExit);
-
         let building: MapBuilding = this.getBuilding(data.id);
         if(building)
         {
@@ -362,7 +355,6 @@ export default class HomeMapUI extends HomeMapUIStruct
         if(building)
         {
             building.buildingItem.getProduct(msg.productInfo);
-            building.buildingItem.update(building.buildingData);
         }
     }
 
@@ -394,36 +386,11 @@ export default class HomeMapUI extends HomeMapUIStruct
     {
         for (let i = 0; i < this.buildings.length; i++) {
             let building = this.buildings[i];
-            if (building.buildingData && building.buildingData.openTypeByLvAndOrder) {
+            if (building.buildingData.openTypeByLvAndOrder) {
                 building.stateChange(); 
             }
         }
     }
-
-    // 聚焦建筑
-<<<<<<< HEAD
-    focusBuilding(buildingId: number)
-    {
-        this.scene2D.movieToBuilding(buildingId);
-        let item: MapBuilding = this.getBuilding(buildingId);
-        if(item)
-        {
-            item.onMouseClick();
-=======
-    async focusBuilding(buildingId: number, time: number = 200)
-    {
-        this.scene2D.movieToBuilding(buildingId, 0, 0, time);
-        await SyncHellper.waitTime(time / 1000);
-        let item: MapBuilding = this.getBuilding(buildingId);
-        if(item)
-        {
-            item.isCorrectOperation = true;
-            item.onMouseClick();
-            item.isCorrectOperation = false;
->>>>>>> 763e47688731cedc4ce4567a4a3c07dbe27fce07
-        }
-    }
-
 
     // 添加事件监听
     private addListen()
@@ -434,14 +401,11 @@ export default class HomeMapUI extends HomeMapUIStruct
             this._buildingModel.sBuildingNew.add(this.onBuildingShake, this);
             this._buildingModel.sStateChange.add(this.stateChange, this);
         }
-        Game.event.add(GameEventKey.Build_CloseSuccessDialog, this.onBuildingChange, this);
+        Game.event.add(GameEventKey.Build_PreView, this.onBuildingPreView, this);
+        Game.event.add(GameEventKey.Build_CloseSuccess, this.onBuildingChange, this);
         Game.event.add(GameEventKey.Build_LevelUp, this.onLevelUp, this);
         Game.event.add(GameEventKey.Build_CloseWindow, this.onWindowClose, this);
-        Game.event.add(GameEventKey.Build_FocusBuilding, this.focusBuilding, this);
-<<<<<<< HEAD
-=======
 
->>>>>>> 763e47688731cedc4ce4567a4a3c07dbe27fce07
         Game.net.buildGetProductS2C.on(this.onGetProduct, this);
     }
 
@@ -455,11 +419,11 @@ export default class HomeMapUI extends HomeMapUIStruct
             this._buildingModel.sBuildingNew.remove(this.onBuildingShake, this);
             this._buildingModel.sStateChange.remove(this.stateChange, this);
         }
-        Game.event.remove(GameEventKey.Build_CloseSuccessDialog, this.onBuildingChange, this);
+        Game.event.remove(GameEventKey.Build_PreView, this.onBuildingPreView, this);
+        Game.event.remove(GameEventKey.Build_CloseSuccess, this.onBuildingChange, this);
         Game.event.remove(GameEventKey.Build_LevelUp, this.onLevelUp, this);
         Game.event.remove(GameEventKey.Build_CloseWindow, this.onWindowClose, this);
-        Game.event.remove(GameEventKey.Build_FocusBuilding, this.focusBuilding, this);
-        Game.net.buildGetProductS2C.off(this.onGetProduct, this);
+        Game.net.buildGetProductS2C.on(this.onGetProduct, this);
     }
 
     start(scene: HomeScene)
@@ -467,17 +431,9 @@ export default class HomeMapUI extends HomeMapUIStruct
         this.mapPath = scene.path;
         this.mapRegionManager.install(this);
         this.mapComponentManager.install(this);
-<<<<<<< HEAD
-        this.mapEffectManager.install(this);
-=======
->>>>>>> 763e47688731cedc4ce4567a4a3c07dbe27fce07
-
-        this.m_actorShade1.displayObject.zOrder = this.m_actorShade1.y;
-        this.mapAvatarLayout.addChild(this.m_actorShade1.displayObject); 
-        this.m_actorShade2.displayObject.zOrder = this.m_actorShade2.y;
-        this.mapAvatarLayout.addChild(this.m_actorShade2.displayObject);
-        this.m_actorShade3.displayObject.zOrder = this.m_actorShade3.y;
-        this.mapAvatarLayout.addChild(this.m_actorShade3.displayObject);  
+        this.mapTopLayout.addChild(this.m_actorShade1.displayObject); 
+        this.mapTopLayout.addChild(this.m_actorShade2.displayObject);
+        this.mapTopLayout.addChild(this.m_actorShade3.displayObject);  
 
         this.refresh();
     }
@@ -487,15 +443,19 @@ export default class HomeMapUI extends HomeMapUIStruct
     // 窗口显示
     onWindowShow(): void
     {
+        console.log("onWindowShow");
+        if (this.isShowed) {
+            this.stateChange();
+        }
         this.isShowed = true;
 
         this.addListen();
-        this.stateChange();
     }
 
     // 窗口隐藏
     onWindowHide(): void
     {
+        console.log("onWindowHide");
         this.isShowed = false;
         
         this.removeListen();

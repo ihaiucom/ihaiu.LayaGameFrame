@@ -11,8 +11,6 @@ import BuildingEffItem from "./BuildingEffItem";
 import Game from "../../../Game";
 import PropField from "../../../GameFrame/Props/PropField";
 import TEXT from "../../../Config/Keys/TEXT";
-import PropId from "../../../GameFrame/Props/PropId";
-import { BuildingType } from "../../../GameModule/DataEnums/BuildingType";
 
 export default class BuildingSuccessDialogContent extends BuildingSuccessDialogContentStruct
 {
@@ -57,50 +55,32 @@ export default class BuildingSuccessDialogContent extends BuildingSuccessDialogC
 
     buildSuccess(): void {
         let building: BuildingData = this.buildingData;
-        this.effectDataList = Game.config.building.getConfig(this.buildingData.id).tip3
+
+        this.effectDataList = Game.config.building.getConfig(this.buildingData.id).tip2
     }
 
     levelSuccess(): void {
         let building: BuildingData = this.buildingData;
+        //建筑效果
+        let lastpropList = building.lastLevelConfig.propList.list;
+        let nowpropList = building.levelConfig.propList.list;
 
-        // 等级
         this.effectDataList.push({last: building.lastLevelConfig.level, now: building.levelConfig.level});
-        // 建筑效果
-        
-        let lastpropList   = building.lastLevelConfig.propList;
-        let nowpropList = building.levelConfig.propList;
-        if (building.id == BuildingType.CommerceDepartment) {
-            let last_storyProbabilityCl = lastpropList.get(PropId[PropField.storyProbabilityCl]).val + "%";
-            let last_storyNum = lastpropList.get(PropId[PropField.storyNum]).val;
-            let now_storyProbabilityCl = nowpropList.get(PropId[PropField.storyProbabilityCl]).val + "%";
-            let now_storyNum = nowpropList.get(PropId[PropField.storyNum]).val;
-
-            this.effectDataList.push({ effect: "成功概率加成：", last: last_storyProbabilityCl, now: now_storyProbabilityCl });
-            this.effectDataList.push({ effect: "每日创作次数：", last: last_storyNum, now: now_storyNum })
-        } else {
-            let last_produceNum = lastpropList.get(PropId[PropField.produceNum]);
-            let last_produceCd = lastpropList.get(PropId[PropField.produceCd]);
-            let last_reserve = lastpropList.get(PropId[PropField.reserve]);
-            let now_produceNum = nowpropList.get(PropId[PropField.produceNum]);
-            let now_produceCd = nowpropList.get(PropId[PropField.produceCd]);
-            let now_reserve = nowpropList.get(PropId[PropField.reserve]);
-
-            let lastSpeed = Math.floor((60 * 60) / last_produceCd.val * last_produceNum.val);
-            let nowSpeed = Math.floor((60 * 60) / now_produceCd.val * now_produceNum.val);
-
-            this.effectDataList.push({ effect: "每小时产量：", last: lastSpeed, now: nowSpeed });
-            this.effectDataList.push({ effect: "建筑储量：", last: last_reserve.val, now: now_reserve.val })
+        for (let lastprop of lastpropList) {
+            if (lastprop.field == PropField.reserve || lastprop.field == PropField.produceNum || lastprop.field == PropField.produceCd) {
+                for (let nowprop of building.prop.list) {
+                    if (lastprop.field == nowprop.field) {
+                        this.effectDataList.push({last: lastprop, now: nowprop});
+                    }
+                }
+            }
         }
-        
-
-        
-        
     }
 
     breakSuccess(): void {
         let building: BuildingData = this.buildingData;
         this.effectDataList.push(format(TEXT.BuildOpenBre, building.name, building.breLevelMax));
-        this.effectDataList.push(TEXT.BuildOpenNewCell);
+        this.effectDataList.push(TEXT.BuildOpenCell);
     }
 
 

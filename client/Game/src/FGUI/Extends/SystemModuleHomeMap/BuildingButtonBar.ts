@@ -161,6 +161,7 @@ export default class BuildingButtonBar extends BuildingButtonBarStruct
         {
             // 详情
             case BuildingButtonType.details:
+                // 地图移到建筑位置，并隐藏主界面
                 this.scene2D.zoomBuildingEnter(this.mapBuiilding.buildingId);
      			Game.menu.openTab(MenuId.BuildingInfo, BuildingTabType.Content, this.mapBuiilding.buildingData);
                 break;
@@ -168,6 +169,9 @@ export default class BuildingButtonBar extends BuildingButtonBarStruct
             // 装饰
             case BuildingButtonType.decorate:
                 break;
+
+            // 建造
+            // case BuildingButtonType.create:
 
             // 升级
             case BuildingButtonType.uplevel:
@@ -211,7 +215,7 @@ export default class BuildingButtonBar extends BuildingButtonBarStruct
 
             // 拍摄
             case BuildingButtonType.shoot:
-                Game.menu.openAsync(MenuId.Studio);
+                Game.menu.open(MenuId.Studio);
                 break;
         }
         this.hide();

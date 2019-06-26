@@ -72,6 +72,7 @@ import {ActorEnterBuildS2CHandler} from "./ActorEnterBuildS2CHandler";
 import {ActorLeaveBuildS2CHandler} from "./ActorLeaveBuildS2CHandler";
 import {GamerNotifyGashaponInfoS2CHandler} from "./GamerNotifyGashaponInfoS2CHandler";
 import {GamerExtractGashaponS2CHandler} from "./GamerExtractGashaponS2CHandler";
+import {StoryExtractGashaponS2CHandler} from "./StoryExtractGashaponS2CHandler";
 import {GamerGetAllowanceS2CHandler} from "./GamerGetAllowanceS2CHandler";
 import {GetStoryExtractInfoS2CHandler} from "./GetStoryExtractInfoS2CHandler";
 import {CleanStoryExtractCDS2CHandler} from "./CleanStoryExtractCDS2CHandler";
@@ -92,13 +93,8 @@ import {GamerNotifyStudioFirstRewardS2CHandler} from "./GamerNotifyStudioFirstRe
 import {StudioContinuedListS2CHandler} from "./StudioContinuedListS2CHandler";
 import {StudioContinuedReceiveS2CHandler} from "./StudioContinuedReceiveS2CHandler";
 import {StudioContinuedReceiveAllS2CHandler} from "./StudioContinuedReceiveAllS2CHandler";
-import {GamerNotifyDailyTaskS2CHandler} from "./GamerNotifyDailyTaskS2CHandler";
-import {GamerNotifyTaskS2CHandler} from "./GamerNotifyTaskS2CHandler";
-import {GamerAcceptTaskS2CHandler} from "./GamerAcceptTaskS2CHandler";
-import {GamerGetTaskRewardS2CHandler} from "./GamerGetTaskRewardS2CHandler";
-import {GamerGetDailyTaskActivityDegreeRewardS2CHandler} from "./GamerGetDailyTaskActivityDegreeRewardS2CHandler";
-import {GamerGetGuideProgressS2CHandler} from "./GamerGetGuideProgressS2CHandler";
-import {GamerSetGuideProgressS2CHandler} from "./GamerSetGuideProgressS2CHandler";
+import {GamerNotifyActivitiesS2CHandler} from "./GamerNotifyActivitiesS2CHandler";
+import {GetActivityRewardS2CHandler} from "./GetActivityRewardS2CHandler";
 
 export default class ProtoHandlerList
 {
@@ -175,6 +171,7 @@ export default class ProtoHandlerList
 		ActorLeaveBuildS2C = ActorLeaveBuildS2CHandler;
 		GamerNotifyGashaponInfoS2C = GamerNotifyGashaponInfoS2CHandler;
 		GamerExtractGashaponS2C = GamerExtractGashaponS2CHandler;
+		StoryExtractGashaponS2C = StoryExtractGashaponS2CHandler;
 		GamerGetAllowanceS2C = GamerGetAllowanceS2CHandler;
 		GetStoryExtractInfoS2C = GetStoryExtractInfoS2CHandler;
 		CleanStoryExtractCDS2C = CleanStoryExtractCDS2CHandler;
@@ -195,13 +192,8 @@ export default class ProtoHandlerList
 		StudioContinuedListS2C = StudioContinuedListS2CHandler;
 		StudioContinuedReceiveS2C = StudioContinuedReceiveS2CHandler;
 		StudioContinuedReceiveAllS2C = StudioContinuedReceiveAllS2CHandler;
-		GamerNotifyDailyTaskS2C = GamerNotifyDailyTaskS2CHandler;
-		GamerNotifyTaskS2C = GamerNotifyTaskS2CHandler;
-		GamerAcceptTaskS2C = GamerAcceptTaskS2CHandler;
-		GamerGetTaskRewardS2C = GamerGetTaskRewardS2CHandler;
-		GamerGetDailyTaskActivityDegreeRewardS2C = GamerGetDailyTaskActivityDegreeRewardS2CHandler;
-		GamerGetGuideProgressS2C = GamerGetGuideProgressS2CHandler;
-		GamerSetGuideProgressS2C = GamerSetGuideProgressS2CHandler;
+		GamerNotifyActivitiesS2C = GamerNotifyActivitiesS2CHandler;
+		GetActivityRewardS2C = GetActivityRewardS2CHandler;
 
 	init()
 	{
@@ -278,6 +270,7 @@ export default class ProtoHandlerList
 		this.ActorLeaveBuildS2C.bind(this);
 		this.GamerNotifyGashaponInfoS2C.bind(this);
 		this.GamerExtractGashaponS2C.bind(this);
+		this.StoryExtractGashaponS2C.bind(this);
 		this.GamerGetAllowanceS2C.bind(this);
 		this.GetStoryExtractInfoS2C.bind(this);
 		this.CleanStoryExtractCDS2C.bind(this);
@@ -298,13 +291,8 @@ export default class ProtoHandlerList
 		this.StudioContinuedListS2C.bind(this);
 		this.StudioContinuedReceiveS2C.bind(this);
 		this.StudioContinuedReceiveAllS2C.bind(this);
-		this.GamerNotifyDailyTaskS2C.bind(this);
-		this.GamerNotifyTaskS2C.bind(this);
-		this.GamerAcceptTaskS2C.bind(this);
-		this.GamerGetTaskRewardS2C.bind(this);
-		this.GamerGetDailyTaskActivityDegreeRewardS2C.bind(this);
-		this.GamerGetGuideProgressS2C.bind(this);
-		this.GamerSetGuideProgressS2C.bind(this);
+		this.GamerNotifyActivitiesS2C.bind(this);
+		this.GetActivityRewardS2C.bind(this);
 
 	}
 }

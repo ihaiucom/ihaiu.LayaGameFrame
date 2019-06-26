@@ -1,5 +1,5 @@
 import Dictionary from "../../Libs/Helpers/Dictionary";
-import MenuCtl from './MenuCtl';
+import MenuCtl from "./MenuCtl";
 import { MenuId } from "../../GameModule/MenuId";
 import { MenuCtlStateType } from "./MenuCtlStateType";
 import { MenuOpenType } from "./MenuOpenType";
@@ -72,12 +72,6 @@ export default class MenuManager
     {
         return this._open(menuId, { openType: MenuOpenType.None, openIndex: 0, args: args });
     }
-    
-    // 打开模块
-    openAsync(menuId: MenuId, ...args: any[])
-    {
-        this._openAsync(menuId, { openType: MenuOpenType.None, openIndex: 0, args: args });
-    }
 
     // 打开模块使用menuIndexId
     openByMenuIndexId(menuIndexId, ...args: any[])
@@ -140,7 +134,7 @@ export default class MenuManager
     }
 
     // 打开模块
-    private _open(menuId: MenuId, parametar: MenuOpenParameter): MenuCtl
+    private _open(menuId: MenuId, parametar: MenuOpenParameter)
     {
         let ctl = this.getMenuCtl(menuId);
         if (!ctl)
@@ -166,60 +160,6 @@ export default class MenuManager
                 Log.Error(`MenuManager.open menuWindowConfig.windowClass=${menuWindowConfig.windowClass}, menuId=${menuId}`);
                 return null;
             }
-            
-
-            ctl = new MenuCtl();
-            ctl.__menuManager = this;
-            ctl.menuId = menuId;
-            ctl.menuConfig = menuConfig;
-            ctl.menuWindowConfig = menuWindowConfig;
-            this.dict.add(menuId, ctl);
-            if (ctl.menuId != MenuId.Home)
-                this.list.push(ctl);
-        }
-        ctl.open(parametar);
-        let index = this.stack.indexOf(ctl);
-        if (index != -1)
-            this.stack.splice(index, 1);
-        this.stack.push(ctl);
-        //
-        return ctl;
-    }
-
-    async _openAsync(menuId: MenuId, parametar: MenuOpenParameter):  Promise<MenuCtl>
-    {
-        let ctl = this.getMenuCtl(menuId);
-        if (!ctl)
-        {
-            let menuConfig = Game.config.menu.getConfig(menuId);
-            if (!menuConfig)
-            {
-                Log.Error(`MenuManager.open 没有找到menuConfig, menuId=${menuId}`);
-                return null;
-            }
-
-            let menuWindowConfig = MenuWindows.get(menuId);
-            if (!menuWindowConfig)
-            {
-                
-                Game.system.toastText(TEXT.Disable);
-                Log.Error(`MenuManager.open 没有找到menuWindowConfig, menuId=${menuId}`);
-                return null;
-            }
-
-            if (!menuWindowConfig.windowClass)
-            {
-                Log.Error(`MenuManager.open menuWindowConfig.windowClass=${menuWindowConfig.windowClass}, menuId=${menuId}`);
-                return null;
-            }
-
-            let enableOpen = await menuConfig.openMenu();
-            if (!enableOpen)
-            {
-                return null;
-            }
-
-            
 
             ctl = new MenuCtl();
             ctl.__menuManager = this;

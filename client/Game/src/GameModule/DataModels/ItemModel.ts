@@ -62,25 +62,7 @@ export default class ItemModel extends MModel
 				}
 			}
 		}
-		let itemList = [];
-		list.forEach(itemObj=>{
-			let item = itemObj.clone();
-			let maxCount = item.itemConfig.max_num;
-			if(item.count > maxCount)
-			{
-				let itemCount = Math.ceil(item.count / maxCount);
-				for(let i = 0; i < itemCount; i++)
-				{
-					let cnt = maxCount;
-					i == itemCount-1 && (cnt = item.count % maxCount);
-					let subItem = ItemData.Create(item.id, cnt);
-					itemList.push(subItem);
-				}
-			}
-			else
-				itemList.push(item);
-		})
-		return itemList;
+		return list;
 	}
 
 	private getTypesByTab(tab:eItemTab = eItemTab.NormalItem): number[]

@@ -13,25 +13,24 @@ import DecorationAnimationHelper from "./MapBuilding/DecorationAnimationHelper";
 import SyncHellper from "../../Libs/Helpers/SyncHelper";
 import LevelAnimationHelper from "./MapBuilding/LevelAnimationHelper";
 import Random from "../../Libs/Helpers/Random";
-import R from "../../Config/Keys/R";
 
 export default class MapRegion {
     // 区域数据 -- 建筑
     regionData:BuildingRegionData;
-    mapBuilding:MapBuilding;
 
     // 区域内家具
     componentDict: Dictionary<number , MapComponent> = new Dictionary<number, MapComponent>();
     componentList: Array<MapComponent> = [];
 
+    displaySprite: Laya.Sprite;
     width: number = 0;
     height:number = 0;
 
-    // rect: Laya.Rectangle = new Laya.Rectangle();
+    rect: Laya.Rectangle = new Laya.Rectangle();
 
-    // calculateRect()
-    // {
-    // }
+    calculateRect()
+    {
+    }
 
 
     
@@ -81,7 +80,6 @@ export default class MapRegion {
     install(mapBuilding:MapBuilding, regionData:BuildingRegionData)
     {
         this.regionData = regionData;
-        this.mapBuilding = mapBuilding;
 
         let componentConfigs = Game.config.buildingComponent.getConfigsByIds(regionData.componentGroupId);
         for (let i = 0; i < componentConfigs.length; i++) {
@@ -94,6 +92,18 @@ export default class MapRegion {
             this.componentDict.add(name, mapComponent);
             this.componentList.push(mapComponent);
         }
+
+        this.displaySprite = new Laya.Sprite();
+        this.displaySprite.pos(this.x - this.width / 2, this.y - this.height / 2);
+        this.displaySprite.width = this.width;
+        this.displaySprite.height = this.height;
+        mapBuilding.picComponent.displayObject.addChild(this.displaySprite);
+        // if (regionData.id == 17401001) {
+        //     this.displaySprite.graphics.drawRect(0, 0, this.width, this.height, "#ff0000");
+        //     this.showIn();
+        //     window["testMR"] = this;
+        // }
+        // this.displaySprite.graphics.drawRect(0, 0, this.width, this.height, "#" + Random.range(10, 99) + Random.range(10, 99)+ Random.range(10, 99) + "55" );
     }
 
     update(regionData: BuildingRegionData)
@@ -123,7 +133,7 @@ export default class MapRegion {
 
         for (let i = 0; i < componentList.length; i++) {
             let component = componentList[i];
-            component.showReady(regionData.buildId, regionData.level);
+            component.showReady(regionData.buildId);
         }
     }
 
@@ -142,11 +152,36 @@ export default class MapRegion {
     private _isShow: boolean = false;
     async show(time: number)
     {
+        // let componentList = this.componentList;
+        // for (let i = 0; i < componentList.length; i++) {
+        //     let component = componentList[i];
+        //     component.show(time);
+        // }
+        if (this.decorationAnimation) {
+            this.decorationAnimation.clear();
+            this.decorationAnimation = null;
+        }
+        if(time)
+        {
+            this.decorationAnimation = await DecorationAnimationHelper.showIn(this.displaySprite, time);
+        }
+        this._isShow = false;
         
+        await SyncHellper.waitTime(time);
+        if (!this.levelAnimation && this._isShow == false) {
+            this._isShow = true;
+            this.levelAnimation = await LevelAnimationHelper.showIn(this.displaySprite, true);     
+        }
     }
 
     showIn()
     {
+        if (this.levelAnimation) {
+            this.levelAnimation.clear();
+            this.levelAnimation = null;
+        }  
+        DecorationAnimationHelper.showIn(this.displaySprite, 1000);
+        
         let componentList = this.componentList;
         for (let i = 0; i < componentList.length; i++) {
             let component = componentList[i];

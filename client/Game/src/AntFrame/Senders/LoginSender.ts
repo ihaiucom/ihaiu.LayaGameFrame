@@ -34,9 +34,6 @@ export default class LoginSender
         
         // 登录了并且获取了用户数据
         Game.user.isLoginAndGetUserData = true;
-        // 请求引导进度
-        await Game.sender.guide.getGuideProgress();
-
         Game.launch.enterGame();
     }
 

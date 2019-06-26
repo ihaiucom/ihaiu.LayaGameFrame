@@ -95,20 +95,7 @@ export default class ProtoName
 	static StudioContinuedListS2C="StudioContinuedListS2C"
 	static StudioContinuedReceiveS2C="StudioContinuedReceiveS2C"
 	static StudioContinuedReceiveAllS2C="StudioContinuedReceiveAllS2C"
-<<<<<<< HEAD
 	static GamerNotifyActivitiesS2C="GamerNotifyActivitiesS2C"
 	static GetActivityRewardS2C="GetActivityRewardS2C"
-=======
->>>>>>> 9f65d9effc3027883579984400d2397459530e93
-	static GamerNotifyDailyTaskS2C="GamerNotifyDailyTaskS2C"
-	static GamerNotifyTaskS2C="GamerNotifyTaskS2C"
-	static GamerAcceptTaskS2C="GamerAcceptTaskS2C"
-	static GamerGetTaskRewardS2C="GamerGetTaskRewardS2C"
-	static GamerGetDailyTaskActivityDegreeRewardS2C="GamerGetDailyTaskActivityDegreeRewardS2C"
-<<<<<<< HEAD
-=======
-	static GamerGetGuideProgressS2C="GamerGetGuideProgressS2C"
-	static GamerSetGuideProgressS2C="GamerSetGuideProgressS2C"
->>>>>>> 9f65d9effc3027883579984400d2397459530e93
 
 }

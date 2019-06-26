@@ -10,7 +10,6 @@ import PropHelper from "../../../GameFrame/Props/PropHelper";
 import SyncHellper from "../../../Libs/Helpers/SyncHelper";
 import Mathf from "../../../Libs/Mathf";
 import Game from "../../../Game";
-import StudioMovieClipSkill from '../../Extends/ModuleStudioMovieClip00Common/StudioMovieClipSkill';
 
 /** 拍摄动画 -- 艺人场 */
 export default class StudioMovieClipScene
@@ -26,8 +25,6 @@ export default class StudioMovieClipScene
 
     // 属性总分
     scorePropTotal: number = 0;
-    // 技能总分
-    scoreSkillTotal: number = 0;
 
     // 艺人组
     actorGroup:ActorGroup = new ActorGroup();
@@ -35,8 +32,6 @@ export default class StudioMovieClipScene
     nameView: StudioMovieClipName;
     // 五个属性图标
     propIcons: PropIconItem[] = [];
-    /** 技能动画 */
-    actorSkill: StudioMovieClipSkill;
 
     // 切场动画
     sceneSwitch: SceneSwitch;
@@ -52,11 +47,9 @@ export default class StudioMovieClipScene
     {
         this.actors = actors;
         this.scorePropTotal = 0;
-        this.scoreSkillTotal = 0;
         for(let item of actors)
         {
             this.scorePropTotal += item.scorePropTotal;
-            this.scoreSkillTotal += item.scoreSkillTotal;
         }
     }
 
@@ -90,9 +83,6 @@ export default class StudioMovieClipScene
             this.propIcons.push(item);
         }
 
-        this.actorSkill = StudioMovieClipSkill.poolGet();
-        this.actorSkill.studioMovieClip = this.studioMovieClip;
-        this.actorSkill.setActors(this.actors);
 
         this.sceneSwitch = SceneSwitch.poolGet();
         this.sceneSwitch.init(this.studioMovieClip);
@@ -132,14 +122,9 @@ export default class StudioMovieClipScene
         
             
         console.log("播放场景");
-        // 播放艺人进场
         await this.actorGroup.playIn(progressData);
-
-        // 播放场景名称
         this.studioMovieClip.addViewMiddle(this.nameView);
         await this.nameView.playIn(progressData);
-
-        // 播放属性图标进入
         for(let propIcon of this.propIcons)
         {
             this.studioMovieClip.addViewMiddle(propIcon);
@@ -149,27 +134,20 @@ export default class StudioMovieClipScene
         await SyncHellper.waitTime(300);
 
         
-        // 计算进度条位置
         let beginX = this.studioMovieClip.progressPosForLayoutMiddle.x;
         let y = this.studioMovieClip.progressPosForLayoutMiddle.y;
         let endPos = this.studioMovieClip.getProgressPosForLayoutMiddleByAddPropVal(this.scorePropTotal);
         let xLength = endPos.x - beginX;
         let xGap = xLength / this.propIcons.length;
-        console.log("属性",beginX, endPos.x, xLength, xGap);
+        console.log(beginX, endPos.x, xLength, xGap);
         // 进度条加值
         this.studioMovieClip.addProgressVal(this.scorePropTotal);
-        // 播放属性图标飞到进度条
         for(let i =0 ; i < this.propIcons.length; i ++)
         {
             let propIcon = this.propIcons[i];
             await propIcon.playOut(progressData, Mathf.Lerp(beginX, endPos.x, i / this.propIcons.length * 0.2), y);
         }
-
-        // 播放技能
-        endPos = this.studioMovieClip.getProgressPosForLayoutMiddleByAddPropVal(this.scoreSkillTotal);
-        await this.actorSkill.play(progressData,endPos.x, y);
-        // 进度条加值
-        this.studioMovieClip.addProgressVal(this.scoreSkillTotal);
+        
 
         await SyncHellper.waitTime(1000);
         console.log("播放场景 完成");

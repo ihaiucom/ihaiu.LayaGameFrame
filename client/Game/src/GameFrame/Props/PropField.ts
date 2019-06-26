@@ -44,20 +44,6 @@ export default class PropField
     /** 生产应援卡 */
     public static assistanceCard = "assistanceCard";
 
-    /** 额外产出 */
-    public static additionalOutput = "additionalOutput";
-
-    /** 剧本概率增加后台 */
-    public static storyProbabilitySe = "storyProbabilitySe";
-
-    /** 剧本抽取次数增加 */
-    public static storyNum = "storyNum";
-
-    /** 剧本概率增加后台 */
-    public static storyProbabilityCl = "storyProbabilityCl";
-
-
-
     /* 表演*/
     public static charm = 'charm';
 

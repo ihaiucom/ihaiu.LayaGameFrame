@@ -1,72 +1,23 @@
-export enum ItemType { 
-    // 钻石
+export enum EItemId { 
+    // 砖石
     diamond = 1,
-
     // 金币 
     gold = 2, 
-
     // 美元
     dollar = 3, 
-
-    // 周边产品
-    // peripheral = 4,
-
-    // 行动力
-    abilityPower = 4, 
-
-    // 普通道具
-    common = 5,
-
-    // 资产
-    property = 6,
-
-    // 艺人合同
-    contract = 7,
-
-    // 礼包
-    giftBag = 8,
-
-    // 建筑材料
-    material = 9,
-
-    // 许可证
-    licence = 10,
-
-    // 粉丝
-    fans = 11,
-
-    // 点赞
-    like = 12,
-
-    // 期待
-    expect = 13,
-
-    // 奖杯
-    trophy = 14,
-
-    // 艺人体力
-    power = 15,
-
-    // 随机艺人礼包碎片
-    giftBagChip = 16,
-
-    // 多选一物品
-    compound = 17,
-
-    // 电影剧本
-    scenario = 18,
-
-    // 完整类型
-    type = 19,
-
-    // 情报
-
-    // 星级指定的剧本，如一星剧本、二星剧本
-    story = 21,
-
-    //艺人
-    actor = 22,
     
-    
-    // studioActorChangeCell = 16, // 拍摄，艺人换阵
+    abilityPower = 4, // 行动力
+    studioActorChangeCell = 16, // 拍摄，艺人换阵
+    fans = 5, 
+    praise = 6, // 点赞
+    drawing = 7, // 图纸
+    expect = 8, // 期待
+    story = 21, // 剧本
+    study_card = 5004, // 进修卡
+    talent = 5007, // 星探卡
+    player_rename_card = 5008, // 改公司名道具
+    actor_stamina_water = 5010, // 技能药剂，增加体力
+    actor_loyalty_card = 5003, // 忠诚卡
+    brochure = 5005, // 宣传册
+    horn = 5006, // 喇叭
 }

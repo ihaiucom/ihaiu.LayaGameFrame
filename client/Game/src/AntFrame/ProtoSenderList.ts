@@ -9,10 +9,6 @@ import StudioSender from "./Senders/StudioSender";
 import StorySender from "./Senders/StorySender";
 import GashaponSender from "./Senders/GashaponSender";
 import StoryLotterySender from "./Senders/StoryLotterySender";
-import ActivitySender from "./Senders/ActivitySender";
-import DailyTaskSender from './Senders/DailyTaskSender';
-import MainTaskSender from "./Senders/MainTaskSender";
-import GuideSender from "./Senders/GuideSender";
 
 //====================
 // 消息发送器列表
@@ -30,8 +26,4 @@ export default class ProtoSenderList
     story  = new StorySender();
     gashapon = new GashaponSender();
     storyLotterySender = new StoryLotterySender();
-    activity = new ActivitySender();
-    dailyTaskSender = new DailyTaskSender();
-    mainTaskSender = new MainTaskSender();
-    guide = new GuideSender();
 }

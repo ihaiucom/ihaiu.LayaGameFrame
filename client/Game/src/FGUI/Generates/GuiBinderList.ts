@@ -13,8 +13,6 @@ import ModuleActorGJCBinder from "./ModuleActorGJC/ModuleActorGJCBinder";
 import ModuleBagBinder from "./ModuleBag/ModuleBagBinder";
 import ModuleBuildingActorBinder from "./ModuleBuildingActor/ModuleBuildingActorBinder";
 import ModuleBuildingGJCBinder from "./ModuleBuildingGJC/ModuleBuildingGJCBinder";
-import ModuleDailyTaskBinder from "./ModuleDailyTask/ModuleDailyTaskBinder";
-import ModuleDay7ActivityBinder from "./ModuleDay7Activity/ModuleDay7ActivityBinder";
 import ModuleEmailBinder from "./ModuleEmail/ModuleEmailBinder";
 import ModuleInformationBinder from "./ModuleInformation/ModuleInformationBinder";
 import ModuleInformationGJCBinder from "./ModuleInformationGJC/ModuleInformationGJCBinder";
@@ -26,12 +24,9 @@ import ModuleStudioMovieClip00CommonBinder from "./ModuleStudioMovieClip00Common
 import ModuleStudioMovieClip01NormalBinder from "./ModuleStudioMovieClip01Normal/ModuleStudioMovieClip01NormalBinder";
 import SoundBinder from "./Sound/SoundBinder";
 import SystemModuleDialogBinder from "./SystemModuleDialog/SystemModuleDialogBinder";
-import SystemModuleGuideBinder from "./SystemModuleGuide/SystemModuleGuideBinder";
 import SystemModuleHomeBinder from "./SystemModuleHome/SystemModuleHomeBinder";
 import SystemModuleHomeMapBinder from "./SystemModuleHomeMap/SystemModuleHomeMapBinder";
 import SystemModuleMenuBinder from "./SystemModuleMenu/SystemModuleMenuBinder";
-import SystemModulePlotBinder from "./SystemModulePlot/SystemModulePlotBinder";
-import SystemModuleTaskBinder from "./SystemModuleTask/SystemModuleTaskBinder";
 import __ResImageTmpBinder from "./__ResImageTmp/__ResImageTmpBinder";
 
 export default class GuiBinderList
@@ -48,8 +43,6 @@ export default class GuiBinderList
 		ModuleBagBinder.bindAll()
 		ModuleBuildingActorBinder.bindAll()
 		ModuleBuildingGJCBinder.bindAll()
-		ModuleDailyTaskBinder.bindAll()
-		ModuleDay7ActivityBinder.bindAll()
 		ModuleEmailBinder.bindAll()
 		ModuleInformationBinder.bindAll()
 		ModuleInformationGJCBinder.bindAll()
@@ -61,12 +54,9 @@ export default class GuiBinderList
 		ModuleStudioMovieClip01NormalBinder.bindAll()
 		SoundBinder.bindAll()
 		SystemModuleDialogBinder.bindAll()
-		SystemModuleGuideBinder.bindAll()
 		SystemModuleHomeBinder.bindAll()
 		SystemModuleHomeMapBinder.bindAll()
 		SystemModuleMenuBinder.bindAll()
-		SystemModulePlotBinder.bindAll()
-		SystemModuleTaskBinder.bindAll()
 		__ResImageTmpBinder.bindAll()
 	}
 }

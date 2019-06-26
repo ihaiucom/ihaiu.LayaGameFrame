@@ -44,19 +44,16 @@ export default class GameEventKey
     //关闭UI界面
     static Build_CloseWindowUI: string = "Build_CloseWindowUI";
 
-    //关闭建筑界面
+    //关闭窗口
     static Build_CloseWindow: string = "Build_CloseWindow";
 
     static Build_LevelUp: string = "Build_LevelUp";
 
+    //预览建筑
+    static Build_PreView: string = "Build_PreView";
+
     //关闭成功界面
-    static Build_CloseSuccessDialog: string = "Build_CloseSuccessDialog";
-
-    //聚焦到建筑，并自动点击
-    static Build_FocusBuilding: string = "Build_FocusBuilding";
-
-    //聚焦到建筑，并自动点击
-    static Build_FocusBuilding: string = "Build_FocusBuilding";
+    static Build_CloseSuccess: string = "Build_CloseSuccess";
 
     
     /* --------------------- 艺人 --------------------*/
@@ -75,22 +72,12 @@ export default class GameEventKey
     // 更新抽奖结果
     static StoryLoteery_award: string = "StoryLoteery_award";
 
-    /*---------------------- 主线任务 --------------------*/
-    //任务状态更改
-    static MainTask_state: string = "MainTask_state";
-    //领奖成功
-    static MainTask_award: string = "MainTask_award";
 
     /* --------------------- 情报 --------------------*/
     //情报界面跳转
     static Information_SelectView: string = "Information_SelectView";
     //情报选择
     static Information_SelectInfo: string = "Information_SelectInfo";
-
-    /* --------------------- 活动 --------------------*/
-
-    //关闭7日活动UI界面
-    static ActivityDay7_CloseWindowUI: string = "ActivityDay7_CloseWindowUI";
 
     /* --------------------- 游戏消息 --------------------*/
 

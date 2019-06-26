@@ -16,11 +16,6 @@ import StudioContinueWindow from "./ViewWindows/StudioContinueWindow";
 import BuildingActorWindow from "./ViewWindows/BuildingActorWindow";
 import StudioContinueInfoWindow from './ViewWindows/StudioContinueInfoWindow';
 import StoryLotteryWindow from "./ViewWindows/StoryLotteryWindow";
-import ActivityDay7Window from "./ViewWindows/ActivityDay7Window";
-import DailyTaskWindow from './ViewWindows/DailyTaskWindow';
-import GuideWindow from "./ViewWindows/GuideWindow";
-import MainTaskWindow from "./ViewWindows/MainTaskWindow";
-import PlotWindow from "./ViewWindows/PlotWindow";
 
 //======================
 // 模块配置
@@ -54,10 +49,5 @@ export default class MenuWindows {
         MenuWindows.add(MenuId.ActorList, ActorWindow);
         MenuWindows.add(MenuId.Information, InformationWindow);
         MenuWindows.add(MenuId.StoryLottery, StoryLotteryWindow);
-        MenuWindows.add(MenuId.Activity, ActivityDay7Window);
-        MenuWindows.add(MenuId.DailyTask, DailyTaskWindow);
-        MenuWindows.add(MenuId.Guide, GuideWindow);
-        MenuWindows.add(MenuId.Task, MainTaskWindow);
-        MenuWindows.add(MenuId.Plot, PlotWindow);
     }
 }

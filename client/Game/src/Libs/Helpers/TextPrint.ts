@@ -20,14 +20,7 @@ export default class TextPrint
         this._text = val;
     }
 
-    /**
-     * 
-     * @param label fairygui元件
-     * @param text 要播放的完整文本
-     * @param timeInterval 文字播放时间间隔
-     * @param timeDuration 总播放时间
-     * @param textSpeedLength 文字播放间隔长度
-     */
+
     init(label: GTextField, text: string, timeInterval: number = 100, timeDuration: number = 3000, textSpeedLength: number = 2)
     {
         this.label = label;

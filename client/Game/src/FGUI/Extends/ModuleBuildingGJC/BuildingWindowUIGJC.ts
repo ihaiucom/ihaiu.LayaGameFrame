@@ -50,22 +50,28 @@ export default class BuildingWindowUIGJC extends BuildingWindowUIGJCStruct
 
     //关闭界面
     close(): void  {
+        Game.event.dispatch(GameEventKey.Build_CloseWindow, this.buildingData);
         this.moduleWindow.menuClose();
     }
 
-    updateView()
-    {
+    //主窗口显示时将被调
+    onWindowShow(): void  {
         let building: BuildingData  = this.moduleWindow.menuParameter.args[0];
         this.buildingData = building;
 
         let pageIndex: number = this.m_footView.m_page.selectedIndex;
         this.m_headView.updateView(building, pageIndex)
-        this.m_footView.updateView(building, pageIndex);
-    }
-
-    //主窗口显示时将被调
-    onWindowShow(): void  {
-        this.updateView();
+        switch (pageIndex) {
+            case BuildingTabType.Content:
+                this.m_footView.m_contentPage.updateView(building);
+                break;
+            case BuildingTabType.Build:
+                this.m_footView.m_levelPage.updateView(building);
+                break;
+        
+            default:
+                break;
+        }
         
         Game.event.add(GameEventKey.Build_CloseWindowUI, this.close, this);
     }
@@ -89,6 +95,7 @@ export default class BuildingWindowUIGJC extends BuildingWindowUIGJCStruct
     // 窗口即将关闭，可以在这里做缓动
     onWindowWillHide(): void
     {
-        Game.event.dispatch(GameEventKey.Build_CloseWindow, this.buildingData);
+
+        Game.event.dispatch(GameEventKey.Home_SendSceneZoomBuildingExit);
     }
 }

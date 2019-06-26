@@ -47,7 +47,6 @@ export default class BagWindowUI extends BagWindowUIStruct {
         this.m_splitBtn.onClick(this, this.OnSplitClick);
         this.m_compoundBtn.onClick(this, this.OnCompoundClick);
         this.m_saleBtn.onClick(this, this.OnSaleClick);
-        this.m_infoDialog.m_bg.onClick(this, this.closeInfoDialog);
         
         this.updateView();
     }
@@ -61,17 +60,11 @@ export default class BagWindowUI extends BagWindowUIStruct {
         this.m_splitBtn.offClick(this, this.OnSplitClick);
         this.m_compoundBtn.offClick(this, this.OnCompoundClick);
         this.m_saleBtn.offClick(this, this.OnSaleClick);
-        this.m_infoDialog.m_bg.offClick(this, this.closeInfoDialog);
     }
     
     public updateView() {
         this.m_showInfoDialog.setSelectedPage('no');
         this.refreshItemList();
-    }
-
-    public closeInfoDialog()
-    {
-        this.m_showInfoDialog.setSelectedPage('no');
     }
 
     public refreshItemList(): void {

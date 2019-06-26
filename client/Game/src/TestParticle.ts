@@ -71,12 +71,12 @@ export default class TestParticle
 		// ];
 
 		
-		// let arr = [
-		// 	R.particles.DecorationShowIn_1_Star1,
-		// 	R.particles.DecorationShowIn_2_Star2,
-		// 	R.particles.DecorationShowIn_3_Line,
-		// 	R.particles.DecorationShowIn_4_Glow
-		// ];
+		let arr = [
+			R.particles.DecorationShowIn_1_Star1,
+			R.particles.DecorationShowIn_2_Star2,
+			R.particles.DecorationShowIn_3_Line,
+			R.particles.DecorationShowIn_4_Glow
+		];
 
 		// let arr = [
 		// 		R.particles.InformationActorShow,
@@ -88,11 +88,6 @@ export default class TestParticle
 		// 	R.particles.BuildingLevelShow,
 		// 	// R.particles.BuildingLevelShow1
 		// ];
-
-		let arr = [
-			R.particles.BuildingLevelShow_YunBig2,
-		];
-
 		this.group = new ParticleGroup();
 		await this.group.init(Laya.stage, arr);
 		this.group.addToContainerTop();

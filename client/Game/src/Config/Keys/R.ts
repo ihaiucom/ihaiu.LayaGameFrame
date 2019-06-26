@@ -16,7 +16,6 @@ class SpineUI
     StudioNpc = 'StudioNpc';
     Hourglass = 'Hourglass';
     Spot = 'Spot';
-    Brush = 'Brush';
 }
 
 class Cursor
@@ -31,7 +30,6 @@ class Particles
     StudioScore = "StudioScore";
     StudioPropScore = "StudioPropScore";
     StudioActorShow = "StudioActorShow";
-    StudioSkillStar = "StudioSkillStar";
     FlyExp = "FlyExp";
     // 升级--建筑
     UpLevelBuilding_Star = "UpLevelBuilding_Star";
@@ -40,9 +38,7 @@ class Particles
 
     // 摆件--升级中
     BuildingLevelShow = "BuildingLevelShow";
-    BuildingLevelShow_Yun = "BuildingLevelShow_Yun";
-    BuildingLevelShow_YunBig1 = "BuildingLevelShow_YunBig1";
-    BuildingLevelShow_YunBig2 = "BuildingLevelShow_YunBig2";
+    BuildingLevelShow1 = "BuildingLevelShow1";
     
     // 摆件--出现
     DecorationShowIn_1_Star1 = "DecorationShowIn_1_Star1";
