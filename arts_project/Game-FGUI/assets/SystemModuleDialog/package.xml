@@ -9,15 +9,8 @@
     <component id="xa7oo" name="MailContentDialog.xml" path="/" exported="true"/>
     <component id="e5hko" name="GetRewardDialog.xml" path="/" exported="true"/>
     <component id="netkp" name="ItemInfoDialog.xml" path="/" exported="true"/>
-    <component id="9tqs7" name="BuildingSuccessDialog.xml" path="/" exported="true"/>
     <component id="u6goj" name="ActorRenameDialog.xml" path="/" exported="true"/>
     <component id="r1p1s" name="BuildingEffItem.xml" path="/Component/" exported="true"/>
-    <component id="wr67t" name="ActorSelectDialog.xml" path="/" exported="true"/>
-    <component id="wr67u" name="ActorIconItem.xml" path="/Component/" exported="true"/>
-    <component id="jej7v" name="InformationBoardDialog.xml" path="/" exported="true"/>
-    <component id="l44gw" name="InformationGetDialog.xml" path="/" exported="true"/>
-    <component id="m5zoz" name="BuildingSpeedUpDialog.xml" path="/" exported="true"/>
-    <component id="uyo811" name="BuildingSuccessDialogContent.xml" path="/" exported="true"/>
     <component id="e3wc13" name="AlertDialogBackground2.xml" path="/Component/" exported="true"/>
     <component id="ma8e14" name="ItemGetWayDialog.xml" path="/" exported="true"/>
     <component id="ma8e15" name="ItemGetRewardDialogContent.xml" path="/" exported="true"/>

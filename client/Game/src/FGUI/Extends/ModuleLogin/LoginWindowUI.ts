@@ -9,9 +9,6 @@ import R from "../../../Config/Keys/R";
 import Game from "../../../Game";
 import LoginWindow from "../../../GameModule/ViewWindows/LoginWindow";
 import ChartPolygonPropertyView from "../CommonBase/ChartPolygonPropertyView";
-import StudioMovieClip01Normal from "../ModuleStudioMovieClip01Normal/StudioMovieClip01Normal";
-import StudioContinueInfoUI from '../ModuleStudio/StudioContinueInfoUI';
-import StudioContinueWindowUI from "../ModuleStudio/StudioContinueWindowUI";
 import FguiHelper from '../../../Libs/Helpers/FguiHelper';
 
 export default class LoginWindowUI extends LoginWindowUIStruct
@@ -50,30 +47,9 @@ export default class LoginWindowUI extends LoginWindowUIStruct
         // this.m_testBtn.visible = true;
     }
     
-    continueWindow: StudioContinueWindowUI;
-    chartWindow: StudioContinueInfoUI;
-    // studioMovieClip: StudioMovieClip;
-    studioMovieClip: StudioMovieClip01Normal;
-    chart: ChartPolygonPropertyView
     onClickTestButton()
     {
-        this.chartWindow = StudioContinueInfoUI.createInstance();
-        this.addChild(this.chartWindow);
-        FguiHelper.callChildOnWindowShow(this.chartWindow);
-
-        // this.continueWindow = StudioContinueWindowUI.createInstance();
-        // this.addChild(this.continueWindow);
-        // FguiHelper.callChildOnWindowShow(this.continueWindow);
-        
-        
-        this.studioMovieClip = StudioMovieClip01Normal.createInstance();
-        this.addChild(this.studioMovieClip);
-        this.studioMovieClip.onWindowShow();
-
-        // this.chart = ChartPolygonPropertyView.createInstance();
-        // this.chart.x = Laya.stage.width >> 1;
-        // this.chart.y = 200;
-        // this.addChild(this.chart);
+       
         
     }
 }

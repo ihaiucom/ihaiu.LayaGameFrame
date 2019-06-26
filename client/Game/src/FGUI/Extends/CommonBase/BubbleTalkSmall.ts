@@ -4,12 +4,8 @@
 /////////////////////////////////////
 
 import BubbleTalkSmallStruct from "../../Generates/CommonBase/BubbleTalkSmallStruct";
-import TransformData from "../../../Home/Units/Components/TransformData";
 import TypedSignal from "../../../Libs/signals/TypedSignal";
-import UnitData from "../../../Home/Units/Components/UnitData";
-import { IMapUI } from "../../../Home/UnityViews/IMapUI";
-
-export default class BubbleTalkSmall extends BubbleTalkSmallStruct implements IMapUI
+export default class BubbleTalkSmall extends BubbleTalkSmallStruct
 {
     //============================
     // IMapUI
@@ -37,8 +33,10 @@ export default class BubbleTalkSmall extends BubbleTalkSmallStruct implements IM
 
     sHide: TypedSignal<BubbleTalkSmall> = new TypedSignal<BubbleTalkSmall>();
     
-    unit: UnitData;
-    transform: TransformData;
+    // unit: UnitData;
+    // transform: TransformData;
+    unit: any;
+    transform: any;
     offsetX = 0;
     offsetY = 0;
     
@@ -49,7 +47,7 @@ export default class BubbleTalkSmall extends BubbleTalkSmallStruct implements IM
     }
 
 
-    show(text: string, parent: fairygui.GRoot, unit: UnitData, transform: TransformData, duration = 3000)
+    show(text: string, parent: fairygui.GRoot, unit: any, transform: any, duration = 3000)
     {
         this.unit = unit;
         this.transform = transform;

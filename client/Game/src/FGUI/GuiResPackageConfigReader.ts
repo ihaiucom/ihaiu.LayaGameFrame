@@ -225,6 +225,15 @@ export default class GuiResPackageConfigReader
 
 		config = new GuiResPackageConfig();
             config.resDir = "fgui";
+            config.packageName = "ModuleDailyTask";
+            config.resBin = "ModuleDailyTask.bin";
+            this.addconfig(config)
+
+
+
+
+		config = new GuiResPackageConfig();
+            config.resDir = "fgui";
             config.packageName = "ModuleEmail";
             config.resBin = "ModuleEmail.bin";
             this.addconfig(config)
@@ -453,6 +462,15 @@ export default class GuiResPackageConfigReader
 
 		config = new GuiResPackageConfig();
             config.resDir = "fgui";
+            config.packageName = "SystemModulePlot";
+            config.resBin = "SystemModulePlot.bin";
+            this.addconfig(config)
+
+
+
+
+		config = new GuiResPackageConfig();
+            config.resDir = "fgui";
             config.packageName = "SystemModuleTask";
             config.resBin = "SystemModuleTask.bin";
             this.addconfig(config)
@@ -530,30 +548,8 @@ export default class GuiResPackageConfigReader
             config.resBin = "__ResImageTmp.bin";
             config.resAtlas.push("__ResImageTmp_atlas0.png");
             config.resAtlas.push("__ResImageTmp_atlas0_1.png");
-            config.resAtlas.push("__ResImageTmp_atlas0_10.png");
-            config.resAtlas.push("__ResImageTmp_atlas0_11.png");
-            config.resAtlas.push("__ResImageTmp_atlas0_12.png");
-            config.resAtlas.push("__ResImageTmp_atlas0_13.png");
-            config.resAtlas.push("__ResImageTmp_atlas0_14.png");
-            config.resAtlas.push("__ResImageTmp_atlas0_15.png");
-            config.resAtlas.push("__ResImageTmp_atlas0_16.png");
-            config.resAtlas.push("__ResImageTmp_atlas0_17.png");
-            config.resAtlas.push("__ResImageTmp_atlas0_18.png");
-            config.resAtlas.push("__ResImageTmp_atlas0_19.png");
             config.resAtlas.push("__ResImageTmp_atlas0_2.png");
-            config.resAtlas.push("__ResImageTmp_atlas0_20.png");
-            config.resAtlas.push("__ResImageTmp_atlas0_21.png");
-            config.resAtlas.push("__ResImageTmp_atlas0_22.png");
             config.resAtlas.push("__ResImageTmp_atlas0_3.png");
-            config.resAtlas.push("__ResImageTmp_atlas0_4.png");
-            config.resAtlas.push("__ResImageTmp_atlas0_5.png");
-            config.resAtlas.push("__ResImageTmp_atlas0_6.png");
-            config.resAtlas.push("__ResImageTmp_atlas0_7.png");
-            config.resAtlas.push("__ResImageTmp_atlas0_8.png");
-            config.resAtlas.push("__ResImageTmp_atlas0_9.png");
-            config.resAtlas.push("__ResImageTmp_atlas1.png");
-            config.resAtlas.push("__ResImageTmp_atlas_mohjm.png");
-            config.resAtlas.push("__ResImageTmp_atlas_mohjn.jpg");
             this.addconfig(config)
 
 

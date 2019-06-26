@@ -1386,3 +1386,11 @@
 2019-06-26 11:32:07.2854   (Program.cs:22) 没有找到 resourceComponent packagename= ModuleInformationGJC comname= InformationWindowUIGJC.xml nodename=costTen
 2019-06-26 11:32:07.2854   (Program.cs:22) 没有找到 resourceComponent packagename= SystemModuleDialog comname= BaseAlertDialog.xml nodename=closeBtn
 2019-06-26 11:32:07.2854   (Program.cs:22) 没有找到 resourceComponent packagename= SystemModuleDialog comname= MailContentDialog.xml nodename=btnClose
+2019-06-26 18:45:56.1519   (Program.cs:22) 没有找到 resourceComponent packagename= CommonGame comname= ActorDetailUI.xml nodename=closeBtn
+2019-06-26 18:45:56.2153   (Program.cs:22) 没有找到 resourceComponent packagename= CommonGame comname= ActorDetailUI.xml nodename=content
+2019-06-26 18:45:56.2153   (Program.cs:22) 没有找到 resourceComponent packagename= ModuleDailyTask comname= DailyTaskItem.xml nodename=goBtn
+2019-06-26 18:45:56.2153   (Program.cs:22) 没有找到 resourceComponent packagename= SystemModuleDialog comname= BaseAlertDialog.xml nodename=closeBtn
+2019-06-26 18:45:56.2200   (Program.cs:22) 没有找到 resourceComponent packagename= SystemModuleDialog comname= MailContentDialog.xml nodename=btnClose
+2019-06-26 18:45:56.2200   (Program.cs:22) 没有找到 resourceComponent packagename= _ResImageUIV1 comname= __PreviewButton.xml nodename=buildingButtonBar
+2019-06-26 18:45:56.2200   (Program.cs:22) 没有找到 resourceComponent packagename= _ResImageUIV1 comname= __PreviewButton.xml nodename=n12
+2019-06-26 18:45:56.2200   (Program.cs:22) 没有找到 resourceComponent packagename= _ResImageUIV1 comname= __PreviewButton.xml nodename=n19
