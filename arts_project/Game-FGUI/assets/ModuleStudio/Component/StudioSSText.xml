@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="356,87">
+  <displayList>
+    <component id="n22_cm7x" name="n22" src="e12k2c" fileName="Text/BoxTextItem.xml" pkg="4snov4n9" xy="0,0" controller="c1,0"/>
+    <component id="n23_cm7x" name="n23" src="e12k2c" fileName="Text/BoxTextItem.xml" pkg="4snov4n9" xy="94,2" controller="c1,1"/>
+    <component id="n24_cm7x" name="n24" src="e12k2c" fileName="Text/BoxTextItem.xml" pkg="4snov4n9" xy="188,1" controller="c1,2"/>
+    <component id="n25_cm7x" name="n25" src="e12k2c" fileName="Text/BoxTextItem.xml" pkg="4snov4n9" xy="279,1" controller="c1,3"/>
+  </displayList>
+</component>

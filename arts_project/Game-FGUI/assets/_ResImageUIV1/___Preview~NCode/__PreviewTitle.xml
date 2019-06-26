@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1731,931">
+  <displayList>
+    <image id="n0_ywi4" name="n0" src="pz3x19" fileName="_公共--背景--栏目标题/bg_resource.png" xy="253,595"/>
+    <image id="n1_ywi4" name="n1" src="i61148" fileName="_公共--背景--栏目标题/shoot_bg_name.png" xy="251,418"/>
+    <image id="n2_ywi4" name="n2" src="i61149" fileName="_公共--背景--栏目标题/shoot_bg_name_gray.png" xy="343,422"/>
+    <image id="n3_ywi4" name="n3" src="wpxm7q" fileName="_公共--背景--栏目标题/tips.png" xy="137,362" size="418,36"/>
+    <image id="n4_ywi4" name="n4" src="iq0896" fileName="_公共--背景--栏目标题/小标签底板2.png" xy="689,400"/>
+    <image id="n5_ywi4" name="n5" src="ex1nzw" fileName="_公共--背景--栏目标题/标签底板.png" xy="264,650"/>
+    <image id="n6_ywi4" name="n6" src="wpxm7j" fileName="_公共--背景--栏目标题/名字底板.png" xy="393,773" size="230,48"/>
+    <image id="n7_ywi4" name="n7" src="pc70wi" fileName="_公共--背景--栏目标题/标题底板.png" xy="68,190"/>
+    <image id="n8_ywi4" name="n8" src="u6m74e" fileName="_公共--背景--栏目标题/标题底板(1).png" xy="106,883"/>
+    <image id="n9_ywi4" name="n9" src="9th1ze" fileName="_公共--背景--栏目标题/flag_type_CompetitiveVarietyShow.png" xy="686,471"/>
+    <image id="n10_ywi4" name="n10" src="9th1zf" fileName="_公共--背景--栏目标题/flag_type_OutdoorVarietShow.png" xy="686,521"/>
+    <image id="n11_ywi4" name="n11" src="9th1zg" fileName="_公共--背景--栏目标题/flag_type_SongAndDanceShow.png" xy="686,571"/>
+    <image id="n12_ywi4" name="n12" src="9th1zh" fileName="_公共--背景--栏目标题/flag_type_TalentShow.png" xy="686,621"/>
+    <image id="n13_ywi4" name="n13" src="9th1zi" fileName="_公共--背景--栏目标题/flag_type_TalkShow.png" xy="686,671"/>
+    <image id="n14_ywi4" name="n14" src="e12kyn" fileName="_公共--背景--栏目标题/剧本选择底.png" xy="74,596"/>
+    <image id="n19_ywi4" name="n19" src="mfsp11h" fileName="_公共--背景--栏目标题/常驻嘉宾底.png" xy="86,12"/>
+    <image id="n21_ywi4" name="n21" src="mfsp127" fileName="_公共--背景--栏目标题/盖章_2.png" xy="829,187"/>
+    <image id="n22_ywi4" name="n22" src="mfsp126" fileName="_公共--背景--栏目标题/盖章_1.png" xy="830,178"/>
+    <image id="n23_ywi4" name="n23" src="ex1n113" fileName="_公共--背景--栏目标题/粉色tips.png" xy="62,282"/>
+    <image id="n24_ywi4" name="n24" src="mfsp12d" fileName="_公共--背景--栏目标题/经验底板.png" xy="408,717"/>
+    <image id="n25_ywi4" name="n25" src="e12ky8" fileName="_公共--背景--栏目标题/标题标签底板.png" xy="879,378"/>
+    <image id="n26_r1sl" name="n26" src="u6m73x" fileName="_公共--背景--栏目标题/紫色属性底板.png" xy="722,766"/>
+    <image id="n28_r1sl" name="n28" src="bcws7e" fileName="_公共--背景--栏目标题/shoot_bg_title.jpg" xy="978,617"/>
+    <image id="n29_t6bw" name="n29" src="t6bw167" fileName="_公共--背景--栏目标题/黄色底板.png" xy="62,723" size="237,96"/>
+  </displayList>
+</component>

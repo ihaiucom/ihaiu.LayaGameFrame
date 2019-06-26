@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" opaque="false">
+  <displayList>
+    <component id="n0_wl2t" name="mainMenu" src="wl2t1" fileName="GMMenuBar.xml" xy="0,0" size="750,100">
+      <relation target="" sidePair="width-width,top-top"/>
+    </component>
+    <component id="n4_fbyi" name="debugPage" src="fbyi8" fileName="GMDebugPage.xml" xy="0,100" size="750,1154" hideByEditor="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n5_c3i0" name="addPage" src="fbyi9" fileName="GMAddPage.xml" xy="0,100" size="750,1154">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n8_ket7" name="selectServerPage" src="ket7j" fileName="GMSelectServerPage.xml" xy="0,100" size="750,1154" hideByEditor="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n6_c3i0" name="closeButton" src="c3i0h" fileName="Component~NCode/ButtonRect.xml" xy="0,1254" size="750,80">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+      <Button title="关闭"/>
+    </component>
+    <graph id="n7_c3i0" name="n7" xy="0,1253" size="750,2" type="rect" lineSize="0" fillColor="#ff000000">
+      <relation target="" sidePair="top-bottom,width-width"/>
+    </graph>
+    <component id="n9_ket7" name="cmdPage" src="ket7k" fileName="GMCmdPage.xml" xy="0,100" size="750,1154" hideByEditor="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n10_x6ho" name="displayTreePage" src="x6hov" fileName="GMDisplayTreePage.xml" xy="0,100" size="750,1154" hideByEditor="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n11_7h8s" name="timeLoopPage" src="7h8s10" fileName="GMTimeLoopPage.xml" xy="0,99" size="750,1154" hideByEditor="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n12_7h8s" name="tickPage" src="7h8s12" fileName="GMTickPage.xml" xy="0,101" size="750,1154" hideByEditor="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+</component>

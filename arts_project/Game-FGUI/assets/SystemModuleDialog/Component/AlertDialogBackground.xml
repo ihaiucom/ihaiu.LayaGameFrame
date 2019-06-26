@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" initName="frame">
+  <displayList>
+    <image id="n2_ncg9" name="n2" src="l44g9z" fileName="_公用--背景--色块/纯色/0x000000FF--黑.png" pkg="g17ofscz" xy="0,-200" pivot="0.5,0.5" size="750,1734" alpha="0.35">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n3_e2wx" name="closeBtn" src="e5hk1m" fileName="Button/EmptyButton.xml" pkg="jaoapdic" xy="0,-200" size="750,1734">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+</component>

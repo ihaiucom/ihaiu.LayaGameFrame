@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImage="ui://g17ofsczwprd3j" designImageAlpha="0" adaptationTest="FitSize">
+  <controller name="page" pages="0,content,1,actor" selected="1"/>
+  <displayList>
+    <image id="n44_gpte" name="n44" src="n8bkzo" fileName="_公用--背景--色块/纯色/0x585858FF--灰.png" pkg="g17ofscz" xy="0,-282" size="750,1898" alpha="0.5">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n46_gpte" name="content" src="n9g61" fileName="Component/ActivityDay7Content.xml" xy="0,0">
+      <gearDisplay controller="page" pages="0"/>
+    </component>
+    <component id="n47_gpte" name="actor" src="n9g62" fileName="Component/ActivityDay7Actor.xml" xy="0,0">
+      <gearDisplay controller="page" pages="1"/>
+    </component>
+  </displayList>
+</component>

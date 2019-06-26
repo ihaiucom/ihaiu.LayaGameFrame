@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2001,1500">
+  <displayList>
+    <loader id="n0_mohj" name="map" xy="0,0" size="2001,1500" locked="true" url="ui://qjz790ecmohjn"/>
+    <component id="n12_mohj" name="buildingPic_01" src="b8mcb" fileName="Component~NCode/Buildings/BuildingMap_01.xml" xy="462,930" pivot="0.5,0.5" anchor="true" size="0,0">
+      <Button title="1 拍摄中心" icon="ui://66b5xydlmohjo"/>
+    </component>
+    <component id="n25_m8i6" name="buildingPic_02" src="b8mcc" fileName="Component~NCode/Buildings/BuildingMap_02.xml" xy="846,1131" pivot="0.5,0.5" anchor="true" size="0,0">
+      <Button title="2 新秀部" icon="ui://66b5xydlmohjq"/>
+    </component>
+    <component id="n26_m8i6" name="buildingPic_03" src="b8mcd" fileName="Component~NCode/Buildings/BuildingMap_03.xml" xy="714,788" pivot="0.5,0.5" anchor="true" size="0,0">
+      <Button title="3 财务部" icon="ui://66b5xydlmohjr"/>
+    </component>
+    <component id="n27_m8i6" name="buildingPic_04" src="b8mce" fileName="Component~NCode/Buildings/BuildingMap_04.xml" xy="1083,987" pivot="0.5,0.5" anchor="true" size="0,0">
+      <Button title="4 商务部" icon="ui://66b5xydlmohjt"/>
+    </component>
+    <component id="n28_m8i6" name="buildingPic_05" src="b8mcf" fileName="Component~NCode/Buildings/BuildingMap_05.xml" xy="1388,851" pivot="0.5,0.5" anchor="true" size="0,0">
+      <Button title="5 制作中心" icon="ui://66b5xydlmohju"/>
+    </component>
+    <component id="n29_m8i6" name="buildingPic_06" src="b8mcg" fileName="Component~NCode/Buildings/BuildingMap_06.xml" xy="915,619" pivot="0.5,0.5" anchor="true" size="0,0">
+      <Button title="6 周边商城" icon="ui://66b5xydlmohjv"/>
+    </component>
+    <component id="n30_m8i6" name="buildingPic_07" src="b8mch" fileName="Component~NCode/Buildings/BuildingMap_07.xml" xy="1281,711" pivot="0.5,0.5" anchor="true" size="0,0">
+      <Button title="7 训练营" icon="ui://66b5xydlmohjw"/>
+    </component>
+    <component id="n31_m8i6" name="buildingPic_08" src="b8mci" fileName="Component~NCode/Buildings/BuildingMap_08.xml" xy="730,393" pivot="0.5,0.5" anchor="true" size="0,0">
+      <Button title="8 宣传部" icon="ui://66b5xydlmohjx"/>
+    </component>
+    <component id="n32_m8i6" name="buildingPic_09" src="b8mcj" fileName="Component~NCode/Buildings/BuildingMap_09.xml" xy="1307,395" pivot="0.5,0.5" anchor="true" size="0,0">
+      <Button title="9 培训部" icon="ui://66b5xydlmohjy"/>
+    </component>
+    <component id="n33_b8mc" name="buildingName_09" src="mohj1" fileName="Component~NCode/BuildingName.xml" xy="1292,406" touchable="false">
+      <Label title="9 培训部"/>
+    </component>
+    <component id="n34_b8mc" name="buildingName_08" src="mohj1" fileName="Component~NCode/BuildingName.xml" xy="703,388" touchable="false">
+      <Label title="8 宣传部"/>
+    </component>
+    <component id="n35_b8mc" name="buildingName_07" src="mohj1" fileName="Component~NCode/BuildingName.xml" xy="1268,732" touchable="false">
+      <Label title="7 训练营"/>
+    </component>
+    <component id="n36_b8mc" name="buildingName_06" src="mohj1" fileName="Component~NCode/BuildingName.xml" xy="894,627" touchable="false">
+      <Label title="6 周边商城"/>
+    </component>
+    <component id="n37_b8mc" name="buildingName_05" src="mohj1" fileName="Component~NCode/BuildingName.xml" xy="1368,864" touchable="false">
+      <Label title="5 制作中心"/>
+    </component>
+    <component id="n38_b8mc" name="buildingName_03" src="mohj1" fileName="Component~NCode/BuildingName.xml" xy="701,795" touchable="false">
+      <Label title="3 财务部&#xD;"/>
+    </component>
+    <component id="n39_b8mc" name="buildingName_04" src="mohj1" fileName="Component~NCode/BuildingName.xml" xy="1084,985" touchable="false">
+      <Label title="4 商务部&#xD;"/>
+    </component>
+    <component id="n40_b8mc" name="buildingName_02" src="mohj1" fileName="Component~NCode/BuildingName.xml" xy="862,1154" touchable="false">
+      <Label title="2 新秀部&#xD;"/>
+    </component>
+    <component id="n41_b8mc" name="buildingName_01" src="mohj1" fileName="Component~NCode/BuildingName.xml" xy="461,928" touchable="false">
+      <Label title="1 拍摄中心&#xD;"/>
+    </component>
+  </displayList>
+</component>

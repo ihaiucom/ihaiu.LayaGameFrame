@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,13" extention="ProgressBar" designImage="ui://qjz790ecmfspzr" designImageOffsetX="-200" designImageOffsetY="-412" designImageAlpha="0">
+  <displayList>
+    <image id="n1_ncg9" name="n0" src="mfsp12f" fileName="_公用--进度条/经验条底板.png" pkg="g17ofscz" xy="0,-1" size="97,15">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n0_ncg9" name="bar" src="mfsp12e" fileName="_公用--进度条/经验条.png" pkg="g17ofscz" xy="3,2" size="90,9"/>
+    <image id="n7_ipdk" name="bar1" src="ipdk15s" fileName="_公用--进度条/经验条渐变.png" pkg="g17ofscz" xy="0,0" size="100,13" alpha="0.5">
+      <relation target="n0_ncg9" sidePair="width-width"/>
+    </image>
+    <image id="n8_ipdk" name="bar2" src="fa3912r" fileName="_公用--线/竖线--大小14--白.png" pkg="g17ofscz" xy="84,2" size="14,8">
+      <relation target="n0_ncg9" sidePair="right-right"/>
+    </image>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

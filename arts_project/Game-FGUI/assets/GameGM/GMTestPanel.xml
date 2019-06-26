@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" overflow="scroll">
+  <displayList>
+    <image id="n5_qfds" name="n5" src="kplq87" fileName="_公用--背景--色块/纯色/0xFFFFFFFF--白.png" pkg="g17ofscz" xy="0,0" size="750,1334"/>
+    <component id="n4_qfds" name="content" src="qfds14" fileName="GMTestPanelContent.xml" xy="0,0" size="750,1334" touchable="false">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="206,109" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_t52g" name="n0" src="t6bw167" fileName="_公共--背景--栏目标题/黄色底板.png" pkg="g17ofscz" xy="2,0" size="201,97" rotation="4"/>
+    <image id="n1_t52g" name="n1" src="t6bw15t" fileName="_公用--标识和图标/别针.png" pkg="g17ofscz" xy="94,-2"/>
+    <text id="n2_t52g" name="n2" xy="28,33" size="149,39" rotation="4" fontSize="35" color="#ffffff" text="我的情报"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.97"/>
+</component>

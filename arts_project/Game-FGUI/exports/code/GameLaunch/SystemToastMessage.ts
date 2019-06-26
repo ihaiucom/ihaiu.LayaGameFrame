@@ -4,7 +4,7 @@
 
 export default class SystemToastMessage extends fairygui.GComponent {
 
-	public _title:fairygui.GRichTextField;
+	public _title:fairygui.GTextField;
 
 	public static URL:string = "ui://47qsdr42nk8t3";
 
@@ -19,6 +19,6 @@ export default class SystemToastMessage extends fairygui.GComponent {
 	protected constructFromXML(xml: any): void {
 		super.constructFromXML(xml);
 
-		this._title = <fairygui.GRichTextField><any>(this.getChildAt(1));
+		this._title = <fairygui.GTextField><any>(this.getChildAt(2));
 	}
 }

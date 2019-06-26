@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" pivot="0.5,0.5" anchor="true">
+  <displayList>
+    <loader id="n30_la1j" name="actor_0" xy="-91,-34" size="700,1274" scale="0.8,0.8" filter="color" filterData="0.00,-0.30,-0.30,0.00" url="ui://qjz790ecl291g" align="center" vAlign="bottom" fill="scaleMatchHeight"/>
+    <loader id="n31_la1j" name="actor_1" xy="154,11" size="700,1274" scale="0.8,0.8" filter="color" filterData="0.00,-0.30,-0.30,0.00" url="ui://qjz790ecl291j" align="center" vAlign="bottom" fill="scaleMatchHeight"/>
+    <loader id="n32_la1j" name="actor_2" xy="-10,133" size="700,1274" scale="0.9,0.9" filter="color" filterData="0.00,-0.20,-0.10,0.00" url="ui://qjz790ecl291k" align="center" vAlign="bottom" fill="scaleMatchHeight"/>
+    <loader id="n33_la1j" name="actor_3" xy="254,35" size="700,1274" scale="0.9,0.9" filter="color" filterData="0.00,-0.20,-0.10,0.00" url="ui://qjz790ecl291g" align="center" vAlign="bottom" fill="scaleMatchHeight"/>
+    <loader id="n35_la1j" name="actor_4" xy="44,244" size="700,1274" url="ui://qjz790ecl291j" align="center" vAlign="bottom" fill="scaleMatchHeight"/>
+    <component id="n36_la1j" name="actorName_0" src="la1j1s" fileName="Share/StudioShareActorName.xml" xy="26,129" controller="state,1"/>
+    <component id="n37_la1j" name="actorName_1" src="la1j1s" fileName="Share/StudioShareActorName.xml" xy="136,254" controller="state,1"/>
+    <component id="n38_la1j" name="actorName_2" src="la1j1s" fileName="Share/StudioShareActorName.xml" xy="476,52" controller="state,1"/>
+    <component id="n39_la1j" name="actorName_3" src="la1j1s" fileName="Share/StudioShareActorName.xml" xy="631,247" controller="state,1"/>
+    <component id="n40_la1j" name="actorName_4" src="la1j1s" fileName="Share/StudioShareActorName.xml" xy="460,405" controller="state,0"/>
+  </displayList>
+</component>

@@ -1,0 +1,48 @@
+
+StudioNpc.png
+size: 962,960
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pnc
+  rotate: false
+  xy: 2, 280
+  size: 318, 338
+  orig: 318, 338
+  offset: 0, 0
+  index: -1
+pncBY
+  rotate: false
+  xy: 322, 620
+  size: 318, 338
+  orig: 318, 338
+  offset: 0, 0
+  index: -1
+pncBZ
+  rotate: false
+  xy: 322, 280
+  size: 318, 338
+  orig: 318, 338
+  offset: 0, 0
+  index: -1
+pncSB
+  rotate: false
+  xy: 2, 620
+  size: 318, 338
+  orig: 318, 338
+  offset: 0, 0
+  index: -1
+pncZY
+  rotate: false
+  xy: 642, 620
+  size: 318, 338
+  orig: 318, 338
+  offset: 0, 0
+  index: -1
+pncZZ
+  rotate: false
+  xy: 642, 280
+  size: 318, 338
+  orig: 318, 338
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="118,112" extention="Button">
+  <controller name="state" exported="true" pages="0,normal,1,lock" selected="0">
+    <remark page="0" value="普通"/>
+    <remark page="1" value="未解锁"/>
+  </controller>
+  <displayList>
+    <loader id="n1" name="icon" xy="0,0" pivot="0.5,0.8" size="121,115" url="ui://qjz790eckrdk16" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n6_c0r2" name="lock" src="szhv5" fileName="icon_lock_login.png" pkg="vb0p0v1s" xy="44,-7" size="30,30">
+      <gearDisplay controller="state" pages="1"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+</component>

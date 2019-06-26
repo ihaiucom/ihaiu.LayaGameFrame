@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1280" adaptationTest="FitSize">
+  <controller name="boxHeightCtrl" exported="true" pages="0,,1," selected="1"/>
+  <displayList>
+    <loader id="n20_pf6a" name="bg" xy="-2,-355" size="754,1991" url="ui://g17ofsczwx7c15k" fill="scaleFree">
+      <relation target="" sidePair="width-width"/>
+    </loader>
+    <image id="n13_pf6a" name="n13" src="wpxm7k" fileName="_公用--背景/小弹窗底板1.png" pkg="g17ofscz" xy="-2,269" pivot="0.5,0.5" size="759,766" group="n17_pf6a" rotation="-2.4"/>
+    <image id="n14_pf6a" name="n14" src="wpxm7l" fileName="_公用--背景/小弹窗底板2.png" pkg="g17ofscz" xy="-2,272" pivot="0.5,0.5" size="754,761" group="n17_pf6a"/>
+    <image id="n15_pf6a" name="n15" src="wpxm7m" fileName="_公用--背景/小弹窗底板3.png" pkg="g17ofscz" xy="10,284" pivot="0.5,0.5" size="731,657" group="n17_pf6a"/>
+    <group id="n17_pf6a" name="n17" xy="-2,269" size="759,766" advanced="true">
+      <gearXY controller="boxHeightCtrl" pages="0,1" values="-2,269|-2,269"/>
+      <gearSize controller="boxHeightCtrl" pages="0,1" values="759,398,1,1|759,766,1,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <image id="n18_pf6a" name="n18" src="pf6a16k" fileName="_公用--背景--不规则/获得物品底板.png" pkg="g17ofscz" xy="375,281" pivot="0.5,0.5" anchor="true">
+      <relation target="n17_pf6a" sidePair="top-top"/>
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <text id="n19_pf6a" name="n19" xy="374,288" pivot="0.5,0.5" anchor="true" size="195,64" rotation="-2" font="ui://vi9240by5kbu1g" fontSize="28" color="#ffffff" align="center" vAlign="middle" text="获得物品">
+      <relation target="n18_pf6a" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n16_pf6a" name="confirmBtn" src="wpxmw3" fileName="Button/StudioRenameButton.xml" pkg="jaoapdic" xy="222,950" size="306,86">
+      <relation target="n15_pf6a" sidePair="bottom-bottom"/>
+      <relation target="" sidePair="center-center"/>
+      <Button title="解析"/>
+    </component>
+    <list id="n1_hh76" name="list" xy="14,370" size="725,542" layout="flow_hz" selectionMode="none" overflow="scroll" lineGap="18" colGap="8" lineItemCount="2" defaultItem="ui://jaoapdickchlf" align="center" autoClearItems="true">
+      <gearXY controller="boxHeightCtrl" pages="0,1" values="15,350|14,370"/>
+      <gearSize controller="boxHeightCtrl" pages="0,1" values="725,96,1,1|725,542,1,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item controllers="button,0,isNew,0"/>
+      <item controllers="button,0,isNew,0"/>
+      <item controllers="button,0,isNew,0"/>
+      <item url="ui://jaoapdicldd9xk" controllers="button,0,isNew,0"/>
+      <item url="ui://jaoapdicognsm" controllers="button,0,isNew,0"/>
+    </list>
+  </displayList>
+</component>

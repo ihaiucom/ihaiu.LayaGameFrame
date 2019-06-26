@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="128,183" opaque="false">
+  <displayList>
+    <image id="n2_z8b5" name="bg" src="e5hk4u" fileName="screen_333.png" pkg="vb0p0v1s" xy="-11,-10" pivot="0.5,0.5" size="150,203" alpha="0" blend="screen"/>
+    <image id="n4_z8b5" name="n4" src="e5hk4v" fileName="screen_444.png" pkg="vb0p0v1s" xy="-5,-8" pivot="0.5,0.5" size="137,200" alpha="0" blend="add"/>
+    <image id="n5_z8b5" name="n5" src="e5hk4v" fileName="screen_444.png" pkg="vb0p0v1s" xy="-9,151" pivot="0.5,0.5" size="146,33" alpha="0" blend="add"/>
+    <image id="n7_z8b5" name="n7" src="e5hk4w" fileName="screen_555.png" pkg="vb0p0v1s" xy="-22,-21" pivot="0.5,0.5" size="169,223" alpha="0" blend="multiply"/>
+    <image id="n8_z8b5" name="n8" src="e5hk4v" fileName="screen_444.png" pkg="vb0p0v1s" xy="-6,152" pivot="0.5,0.5" size="140,31" alpha="0" blend="add"/>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Alpha" target="n2_z8b5" value="1"/>
+    <item time="0" type="Alpha" target="n4_z8b5" value="0"/>
+    <item time="0" type="Alpha" target="n7_z8b5" tween="true" startValue="0.53" endValue="0" duration="3" ease="Linear"/>
+    <item time="0" type="Scale" target="n4_z8b5" value="1,1"/>
+    <item time="0" type="Scale" target="n7_z8b5" tween="true" startValue="1.04,1.04" endValue="0.62,0.66" duration="3" ease="Linear"/>
+    <item time="0" type="Scale" target="n8_z8b5" value="1,1"/>
+    <item time="3" type="Alpha" target="n2_z8b5" tween="true" startValue="1" endValue="0.88" duration="2"/>
+    <item time="3" type="Scale" target="n2_z8b5" tween="true" startValue="0.88,0.88" endValue="0.7,0.7" duration="4"/>
+    <item time="5" type="Alpha" target="n2_z8b5" tween="true" startValue="0.88" endValue="0" duration="2"/>
+    <item time="6" type="Alpha" target="n4_z8b5" tween="true" startValue="0.17" endValue="0.62" duration="3"/>
+    <item time="6" type="Scale" target="n4_z8b5" tween="true" startValue="1.04,0.13" endValue="1.07,0.68" duration="3"/>
+    <item time="9" type="Alpha" target="n4_z8b5" tween="true" startValue="0.62" endValue="0.81" duration="2"/>
+    <item time="9" type="Scale" target="n4_z8b5" tween="true" startValue="1.07,0.68" endValue="1.15,1.1" duration="2"/>
+    <item time="11" type="Alpha" target="n4_z8b5" tween="true" startValue="0.81" endValue="0" duration="3" ease="Linear"/>
+    <item time="11" type="Scale" target="n4_z8b5" tween="true" startValue="1.15,1.1" endValue="1.16,1.1" duration="3" ease="Linear"/>
+    <item time="14" type="Alpha" target="n8_z8b5" tween="true" startValue="0.18" endValue="0.36" duration="5"/>
+    <item time="14" type="Scale" target="n8_z8b5" tween="true" startValue="1.12,1" endValue="1.02,3.7" duration="5"/>
+    <item time="14" type="XY" target="n8_z8b5" tween="true" startValue="-6,156" endValue="-6,112" duration="5"/>
+    <item time="19" type="Alpha" target="n8_z8b5" tween="true" startValue="0.36" endValue="0.5" duration="5"/>
+    <item time="19" type="Scale" target="n8_z8b5" tween="true" startValue="1.02,3.7" endValue="1.02,2.74" duration="5"/>
+    <item time="19" type="XY" target="n8_z8b5" tween="true" startValue="-6,112" endValue="-6,26" duration="5"/>
+    <item time="24" type="Alpha" target="n8_z8b5" tween="true" startValue="0.5" endValue="0" duration="5"/>
+    <item time="24" type="Scale" target="n8_z8b5" tween="true" startValue="1.02,2.74" endValue="1,0.51" duration="5"/>
+    <item time="24" type="XY" target="n8_z8b5" tween="true" startValue="-6,26" endValue="-6,-7" duration="5"/>
+  </transition>
+</component>

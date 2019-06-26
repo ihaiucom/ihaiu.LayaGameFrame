@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" extention="Label">
+  <displayList>
+    <component id="n0_ncg9" name="n1" src="ncg9m" fileName="Component/AlertDialogBackground.xml" xy="0,0" size="720,1280">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n3_ncg9" name="frame" src="ncg91" fileName="Component/BaseAlertDialog.xml" xy="23,343" size="675,410" group="n7_e5hk">
+      <Label title="物品使用" titleColor="#000000"/>
+    </component>
+    <text id="n6_e5hk" name="content" xy="36,481" size="648,39" group="n7_e5hk" fontSize="28" color="#488fc1" align="center" vAlign="middle" autoSize="none" text="物品使用数量"/>
+    <component id="n1_ncg9" name="yesBtn" src="o3xj0" fileName="Button/YellowButton.xml" pkg="jaoapdic" xy="248,653" group="n7_e5hk">
+      <relation target="n3_ncg9" sidePair="bottom-bottom,center-center"/>
+      <Button title="是"/>
+    </component>
+    <component id="n4_ncg9" name="slider" src="ncg9s" fileName="ProgressBar/Slider.xml" pkg="jaoapdic" xy="62,538" group="n7_e5hk">
+      <Slider value="2" max="10"/>
+    </component>
+    <group id="n7_e5hk" name="contentGroup" xy="23,343" size="675,410" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,541">
+  <displayList>
+    <image id="n49_mfsp" name="n49" src="mfsp12a" fileName="拍摄/收益结算/大底板.png" pkg="g17ofscz" xy="0,0" size="750,541">
+      <relation target="" sidePair="width-width"/>
+    </image>
+  </displayList>
+</component>

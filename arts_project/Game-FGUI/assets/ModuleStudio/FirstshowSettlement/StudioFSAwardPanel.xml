@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="659,429" designImage="ui://qjz790ecmfspzr" designImageOffsetX="36" designImageOffsetY="-432" designImageAlpha="0">
+  <displayList>
+    <component id="n19_iphd" name="item0" src="u6m71a" fileName="IconItem/RewardItem.xml" pkg="4snov4n9" xy="84,100" pivot="0.5,0.5" anchor="true" group="n27_e9ra"/>
+    <component id="n20_iphd" name="item1" src="u6m71a" fileName="IconItem/RewardItem.xml" pkg="4snov4n9" xy="173,1" group="n27_e9ra"/>
+    <component id="n21_iphd" name="item2" src="u6m71a" fileName="IconItem/RewardItem.xml" pkg="4snov4n9" xy="339,1" group="n27_e9ra"/>
+    <component id="n22_iphd" name="item3" src="u6m71a" fileName="IconItem/RewardItem.xml" pkg="4snov4n9" xy="505,0" group="n27_e9ra"/>
+    <group id="n27_e9ra" name="n27" xy="7,0" size="652,202" advanced="true" layout="hz" colGap="12"/>
+    <component id="n23_iphd" name="item4" src="u6m71a" fileName="IconItem/RewardItem.xml" pkg="4snov4n9" xy="0,227" group="n28_e9ra"/>
+    <component id="n24_iphd" name="item5" src="u6m71a" fileName="IconItem/RewardItem.xml" pkg="4snov4n9" xy="166,226" group="n28_e9ra"/>
+    <component id="n25_iphd" name="item6" src="u6m71a" fileName="IconItem/RewardItem.xml" pkg="4snov4n9" xy="332,229" group="n28_e9ra"/>
+    <component id="n26_iphd" name="item7" src="u6m71a" fileName="IconItem/RewardItem.xml" pkg="4snov4n9" xy="498,229" group="n28_e9ra"/>
+    <group id="n28_e9ra" name="n28" xy="0,226" size="652,203" advanced="true" layout="hz" colGap="12"/>
+  </displayList>
+</component>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="vi9240by" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="aqhja" name="Font_FangzhengChuqian_30_Blue_atlas.png" path="/"/>
+    <font id="aqhj9" name="Font_FangzhengChuqian_30_Blue.fnt" path="/" exported="true" texture="aqhja"/>
+    <image id="aqhjb" name="Font_FangzhengChuqian_30_Blue.png" path="/"/>
+    <image id="aqhjd" name="Font_FangzhengChuqian_30_Yellow_atlas.png" path="/"/>
+    <font id="aqhjc" name="Font_FangzhengChuqian_30_Yellow.fnt" path="/" exported="true" texture="aqhjd"/>
+    <image id="aqhje" name="Font_FangzhengChuqian_30_Yellow.png" path="/"/>
+    <image id="ipdkz" name="Number_FangzhengChuqian_80_Yellow_atlas.png" path="/"/>
+    <font id="ipdky" name="Number_FangzhengChuqian_80_Yellow.fnt" path="/" exported="true" texture="ipdkz"/>
+    <image id="ipdk10" name="Number_FangzhengChuqian_80_Yellow.png" path="/"/>
+    <image id="t8drwg" name="0.png" path="/Number_BuildingLevelFont/" exported="true"/>
+    <image id="t8drwh" name="1.png" path="/Number_BuildingLevelFont/" exported="true"/>
+    <image id="t8drwi" name="2.png" path="/Number_BuildingLevelFont/" exported="true"/>
+    <image id="t8drwj" name="3.png" path="/Number_BuildingLevelFont/" exported="true"/>
+    <image id="t8drwk" name="4.png" path="/Number_BuildingLevelFont/" exported="true"/>
+    <image id="t8drwl" name="5.png" path="/Number_BuildingLevelFont/" exported="true"/>
+    <image id="t8drwm" name="6.png" path="/Number_BuildingLevelFont/" exported="true"/>
+    <image id="t8drwn" name="7.png" path="/Number_BuildingLevelFont/" exported="true"/>
+    <image id="t8drwo" name="8.png" path="/Number_BuildingLevelFont/" exported="true"/>
+    <image id="t8drwp" name="9.png" path="/Number_BuildingLevelFont/" exported="true"/>
+    <image id="m5zowt" name="0.png" path="/Number_BuildingLevelFontBlod/" exported="true"/>
+    <image id="m5zowu" name="1.png" path="/Number_BuildingLevelFontBlod/" exported="true"/>
+    <image id="m5zowv" name="2.png" path="/Number_BuildingLevelFontBlod/" exported="true"/>
+    <image id="m5zoww" name="3.png" path="/Number_BuildingLevelFontBlod/" exported="true"/>
+    <image id="m5zowx" name="4.png" path="/Number_BuildingLevelFontBlod/" exported="true"/>
+    <image id="m5zowy" name="5.png" path="/Number_BuildingLevelFontBlod/" exported="true"/>
+    <image id="m5zowz" name="6.png" path="/Number_BuildingLevelFontBlod/" exported="true"/>
+    <image id="m5zox0" name="7.png" path="/Number_BuildingLevelFontBlod/" exported="true"/>
+    <image id="m5zox1" name="8.png" path="/Number_BuildingLevelFontBlod/" exported="true"/>
+    <image id="m5zox2" name="9.png" path="/Number_BuildingLevelFontBlod/" exported="true"/>
+    <image id="m5zox5" name="：.png" path="/Number_BuildingLevelFontBlod/" exported="true"/>
+    <font id="t8drwf" name="Number_BuildingLevelFont.fnt" path="/" exported="true"/>
+    <font id="m5zows" name="Number_BuildingLevelFontBlod.fnt" path="/" exported="true"/>
+    <image id="5kbu18" name="Number_FangzhengChuqian_110_Red_atlas.png" path="/"/>
+    <font id="5kbu17" name="Number_FangzhengChuqian_110_Red.fnt" path="/" exported="true" texture="5kbu18"/>
+    <image id="5kbu19" name="Number_FangzhengChuqian_110_Red.png" path="/"/>
+    <image id="5kbu1b" name="Font_FangzhengChuqian_42_White_Edge_atlas.png" path="/"/>
+    <font id="5kbu1a" name="Font_FangzhengChuqian_42_White_Edge.fnt" path="/" exported="true" texture="5kbu1b"/>
+    <image id="5kbu1c" name="Font_FangzhengChuqian_42_White_Edge.png" path="/"/>
+    <font id="5kbu1g" name="Font_FangzhengChuqian_50_White.fnt" path="/" exported="true" texture="5kbu1h"/>
+    <image id="5kbu1i" name="Font_FangzhengChuqian_50_White.png" path="/"/>
+    <image id="5kbu1k" name="Font_FangzhengChuqian_35_White_Shadow_atlas.png" path="/"/>
+    <font id="5kbu1j" name="Font_FangzhengChuqian_35_White_Shadow.fnt" path="/" exported="true" texture="5kbu1k"/>
+    <image id="5kbu1l" name="Font_FangzhengChuqian_35_White_Shadow.png" path="/"/>
+    <image id="kmxd1q" name="Font_FangzhengChuqian_105_Artist_atlas.png" path="/"/>
+    <font id="kmxd1p" name="Font_FangzhengChuqian_105_Artist.fnt" path="/" exported="true" texture="kmxd1q"/>
+    <image id="kmxd1r" name="Font_FangzhengChuqian_105_Artist.png" path="/"/>
+    <image id="kmxd1t" name="Font_FangzhengChuqian_40_White_Blue_atlas.png" path="/"/>
+    <font id="kmxd1s" name="Font_FangzhengChuqian_40_White_Blue.fnt" path="/" exported="true" texture="kmxd1t"/>
+    <image id="kmxd1u" name="Font_FangzhengChuqian_40_White_Blue.png" path="/"/>
+    <image id="vaoux7" name="Number_SZ_04b_03b_42_White_atlas.png" path="/"/>
+    <font id="vaoux6" name="Number_SZ_04b_03b_42_White.fnt" path="/" exported="true" texture="vaoux7"/>
+    <image id="vaoux8" name="Number_SZ_04b_03b_42_White.png" path="/"/>
+    <image id="5kbu1h" name="Font_FangzhengChuqian_50_White_atlas.png" path="/"/>
+    <image id="qpwoxa" name="Font_FangzhengChuqian_35_White_atlas.png" path="/"/>
+    <font id="qpwox9" name="Font_FangzhengChuqian_35_White.fnt" path="/" exported="true" texture="qpwoxa"/>
+    <image id="qpwoxb" name="Font_FangzhengChuqian_35_White.png" path="/"/>
+    <image id="oj2oxf" name="Font_FangzhengChuqian_48_White_Blue_atlas.png" path="/"/>
+    <font id="oj2oxe" name="Font_FangzhengChuqian_48_White_Blue.fnt" path="/" exported="true" texture="oj2oxf"/>
+    <image id="oj2oxg" name="Font_FangzhengChuqian_48_White_Blue.png" path="/"/>
+  </resources>
+  <publish name="_ResFont"/>
+</packageDescription>

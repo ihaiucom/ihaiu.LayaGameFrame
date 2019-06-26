@@ -1,0 +1,15 @@
+{
+  "autoEnd": false,
+  "cmd": "rename",
+  "setting": "./SpineSkinSetting.json",
+  "rootEditor": "E:/zengfeng/GamePF/gamepf_art/Animation/SpineWorkspace/Editor",
+  "rootImages": "E:/zengfeng/GamePF/gamepf_art/Animation/SpineWorkspace/Images",
+  "rootLib": "E:/zengfeng/GamePF/gamepf_art/Animation/SpineWorkspace/Lib",
+  "rootGenerates": "E:/zengfeng/GamePF/gamepf_art/Animation/SpineWorkspace/Generates",
+  "useGenerate": true,
+  "exportSpineBat": "E:/zengfeng/GamePF/gamepf_art/Animation/SpineWorkspace/exportspine.bat",
+  "rootExportSpine": "E:/zengfeng/GamePF/gamepf_art/Animation/SpineWorkspace/ExportSpine",
+  "exportSpineSettingJson": "E:/zengfeng/GamePF/gamepf_art/Animation/SpineWorkspace/laya.export.json",
+  "rootExportSK": "E:/zengfeng/GamePF/gamepf_art/Animation/SpineWorkspace/ExportSK",
+  "rootExportSpineRes": "E:/zengfeng/GamePF/gamepf_art/Animation/SpineWorkspace/ExportSKRes/Unit"
+}

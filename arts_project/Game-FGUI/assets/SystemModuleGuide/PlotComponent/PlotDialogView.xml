@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n9_wcyo" name="info" src="wcyo8" fileName="PlotComponent/PlotDialogInfo.xml" xy="0,233">
+      <relation target="" sidePair="width-width,bottom-middle"/>
+    </component>
+    <component id="n3_wcyo" name="buttonDialog" src="wcyo4" fileName="PlotComponent/PlotDialogButton.xml" xy="0,1034">
+      <relation target="" sidePair="width-width,bottom-middle"/>
+    </component>
+  </displayList>
+</component>

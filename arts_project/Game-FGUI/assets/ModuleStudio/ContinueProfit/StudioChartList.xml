@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="523,150">
+  <displayList>
+    <component id="n56_9gob" name="item0" src="vjljx7" fileName="ProgressBar/ChartProgressBar.xml" pkg="jaoapdic" xy="21,0">
+      <ProgressBar max="100"/>
+    </component>
+    <component id="n57_9gob" name="item1" src="vjljx7" fileName="ProgressBar/ChartProgressBar.xml" pkg="jaoapdic" xy="93,0">
+      <ProgressBar max="100"/>
+    </component>
+    <component id="n58_9gob" name="item2" src="vjljx7" fileName="ProgressBar/ChartProgressBar.xml" pkg="jaoapdic" xy="165,0">
+      <ProgressBar max="100"/>
+    </component>
+    <component id="n59_9gob" name="item3" src="vjljx7" fileName="ProgressBar/ChartProgressBar.xml" pkg="jaoapdic" xy="237,0">
+      <ProgressBar max="100"/>
+    </component>
+    <component id="n60_9gob" name="item4" src="vjljx7" fileName="ProgressBar/ChartProgressBar.xml" pkg="jaoapdic" xy="309,0">
+      <ProgressBar max="100"/>
+    </component>
+    <component id="n61_9gob" name="item5" src="vjljx7" fileName="ProgressBar/ChartProgressBar.xml" pkg="jaoapdic" xy="381,0">
+      <ProgressBar max="100"/>
+    </component>
+    <component id="n62_9gob" name="item6" src="vjljx7" fileName="ProgressBar/ChartProgressBar.xml" pkg="jaoapdic" xy="453,0">
+      <ProgressBar max="100"/>
+    </component>
+  </displayList>
+</component>

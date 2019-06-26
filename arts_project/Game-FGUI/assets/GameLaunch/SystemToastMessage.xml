@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="720,90">
   <displayList>
-    <loader id="n0_f84s" name="n0" xy="18,-3" pivot="0,0.5" size="684,97" url="ui://47qsdr42f84sl" align="center" vAlign="middle" fill="scaleFree"/>
-    <richtext id="n1_f84s" name="title" xy="49,11" pivot="0.5,0.5" size="622,67" fontSize="24" color="#e3f8ff" align="center" vAlign="middle" ubb="true" autoSize="none" text="DDD"/>
+    <loader id="n0_f84s" name="n0" xy="0,0" size="720,90" visible="false" url="ui://g17ofsczwpxm7q" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n2_m49l" name="n2" src="ex1n113" fileName="拍摄/事件选择/粉色tips.png" pkg="g17ofscz" xy="0,0" size="720,90">
+      <relation target="" sidePair="height-height"/>
+    </image>
+    <text id="n1_f84s" name="title" xy="49,32" pivot="0.5,0.5" size="622,31" fontSize="32" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="《创造101》第一期">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
   </displayList>
 </component>

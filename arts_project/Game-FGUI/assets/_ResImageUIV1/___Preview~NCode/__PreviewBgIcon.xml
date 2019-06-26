@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="3361,1402">
+  <displayList>
+    <graph id="n31_k5sp" name="n31" xy="0,0" size="3361,1402" locked="true" type="rect" fillColor="#ff666666">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <image id="n0_k5sp" name="n0" src="i3pq2a" fileName="_公用--背景-框/script_bg_frame.png" xy="323,191"/>
+    <image id="n1_k5sp" name="n1" src="e2wx7r" fileName="_公用--背景-框/script_bg_frame_glod.png" xy="342,529"/>
+    <image id="n2_k5sp" name="n2" src="cwvwzq" fileName="_公用--背景-框/渐变线.png" xy="2991,146" size="127,136"/>
+    <image id="n3_k5sp" name="n3" src="mfsp12h" fileName="_公用--背景-框/道具底板.png" xy="2497,183"/>
+    <image id="n6_k5sp" name="n6" src="e12kxm" fileName="_公用--背景-框/男性艺人位.png" xy="1023,384"/>
+    <image id="n7_k5sp" name="n7" src="e12kxn" fileName="_公用--背景-框/女性艺人位.png" xy="1021,593"/>
+    <image id="n8_k5sp" name="n8" src="ex1n10w" fileName="_公用--背景-框/特邀头像框.png" xy="1421,375" size="117,128"/>
+    <image id="n9_k5sp" name="n9" src="ex1n10t" fileName="_公用--背景-框/头像框.png" xy="1419,206" size="107,135"/>
+    <image id="n10_k5sp" name="n10" src="e12kxp" fileName="_公用--背景-框/无头像艺人位.png" xy="1035,807"/>
+    <image id="n11_k5sp" name="n11" src="e12kxs" fileName="_公用--背景-框/选中框.png" xy="1417,553" size="138,129"/>
+    <image id="n12_k5sp" name="n12" src="ex1nzx" fileName="_公用--背景--不规则/艺人等级黑色半透底.png" xy="1236,360" size="70,42"/>
+    <image id="n13_k5sp" name="n13" src="ex1nzx" fileName="_公用--背景--不规则/艺人等级黑色半透底.png" xy="1240,294" size="117,42"/>
+    <image id="n14_k5sp" name="n14" src="mfsp12k" fileName="_公用--背景-框/艺人位.png" xy="1022,188"/>
+    <image id="n15_k5sp" name="n15" src="cwvwzq" fileName="_公用--背景-框/渐变线.png" xy="2983,337" size="128,172"/>
+    <image id="n16_k5sp" name="n16" src="jp8r3" fileName="_公用--背景-框/头像框(1).png" xy="1851,149"/>
+    <image id="n17_k5sp" name="n17" src="jp8r4" fileName="_公用--背景-框/头像框_1.png" xy="2046,152"/>
+    <text id="n18_k5sp" name="n18" xy="282,63" size="314,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="Icon框--剧本"/>
+    <text id="n19_k5sp" name="n19" xy="1051,54" size="416,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="Icon框--艺人头像"/>
+    <text id="n20_k5sp" name="n20" xy="1845,44" size="416,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="Icon框--玩家头像"/>
+    <image id="n21_k5sp" name="n21" src="kplq85" fileName="_公用--背景-框/海报上面底板.png" xy="565,378"/>
+    <text id="n22_k5sp" name="n22" xy="41,290" size="209,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="普通剧本"/>
+    <text id="n23_k5sp" name="n23" xy="139,648" size="107,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="金本"/>
+    <text id="n24_k5sp" name="n24" xy="2459,47" size="314,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="Icon框--物品"/>
+    <image id="n25_k5sp" name="n25" src="mfsp12i" fileName="_公用--背景--不规则/道具数量半透底.png" xy="2707,277"/>
+    <text id="n26_k5sp" name="n26" xy="891,240" size="107,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="空位"/>
+    <text id="n27_k5sp" name="n27" xy="851,438" size="158,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="空位男"/>
+    <text id="n28_k5sp" name="n28" xy="859,638" size="158,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="空位女"/>
+    <text id="n29_k5sp" name="n29" xy="860,858" size="158,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="未解锁"/>
+    <text id="n30_k5sp" name="n30" xy="2970,33" size="158,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="其他框"/>
+    <image id="n32_t6bw" name="n32" src="t6bw15z" fileName="_公用--背景-框/半框_粉.png" xy="2935,538" size="218,144"/>
+    <image id="n33_t6bw" name="n33" src="t6bw15y" fileName="_公用--背景-框/半框_灰.png" xy="2952,727" size="213,141"/>
+  </displayList>
+</component>

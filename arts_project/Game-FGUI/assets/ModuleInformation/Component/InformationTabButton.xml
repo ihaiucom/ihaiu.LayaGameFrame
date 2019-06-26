@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,65" extention="Button">
+  <controller name="button" exported="true" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n27_kchl" name="n27" xy="0,0" size="200,65" url="ui://g17ofsczt6bw15s" fill="scaleFree">
+      <gearIcon controller="button" pages="0,1,3" values="ui://g17ofsczt6bw15s|ui://g17ofsczt6bw15r|ui://g17ofsczt6bw15r" default="ui://g17ofsczt6bw15s"/>
+    </loader>
+    <text id="n29_kchl" name="title" xy="27,13" size="146,39" fontSize="35" color="#ffffff" align="center" vAlign="middle" text="普通解析"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

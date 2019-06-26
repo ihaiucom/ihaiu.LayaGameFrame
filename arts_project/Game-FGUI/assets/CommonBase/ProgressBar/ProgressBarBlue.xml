@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="322,32" overflow="hidden" extention="ProgressBar">
+  <displayList>
+    <image id="n0_fawn" name="n0" src="nnux6e" fileName="bar_blue_bg.png" pkg="vb0p0v1s" xy="0,0" size="322,32">
+      <relation target="" sidePair="width-width,middle-middle"/>
+    </image>
+    <image id="n1_fawn" name="bar" src="nnux6f" fileName="bar_blue.png" pkg="vb0p0v1s" xy="0,1" size="322,30"/>
+    <image id="n7_kl6d" name="n7" src="nnux6g" fileName="bar_square.png" pkg="vb0p0v1s" xy="0,1" size="322,29">
+      <relation target="n1_fawn" sidePair="width-width,middle-middle"/>
+    </image>
+    <image id="n4_oqyi" name="light" src="nnux6h" fileName="bar_top_blue.png" pkg="vb0p0v1s" xy="311,17" pivot="0.5,0.5" anchor="true">
+      <relation target="n1_fawn" sidePair="right-right,middle-middle"/>
+    </image>
+    <text id="n2_fawn" name="title" xy="0,0" size="322,33" fontSize="24" color="#488fc1" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" strokeSize="2" text="text">
+      <relation target="n0_fawn" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

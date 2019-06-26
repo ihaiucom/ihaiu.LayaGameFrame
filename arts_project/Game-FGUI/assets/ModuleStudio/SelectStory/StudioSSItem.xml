@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,262" extention="Button" designImage="ui://qjz790ecoh5iwb" designImageAlpha="0">
+  <controller name="button" exported="true" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="expect" pages="0,high,1,low" selected="0">
+    <remark page="0" value="高"/>
+    <remark page="1" value="低"/>
+  </controller>
+  <controller name="state" pages="0,,1,,2," selected="1"/>
+  <displayList>
+    <image id="n6_wljj" name="n6" src="e12kye" fileName="_公用--背景--色块/纯色--有边框效果/0xFFF8FCFF--外发光--白色.png" pkg="g17ofscz" xy="5,0" size="738,261">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n8_c1ry" name="n8" src="e12kyx" fileName="_公用--线/线--小格子--大小22--红.png" pkg="g17ofscz" xy="24,11" size="709,22" alpha="0.12">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n14_oh5i" name="n14" src="cwvwzq" fileName="_公用--背景-框/渐变线.png" pkg="g17ofscz" xy="26,36" size="699,208">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n16_sts6" name="story" src="e9ra1c" fileName="IconStory/StoryStudioIcon.xml" pkg="4snov4n9" xy="20,33" controller="isGoldStory,2"/>
+    <component id="n9_oh5i" name="storyType" src="oh5i13" fileName="SelectStory/StoryTypeIcon.xml" xy="201,44"/>
+    <text id="n5_mic6" name="title" xy="330,48" size="352,37" fontSize="32" color="#b89ca1" autoSize="none" text="《梦想的声音2》第二期"/>
+    <loader id="n10_oh5i" name="expectIcon" xy="686,49" size="27,34" url="ui://g17ofsczkplq88">
+      <gearIcon controller="expect" pages="1" values="ui://g17ofsczkplq89" default="ui://g17ofsczkplq88"/>
+      <relation target="" sidePair="right-right"/>
+    </loader>
+    <image id="n11_oh5i" name="n11" src="kplq87" fileName="_公用--背景--色块/纯色/0xFFFFFFFF--白.png" pkg="g17ofscz" xy="202,90" size="521,153">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_mic6" name="content" xy="216,97" size="506,95" restrictSize="0,0,95,95" fontSize="25" color="#8e8ea8" leading="8" autoSize="none" autoClearText="true" text="《梦想的声音第二季》是浙江卫视推出的一档大型励志歌舞秀，给素人讨教者选择的机会，让节目融入音乐元素。《梦想的声音第二季》是浙江卫视推出的一档大型励志歌舞秀，给素人讨教者选择的机会，让节目融入音乐元素。">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <component id="n13_oh5i" name="collectState" src="oh5i14" fileName="SelectStory/StudioStoryCollectState.xml" xy="488,206" size="235,37" controller="isCollect,1">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n17_cwvw" name="n17" src="cm7x2r" fileName="Component/StudioSelectBoxAnimation.xml" xy="0,-5" size="748,271">
+      <gearDisplay controller="state" pages="1"/>
+      <relation target="" sidePair="width-width"/>
+    </component>
+    <image id="n19_ex1n" name="n19" src="n8bkzo" fileName="_公用--背景--色块/纯色/0x585858FF--灰.png" pkg="g17ofscz" xy="11,6" size="726,250" alpha="0.3">
+      <gearDisplay controller="state" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

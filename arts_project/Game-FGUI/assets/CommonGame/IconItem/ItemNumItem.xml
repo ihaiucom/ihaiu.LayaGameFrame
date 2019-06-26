@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="c_show_bg" exported="true" pages="0,show,1,hide" selected="0"/>
+  <displayList>
+    <image id="n3_j3nb" name="n3" src="j3nb3p" fileName="bg_goods_congrats.png" pkg="vb0p0v1s" xy="8,5">
+      <gearDisplay controller="c_show_bg" pages="0"/>
+    </image>
+    <loader id="n4_j3nb" name="icon" xy="23,18" pivot="0.5,0.5" size="52,57" aspect="true" url="ui://vb0p0v1sj3nb3q" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <gearSize controller="c_show_bg" default="52,57,1,1"/>
+    </loader>
+    <text id="n5_j3nb" name="title" xy="-42,72" pivot="0.5,0.5" size="186,34" fontSize="25" color="#ffffff" align="center" vAlign="middle" ubb="true" autoSize="none" singleLine="true" text="11111"/>
+    <component id="n7_j3nb" name="Star" src="ncg95" fileName="IconItem/Component/Star.xml" xy="8,9" size="84,18" controller="starNum,0,showBG,0,starLimit,0"/>
+  </displayList>
+  <Button/>
+</component>

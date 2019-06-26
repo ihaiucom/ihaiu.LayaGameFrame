@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="681,570" pivot="0.5,0.5" opaque="false" bgColorEnabled="true" bgColor="#999999">
+  <displayList>
+    <image id="n16_97tn" name="n16" src="g2r56p" fileName="Effect_actor_star2_yellow.png" pkg="vb0p0v1s" xy="442,470" size="54,54" aspect="true"/>
+    <image id="n14_97tn" name="n14" src="g2r56p" fileName="Effect_actor_star2_yellow.png" pkg="vb0p0v1s" xy="438,453" size="73,72" aspect="true"/>
+    <image id="n13_97tn" name="n13" src="g2r56p" fileName="Effect_actor_star2_yellow.png" pkg="vb0p0v1s" xy="441,439" size="80,80" aspect="true"/>
+    <image id="n9_97tn" name="n9" src="g2r56p" fileName="Effect_actor_star2_yellow.png" pkg="vb0p0v1s" xy="418,394" pivot="0.5,0.5" size="85,85" aspect="true"/>
+    <image id="n10_97tn" name="n10" src="g2r56p" fileName="Effect_actor_star2_yellow.png" pkg="vb0p0v1s" xy="458,380" pivot="0.5,0.5" size="145,139" aspect="true"/>
+    <image id="n11_97tn" name="n11" src="g2r56p" fileName="Effect_actor_star2_yellow.png" pkg="vb0p0v1s" xy="457,349" pivot="0.5,0.5" size="106,106" aspect="true"/>
+    <image id="n24_97tn" name="n24" src="g2r56q" fileName="Effect_actor_star1_yellow.png" pkg="vb0p0v1s" xy="477,477" size="37,37" aspect="true"/>
+    <image id="n22_97tn" name="n22" src="g2r56q" fileName="Effect_actor_star1_yellow.png" pkg="vb0p0v1s" xy="409,450" size="16,16" aspect="true"/>
+    <image id="n20_97tn" name="n20" src="g2r56q" fileName="Effect_actor_star1_yellow.png" pkg="vb0p0v1s" xy="401,422" size="30,30" aspect="true"/>
+    <image id="n21_97tn" name="n21" src="g2r56q" fileName="Effect_actor_star1_yellow.png" pkg="vb0p0v1s" xy="407,439" size="21,21" aspect="true"/>
+    <image id="n19_97tn" name="n19" src="g2r56q" fileName="Effect_actor_star1_yellow.png" pkg="vb0p0v1s" xy="394,399" pivot="0.5,0.5" size="42,42" aspect="true"/>
+    <image id="n25_97tn" name="n25" src="g2r56p" fileName="Effect_actor_star2_yellow.png" pkg="vb0p0v1s" xy="425,382" pivot="0.5,0.5" size="121,120" aspect="true" alpha="0"/>
+  </displayList>
+  <transition name="t1" autoPlayDelay="0.370">
+    <item time="0" type="Alpha" target="n10_97tn" value="0"/>
+    <item time="0" type="Alpha" target="n11_97tn" tween="true" startValue="0" endValue="0.5" duration="2"/>
+    <item time="0" type="Alpha" target="n13_97tn" value="0"/>
+    <item time="0" type="Alpha" target="n14_97tn" value="0"/>
+    <item time="0" type="Alpha" target="n16_97tn" value="0"/>
+    <item time="0" type="Alpha" target="n19_97tn" value="0"/>
+    <item time="0" type="Alpha" target="n20_97tn" value="0"/>
+    <item time="0" type="Alpha" target="n21_97tn" value="0"/>
+    <item time="0" type="Alpha" target="n22_97tn" value="0"/>
+    <item time="0" type="Alpha" target="n24_97tn" value="0"/>
+    <item time="0" type="Alpha" target="n25_97tn" value="0"/>
+    <item time="0" type="Alpha" target="n9_97tn" tween="true" startValue="0" endValue="0.99" duration="1"/>
+    <item time="0" type="Rotation" target="n10_97tn" value="0"/>
+    <item time="0" type="Rotation" target="n11_97tn" tween="true" startValue="0" endValue="-16.8" duration="2"/>
+    <item time="0" type="Rotation" target="n9_97tn" tween="true" startValue="0" endValue="28" duration="3"/>
+    <item time="0" type="Scale" target="n10_97tn" value="1.3,1.3"/>
+    <item time="0" type="XY" target="n10_97tn" value="445,424"/>
+    <item time="0" type="XY" target="n11_97tn" value="438,403"/>
+    <item time="0" type="XY" target="n13_97tn" value="451,425.5"/>
+    <item time="0" type="XY" target="n14_97tn" value="452,431.95"/>
+    <item time="0" type="XY" target="n16_97tn" value="468,419.5"/>
+    <item time="0" type="XY" target="n19_97tn" value="395.5,467.75"/>
+    <item time="0" type="XY" target="n20_97tn" value="402,458"/>
+    <item time="0" type="XY" target="n21_97tn" value="407.6,459.25"/>
+    <item time="0" type="XY" target="n22_97tn" value="409.75,450"/>
+    <item time="0" type="XY" target="n24_97tn" value="476,479.95"/>
+    <item time="0" type="XY" target="n25_97tn" value="434,390"/>
+    <item time="0" type="XY" target="n9_97tn" tween="true" startValue="407,430" endValue="423.88,352.84" duration="1"/>
+    <item time="1" type="Alpha" target="n13_97tn" tween="true" startValue="0.5" endValue="0.7" duration="1"/>
+    <item time="1" type="Alpha" target="n14_97tn" value="0.4"/>
+    <item time="1" type="Alpha" target="n16_97tn" tween="true" startValue="0.2" endValue="1" duration="1"/>
+    <item time="1" type="Alpha" target="n9_97tn" tween="true" startValue="0.99" endValue="1" duration="2"/>
+    <item time="1" type="XY" target="n13_97tn" value="449,418.5"/>
+    <item time="1" type="XY" target="n14_97tn" value="451.5,429.45"/>
+    <item time="1" type="XY" target="n16_97tn" value="468,419.5"/>
+    <item time="1" type="XY" target="n9_97tn" tween="true" startValue="423.88,352.84" endValue="419.39,289.31" duration="2"/>
+    <item time="2" type="Alpha" target="n11_97tn" tween="true" startValue="0.5" endValue="1" duration="1"/>
+    <item time="2" type="Alpha" target="n13_97tn" tween="true" startValue="0.7" endValue="1" duration="1"/>
+    <item time="2" type="Alpha" target="n14_97tn" value="0.5"/>
+    <item time="2" type="Alpha" target="n19_97tn" tween="true" startValue="0.2" endValue="0.8" duration="1"/>
+    <item time="2" type="Alpha" target="n20_97tn" value="0.1"/>
+    <item time="2" type="Alpha" target="n21_97tn" tween="true" startValue="0.21" endValue="0.21" duration="1"/>
+    <item time="2" type="Alpha" target="n22_97tn" tween="true" startValue="0.1" endValue="0.5" duration="1"/>
+    <item time="2" type="Rotation" target="n11_97tn" tween="true" startValue="-16.8" endValue="-27.8" duration="3"/>
+    <item time="2" type="XY" target="n11_97tn" tween="true" startValue="443,389.95" endValue="462.11,311.62" duration="1"/>
+    <item time="2" type="XY" target="n13_97tn" tween="true" startValue="453,408.5" endValue="474,338.5" duration="1"/>
+    <item time="2" type="XY" target="n14_97tn" value="454.5,424.45"/>
+    <item time="2" type="XY" target="n16_97tn" value="458.5,446"/>
+    <item time="2" type="XY" target="n19_97tn" tween="true" startValue="396,438.5" endValue="386.39,365.72" duration="1"/>
+    <item time="2" type="XY" target="n20_97tn" tween="true" startValue="400.25,421.75" endValue="395.25,385.25" duration="1"/>
+    <item time="2" type="XY" target="n21_97tn" value="407.6,434.25"/>
+    <item time="2" type="XY" target="n22_97tn" tween="true" startValue="409.75,459" endValue="408.25,429" duration="1"/>
+    <item time="3" type="Alpha" target="n11_97tn" tween="true" startValue="1" endValue="1" duration="2"/>
+    <item time="3" type="Alpha" target="n13_97tn" tween="true" startValue="1" endValue="0.6" duration="1"/>
+    <item time="3" type="Alpha" target="n14_97tn" value="0.2"/>
+    <item time="3" type="Alpha" target="n16_97tn" value="1"/>
+    <item time="3" type="Alpha" target="n19_97tn" tween="true" startValue="0.8" endValue="0.3" duration="1"/>
+    <item time="3" type="Alpha" target="n20_97tn" value="0.6"/>
+    <item time="3" type="Alpha" target="n21_97tn" tween="true" startValue="0.21" endValue="0.67" duration="1"/>
+    <item time="3" type="Alpha" target="n22_97tn" tween="true" startValue="0.5" endValue="0.8" duration="1"/>
+    <item time="3" type="Alpha" target="n9_97tn" tween="true" startValue="1" endValue="1" duration="3"/>
+    <item time="3" type="Rotation" target="n9_97tn" tween="true" startValue="28" endValue="63.1" duration="3"/>
+    <item time="3" type="XY" target="n11_97tn" tween="true" startValue="462.11,311.62" endValue="463,248.95" duration="2"/>
+    <item time="3" type="XY" target="n13_97tn" tween="true" startValue="474,338.5" endValue="476.44,291.28" duration="1"/>
+    <item time="3" type="XY" target="n14_97tn" value="472,373.45"/>
+    <item time="3" type="XY" target="n16_97tn" value="483,371.5"/>
+    <item time="3" type="XY" target="n19_97tn" tween="true" startValue="386.39,365.72" endValue="359.5,305.5" duration="2"/>
+    <item time="3" type="XY" target="n20_97tn" tween="true" startValue="395.25,385.25" endValue="383,348.75" duration="1"/>
+    <item time="3" type="XY" target="n21_97tn" value="402.6,404.25"/>
+    <item time="3" type="XY" target="n22_97tn" tween="true" startValue="408.25,429" endValue="391.75,358.5" duration="2"/>
+    <item time="3" type="XY" target="n9_97tn" tween="true" startValue="419.39,289.31" endValue="398.28,229.98" duration="1"/>
+    <item time="4" type="Alpha" target="n10_97tn" tween="true" startValue="0.2" endValue="0.9" duration="1"/>
+    <item time="4" type="Alpha" target="n13_97tn" tween="true" startValue="0.6" endValue="0.1" duration="2"/>
+    <item time="4" type="Alpha" target="n14_97tn" value="0.7"/>
+    <item time="4" type="Alpha" target="n16_97tn" value="0.8"/>
+    <item time="4" type="Alpha" target="n20_97tn" value="0.2"/>
+    <item time="4" type="Alpha" target="n21_97tn" tween="true" startValue="0.67" endValue="0.45" duration="1"/>
+    <item time="4" type="Rotation" target="n10_97tn" tween="true" startValue="0" endValue="20" duration="3"/>
+    <item time="4" type="Scale" target="n10_97tn" tween="true" startValue="1.3,1.3" endValue="1,1" duration="3"/>
+    <item time="4" type="XY" target="n10_97tn" tween="true" startValue="445,424" endValue="491,348.67" duration="1"/>
+    <item time="4" type="XY" target="n13_97tn" tween="true" startValue="476.44,291.28" endValue="478.11,277.19" duration="1"/>
+    <item time="4" type="XY" target="n14_97tn" value="482,303.45"/>
+    <item time="4" type="XY" target="n16_97tn" value="489,336.5"/>
+    <item time="4" type="XY" target="n20_97tn" tween="true" startValue="383,348.75" endValue="370.75,320" duration="1"/>
+    <item time="4" type="XY" target="n21_97tn" value="392.6,364.25"/>
+    <item time="4" type="XY" target="n9_97tn" tween="true" startValue="398.28,229.98" endValue="372.39,193.31" duration="2"/>
+    <item time="5" type="Alpha" target="n10_97tn" tween="true" startValue="0.9" endValue="1" duration="2"/>
+    <item time="5" type="Alpha" target="n14_97tn" value="0.8"/>
+    <item time="5" type="Alpha" target="n16_97tn" value="0.8"/>
+    <item time="5" type="Alpha" target="n19_97tn" tween="true" startValue="0.6" endValue="0.9" duration="1"/>
+    <item time="5" type="Alpha" target="n20_97tn" value="0.5"/>
+    <item time="5" type="Alpha" target="n21_97tn" tween="true" startValue="0.45" endValue="0.66" duration="1"/>
+    <item time="5" type="Alpha" target="n22_97tn" tween="true" startValue="0.6" endValue="0.6" duration="1"/>
+    <item time="5" type="Rotation" target="n11_97tn" tween="true" startValue="-27.8" endValue="-40.5" duration="2"/>
+    <item time="5" type="XY" target="n10_97tn" tween="true" startValue="491,348.67" endValue="509,291" duration="2"/>
+    <item time="5" type="XY" target="n11_97tn" tween="true" startValue="463,248.95" endValue="435.75,152.7" duration="1"/>
+    <item time="5" type="XY" target="n14_97tn" value="481.5,296.95"/>
+    <item time="5" type="XY" target="n16_97tn" value="489.5,294.5"/>
+    <item time="5" type="XY" target="n19_97tn" tween="true" startValue="359.5,305.5" endValue="333.31,269.56" duration="1"/>
+    <item time="5" type="XY" target="n20_97tn" tween="true" startValue="370.75,320" endValue="357.25,298.25" duration="1"/>
+    <item time="5" type="XY" target="n21_97tn" value="380.6,335.75"/>
+    <item time="5" type="XY" target="n22_97tn" tween="true" startValue="391.75,358.5" endValue="382.75,337.5" duration="1"/>
+    <item time="6" type="Alpha" target="n13_97tn" tween="true" startValue="0.1" endValue="0.4" duration="1"/>
+    <item time="6" type="Alpha" target="n14_97tn" value="0.5"/>
+    <item time="6" type="Alpha" target="n16_97tn" value="0.7"/>
+    <item time="6" type="Alpha" target="n19_97tn" tween="true" startValue="0.9" endValue="0.4" duration="1"/>
+    <item time="6" type="Alpha" target="n20_97tn" value="0.2"/>
+    <item time="6" type="Alpha" target="n21_97tn" tween="true" startValue="0.66" endValue="0.28" duration="1"/>
+    <item time="6" type="Alpha" target="n22_97tn" tween="true" startValue="0.6" endValue="0.4" duration="1"/>
+    <item time="6" type="Alpha" target="n24_97tn" tween="true" startValue="0.1" endValue="0.8" duration="3"/>
+    <item time="6" type="Alpha" target="n25_97tn" tween="true" startValue="0" endValue="1" duration="2"/>
+    <item time="6" type="Alpha" target="n9_97tn" tween="true" startValue="1" endValue="0.64" duration="2"/>
+    <item time="6" type="Rotation" target="n25_97tn" tween="true" startValue="0" endValue="-14.1" duration="2"/>
+    <item time="6" type="Rotation" target="n9_97tn" tween="true" startValue="63.1" endValue="85.7" duration="2"/>
+    <item time="6" type="Scale" target="n25_97tn" tween="true" startValue="1.8,1.8" endValue="1.5,1.5" duration="2"/>
+    <item time="6" type="XY" target="n11_97tn" tween="true" startValue="435.75,152.7" endValue="418.67,124.62" duration="1"/>
+    <item time="6" type="XY" target="n13_97tn" tween="true" startValue="453,185.5" endValue="440.63,153.19" duration="1"/>
+    <item time="6" type="XY" target="n14_97tn" value="466,204.45"/>
+    <item time="6" type="XY" target="n16_97tn" value="468.5,197"/>
+    <item time="6" type="XY" target="n19_97tn" tween="true" startValue="333.31,269.56" endValue="290.5,232.5" duration="3"/>
+    <item time="6" type="XY" target="n20_97tn" tween="true" startValue="357.25,298.25" endValue="332.5,268.75" duration="1"/>
+    <item time="6" type="XY" target="n21_97tn" value="372.85,320.5"/>
+    <item time="6" type="XY" target="n22_97tn" tween="true" startValue="382.75,337.5" endValue="356.25,295" duration="1"/>
+    <item time="6" type="XY" target="n24_97tn" tween="true" startValue="483,474.95" endValue="561.88,431.81" duration="1" ease="Linear"/>
+    <item time="6" type="XY" target="n25_97tn" tween="true" startValue="434,390" endValue="449,297" duration="2"/>
+    <item time="6" type="XY" target="n9_97tn" tween="true" startValue="372.39,193.31" endValue="351,170" duration="4"/>
+    <item time="7" type="Alpha" target="n10_97tn" tween="true" startValue="1" endValue="1" duration="3"/>
+    <item time="7" type="Alpha" target="n11_97tn" tween="true" startValue="1" endValue="0.89" duration="2"/>
+    <item time="7" type="Alpha" target="n13_97tn" tween="true" startValue="0.4" endValue="0.4" duration="1"/>
+    <item time="7" type="Alpha" target="n14_97tn" value="0.3"/>
+    <item time="7" type="Alpha" target="n16_97tn" value="0.8"/>
+    <item time="7" type="Alpha" target="n20_97tn" value="0.3"/>
+    <item time="7" type="Alpha" target="n21_97tn" tween="true" startValue="0.28" endValue="0.71" duration="1"/>
+    <item time="7" type="Rotation" target="n10_97tn" tween="true" startValue="20" endValue="45" duration="3"/>
+    <item time="7" type="Rotation" target="n11_97tn" tween="true" startValue="-40.5" endValue="-62.3" duration="2"/>
+    <item time="7" type="Scale" target="n10_97tn" tween="true" startValue="1,1" endValue="0.8,0.8" duration="3"/>
+    <item time="7" type="XY" target="n10_97tn" tween="true" startValue="509,291" endValue="516.11,210.44" duration="1"/>
+    <item time="7" type="XY" target="n11_97tn" tween="true" startValue="418.67,124.62" endValue="383,84.95" duration="2"/>
+    <item time="7" type="XY" target="n13_97tn" tween="true" startValue="440.63,153.19" endValue="432.5,141.86" duration="1"/>
+    <item time="7" type="XY" target="n14_97tn" value="451,175.45"/>
+    <item time="7" type="XY" target="n16_97tn" value="458.5,176"/>
+    <item time="7" type="XY" target="n20_97tn" tween="true" startValue="332.5,268.75" endValue="309.5,248.5" duration="1"/>
+    <item time="7" type="XY" target="n21_97tn" value="343.35,279"/>
+    <item time="7" type="XY" target="n22_97tn" tween="true" startValue="356.25,295" endValue="340.75,276.5" duration="1"/>
+    <item time="7" type="XY" target="n24_97tn" tween="true" startValue="561.88,431.81" endValue="604.38,388.7" duration="2" ease="Linear"/>
+    <item time="8" type="Alpha" target="n13_97tn" tween="true" startValue="0.4" endValue="0.6" duration="1"/>
+    <item time="8" type="Alpha" target="n14_97tn" value="0.7"/>
+    <item time="8" type="Alpha" target="n16_97tn" value="0.2"/>
+    <item time="8" type="Alpha" target="n19_97tn" value="0.7"/>
+    <item time="8" type="Alpha" target="n20_97tn" value="0.8"/>
+    <item time="8" type="Alpha" target="n21_97tn" tween="true" startValue="0.71" endValue="0.44" duration="1"/>
+    <item time="8" type="Alpha" target="n22_97tn" value="0.7"/>
+    <item time="8" type="Alpha" target="n25_97tn" tween="true" startValue="1" endValue="0.7" duration="3"/>
+    <item time="8" type="Alpha" target="n9_97tn" tween="true" startValue="0.64" endValue="0" duration="2"/>
+    <item time="8" type="Rotation" target="n25_97tn" tween="true" startValue="-14.1" endValue="-48.9" duration="3"/>
+    <item time="8" type="Rotation" target="n9_97tn" tween="true" startValue="85.7" endValue="92.7" duration="2"/>
+    <item time="8" type="Scale" target="n25_97tn" tween="true" startValue="1.5,1.5" endValue="0.5,0.5" duration="3"/>
+    <item time="8" type="XY" target="n10_97tn" tween="true" startValue="516.11,210.44" endValue="504,138" duration="2"/>
+    <item time="8" type="XY" target="n13_97tn" tween="true" startValue="432.5,141.86" endValue="395,96.5" duration="2"/>
+    <item time="8" type="XY" target="n14_97tn" value="428.5,133.45"/>
+    <item time="8" type="XY" target="n16_97tn" value="455,171.5"/>
+    <item time="8" type="XY" target="n20_97tn" tween="true" startValue="309.5,248.5" endValue="313.5,251.75" duration="1"/>
+    <item time="8" type="XY" target="n21_97tn" value="326.6,263.5"/>
+    <item time="8" type="XY" target="n22_97tn" tween="true" startValue="340.75,276.5" endValue="344.75,281" duration="1"/>
+    <item time="8" type="XY" target="n25_97tn" tween="true" startValue="449,297" endValue="435,252" duration="3"/>
+    <item time="9" type="Alpha" target="n11_97tn" tween="true" startValue="0.89" endValue="0" duration="3"/>
+    <item time="9" type="Alpha" target="n13_97tn" tween="true" startValue="0.6" endValue="0.4" duration="1"/>
+    <item time="9" type="Alpha" target="n14_97tn" value="0.5"/>
+    <item time="9" type="Alpha" target="n16_97tn" value="0.5"/>
+    <item time="9" type="Alpha" target="n19_97tn" tween="true" startValue="1" endValue="0.3" duration="1"/>
+    <item time="9" type="Alpha" target="n20_97tn" value="0.6"/>
+    <item time="9" type="Alpha" target="n21_97tn" tween="true" startValue="0.44" endValue="0.18" duration="1"/>
+    <item time="9" type="Alpha" target="n22_97tn" tween="true" startValue="0.4" endValue="0.3" duration="1"/>
+    <item time="9" type="Alpha" target="n24_97tn" tween="true" startValue="0.8" endValue="1" duration="3"/>
+    <item time="9" type="Rotation" target="n11_97tn" tween="true" startValue="-62.3" endValue="-112.9" duration="3"/>
+    <item time="9" type="XY" target="n11_97tn" tween="true" startValue="383,84.95" endValue="365,68.95" duration="3"/>
+    <item time="9" type="XY" target="n14_97tn" value="431,138.95"/>
+    <item time="9" type="XY" target="n16_97tn" value="427,129.5"/>
+    <item time="9" type="XY" target="n19_97tn" tween="true" startValue="290.5,232.5" endValue="274.5,223.5" duration="4"/>
+    <item time="9" type="XY" target="n20_97tn" tween="true" startValue="313.5,251.75" endValue="309.75,249.75" duration="1"/>
+    <item time="9" type="XY" target="n21_97tn" value="331.6,267.5"/>
+    <item time="9" type="XY" target="n22_97tn" tween="true" startValue="344.75,281" endValue="333.75,269" duration="1"/>
+    <item time="9" type="XY" target="n24_97tn" tween="true" startValue="604.38,388.7" endValue="631.15,338.14" duration="1" ease="Linear"/>
+    <item time="10" type="Alpha" target="n10_97tn" tween="true" startValue="1" endValue="0.7" duration="2"/>
+    <item time="10" type="Alpha" target="n14_97tn" value="0.3"/>
+    <item time="10" type="Alpha" target="n16_97tn" value="0.9"/>
+    <item time="10" type="Alpha" target="n19_97tn" tween="true" startValue="0.3" endValue="0.5" duration="1"/>
+    <item time="10" type="Alpha" target="n20_97tn" tween="true" startValue="0.3" endValue="0.3" duration="1"/>
+    <item time="10" type="Alpha" target="n21_97tn" tween="true" startValue="0.18" endValue="0.72" duration="1"/>
+    <item time="10" type="Alpha" target="n22_97tn" tween="true" startValue="0.3" endValue="0.5" duration="1"/>
+    <item time="10" type="Rotation" target="n10_97tn" tween="true" startValue="45" endValue="66" duration="2"/>
+    <item time="10" type="Scale" target="n10_97tn" tween="true" startValue="0.8,0.8" endValue="0.5,0.5" duration="4"/>
+    <item time="10" type="XY" target="n10_97tn" tween="true" startValue="504,138" endValue="493,112" duration="4"/>
+    <item time="10" type="XY" target="n13_97tn" tween="true" startValue="395,96.5" endValue="412,114.5" duration="1"/>
+    <item time="10" type="XY" target="n14_97tn" value="402.5,100.45"/>
+    <item time="10" type="XY" target="n16_97tn" value="421,123"/>
+    <item time="10" type="XY" target="n20_97tn" tween="true" startValue="309.75,249.75" endValue="299.75,242" duration="1"/>
+    <item time="10" type="XY" target="n21_97tn" value="320.1,257"/>
+    <item time="10" type="XY" target="n22_97tn" tween="true" startValue="333.75,269" endValue="319.25,257" duration="1"/>
+    <item time="10" type="XY" target="n24_97tn" tween="true" startValue="631.15,338.14" endValue="643.38,297.7" duration="2" ease="Linear"/>
+    <item time="11" type="Alpha" target="n13_97tn" value="0.4"/>
+    <item time="11" type="Alpha" target="n14_97tn" value="0.3"/>
+    <item time="11" type="Alpha" target="n16_97tn" value="0.5"/>
+    <item time="11" type="Alpha" target="n19_97tn" tween="true" startValue="0.5" endValue="0" duration="2"/>
+    <item time="11" type="Alpha" target="n20_97tn" tween="true" startValue="0.3" endValue="0.5" duration="1"/>
+    <item time="11" type="Alpha" target="n21_97tn" tween="true" startValue="0.72" endValue="0.42" duration="1"/>
+    <item time="11" type="Alpha" target="n25_97tn" tween="true" startValue="0.7" endValue="0" duration="3"/>
+    <item time="11" type="Rotation" target="n25_97tn" tween="true" startValue="-48.9" endValue="-56.8" duration="3"/>
+    <item time="11" type="Scale" target="n25_97tn" tween="true" startValue="0.5,0.5" endValue="0.3,0.3" duration="3"/>
+    <item time="11" type="XY" target="n14_97tn" value="426.5,133.95"/>
+    <item time="11" type="XY" target="n16_97tn" value="447,158.5"/>
+    <item time="11" type="XY" target="n20_97tn" tween="true" startValue="299.75,242" endValue="294.5,237.75" duration="1"/>
+    <item time="11" type="XY" target="n21_97tn" value="302.85,245.25"/>
+    <item time="11" type="XY" target="n22_97tn" tween="true" startValue="319.25,257" endValue="327.25,264" duration="1"/>
+    <item time="11" type="XY" target="n25_97tn" tween="true" startValue="435,252" endValue="430,244" duration="3"/>
+    <item time="12" type="Alpha" target="n10_97tn" tween="true" startValue="0.7" endValue="0" duration="2"/>
+    <item time="12" type="Alpha" target="n13_97tn" value="0"/>
+    <item time="12" type="Alpha" target="n14_97tn" value="0"/>
+    <item time="12" type="Alpha" target="n16_97tn" value="0"/>
+    <item time="12" type="Alpha" target="n20_97tn" tween="true" startValue="0.5" endValue="0" duration="1"/>
+    <item time="12" type="Alpha" target="n21_97tn" tween="true" startValue="0.42" endValue="0.34" duration="1"/>
+    <item time="12" type="Alpha" target="n22_97tn" value="0.3"/>
+    <item time="12" type="Alpha" target="n24_97tn" tween="true" startValue="1" endValue="0.6" duration="2"/>
+    <item time="12" type="Rotation" target="n10_97tn" tween="true" startValue="66" endValue="90" duration="2"/>
+    <item time="12" type="XY" target="n13_97tn" value="423.5,139"/>
+    <item time="12" type="XY" target="n14_97tn" value="431.5,141.45"/>
+    <item time="12" type="XY" target="n16_97tn" value="448,158"/>
+    <item time="12" type="XY" target="n20_97tn" tween="true" startValue="294.5,237.75" endValue="294.5,237.75" duration="1"/>
+    <item time="12" type="XY" target="n21_97tn" value="313.85,252.75"/>
+    <item time="12" type="XY" target="n22_97tn" tween="true" startValue="327.25,264" endValue="331.25,266.5" duration="1"/>
+    <item time="12" type="XY" target="n24_97tn" tween="true" startValue="643.38,297.7" endValue="644.88,263.95" duration="2" ease="Linear"/>
+    <item time="13" type="Alpha" target="n20_97tn" tween="true" startValue="0"/>
+    <item time="13" type="Alpha" target="n21_97tn" tween="true" startValue="0.34" endValue="0" duration="1"/>
+    <item time="13" type="Alpha" target="n22_97tn" value="0.6"/>
+    <item time="13" type="XY" target="n20_97tn" tween="true" startValue="294.5,237.75"/>
+    <item time="13" type="XY" target="n21_97tn" value="316.35,254.75"/>
+    <item time="13" type="XY" target="n22_97tn" tween="true" startValue="331.25,266.5" endValue="345.25,281.5" duration="1"/>
+    <item time="14" type="Alpha" target="n21_97tn" tween="true" startValue="0"/>
+    <item time="14" type="Alpha" target="n22_97tn" tween="true" startValue="0.4" endValue="0" duration="1"/>
+    <item time="14" type="Alpha" target="n24_97tn" tween="true" startValue="0.6" endValue="0" duration="2"/>
+    <item time="14" type="XY" target="n21_97tn" value="321.35,257.75"/>
+    <item time="14" type="XY" target="n22_97tn" tween="true" startValue="345.25,281.5" endValue="350.25,287" duration="1"/>
+    <item time="14" type="XY" target="n24_97tn" tween="true" startValue="644.88,263.95" endValue="645.38,252.7" duration="2" ease="Linear"/>
+    <item time="15" type="XY" target="n22_97tn" tween="true" startValue="350.25,287"/>
+  </transition>
+</component>

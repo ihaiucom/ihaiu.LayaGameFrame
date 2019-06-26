@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="62,62" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n4_jp8r" name="n4" src="jp8r0" fileName="主界面切图/top加.png" pkg="g17ofscz" xy="7,7">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+</component>

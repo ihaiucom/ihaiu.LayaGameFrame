@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="50,200">
+  <displayList>
+    <image id="n0_oa5k" name="n0" src="e5hk4b" fileName="flag_txt_panel2.png" pkg="vb0p0v1s" xy="0,0" size="50,200">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+</component>

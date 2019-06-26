@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,80" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="checked" pages="0,no,1,yes" selected="0"/>
+  <displayList>
+    <graph id="n2" name="n2" xy="0,0" size="720,80" touchable="false" type="rect" lineSize="0" fillColor="#ff999999">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n3" name="title" xy="40,0" size="680,80" fontSize="20" color="#104669" vAlign="middle" autoSize="none" singleLine="true" text="DSGFDSFDS">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n4_fbyi" name="n4" xy="22,35" size="5,5" type="rect" lineSize="0" fillColor="#ffcccccc">
+      <relation target="" sidePair="left-left,middle-middle"/>
+    </graph>
+    <graph id="n6_qi0r" name="n6" xy="13,32" size="15,15" type="rect" lineSize="0" fillColor="#ffcccccc">
+      <gearDisplay controller="checked" pages="1"/>
+      <relation target="" sidePair="left-left,middle-middle"/>
+    </graph>
+    <graph id="n5_fbyi" name="n5" xy="0,79" size="720,1" alpha="0.3" type="rect" lineSize="0" fillColor="#ff000000">
+      <relation target="" sidePair="width-width,top-bottom"/>
+    </graph>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

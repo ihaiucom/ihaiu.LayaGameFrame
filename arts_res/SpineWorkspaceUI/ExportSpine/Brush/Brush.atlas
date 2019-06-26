@@ -1,0 +1,20 @@
+
+Brush.png
+size: 139,139
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shuazi
+  rotate: true
+  xy: 2, 2
+  size: 61, 65
+  orig: 61, 65
+  offset: 0, 0
+  index: -1
+youqi
+  rotate: false
+  xy: 2, 65
+  size: 78, 72
+  orig: 78, 72
+  offset: 0, 0
+  index: -1

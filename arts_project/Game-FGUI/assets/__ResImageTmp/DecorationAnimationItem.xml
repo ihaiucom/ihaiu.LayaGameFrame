@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="0,0">
+  <displayList>
+    <loader id="n0_h2g8" name="icon" xy="0,0" pivot="0.5,0.85" anchor="true" size="74,157" filter="color" filterData="0.00,0.00,0.00,0.00" url="ui://66b5xydlecbl151"/>
+  </displayList>
+  <transition name="ShowIn">
+    <item time="0" type="Alpha" target="n0_h2g8" tween="true" startValue="0" endValue="1" duration="5"/>
+    <item time="0" type="ColorFilter" target="n0_h2g8" tween="true" startValue="0.00,0.00,0.00,0.00" endValue="1.00,0.00,0.00,0.00" duration="5"/>
+    <item time="0" type="Scale" target="n0_h2g8" tween="true" startValue="0.5,0.5" endValue="1,1" duration="5"/>
+    <item time="0" type="XY" target="n0_h2g8" tween="true" startValue="0,-10" endValue="0,-10" duration="5"/>
+    <item time="5" type="Alpha" target="n0_h2g8" tween="true" startValue="1"/>
+    <item time="5" type="ColorFilter" target="n0_h2g8" tween="true" startValue="1.00,0.00,0.00,0.00" endValue="0.00,0.00,0.00,0.00" duration="9"/>
+    <item time="5" type="XY" target="n0_h2g8" tween="true" startValue="0,-10" endValue="0,2" duration="4"/>
+    <item time="9" type="XY" target="n0_h2g8" tween="true" startValue="0,2" endValue="0,0" duration="5"/>
+  </transition>
+</component>

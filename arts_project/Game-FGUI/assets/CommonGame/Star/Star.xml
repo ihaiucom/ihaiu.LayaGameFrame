@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="154,32" designImage="ui://qjz790ecwgisw0" designImageOffsetY="-537" designImageAlpha="0">
+  <controller name="starNum" exported="true" pages="0,,1,,2,,3,,4,,5,,6," selected="6"/>
+  <displayList>
+    <loader id="n38_cvs8" name="s1" xy="0,0" size="31,32" group="n44_cvs8" url="ui://g17ofsczu6m750" align="center" vAlign="middle" fill="scaleFree">
+      <gearDisplay controller="starNum" pages="1,2,3,4,5,6"/>
+    </loader>
+    <loader id="n39_cvs8" name="s2" xy="24,0" size="31,32" group="n44_cvs8" url="ui://g17ofsczu6m750" align="center" vAlign="middle" fill="scaleFree">
+      <gearDisplay controller="starNum" pages="2,3,4,5,6"/>
+    </loader>
+    <loader id="n40_cvs8" name="s3" xy="48,0" size="31,32" group="n44_cvs8" url="ui://g17ofsczu6m750" align="center" vAlign="middle" fill="scaleFree">
+      <gearDisplay controller="starNum" pages="3,4,5,6"/>
+    </loader>
+    <loader id="n41_cvs8" name="s4" xy="73,0" size="31,32" group="n44_cvs8" url="ui://g17ofsczu6m750" align="center" vAlign="middle" fill="scaleFree">
+      <gearDisplay controller="starNum" pages="4,5,6"/>
+    </loader>
+    <loader id="n42_cvs8" name="s5" xy="97,0" size="32,32" group="n44_cvs8" url="ui://g17ofsczu6m750" align="center" vAlign="middle" fill="scaleFree">
+      <gearDisplay controller="starNum" pages="5,6"/>
+    </loader>
+    <loader id="n43_cvs8" name="s6" xy="123,0" size="31,32" group="n44_cvs8" url="ui://g17ofsczu6m750" align="center" vAlign="middle" fill="scaleFree">
+      <gearDisplay controller="starNum" pages="6"/>
+    </loader>
+    <group id="n44_cvs8" name="n44" xy="0,0" size="154,32" advanced="true" layout="hz" colGap="-7"/>
+  </displayList>
+</component>

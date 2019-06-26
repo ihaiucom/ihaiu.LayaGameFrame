@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1135,3102">
+  <displayList>
+    <graph id="n22_k5sp" name="n22" xy="0,0" size="1135,3102" type="rect" fillColor="#ff666666">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n0_k5sp" name="n0" xy="24,25" size="209,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="组合背景"/>
+    <component id="n1_k5sp" name="n1" src="rj00151" fileName="___BgComponent~NCode/bg_chequer.xml" xy="33,140" size="372,298"/>
+    <image id="n2_k5sp" name="n2" src="iq088s" fileName="_公用--背景--色块/纯色/0xCBCCFAFF--蓝.png" xy="571,126" size="85,83"/>
+    <image id="n3_k5sp" name="n3" src="iq088t" fileName="_公用--背景--色块/渐变/透明渐变--紫--100--00.png" xy="559,333" size="116,64"/>
+    <image id="n4_k5sp" name="n4" src="iq088u" fileName="_公用--背景/临时/bg_chequer03.png" xy="570,226"/>
+    <component id="n5_k5sp" name="n5" src="ywi4157" fileName="___BgComponent~NCode/AlertBG.xml" xy="10,581" size="456,416"/>
+    <image id="n6_k5sp" name="n6" src="wpxm7k" fileName="_公用--背景/小弹窗底板1.png" xy="533,594" pivot="0.5,0.5" size="100,100"/>
+    <image id="n7_k5sp" name="n7" src="wpxm7l" fileName="_公用--背景/小弹窗底板2.png" xy="535,708" pivot="0.5,0.5" size="100,100"/>
+    <image id="n8_k5sp" name="n8" src="wpxm7m" fileName="_公用--背景/小弹窗底板3.png" xy="534,851" pivot="0.5,0.5" size="100,100"/>
+    <component id="n10_k5sp" name="n10" src="ywi415a" fileName="___BgComponent~NCode/StudioBGBottom.xml" xy="10,1085" size="478,819"/>
+    <image id="n11_k5sp" name="n11" src="e12kyb" fileName="_公用--背景--色块/渐变/背景横线.png" xy="980,903" size="138,990"/>
+    <image id="n12_k5sp" name="n12" src="e12kzc" fileName="_公用--背景-图案/背景底板.png" xy="605,1282" size="256,279"/>
+    <image id="n13_k5sp" name="n13" src="e12kzd" fileName="_公用--背景--色块/渐变/透明渐变弧形--粉红.png" xy="531,1662" size="431,97"/>
+    <image id="n14_k5sp" name="n14" src="e12kz7" fileName="_公用--背景--色块/渐变/颜色渐变半透--蓝-黄-灰.png" xy="526,1792" size="446,97"/>
+    <component id="n15_k5sp" name="n15" src="ywi4159" fileName="___BgComponent~NCode/BarWhitePattern.xml" xy="19,2144" size="454,38"/>
+    <image id="n16_k5sp" name="n16" src="e12kza" fileName="_公用--背景--色块/渐变/颜色渐变--白--浅.png" xy="532,2122" size="378,38">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n17_k5sp" name="n17" src="e12kzb" fileName="_公用--背景/白条上的装饰.png" xy="528,2171"/>
+    <image id="n18_k5sp" name="n18" src="e12kzb" fileName="_公用--背景/白条上的装饰.png" xy="748,2167">
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <component id="n19_k5sp" name="n19" src="ywi415c" fileName="___BgComponent~NCode/ActorItemBG.xml" xy="85,2481"/>
+    <image id="n20_k5sp" name="n20" src="e12kxt" fileName="_公用--背景-框/艺人底板.png" xy="533,2479" size="106,174"/>
+    <image id="n21_k5sp" name="n21" src="e12kxu" fileName="_公用--背景-框/艺人底板装饰.png" xy="708,2491" size="53,156">
+      <relation target="" sidePair="height-height,right-right"/>
+    </image>
+    <image id="n23_t6bw" name="n23" src="t6bw163" fileName="_公用--背景/标签.png" xy="743,635" size="263,95"/>
+    <image id="n24_t6bw" name="n24" src="t6bw164" fileName="_公用--背景-图案/彩色背景.png" xy="756,124" size="304,344"/>
+    <image id="n25_t6bw" name="n25" src="t6bw169" fileName="_公用--背景/标签2.png" xy="739,789" size="322,95"/>
+    <image id="n26_t6bw" name="n26" src="t6bw16b" fileName="_公用--背景/标签3.png" xy="442,982"/>
+    <image id="n27_jarm" name="n27" src="jarm16p" fileName="_公用--背景/标签4.png" xy="649,885"/>
+  </displayList>
+</component>

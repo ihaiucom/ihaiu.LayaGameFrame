@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="114,107" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="c_visible_new" pages="0,hide,1,new,2,red" selected="0"/>
+  <displayList>
+    <image id="n13_l291" name="n13" src="etda3h" fileName="主界面切图/paishe_quan.png" pkg="g17ofscz" xy="57,53" pivot="0.5,0.5" anchor="true"/>
+    <image id="n12_l291" name="n12" src="etda3h" fileName="主界面切图/paishe_quan.png" pkg="g17ofscz" xy="57,53" pivot="0.5,0.5" anchor="true"/>
+    <image id="n8_krdk" name="n8" src="jp8r6" fileName="主界面切图/摄像.png" pkg="g17ofscz" xy="57,53" pivot="0.5,0.5" anchor="true"/>
+    <loader id="n1" name="icon" xy="-11,-16" size="136,139" url="ui://qjz790eckrdk18" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n6_c0r2" name="lock" src="szhv5" fileName="icon_lock_login.png" pkg="vb0p0v1s" xy="42,38" size="30,30"/>
+    <component id="n5_syhn" name="red" src="ncg9j" fileName="Badge/NumberBadge.xml" pkg="jaoapdic" xy="93,-10">
+      <gearDisplay controller="c_visible_new" pages="2"/>
+    </component>
+    <image id="n7_gqu4" name="new" src="szhv8" fileName="icon_new.png" pkg="vb0p0v1s" xy="-22,0" size="60,24" aspect="true">
+      <gearDisplay controller="c_visible_new" pages="1"/>
+    </image>
+    <movieclip id="n11_e6rz" name="butterflyFx" src="etda4x" fileName="MovieClip/ButterflyMovieClip.jta" pkg="4ykhynlr" xy="-47,-25"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Alpha" target="n12_l291" value="0"/>
+    <item time="0" type="Alpha" target="n13_l291" value="0"/>
+    <item time="0" type="Rotation" target="n12_l291" tween="true" startValue="0" endValue="360" duration="72" ease="Linear"/>
+    <item time="0" type="Rotation" target="n13_l291" value="-60"/>
+    <item time="0" type="Rotation" target="n8_krdk" tween="true" startValue="0" endValue="360" duration="96" ease="Linear"/>
+    <item time="0" type="Scale" target="n12_l291" tween="true" startValue="1,1" endValue="2.5,2.5" duration="72"/>
+    <item time="0" type="Scale" target="n13_l291" value="1,1"/>
+    <item time="24" type="Alpha" target="n13_l291" tween="true" startValue="0" endValue="1" duration="12" ease="Linear"/>
+    <item time="24" type="Rotation" target="n13_l291" tween="true" startValue="-60" endValue="300" duration="72" ease="Linear"/>
+    <item time="24" type="Scale" target="n13_l291" tween="true" startValue="1,1" endValue="2.5,2.5" duration="72"/>
+    <item time="36" type="Alpha" target="n12_l291" tween="true" startValue="0" endValue="1" duration="12" ease="Linear"/>
+    <item time="48" type="Alpha" target="n12_l291" tween="true" startValue="1" endValue="0" duration="24"/>
+    <item time="72" type="Alpha" target="n13_l291" tween="true" startValue="1" endValue="0" duration="24"/>
+  </transition>
+</component>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="700,81" extention="ProgressBar" initName="scoreProgressBar">
+  <displayList>
+    <image id="n17_fa39" name="n17" src="fa3912q" fileName="拍摄/拍摄过程/进度条蓝底.png" pkg="g17ofscz" xy="3,3" size="696,74"/>
+    <image id="n16_fa39" name="bar" src="mfsp11u" fileName="拍摄/拍摄过程/进度条底板.png" pkg="g17ofscz" xy="0,0" size="700,81" fillMethod="hz"/>
+    <component id="n8_g2f5" name="mark_4" src="g2f5b" fileName="ScoreProgressMark.xml" xy="343,25" pivot="0.5,0.5" anchor="true" controller="state,0"/>
+    <component id="n10_g2f5" name="mark_5" src="g2f5b" fileName="ScoreProgressMark.xml" xy="417,25" pivot="0.5,0.5" anchor="true" controller="state,0">
+      <Label title="超卖"/>
+    </component>
+    <component id="n11_g2f5" name="mark_6" src="g2f5b" fileName="ScoreProgressMark.xml" xy="500,25" pivot="0.5,0.5" anchor="true" controller="state,0">
+      <Label title="神话"/>
+    </component>
+    <component id="n12_g2f5" name="mark_7" src="g2f5b" fileName="ScoreProgressMark.xml" xy="587,25" pivot="0.5,0.5" anchor="true" controller="state,0">
+      <Label title="传说"/>
+    </component>
+    <text id="n21_h2g8" name="_scoreKey" xy="21,-78" size="33,77" font="ui://vi9240byaqhj9" fontSize="28" color="#ffffff" vAlign="middle" autoSize="none" text="总分"/>
+    <image id="n5_l291" name="line" src="fa3912r" fileName="_公用--线/竖线--大小14--白.png" pkg="g17ofscz" xy="341,40" pivot="0.5,0.5" anchor="true"/>
+    <text id="n22_vxxz" name="value" xy="73,-71" size="241,64" font="ui://vi9240byipdky" fontSize="28" color="#ffffff" vAlign="middle" autoSize="shrink" text="0123"/>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

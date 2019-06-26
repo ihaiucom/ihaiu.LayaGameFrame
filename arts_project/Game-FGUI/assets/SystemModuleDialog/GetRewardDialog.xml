@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1280" adaptationTest="FitSize">
+  <controller name="boxHeightCtrl" exported="true" pages="0,,1," selected="0"/>
+  <controller name="isItemTip" alias="展示物品" exported="true" pages="0,no,1,yes" selected="0"/>
+  <displayList>
+    <loader id="n20_pf6a" name="bg" xy="-2,-355" size="754,1991" url="ui://g17ofsczwx7c15k" fill="scaleFree">
+      <relation target="" sidePair="width-width"/>
+    </loader>
+    <image id="n13_pf6a" name="n13" src="wpxm7k" fileName="_公用--背景/小弹窗底板1.png" pkg="g17ofscz" xy="54,388" pivot="0.5,0.5" size="642,503" group="n17_pf6a" rotation="-2.4"/>
+    <image id="n14_pf6a" name="n14" src="wpxm7l" fileName="_公用--背景/小弹窗底板2.png" pkg="g17ofscz" xy="54,391" pivot="0.5,0.5" size="637,498" group="n17_pf6a"/>
+    <image id="n15_pf6a" name="n15" src="wpxm7m" fileName="_公用--背景/小弹窗底板3.png" pkg="g17ofscz" xy="66,403" pivot="0.5,0.5" size="614,394" group="n17_pf6a"/>
+    <group id="n17_pf6a" name="n17" xy="54,388" size="642,503" advanced="true">
+      <gearXY controller="boxHeightCtrl" pages="0,1" values="54,388|54,388"/>
+      <gearSize controller="boxHeightCtrl" pages="0" values="642,503,1,1" default="642,638,1,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <image id="n18_pf6a" name="n18" src="pf6a16k" fileName="_公用--背景--不规则/获得物品底板.png" pkg="g17ofscz" xy="375,400" pivot="0.5,0.5" anchor="true">
+      <relation target="n17_pf6a" sidePair="top-top"/>
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <text id="n19_pf6a" name="n19" xy="374,407" pivot="0.5,0.5" anchor="true" size="195,64" font="ui://vi9240by5kbu1g" fontSize="28" color="#ffffff" align="center" vAlign="middle" text="获得物品">
+      <relation target="n18_pf6a" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n16_pf6a" name="confirmBtn" src="wpxmw3" fileName="Button/StudioRenameButton.xml" pkg="jaoapdic" xy="222,806" size="306,86">
+      <gearDisplay controller="isItemTip" pages="0"/>
+      <relation target="n15_pf6a" sidePair="bottom-bottom"/>
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <list id="n1_hh76" name="list" xy="146,540" size="457,200" layout="flow_hz" selectionMode="none" overflow="hidden" scroll="horizontal" lineItemCount="3" defaultItem="ui://4snov4n9pf6a2f" align="center">
+      <gearXY controller="boxHeightCtrl" pages="0,1" values="146,540|146,540"/>
+      <gearSize controller="boxHeightCtrl" pages="1" values="457,400,1,1" default="457,200,1,1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

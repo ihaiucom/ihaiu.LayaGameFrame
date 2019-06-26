@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="8000,8000" bgColorEnabled="true" bgColor="#666666">
+  <displayList>
+    <image id="n81_ywi4" name="n81" src="mfsp12a" fileName="_公用--背景/大底板(1).png" xy="-896,-1435" size="856,623"/>
+    <image id="n116_r1sl" name="n116" src="jp8r2" fileName="主界面切图/icon底板.png" xy="-832,68"/>
+    <image id="n118_r1sl" name="n118" src="jp8r1" fileName="主界面切图/top底.png" xy="-716,220" size="472,39"/>
+    <image id="n123_j8da" name="n123" src="sz6ua6" fileName="建筑系统/bg_information.png" xy="-884,-796" size="856,792"/>
+    <component id="n135_k5sp" name="n135" src="ra7z15d" fileName="___Preview~NCode/__PreviewBgColor.xml" xy="1792,2828"/>
+    <component id="n136_k5sp" name="n136" src="k5sp15e" fileName="___Preview~NCode/__PreviewBgLine.xml" xy="1132,132"/>
+    <component id="n137_k5sp" name="n137" src="k5sp15f" fileName="___Preview~NCode/__PreviewBubbleTalk.xml" xy="584,148"/>
+    <component id="n138_k5sp" name="n138" src="k5sp15g" fileName="___Preview~NCode/__PreviewBgIcon.xml" xy="2792,184"/>
+    <component id="n139_k5sp" name="n139" src="k5sp15h" fileName="___Preview~NCode/__PreviewBgUnRule.xml" xy="680,1112"/>
+    <component id="n141_k5sp" name="n141" src="k5sp15i" fileName="___Preview~NCode/__PreviewBgComponent.xml" xy="725,2818"/>
+  </displayList>
+</component>

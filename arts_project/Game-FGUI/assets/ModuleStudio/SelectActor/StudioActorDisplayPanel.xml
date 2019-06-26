@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,770" designImage="ui://qjz790ece12kzg" designImageOffsetY="-564" designImageAlpha="0">
+  <displayList>
+    <list id="n34_kayd" name="list" xy="244,67" size="499,41" layout="row" colGap="21" defaultItem="ui://4snov4n9myfl16" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item url="ui://4snov4n9ex1n2d"/>
+    </list>
+    <image id="n35_kayd" name="n35" src="ex1nzt" fileName="_文本/匹配标签.png" pkg="g17ofscz" xy="13,41"/>
+    <component id="n38_kayd" name="startBtn" src="oh5ivv" fileName="Button/StudioNextButton.xml" pkg="jaoapdic" xy="168,635">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button icon="ui://g17ofsczex1nzv"/>
+    </component>
+    <component id="n39_kayd" name="displayList" src="kayd29" fileName="SelectActor/StudioActorDisplayList.xml" xy="-1,134" size="750,492">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+</component>

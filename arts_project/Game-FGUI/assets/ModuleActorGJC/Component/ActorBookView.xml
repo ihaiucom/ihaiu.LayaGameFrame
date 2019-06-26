@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <list id="n0_i611" name="listBook" xy="0,75" size="750,1111" overflow="scroll" defaultItem="ui://zldzgbf0wprd2">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n1_i611" name="groupPage" src="wprd3" fileName="Component/ActorGroupPage.xml" xy="1,81"/>
+  </displayList>
+</component>

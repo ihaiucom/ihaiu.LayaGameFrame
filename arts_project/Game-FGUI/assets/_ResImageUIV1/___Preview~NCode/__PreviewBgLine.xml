@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1321,719">
+  <displayList>
+    <graph id="n17_k5sp" name="n17" xy="0,0" size="1321,719" locked="true" type="rect" fillColor="#ff666666">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <image id="n0_k5sp" name="n0" src="pz3x13" fileName="_公用--线/线--大小2--灰--透明度.png" xy="79,151" size="224,2"/>
+    <image id="n1_k5sp" name="n1" src="iq0897" fileName="_公用--线/点线--大小2--白和灰.png" xy="85,291" size="226,2"/>
+    <image id="n2_k5sp" name="n2" src="u6m74p" fileName="_公用--线/线--大小1--白--透明度50.png" xy="81,132" size="226,1"/>
+    <image id="n3_k5sp" name="n3" src="mfsp11a" fileName="_公用--线/线--大小4--灰--后面有点.png" xy="86,319" size="175,4"/>
+    <image id="n4_k5sp" name="n4" src="pc70wk" fileName="_公用--线/线_4条.png" xy="76,508" size="227,95"/>
+    <image id="n5_k5sp" name="n5" src="u6m756" fileName="_公用--线/线--大小3--灰--渐变.png" xy="82,190" size="262,3"/>
+    <image id="n6_k5sp" name="n6" src="e12kyx" fileName="_公用--线/线--小格子--大小22--红.png" xy="526,276" size="285,22"/>
+    <image id="n7_k5sp" name="n7" src="fa3912r" fileName="_公用--线/竖线--大小14--白.png" xy="1016,97" size="14,300"/>
+    <image id="n9_k5sp" name="n9" src="e12kxk" fileName="_公用--线/线--大小5--白.png" xy="80,226" size="235,5"/>
+    <image id="n11_k5sp" name="n11" src="e12kxq" fileName="_公用--线/线--小格子--大小24--暗红.png" xy="522,145" size="282,24"/>
+    <image id="n12_k5sp" name="n12" src="kplq7z" fileName="_公用--线/线--小格子--大小22--灰.png" xy="527,204" size="285,22"/>
+    <text id="n13_k5sp" name="n13" xy="74,42" size="107,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="横线"/>
+    <text id="n14_k5sp" name="n14" xy="971,32" size="107,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="竖线"/>
+    <text id="n15_k5sp" name="n15" xy="548,32" size="209,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="格子平铺"/>
+    <image id="n10_k5sp" name="n10" src="fz5p12l" fileName="_公用--线/线--大小5--粉红.png" xy="86,248" size="193,5"/>
+    <image id="n8_k5sp" name="n8" src="ex1n114" fileName="_公用--线/线--大小3--白.png" xy="83,168" size="246,3"/>
+    <component id="n16_k5sp" name="n16" src="ywi4159" fileName="___BgComponent~NCode/BarWhitePattern.xml" xy="67,656" size="573,38"/>
+    <image id="n18_t6bw" name="n18" src="t6bw15x" fileName="_公用--线/点线--灰.png" xy="80,333" size="263,8"/>
+    <image id="n19_t6bw" name="n19" src="t6bw165" fileName="_公用--线/粉色线.png" xy="72,350" size="279,6"/>
+  </displayList>
+</component>

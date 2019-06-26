@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,630" overflow="hidden" designImageOffsetY="-564" designImageAlpha="90">
+  <controller name="isEmpty" exported="true" pages="0,no,1,yes" selected="0"/>
+  <displayList>
+    <list id="n35_kchl" name="cellPanel" xy="0,0" size="750,328" layout="flow_hz" lineGap="14" colGap="14" defaultItem="ui://452rk72xkchle" align="center">
+      <item title="身高情报" controllers="isSelect,0"/>
+      <item title="星座情报" controllers="isSelect,0"/>
+      <item title="外形情报" controllers="isSelect,1"/>
+      <item title="性格情报" controllers="isSelect,0"/>
+      <item title="特长情报" controllers="isSelect,0"/>
+      <item title="爱好情报" controllers="isSelect,0"/>
+    </list>
+    <list id="n40_kchl" name="selectPanel" xy="26,393" size="706,234" layout="pagination" overflow="scroll" scroll="horizontal" scrollBarFlags="524" scrollBar="auto" scrollBarRes=",ui://jaoapdicmaamxj" lineGap="20" colGap="9" defaultItem="ui://jaoapdickchlf" align="center">
+      <gearDisplay controller="isEmpty" pages="0"/>
+      <item controllers="button,0"/>
+      <item/>
+      <item/>
+      <item controllers="button,1"/>
+      <item controllers="button,0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n41_n3dz" name="n41" xy="15,460" size="720,90" group="n44_n3dz" visible="false" url="ui://g17ofsczwpxm7q" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n42_n3dz" name="n42" src="ex1n113" fileName="_公共--背景--栏目标题/粉色tips.png" pkg="g17ofscz" xy="15,460" size="720,90" group="n44_n3dz">
+      <relation target="" sidePair="height-height"/>
+    </image>
+    <text id="n43_n3dz" name="title" xy="64,492" pivot="0.5,0.5" size="622,31" group="n44_n3dz" fontSize="32" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="亲~！   暂无情报哦~">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <group id="n44_n3dz" name="_toast" xy="15,460" size="720,90" advanced="true">
+      <gearDisplay controller="isEmpty" pages="1"/>
+    </group>
+  </displayList>
+</component>

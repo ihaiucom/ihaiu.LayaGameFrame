@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1100" initName="cmdPage">
+  <displayList>
+    <graph id="n4_fbyi" name="n4" xy="0,0" size="720,1100" type="rect" lineSize="0" fillColor="#ff8c8c8c">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n12_ket7" name="subMenuBar" src="ket7l" fileName="GMSubMenuRadioBar.xml" xy="0,0" size="720,80">
+      <relation target="" sidePair="width-width,top-top"/>
+    </component>
+    <list id="n13_ket7" name="list" xy="0,82" size="720,918" overflow="scroll" lineGap="15" defaultItem="ui://46xcitpdket7n">
+      <relation target="" sidePair="width-width,height-height"/>
+      <item title="addItem 1 100"/>
+      <item title="addItem 1 100"/>
+      <item title="addItem 1 100"/>
+    </list>
+    <graph id="n14_ket7" name="n14" xy="0,1000" size="720,100" type="rect" lineSize="0" fillColor="#ff4d4d4d">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </graph>
+    <component id="n15_ket7" name="input" src="ket7m" fileName="TextArea.xml" xy="13,1009" size="459,80">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </component>
+    <component id="n16_ket7" name="sendButton" src="c3i0h" fileName="Component~NCode/ButtonRect.xml" xy="499,1016" size="200,68">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+      <Button title="发送"/>
+    </component>
+    <component id="n18_ket7" name="clearButton" src="c3i0h" fileName="Component~NCode/ButtonRect.xml" xy="606,16" size="100,50">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button title="清除历史"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="187,495" overflow="hidden" mask="n1_i3pq">
+  <displayList>
+    <image id="n1_i3pq" name="n1" src="i3pq1p" fileName="公共/building_bg_maskartist.png" pkg="g17ofscz" xy="0,0"/>
+    <loader id="n0_i3pq" name="imgActor" xy="0,0" size="187,785" url="ui://qjz790ecjej7xr" align="center" vAlign="middle" fill="scaleNoBorder" shrinkOnly="true">
+      <relation target="" sidePair="center-center,top-top"/>
+    </loader>
+  </displayList>
+</component>

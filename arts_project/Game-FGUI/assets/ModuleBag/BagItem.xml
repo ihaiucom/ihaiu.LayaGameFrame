@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="186,224">
+  <displayList>
+    <component id="n0_ncg9" name="item" src="ncg93" fileName="IconItem/ItemIconItem.xml" pkg="4snov4n9" xy="0,0" controller="type,0"/>
+  </displayList>
+</component>

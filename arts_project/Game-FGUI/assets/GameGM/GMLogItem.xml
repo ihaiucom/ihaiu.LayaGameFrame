@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,70" extention="Label">
+  <displayList>
+    <graph id="n4_fv0t" name="n4" xy="0,0" size="720,70" type="rect" lineSize="0" lineColor="#ffbdbdbd" fillColor="#ff8c8c8c">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <richtext id="n11_ket7" name="title" xy="7,5" size="706,62" touchable="false" fontSize="16" vAlign="middle" vars="true" autoSize="height" autoClearText="true" text="命令名称&#xA;dfd&#xA;ff">
+      <relation target="" sidePair="width-width"/>
+    </richtext>
+  </displayList>
+  <relation target="n11_ket7" sidePair="height-height"/>
+</component>

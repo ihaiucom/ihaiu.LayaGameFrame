@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="149,198" extention="Button">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <controller name="gold" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n17_r0zd" name="n17" src="h69f5l" fileName="bg_poster_shoot.png" pkg="vb0p0v1s" xy="3,8"/>
+    <image id="n18_r0zd" name="n18" src="e5hk4s" fileName="flag_scenario_panel1.png" pkg="vb0p0v1s" xy="4,8" size="134,178"/>
+    <image id="n23_s2db" name="finishBg" src="e5hk3x" fileName="flag_goldcard.png" pkg="vb0p0v1s" xy="0,8" size="142,188">
+      <gearDisplay controller="gold" pages="1"/>
+    </image>
+    <image id="n24_s2db" name="n24" src="e5hk3z" fileName="flag_goldcard3.png" pkg="vb0p0v1s" xy="8,15" size="126,165">
+      <gearDisplay controller="gold" pages="1"/>
+    </image>
+    <component id="n22_qbxl" name="icon" src="h69fl" fileName="animation/Film/FilmMoveShow.xml" pkg="4ykhynlr" xy="11,17"/>
+    <image id="n21_r0zd" name="n21" src="e5hk4t" fileName="flag_gantanhao.png" pkg="vb0p0v1s" xy="111,0">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <component id="n20_r0zd" name="filmStar" src="ncg95" fileName="Star/Star.xml" xy="20,155" size="100,20" controller="starNum,0,showBG,0,starLimit,0"/>
+  </displayList>
+  <Button/>
+</component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="410,56" extention="ProgressBar">
+  <displayList>
+    <image id="n0_dlaj" name="n0" src="lw5217m" fileName="建筑系统/new/进度条底01.png" pkg="g17ofscz" xy="0,0" size="410,56">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_dlaj" name="bar" src="lw5217l" fileName="建筑系统/new/进度条01.png" pkg="g17ofscz" xy="0,0" size="410,56"/>
+    <text id="n2_dlaj" name="title" xy="205,28" pivot="0.5,0.5" anchor="true" size="80,28" fontSize="24" color="#8e8ea8" align="center" vAlign="middle" text="25/100"/>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

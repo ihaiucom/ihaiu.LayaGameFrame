@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="752,850">
+  <displayList>
+    <image id="n22_j0qj" name="n22" src="e12kyb" fileName="_公用--背景--色块/渐变/背景横线.png" pkg="g17ofscz" xy="0,86" size="752,990">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </image>
+    <image id="n24_j0qj" name="n24" src="e12kz7" fileName="_公用--背景--色块/渐变/颜色渐变半透--蓝-黄-灰.png" pkg="g17ofscz" xy="0,712" size="760,366">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </image>
+  </displayList>
+</component>

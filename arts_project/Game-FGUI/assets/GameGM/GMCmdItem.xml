@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,100">
+  <displayList>
+    <graph id="n4_fv0t" name="n4" xy="0,0" size="720,100" type="rect" lineSize="0" lineColor="#ffbdbdbd" fillColor="#ff8c8c8c">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n3_fv0t" name="button" src="fv0td" fileName="ButtonCorner.xml" xy="606,33" size="100,62">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+      <Button title="执行"/>
+    </component>
+    <graph id="n12_ket7" name="n12" xy="4,33" size="573,62" type="rect" lineColor="#ff545454" fillColor="#ff9e9e9e">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n9_c3i0" name="title" xy="8,38" size="564,52" input="true" fontSize="16" color="#e8e8e8" vAlign="middle" autoSize="none" singleLine="true" text="100000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <richtext id="n11_ket7" name="name" xy="7,5" size="567,22" touchable="false" fontSize="16" color="#121212" vAlign="middle" ubb="true" autoSize="shrink" singleLine="true" text="命令名称">
+      <relation target="" sidePair="width-width,top-top"/>
+    </richtext>
+  </displayList>
+</component>

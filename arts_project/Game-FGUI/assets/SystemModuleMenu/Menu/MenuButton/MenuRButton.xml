@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="94,94" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="c_visible_new" pages="0,hide,1,new,2,red" selected="1"/>
+  <displayList>
+    <loader id="n1" name="icon" xy="0,0" pivot="0.5,0.8" size="97,97" url="ui://qjz790eckrdk13" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n6_c0r2" name="lock" src="szhv5" fileName="icon_lock_login.png" pkg="vb0p0v1s" xy="33,64" size="30,30">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n5_rbh3" name="red" src="ncg9j" fileName="Badge/NumberBadge.xml" pkg="jaoapdic" xy="32,0">
+      <gearDisplay controller="c_visible_new" pages="2"/>
+    </component>
+    <image id="n7_gqu4" name="new" src="szhv8" fileName="icon_new.png" pkg="vb0p0v1s" xy="-22,0" size="60,24" aspect="true">
+      <gearDisplay controller="c_visible_new" pages="1"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+</component>

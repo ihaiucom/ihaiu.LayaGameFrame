@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,660" designImage="ui://qjz790ec10shy164" designImageOffsetY="-675" designImageAlpha="0">
+  <controller name="page" pages="0,详情界面,1,升级界面" selected="0"/>
+  <displayList>
+    <image id="n5_10shy" name="n5" src="cy5k16x" fileName="_公用--背景--色块/纯色/ebebeb_灰白.png" pkg="g17ofscz" xy="0,-1" size="750,661">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n8_10shy" name="n8" src="cy5k170" fileName="_公用--背景--色块/渐变/粉色渐变.png" pkg="g17ofscz" xy="0,0" size="750,242"/>
+    <image id="n6_10shy" name="n6" src="cy5k17b" fileName="建筑系统/new/弹窗top渐变.png" pkg="g17ofscz" xy="0,-1" size="750,115">
+      <relation target="" sidePair="width-width,top-top"/>
+    </image>
+    <loader id="n9_10shy" name="imgLogo" xy="24,31" pivot="0.5,0.5" anchor="true" size="38,38" url="ui://g17ofsczcy5k174" autoSize="true"/>
+    <component id="n3_eqmn" name="contentPage" src="eqmn4" fileName="Component/BuildingContentPage.xml" xy="0,0" size="750,660" hideByEditor="true">
+      <gearDisplay controller="page" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n2_eqmn" name="levelPage" src="eqmn3" fileName="Component/BuildingLevelPage.xml" xy="0,-1" size="750,661">
+      <gearDisplay controller="page" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <text id="n10_10shy" name="labName" xy="123,31" pivot="0.5,0.5" anchor="true" size="149,43" fontSize="36" color="#ffffff" text="拍摄中心&#xA;"/>
+    <text id="n11_10shy" name="labLevel" xy="199,35" pivot="0,0.5" anchor="true" size="85,40" fontSize="32" color="#8e8ea8" text="Lv.37&#xA;"/>
+    <image id="n12_10shy" name="n12" src="cy5k16z" fileName="_公用--背景--色块/半透/半透灰_10.png" pkg="g17ofscz" xy="19,216" size="716,6"/>
+    <image id="n14_10shy" name="n14" src="cy5k16y" fileName="_公用--背景--色块/半透/efe6fe_半透紫_65.png" pkg="g17ofscz" xy="298,25" rotation="45"/>
+    <image id="n15_10shy" name="n15" src="cy5k16y" fileName="_公用--背景--色块/半透/efe6fe_半透紫_65.png" pkg="g17ofscz" xy="301,31" size="449,2"/>
+  </displayList>
+</component>

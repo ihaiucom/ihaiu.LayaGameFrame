@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,100">
+  <displayList>
+    <graph id="n0_wl2t" name="menuBar" xy="0,0" size="720,100" locked="true" hideByEditor="true" type="rect" lineSize="0" fillColor="#ff212121">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <list id="n11_nb4e" name="menuList" xy="0,0" size="720,100" layout="row" overflow="scroll" scroll="horizontal" scrollBarFlags="8" scrollBar="visible" defaultItem="ui://46xcitpdwl2t2" vAlign="middle">
+      <relation target="" sidePair="width-width,height-height"/>
+      <item title="添加"/>
+      <item title="命令"/>
+      <item title="选择服务器"/>
+      <item title="模块"/>
+      <item title="Log"/>
+    </list>
+  </displayList>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="700,53">
+  <controller name="tab" pages="0,属性,1,技能,2,标签,3,羁绊,4,助理" selected="0"/>
+  <displayList>
+    <list id="n0_q74i" name="n0" xy="0,0" size="700,53" layout="row" defaultItem="ui://jaoapdici3pqvq" vAlign="bottom" selectionController="tab">
+      <item title="属性"/>
+      <item title="技能"/>
+      <item title="标签"/>
+      <item title="羁绊"/>
+      <item title="助理"/>
+    </list>
+  </displayList>
+</component>

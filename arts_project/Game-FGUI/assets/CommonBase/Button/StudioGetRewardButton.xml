@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="306,86" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <image id="n4_o3xj" name="_bg" src="9th1zp" fileName="_公用--按钮/按钮.png" pkg="g17ofscz" xy="-12,-4" size="330,89"/>
+    <image id="n6_oh5i" name="n6" src="q4w0wg" fileName="_文本/一键领取.png" pkg="g17ofscz" xy="71,20"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+</component>

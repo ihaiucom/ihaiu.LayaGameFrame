@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,150" pivot="0,1" anchor="true">
+  <displayList>
+    <graph id="n6_oa5k" name="n6" xy="0,0" pivot="0,1" size="300,150" type="rect" fillColor="#ff003333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+</component>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="154,200" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="2"/>
+  <controller name="countState" alias="物品数量状态" exported="true" pages="0,enough,1,unenough" selected="1">
+    <remark page="0" value="数量满足"/>
+    <remark page="1" value="数量不满足"/>
+  </controller>
+  <displayList>
+    <image id="n11_mfsp" name="n11" src="mfsp12h" fileName="_公用--背景-框/道具底板.png" pkg="g17ofscz" xy="76,77" pivot="0.5,0.5" anchor="true"/>
+    <loader id="n5_agif" name="icon" xy="76,77" pivot="0.5,0.5" anchor="true" size="153,154" aspect="true" url="ui://qjz790ecu6m749" align="center" vAlign="middle" fill="scaleMatchHeight"/>
+    <image id="n8_agif" name="n8" src="mfsp12i" fileName="_公用--背景--不规则/道具数量半透底.png" pkg="g17ofscz" xy="77,128" pivot="0.5,0.5" anchor="true"/>
+    <text id="n9_agif" name="num" xy="100,131" pivot="0.5,0.5" anchor="true" size="99,29" fontSize="25" color="#ff3300" align="right" vAlign="middle" ubb="true" autoSize="none" singleLine="true" text="10/50">
+      <gearColor controller="countState" pages="1" values="#ff3300,#000000" default="#ffffff,#000000"/>
+    </text>
+    <text id="n6_agif" name="itemName" xy="76,177" pivot="0.5,0.5" anchor="true" size="65,34" fontSize="30" color="#cab3b7" align="center" vAlign="middle" ubb="true" singleLine="true" text="金币"/>
+  </displayList>
+  <Button/>
+</component>

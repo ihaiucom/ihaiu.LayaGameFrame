@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" extention="Label" initName="frame">
+  <displayList>
+    <loader id="n7_wljj" name="icon" xy="0,0" size="750,1334" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n8_iphd" name="closeBtn" src="e5hk1m" fileName="Button/EmptyButton.xml" pkg="jaoapdic" xy="0,0" size="750,1334">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n0_szhv" name="frame" src="eftvc" fileName="Window/BaseFullWindowUI.xml" pkg="jaoapdic" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="asfaga"/>
+    </component>
+    <list id="n1_j3nb" name="list" xy="40,117" size="640,1004" overflow="scroll" ptrRes=",ui://41exsi4svqq04" lineGap="16" defaultItem="ui://41exsi4sj3nb3" align="center">
+      <relation target="" sidePair="width-width,height-height"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n4_j3nb" name="btnReward" src="j3nbu" fileName="Button/YellowBigButton.xml" pkg="jaoapdic" xy="451,1185">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="一键领取" titleFontSize="26"/>
+    </component>
+    <component id="n2_j3nb" name="btnDelect" src="t3as2" fileName="Button/BlueButton.xml" pkg="jaoapdic" xy="36,1185" size="225,75">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="删除已读" titleFontSize="26"/>
+    </component>
+    <image id="n5_j3nb" name="n5" src="j3nb3x" fileName="flag_talk_line.png" xy="0,1160" size="720,2">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </image>
+    <image id="n7_j3nb" name="n7" src="j3nb3y" fileName="img_nomail.png" pkg="vb0p0v1s" xy="214,329" pivot="0.5,0.5" size="339,349" group="n10_j3nb"/>
+    <image id="n8_j3nb" name="n8" src="j3nb3z" fileName="bg_tips_mail.png" pkg="vb0p0v1s" xy="1,686" size="720,80" group="n10_j3nb"/>
+    <text id="n9_j3nb" name="tip" xy="1,704" size="720,50" group="n10_j3nb" fontSize="24" color="#114d74" align="center" vAlign="middle" autoSize="none" text="您的收件箱中没有邮件！">
+      <relation target="n8_j3nb" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n10_j3nb" name="NoMail" xy="1,329" size="720,437" advanced="true" collapsed="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

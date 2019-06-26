@@ -1,4 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
-<packageDescription id="4ykhynlr">
-  <resources/>
+<packageDescription id="4ykhynlr" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="e5hk0" name="Effect_story_unlock.xml" path="/animation/effect_story_unlock/" exported="true"/>
+    <component id="h69fl" name="FilmMoveShow.xml" path="/animation/Film/" exported="true"/>
+    <component id="h96rm" name="EffectBuildingCD.xml" path="/animation/BuldingCD/" exported="true"/>
+    <image id="h96rn" name="sd10004.png" path="/_images_ui/" exported="true"/>
+    <component id="h96ro" name="smoke003.xml" path="/animation/BuldingCD/" exported="true"/>
+    <image id="h96rp" name="smoke0234.png" path="/_images_ui/" exported="true" scale=""/>
+    <component id="h96rq" name="beat01.xml" path="/animation/BuldingCD/" exported="true"/>
+    <image id="h96rr" name="smoke07.png" path="/_images_ui/" exported="true"/>
+    <image id="h96rs" name="smoke06.png" path="/_images_ui/" exported="true"/>
+    <image id="h96rt" name="smoke05.png" path="/_images_ui/" exported="true"/>
+    <image id="h96ru" name="smoke04.png" path="/_images_ui/" exported="true"/>
+    <image id="h96rv" name="smoke09.png" path="/_images_ui/" exported="true"/>
+    <image id="h96rw" name="smoke08.png" path="/_images_ui/" exported="true"/>
+    <image id="h96rx" name="hammer.png" path="/_images_ui/" exported="true" scale="" atlas="alone_npot"/>
+    <image id="h96rz" name="icon_clock.png" path="/_images_ui/" exported="true"/>
+    <component id="g2r5m" name="starflyAnimation.xml" path="/animation/Actor/" exported="true"/>
+    <image id="etda2m" name="dianji_01.png" path="/_images_frame/ClickFx1/" atlas="6"/>
+    <image id="etda2n" name="dianji_02.png" path="/_images_frame/ClickFx1/"/>
+    <image id="etda2o" name="dianji_03.png" path="/_images_frame/ClickFx1/"/>
+    <image id="etda2p" name="dianji_04.png" path="/_images_frame/ClickFx1/"/>
+    <image id="etda2q" name="dianji_05.png" path="/_images_frame/ClickFx1/"/>
+    <image id="etda2r" name="dianji_06.png" path="/_images_frame/ClickFx1/"/>
+    <image id="etda2s" name="dianji_07.png" path="/_images_frame/ClickFx1/"/>
+    <image id="etda2t" name="dianji_08.png" path="/_images_frame/ClickFx1/"/>
+    <image id="etda2u" name="dianji_09.png" path="/_images_frame/ClickFx1/"/>
+    <image id="etda2v" name="dianji_10.png" path="/_images_frame/ClickFx1/"/>
+    <image id="etda2w" name="dianji_11.png" path="/_images_frame/ClickFx1/"/>
+    <image id="etda2x" name="dianji_12.png" path="/_images_frame/ClickFx1/"/>
+    <image id="etda2y" name="dianji_13.png" path="/_images_frame/ClickFx1/"/>
+    <image id="etda2z" name="dianji_14.png" path="/_images_frame/ClickFx1/"/>
+    <image id="etda30" name="dianji_15.png" path="/_images_frame/ClickFx1/"/>
+    <image id="etda31" name="dianji_16.png" path="/_images_frame/ClickFx1/"/>
+    <image id="etda32" name="dianji_17.png" path="/_images_frame/ClickFx1/"/>
+    <image id="etda33" name="dianji_18.png" path="/_images_frame/ClickFx1/"/>
+    <image id="etda34" name="dianji_19.png" path="/_images_frame/ClickFx1/"/>
+    <image id="etda35" name="dianji_20.png" path="/_images_frame/ClickFx1/"/>
+    <image id="etda36" name="dianji_21.png" path="/_images_frame/ClickFx1/"/>
+    <image id="etda37" name="dianji_22.png" path="/_images_frame/ClickFx1/"/>
+    <movieclip id="etda3f" name="ClickMovieClip1.jta" path="/MovieClip/" exported="true" atlas="7"/>
+    <image id="etda3i" name="star.png" path="/_images_ui/"/>
+    <image id="etda3k" name="yuehui_01.png" path="/_images_frame/MobileFX/"/>
+    <image id="etda3l" name="yuehui_02.png" path="/_images_frame/MobileFX/"/>
+    <image id="etda3m" name="yuehui_03.png" path="/_images_frame/MobileFX/"/>
+    <image id="etda3n" name="yuehui_04.png" path="/_images_frame/MobileFX/"/>
+    <image id="etda3o" name="yuehui_05.png" path="/_images_frame/MobileFX/"/>
+    <image id="etda3p" name="yuehui_06.png" path="/_images_frame/MobileFX/"/>
+    <image id="etda3q" name="yuehui_07.png" path="/_images_frame/MobileFX/"/>
+    <image id="etda3r" name="yuehui_08.png" path="/_images_frame/MobileFX/"/>
+    <image id="etda3s" name="yuehui_09.png" path="/_images_frame/MobileFX/"/>
+    <image id="etda3t" name="yuehui_10.png" path="/_images_frame/MobileFX/"/>
+    <image id="etda3u" name="yuehui_11.png" path="/_images_frame/MobileFX/"/>
+    <image id="etda3v" name="yuehui_12.png" path="/_images_frame/MobileFX/"/>
+    <image id="etda3w" name="yuehui_13.png" path="/_images_frame/MobileFX/"/>
+    <image id="etda3x" name="yuehui_14.png" path="/_images_frame/MobileFX/"/>
+    <image id="etda3y" name="yuehui_15.png" path="/_images_frame/MobileFX/"/>
+    <image id="etda3z" name="yuehui_16.png" path="/_images_frame/MobileFX/"/>
+    <image id="etda40" name="yuehui_17.png" path="/_images_frame/MobileFX/"/>
+    <image id="etda41" name="yuehui_18.png" path="/_images_frame/MobileFX/"/>
+    <image id="etda42" name="yuehui_19.png" path="/_images_frame/MobileFX/"/>
+    <image id="etda43" name="yuehui_20.png" path="/_images_frame/MobileFX/"/>
+    <image id="etda44" name="yuehui_21.png" path="/_images_frame/MobileFX/"/>
+    <image id="etda45" name="yuehui_22.png" path="/_images_frame/MobileFX/"/>
+    <image id="etda46" name="yuehui_23.png" path="/_images_frame/MobileFX/"/>
+    <image id="etda47" name="yuehui_24.png" path="/_images_frame/MobileFX/"/>
+    <image id="etda48" name="yuehui_25.png" path="/_images_frame/MobileFX/"/>
+    <image id="etda49" name="yuehui_26.png" path="/_images_frame/MobileFX/"/>
+    <image id="etda4a" name="yuehui_27.png" path="/_images_frame/MobileFX/"/>
+    <image id="etda4b" name="yuehui_28.png" path="/_images_frame/MobileFX/"/>
+    <image id="etda4c" name="yuehui_29.png" path="/_images_frame/MobileFX/"/>
+    <image id="etda4d" name="yuehui_30.png" path="/_images_frame/MobileFX/"/>
+    <image id="etda4e" name="yuehui_31.png" path="/_images_frame/MobileFX/"/>
+    <image id="etda4f" name="yuehui_32.png" path="/_images_frame/MobileFX/"/>
+    <image id="etda4g" name="yuehui_33.png" path="/_images_frame/MobileFX/"/>
+    <image id="etda4h" name="yuehui_34.png" path="/_images_frame/MobileFX/"/>
+    <image id="etda4i" name="yuehui_35.png" path="/_images_frame/MobileFX/"/>
+    <movieclip id="etda4k" name="MobileClickMovieClipFX.jta" path="/MovieClip/" exported="true" atlas="8"/>
+    <image id="etda4l" name="butterfly_01.png" path="/_images_frame/ButterflyFX/" atlas="5"/>
+    <image id="etda4m" name="butterfly_02.png" path="/_images_frame/ButterflyFX/" atlas="5"/>
+    <image id="etda4n" name="butterfly_03.png" path="/_images_frame/ButterflyFX/"/>
+    <image id="etda4o" name="butterfly_04.png" path="/_images_frame/ButterflyFX/"/>
+    <image id="etda4p" name="butterfly_05.png" path="/_images_frame/ButterflyFX/"/>
+    <image id="etda4q" name="butterfly_06.png" path="/_images_frame/ButterflyFX/"/>
+    <image id="etda4r" name="butterfly_07.png" path="/_images_frame/ButterflyFX/"/>
+    <image id="etda4s" name="butterfly_08.png" path="/_images_frame/ButterflyFX/"/>
+    <image id="etda4t" name="butterfly_09.png" path="/_images_frame/ButterflyFX/"/>
+    <image id="etda4u" name="butterfly_10.png" path="/_images_frame/ButterflyFX/"/>
+    <image id="etda4v" name="butterfly_11.png" path="/_images_frame/ButterflyFX/"/>
+    <image id="etda4w" name="butterfly_12.png" path="/_images_frame/ButterflyFX/"/>
+    <movieclip id="etda4x" name="ButterflyMovieClip.jta" path="/MovieClip/" exported="true" atlas="5"/>
+    <image id="fa394y" name="lizi_01.png" path="/_images_frame/Lizi/"/>
+    <image id="fa394z" name="lizi_02.png" path="/_images_frame/Lizi/"/>
+    <image id="fa3950" name="lizi_03.png" path="/_images_frame/Lizi/"/>
+    <image id="fa3951" name="lizi_04.png" path="/_images_frame/Lizi/"/>
+    <image id="fa3952" name="lizi_05.png" path="/_images_frame/Lizi/"/>
+    <image id="fa3953" name="lizi_06.png" path="/_images_frame/Lizi/"/>
+    <image id="fa3954" name="lizi_07.png" path="/_images_frame/Lizi/"/>
+    <image id="fa3955" name="lizi_08.png" path="/_images_frame/Lizi/"/>
+    <image id="fa3956" name="lizi_09.png" path="/_images_frame/Lizi/"/>
+    <image id="fa3957" name="lizi_10.png" path="/_images_frame/Lizi/"/>
+    <image id="fa3958" name="lizi_11.png" path="/_images_frame/Lizi/"/>
+    <image id="fa3959" name="lizi_12.png" path="/_images_frame/Lizi/"/>
+    <image id="fa395a" name="lizi_13.png" path="/_images_frame/Lizi/"/>
+    <image id="fa395b" name="lizi_14.png" path="/_images_frame/Lizi/"/>
+    <image id="fa395c" name="lizi_15.png" path="/_images_frame/Lizi/"/>
+    <image id="fa395d" name="lizi_16.png" path="/_images_frame/Lizi/"/>
+    <image id="fa395e" name="lizi_17.png" path="/_images_frame/Lizi/"/>
+    <image id="fa395f" name="lizi_18.png" path="/_images_frame/Lizi/"/>
+    <image id="fa395g" name="lizi_19.png" path="/_images_frame/Lizi/"/>
+    <image id="fa395h" name="lizi_20.png" path="/_images_frame/Lizi/"/>
+    <image id="fa395i" name="lizi_21.png" path="/_images_frame/Lizi/"/>
+    <image id="fa395j" name="lizi_22.png" path="/_images_frame/Lizi/"/>
+    <image id="fa395k" name="lizi_23.png" path="/_images_frame/Lizi/"/>
+    <movieclip id="fa395l" name="Lizi.jta" path="/MovieClip/" exported="true" atlas="9"/>
+  </resources>
+  <publish name="CommonFx" genCode="true"/>
 </packageDescription>

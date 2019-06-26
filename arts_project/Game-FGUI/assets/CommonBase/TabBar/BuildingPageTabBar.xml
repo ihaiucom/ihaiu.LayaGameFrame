@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="340,49">
+  <controller name="tab" pages="0,升级,2,艺人" selected="0">
+    <remark page="0" value="升级页面"/>
+    <remark page="1" value="艺人页面"/>
+  </controller>
+  <displayList>
+    <list id="n0_q74i" name="n0" xy="0,0" size="340,49" layout="row" defaultItem="ui://jaoapdicpz3xvj" vAlign="bottom" selectionController="tab">
+      <item title="当前产出"/>
+      <item title="等级详情"/>
+    </list>
+  </displayList>
+</component>

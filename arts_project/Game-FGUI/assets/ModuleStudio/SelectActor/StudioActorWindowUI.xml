@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImage="ui://qjz790ece12kzf" designImageAlpha="0">
+  <controller name="windowType" pages="0,actor,1,display,2,event,3,event2" selected="2">
+    <action type="change_page" fromPage="0,1,2,3" toPage="3" objectId="n59_ex1n" controller="isEventSelected" targetPage="1"/>
+    <action type="change_page" fromPage="0,1,2,3" toPage="2" objectId="n59_ex1n" controller="isEventSelected" targetPage="0"/>
+    <action type="play_transition" fromPage="0,1,2,3" toPage="2" transition="t0"/>
+  </controller>
+  <displayList>
+    <component id="n30_e9ra" name="frame" src="f84s1" fileName="ScreenBG.xml" pkg="47qsdr42" xy="-1,0" size="752,1542">
+      <Label icon="ui://g17ofscze12kz4"/>
+    </component>
+    <component id="n49_cwvw" name="n49" src="cwvw2c" fileName="Component/StudioBGBottom.xml" xy="-1,275" size="752,1058">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </component>
+    <image id="n53_cwvw" name="n53" src="kplq87" fileName="_公用--背景--色块/纯色/0xFFFFFFFF--白.png" pkg="g17ofscz" xy="-1,0" size="754,694">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n51_cwvw" name="n51" src="e12ky5" fileName="_公用--背景--不规则/背景格子上半部分.png" pkg="g17ofscz" xy="0,35" size="753,103">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n58_cwvw" name="n58" src="cwvwzs" fileName="_公用--背景--不规则/顶部紫色.png" pkg="g17ofscz" xy="0,-427" size="752,494">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n54_cwvw" name="n54" src="e12ky8" fileName="_公共--背景--栏目标题/标题标签底板.png" pkg="g17ofscz" xy="207,5">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <loader id="n55_cwvw" name="n55" xy="265,19" size="215,48" url="ui://g17ofsczex1nzu">
+      <gearIcon controller="windowType" pages="0" values="ui://g17ofscze12kxr" default="ui://g17ofsczex1nzu"/>
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <image id="n57_cwvw" name="_top" src="e12kxq" fileName="_公用--线/线--小格子--大小24--暗红.png" pkg="g17ofscz" xy="13,105" size="740,25" rotation="3">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n52_cwvw" name="n52" src="e12ky6" fileName="_公用--背景--不规则/背景格子下半部分.png" pkg="g17ofscz" xy="-1,570" size="753,123">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n56_cwvw" name="_bottom" src="e12kxq" fileName="_公用--线/线--小格子--大小24--暗红.png" pkg="g17ofscz" xy="13,544" size="739,25" rotation="3">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <component id="n22_u6m7" name="closeBtn" src="e12kwe" fileName="Button/CloseButton.xml" pkg="jaoapdic" xy="16,1" pivot="0.5,0.5"/>
+    <component id="n31_kayd" name="cellPanel" src="kayd22" fileName="SelectActor/StudioActorCellPanel.xml" xy="81,172" size="593,358">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n32_kayd" name="selectPanel" src="kayd23" fileName="SelectActor/StudioActorSelectPanel.xml" xy="2,558" size="744,782">
+      <relation target="" sidePair="width-width%,height-height"/>
+    </component>
+    <component id="n44_kayd" name="dispalyPanel" src="kayd26" fileName="SelectActor/StudioActorDisplayPanel.xml" xy="752,566" size="750,770">
+      <gearDisplay controller="windowType" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n48_e12k" name="mask" src="h9411n" fileName="Window/ShadowMask.xml" pkg="jaoapdic" xy="0,0" locked="true"/>
+    <image id="n65_fz5p" name="n65" src="e12kxk" fileName="_公用--线/线--大小5--白.png" pkg="g17ofscz" xy="0,689" size="752,5"/>
+    <image id="n66_fz5p" name="n66" src="fz5p12l" fileName="_公用--线/线--大小5--粉红.png" pkg="g17ofscz" xy="0,692" size="752,5"/>
+    <image id="n60_ex1n" name="_eventMask" src="n8bkzo" fileName="_公用--背景--色块/纯色/0x585858FF--灰.png" pkg="g17ofscz" xy="0,-430" size="750,1991" alpha="0.75">
+      <gearDisplay controller="windowType" pages="2,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n59_ex1n" name="eventDialog" src="ex1n2d" fileName="SelectEvent/StudioEventDialog.xml" xy="0,0" pivot="0.5,0.5" size="750,1334" controller="isEventSelected,0">
+      <gearDisplay controller="windowType" pages="2,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n59_ex1n" tween="true" startValue="0.5" endValue="1" duration="12"/>
+    <item time="0" type="Rotation" target="n59_ex1n" tween="true" startValue="13" endValue="0" duration="12"/>
+    <item time="0" type="Scale" target="n59_ex1n" tween="true" startValue="0.8,0.8" endValue="1,1" duration="12"/>
+    <item time="0" type="XY" target="n59_ex1n" tween="true" startValue="150,-150" endValue="0,0" duration="12"/>
+    <item time="12" type="Alpha" target="n59_ex1n" tween="true" startValue="1"/>
+    <item time="12" type="Rotation" target="n59_ex1n" tween="true" startValue="0"/>
+    <item time="12" type="Scale" target="n59_ex1n" tween="true" startValue="1,1"/>
+    <item time="12" type="XY" target="n59_ex1n" tween="true" startValue="0,0"/>
+  </transition>
+</component>

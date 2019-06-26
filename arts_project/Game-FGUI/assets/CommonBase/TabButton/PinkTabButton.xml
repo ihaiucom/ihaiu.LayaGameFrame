@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="90,65" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n3_l44g" name="n3" src="t6bw15s" fileName="_公用--按钮/红色按钮.png" pkg="g17ofscz" xy="0,0" size="90,65">
+      <gearDisplay controller="button" pages="0,2"/>
+    </image>
+    <image id="n4_l44g" name="n4" src="t6bw15r" fileName="_公用--按钮/淡紫色按钮.png" pkg="g17ofscz" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <text id="n2_i3pq" name="title" xy="45,30" pivot="0.5,0.5" anchor="true" size="65,34" fontSize="30" color="#ffffff" align="center" vAlign="middle" singleLine="true" text="使用">
+      <gearXY controller="button" pages="0,1,2,3" values="45,30|45,32|45,32|45,32"/>
+      <gearColor controller="button" pages="0,1,2,3" values="#ffffff,#000000|#ffffff,#000000|#ffffff,#000000|#ffffff,#000000"/>
+    </text>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

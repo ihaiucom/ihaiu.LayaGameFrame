@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" overflow="hidden">
+  <controller name="state" pages="0,未拥有,1,已拥有" selected="0"/>
+  <displayList>
+    <loader id="n10_gpte" name="imgActor" xy="25,30" size="700,1274" url="ui://qjz790ecgpte15y" autoSize="true"/>
+    <component id="n11_gpte" name="btnClose" src="e12kwe" fileName="Button/CloseButton.xml" pkg="jaoapdic" xy="92,59">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n16_gpte" name="btnSee" src="t3as2" fileName="Button/BlueButton.xml" pkg="jaoapdic" xy="33,1005">
+      <gearDisplay controller="state" pages="0"/>
+      <Button title="查看羁绊详情" titleColor="#000000"/>
+    </component>
+    <component id="n17_gpte" name="btnShare" src="t3as2" fileName="Button/BlueButton.xml" pkg="jaoapdic" xy="27,1163">
+      <gearDisplay controller="state" pages="0"/>
+      <Button title="分享" titleColor="#000000"/>
+    </component>
+  </displayList>
+</component>

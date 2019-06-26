@@ -1,0 +1,139 @@
+
+11101601_YangChaoyue_F.png
+size: 440,440
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+changqun
+  rotate: false
+  xy: 2, 72
+  size: 128, 157
+  orig: 128, 157
+  offset: 0, 0
+  index: -1
+lian
+  rotate: false
+  xy: 355, 338
+  size: 79, 100
+  orig: 79, 100
+  offset: 0, 0
+  index: -1
+qunzi
+  rotate: false
+  xy: 158, 216
+  size: 96, 91
+  orig: 96, 91
+  offset: 0, 0
+  index: -1
+toushang
+  rotate: false
+  xy: 158, 309
+  size: 102, 129
+  orig: 102, 129
+  offset: 0, 0
+  index: -1
+touxia
+  rotate: false
+  xy: 2, 231
+  size: 154, 207
+  orig: 154, 207
+  offset: 0, 0
+  index: -1
+tunbu
+  rotate: false
+  xy: 132, 123
+  size: 96, 91
+  orig: 96, 91
+  offset: 0, 0
+  index: -1
+xiong
+  rotate: false
+  xy: 262, 333
+  size: 91, 105
+  orig: 91, 105
+  offset: 0, 0
+  index: -1
+youjiao
+  rotate: false
+  xy: 2, 2
+  size: 64, 68
+  orig: 64, 68
+  offset: 0, 0
+  index: -1
+youshangbi
+  rotate: false
+  xy: 209, 22
+  size: 73, 83
+  orig: 73, 83
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: false
+  xy: 344, 147
+  size: 39, 43
+  orig: 39, 43
+  offset: 0, 0
+  index: -1
+youtuishang
+  rotate: false
+  xy: 230, 107
+  size: 58, 107
+  orig: 58, 107
+  offset: 0, 0
+  index: -1
+youtuixia
+  rotate: false
+  xy: 313, 247
+  size: 54, 84
+  orig: 54, 84
+  offset: 0, 0
+  index: -1
+youxiabi
+  rotate: false
+  xy: 284, 32
+  size: 61, 73
+  orig: 61, 73
+  offset: 0, 0
+  index: -1
+zuojiao
+  rotate: false
+  xy: 369, 192
+  size: 63, 69
+  orig: 63, 69
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: false
+  xy: 68, 21
+  size: 46, 49
+  orig: 46, 49
+  offset: 0, 0
+  index: -1
+zuoshoushang
+  rotate: false
+  xy: 132, 33
+  size: 75, 88
+  orig: 75, 88
+  offset: 0, 0
+  index: -1
+zuoshouxia
+  rotate: false
+  xy: 369, 263
+  size: 68, 73
+  orig: 68, 73
+  offset: 0, 0
+  index: -1
+zuotuishang
+  rotate: false
+  xy: 290, 128
+  size: 52, 87
+  orig: 52, 87
+  offset: 0, 0
+  index: -1
+zuotuixia
+  rotate: false
+  xy: 256, 217
+  size: 55, 90
+  orig: 55, 90
+  offset: 0, 0
+  index: -1

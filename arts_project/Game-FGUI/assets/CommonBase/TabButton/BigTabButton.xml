@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="164,49" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
+  <displayList>
+    <image id="n0_pz3x" name="n0" src="pz3x1d" fileName="公共/btn_tabbig_up.png" pkg="g17ofscz" xy="-7,0" size="175,49">
+      <gearDisplay controller="button" pages="0,2"/>
+    </image>
+    <image id="n2_pz3x" name="n2" src="pz3x1c" fileName="公共/btn_tabbig_down.png" pkg="g17ofscz" xy="-7,0">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <text id="n3_pz3x" name="title" xy="28,9" size="115,32" fontSize="28" color="#ffffff" text="建造升级">
+      <gearXY controller="button" pages="1,3" values="28,9|28,10" default="28,12"/>
+      <gearColor controller="button" pages="0,2" values="#9087a1,#000000|#9087a1,#000000" default="#ffffff,#000000"/>
+    </text>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

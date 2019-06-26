@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,88" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n3_l44g" name="n3" src="jej79i" fileName="公共/btn_add.png" pkg="g17ofscz" xy="0,0" size="200,88">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n4_l44g" name="n4" src="jej79f" fileName="公共/bg_add.png" pkg="g17ofscz" xy="57,10">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>

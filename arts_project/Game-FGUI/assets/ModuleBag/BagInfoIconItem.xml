@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,326">
+  <displayList>
+    <image id="n0_ncg9" name="n0" src="ncg9s" fileName="bg_bag_bottom_info.png" pkg="vb0p0v1s" xy="0,1" size="720,326">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n1_ncg9" name="item" src="ncg93" fileName="IconItem/ItemIconItem.xml" pkg="4snov4n9" xy="27,51" controller="type,0">
+      <relation target="n0_ncg9" sidePair="left-left,middle-middle"/>
+    </component>
+    <text id="n2_ncg9" name="itemName" xy="225,62" size="468,37" fontSize="28" color="#ffffff" vAlign="middle" autoSize="none" text="物品名称物品名称物品名称物品名称物品名称物品名称">
+      <relation target="n1_ncg9" sidePair="left-right,top-top"/>
+      <relation target="n0_ncg9" sidePair="rightext-right"/>
+    </text>
+    <text id="n3_ncg9" name="itemContent" xy="222,110" size="471,106" fontSize="20" color="#ffffff" autoSize="none" text="这是物品描述内容！这是物品描述内容！这是物品描述内容！这是物品描述内容！">
+      <relation target="n2_ncg9" sidePair="top-bottom,width-width"/>
+    </text>
+    <component id="n7_ncg9" name="n7" src="ncg97" fileName="IconItem/coinIconItem.xml" pkg="4snov4n9" xy="431,248" visible="false">
+      <relation target="n5_ncg9" sidePair="right-left,middle-middle"/>
+    </component>
+    <component id="n5_ncg9" name="saleBtn" src="kzdyt" fileName="Button/BlueButtonSmall.xml" pkg="jaoapdic" xy="557,242" visible="false">
+      <relation target="n3_ncg9" sidePair="top-bottom,right-right"/>
+      <Button title="出售"/>
+    </component>
+    <component id="n4_ncg9" name="useBtn" src="kzdyv" fileName="Button/YellowButtonSmall.xml" pkg="jaoapdic" xy="540,242" visible="false">
+      <relation target="n3_ncg9" sidePair="right-right,top-bottom"/>
+      <Button title="合成"/>
+    </component>
+    <component id="n6_ncg9" name="giveBtn" src="kzdyt" fileName="Button/BlueButtonSmall.xml" pkg="jaoapdic" xy="382,240" visible="false">
+      <relation target="n3_ncg9" sidePair="center-center,top-bottom"/>
+      <Button title="赠送"/>
+    </component>
+    <component id="n8_kzdy" name="splitBtn" src="kzdyt" fileName="Button/BlueButtonSmall.xml" pkg="jaoapdic" xy="229,239" aspect="true" visible="false">
+      <relation target="n3_ncg9" sidePair="left-left,top-bottom"/>
+      <Button title="拆分"/>
+    </component>
+  </displayList>
+</component>

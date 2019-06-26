@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="265,45" extention="Label">
+  <controller name="showBg" pages="0,,1," selected="0">
+    <remark page="0" value="false"/>
+    <remark page="1" value="true"/>
+  </controller>
+  <displayList>
+    <image id="n3_cpc9" name="n3" src="szhv1f" fileName="bg_tittle_No.png" pkg="vb0p0v1s" xy="25,6" size="124,32">
+      <gearDisplay controller="showBg" pages="1"/>
+    </image>
+    <loader id="n5_o11z" name="assetLoader" xy="-9,-10" pivot="0.5,0.5" size="65,65" scale="0.8,0.8" url="ui://vb0p0v1sncg92g" align="center" vAlign="middle" fill="scaleFree"/>
+    <text id="n6_dm31" name="title" xy="45,9" size="98,30" fontSize="22" color="#e3f8ff" align="center" vAlign="middle" leading="0" ubb="true" autoSize="none" singleLine="true" text="9,999.9W"/>
+  </displayList>
+</component>

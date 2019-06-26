@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="675,636" extention="Label">
+  <displayList>
+    <image id="n4_ncg9" name="n4" src="eftvj" fileName="bg_common.png" pkg="vb0p0v1s" xy="0,0" size="672,636">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_ncg9" name="n3" src="eftvl" fileName="bg_title_small_common.png" pkg="vb0p0v1s" xy="0,0" size="674,88"/>
+    <text id="n6_ncg9" name="title" xy="34,0" size="600,88" fontSize="28" color="#ffffff" align="center" vAlign="middle" autoSize="none" singleLine="true" text="title"/>
+    <component id="n5_ncg9" name="closeBtn" src="eftvb" fileName="Button/CloseButton.xml" pkg="jaoapdic" xy="595,0">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+  </displayList>
+</component>

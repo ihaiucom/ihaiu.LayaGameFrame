@@ -1,5 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
 <packageDescription id="jaoapdic" jpegQuality="80" compressPNG="true">
-  <resources/>
-  <publish name=""/>
+  <resources>
+    <component id="o3xj0" name="YellowButton.xml" path="/Button/" exported="true"/>
+    <component id="t3as2" name="BlueButton.xml" path="/Button/" exported="true"/>
+    <component id="t3as9" name="CheckBox.xml" path="/Checkbox/" exported="true"/>
+    <component id="eftvc" name="BaseFullWindowUI.xml" path="/Window/" exported="true"/>
+    <component id="ncg9i" name="CommonBadge.xml" path="/Badge/" exported="true"/>
+    <component id="ncg9j" name="NumberBadge.xml" path="/Badge/" exported="true"/>
+    <component id="ncg9k" name="BagTabBar.xml" path="/TabBar/" exported="true"/>
+    <component id="ncg9o" name="BaseProgressBar.xml" path="/ProgressBar/" exported="true"/>
+    <component id="ncg9r" name="Slider_grip.xml" path="/ProgressBar/" exported="true"/>
+    <component id="ncg9s" name="Slider.xml" path="/ProgressBar/" exported="true"/>
+    <component id="j3nbu" name="YellowBigButton.xml" path="/Button/" exported="true"/>
+    <component id="j3nbv1" name="YellowSmallButton.xml" path="/Button/" exported="true"/>
+    <component id="kzdyt" name="BlueButtonSmall.xml" path="/Button/" exported="true"/>
+    <component id="kzdyv" name="YellowButtonSmall.xml" path="/Button/" exported="true"/>
+    <component id="szhv12" name="YellowProgressBar.xml" path="/ProgressBar/" exported="true"/>
+    <component id="szhv1h" name="AddButton.xml" path="/Button/" exported="true"/>
+    <component id="e5hk1j" name="Yellow2Button.xml" path="/Button/" exported="true"/>
+    <component id="e5hk1m" name="EmptyButton.xml" path="/Button/" exported="true"/>
+    <component id="nnuxv9" name="ProgressBarBlue.xml" path="/ProgressBar/" exported="true"/>
+    <component id="u6goi" name="RenameInput.xml" path="/Input/" exported="true"/>
+    <component id="t5vjvc" name="IconButton.xml" path="/Button/" exported="true"/>
+    <component id="t5vjvd" name="CellphoneButton.xml" path="/Button/" exported="true"/>
+    <component id="lcu2vk" name="ActorSelectTabBar.xml" path="/TabBar/" exported="true"/>
+    <component id="oa5kvq" name="ChartBarItem.xml" path="/ChartBar/" exported="true"/>
+    <component id="oa5kvr" name="ChartBarView.xml" path="/ChartBar/" exported="true"/>
+    <component id="oh5ivv" name="StudioNextButton.xml" path="/Button/" exported="true"/>
+    <component id="u6m7w0" name="StudioGetRewardButton.xml" path="/Button/" exported="true"/>
+    <component id="pz3xvj" name="BigTabButton.xml" path="/TabButton/" exported="true"/>
+    <component id="q74ivk" name="BuildingPageTabBar.xml" path="/TabBar/" exported="true"/>
+    <component id="i3pqvo" name="SmallCommonButton.xml" path="/Button/" exported="true"/>
+    <component id="i3pqvq" name="SmallTabButton.xml" path="/TabButton/" exported="true"/>
+    <component id="i3pqvr" name="ActorListTabBar.xml" path="/TabBar/" exported="true"/>
+    <component id="wprdvu" name="ActorButton.xml" path="/Button/" exported="true"/>
+    <component id="f65hvv" name="VerticalButton.xml" path="/Button/" exported="true"/>
+    <component id="f65hvw" name="ActorPropertyTabBar.xml" path="/TabBar/" exported="true"/>
+    <component id="l291vj" name="ChartPolygonPropertyView.xml" path="/ChartPolygonPropertyView/" exported="true"/>
+    <component id="l291vo" name="ChartPolygonPropertyText.xml" path="/ChartPolygonPropertyView/" exported="true"/>
+    <component id="ol35vx" name="StoryListTabBar.xml" path="/TabBar/" exported="true"/>
+    <component id="iq08vy" name="BlueScaleButton.xml" path="/Button/" exported="true"/>
+    <component id="iq08vz" name="WriteButton.xml" path="/Button/" exported="true"/>
+    <component id="h9411n" name="ShadowMask.xml" path="/Window/" exported="true"/>
+    <component id="wpxmw2" name="RenameInput2.xml" path="/Input/" exported="true"/>
+    <component id="wpxmw3" name="StudioRenameButton.xml" path="/Button/" exported="true"/>
+    <component id="e2wxw5" name="PenButon.xml" path="/Button/" exported="true"/>
+    <component id="p9erw6" name="BubbleTalkSmall.xml" path="/BubbleTalk/" exported="true"/>
+    <component id="la1jw7" name="ShareButton.xml" path="/Button/" exported="true"/>
+    <component id="la1j1q" name="ShareButtonBar.xml" path="/Button/" exported="true"/>
+    <component id="l44gw8" name="InformationProgressBar.xml" path="/ProgressBar/" exported="true"/>
+    <component id="l44gw9" name="InformationTabBar.xml" path="/TabBar/" exported="true"/>
+    <component id="l44gwa" name="PinkTabButton.xml" path="/TabButton/" exported="true"/>
+    <component id="l44gwb" name="AddButton2.xml" path="/Button/" exported="true"/>
+    <component id="l44gwc" name="RemoveButton.xml" path="/Button/" exported="true"/>
+    <component id="n6y7w8" name="ExitViewButton.xml" path="/Button/" exported="true"/>
+    <component id="t8drwe" name="BuildingReservesProgressBar1.xml" path="/ProgressBar/" exported="true"/>
+    <component id="e12kwe" name="CloseButton.xml" path="/Button/" exported="true"/>
+    <component id="m5zowq" name="ViewCheckButton.xml" path="/Button/" exported="true"/>
+    <component id="m5zowr" name="CloseButton3.xml" path="/Button/" exported="true"/>
+    <component id="m5zox4" name="BuildingProgressBar.xml" path="/ProgressBar/" exported="true"/>
+    <component id="mfspx6" name="ChartPolygonPropertyTextOnlyName.xml" path="/ChartPolygonPropertyView/" exported="true"/>
+    <component id="vjljx7" name="ChartProgressBar.xml" path="/ProgressBar/" exported="true"/>
+    <component id="dt43x8" name="StudioAnimatedButton.xml" path="/Button/" exported="true"/>
+    <component id="dt43x9" name="StudioAnimatedButton_ani.xml" path="/Button/"/>
+    <component id="mdfoxa" name="VerticalScrollBar.xml" path="/ScrollBar/"/>
+    <component id="t52gxb" name="MyInfoButton.xml" path="/Button/" exported="true"/>
+    <component id="maamxi" name="InformationScrollBar_grip.xml" path="/ScrollBar/"/>
+    <component id="maamxj" name="InformationScrollBar.xml" path="/ScrollBar/" exported="true"/>
+    <component id="ma8exc" name="MenuButton.xml" path="/Button/" exported="true"/>
+    <component id="kchlf" name="InformationItem.xml" path="/Information/" exported="true"/>
+    <component id="ognsm" name="InformationSpecialItem.xml" path="/Information/" exported="true"/>
+    <component id="ldd9xk" name="InformationEmptyItem.xml" path="/Information/" exported="true"/>
+    <component id="ldd9xl" name="PinkButton.xml" path="/Button/" exported="true"/>
+    <component id="10shyxn" name="BuildingSpeedProgressBar.xml" path="/ProgressBar/" exported="true"/>
+    <component id="dlajyxo" name="BuildingReservesProgressBar.xml" path="/ProgressBar/" exported="true"/>
+    <component id="hwvbxn" name="DailyTaskButton.xml" path="/Button/" exported="true"/>
+  </resources>
+  <publish name="CommonBase" genCode="true"/>
 </packageDescription>

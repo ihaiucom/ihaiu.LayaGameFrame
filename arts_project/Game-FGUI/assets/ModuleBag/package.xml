@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<packageDescription id="4mjxxvpq">
-  <resources/>
+<packageDescription id="4mjxxvpq" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="eftv0" name="BagWindowUI.xml" path="/" exported="true"/>
+    <component id="ncg96" name="BagInfoIconItem.xml" path="/" exported="true"/>
+    <component id="ncg92" name="BagItem.xml" path="/" exported="true"/>
+    <component id="ncg94" name="BagActorItem.xml" path="/" exported="true"/>
+    <component id="lg7x16" name="GetInformationDialog.xml" path="/" exported="true"/>
+  </resources>
+  <publish name="ModuleBag" genCode="true"/>
 </packageDescription>

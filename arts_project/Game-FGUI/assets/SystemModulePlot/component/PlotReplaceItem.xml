@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,87">
+  <displayList>
+    <image id="n3_wcyo" name="n3" src="t6bw16b" fileName="_公用--背景/标签3.png" pkg="g17ofscz" xy="0,0" size="600,87">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n0_wcyo" name="btnGo" src="kzdyt" fileName="Button/BlueButtonSmall.xml" pkg="jaoapdic" xy="454,10">
+      <relation target="" sidePair="right-center,middle-middle"/>
+      <Button title="前往"/>
+    </component>
+    <text id="n4_wcyo" name="num" xy="40,26" size="49,34" fontSize="30" align="right" text="2-1">
+      <relation target="" sidePair="left-center,middle-middle"/>
+    </text>
+    <text id="n5_wcyo" name="name" xy="167,26" size="152,34" fontSize="30" align="right" text="小章节名字">
+      <relation target="" sidePair="left-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

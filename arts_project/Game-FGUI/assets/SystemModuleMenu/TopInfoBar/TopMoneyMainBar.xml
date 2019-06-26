@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="513,39" initName="moneyBar">
+  <displayList>
+    <image id="n65_krdk" name="n65" src="jp8r1" fileName="主界面切图/top底.png" pkg="g17ofscz" xy="0,0" size="513,39">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n66_krdk" name="artistPhysical" src="szhv1e" fileName="TopInfoBar/TopMoneyItem.xml" xy="-11,-11" customData="{&quot;itemId&quot;:10, &quot;name&quot;:&quot;体力&quot;}">
+      <relation target="" sidePair="left-left"/>
+      <Label title="9,999,9w" icon="ui://g17ofsczjp8rt"/>
+    </component>
+    <component id="n64_rbh3" name="gold" src="szhv1e" fileName="TopInfoBar/TopMoneyItem.xml" xy="354,-11" customData="{&quot;itemId&quot;:2, &quot;name&quot;:&quot;金币&quot;}">
+      <relation target="" sidePair="right-right"/>
+      <Label title="9,999,9w" icon="ui://g17ofsczjp8ru"/>
+    </component>
+    <component id="n52_8zgr" name="diamond" src="szhv1e" fileName="TopInfoBar/TopMoneyItem.xml" xy="178,-11" customData="{&quot;itemId&quot;:1, &quot;name&quot;:&quot;钻石&quot;}">
+      <relation target="" sidePair="center-center"/>
+      <Label title="9,999,9w" icon="ui://g17ofsczjp8rv"/>
+    </component>
+  </displayList>
+</component>

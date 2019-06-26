@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,30" extention="Label">
+  <displayList>
+    <image id="n6_m6h3" name="n6" src="szhvm" fileName="flag_clock_panel_zjm.png" pkg="vb0p0v1s" xy="0,0" size="100,30">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n7_m6h3" name="n7" src="szhvn" fileName="flag_clock_zjm.png" pkg="vb0p0v1s" xy="7,8" size="16,16">
+      <relation target="" sidePair="left-left,middle-middle"/>
+    </image>
+    <text id="n8_m6h3" name="time" xy="25,5" size="59,23" fontSize="16" color="#ffdc2a" vAlign="middle" text="12:20:30">
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="" sidePair="middle-middle,left-left"/>
+    </text>
+  </displayList>
+</component>

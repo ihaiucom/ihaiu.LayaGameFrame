@@ -1,0 +1,22 @@
+info face="D:\xyz_wp\arts\fgui\Font\Number_SZ_04b_03b_42_White" size=32 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1
+common lineHeight=30 base=26 scaleW=128 scaleH=128 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="D:\xyz_wp\arts\fgui\Font\Number_SZ_04b_03b_42_White.png"
+chars count=16
+char id=48 x=62 y=0 width=30 height=36 xoffset=0 yoffset=-3 xadvance=31 page=0 chnl=0 letter="0"
+char id=49 x=93 y=74 width=19 height=35 xoffset=5 yoffset=-2 xadvance=20 page=0 chnl=0 letter="1"
+char id=50 x=93 y=37 width=30 height=36 xoffset=0 yoffset=-4 xadvance=31 page=0 chnl=0 letter="2"
+char id=51 x=62 y=74 width=30 height=36 xoffset=0 yoffset=-4 xadvance=31 page=0 chnl=0 letter="3"
+char id=52 x=93 y=0 width=30 height=36 xoffset=0 yoffset=-5 xadvance=31 page=0 chnl=0 letter="4"
+char id=53 x=62 y=37 width=30 height=36 xoffset=0 yoffset=-5 xadvance=31 page=0 chnl=0 letter="5"
+char id=54 x=31 y=0 width=30 height=36 xoffset=0 yoffset=-6 xadvance=31 page=0 chnl=0 letter="6"
+char id=55 x=0 y=0 width=30 height=36 xoffset=0 yoffset=-6 xadvance=31 page=0 chnl=0 letter="7"
+char id=56 x=31 y=74 width=30 height=36 xoffset=0 yoffset=-7 xadvance=31 page=0 chnl=0 letter="8"
+char id=57 x=31 y=37 width=30 height=36 xoffset=0 yoffset=-7 xadvance=31 page=0 chnl=0 letter="9"
+char id=58 x=0 y=99 width=14 height=25 xoffset=8 yoffset=-2 xadvance=15 page=0 chnl=0 letter=":"
+char id=76 x=0 y=63 width=30 height=35 xoffset=0 yoffset=-5 xadvance=31 page=0 chnl=0 letter="L"
+char id=118 x=0 y=37 width=30 height=25 xoffset=0 yoffset=4 xadvance=31 page=0 chnl=0 letter="v"
+char id=46 x=15 y=111 width=14 height=15 xoffset=8 yoffset=15 xadvance=15 page=0 chnl=0 letter="."
+char id=32 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=20 page=0 chnl=0 letter=" "
+char id=9 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=160 page=0 chnl=0 letter="	"
+
+kernings count=0

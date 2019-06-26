@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="520,80" extention="Button" initName="textArea">
+  <displayList>
+    <graph id="n8_fv0t" name="n8" xy="0,0" size="520,80" type="rect" lineColor="#ff999999">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n7_nb4e" name="title" xy="10,10" size="500,60" input="true" prompt="输入命令，可以输入多个命令，每行一个！" fontSize="20" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

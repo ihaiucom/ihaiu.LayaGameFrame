@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="14txxr43" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="jej70" name="InformationWindowUIGJC.xml" path="/" exported="true"/>
+    <component id="l44g1" name="InformationPoolItem.xml" path="/Component/" exported="true"/>
+    <component id="l44g2" name="viewButton.xml" path="/Component/" exported="true"/>
+    <component id="l44g3" name="resolverButton.xml" path="/Component/" exported="true"/>
+    <component id="l44g4" name="InformationLabItem.xml" path="/Component/" exported="true"/>
+    <component id="l44g5" name="InformationListView.xml" path="/Component/" exported="true"/>
+    <component id="l44g6" name="InformationListItem.xml" path="/Component/" exported="true"/>
+    <component id="l44g7" name="InformationResolverView.xml" path="/Component/" exported="true"/>
+  </resources>
+  <publish name="ModuleInformationGJC" genCode="true"/>
+</packageDescription>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="170,44" extention="Label">
+  <controller name="type" exported="true" pages="0,,1," selected="0">
+    <remark page="0" value="名字"/>
+    <remark page="1" value="属性"/>
+  </controller>
+  <displayList>
+    <text id="n1_myfl" name="name" xy="0,2" size="170,40" fontSize="35" color="#bda2a8" vAlign="middle" autoSize="none" text="吴彦祖">
+      <gearDisplay controller="type" pages="0"/>
+      <relation target="" sidePair="width-width,middle-middle"/>
+    </text>
+    <text id="n2_kayd" name="prop1" xy="0,5" size="98,34" fontSize="30" color="#9191aa" vAlign="middle" letterSpacing="1" autoSize="none" text="魅力：">
+      <gearDisplay controller="type" pages="1"/>
+      <relation target="" sidePair="width-width,middle-middle"/>
+    </text>
+    <text id="n3_ipdk" name="prop2" xy="76,5" size="100,34" fontSize="30" color="#9191aa" vAlign="middle" autoSize="none" bold="true" text="1000&#xA;100&#xA;">
+      <gearDisplay controller="type" pages="1"/>
+      <relation target="" sidePair="width-width,middle-middle"/>
+    </text>
+  </displayList>
+</component>

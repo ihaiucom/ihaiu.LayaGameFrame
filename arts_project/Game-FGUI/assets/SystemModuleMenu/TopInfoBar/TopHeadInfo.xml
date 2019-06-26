@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="161,165" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <image id="n33_krdk" name="n33" src="jp8r3" fileName="主界面切图/头像框.png" pkg="g17ofscz" xy="0,0"/>
+    <loader id="n35_krdk" name="icon" xy="20,24" size="117,118" aspect="true" url="ui://vb0p0v1skrdkx" align="center" vAlign="middle" fill="scale"/>
+    <image id="n34_krdk" name="n34" src="jp8r4" fileName="主界面切图/头像框_1.png" pkg="g17ofscz" xy="0,0"/>
+    <component id="n36_krdk" name="expBar" src="krdk1g" fileName="TopInfoBar/ExpProgressBar.xml" xy="17,106">
+      <ProgressBar value="84" max="100"/>
+    </component>
+    <text id="n27_8zgr" name="level" xy="48,107" pivot="0.5,0.5" size="65,24" fontSize="20" color="#e3f8ff" align="center" vAlign="middle" singleLine="true" text="Lv.999"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+</component>

@@ -1,0 +1,307 @@
+
+Hourglass.png
+size: 255,255
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pingzi
+  rotate: false
+  xy: 2, 151
+  size: 74, 102
+  orig: 74, 102
+  offset: 0, 0
+  index: -1
+sha
+  rotate: false
+  xy: 246, 220
+  size: 4, 33
+  orig: 4, 33
+  offset: 0, 0
+  index: -1
+shalou0001
+  rotate: false
+  xy: 2, 123
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0002
+  rotate: false
+  xy: 78, 227
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0003
+  rotate: false
+  xy: 2, 95
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0004
+  rotate: true
+  xy: 44, 109
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0005
+  rotate: false
+  xy: 78, 199
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0006
+  rotate: false
+  xy: 120, 227
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0007
+  rotate: false
+  xy: 2, 67
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0008
+  rotate: true
+  xy: 44, 67
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0009
+  rotate: false
+  xy: 78, 171
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0010
+  rotate: false
+  xy: 120, 199
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0011
+  rotate: false
+  xy: 162, 227
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0012
+  rotate: false
+  xy: 2, 39
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0013
+  rotate: false
+  xy: 120, 171
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0014
+  rotate: false
+  xy: 162, 199
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0015
+  rotate: false
+  xy: 204, 227
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0016
+  rotate: false
+  xy: 2, 11
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0017
+  rotate: true
+  xy: 44, 25
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0018
+  rotate: false
+  xy: 162, 171
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0019
+  rotate: false
+  xy: 204, 199
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0020
+  rotate: false
+  xy: 204, 171
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0021
+  rotate: false
+  xy: 78, 143
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0022
+  rotate: false
+  xy: 120, 143
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0023
+  rotate: false
+  xy: 162, 143
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0024
+  rotate: false
+  xy: 204, 143
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0025
+  rotate: false
+  xy: 72, 115
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0026
+  rotate: false
+  xy: 72, 87
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0027
+  rotate: false
+  xy: 114, 115
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0028
+  rotate: false
+  xy: 72, 59
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0029
+  rotate: false
+  xy: 114, 87
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0030
+  rotate: false
+  xy: 156, 115
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0031
+  rotate: false
+  xy: 72, 31
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0032
+  rotate: false
+  xy: 114, 59
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0033
+  rotate: false
+  xy: 156, 87
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0034
+  rotate: false
+  xy: 198, 115
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0035
+  rotate: false
+  xy: 114, 31
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0036
+  rotate: false
+  xy: 156, 59
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0037
+  rotate: false
+  xy: 198, 87
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0038
+  rotate: false
+  xy: 156, 31
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0039
+  rotate: false
+  xy: 198, 59
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+shalou0040
+  rotate: false
+  xy: 198, 31
+  size: 40, 26
+  orig: 40, 26
+  offset: 0, 0
+  index: -1
+xingxing
+  rotate: false
+  xy: 72, 2
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1

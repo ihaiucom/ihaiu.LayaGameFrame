@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="115,316">
+  <controller name="tab" pages="0,1,1,2,2,3,3,4,4,5" selected="0"/>
+  <displayList>
+    <list id="n5_wcyo" name="list" xy="0,0" size="115,316" lineGap="11" defaultItem="ui://jaoapdici3pqvq" selectionController="tab">
+      <relation target="" sidePair="width-width,height-height"/>
+      <item icon="ui://jaoapdici3pqvq"/>
+      <item icon="ui://jaoapdici3pqvq"/>
+      <item icon="ui://jaoapdici3pqvq"/>
+      <item icon="ui://jaoapdici3pqvq"/>
+      <item icon="ui://jaoapdici3pqvq"/>
+    </list>
+  </displayList>
+</component>

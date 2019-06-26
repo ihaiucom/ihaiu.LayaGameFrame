@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="190,58" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n3_j3nb" name="n3" src="wx7c15m" fileName="_公用--按钮/粉色按钮.png" pkg="g17ofscz" xy="0,0" size="190,58">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n4_j3nb" name="title" xy="46,12" size="101,29" fontSize="25" color="#fefdfe" align="center" vAlign="middle" letterSpacing="-50" text="收取收益">
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="1.10"/>
+</component>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="160,205" overflow="hidden" extention="Button">
+  <controller name="noHave" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n33_nd2w" name="n33" src="ncg91o" fileName="flag_property_panel4.png" pkg="vb0p0v1s" xy="0,0" size="160,205">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n34_nd2w" name="n34" src="ncg91p" fileName="flag_property_panel5.png" pkg="vb0p0v1s" xy="0,0" size="160,160">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n35_nd2w" name="n35" src="ncg91l" fileName="flag_property_guang2.png" pkg="vb0p0v1s" xy="0,0" size="160,160">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n36_nd2w" name="n36" src="ncg91k" fileName="flag_property_guang.png" pkg="vb0p0v1s" xy="0,0" size="160,160">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>

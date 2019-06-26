@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" overflow="hidden" designImage="ui://g17ofsczwprd3j" designImageAlpha="0" adaptationTest="FitSize">
+  <displayList>
+    <loader id="n0_i611" name="imgActor" xy="-50,98" size="544,764" url="ui://qjz790ecl291i" align="center" vAlign="bottom" fill="scaleMatchHeight">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <image id="n1_i611" name="n1" src="i3pq2i" fileName="__临时UI/artist_bg_name.png" pkg="g17ofscz" xy="442,154" size="310,716">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </image>
+    <component id="n3_i611" name="btnTrain" src="i3pqvo" fileName="Button/SmallCommonButton.xml" pkg="jaoapdic" xy="515,632">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+      <Button title="培训"/>
+    </component>
+    <component id="n4_i611" name="btnGift" src="i3pqvo" fileName="Button/SmallCommonButton.xml" pkg="jaoapdic" xy="515,751">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+      <Button title="送礼"/>
+    </component>
+    <text id="n5_i611" name="n5" xy="517,827" size="173,28" fontSize="24" color="#ffffff" text="可突破等级上限">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </text>
+    <component id="n6_i611" name="btnInformation" src="f65hvv" fileName="Button/VerticalButton.xml" pkg="jaoapdic" xy="1,555">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n7_i611" name="btnPhotograph" src="f65hvv" fileName="Button/VerticalButton.xml" pkg="jaoapdic" xy="1,722">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Button title="外观" icon="ui://g17ofsczi3pq2m"/>
+    </component>
+    <image id="n8_i611" name="n8" src="i3pq2n" fileName="_公用--背景/bg_tabs.png" pkg="g17ofscz" xy="-1,924" size="750,71">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </image>
+    <component id="n9_i611" name="tabProperty" src="f65hvw" fileName="TabBar/ActorPropertyTabBar.xml" pkg="jaoapdic" xy="-1,942" size="561,53">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <graph id="n10_i611" name="n10" xy="-1,994" size="750,337" type="rect" lineColor="#fffdf3fa" fillColor="#fffdf3fa">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </graph>
+    <list id="n11_i611" name="listParameter" xy="-1,1029" size="750,124" group="n19_i611" touchable="false" layout="row" overflow="scroll" defaultItem="ui://zldzgbf0ol359">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <item title="魅力" icon="ui://g17ofsczg2f5zi"/>
+      <item title="口才" icon="ui://g17ofsczg2f5ze"/>
+      <item title="娱乐" icon="ui://g17ofsczg2f5zf"/>
+      <item title="表演" icon="ui://g17ofsczg2f5zh"/>
+      <item title="才艺" icon="ui://g17ofsczg2f5zg"/>
+    </list>
+    <text id="n12_i611" name="n12" xy="23,1185" size="101,28" group="n19_i611" fontSize="24" color="#9087a1" text="当前等级">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </text>
+    <text id="n13_i611" name="labLeval" xy="23,1214" size="65,28" group="n19_i611" fontSize="24" color="#9087a1" text="20/30">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </text>
+    <component id="n14_i611" name="btnLevelUp" src="t3as2" fileName="Button/BlueButton.xml" pkg="jaoapdic" xy="155,1173" group="n19_i611">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="升一级"/>
+    </component>
+    <image id="n15_i611" name="n15" src="i3pq2j" fileName="__临时UI/artist_bg_resource.png" pkg="g17ofscz" xy="593,1162" size="160,100" group="n19_i611">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </image>
+    <text id="n16_i611" name="n16" xy="624,1183" size="53,28" group="n19_i611" fontSize="24" color="#ffffff" text="消耗">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </text>
+    <text id="n17_i611" name="labCostNum" xy="624,1214" size="65,28" group="n19_i611" fontSize="24" color="#ffffff" text="99999">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </text>
+    <loader id="n18_i611" name="icon" xy="697,1206" size="38,38" group="n19_i611" url="ui://vb0p0v1sszhv1j" fill="scaleFree" shrinkOnly="true">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </loader>
+    <group id="n19_i611" name="n19" xy="-1,1029" size="754,257" advanced="true"/>
+    <component id="n20_ol35" name="polygon" src="l291vj" fileName="ChartPolygonPropertyView/ChartPolygonPropertyView.xml" pkg="jaoapdic" xy="597,427">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <text id="n21_iq08" name="labName" xy="453,181" size="101,28" rotation="-12" fontSize="24" color="#9087a1" text="欧阳娜娜">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </text>
+  </displayList>
+</component>

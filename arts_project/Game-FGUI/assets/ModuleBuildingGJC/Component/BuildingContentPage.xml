@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,660" designImage="ui://qjz790ec10shy162" designImageOffsetY="-675" designImageAlpha="0">
+  <controller name="tab" pages="0,当前生产,1,等级详情" selected="0"/>
+  <displayList>
+    <text id="n25_10shy" name="n8" xy="374,101" pivot="0.5,0.5" anchor="true" size="153,43" fontSize="36" color="#b89ca1" align="center" vAlign="middle" bold="true" text="建筑说明&#xA;">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n26_10shy" name="labIntroduce" xy="54,109" size="640,93" fontSize="28" color="#8e8ea8" leading="10" autoSize="none" text="拍摄中心负责综艺界面的拍摄，产出行动力。">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n27_10shy" name="n9" xy="374,471" pivot="0.5,0.5" anchor="true" size="153,43" group="n34_dlaj" fontSize="36" color="#b89ca1" align="center" vAlign="middle" bold="true" text="正在产出&#xA;">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n29_10shy" name="labTime" xy="349,274" size="173,28" group="n34_dlaj" fontSize="24" color="#8e8ea8" leading="10" text="00:59:48后存满">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <image id="n35_gf0s" name="n35" src="cy5k17d" fileName="建筑系统/材料底.png" pkg="g17ofscz" xy="76,249" group="n34_dlaj"/>
+    <image id="n28_10shy" name="n28" src="m5zox5" fileName="建筑系统/房子.png" pkg="g17ofscz" xy="80,254" size="147,138" group="n34_dlaj">
+      <relation target="" sidePair="center-center,top-top"/>
+    </image>
+    <component id="n30_10shy" name="btnInfo" src="t5vjvc" fileName="Button/IconButton.xml" pkg="jaoapdic" xy="655,295" size="68,68" group="n34_dlaj" aspect="true">
+      <relation target="" sidePair="center-center,top-top"/>
+      <Button icon="ui://g17ofsczlw5217k"/>
+    </component>
+    <component id="n32_dlaj" name="progressReserves" src="dlajyxo" fileName="ProgressBar/BuildingReservesProgressBar.xml" pkg="jaoapdic" xy="243,306" group="n34_dlaj">
+      <relation target="" sidePair="center-center,top-top"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <list id="n8_tg2w" name="listProduce" xy="47,518" size="655,111" group="n34_dlaj" touchable="false" layout="row" overflow="scroll" scroll="horizontal" colGap="35" defaultItem="ui://4snov4n910shy2g" align="center" vAlign="middle">
+      <gearDisplay controller="tab" pages="0"/>
+      <relation target="" sidePair="center-center,top-top"/>
+      <item controllers="c_show_bg,0"/>
+      <item controllers="c_show_bg,0"/>
+      <item controllers="c_show_bg,0"/>
+      <item controllers="c_show_bg,0"/>
+      <item controllers="c_show_bg,0"/>
+    </list>
+    <image id="n33_dlaj" name="n33" src="cy5k16z" fileName="_公用--背景--色块/半透/半透灰_10.png" pkg="g17ofscz" xy="106,418" size="536,6" group="n34_dlaj">
+      <relation target="" sidePair="center-center,top-top"/>
+    </image>
+    <group id="n34_dlaj" name="valGroup" xy="47,249" size="676,380" advanced="true"/>
+  </displayList>
+</component>

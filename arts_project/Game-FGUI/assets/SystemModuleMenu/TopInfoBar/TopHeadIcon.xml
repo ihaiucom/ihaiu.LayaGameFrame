@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="92,93" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <displayList>
+    <image id="n9_rbh3" name="_bg" src="szhvz" fileName="sprites/head_bg.png" xy="0,0" pivot="0.5,0.5" pkg="vb0p0v1s">
+      <gearDisplay controller="button" pages="0,1"/>
+      <gearSize controller="button" pages="0,1" values="91,93,1,1|84,84,0.98,0.98"/>
+    </image>
+    <component id="n10_rbh3" name="icon" src="szhv10" fileName="MainUI/TopInfoBar/TopHeadIconMask.xml" xy="0,-7" aspect="true"/>
+  </displayList>
+  <Button/>
+</component>

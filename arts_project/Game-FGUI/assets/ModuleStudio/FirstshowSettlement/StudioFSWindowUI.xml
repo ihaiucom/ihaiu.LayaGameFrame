@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImageAlpha="100">
+  <displayList>
+    <component id="n22_iphd" name="frame" src="iphdy" fileName="Component/StudioBackground.xml" xy="0,-228" size="750,1785">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label icon="ui://vh8b3r0jmfsp11r"/>
+    </component>
+    <image id="n52_mfsp" name="n52" src="n8bkzo" fileName="_公用--背景--色块/纯色/0x585858FF--灰.png" pkg="g17ofscz" xy="0,-229" size="750,1792" visible="false" alpha="0.5">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n45_u6m7" name="n45" src="e9ra1y" fileName="FirstshowSettlement/StudioFSPanel.xml" xy="0,352" size="750,549" locked="true">
+      <relation target="" sidePair="width-width,middle-middle"/>
+    </component>
+    <component id="n2_mic6" name="nextBtn" src="oh5ivv" fileName="Button/StudioNextButton.xml" pkg="jaoapdic" xy="158,1160" controller="button,2">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="结束拍摄" icon="ui://g17ofsczmfsp12b"/>
+    </component>
+    <component id="n18_wljj" name="awardPanel" src="wljjr" fileName="FirstshowSettlement/StudioFSAwardPanel.xml" xy="45,450" visible="false">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n23_u6m7" name="rate" src="u6m71c" fileName="FirstshowSettlement/StudioFSRate.xml" xy="79,180" locked="true" hideByEditor="true" visible="false" controller="numLength,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n32_u6m7" name="_banner" src="u6m71d" fileName="Component/StudioBanner.xml" xy="-3,920" size="750,52">
+      <relation target="" sidePair="width-width,middle-middle"/>
+      <Label title="魅力、娱乐会影响播放量"/>
+    </component>
+    <image id="n53_mfsp" name="n53" src="e12ky8" fileName="_公共--背景--栏目标题/标题标签底板.png" pkg="g17ofscz" xy="207,5">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <loader id="n54_mfsp" name="n54" xy="265,19" size="215,48" url="ui://g17ofsczmfsp12c">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <image id="n55_mfsp" name="n55" src="mfsp12d" fileName="_公共--背景--栏目标题/经验底板.png" pkg="g17ofscz" xy="12,378" locked="true"/>
+    <text id="n59_mfsp" name="n59" xy="45,381" size="104,37" fontSize="32" color="#ffffff" bold="true" text="经验："/>
+    <component id="n62_mfsp" name="progressBar" src="ncg9o" fileName="ProgressBar/BaseProgressBar.xml" pkg="jaoapdic" xy="201,381" size="524,46" locked="true">
+      <relation target="" sidePair="width-width"/>
+      <ProgressBar value="90" max="100"/>
+    </component>
+  </displayList>
+</component>

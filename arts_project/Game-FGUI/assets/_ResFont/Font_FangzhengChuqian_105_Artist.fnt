@@ -1,0 +1,22 @@
+info face="D:\xyz_wp\arts\fgui\Font\Font_FangzhengChuqian_105_Artist" size=32 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1
+common lineHeight=100 base=26 scaleW=512 scaleH=512 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="D:\xyz_wp\arts\fgui\Font\Font_FangzhengChuqian_105_Artist.png"
+chars count=16
+char id=24120 x=227 y=294 width=106 height=100 xoffset=5 yoffset=0 xadvance=107 page=0 chnl=0 letter="常"
+char id=39547 x=115 y=300 width=111 height=98 xoffset=2 yoffset=1 xadvance=112 page=0 chnl=0 letter="驻"
+char id=22025 x=0 y=0 width=116 height=100 xoffset=0 yoffset=0 xadvance=117 page=0 chnl=0 letter="嘉"
+char id=23486 x=0 y=400 width=113 height=102 xoffset=1 yoffset=0 xadvance=114 page=0 chnl=0 letter="宾"
+char id=29305 x=227 y=194 width=109 height=99 xoffset=3 yoffset=0 xadvance=110 page=0 chnl=0 letter="特"
+char id=36992 x=0 y=101 width=116 height=98 xoffset=0 yoffset=1 xadvance=117 page=0 chnl=0 letter="邀"
+char id=27969 x=0 y=200 width=116 height=99 xoffset=0 yoffset=1 xadvance=117 page=0 chnl=0 letter="流"
+char id=37327 x=114 y=400 width=112 height=94 xoffset=2 yoffset=3 xadvance=113 page=0 chnl=0 letter="量"
+char id=25285 x=0 y=300 width=114 height=99 xoffset=1 yoffset=0 xadvance=115 page=0 chnl=0 letter="担"
+char id=24403 x=117 y=194 width=109 height=97 xoffset=3 yoffset=0 xadvance=110 page=0 chnl=0 letter="当"
+char id=32467 x=117 y=0 width=110 height=96 xoffset=3 yoffset=4 xadvance=111 page=0 chnl=0 letter="结"
+char id=35782 x=227 y=395 width=104 height=97 xoffset=6 yoffset=5 xadvance=105 page=0 chnl=0 letter="识"
+char id=33402 x=117 y=97 width=110 height=96 xoffset=3 yoffset=4 xadvance=111 page=0 chnl=0 letter="艺"
+char id=20154 x=228 y=0 width=102 height=98 xoffset=7 yoffset=4 xadvance=103 page=0 chnl=0 letter="人"
+char id=32 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=20 page=0 chnl=0 letter=" "
+char id=9 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=160 page=0 chnl=0 letter="	"
+
+kernings count=0

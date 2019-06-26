@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <image id="n15_gf0s" name="n15" src="n8bkzo" fileName="_公用--背景--色块/纯色/0x585858FF--灰.png" pkg="g17ofscz" xy="0,-282" size="750,1898" alpha="0.5">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n14_gf0s" name="btnClose" src="e5hk1m" fileName="Button/EmptyButton.xml" pkg="jaoapdic" xy="0,0" size="750,1334" alpha="0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n0_gf0s" name="n0" src="wpxm7k" fileName="_公用--背景/小弹窗底板1.png" pkg="g17ofscz" xy="375,665" pivot="0.5,0.5" anchor="true" size="750,466" rotation="-3">
+      <relation target="n12_gf0s" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_gf0s" name="n1" src="cy5k16x" fileName="_公用--背景--色块/纯色/ebebeb_灰白.png" pkg="g17ofscz" xy="375,668" pivot="0.5,0.5" anchor="true" size="750,469">
+      <relation target="n12_gf0s" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_gf0s" name="n2" src="cy5k172" fileName="_公用--背景--色块/渐变/弹窗top渐变.png" pkg="g17ofscz" xy="0,433" size="750,115">
+      <relation target="n1_gf0s" sidePair="width-width,top-top"/>
+    </image>
+    <image id="n3_gf0s" name="n3" src="cy5k170" fileName="_公用--背景--色块/渐变/粉色渐变.png" pkg="g17ofscz" xy="0,433" size="750,242">
+      <relation target="n1_gf0s" sidePair="width-width,top-top"/>
+    </image>
+    <image id="n10_gf0s" name="n10" src="cy5k16y" fileName="_公用--背景--色块/半透/efe6fe_半透紫_65.png" pkg="g17ofscz" xy="298,458" rotation="45">
+      <relation target="n1_gf0s" sidePair="right-right,top-top"/>
+    </image>
+    <image id="n11_gf0s" name="n11" src="cy5k16y" fileName="_公用--背景--色块/半透/efe6fe_半透紫_65.png" pkg="g17ofscz" xy="301,464" size="449,2">
+      <relation target="n1_gf0s" sidePair="right-right,top-top"/>
+    </image>
+    <text id="n7_gf0s" name="n12" xy="123,469" pivot="0.5,0.5" anchor="true" size="153,40" fontSize="36" color="#ffffff" align="center" vAlign="middle" text="产出详情">
+      <relation target="n1_gf0s" sidePair="left-left,top-top"/>
+    </text>
+    <component id="n13_gf0s" name="dataReserves" src="gf0s17" fileName="Component/BuildingInfoButton.xml" xy="0,541">
+      <relation target="n1_gf0s" sidePair="width-width,top-top"/>
+      <Button title="建筑储量：" icon="ui://g17ofsczm5zox5"/>
+    </component>
+    <list id="n12_gf0s" name="listInfo" xy="375,791" pivot="0.5,0.5" anchor="true" size="750,161" overflow="scroll" defaultItem="ui://q5yddivtgf0s17">
+      <relation target="" sidePair="width-width,middle-middle"/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

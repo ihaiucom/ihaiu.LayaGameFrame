@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="358,174" pivot="0.5,0.5" overflow="hidden" extention="Button" designImage="ui://qjz790ece12kzf" designImageOffsetX="-6" designImageOffsetY="-704" designImageAlpha="0">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="isSelect" pages="0,,1," selected="1"/>
+  <displayList>
+    <image id="n46_cwvw" name="n46" src="e12kxt" fileName="_公用--背景-框/艺人底板.png" pkg="g17ofscz" xy="0,0" size="358,174"/>
+    <image id="n47_cwvw" name="n47" src="e12kxu" fileName="_公用--背景-框/艺人底板装饰.png" pkg="g17ofscz" xy="296,9"/>
+    <component id="n43_kayd" name="actor" src="u6m717" fileName="IconActor/ActorIcon2.xml" pkg="4snov4n9" xy="9,16" size="150,150"/>
+    <component id="n40_kayd" name="name" src="kayd1f" fileName="IconActor/ActorPropNumItem.xml" pkg="4snov4n9" xy="179,19" size="152,44" controller="type,0">
+      <Label title="蔡徐坤"/>
+    </component>
+    <component id="n44_kayd" name="prop1" src="kayd1f" fileName="IconActor/ActorPropNumItem.xml" pkg="4snov4n9" xy="179,77" size="175,44" controller="type,1"/>
+    <component id="n45_kayd" name="prop2" src="kayd1f" fileName="IconActor/ActorPropNumItem.xml" pkg="4snov4n9" xy="179,119" size="181,44" controller="type,1"/>
+    <image id="n51_dt43" name="n51" src="l44g9z" fileName="_公用--背景--色块/纯色/0x000000FF--黑.png" pkg="g17ofscz" xy="11,18" size="142,141" locked="true" alpha="0.35">
+      <gearDisplay controller="isSelect" pages="1"/>
+      <relation target="n43_kayd" sidePair="left-left,top-top"/>
+    </image>
+    <image id="n48_cwvw" name="n48" src="e12kxo" fileName="_公用--标识和图标/桃心选择.png" pkg="g17ofscz" xy="0,0" pivot="0.5,0.5">
+      <gearDisplay controller="isSelect" pages="1"/>
+    </image>
+    <image id="n49_dt43" name="n49" src="dt4315i" fileName="_特效用到的/爱心glow.png" pkg="g17ofscz" xy="-29,-30" pivot="0.5,0.5" alpha="0">
+      <gearDisplay controller="isSelect" pages="1"/>
+    </image>
+    <image id="n50_dt43" name="n50" src="dt4315j" fileName="_特效用到的/爱心轮廓.png" pkg="g17ofscz" xy="-56,-58" pivot="0.5,0.5" alpha="0" blend="add">
+      <gearDisplay controller="isSelect" pages="1"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n49_dt43" tween="true" startValue="0" endValue="1" duration="4"/>
+    <item time="0" type="Alpha" target="n50_dt43" tween="true" startValue="0" endValue="1" duration="4"/>
+    <item time="0" type="Scale" target="n48_cwvw" tween="true" startValue="1,1" endValue="1.2,1.2" duration="4"/>
+    <item time="0" type="Scale" target="n49_dt43" tween="true" startValue="0.7,0.7" endValue="1.2,1.2" duration="4"/>
+    <item time="0" type="Scale" target="n50_dt43" tween="true" startValue="0.5,0.5" endValue="1.1,1.1" duration="4"/>
+    <item time="0" type="XY" target="n49_dt43" value="-31.06,-33.67"/>
+    <item time="4" type="Alpha" target="n49_dt43" tween="true" startValue="1" endValue="0" duration="14"/>
+    <item time="4" type="Alpha" target="n50_dt43" tween="true" startValue="1" endValue="1" duration="6"/>
+    <item time="4" type="Scale" target="n48_cwvw" tween="true" startValue="1.2,1.2" endValue="1,1" duration="14"/>
+    <item time="4" type="Scale" target="n49_dt43" tween="true" startValue="1.2,1.2" endValue="0.7,0.7" duration="14"/>
+    <item time="4" type="Scale" target="n50_dt43" tween="true" startValue="1.1,1.1" endValue="1.25,1.25" duration="20"/>
+    <item time="10" type="Alpha" target="n50_dt43" tween="true" startValue="1" endValue="0" duration="20"/>
+    <item time="18" type="Alpha" target="n49_dt43" tween="true" startValue="0"/>
+    <item time="24" type="Scale" target="n50_dt43" tween="true" startValue="1.25,1.25"/>
+    <item time="30" type="Alpha" target="n50_dt43" tween="true" startValue="0"/>
+  </transition>
+</component>

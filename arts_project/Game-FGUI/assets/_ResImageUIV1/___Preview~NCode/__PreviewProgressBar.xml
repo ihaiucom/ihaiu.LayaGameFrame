@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,400">
+  <displayList>
+    <image id="n0_ywi4" name="n0" src="mfsp12f" fileName="_公用--进度条/经验条底板.png" xy="76,24" size="278,15"/>
+    <image id="n1_ywi4" name="n1" src="mfsp12e" fileName="_公用--进度条/经验条.png" xy="86,28" size="258,9"/>
+  </displayList>
+</component>

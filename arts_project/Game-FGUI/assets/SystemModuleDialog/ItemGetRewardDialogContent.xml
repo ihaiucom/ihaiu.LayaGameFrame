@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="655,515">
+  <displayList>
+    <component id="n0_ma8e" name="n0" src="ywi4157" fileName="___BgComponent~NCode/AlertBG.xml" pkg="g17ofscz" xy="0,0"/>
+    <component id="n4_ma8e" name="closeButton" src="iq08vy" fileName="Button/BlueScaleButton.xml" pkg="jaoapdic" xy="262,433">
+      <Button title="关闭"/>
+    </component>
+    <list id="n6_ma8e" name="menuList" xy="250,119" size="380,234" layout="flow_hz" overflow="scroll" colGap="10" defaultItem="ui://jaoapdicma8exc">
+      <item controllers="state,0"/>
+      <item controllers="state,0"/>
+      <item controllers="state,0"/>
+      <item controllers="state,0"/>
+      <item controllers="state,0"/>
+      <item controllers="state,0"/>
+    </list>
+    <component id="n8_ma8e" name="itemIcon" src="ma8e2e" fileName="IconItem/ConstItemIcon.xml" pkg="4snov4n9" xy="59,122" controller="countState,0"/>
+    <text id="n9_ma8e" name="n9" xy="250,75" size="274,32" fontSize="28" color="#d0bcbf" autoSize="none" text="可以获取的模块:"/>
+  </displayList>
+</component>

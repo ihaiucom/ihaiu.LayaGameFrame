@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,50">
+  <displayList>
+    <text id="n3_x6ho" name="title" xy="79,0" size="310,50" fontSize="20" vAlign="middle" autoSize="none" singleLine="true" text="Item"/>
+    <component id="n6_x6ho" name="visiable" src="x6hou" fileName="TreeItemCheckbox.xml" xy="5,7" size="65,36"/>
+  </displayList>
+</component>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" pivot="0.5,1" anchor="true" extention="Label" designImage="ui://qjz790ecn3dz15s" designImageAlpha="0" designImageLayer="1">
+  <controller name="showActor" exported="true" pages="0,,1," selected="0">
+    <action type="play_transition" fromPage="0,1" toPage="1" transition="ani_show"/>
+  </controller>
+  <displayList>
+    <component id="n3_egpw" name="shadow" src="egpwx" fileName="InformationClipActorShadow.xml" xy="0,0" filter="color" filterData="0.00,0.00,0.00,0.00"/>
+    <component id="n2_l291" name="content" src="egpwy" fileName="InformationClipActorContent.xml" xy="0,0">
+      <gearDisplay controller="showActor" pages="1"/>
+    </component>
+  </displayList>
+  <transition name="t0" options="4">
+    <item time="0" type="Alpha" target="n3_egpw" tween="true" startValue="0" endValue="1" duration="4"/>
+    <item time="0" type="ColorFilter" target="n3_egpw" tween="true" startValue="0.00,0.00,0.00,0.00" endValue="1.00,0.00,0.00,0.00" duration="4"/>
+    <item time="0" type="Icon" target="n3_egpw" value="ui://qjz790ecl291g"/>
+    <item time="4" type="ColorFilter" target="n3_egpw" tween="true" startValue="1.00,0.00,0.00,0.00" endValue="0.00,0.00,0.00,0.00" duration="5"/>
+    <item time="12" type="Alpha" target="n3_egpw" tween="true" startValue="1" endValue="0" duration="4"/>
+    <item time="16" type="Icon" target="n3_egpw" value=""/>
+  </transition>
+  <transition name="ani_show" options="1">
+    <item time="0" type="Alpha" target="n2_l291" tween="true" startValue="0" endValue="1" duration="4"/>
+    <item time="0" type="ColorFilter" target="n2_l291" tween="true" startValue="0.00,0.00,0.00,0.00" endValue="1.00,0.00,0.00,0.00" duration="4"/>
+    <item time="4" type="ColorFilter" target="n2_l291" tween="true" startValue="1.00,0.00,0.00,0.00" endValue="0.00,0.00,0.00,0.00" duration="5"/>
+    <item time="12" type="Alpha" target="n2_l291" tween="true" startValue="1"/>
+  </transition>
+</component>

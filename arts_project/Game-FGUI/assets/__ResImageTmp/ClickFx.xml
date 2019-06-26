@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,200">
+  <displayList>
+    <image id="n3_etda" name="n3" src="f84s2" fileName="pic_bg_login.png" pkg="vb0p0v1s" xy="-237,-327" visible="false"/>
+    <movieclip id="n2_etda" name="n2" src="etda3f" fileName="MovieClip/ClickMovieClip1.jta" pkg="4ykhynlr" xy="0,0" pivot="0.5,0.5" blend="add"/>
+    <movieclip id="n0_etda" name="fx" src="etda2b" fileName="MovieClip/ClickMovieClip.jta" xy="0,0" size="200,200" hideByEditor="true" blend="add">
+      <relation target="" sidePair="width-width,height-height"/>
+    </movieclip>
+    <movieclip id="n4_etda" name="n4" src="etda4k" fileName="MovieClip/MobileClickMovieClipFX.jta" pkg="4ykhynlr" xy="128,19"/>
+  </displayList>
+</component>

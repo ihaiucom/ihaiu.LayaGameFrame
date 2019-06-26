@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="596,90" extention="Slider" designImageLayer="1" remark="hello">
+  <displayList>
+    <image id="n0_ncg9" name="n0" src="ncg9w" fileName="progressBar_red_bg.png" pkg="vb0p0v1s" xy="0,50" size="596,30">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </image>
+    <image id="n1_ncg9" name="bar" src="ncg9v" fileName="progressBar_red.png" pkg="vb0p0v1s" xy="0,50" size="596,30">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </image>
+    <text id="n2_ncg9" name="title" xy="0,11" size="596,37" fontSize="28" color="#114d72" align="center" vAlign="middle" autoSize="none" text="1/10">
+      <relation target="" sidePair="width-width"/>
+    </text>
+    <component id="n3_ncg9" name="grip" src="ncg9r" fileName="ProgressBar/Slider_grip.xml" xy="572,40">
+      <relation target="n1_ncg9" sidePair="right-right"/>
+    </component>
+  </displayList>
+  <Slider titleType="valueAndmax"/>
+</component>

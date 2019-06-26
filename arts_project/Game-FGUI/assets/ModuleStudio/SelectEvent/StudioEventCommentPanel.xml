@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,637">
+  <displayList>
+    <image id="n1_ex1n" name="n1" src="kplq87" fileName="_公用--背景--色块/纯色/0xFFFFFFFF--白.png" pkg="g17ofscz" xy="0,0" size="750,877" group="n24_ex1n">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_ex1n" name="n3" src="ex1n116" fileName="_公用--标识和图标/转发.png" pkg="g17ofscz" xy="40,15" group="n24_ex1n" locked="true"/>
+    <image id="n4_ex1n" name="n4" src="ex1n115" fileName="_公用--标识和图标/评论.png" pkg="g17ofscz" xy="309,17" group="n24_ex1n" locked="true"/>
+    <image id="n5_ex1n" name="n5" src="ex1n112" fileName="_公用--标识和图标/点赞(1).png" pkg="g17ofscz" xy="581,15" group="n24_ex1n" locked="true"/>
+    <image id="n6_ex1n" name="n6" src="ex1n114" fileName="_公用--线/线--大小3--白.png" pkg="g17ofscz" xy="0,53" size="750,3" group="n24_ex1n" locked="true">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n7_ex1n" name="n7" src="ex1n114" fileName="_公用--线/线--大小3--白.png" pkg="g17ofscz" xy="0,518" size="750,3" group="n24_ex1n">
+      <relation target="n23_ex1n" sidePair="width-width,top-bottom"/>
+    </image>
+    <group id="n24_ex1n" name="n24" xy="0,0" size="750,877" locked="true"/>
+    <component id="n8_ex1n" name="nextBtn" src="oh5ivv" fileName="Button/StudioNextButton.xml" pkg="jaoapdic" xy="170,522">
+      <relation target="" sidePair="center-center,top-top"/>
+      <Button icon="ui://g17ofsczex1nzv"/>
+    </component>
+    <text id="n9_ex1n" name="tweet" xy="111,19" size="41,27" fontSize="23" color="#9b96a6" text="355"/>
+    <text id="n10_ex1n" name="comment" xy="356,19" size="110,26" fontSize="23" color="#9b96a6" autoSize="none" text="3543325"/>
+    <text id="n11_ex1n" name="like" xy="639,18" size="53,30" fontSize="23" color="#9b96a6" text="3325&#xA;"/>
+    <component id="n23_ex1n" name="contentList" src="ex1n2i" fileName="SelectEvent/StudioEventCommentList.xml" xy="0,54">
+      <relation target="" sidePair="width-width"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="136,65" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <image id="n6_t3as" name="_bg" src="iq088x" fileName="__临时UI/btn_commonstretch.png" pkg="g17ofscz" xy="0,0" size="136,65">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n5_o3xj" name="title" xy="0,9" size="135,46" font="HYZhengYuan-95W" fontSize="28" color="#ffffff" align="center" vAlign="middle" letterSpacing="-2" autoSize="none" singleLine="true" text="Button">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="" sidePair="width-width"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+</component>

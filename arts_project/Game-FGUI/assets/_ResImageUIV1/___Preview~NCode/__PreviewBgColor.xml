@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="5305,6626" bgColorEnabled="true" bgColor="#666666">
+  <displayList>
+    <graph id="n89_k5sp" name="n89" xy="0,0" size="5305,6626" locked="true" type="rect" fillColor="#ff666666">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <image id="n85_k5sp" name="n85" src="e12kyb" fileName="_公用--背景--色块/渐变/背景横线.png" xy="244,5534" size="996,880"/>
+    <image id="n1_ra7z" name="n1" src="ra7z15e" fileName="Bitmap.png" pkg="qjz790ec" xy="-47,-2" size="5353,6629" locked="true" hideByEditor="true" aspect="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n58_k5sp" name="n58" src="jej79i" fileName="_公用--背景--色块/半透--圆角--有边框效果/半透--圆角--边框--灰.png" xy="3196,1415" size="376,212"/>
+    <image id="n2_ra7z" name="n2" src="iq088v" fileName="_公用--背景--色块/纯色/0xF6F6F6FF--灰.png" xy="184,647" size="100,100"/>
+    <image id="n3_ra7z" name="n3" src="ol357g" fileName="_公用--背景--色块/纯色/0xFDC07DFF--黄.png" xy="407,645" size="100,100"/>
+    <image id="n4_ra7z" name="n4" src="ol357h" fileName="_公用--背景--色块/纯色/0xFFA570FF--黄.png" xy="409,755" size="100,100"/>
+    <image id="n5_ra7z" name="n5" src="bcws7d" fileName="_公用--背景--色块/纯色/0xE5E6EFFF--灰.png" xy="178,517" size="100,100"/>
+    <image id="n8_ra7z" name="n8" src="l44g9z" fileName="_公用--背景--色块/纯色/0x000000FF--黑.png" xy="180,170" size="100,100" color="#000000"/>
+    <image id="n9_ra7z" name="n9" src="kplq87" fileName="_公用--背景--色块/纯色/0xFFFFFFFF--白.png" xy="188,765" size="100,100"/>
+    <image id="n10_ra7z" name="n10" src="mfsp12j" fileName="_公用--背景--色块/纯色/0xC5CAFFFF--蓝.png" xy="629,640" size="100,100"/>
+    <image id="n11_ra7z" name="n11" src="u6m753" fileName="_公用--背景--色块/纯色/0xC4C7E8FF--蓝.png" xy="629,525" size="100,100"/>
+    <image id="n13_ra7z" name="n13" src="n8bkzo" fileName="_公用--背景--色块/纯色/0x585858FF--灰.png" xy="179,298" size="100,100"/>
+    <text id="n22_k5sp" name="n22" xy="177,53" size="261,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="色块--纯色"/>
+    <image id="n24_k5sp" name="n24" src="mfsp11c" fileName="_公用--背景--色块/纯色--有边框效果/0xFEF3FDFF--上下描边.png" xy="1676,209" size="500,113"/>
+    <text id="n25_k5sp" name="n25" xy="1671,79" size="466,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="色块--纯色--有边框"/>
+    <image id="n26_k5sp" name="n26" src="e12kye" fileName="_公用--背景--色块/纯色--有边框效果/0xFFF8FCFF--外发光--白色.png" xy="1661,617" size="523,200"/>
+    <image id="n27_k5sp" name="n27" src="kplq7u" fileName="_公用--背景--色块/纯色--有边框效果/0xFFF4FBFF--外发光--粉色.png" xy="1668,370" size="500,200"/>
+    <text id="n29_k5sp" name="n29" xy="2649,63" size="415,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="色块--纯色--圆角"/>
+    <image id="n32_k5sp" name="n32" src="8zcl3j" fileName="_公用--背景--色块/纯色--圆角/0xFFFFFFFF--圆角10度.png" xy="2829,261" size="300,100"/>
+    <image id="n33_k5sp" name="n33" src="ex1n10x" fileName="_公用--背景--色块/纯色--圆角--有边框效果/0xFDEBFFFF--圆角5度.png" xy="3455,264" size="300,100" color="#fdebff"/>
+    <text id="n38_k5sp" name="n38" xy="179,1250" size="261,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="色块--半透"/>
+    <image id="n39_k5sp" name="n39" src="pz3x15" fileName="_公用--背景--色块/半透/0xece3e4_Alpha_50--灰.png" xy="247,1694" size="100,100"/>
+    <image id="n40_k5sp" name="n40" src="iq088w" fileName="_公用--背景--色块/半透/0x89839f_Alpha_50--蓝.png" xy="428,1698" size="100,100"/>
+    <image id="n41_k5sp" name="n41" src="etda3g" fileName="_公用--背景--色块/半透/0xffffff_Alpha_40--白.png" xy="247,1552" size="100,100"/>
+    <image id="n42_k5sp" name="n42" src="u6m74h" fileName="_公用--背景--色块/半透/0xfcf4ff_Alpha_90--粉色.png" xy="240,2074" size="100,100"/>
+    <image id="n43_k5sp" name="n43" src="ex1n117" fileName="_公用--背景--色块/半透/0xcccccc_Alpha_30--灰.png" xy="242,1409" size="100,100"/>
+    <text id="n45_k5sp" name="n45" xy="81,1422" size="57,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="30"/>
+    <text id="n46_k5sp" name="n46" xy="90,1716" size="57,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="50"/>
+    <text id="n47_k5sp" name="n47" xy="89,1583" size="57,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="40"/>
+    <text id="n48_k5sp" name="n48" xy="103,2081" size="57,57" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="90&#xA;"/>
+    <text id="n49_k5sp" name="n49" xy="1665,1310" size="466,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="色块--半透--有边框"/>
+    <text id="n50_k5sp" name="n50" xy="3341,287" size="82,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="5度"/>
+    <text id="n51_k5sp" name="n51" xy="2657,279" size="108,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="10度"/>
+    <image id="n52_k5sp" name="n52" src="i3pq2n" fileName="_公用--背景--色块/半透--有边框效果/半透--全边框--蓝紫色.png" xy="2289,1967" size="500,200"/>
+    <image id="n53_k5sp" name="n53" src="mfsp11p" fileName="_公用--背景--色块/半透--有边框效果/半透--上下边框--背景中间底板.png" xy="1684,1738" size="500,168"/>
+    <image id="n54_k5sp" name="n54" src="mfsp119" fileName="_公用--背景--色块/半透--有边框效果/半透--上下边框--剧本半透白色横条.png" xy="1680,1420" size="500,272"/>
+    <text id="n55_k5sp" name="n55" xy="216,933" size="56,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="灰"/>
+    <text id="n56_k5sp" name="n56" xy="429,930" size="56,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="黄"/>
+    <text id="n57_k5sp" name="n57" xy="670,929" size="56,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="蓝"/>
+    <text id="n59_k5sp" name="n59" xy="3169,1246" size="619,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="色块--半透--有边框和圆角"/>
+    <text id="n60_k5sp" name="n60" xy="3060,1486" size="108,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="10度"/>
+    <text id="n61_k5sp" name="n61" xy="226,2456" size="363,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="渐变--透明渐变"/>
+    <image id="n62_k5sp" name="n62" src="u6m74q" fileName="_公用--背景--色块/渐变/透明渐变--灰--00--50.png" xy="240,4250" size="1044,256"/>
+    <image id="n63_k5sp" name="n63" src="u6m74s" fileName="_公用--背景--色块/渐变/颜色渐变--白--粉红--浅蓝.jpg" xy="4128,2720" size="1148,256"/>
+    <image id="n64_k5sp" name="n64" src="u6m746" fileName="_公用--背景--色块/渐变/透明渐变--粉红--00--30.png" xy="254,4638" size="1016,231"/>
+    <image id="n65_k5sp" name="n65" src="u6m755" fileName="_公用--背景--色块/渐变/透明渐变--粉红--00--50.png" xy="248,4934" size="1004,215"/>
+    <image id="n66_k5sp" name="n66" src="9t6d12s" fileName="_公用--背景--色块/渐变/透明渐变--黑--10--80.png" xy="236,2632" size="1060,167"/>
+    <image id="n67_k5sp" name="n67" src="9t6d12t" fileName="_公用--背景--色块/渐变/透明渐变--黑--100--00.png" xy="236,3188" size="1084,166"/>
+    <image id="n68_k5sp" name="n68" src="u6m74i" fileName="_公用--背景--色块/渐变/颜色渐变--白--浅黄.png" xy="4148,3044" size="1104,96"/>
+    <image id="n69_k5sp" name="n69" src="u6m73j" fileName="_公用--背景--色块/渐变/透明渐变--黑--00--100.png" xy="239,2892" size="1089,197"/>
+    <text id="n70_k5sp" name="n70" xy="2316,2512" size="465,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="渐变--居中透明渐变"/>
+    <image id="n71_k5sp" name="n71" src="pc70wj" fileName="_公用--背景--色块/渐变/透明居中渐变--白--0--100--0.png" xy="2196,2660" size="784,437"/>
+    <text id="n72_k5sp" name="n72" xy="4140,2588" size="363,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="渐变--颜色渐变"/>
+    <image id="n73_k5sp" name="n73" src="e12kz4" fileName="_公用--背景--色块/渐变/颜色渐变--紫.png" xy="4132,3584" size="1100,848"/>
+    <image id="n74_k5sp" name="n74" src="e12kz7" fileName="_公用--背景--色块/渐变/颜色渐变半透--蓝-黄-灰.png" xy="3128,2732"/>
+    <text id="n75_k5sp" name="n75" xy="3244,2564" size="517,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="渐变--颜色渐变--半透"/>
+    <image id="n76_k5sp" name="n76" src="e12kzd" fileName="_公用--背景--色块/渐变/透明渐变弧形--粉红.png" xy="1399,2626"/>
+    <image id="n77_k5sp" name="n77" src="e12kz8" fileName="_公用--背景--色块/渐变/透明渐变弧形--粉红2.png" xy="1389,2842"/>
+    <text id="n78_k5sp" name="n78" xy="1380,2488" size="517,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="渐变--透明渐变--弧形"/>
+    <image id="n79_k5sp" name="n79" src="e12kza" fileName="_公用--背景--色块/渐变/颜色渐变--白--浅.png" xy="4136,3216" size="1076,159"/>
+    <image id="n80_k5sp" name="n80" src="iq088s" fileName="_公用--背景--色块/纯色/0xCBCCFAFF--蓝.png" xy="632,758" size="100,100"/>
+    <image id="n81_k5sp" name="n81" src="iq088t" fileName="_公用--背景--色块/渐变/透明渐变--紫--100--00.png" xy="260,5238" size="1016,256"/>
+    <image id="n82_k5sp" name="n82" src="wpxm7k" fileName="_公用--背景/小弹窗底板1.png" xy="2274,1435" size="520,188"/>
+    <image id="n83_k5sp" name="n83" src="wpxm7l" fileName="_公用--背景/小弹窗底板2.png" xy="2282,1679" size="527,232"/>
+    <image id="n84_k5sp" name="n84" src="wpxm7m" fileName="_公用--背景/小弹窗底板3.png" xy="1656,853" size="547,220"/>
+    <image id="n86_k5sp" name="n86" src="jp8r1" fileName="主界面切图/top底.png" xy="3213,1713" size="472,116"/>
+    <text id="n88_k5sp" name="n88" xy="3072,1746" size="108,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="20度"/>
+    <image id="n90_ecjy" name="n90" src="ecjy15j" fileName="_公用--背景--色块/渐变/透明渐变--黑--重--00--100.png" xy="249,3502" size="1026,158"/>
+    <image id="n91_ecjy" name="n91" src="ecjy15k" fileName="_公用--背景--色块/渐变/透明渐变--黑--重--100--00.png" xy="255,3757" size="1008,200"/>
+    <text id="n91_wx7c" name="n91" xy="3241,67" size="722,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="色块--纯色--圆角--有边框效果"/>
+    <image id="n94_wx7c" name="n94" src="wx7c15j" fileName="_公用--背景--色块/纯色/0x838383FF--灰.png" xy="177,405" size="102,98"/>
+    <image id="n95_wx7c" name="n95" src="wx7c15k" fileName="_公用--背景--色块/半透/0x191919_Alpha_75--黑.png" xy="462,1407" size="117,101" color="#191919"/>
+    <text id="n96_wx7c" name="n96" xy="378,1421" size="57,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="75"/>
+    <image id="n97_t6bw" name="n97" src="t6bw166" fileName="_公用--背景--色块/半透/0x191919_Alpha_5--黑.png" xy="238,1828" size="94,81"/>
+    <text id="n98_t6bw" name="n98" xy="103,1837" size="31,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="5"/>
+    <text id="n100_t6bw" name="n100" xy="997,1366" size="312,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="色块--内阴影"/>
+    <image id="n101_t6bw" name="n101" src="t6bw160" fileName="_公用--背景--色块/半透--有边框效果/半透--全边框--白色50.png" xy="1795,1972" size="291,238"/>
+    <image id="n102_t6bw" name="n102" src="t6bw162" fileName="_公用--背景--色块/半透/0xffffff_Alpha_30--白.png" xy="228,1920" size="117,105"/>
+    <text id="n103_t6bw" name="n103" xy="105,1949" size="57,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="30"/>
+    <image id="n104_t6bw" name="n104" src="t6bw168" fileName="_公用--背景--色块/纯色/0xffca6d--黄.png" xy="405,521" size="111,94"/>
+    <image id="n105_t52g" name="n105" src="t52g16e" fileName="_公用--背景--色块/半透--有边框效果/内阴影--标签底.png" xy="1008,1492" size="344,292"/>
+    <image id="n106_t52g" name="n106" src="t52g16f" fileName="_公用--背景--色块/纯色/紫色cec0df.png" xy="882,749" size="100,100"/>
+    <image id="n107_cy5k" name="n107" src="cy5k16x" fileName="_公用--背景--色块/纯色/ebebeb_灰白.png" xy="74,646" size="99,99"/>
+    <image id="n108_cy5k" name="n108" src="cy5k16y" fileName="_公用--背景--色块/半透/efe6fe_半透紫_65.png" xy="480,1565" size="79,69"/>
+    <image id="n109_cy5k" name="n109" src="cy5k16z" fileName="_公用--背景--色块/半透/半透灰_10.png" xy="498,1840" size="77,65"/>
+    <text id="n110_cy5k" name="n110" xy="395,1562" size="57,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="66"/>
+    <text id="n111_cy5k" name="n111" xy="421,1852" size="57,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="10"/>
+    <image id="n112_cy5k" name="n112" src="cy5k171" fileName="_公用--背景--色块/渐变/边缘遮罩.png" xy="354,6518" size="584,568"/>
+    <image id="n113_cy5k" name="n113" src="cy5k170" fileName="_公用--背景--色块/渐变/粉色渐变.png" xy="324,7216" size="806,242"/>
+    <image id="n114_cy5k" name="n114" src="cy5k172" fileName="_公用--背景--色块/渐变/弹窗top渐变.png" xy="276,7576" size="1304,115"/>
+  </displayList>
+</component>

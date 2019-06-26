@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="186,224" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <controller name="type" exported="true" pages="0,,1," selected="0">
+    <remark page="0" value="按钮"/>
+    <remark page="1" value="信息"/>
+  </controller>
+  <displayList>
+    <image id="n26_ncg9" name="n26" src="ncg9n" fileName="bg_nearby_item.png" pkg="vb0p0v1s" xy="11,9" size="168,208" group="n24_xl2j">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+    </image>
+    <image id="n27_ncg9" name="n27" src="ncg9o" fileName="flag_item_selected.png" pkg="vb0p0v1s" xy="0,-7" size="190,234" group="n24_xl2j">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <group id="n24_xl2j" name="n24" xy="0,-7" size="190,234" advanced="true">
+      <gearDisplay controller="type" pages="0"/>
+    </group>
+    <loader id="n14_n8uo" name="icon" xy="35,41" size="119,120" url="ui://vb0p0v1sncg9r" align="center" vAlign="middle" fill="scaleFree"/>
+    <text id="n15_n8uo" name="title" xy="29,170" size="127,40" fontSize="28" color="#e3f8ff" align="center" vAlign="middle" autoSize="shrink" text="1">
+      <relation target="" sidePair="width-width%,top-top"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n28_ncg9" name="Star" src="ncg95" fileName="IconItem/Component/Star.xml" xy="32,26" size="124,32" visible="false" controller="starNum,4,showBG,0,starLimit,0"/>
+  </displayList>
+  <Button mode="Radio" sound="ui://44whq70or6c534"/>
+</component>

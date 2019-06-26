@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,400">
+  <displayList>
+    <image id="n0_rj00" name="n0" src="iq088s" fileName="_公用--背景/bg_chequer01.png" xy="0,0" size="400,400">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_rj00" name="n1" src="iq088t" fileName="_公用--背景/bg_chequer02.png" xy="0,0" size="400,64">
+      <relation target="" sidePair="width-width,top-top"/>
+    </image>
+    <image id="n2_rj00" name="n2" src="iq088u" fileName="_公用--背景/bg_chequer03.png" xy="0,0" size="400,400">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+</component>

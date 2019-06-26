@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="170,170">
+  <displayList>
+    <image id="n33_kchl" name="n33" src="ex1n10t" fileName="_公用--背景-框/头像框.png" pkg="g17ofscz" xy="0,0" size="170,170"/>
+    <image id="n34_t52g" name="n34" src="t52g16c" fileName="_公用--背景-框/艺人框底部.png" pkg="g17ofscz" xy="9,9"/>
+    <image id="n35_t52g" name="n35" src="t6bw15w" fileName="_公用--标识和图标/问号.png" pkg="g17ofscz" xy="46,30"/>
+  </displayList>
+</component>

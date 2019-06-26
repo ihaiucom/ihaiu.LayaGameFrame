@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="414,109" extention="Button">
+  <controller name="isPlay" exported="true" pages="0,stop,1,play" selected="1"/>
+  <displayList>
+    <image id="n4_o3xj" name="_bg" src="9th1zp" fileName="_公用--按钮/按钮.png" pkg="g17ofscz" xy="0,0"/>
+    <image id="n7_dt43" name="n7" src="dt4315g" fileName="_特效用到的/wenzi_glow.png" pkg="g17ofscz" xy="-7,-9">
+      <gearDisplay controller="isPlay" pages="1"/>
+    </image>
+    <component id="n11_dt43" name="n11" src="dt43x9" fileName="Button/StudioAnimatedButton_ani.xml" xy="198,72" pivot="0.5,0.5" anchor="true" size="382,125" controller="c1,1">
+      <gearDisplay controller="isPlay" pages="1"/>
+    </component>
+    <component id="n9_dt43" name="n9" src="dt43x9" fileName="Button/StudioAnimatedButton_ani.xml" xy="20,-35" pivot="0.5,0.5" size="386,165" controller="c1,0">
+      <gearDisplay controller="isPlay" pages="1"/>
+    </component>
+    <loader id="n6_oh5i" name="icon" xy="207,54" pivot="0.5,0.5" anchor="true" size="200,55" url="ui://g17ofscze12kxl" autoSize="true">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Alpha" target="n7_dt43" tween="true" startValue="0" endValue="1" duration="36"/>
+    <item time="36" type="Alpha" target="n7_dt43" tween="true" startValue="1" endValue="0" duration="36"/>
+    <item time="72" type="Alpha" target="n7_dt43" tween="true" startValue="0"/>
+  </transition>
+</component>

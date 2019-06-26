@@ -12,5 +12,5 @@
 	"compressDesc":false,
 	"fileExtension":"bin",
 	"packageCount":2,
-	"path":"E:\\zengfeng\\GameWP\\client\\Game\\bin\\res\\fgui"
+	"path":"..\\..\\client\\Game\\bin\\res\\fgui"
 }

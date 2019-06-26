@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" adaptationTest="FitSize">
+  <displayList>
+    <component id="n8_l291" name="n8" src="g2f57" fileName="Component~NCode/SwitchRed.xml" xy="375,667" rotation="-45"/>
+    <component id="n9_l291" name="n9" src="g2f59" fileName="Component~NCode/SwitchBlue.xml" xy="585,880" rotation="-45"/>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="XY" target="n8_l291" value="1625,-580"/>
+    <item time="0" type="XY" target="n9_l291" tween="true" startValue="-619,2095" endValue="585,880" duration="5"/>
+    <item time="3" type="XY" target="n8_l291" tween="true" startValue="1621.4,-576.8" endValue="375,667" duration="7"/>
+    <item time="14" type="XY" target="n8_l291" tween="true" startValue="375,667" endValue="-909,1955" duration="12"/>
+    <item time="17" type="XY" target="n9_l291" tween="true" startValue="585,880" endValue="1969,-492" duration="12"/>
+  </transition>
+</component>

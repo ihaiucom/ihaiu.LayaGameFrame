@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n0_ncg9" name="n0" src="ncg91" fileName="Component/BaseAlertDialog.xml" xy="22,145" size="675,988">
+      <Label title="选择赠送对象"/>
+    </component>
+    <list id="n1_ncg9" name="n1" xy="21,254" size="678,757" layout="flow_hz" overflow="scroll" margin="0,0,24,0" lineGap="8" colGap="8" defaultItem="ui://4snov4n9ncg9a">
+      <item controllers="button,0"/>
+      <item controllers="button,0"/>
+      <item controllers="button,0"/>
+      <item controllers="button,0"/>
+      <item controllers="button,0"/>
+      <item controllers="button,0"/>
+      <item controllers="button,0"/>
+    </list>
+    <component id="n2_ncg9" name="n2" src="o3xj0" fileName="Button/YellowButton.xml" pkg="jaoapdic" xy="247,1030">
+      <Button title="确定"/>
+    </component>
+  </displayList>
+</component>

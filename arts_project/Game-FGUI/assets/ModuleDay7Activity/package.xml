@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="1denri2b" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="n9g61" name="ActivityDay7Content.xml" path="/Component/" exported="true"/>
+    <component id="n9g62" name="ActivityDay7Actor.xml" path="/Component/" exported="true"/>
+    <component id="n9g67" name="ActivityDay7WindowUI.xml" path="/" exported="true"/>
+    <component id="gpte9" name="Day7ItemButton.xml" path="/Component/" exported="true"/>
+    <component id="gptea" name="Day7ActorButton.xml" path="/Component/" exported="true"/>
+    <component id="gpteb" name="Day7SelectButton.xml" path="/Component/" exported="true"/>
+  </resources>
+  <publish name="ModuleDay7Activity" genCode="true"/>
+</packageDescription>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="655,515">
+  <displayList>
+    <image id="n0_ywi4" name="n0" src="wpxm7k" fileName="拍摄/弹窗/小弹窗底板1.png" xy="13,21" pivot="0.5,0.5" size="642,494" rotation="-2.4">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_ywi4" name="n1" src="wpxm7l" fileName="拍摄/弹窗/小弹窗底板2.png" xy="13,24" pivot="0.5,0.5" size="637,489">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_ywi4" name="n2" src="wpxm7m" fileName="拍摄/弹窗/小弹窗底板3.png" xy="25,36" pivot="0.5,0.5" size="614,385">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+</component>

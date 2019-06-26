@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,65">
+  <controller name="tab" pages="0,普通,1,特殊" selected="0"/>
+  <displayList>
+    <list id="n7_l44g" name="n7" xy="0,0" size="200,65" layout="row" colGap="5" defaultItem="ui://jaoapdicl44gwa" vAlign="bottom" selectionController="tab">
+      <item title="普通"/>
+      <item title="特殊"/>
+    </list>
+  </displayList>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,52" extention="Label" designImageOffsetY="-366" designImageAlpha="97" adaptationTest="FitSize">
+  <displayList>
+    <image id="n32_u6m7" name="n32" src="u6m73x" fileName="_公共--背景--栏目标题/紫色属性底板.png" pkg="g17ofscz" xy="-44,0" size="419,52" locked="true">
+      <relation target="" sidePair="width-width%"/>
+    </image>
+    <image id="n33_u6m7" name="n33" src="u6m73x" fileName="_公共--背景--栏目标题/紫色属性底板.png" pkg="g17ofscz" xy="794,0" size="419,52" locked="true" scale="-1,1">
+      <relation target="" sidePair="width-width%,left-right"/>
+    </image>
+    <text id="n34_u6m7" name="title" xy="-3,2" pivot="0.5,0.5" size="750,45" fontSize="35" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="中国好声音第一季">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

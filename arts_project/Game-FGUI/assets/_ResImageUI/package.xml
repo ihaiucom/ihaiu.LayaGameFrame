@@ -1,7 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
 <packageDescription id="vb0p0v1s" jpegQuality="80" compressPNG="true">
   <resources>
-    <image id="f84s9" name="btn_gm.png" path="/" exported="true"/>
+    <image id="o3xjc" name="btn_yellow.png" path="/" exported="true" scale="9grid" scale9grid="99,36,10,8"/>
+    <image id="t2bxg" name="b5.png" path="/" exported="true" scale="9grid" scale9grid="19,5,38,10"/>
+    <image id="t2bxh" name="b6.png" path="/" exported="true"/>
+    <image id="t2bxi" name="gou.png" path="/" exported="true"/>
+    <image id="eftvj" name="bg_common.png" path="/" exported="true" scale="9grid" scale9grid="32,36,18,17"/>
+    <image id="eftvl" name="bg_title_small_common.png" path="/" exported="true" scale="9grid" scale9grid="150,0,140,88"/>
+    <image id="ncg9m" name="badge_tip.png" path="/"/>
+    <image id="ncg9n" name="bg_nearby_item.png" path="/" exported="true"/>
+    <image id="ncg9o" name="flag_outline_selected_shoot.png" path="/" exported="true" scale="9grid" scale9grid="26,26,64,70"/>
+    <image id="ncg9q" name="icon_baoshi.png" path="/" exported="true"/>
+    <image id="ncg9r" name="icon_chaopiao.png" path="/" exported="true"/>
+    <image id="ncg9l" name="star_full.png" path="/"/>
+    <image id="ncg9s" name="bg_bag_bottom_info.png" path="/" scale="9grid" scale9grid="45,48,21,19"/>
+    <image id="ncg9t" name="bg_number_warehouse.png" path="/" exported="true" scale="9grid" scale9grid="9,6,18,12"/>
+    <image id="ncg9v" name="progressBar_red.png" path="/" exported="true" scale="9grid" scale9grid="79,0,11,28"/>
+    <image id="ncg9w" name="progressBar_red_bg.png" path="/" exported="true" scale="9grid" scale9grid="31,0,11,32"/>
+    <image id="ncg9y" name="progressBar_dot_red.png" path="/" exported="true"/>
+    <image id="ncg9z" name="icon_contribution.png" path="/" exported="true"/>
+    <image id="ncg912" name="font_own.png" path="/" exported="true"/>
+    <image id="ncg914" name="bg_number_head_common.png" path="/" exported="true"/>
+    <image id="ncg915" name="bg_table_big_color.png" path="/" exported="true"/>
+    <image id="ncg916" name="bg_table_big_line.png" path="/" exported="true"/>
+    <image id="ncg917" name="bg_font_city_market.png" path="/" exported="true"/>
+    <image id="ncg91h" name="flag_card_panel4.png" path="/" exported="true" scale="9grid" scale9grid="15,0,5,49"/>
+    <image id="ncg91k" name="flag_property_guang.png" path="/" exported="true"/>
+    <image id="ncg91l" name="flag_property_guang2.png" path="/" exported="true"/>
+    <image id="ncg91m" name="flag_property_panel1.png" path="/" exported="true" gridTile="31"/>
+    <image id="ncg91o" name="flag_property_panel4.png" path="/" exported="true" scale="9grid" scale9grid="15,25,30,24"/>
+    <image id="ncg91p" name="flag_property_panel5.png" path="/" exported="true" scale="9grid" scale9grid="16,26,32,10"/>
+    <image id="ncg92g" name="icon_coin.png" path="/" exported="true"/>
+    <image id="ncg92m" name="icon_women.png" path="/" exported="true"/>
+    <image id="ncg92o" name="bg_card.png" path="/" exported="true" scale="9grid" scale9grid="40,30,80,60"/>
+    <image id="ncg92u" name="flag_card_highlight1.png" path="/" exported="true" scale="9grid" scale9grid="38,31,41,93"/>
+    <image id="ncg92v" name="flag_card_panel.png" path="/" exported="true" scale="9grid" scale9grid="86,77,13,12"/>
+    <image id="ncg92w" name="flag_card_panel1.png" path="/" exported="true" scale="9grid" scale9grid="40,30,13,20"/>
+    <image id="ncg92x" name="flag_card_panel2.png" path="/" exported="true"/>
+    <image id="ncg92y" name="flag_card_panel3.png" path="/" exported="true"/>
+    <image id="ncg931" name="flag_star_panel2.png" path="/" exported="true"/>
+    <image id="ncg93a" name="bg_congrats.png" path="/" exported="true"/>
+    <image id="ncg93c" name="bg_title_congrats.png" path="/" exported="true"/>
+    <image id="8zcl3k" name="bg2.png" path="/" exported="true"/>
+    <image id="8zcl3n" name="flag_tips_synthesize.png" path="/" exported="true"/>
+    <image id="j3nb3q" name="icon_diamond.png" path="/" exported="true"/>
+    <image id="j3nb3r" name="line_close_mail.png" path="/" exported="true"/>
+    <image id="j3nb3s" name="line_open_mail.png" path="/" exported="true"/>
+    <image id="j3nb3t" name="bg_close_mail.png" path="/" exported="true" scale="9grid" scale9grid="260,0,7,140"/>
+    <image id="j3nb3u" name="bg_open_mail.png" path="/" exported="true" scale="9grid" scale9grid="151,0,6,134"/>
+    <image id="j3nb3v" name="img_chapter_read_mail2.png" path="/" exported="true"/>
+    <image id="j3nb3y" name="img_nomail.png" path="/" exported="true"/>
+    <image id="j3nb3z" name="bg_tips_mail.png" path="/" exported="true" scale="9grid" scale9grid="0,7,441,7"/>
+    <image id="j3nb40" name="bg_envelope_mail.png" path="/" exported="true" scale="9grid" scale9grid="75,77,4,3"/>
+    <image id="j3nb41" name="bg_paper_mail1.png" path="/" exported="true" scale="9grid" scale9grid="48,106,5,2"/>
+    <image id="j3nb42" name="bg_receive_mail.png" path="/" exported="true" scale="9grid" scale9grid="20,18,3,2"/>
+    <image id="j3nb43" name="line_font_paper_mail.png" path="/" exported="true"/>
+    <image id="j3nb44" name="img_chapter_get_mail.png" path="/" exported="true"/>
+    <image id="j3nb46" name="bar_bg_mail1.png" path="/" exported="true"/>
+    <image id="j3nb47" name="bar_bg_mai3.png" path="/" exported="true"/>
+    <image id="j3nb48" name="bar_bg_mai2.png" path="/" exported="true" scale="tile"/>
+    <image id="szhv5" name="icon_lock_login.png" path="/" exported="true"/>
+    <image id="szhv8" name="icon_new.png" path="/" exported="true"/>
+    <image id="szhvm" name="flag_clock_panel_zjm.png" path="/" exported="true" scale="9grid" scale9grid="10,10,12,5"/>
+    <image id="szhvn" name="flag_clock_zjm.png" path="/" exported="true"/>
+    <image id="szhv13" name="bar_bg_bar2.png" path="/" exported="true" scale="9grid" scale9grid="24,14,48,3"/>
+    <image id="szhv14" name="bar_yellow.png" path="/" exported="true" scale="9grid" scale9grid="25,7,56,10"/>
+    <image id="szhv16" name="bg_font_title_zjm.png" path="/" exported="true" scale="9grid" scale9grid="18,0,13,67"/>
+    <image id="szhvz" name="bg_head.png" path="/" exported="true"/>
+    <image id="szhv1f" name="bg_tittle_No.png" path="/" exported="true" scale="9grid" scale9grid="26,12,52,2"/>
+    <image id="szhv1c" name="flag_locate.png" path="/" exported="true"/>
+    <image id="szhv1j" name="icon_jinbi.png" path="/" exported="true"/>
+    <image id="e5hk3q" name="font_congrats.png" path="/" exported="true"/>
+    <image id="e5hk3x" name="flag_goldcard.png" path="/" exported="true"/>
+    <image id="e5hk3z" name="flag_goldcard3.png" path="/" exported="true"/>
+    <image id="e5hk4b" name="flag_txt_panel2.png" path="/" exported="true" scale="9grid" scale9grid="18,16,36,32"/>
+    <image id="e5hk4h" name="btn_recruit1.png" path="/" exported="true"/>
+    <image id="e5hk4s" name="flag_scenario_panel1.png" path="/" exported="true"/>
+    <image id="e5hk4t" name="flag_gantanhao.png" path="/" exported="true"/>
+    <image id="e5hk4u" name="screen_333.png" path="/" exported="true"/>
+    <image id="e5hk4v" name="screen_444.png" path="/" exported="true"/>
+    <image id="e5hk4w" name="screen_555.png" path="/" exported="true"/>
+    <image id="h69f5l" name="bg_poster_shoot.png" path="/" exported="true"/>
+    <image id="h69f5m" name="num_g_0.png.png" path="/"/>
+    <image id="h69f5n" name="num_g_1.png" path="/"/>
+    <image id="h69f5o" name="num_g_2.png" path="/"/>
+    <image id="h69f5p" name="num_g_3.png" path="/"/>
+    <image id="h69f5q" name="num_g_4.png" path="/"/>
+    <image id="h69f5r" name="num_g_5.png" path="/"/>
+    <image id="h69f5s" name="num_g_6.png" path="/"/>
+    <image id="h69f5t" name="num_g_7.png" path="/"/>
+    <image id="h69f5u" name="num_g_8.png" path="/"/>
+    <image id="h69f5v" name="num_g_9.png" path="/"/>
+    <image id="h69f5w" name="num_g_b.png" path="/"/>
+    <image id="h69f5x" name="num_g_comma.png" path="/"/>
+    <image id="h69f5y" name="num_g_dot.png" path="/"/>
+    <image id="h69f5z" name="num_g_k.png" path="/"/>
+    <image id="h69f60" name="num_g_m.png" path="/"/>
+    <image id="nnux6e" name="bar_blue_bg.png" path="/" scale="9grid" scale9grid="32,12,10,6"/>
+    <image id="nnux6f" name="bar_blue.png" path="/" scale="9grid" scale9grid="14,0,157,28"/>
+    <image id="nnux6g" name="bar_square.png" path="/" exported="true" scale="tile" scale9grid="9,8,18,16" qualityOption="source" smoothing="false" atlas="2" duplicatePadding="true"/>
+    <image id="nnux6h" name="bar_top_blue.png" path="/" exported="true"/>
+    <image id="zt0z6m" name="flag_rename_panel.png" path="/" exported="true" scale="9grid" scale9grid="20,30,28,18"/>
+    <image id="zt0z6n" name="flag_rename_panel2.png" path="/" exported="true" scale="9grid" scale9grid="21,79,42,158"/>
+    <image id="zt0z6o" name="icon_dice.png" path="/" exported="true"/>
+    <image id="g2r56p" name="Effect_actor_star2_yellow.png" path="/" exported="true"/>
+    <image id="g2r56q" name="Effect_actor_star1_yellow.png" path="/" exported="true"/>
+    <image id="t5vj6r" name="icon_cellphone.png" path="/" exported="true"/>
+    <image id="mic66z" name="npc2.png" path="/"/>
+    <image id="krdkx" name="m003.png" path="/"/>
+    <image id="f84s2" name="pic_bg_login.png" path="/" exported="true" scale="" atlas="alone_npot"/>
   </resources>
   <publish name="_ResImageUI"/>
 </packageDescription>

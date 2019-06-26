@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,260" opaque="false">
+  <displayList>
+    <image id="n9_weh5" name="smoke_n9" src="h96rr" fileName="images/Effect_build01/smoke07.png" xy="142,108" pivot="0.5,0.5" size="57,78" aspect="true" alpha="0" rotation="133"/>
+    <image id="n8_weh5" name="smoke_n8" src="h96rr" fileName="images/Effect_build01/smoke07.png" xy="144,52" pivot="0.5,0.5" size="46,63" alpha="0" rotation="64.1"/>
+    <image id="n3_weh5" name="smoke_n3" src="h96rs" fileName="images/Effect_build01/smoke06.png" xy="68,56" pivot="0.5,0.5" size="104,102" aspect="true" alpha="0"/>
+    <image id="n2_weh5" name="smoke_n2" src="h96rt" fileName="images/Effect_build01/smoke05.png" xy="98,91" pivot="0.5,0.5" alpha="0"/>
+    <image id="n5_weh5" name="smoke_n5" src="h96rr" fileName="images/Effect_build01/smoke07.png" xy="77,31" pivot="0.5,0.5" size="41,45" alpha="0" rotation="-5.6"/>
+    <image id="n6_weh5" name="smoke_n6" src="h96rr" fileName="images/Effect_build01/smoke07.png" xy="46,93" pivot="0.5,0.5" size="42,58" aspect="true" alpha="0" rotation="-87"/>
+    <image id="n10_weh5" name="smoke_n10" src="h96ru" fileName="images/Effect_build01/smoke04.png" xy="130,124" pivot="0.5,0.5" size="13,9" aspect="true" alpha="0" rotation="2.1"/>
+    <image id="n11_weh5" name="smoke_n11" src="h96ru" fileName="images/Effect_build01/smoke04.png" xy="79,120" pivot="0.5,0.5" size="15,10" aspect="true" alpha="0" rotation="-207"/>
+    <image id="n12_weh5" name="smoke_n12" src="h96ru" fileName="images/Effect_build01/smoke04.png" xy="91,149" pivot="0.5,0.5" size="15,11" aspect="true" alpha="0" rotation="-272"/>
+    <image id="n16_weh5" name="smoke_n16" src="h96rv" fileName="images/Effect_build01/smoke09.png" xy="103,95" pivot="0.5,0.5" size="16,20" aspect="true" rotation="-54.9"/>
+    <image id="n13_weh5" name="smoke_n13" src="h96ru" fileName="images/Effect_build01/smoke04.png" xy="107,84" pivot="0.5,0.5" size="16,12" aspect="true" alpha="0" rotation="58.8"/>
+    <image id="n4_weh5" name="smoke_n4" src="h96rw" fileName="images/Effect_build01/smoke08.png" xy="91,80" pivot="0.5,0.5" size="62,62" aspect="true" alpha="0"/>
+    <image id="n14_weh5" name="smoke_n14" src="h96rv" fileName="images/Effect_build01/smoke09.png" xy="121,78" pivot="0.5,0.5"/>
+    <image id="n15_weh5" name="smoke_n15" src="h96rv" fileName="images/Effect_build01/smoke09.png" xy="119,94" pivot="0.5,0.5" size="12,13" alpha="0" rotation="-22.4"/>
+    <image id="n17_weh5" name="smoke_n17" src="h96rv" fileName="images/Effect_build01/smoke09.png" xy="115,108" pivot="0.5,0.5" size="9,12" aspect="true" alpha="0" rotation="-72.1"/>
+    <image id="n18_weh5" name="smoke_n18" src="h96rv" fileName="images/Effect_build01/smoke09.png" xy="120,101" pivot="0.5,0.5" size="9,12" aspect="true" alpha="0" rotation="-19.6"/>
+    <image id="n19_weh5" name="smoke_n19" src="h96rv" fileName="images/Effect_build01/smoke09.png" xy="123,98" pivot="0.5,0.5" size="6,8" aspect="true" alpha="0" rotation="-24.1"/>
+    <image id="n20_weh5" name="smoke_n20" src="h96rv" fileName="images/Effect_build01/smoke09.png" xy="93,90" pivot="0.5,0.5" aspect="true" scale="-1,1" alpha="0" rotation="-38.5"/>
+    <image id="n21_weh5" name="smoke_n21" src="h96rv" fileName="images/Effect_build01/smoke09.png" xy="108,104" pivot="0.5,0.5" size="8,10" scale="-1,1" alpha="0" rotation="-24.6"/>
+    <image id="n22_kqhf" name="n22" src="h96rx" fileName="images/Effect_build01/hammer.png" xy="327,138" pivot="0.5,0.5" size="90,70" aspect="true" alpha="0" rotation="125.6"/>
+    <image id="n23_f666" name="n2323133d" src="h96rr" fileName="images/Effect_build01/smoke07.png" xy="66,125" pivot="0.5,0.5" size="58,79" aspect="true" alpha="0" rotation="-155.1"/>
+  </displayList>
+  <transition name="smoke_a001" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Alpha" target="n22_kqhf" tween="true" startValue="1" endValue="1" duration="2"/>
+    <item time="0" type="Alpha" target="n16_weh5" value="0"/>
+    <item time="0" type="Alpha" target="n4_weh5" value="0"/>
+    <item time="0" type="Alpha" target="n14_weh5" value="0"/>
+    <item time="0" type="Alpha" target="n23_f666" value="0"/>
+    <item time="0" type="Rotation" target="n22_kqhf" tween="true" startValue="155.1" endValue="170.4" duration="2"/>
+    <item time="0" type="Scale" target="n4_weh5" value="1,1"/>
+    <item time="0" type="XY" target="n22_kqhf" tween="true" startValue="196.5,95.02" endValue="197.5,99.52" duration="2"/>
+    <item time="2" type="Alpha" target="n19_weh5" value="0"/>
+    <item time="2" type="Alpha" target="n22_kqhf" tween="true" startValue="1" endValue="1" duration="1"/>
+    <item time="2" type="Alpha" target="n20_weh5" value="0"/>
+    <item time="2" type="Alpha" target="n4_weh5" tween="true" startValue="0.6" endValue="1" duration="2"/>
+    <item time="2" type="Alpha" target="n2_weh5" tween="true" startValue="1" endValue="0.37" duration="3"/>
+    <item time="2" type="Alpha" target="n3_weh5" value="0"/>
+    <item time="2" type="Alpha" target="n23_f666" tween="true" startValue="0" endValue="1" duration="1"/>
+    <item time="2" type="Alpha" target="n16_weh5" value="0"/>
+    <item time="2" type="Rotation" target="n16_weh5" tween="true" startValue="-54.9" endValue="-40.2" duration="2"/>
+    <item time="2" type="Rotation" target="n22_kqhf" tween="true" startValue="170.4" endValue="49.7" duration="1"/>
+    <item time="2" type="Scale" target="n16_weh5" tween="true" startValue="1,1" endValue="1.29,1.74" duration="2"/>
+    <item time="2" type="Scale" target="n3_weh5" value="1,1"/>
+    <item time="2" type="Scale" target="n4_weh5" tween="true" startValue="1.16,1.16" endValue="1.49,1.38" duration="2"/>
+    <item time="2" type="Scale" target="n2_weh5" tween="true" startValue="1.03,1.08" endValue="1.66,1.67" duration="2"/>
+    <item time="2" type="XY" target="n23_f666" value="64.2,107.83"/>
+    <item time="2" type="XY" target="n16_weh5" tween="true" startValue="103.15,95.48" endValue="93.65,79.46" duration="2"/>
+    <item time="2" type="XY" target="n22_kqhf" tween="true" startValue="197.5,99.52" endValue="127.95,84.12" duration="1"/>
+    <item time="3" type="Alpha" target="n22_kqhf" tween="true" startValue="1" endValue="1" duration="3"/>
+    <item time="3" type="Alpha" target="n14_weh5" tween="true" startValue="0" endValue="1" duration="1"/>
+    <item time="3" type="Alpha" target="n19_weh5" value="1"/>
+    <item time="3" type="Alpha" target="n17_weh5" value="1"/>
+    <item time="3" type="Alpha" target="n16_weh5" value="1"/>
+    <item time="3" type="Alpha" target="n6_weh5" tween="true" startValue="1" endValue="1" duration="2"/>
+    <item time="3" type="Alpha" target="n8_weh5" tween="true" startValue="1" endValue="1" duration="2"/>
+    <item time="3" type="Alpha" target="n3_weh5" tween="true" startValue="1" endValue="1" duration="1"/>
+    <item time="3" type="Alpha" target="n9_weh5" tween="true" startValue="1" endValue="1" duration="2"/>
+    <item time="3" type="Alpha" target="n23_f666" tween="true" startValue="1" endValue="1" duration="2"/>
+    <item time="3" type="Alpha" target="n21_weh5" tween="true" startValue="1" endValue="1" duration="2"/>
+    <item time="3" type="Alpha" target="n5_weh5" tween="true" startValue="1" endValue="0.8" duration="2"/>
+    <item time="3" type="Rotation" target="n19_weh5" value="-24.1"/>
+    <item time="3" type="Rotation" target="n22_kqhf" tween="true" startValue="49.7" endValue="53.2" duration="3"/>
+    <item time="3" type="Rotation" target="n21_weh5" value="-24.6"/>
+    <item time="3" type="Rotation" target="n14_weh5" tween="true" startValue="-5.7" endValue="30.5" duration="1"/>
+    <item time="3" type="Rotation" target="n17_weh5" tween="true" startValue="-72.1" endValue="-44.5" duration="2"/>
+    <item time="3" type="Scale" target="n14_weh5" tween="true" startValue="1,1" endValue="0.98,2.14" duration="1"/>
+    <item time="3" type="Scale" target="n19_weh5" value="1,1"/>
+    <item time="3" type="Scale" target="n17_weh5" tween="true" startValue="1,1" endValue="1.3,1.46" duration="2"/>
+    <item time="3" type="Scale" target="n9_weh5" tween="true" startValue="1.11,0.88" endValue="1.08,1.1" duration="2"/>
+    <item time="3" type="Scale" target="n3_weh5" tween="true" startValue="1,1" endValue="1.25,1.26" duration="1"/>
+    <item time="3" type="XY" target="n5_weh5" tween="true" startValue="81.85,38.72" endValue="62.21,0.08" duration="2"/>
+    <item time="3" type="XY" target="n8_weh5" tween="true" startValue="143.98,54.1" endValue="174.98,33.1" duration="2"/>
+    <item time="3" type="XY" target="n17_weh5" tween="true" startValue="112.96,108.36" endValue="98.9,87.06" duration="2"/>
+    <item time="3" type="XY" target="n14_weh5" tween="true" startValue="120.5,82" endValue="132.04,60.81" duration="1"/>
+    <item time="3" type="XY" target="n6_weh5" tween="true" startValue="52.44,91.98" endValue="13.49,102.43" duration="2"/>
+    <item time="3" type="XY" target="n9_weh5" tween="true" startValue="139.85,105.06" endValue="180.85,123.06" duration="2"/>
+    <item time="3" type="XY" target="n21_weh5" tween="true" startValue="108.5,105.5" endValue="100.5,98.5" duration="2"/>
+    <item time="3" type="XY" target="n23_f666" tween="true" startValue="80.2,133.83" endValue="80.2,154.83" duration="2"/>
+    <item time="3" type="XY" target="n22_kqhf" tween="true" startValue="127.95,84.12" endValue="124.58,85.15" duration="3"/>
+    <item time="3" type="XY" target="n19_weh5" tween="true" startValue="123.36,98.64" endValue="128.36,78.64" duration="2"/>
+    <item time="4" type="Alpha" target="n3_weh5" tween="true" startValue="1" endValue="0.6" duration="2"/>
+    <item time="4" type="Alpha" target="n13_weh5" tween="true" startValue="1" endValue="0.9" duration="3"/>
+    <item time="4" type="Alpha" target="n14_weh5" tween="true" startValue="1" endValue="1" duration="5"/>
+    <item time="4" type="Alpha" target="n20_weh5" value="1"/>
+    <item time="4" type="Alpha" target="n15_weh5" value="1"/>
+    <item time="4" type="Rotation" target="n15_weh5" value="-7.9"/>
+    <item time="4" type="Rotation" target="n20_weh5" tween="true" startValue="-38.5" endValue="-56" duration="2"/>
+    <item time="4" type="Rotation" target="n16_weh5" tween="true" startValue="-40.2" endValue="-13.67" duration="1"/>
+    <item time="4" type="Rotation" target="n14_weh5" tween="true" startValue="30.5" endValue="43.3" duration="1"/>
+    <item time="4" type="Rotation" target="n13_weh5" tween="true" startValue="58.8" endValue="80" duration="2"/>
+    <item time="4" type="Scale" target="n16_weh5" tween="true" startValue="1.29,1.74" endValue="1.15,2.24" duration="1"/>
+    <item time="4" type="Scale" target="n3_weh5" tween="true" startValue="1.25,1.26" endValue="1.4,1.4" duration="2"/>
+    <item time="4" type="Scale" target="n2_weh5" tween="true" startValue="1.66,1.67" endValue="1.77,1.77" duration="2"/>
+    <item time="4" type="Scale" target="n20_weh5" value="-1,1"/>
+    <item time="4" type="Scale" target="n4_weh5" tween="true" startValue="1.49,1.38" endValue="0.2,0.2" duration="1"/>
+    <item time="4" type="Scale" target="n15_weh5" value="1,1"/>
+    <item time="4" type="XY" target="n14_weh5" tween="true" startValue="132.04,60.81" endValue="141.1,52.31" duration="1"/>
+    <item time="4" type="XY" target="n20_weh5" tween="true" startValue="93.54,90.5" endValue="80.93,84.68" duration="2"/>
+    <item time="4" type="XY" target="n16_weh5" tween="true" startValue="93.65,79.46" endValue="87.44,57.72" duration="1"/>
+    <item time="4" type="XY" target="n15_weh5" value="122.46,82.21"/>
+    <item time="4" type="XY" target="n13_weh5" tween="true" startValue="107.27,84.09" endValue="112.23,57.56" duration="2"/>
+    <item time="5" type="Alpha" target="n12_weh5" tween="true" startValue="1" endValue="0.8" duration="5"/>
+    <item time="5" type="Alpha" target="n17_weh5" value="1"/>
+    <item time="5" type="Alpha" target="n19_weh5" value="1"/>
+    <item time="5" type="Alpha" target="n4_weh5" value="0"/>
+    <item time="5" type="Alpha" target="n9_weh5" tween="true" startValue="1" endValue="0" duration="3"/>
+    <item time="5" type="Alpha" target="n10_weh5" tween="true" startValue="1" endValue="1" duration="2"/>
+    <item time="5" type="Alpha" target="n8_weh5" tween="true" startValue="1" endValue="0" duration="3"/>
+    <item time="5" type="Alpha" target="n23_f666" tween="true" startValue="1" endValue="0" duration="2"/>
+    <item time="5" type="Alpha" target="n6_weh5" tween="true" startValue="1" endValue="0" duration="3"/>
+    <item time="5" type="Alpha" target="n5_weh5" tween="true" startValue="0.8" endValue="0" duration="3"/>
+    <item time="5" type="Alpha" target="n2_weh5" tween="true" startValue="0.37" endValue="0" duration="2"/>
+    <item time="5" type="Alpha" target="n21_weh5" tween="true" startValue="1" endValue="1" duration="2"/>
+    <item time="5" type="Rotation" target="n16_weh5" tween="true" startValue="-13.67" endValue="-2.2" duration="1"/>
+    <item time="5" type="Rotation" target="n14_weh5" tween="true" startValue="43.3" endValue="52.1" duration="1"/>
+    <item time="5" type="Rotation" target="n10_weh5" tween="true" startValue="2.1" endValue="19.6" duration="2"/>
+    <item time="5" type="Rotation" target="n12_weh5" tween="true" startValue="-258.2" endValue="-277.8" duration="3"/>
+    <item time="5" type="Rotation" target="n15_weh5" value="7.4"/>
+    <item time="5" type="Rotation" target="n19_weh5" value="4.3"/>
+    <item time="5" type="Rotation" target="n21_weh5" value="-24.6"/>
+    <item time="5" type="Scale" target="n15_weh5" value="1.22,1.31"/>
+    <item time="5" type="Scale" target="n10_weh5" tween="true" startValue="1,1" endValue="1.33,1.33" duration="5"/>
+    <item time="5" type="Scale" target="n12_weh5" tween="true" startValue="0.5,0.5" endValue="1,1" duration="7"/>
+    <item time="5" type="Scale" target="n5_weh5" tween="true" startValue="0.68,1.53" endValue="0.97,0.69" duration="3"/>
+    <item time="5" type="Scale" target="n17_weh5" tween="true" startValue="1.3,1.46" endValue="0.8,3" duration="1"/>
+    <item time="5" type="Scale" target="n19_weh5" value="1.72,2.11"/>
+    <item time="5" type="Scale" target="n9_weh5" tween="true" startValue="1.08,1.1" endValue="1.22,0.74" duration="3"/>
+    <item time="5" type="Scale" target="n14_weh5" tween="true" startValue="0.98,2.14" endValue="1.23,3.17" duration="1"/>
+    <item time="5" type="XY" target="n6_weh5" tween="true" startValue="13.49,102.43" endValue="-2.03,105.93" duration="3"/>
+    <item time="5" type="XY" target="n15_weh5" value="127.62,71.94"/>
+    <item time="5" type="XY" target="n16_weh5" tween="true" startValue="87.44,57.72" endValue="86.78,40.63" duration="1"/>
+    <item time="5" type="XY" target="n21_weh5" tween="true" startValue="100.5,98.5" endValue="94.5,93.5" duration="2"/>
+    <item time="5" type="XY" target="n17_weh5" tween="true" startValue="98.9,87.06" endValue="92.21,72.08" duration="1"/>
+    <item time="5" type="XY" target="n23_f666" tween="true" startValue="80.2,154.83" endValue="80.2,164.83" duration="2"/>
+    <item time="5" type="XY" target="n9_weh5" tween="true" startValue="180.85,123.06" endValue="203.85,129.56" duration="3"/>
+    <item time="5" type="XY" target="n5_weh5" tween="true" startValue="62.21,0.08" endValue="60.08,-9.77" duration="3"/>
+    <item time="5" type="XY" target="n19_weh5" tween="true" startValue="128.36,78.64" endValue="129.07,76.77" duration="1"/>
+    <item time="5" type="XY" target="n12_weh5" tween="true" startValue="102.11,124.22" endValue="94.5,142.23" duration="3"/>
+    <item time="5" type="XY" target="n14_weh5" tween="true" startValue="141.1,52.31" endValue="154.35,43.3" duration="1"/>
+    <item time="5" type="XY" target="n10_weh5" tween="true" startValue="124.57,119.89" endValue="141.35,134.94" duration="2"/>
+    <item time="5" type="XY" target="n8_weh5" tween="true" startValue="174.98,33.1" endValue="184.98,23.1" duration="3"/>
+    <item time="6" type="Alpha" target="n11_weh5" value="1"/>
+    <item time="6" type="Alpha" target="n22_kqhf" tween="true" startValue="1" endValue="1" duration="2"/>
+    <item time="6" type="Rotation" target="n15_weh5" value="29.1"/>
+    <item time="6" type="Rotation" target="n19_weh5" tween="true" startValue="9.5" endValue="61.3" duration="2"/>
+    <item time="6" type="Rotation" target="n13_weh5" tween="true" startValue="80" endValue="112.1" duration="3"/>
+    <item time="6" type="Rotation" target="n11_weh5" value="-193.4"/>
+    <item time="6" type="Rotation" target="n22_kqhf" tween="true" startValue="53.2" endValue="155" duration="2"/>
+    <item time="6" type="Rotation" target="n17_weh5" tween="true" startValue="-18.2" endValue="-12.53" duration="1"/>
+    <item time="6" type="Scale" target="n16_weh5" value="1.04,2.64"/>
+    <item time="6" type="Scale" target="n19_weh5" tween="true" startValue="1.72,2.11" endValue="0.88,2.58" duration="2"/>
+    <item time="6" type="Scale" target="n15_weh5" value="1.19,2.13"/>
+    <item time="6" type="XY" target="n17_weh5" tween="true" startValue="92.21,72.08" endValue="90.7,62.01" duration="1"/>
+    <item time="6" type="XY" target="n22_kqhf" tween="true" startValue="124.58,85.15" endValue="196,95" duration="2"/>
+    <item time="6" type="XY" target="n19_weh5" tween="true" startValue="129.07,76.77" endValue="150.62,53.26" duration="1"/>
+    <item time="6" type="XY" target="n15_weh5" value="134.86,62.56"/>
+    <item time="6" type="XY" target="n11_weh5" value="98.08,112.27"/>
+    <item time="6" type="XY" target="n13_weh5" tween="true" startValue="112.23,57.56" endValue="119.28,45.07" duration="3"/>
+    <item time="6" type="XY" target="n14_weh5" tween="true" startValue="154.35,43.3" endValue="166.91,38.28" duration="1"/>
+    <item time="7" type="Alpha" target="n11_weh5" tween="true" startValue="1" endValue="1" duration="4"/>
+    <item time="7" type="Alpha" target="n13_weh5" tween="true" startValue="0.9" endValue="0" duration="2"/>
+    <item time="7" type="Alpha" target="n21_weh5" tween="true" startValue="1" endValue="1" duration="2"/>
+    <item time="7" type="Alpha" target="n3_weh5" value="0"/>
+    <item time="7" type="Alpha" target="n10_weh5" tween="true" startValue="1" endValue="0.9" duration="2"/>
+    <item time="7" type="Alpha" target="n20_weh5" value="1"/>
+    <item time="7" type="Rotation" target="n14_weh5" tween="true" startValue="64.9" endValue="71.9" duration="1"/>
+    <item time="7" type="Rotation" target="n10_weh5" tween="true" startValue="19.6" endValue="48" duration="2"/>
+    <item time="7" type="Rotation" target="n21_weh5" tween="true" startValue="-24.6" endValue="-49.7" duration="2"/>
+    <item time="7" type="Rotation" target="n20_weh5" tween="true" startValue="-70.3" endValue="-81.8" duration="2"/>
+    <item time="7" type="Rotation" target="n15_weh5" value="36.2"/>
+    <item time="7" type="Rotation" target="n11_weh5" tween="true" startValue="-205.3" endValue="-214.8" duration="2"/>
+    <item time="7" type="Rotation" target="n16_weh5" value="1.2"/>
+    <item time="7" type="Scale" target="n20_weh5" tween="true" startValue="-0.78,1.48" endValue="-1.25,1.95" duration="2"/>
+    <item time="7" type="Scale" target="n3_weh5" value="1.42,1.43"/>
+    <item time="7" type="Scale" target="n17_weh5" value="0.8,3"/>
+    <item time="7" type="Scale" target="n14_weh5" tween="true" startValue="1.23,3.41" endValue="0.86,1.84" duration="1"/>
+    <item time="7" type="Scale" target="n15_weh5" value="1.19,2.13"/>
+    <item time="7" type="Scale" target="n16_weh5" value="0.83,2.99"/>
+    <item time="7" type="Scale" target="n2_weh5" value="2.01,2.1"/>
+    <item time="7" type="XY" target="n11_weh5" tween="true" startValue="84.31,113.38" endValue="58.85,128.64" duration="4"/>
+    <item time="7" type="XY" target="n14_weh5" tween="true" startValue="166.91,38.28" endValue="191.36,30.66" duration="1"/>
+    <item time="7" type="XY" target="n20_weh5" tween="true" startValue="75.04,82.93" endValue="53.75,81.48" duration="2"/>
+    <item time="7" type="XY" target="n10_weh5" tween="true" startValue="141.35,134.94" endValue="145.19,148.44" duration="2"/>
+    <item time="7" type="XY" target="n16_weh5" value="88.78,31.63"/>
+    <item time="7" type="XY" target="n21_weh5" tween="true" startValue="94.5,93.5" endValue="78.5,87.5" duration="2"/>
+    <item time="7" type="XY" target="n15_weh5" value="140.13,56.64"/>
+    <item time="8" type="Alpha" target="n19_weh5" value="1"/>
+    <item time="8" type="Alpha" target="n17_weh5" value="1"/>
+    <item time="8" type="Rotation" target="n19_weh5" tween="true" startValue="61.3" endValue="73.1" duration="3"/>
+    <item time="8" type="Rotation" target="n15_weh5" value="60.2"/>
+    <item time="8" type="Rotation" target="n12_weh5" tween="true" startValue="-277.8" endValue="-278.7" duration="4"/>
+    <item time="8" type="Rotation" target="n17_weh5" tween="true" startValue="-6.1" endValue="6.5" duration="1"/>
+    <item time="8" type="Rotation" target="n16_weh5" tween="true" startValue="6" endValue="10.4" duration="2"/>
+    <item time="8" type="Scale" target="n15_weh5" value="1.3,2.92"/>
+    <item time="8" type="Scale" target="n16_weh5" tween="true" startValue="0.69,1.84" endValue="0,0" duration="2"/>
+    <item time="8" type="Scale" target="n19_weh5" tween="true" startValue="0.88,2.58" endValue="0.6,1.5" duration="1"/>
+    <item time="8" type="Scale" target="n17_weh5" tween="true" startValue="0.97,2.28" endValue="0,0" duration="2"/>
+    <item time="8" type="XY" target="n17_weh5" tween="true" startValue="90.2,51.98" endValue="93.2,36.98" duration="2"/>
+    <item time="8" type="XY" target="n16_weh5" tween="true" startValue="90.78,26.63" endValue="92.78,20.63" duration="2"/>
+    <item time="8" type="XY" target="n15_weh5" value="167.58,40.89"/>
+    <item time="8" type="XY" target="n12_weh5" tween="true" startValue="94.5,142.23" endValue="90.81,150.97" duration="4"/>
+    <item time="8" type="XY" target="n19_weh5" tween="true" startValue="161.49,47.62" endValue="187.83,38.71" duration="3"/>
+    <item time="9" type="Alpha" target="n20_weh5" value="1"/>
+    <item time="9" type="Alpha" target="n21_weh5" tween="true" startValue="1" endValue="0" duration="2"/>
+    <item time="9" type="Rotation" target="n15_weh5" value="69.8"/>
+    <item time="9" type="Rotation" target="n11_weh5" tween="true" startValue="-214.8" endValue="-232" duration="2"/>
+    <item time="9" type="Rotation" target="n21_weh5" tween="true" startValue="-49.7" endValue="-76.3" duration="2"/>
+    <item time="9" type="Rotation" target="n10_weh5" tween="true" startValue="48" endValue="57.6" duration="1"/>
+    <item time="9" type="Rotation" target="n14_weh5" value="78.1"/>
+    <item time="9" type="Scale" target="n15_weh5" value="0.66,1.15"/>
+    <item time="9" type="Scale" target="n14_weh5" value="0.57,1.37"/>
+    <item time="9" type="XY" target="n14_weh5" value="195.82,31.2"/>
+    <item time="9" type="XY" target="n15_weh5" value="182.43,36.4"/>
+    <item time="9" type="XY" target="n21_weh5" tween="true" startValue="78.5,87.5" endValue="67.5,87.5" duration="2"/>
+    <item time="9" type="XY" target="n10_weh5" tween="true" startValue="145.19,148.44" endValue="150.34,163.31" duration="1"/>
+    <item time="10" type="Alpha" target="n20_weh5" value="0"/>
+    <item time="10" type="Alpha" target="n14_weh5" value="0"/>
+    <item time="10" type="Alpha" target="n12_weh5" tween="true" startValue="0.8" endValue="0" duration="2"/>
+    <item time="10" type="Alpha" target="n10_weh5" value="0"/>
+    <item time="10" type="Rotation" target="n14_weh5" value="78.1"/>
+    <item time="10" type="Rotation" target="n20_weh5" value="-81.8"/>
+    <item time="10" type="Rotation" target="n15_weh5" value="77.6"/>
+    <item time="10" type="Rotation" target="n17_weh5" value="7.6"/>
+    <item time="10" type="Scale" target="n20_weh5" value="-1.33,1.44"/>
+    <item time="10" type="Scale" target="n15_weh5" value="0.31,0.61"/>
+    <item time="10" type="Scale" target="n14_weh5" value="0,0"/>
+    <item time="10" type="XY" target="n20_weh5" value="44,83.25"/>
+    <item time="10" type="XY" target="n15_weh5" value="186.43,35.4"/>
+    <item time="10" type="XY" target="n14_weh5" value="195.82,31.2"/>
+    <item time="11" type="Alpha" target="n11_weh5" tween="true" startValue="1" endValue="0" duration="2"/>
+    <item time="11" type="Rotation" target="n11_weh5" tween="true" startValue="-232" endValue="-239.3" duration="2"/>
+    <item time="11" type="Rotation" target="n15_weh5" value="77.6"/>
+    <item time="11" type="Scale" target="n15_weh5" value="0,0"/>
+    <item time="11" type="Scale" target="n19_weh5" value="0,0"/>
+    <item time="11" type="XY" target="n15_weh5" value="186.43,35.4"/>
+    <item time="11" type="XY" target="n11_weh5" tween="true" startValue="58.85,128.64" endValue="57.37,130.77" duration="2"/>
+  </transition>
+</component>

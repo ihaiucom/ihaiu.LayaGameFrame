@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="nk6ddkk3" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="ldd90" name="DailyTaskUI.xml" path="/" exported="true"/>
+    <component id="c8o71" name="DailyTaskProgressBar.xml" path="/Component/" exported="true"/>
+    <component id="hwvbxm" name="DailyTaskGiftButton.xml" path="/Component/" exported="true"/>
+    <component id="hwvb2" name="DailyTaskGiftItem.xml" path="/Component/" exported="true"/>
+    <component id="hwvb3" name="DailyTaskItem.xml" path="/Component/" exported="true"/>
+    <component id="hwvb4" name="DailyTaskExpItem.xml" path="/Component/" exported="true"/>
+    <component id="hwvb5" name="taskBar.xml" path="/Component/" exported="true"/>
+  </resources>
+  <publish name="ModuleDailyTask" genCode="true"/>
+</packageDescription>

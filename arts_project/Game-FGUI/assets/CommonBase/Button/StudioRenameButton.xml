@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="306,86" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <image id="n4_o3xj" name="_bg" src="9th1zp" fileName="_公用--按钮/按钮.png" pkg="g17ofscz" xy="-21,-4" size="330,89" skew="-11,0"/>
+    <text id="n6_oh5i" name="title" xy="98,16" size="109,54" font="ui://vi9240by5kbu1a" fontSize="35" color="#ffffff" align="center" vAlign="middle" text="确认">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+</component>

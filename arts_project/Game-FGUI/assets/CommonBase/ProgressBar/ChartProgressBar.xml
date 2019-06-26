@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="48,150" extention="ProgressBar">
+  <displayList>
+    <image id="n1_vjlj" name="bar_v" src="u6m753" fileName="_公用--背景--色块/纯色/0xC4C7E8FF--蓝.png" pkg="g17ofscz" xy="0,55" size="48,94">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </image>
+    <text id="n2_vjlj" name="title" xy="-8,27" size="62,29" visible="false" fontSize="25" color="#d0bcbf" align="center" vAlign="bottom" autoSize="shrink" text="100">
+      <relation target="n1_vjlj" sidePair="width-width,bottom-top"/>
+    </text>
+  </displayList>
+  <ProgressBar titleType="value"/>
+</component>

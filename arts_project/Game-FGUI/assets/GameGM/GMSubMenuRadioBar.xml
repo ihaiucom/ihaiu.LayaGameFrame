@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,80" initName="subMenuBar">
+  <displayList>
+    <graph id="n0_wl2t" name="menuBar" xy="0,0" size="720,80" type="rect" lineSize="0" fillColor="#ff666666">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <list id="n12_nb4e" name="subMenu" xy="10,10" size="700,60" layout="row" overflow="scroll" scroll="horizontal" scrollBar="hidden" defaultItem="ui://46xcitpdfbyi7" vAlign="middle">
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item title="Log"/>
+      <item title="Error"/>
+      <item title="Warm"/>
+    </list>
+  </displayList>
+</component>

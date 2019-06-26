@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="732,179" designImage="ui://qjz790ece12kzg" designImageOffsetY="-698" designImageAlpha="0">
+  <displayList>
+    <image id="n50_ex1n" name="n50" src="e12kxt" fileName="拍摄/选择艺人/新版/艺人底板.png" pkg="g17ofscz" xy="9,5" size="714,174">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n51_ex1n" name="n51" src="e12kxu" fileName="拍摄/选择艺人/新版/艺人底板装饰.png" pkg="g17ofscz" xy="661,14">
+      <relation target="" sidePair="right-right"/>
+    </image>
+    <component id="n40_kayd" name="actor" src="u6m717" fileName="IconActor/ActorIcon2.xml" pkg="4snov4n9" xy="24,18"/>
+    <list id="n47_ex1n" name="propList" xy="164,83" size="533,91" layout="row" selectionMode="none" colGap="48" defaultItem="ui://4snov4n9wljjr" autoItemSize="false" align="center">
+      <item controllers="prop,0"/>
+      <item controllers="prop,1"/>
+      <item controllers="prop,2"/>
+      <item controllers="prop,3"/>
+      <item controllers="prop,4"/>
+    </list>
+    <text id="n49_ex1n" name="name" xy="185,26" size="113,39" fontSize="35" color="#b89ca1" text="吴彦祖"/>
+  </displayList>
+</component>

@@ -1,0 +1,132 @@
+
+11100301_WangJiaer_F.png
+size: 343,343
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lian
+  rotate: false
+  xy: 103, 140
+  size: 77, 86
+  orig: 77, 86
+  offset: 0, 0
+  index: -1
+lingdai
+  rotate: false
+  xy: 103, 28
+  size: 47, 110
+  orig: 47, 110
+  offset: 0, 0
+  index: -1
+shouji
+  rotate: false
+  xy: 103, 12
+  size: 16, 14
+  orig: 16, 14
+  offset: 0, 0
+  index: -1
+toufa
+  rotate: false
+  xy: 2, 228
+  size: 101, 113
+  orig: 101, 113
+  offset: 0, 0
+  index: -1
+tunbu
+  rotate: false
+  xy: 2, 116
+  size: 99, 110
+  orig: 99, 110
+  offset: 0, 0
+  index: -1
+xiong
+  rotate: false
+  xy: 2, 4
+  size: 99, 110
+  orig: 99, 110
+  offset: 0, 0
+  index: -1
+youjiao
+  rotate: false
+  xy: 182, 163
+  size: 67, 73
+  orig: 67, 73
+  offset: 0, 0
+  index: -1
+youshangtui
+  rotate: false
+  xy: 105, 238
+  size: 53, 103
+  orig: 53, 103
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: false
+  xy: 209, 33
+  size: 37, 45
+  orig: 37, 45
+  offset: 0, 0
+  index: -1
+youshoushang
+  rotate: false
+  xy: 209, 80
+  size: 54, 81
+  orig: 54, 81
+  offset: 0, 0
+  index: -1
+youshouxia
+  rotate: false
+  xy: 251, 171
+  size: 54, 77
+  orig: 54, 77
+  offset: 0, 0
+  index: -1
+youxiatui
+  rotate: false
+  xy: 265, 85
+  size: 49, 84
+  orig: 49, 84
+  offset: 0, 0
+  index: -1
+zuojiao
+  rotate: false
+  xy: 215, 268
+  size: 67, 73
+  orig: 67, 73
+  offset: 0, 0
+  index: -1
+zuoshangtui
+  rotate: false
+  xy: 160, 238
+  size: 53, 103
+  orig: 53, 103
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: false
+  xy: 248, 33
+  size: 37, 45
+  orig: 37, 45
+  offset: 0, 0
+  index: -1
+zuoshoushang
+  rotate: false
+  xy: 152, 45
+  size: 55, 93
+  orig: 55, 93
+  offset: 0, 0
+  index: -1
+zuoshouxia
+  rotate: false
+  xy: 287, 2
+  size: 47, 81
+  orig: 47, 81
+  offset: 0, 0
+  index: -1
+zuoxiatui
+  rotate: false
+  xy: 284, 250
+  size: 49, 91
+  orig: 49, 91
+  offset: 0, 0
+  index: -1

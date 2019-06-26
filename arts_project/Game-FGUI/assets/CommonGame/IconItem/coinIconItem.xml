@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,46">
+  <displayList>
+    <image id="n2_ncg9" name="n2" src="ncg9t" fileName="bg_number_warehouse.png" pkg="vb0p0v1s" xy="0,0" size="120,46"/>
+    <image id="n0_ncg9" name="n0" src="ncg9r" fileName="icon_chaopiao.png" pkg="vb0p0v1s" xy="4,3" size="42,38" aspect="true">
+      <relation target="" sidePair="middle-middle,left-left"/>
+    </image>
+    <text id="n1_ncg9" name="n1" xy="49,4" size="66,37" fontSize="28" color="#ffffff" align="right" vAlign="middle" autoSize="none" strokeColor="#600015" text="1000"/>
+  </displayList>
+</component>

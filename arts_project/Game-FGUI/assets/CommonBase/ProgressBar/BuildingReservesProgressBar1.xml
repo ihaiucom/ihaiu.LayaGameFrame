@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="106,32" extention="ProgressBar">
+  <controller name="Fill" pages="0,NO,1,OK" selected="0"/>
+  <displayList>
+    <image id="n0_t8dr" name="n0" src="szhv13" fileName="bar_bg_bar2.png" pkg="vb0p0v1s" xy="0,0" size="106,32">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_t8dr" name="bar" src="szhv14" fileName="bar_yellow.png" pkg="vb0p0v1s" xy="4,4" size="98,24">
+      <gearColor controller="Fill" pages="1" values="#00ff00" default="#ffffff"/>
+    </image>
+    <text id="n2_10shy" name="labValue" xy="12,2" size="81,28" fontSize="24" color="#8e8ea8" leading="10" text="12/100">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

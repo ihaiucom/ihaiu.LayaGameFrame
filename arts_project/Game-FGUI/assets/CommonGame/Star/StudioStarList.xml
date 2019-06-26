@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="515,100" designImageOffsetX="-118" designImageOffsetY="-87" designImageAlpha="49">
+  <controller name="starNum" exported="true" pages="0,,1,,2,,3,,4,,5,,6,,7,,8,,9,,10," selected="0">
+    <remark page="0" value="0分"/>
+    <remark page="1" value="1分"/>
+    <remark page="2" value="2分"/>
+    <remark page="3" value="3分"/>
+    <remark page="4" value="4分"/>
+    <remark page="5" value="5分"/>
+    <remark page="6" value="6分"/>
+    <remark page="7" value="7分"/>
+    <remark page="8" value="8分"/>
+    <remark page="9" value="9分"/>
+    <remark page="10" value="10分"/>
+  </controller>
+  <displayList>
+    <loader id="n45_q4w0" name="n45" xy="0,0" size="103,100" group="n50_q4w0" url="ui://g17ofsczu6m751"/>
+    <loader id="n46_q4w0" name="n46" xy="103,0" size="103,100" group="n50_q4w0" url="ui://g17ofsczu6m751"/>
+    <loader id="n47_q4w0" name="n47" xy="206,0" size="103,100" group="n50_q4w0" url="ui://g17ofsczu6m751"/>
+    <loader id="n48_q4w0" name="n48" xy="309,0" size="103,100" group="n50_q4w0" url="ui://g17ofsczu6m751"/>
+    <loader id="n49_q4w0" name="n49" xy="412,0" size="103,100" group="n50_q4w0" url="ui://g17ofsczu6m751"/>
+    <group id="n50_q4w0" name="n50" xy="0,0" size="515,100" collapsed="true"/>
+    <loader id="n38_cvs8" name="s1" xy="0,0" size="103,100" group="n44_cvs8" url="ui://g17ofsczu6m750" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="starNum" pages="1,2,3,4,5,6,7,8,9,10"/>
+      <gearIcon controller="starNum" pages="0,1,2,3,4,5,6,7,8,9,10" values="ui://g17ofsczu6m750|ui://g17ofsczu6m75a|ui://g17ofsczu6m750|ui://g17ofsczu6m750|ui://g17ofsczu6m750|ui://g17ofsczu6m750|ui://g17ofsczu6m750|ui://g17ofsczu6m750|ui://g17ofsczu6m750|ui://g17ofsczu6m750|ui://g17ofsczu6m750"/>
+    </loader>
+    <loader id="n39_cvs8" name="s2" xy="103,0" pivot="0.5,0.5" size="103,100" group="n44_cvs8" url="ui://g17ofsczu6m750" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="starNum" pages="3,4,5,6,7,8,9,10"/>
+      <gearIcon controller="starNum" pages="0,2,3,4,5,6,7,8,9,10" values="ui://g17ofsczu6m750|ui://g17ofsczu6m750|ui://g17ofsczu6m75a|ui://g17ofsczu6m750|ui://g17ofsczu6m750|ui://g17ofsczu6m750|ui://g17ofsczu6m750|ui://g17ofsczu6m750|ui://g17ofsczu6m750|ui://g17ofsczu6m750" default="ui://vb0p0v1sncg9l"/>
+    </loader>
+    <loader id="n40_cvs8" name="s3" xy="206,0" pivot="0.5,0.5" size="103,100" group="n44_cvs8" url="ui://g17ofsczu6m750" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="starNum" pages="5,6,7,8,9,10"/>
+      <gearIcon controller="starNum" pages="0,5,6,7,8,9,10" values="ui://g17ofsczu6m750|ui://g17ofsczu6m75a|ui://g17ofsczu6m750|ui://g17ofsczu6m750|ui://g17ofsczu6m750|ui://g17ofsczu6m750|ui://g17ofsczu6m750" default="ui://vb0p0v1sncg9l"/>
+    </loader>
+    <loader id="n41_cvs8" name="s4" xy="309,0" pivot="0.5,0.5" size="103,100" group="n44_cvs8" url="ui://g17ofsczu6m750" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="starNum" pages="7,8,9,10"/>
+      <gearIcon controller="starNum" pages="0,7,8,9,10" values="ui://g17ofsczu6m750|ui://g17ofsczu6m75a|ui://g17ofsczu6m750|ui://g17ofsczu6m750|ui://g17ofsczu6m750" default="ui://vb0p0v1sncg9l"/>
+    </loader>
+    <loader id="n42_cvs8" name="s5" xy="412,0" pivot="0.5,0.5" size="103,100" group="n44_cvs8" url="ui://g17ofsczu6m750" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="starNum" pages="9,10"/>
+      <gearIcon controller="starNum" pages="0,9,10" values="ui://g17ofsczu6m750|ui://g17ofsczu6m75a|ui://g17ofsczu6m750" default="ui://vb0p0v1sncg9l"/>
+    </loader>
+    <group id="n44_cvs8" name="n44" xy="0,0" size="515,100" advanced="true"/>
+  </displayList>
+</component>

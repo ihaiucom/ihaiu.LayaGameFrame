@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" adaptationTest="FitSize">
+  <displayList>
+    <image id="n4_ma8e" name="n4" src="mfsp11r" fileName="背景底板.png" pkg="vh8b3r0j" xy="0,-200" pivot="0.5,0.5" size="750,1734">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n0_ma8e" name="btnLottery" src="i3pqvo" fileName="Button/SmallCommonButton.xml" pkg="jaoapdic" xy="287,1158" pivot="0.5,0.5">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="创作" titleFontSize="28"/>
+    </component>
+    <component id="n1_ma8e" name="btnBack" src="e12kwe" fileName="Button/CloseButton.xml" pkg="jaoapdic" xy="80,46">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <image id="n2_ma8e" name="n2" src="i61140" fileName="__临时UI/bg_title.png" pkg="g17ofscz" xy="240,44">
+      <relation target="" sidePair="center-center,top-top"/>
+    </image>
+    <text id="n3_ma8e" name="labTitle" xy="306,57" pivot="0.5,0.5" size="125,34" fontSize="30" color="#ffffff" text="创作基地">
+      <relation target="n2_ma8e" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n5_ma8e" name="labGold" xy="288,1257" pivot="0.5,0.5" size="174,29" fontSize="25" color="#ffffff" text="金币 9999.9万">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <text id="n6_ma8e" name="labNum" xy="500,1257" pivot="0.5,0.5" size="174,29" fontSize="25" color="#ffffff" text="创作次数：5/5">
+      <relation target="" sidePair="right-center,bottom-bottom"/>
+    </text>
+    <component id="n7_ma8e" name="btnAdd" src="szhv1h" fileName="Button/AddButton.xml" pkg="jaoapdic" xy="674,1241" size="62,62">
+      <relation target="" sidePair="right-center,bottom-bottom"/>
+    </component>
+    <component id="n8_ma8e" name="btnPreview" src="i3pqvo" fileName="Button/SmallCommonButton.xml" pkg="jaoapdic" xy="42,1054" pivot="0.5,0.5">
+      <relation target="" sidePair="left-center,bottom-middle"/>
+      <Button title="概率一览" titleFontSize="28"/>
+    </component>
+  </displayList>
+</component>

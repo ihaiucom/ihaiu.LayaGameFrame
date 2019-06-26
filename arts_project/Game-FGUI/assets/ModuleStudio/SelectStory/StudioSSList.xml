@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,900" overflow="scroll">
+  <displayList>
+    <component id="n2_e9ra" name="content" src="e9ra20" fileName="SelectStory/StudioSSListContent.xml" xy="0,2" size="750,621" controller="listCtrl,null">
+      <relation target="" sidePair="width-width"/>
+    </component>
+  </displayList>
+</component>

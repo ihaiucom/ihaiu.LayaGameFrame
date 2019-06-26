@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <image id="n0_wcyo" name="bg" src="l44g9z" fileName="_公用--背景--色块/纯色/0x000000FF--黑.png" pkg="g17ofscz" xy="0,-200" pivot="0.5,0.5" size="750,1734" alpha="0.5">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+</component>

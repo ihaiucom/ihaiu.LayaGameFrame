@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="532,97">
+  <displayList>
+    <list id="n5_wljj" name="propList" xy="0,0" size="532,97" layout="row" selectionMode="none" colGap="55" defaultItem="ui://4snov4n9wljjr" align="center">
+      <item controllers="prop,0"/>
+      <item controllers="prop,1"/>
+      <item controllers="prop,2"/>
+      <item controllers="prop,3"/>
+      <item controllers="prop,4"/>
+    </list>
+  </displayList>
+</component>

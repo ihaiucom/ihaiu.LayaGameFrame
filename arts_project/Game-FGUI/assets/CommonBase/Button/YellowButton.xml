@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="226,76" pivot="0.5,0.5" extention="Button">
+  <displayList>
+    <image id="n4_o3xj" name="_bg" src="o3xjc" fileName="btn_yellow.png" pkg="vb0p0v1s" xy="0,0" size="226,76">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n5_o3xj" name="title" xy="0,0" size="225,75" font="HYZhengYuan-95W" fontSize="30" color="#a64f1b" align="center" vAlign="middle" letterSpacing="-2" autoSize="none" singleLine="true" text="Button">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="" sidePair="width-width"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+</component>

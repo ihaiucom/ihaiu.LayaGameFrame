@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="328,75" extention="Label">
+  <displayList>
+    <image id="n23_kchl" name="n23" src="e12ky8" fileName="_公共--背景--栏目标题/标题标签底板.png" pkg="g17ofscz" xy="0,0">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <text id="n24_kchl" name="title" xy="46,1" size="229,64" font="ui://vi9240by5kbu1g" fontSize="28" color="#ffffff" align="center" letterSpacing="10" text="艺人选择">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

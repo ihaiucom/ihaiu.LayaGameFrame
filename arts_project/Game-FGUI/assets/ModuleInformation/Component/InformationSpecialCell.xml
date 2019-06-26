@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="705,97" extention="Button" designImageOffsetX="-21" designImageOffsetY="-567" designImageAlpha="100">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="isSelect" exported="true" pages="2,none,0,unselected,1,selected" selected="0"/>
+  <displayList>
+    <image id="n0_kchl" name="_bg" src="t6bw16b" fileName="_公用--背景/标签3.png" pkg="g17ofscz" xy="4,2" size="697,94">
+      <gearDisplay controller="isSelect" pages="1"/>
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n3_kchl" name="_unselect_bg" src="t52g16e" fileName="_公用--背景--色块/半透--有边框效果/内阴影--标签底.png" pkg="g17ofscz" xy="0,0" size="705,97">
+      <gearDisplay controller="isSelect" pages="0"/>
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n4_kchl" name="n4" src="t6bw15u" fileName="_公用--标识和图标/加号.png" pkg="g17ofscz" xy="323,21">
+      <gearDisplay controller="isSelect" pages="0"/>
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <text id="n6_l6he" name="content" xy="70,30" size="568,39" fontSize="35" color="#cab3b7" align="center" vAlign="middle" text="特殊情报特殊情报特殊情报特殊情报">
+      <gearDisplay controller="isSelect" pages="1"/>
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

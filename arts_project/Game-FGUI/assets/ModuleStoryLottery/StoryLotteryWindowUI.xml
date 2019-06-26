@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImage="ui://g17ofsczwprd3u" designImageAlpha="0" adaptationTest="FitSize">
+  <controller name="showView" pages="0,bgView,1,awardView,2,faildView,3,awardPreview" selected="3"/>
+  <displayList>
+    <component id="n12_ma8e" name="bgView" src="ma8e1" fileName="Component/StoryLotteryBgView.xml" xy="0,0" pivot="0.5,0.5" size="750,1334">
+      <gearDisplay controller="showView" pages="0,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n11_ma8e" name="awardView" src="ma8e2" fileName="Component/StoryLotteryAwardView.xml" xy="0,0" pivot="0.5,0.5" size="750,1334">
+      <gearDisplay controller="showView" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n13_ma8e" name="faildView" src="ma8e6" fileName="Component/StoryLotteryFaildView.xml" xy="0,0" pivot="0.5,0.5" size="750,1334">
+      <gearDisplay controller="showView" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n14_ma8e" name="awardPreview" src="ma8e7" fileName="Component/StoryLotteryRewardPreview.xml" xy="0,0" size="750,1334">
+      <gearDisplay controller="showView" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+</component>

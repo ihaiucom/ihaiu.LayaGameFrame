@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="524,46" extention="ProgressBar" designImage="ui://qjz790ecmfspzr" designImageOffsetX="-200" designImageOffsetY="-412" designImageAlpha="0">
+  <displayList>
+    <image id="n1_ncg9" name="n0" src="mfsp12f" fileName="_公用--进度条/经验条底板.png" pkg="g17ofscz" xy="0,29" size="521,15">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n0_ncg9" name="bar" src="mfsp12e" fileName="_公用--进度条/经验条.png" pkg="g17ofscz" xy="3,32" size="514,9"/>
+    <text id="n3_mfsp" name="title" xy="405,1" size="117,32" fontSize="28" color="#8e8ea8" align="right" vAlign="bottom" text="730/1600">
+      <relation target="" sidePair="right-right"/>
+    </text>
+    <text id="n4_rvej" name="level" xy="43,3" size="46,37" fontSize="24" color="#8e8ea8" autoSize="none" text="LV."/>
+    <image id="n7_ipdk" name="bar1" src="ipdk15s" fileName="_公用--进度条/经验条渐变.png" pkg="g17ofscz" xy="0,30" size="524,13" alpha="0.5">
+      <relation target="n0_ncg9" sidePair="width-width"/>
+    </image>
+    <image id="n8_ipdk" name="bar2" src="fa3912r" fileName="_公用--线/竖线--大小14--白.png" pkg="g17ofscz" xy="508,32" size="14,8">
+      <relation target="n0_ncg9" sidePair="right-right"/>
+    </image>
+    <text id="n10_ipdk" name="level2" xy="74,-5" size="43,39" fontSize="35" color="#8e8ea8" bold="true" text="37"/>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

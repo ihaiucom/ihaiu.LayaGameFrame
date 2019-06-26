@@ -1,0 +1,13 @@
+
+Spot.png
+size: 48,47
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jiazaidian
+  rotate: false
+  xy: 2, 2
+  size: 44, 43
+  orig: 44, 43
+  offset: 0, 0
+  index: -1

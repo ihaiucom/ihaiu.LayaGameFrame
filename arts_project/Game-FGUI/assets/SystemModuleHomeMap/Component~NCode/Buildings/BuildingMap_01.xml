@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="0,0" pivot="0.5,0.5" anchor="true" opaque="false" hitTest="n52_m8r1" designImageAlpha="0">
+  <displayList>
+    <loader id="n58_j6x8" name="icon" xy="0,0" pivot="0.5,0.5" anchor="true" size="812,639" url="ui://66b5xydlmohjo" autoSize="true"/>
+    <loader id="n5_m8i6" name="building_01" xy="6,-112" pivot="0.5,0.5" anchor="true" size="797,402" group="n55_j6x8" url="ui://66b5xydlj6x818c" autoSize="true"/>
+    <loader id="n54_j6x8" name="building_02" xy="30,86" pivot="0.5,0.5" anchor="true" size="749,464" group="n55_j6x8" url="ui://66b5xydlj6x818d" autoSize="true"/>
+    <group id="n55_j6x8" name="building" xy="6,-112" size="797,662" hideByEditor="true" visible="false" advanced="true" collapsed="true"/>
+    <image id="n52_m8r1" name="hit" src="s7ie15y" fileName="_images_pic/01/01_01.png" xy="0,0" pivot="0.5,0.5" anchor="true" hideByEditor="true" visible="false"/>
+    <component id="n53_hakw" name="info" src="hakw181" fileName="BuildingInfo02.xml" xy="368,-51" pivot="1,0.9" anchor="true">
+      <Button icon="ui://g17ofsczm5zoxk"/>
+    </component>
+    <loader id="n17_cljq" name="region01_01" xy="-96,-71" pivot="0.36,0.5" anchor="true" size="343,337" group="n50_m8r1" url="ui://66b5xydlead915d" align="center"/>
+    <loader id="n16_cljq" name="region01_02" xy="-46,-23" pivot="0.5,0.66" anchor="true" size="32,38" group="n50_m8r1" url="ui://66b5xydlead915n" autoSize="true"/>
+    <loader id="n15_cljq" name="region01_03" xy="53,56" pivot="0.57,0.63" anchor="true" size="65,119" group="n50_m8r1" url="ui://66b5xydlead915o" autoSize="true"/>
+    <group id="n50_m8r1" name="region01" xy="-96,-71" size="342,336" group="n35_cljq" collapsed="true"/>
+    <loader id="n18_cljq" name="region02_01" xy="71,-56" pivot="0.56,0.69" anchor="true" size="111,238" group="n51_m8r1" url="ui://66b5xydlead915e"/>
+    <group id="n51_m8r1" name="region02" xy="71,-56" size="111,237" group="n35_cljq" collapsed="true"/>
+    <loader id="n13_cljq" name="region03_01" xy="-175,79" pivot="0.48,0.84" anchor="true" size="150,147" group="n27_cljq" url="ui://66b5xydlead915f"/>
+    <group id="n27_cljq" name="region03" xy="-175,79" size="150,147" group="n35_cljq" collapsed="true"/>
+    <loader id="n19_cljq" name="region04_01" xy="-283,92" pivot="0.77,0.93" anchor="true" size="74,157" group="n28_cljq" url="ui://66b5xydlead915g"/>
+    <group id="n28_cljq" name="region04" xy="-340,-54" size="74,157" group="n35_cljq" collapsed="true"/>
+    <loader id="n14_cljq" name="region05_01" xy="-183,152" pivot="0.55,0.68" anchor="true" size="96,124" group="n29_cljq" url="ui://66b5xydlead915h"/>
+    <group id="n29_cljq" name="region05" xy="-183,152" size="96,124" group="n35_cljq" collapsed="true"/>
+    <loader id="n23_cljq" name="region06_01" xy="-17,192" pivot="0.59,0.31" anchor="true" size="152,127" group="n30_cljq" url="ui://66b5xydlead915i"/>
+    <loader id="n59_n9g6" name="region06_02" xy="20,263" pivot="0.5,0.79" anchor="true" size="61,76" group="n30_cljq" url="ui://66b5xydln9g618o" autoSize="true"/>
+    <group id="n30_cljq" name="region06" xy="-17,192" size="152,147" group="n35_cljq"/>
+    <loader id="n22_cljq" name="region07_01" xy="91,197" pivot="0.52,0.22" anchor="true" size="141,133" group="n31_cljq" url="ui://66b5xydlead915j"/>
+    <loader id="n60_n9g6" name="region07_02" xy="64,267" pivot="0.5,0.7" anchor="true" size="93,104" group="n31_cljq" customData="3" url="ui://66b5xydln9g618p" autoSize="true"/>
+    <group id="n31_cljq" name="region07" xy="64,197" size="168,174" group="n35_cljq"/>
+    <loader id="n24_cljq" name="region08_01" xy="38,179" pivot="0.57,0.9" anchor="true" size="109,76" group="n32_cljq" url="ui://66b5xydlead915k"/>
+    <loader id="n48_s7ie" name="region08_02" xy="89,114" pivot="0.5,0.7" anchor="true" size="41,51" group="n32_cljq" url="ui://66b5xydls7ie15w"/>
+    <loader id="n49_s7ie" name="region08_03" xy="116,130" pivot="0.5,0.7" anchor="true" size="41,51" group="n32_cljq" url="ui://66b5xydls7ie15w"/>
+    <group id="n32_cljq" name="region08" xy="38,114" size="119,141" group="n35_cljq"/>
+    <loader id="n21_cljq" name="region09_01" xy="300,18" pivot="0.5,0.75" anchor="true" size="132,188" group="n33_cljq" url="ui://66b5xydlead915l"/>
+    <group id="n33_cljq" name="region09" xy="235,-123" size="132,188" group="n35_cljq"/>
+    <loader id="n20_cljq" name="region10_01" xy="376,67" pivot="0.5,0.56" anchor="true" size="59,124" group="n34_cljq" url="ui://66b5xydlead915m"/>
+    <group id="n34_cljq" name="region10" xy="376,67" size="59,124" group="n35_cljq" collapsed="true"/>
+    <group id="n35_cljq" name="region" xy="-340,-123" size="775,494"/>
+    <text id="n36_cljq" name="n36" xy="-98,-78" size="33,32" group="n47_cljq" fontSize="28" color="#ff0000" text="01"/>
+    <text id="n37_cljq" name="n37" xy="47,-138" size="33,32" group="n47_cljq" fontSize="28" color="#ff0000" text="02"/>
+    <text id="n38_cljq" name="n38" xy="-195,12" size="33,32" group="n47_cljq" fontSize="28" color="#ff0000" text="03"/>
+    <text id="n39_cljq" name="n39" xy="-309,24" size="33,32" group="n47_cljq" fontSize="28" color="#ff0000" text="04"/>
+    <text id="n40_cljq" name="n40" xy="-206,102" size="33,32" group="n47_cljq" fontSize="28" color="#ff0000" text="05"/>
+    <text id="n41_cljq" name="n41" xy="-51,179" size="33,32" group="n47_cljq" fontSize="28" color="#ff0000" text="06"/>
+    <text id="n42_cljq" name="n42" xy="77,206" size="33,32" group="n47_cljq" fontSize="28" color="#ff0000" text="07"/>
+    <text id="n43_cljq" name="n43" xy="13,128" size="33,32" group="n47_cljq" fontSize="28" color="#ff0000" text="08"/>
+    <text id="n44_cljq" name="n44" xy="287,-30" size="33,32" group="n47_cljq" fontSize="28" color="#ff0000" text="09"/>
+    <text id="n45_cljq" name="n45" xy="366,14" size="33,32" group="n47_cljq" fontSize="28" color="#ff0000" text="10"/>
+    <group id="n47_cljq" name="n47" xy="-309,-138" size="708,376" hideByEditor="true" visible="false" advanced="true" collapsed="true"/>
+    <component id="n11_kp2b" name="lockTitle" src="kp2b14u" fileName="BuildingLockTitle.xml" xy="2,-2"/>
+  </displayList>
+  <transition name="t0"/>
+</component>

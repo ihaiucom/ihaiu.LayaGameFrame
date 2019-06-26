@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="139,20" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n7_t2bx" name="n7" src="t2bxh" fileName="b6.png" pkg="vb0p0v1s" xy="4,4" size="13,11">
+      <gearDisplay controller="button" pages="0"/>
+    </image>
+    <image id="n4_t2bx" name="n4" src="t2bxh" fileName="b6.png" pkg="vb0p0v1s" xy="4,4" size="13,11">
+      <gearDisplay controller="button" pages="1"/>
+    </image>
+    <image id="n3_t2bx" name="n3" src="t2bxg" fileName="b5.png" pkg="vb0p0v1s" xy="4,4" size="13,11">
+      <gearDisplay controller="button" pages="2,3"/>
+    </image>
+    <text id="n8_t2bx" name="n8" xy="23,0" size="65,19" fontSize="12" color="#ffffff" text="同意此条款"/>
+    <image id="n5_t2bx" name="n5" src="t2bxi" fileName="gou.png" pkg="vb0p0v1s" xy="4,4">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+  </displayList>
+  <Button mode="Check"/>
+</component>

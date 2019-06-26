@@ -1,0 +1,14 @@
+{
+  "autoEnd": true,
+  "setting": "./SpineSkinSetting.json",
+  "rootEditor": "./Editor",
+  "rootImages": "./Images",
+  "rootLib": "./Lib",
+  "rootGenerates": "./Generates",
+  "useGenerate": true,
+  "exportSpineBat": "./exportspine.bat",
+  "rootExportSpine": "./ExportSpine",
+  "exportSpineSettingJson": "./laya.export.json",
+  "rootExportSK": "./ExportSK",
+  "rootExportSpineRes": "./ExportSKRes/Unit"
+}

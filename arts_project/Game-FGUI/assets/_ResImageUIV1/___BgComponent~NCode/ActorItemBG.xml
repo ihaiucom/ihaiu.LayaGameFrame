@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="358,174">
+  <displayList>
+    <image id="n0_ywi4" name="n0" src="e12kxt" fileName="拍摄/选择艺人/新版/艺人底板.png" xy="0,0" size="358,174">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_ywi4" name="n1" src="e12kxu" fileName="拍摄/选择艺人/新版/艺人底板装饰.png" xy="295,8" size="53,156">
+      <relation target="" sidePair="height-height,right-right"/>
+    </image>
+  </displayList>
+</component>

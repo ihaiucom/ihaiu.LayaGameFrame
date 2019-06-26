@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1100" initName="selectServerPage">
+  <displayList>
+    <graph id="n1" name="n1" xy="0,0" size="720,1100" type="rect" lineColor="#ffa0a0a0" fillColor="#fff0f0f0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <list id="n2" name="list" xy="0,0" size="720,1100" overflow="scroll" defaultItem="ui://46xcitpdm23g3">
+      <relation target="" sidePair="width-width,height-height"/>
+      <item title="官网" name="127.0.0.1"/>
+      <item title="物品"/>
+      <item title="艺人"/>
+      <item title="剧本"/>
+    </list>
+  </displayList>
+</component>

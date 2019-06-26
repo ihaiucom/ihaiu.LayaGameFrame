@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <component id="n3_wcyo" name="frame" src="ncg9m" fileName="Component/AlertDialogBackground.xml" pkg="q5yddivt" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n1_wcyo" name="taskView" src="wcyo2" fileName="Component/TaskView.xml" xy="25,167">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

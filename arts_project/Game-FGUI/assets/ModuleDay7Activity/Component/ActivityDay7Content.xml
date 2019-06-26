@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" overflow="hidden">
+  <controller name="double" pages="0,false,1,true" selected="0"/>
+  <displayList>
+    <component id="n16_gpte" name="btnClose" src="e5hk1m" fileName="Button/EmptyButton.xml" pkg="jaoapdic" xy="0,0" size="750,1334" alpha="0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <loader id="n9_gpte" name="imgActor" xy="1,-8" size="700,1274" touchable="false" url="ui://qjz790ecgpte15y" autoSize="true"/>
+    <graph id="n12_gpte" name="n12" xy="0,364" size="750,968" touchable="false" type="rect" fillColor="#ff000000"/>
+    <component id="n11_gpte" name="btnDay7Actor" src="gptea" fileName="Component/Day7ActorButton.xml" xy="25,772"/>
+    <list id="n10_gpte" name="listDay7Item" xy="110,364" size="463,403" layout="pagination" overflow="scroll" lineGap="20" colGap="20" lineItemCount="3" lineItemCount2="2" defaultItem="ui://1denri2bgpte9">
+      <item title="1天"/>
+      <item title="2天"/>
+      <item title="3天"/>
+      <item title="4天"/>
+      <item title="5天"/>
+      <item title="6天"/>
+    </list>
+    <component id="n13_gpte" name="btnGet" src="t3as2" fileName="Button/BlueButton.xml" pkg="jaoapdic" xy="157,1178">
+      <gearText controller="double" pages="1" values="领取双倍" default="领取"/>
+      <Button title="领取" titleColor="#000000"/>
+    </component>
+    <component id="n15_gpte" name="btnDouble" src="gpteb" fileName="Component/Day7SelectButton.xml" xy="271,1287">
+      <gearDisplay controller="double" pages="1"/>
+    </component>
+    <text id="n14_gpte" name="n14" xy="322,1289" size="313,32" fontSize="28" color="#ffffff" text="观看视频使您的奖励翻倍">
+      <gearDisplay controller="double" pages="1"/>
+    </text>
+  </displayList>
+</component>

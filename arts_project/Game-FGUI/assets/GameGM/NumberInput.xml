@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="260,80">
+  <displayList>
+    <graph id="n9_c3i0" name="n9" xy="0,0" size="260,80" alpha="0" type="rect" lineSize="0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n7_c3i0" name="downButton" src="crnyi" fileName="ButtonNoBG.xml" xy="0,0" size="80,80" alpha="0.3">
+      <relation target="" sidePair="left-left,height-height"/>
+      <Button title="◁" titleFontSize="50"/>
+    </component>
+    <component id="n8_c3i0" name="upButton" src="crnyi" fileName="ButtonNoBG.xml" xy="180,0" size="80,80" alpha="0.3">
+      <relation target="" sidePair="right-right,height-height"/>
+      <Button title="▷" titleFontSize="50"/>
+    </component>
+    <text id="n10_c3i0" name="title" xy="80,10" size="100,60" input="true" prompt="输入过滤名称或者ID,用逗号分隔" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" singleLine="true" text="1">
+      <relation target="" sidePair="center-center,height-height"/>
+    </text>
+  </displayList>
+</component>

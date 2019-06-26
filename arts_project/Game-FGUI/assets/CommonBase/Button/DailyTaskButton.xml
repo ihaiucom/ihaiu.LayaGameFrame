@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="180,60" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <displayList>
+    <loader id="n3_iq08" name="icon" xy="0,0" size="180,60" url="ui://g17ofsczig1p177" fill="scaleFree"/>
+    <text id="n4_iq08" name="title" xy="89,30" pivot="0.5,0.5" anchor="true" size="89,32" fontSize="28" color="#ffffff" align="center" vAlign="middle" text="已领取">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.97"/>
+</component>

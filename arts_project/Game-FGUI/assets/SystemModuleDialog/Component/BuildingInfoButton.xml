@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,160" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <text id="n3_10shy" name="title" xy="193,97" pivot="0,1" anchor="true" size="202,35" fontSize="30" color="#b89ca1" vAlign="middle" leading="0" text="每小时产量：&#xA;">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n4_10shy" name="labNowData" xy="406,98" pivot="0,1" anchor="true" size="137,34" fontSize="30" color="#b89ca1" vAlign="middle" leading="0" text="9999.9万">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n6_10shy" name="labAddData" xy="566,98" pivot="0,1" anchor="true" size="140,34" fontSize="30" color="#7dd045" vAlign="middle" leading="0" text="+9999.9万">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n7_gf0s" name="n7" src="cy5k17d" fileName="建筑系统/材料底.png" pkg="g17ofscz" xy="27,3"/>
+    <loader id="n8_gf0s" name="icon" xy="105,81" pivot="0.5,0.5" anchor="true" size="52,57" aspect="true" url="ui://g17ofsczm5zox5" align="center" vAlign="middle" fill="scaleMatchHeight"/>
+  </displayList>
+  <Button/>
+</component>

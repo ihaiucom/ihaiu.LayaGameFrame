@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="518,48" extention="Label" designImageOffsetX="-111" designImageOffsetY="-613" designImageAlpha="82">
+  <displayList>
+    <image id="n92_qw0i" name="n92" src="wpxm7j" fileName="拍摄/弹窗/名字底板.png" pkg="g17ofscz" xy="0,0" size="518,48">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n102_r9e2" name="title" xy="51,0" size="414,48" input="true" prompt="输入剧本名称" maxLength="12" fontSize="30" color="#fefdfe" align="center" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="梦想的声音">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <component id="n103_wpxm" name="randomBtn" src="e2wxw5" fileName="Button/PenButon.xml" xy="462,1" size="55,48">
+      <relation target="" sidePair="right-right,middle-middle"/>
+      <Button icon="ui://g17ofsczwpxm7p"/>
+    </component>
+  </displayList>
+</component>

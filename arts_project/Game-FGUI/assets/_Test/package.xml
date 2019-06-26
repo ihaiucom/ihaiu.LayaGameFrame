@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="f86vg8i7" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="rabz0" name="NavTabWindowUI.xml" path="/"/>
+    <component id="rabz1" name="Panel.xml" path="/"/>
+  </resources>
+  <publish name="_Test"/>
+</packageDescription>

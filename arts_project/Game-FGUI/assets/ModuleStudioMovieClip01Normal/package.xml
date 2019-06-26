@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="u585eira" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="g2f50" name="StudioMovieClip01Normal.xml" path="/" exported="true"/>
+    <component id="e8j7i" name="ActorGroup1.xml" path="/" exported="true"/>
+    <component id="e8j71" name="ActorGroup2.xml" path="/" exported="true"/>
+    <component id="e8j72" name="ActorGroup3.xml" path="/" exported="true"/>
+    <component id="e8j73" name="ActorGroup4.xml" path="/" exported="true"/>
+    <component id="e8j74" name="ActorGroup5.xml" path="/" exported="true"/>
+    <component id="e8j75" name="ActorGroup6.xml" path="/" exported="true"/>
+  </resources>
+  <publish name="ModuleStudioMovieClip01Normal" genCode="true"/>
+</packageDescription>

@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <packageDescription id="46xcitpd" jpegQuality="80" compressPNG="true">
-  <resources/>
-  <publish name="GameGM"/>
+  <resources>
+    <component id="9nrl0" name="GMMain.xml" path="/" exported="true"/>
+    <component id="wl2t1" name="GMMenuBar.xml" path="/"/>
+    <component id="wl2t2" name="GMMenuButton.xml" path="/"/>
+    <component id="m23g3" name="GMPopupMenu_item.xml" path="/" exported="true"/>
+    <component id="m23g4" name="GMPopupMenu.xml" path="/" exported="true"/>
+    <component id="m23g5" name="GMPopupButton.xml" path="/"/>
+    <component id="fbyi6" name="GMSubMenuBar.xml" path="/"/>
+    <component id="fbyi7" name="GMSubMenuButton.xml" path="/"/>
+    <component id="fbyi8" name="GMDebugPage.xml" path="/" exported="true"/>
+    <component id="fbyi9" name="GMAddPage.xml" path="/" exported="true"/>
+    <component id="nb4ea" name="Checkbox.xml" path="/Component~NCode/"/>
+    <component id="fv0tb" name="TextInput.xml" path="/"/>
+    <component id="fv0tc" name="GMAddItem.xml" path="/" exported="true"/>
+    <component id="fv0td" name="ButtonCorner.xml" path="/Component~NCode/"/>
+    <component id="fv0tf" name="NumberInput.xml" path="/"/>
+    <component id="fv0tg" name="TextInputCenter.xml" path="/"/>
+    <component id="c3i0h" name="ButtonRect.xml" path="/Component~NCode/"/>
+    <component id="crnyi" name="ButtonNoBG.xml" path="/Component~NCode/"/>
+    <component id="ket7j" name="GMSelectServerPage.xml" path="/" exported="true"/>
+    <component id="ket7k" name="GMCmdPage.xml" path="/" exported="true"/>
+    <component id="ket7l" name="GMSubMenuRadioBar.xml" path="/"/>
+    <component id="ket7m" name="TextArea.xml" path="/"/>
+    <component id="ket7n" name="GMCmdItem.xml" path="/" exported="true"/>
+    <component id="sy3ro" name="GMLogItem.xml" path="/" exported="true"/>
+    <component id="x6hop" name="Tree.xml" path="/" exported="true"/>
+    <component id="x6hot" name="TreeItem.xml" path="/" exported="true"/>
+    <component id="x6hou" name="TreeItemCheckbox.xml" path="/" exported="true"/>
+    <component id="x6hov" name="GMDisplayTreePage.xml" path="/" exported="true"/>
+    <component id="x6how" name="TreeItemOpenCheckbox.xml" path="/" exported="true"/>
+    <component id="x6hoz" name="TreeList.xml" path="/" exported="true"/>
+    <component id="7h8s10" name="GMTimeLoopPage.xml" path="/" exported="true"/>
+    <component id="7h8s11" name="GMTimeLoopItem.xml" path="/" exported="true"/>
+    <component id="7h8s12" name="GMTickPage.xml" path="/" exported="true"/>
+    <component id="qfds13" name="GMTestPanel.xml" path="/" exported="true"/>
+    <component id="qfds14" name="GMTestPanelContent.xml" path="/" exported="true"/>
+  </resources>
+  <publish name="GameGM" genCode="true" maxAtlasSize="1024"/>
 </packageDescription>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,70" extention="Button">
+  <controller name="type" pages="0,BuildBreak,1,Level" selected="1"/>
+  <displayList>
+    <image id="n15_i3pq" name="n15" src="pz3x13" fileName="_公用--线/线--大小2--灰--透明度.png" pkg="g17ofscz" xy="40,63" size="666,2">
+      <relation target="" sidePair="width-width,middle-middle"/>
+    </image>
+    <text id="n18_i3pq" name="labText" xy="374,30" pivot="0.5,0.5" anchor="true" size="229,32" fontSize="28" leading="0" text="新的进驻席位开启">
+      <gearDisplay controller="type" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n13_i3pq" name="n13" src="i3pq1q" fileName="_公用--标识和图标/bg_arrow.png" pkg="g17ofscz" xy="420,25" group="n16_i3pq"/>
+    <text id="n6_j3nb" name="labEffect" xy="104,20" size="173,32" group="n16_i3pq" fontSize="28" leading="0" text="单次产出数量"/>
+    <text id="n19_m5zo" name="labLastNum" xy="323,20" size="47,32" group="n16_i3pq" fontSize="28" leading="0" text="100&#xA;"/>
+    <text id="n14_i3pq" name="labNowNum" xy="498,20" size="61,32" group="n16_i3pq" fontSize="28" color="#ca7a7b" leading="0" text="+20%"/>
+    <group id="n16_i3pq" name="n16" xy="104,20" size="455,33" advanced="true">
+      <gearDisplay controller="type" pages="1"/>
+    </group>
+  </displayList>
+  <Button/>
+</component>

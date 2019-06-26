@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="40,40" extention="Button">
+  <Button/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <displayList>
+    <image id="n0_iq08" pkg="g17ofscz" src="iq088y" name="n0" xy="0,0">
+      <relation target="" sidePair="width,height"/>
+    </image>
+  </displayList>
+</component>

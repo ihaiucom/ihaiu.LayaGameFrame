@@ -1,0 +1,12 @@
+info face="D:\xyz_wp\arts\fgui\Font\Font_FangzhengChuqian_48_White_Blue_atlas" size=32 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1
+common lineHeight=60 base=26 scaleW=102 scaleH=102 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="D:\xyz_wp\arts\fgui\Font\Font_FangzhengChuqian_48_White_Blue_atlas.png"
+chars count=6
+char id=20135 x=0 y=51 width=50 height=50 xoffset=0 yoffset=12 xadvance=51 page=0 chnl=0 letter="产"
+char id=20986 x=51 y=50 width=46 height=49 xoffset=0 yoffset=11 xadvance=47 page=0 chnl=0 letter="出"
+char id=35814 x=51 y=0 width=50 height=49 xoffset=0 yoffset=11 xadvance=51 page=0 chnl=0 letter="详"
+char id=24773 x=0 y=0 width=50 height=50 xoffset=0 yoffset=10 xadvance=51 page=0 chnl=0 letter="情"
+char id=32 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=20 page=0 chnl=0 letter=" "
+char id=9 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=160 page=0 chnl=0 letter="	"
+
+kernings count=0

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="170,30" extention="ProgressBar">
+  <displayList>
+    <image id="n0_m5zo" name="n0" src="m5zoxl" fileName="建筑系统/房间名牌/未标题-1.png" pkg="g17ofscz" xy="0,0" size="170,30">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_m5zo" name="bar" src="m5zoxm" fileName="建筑系统/房间名牌/未标题-12.png" pkg="g17ofscz" xy="7,5" size="155,20"/>
+  </displayList>
+  <ProgressBar/>
+</component>

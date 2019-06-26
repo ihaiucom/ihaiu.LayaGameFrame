@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="700,53">
+  <controller name="tab" pages="0,综合,1,魅力,2,口才,3,娱乐,4,表演,5,才艺" selected="0"/>
+  <displayList>
+    <list id="n0_q74i" name="n0" xy="0,0" size="700,53" layout="row" defaultItem="ui://jaoapdici3pqvq" vAlign="bottom" selectionController="tab">
+      <item title="综合"/>
+      <item title="魅力"/>
+      <item title="口才"/>
+      <item title="娱乐"/>
+      <item title="表演"/>
+      <item title="才艺"/>
+    </list>
+  </displayList>
+</component>

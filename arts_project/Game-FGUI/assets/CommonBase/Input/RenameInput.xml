@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="334,84" extention="Label">
+  <displayList>
+    <image id="n92_qw0i" name="n92" src="zt0z6m" fileName="flag_rename_panel.png" pkg="vb0p0v1s" xy="0,0" size="334,84"/>
+    <text id="n102_r9e2" name="title" xy="16,9" size="309,65" input="true" prompt="UserName" maxLength="12" fontSize="24" color="#114d74" vAlign="middle" autoSize="none" singleLine="true" text=""/>
+  </displayList>
+</component>

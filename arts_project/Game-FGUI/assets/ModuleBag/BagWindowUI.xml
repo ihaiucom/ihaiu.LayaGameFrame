@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" initName="frame">
+  <controller name="showItemInfo" pages="1,no,0,yes" selected="1">
+    <remark page="0" value="false"/>
+    <remark page="1" value="true"/>
+  </controller>
+  <controller name="showInfoDialog" exported="true" pages="0,no,1,yes" selected="0"/>
+  <displayList>
+    <component id="n2_eftv" name="frame" src="eftvc" fileName="Window/BaseFullWindowUI.xml" pkg="jaoapdic" xy="0,3">
+      <Label title="背包"/>
+    </component>
+    <component id="n3_ncg9" name="tabBar" src="ncg9k" fileName="TabBar/BagTabBar.xml" pkg="jaoapdic" xy="40,90"/>
+    <list id="n4_ncg9" name="itemList" xy="0,148" size="720,1109" layout="flow_hz" overflow="scroll" lineGap="-8" colGap="-10" lineItemCount="4" defaultItem="ui://4snov4n9ncg93" autoClearItems="true">
+      <item title="1" icon="ui://vb0p0v1sncg9r" controllers="type,0"/>
+      <item title="2" icon="ui://vb0p0v1sncg9q" controllers="type,0"/>
+      <item title="3" icon="ui://vb0p0v1sncg9p" controllers="type,0"/>
+      <item title="4" icon="ui://vb0p0v1sncg9q" controllers="type,0"/>
+      <item title="5" icon="ui://vb0p0v1sncg9r" controllers="type,0"/>
+      <item title="6" icon="ui://vb0p0v1sncg9p" controllers="type,0"/>
+      <item title="7" icon="ui://vb0p0v1sncg9q" controllers="type,0"/>
+      <item title="8" icon="ui://vb0p0v1sncg9r" controllers="type,0"/>
+      <item title="9" icon="ui://vb0p0v1sncg9q" controllers="type,0"/>
+      <item title="10" icon="ui://vb0p0v1sncg9p" controllers="type,0"/>
+      <item title="11" icon="ui://vb0p0v1sncg9r" controllers="type,0"/>
+      <item title="12" icon="ui://vb0p0v1sncg9q" controllers="type,0"/>
+      <item title="13" icon="ui://vb0p0v1sncg9p" controllers="type,0"/>
+      <item title="14" icon="ui://vb0p0v1sncg9q" controllers="type,0"/>
+    </list>
+    <component id="n5_ncg9" name="bagInfo" src="ncg96" fileName="BagInfoIconItem.xml" xy="0,1008" size="750,326">
+      <gearDisplay controller="showItemInfo" pages="0"/>
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </component>
+    <component id="n39_ldd9" name="splitBtn" src="ldd9xl" fileName="Button/PinkButton.xml" pkg="jaoapdic" xy="237,1219" group="n43_ldd9">
+      <gearDisplay controller="showItemInfo" pages="0"/>
+      <Button title="拆分"/>
+    </component>
+    <component id="n40_ldd9" name="compoundBtn" src="ldd9xl" fileName="Button/PinkButton.xml" pkg="jaoapdic" xy="357,1219" group="n43_ldd9">
+      <gearDisplay controller="showItemInfo" pages="0"/>
+      <Button title="合成"/>
+    </component>
+    <component id="n41_ldd9" name="useBtn" src="ldd9xl" fileName="Button/PinkButton.xml" pkg="jaoapdic" xy="477,1219" group="n43_ldd9">
+      <gearDisplay controller="showItemInfo" pages="0"/>
+      <Button title="使用"/>
+    </component>
+    <component id="n42_ldd9" name="saleBtn" src="ldd9xl" fileName="Button/PinkButton.xml" pkg="jaoapdic" xy="597,1219" group="n43_ldd9">
+      <gearDisplay controller="showItemInfo" pages="0"/>
+      <Button title="出售"/>
+    </component>
+    <group id="n43_ldd9" name="_actionBtns" xy="237,1219" size="450,65"/>
+    <component id="n38_lg7x" name="infoDialog" src="lg7x16" fileName="GetInformationDialog.xml" xy="0,0" controller="boxHeightCtrl,0">
+      <gearDisplay controller="showInfoDialog" pages="1"/>
+    </component>
+  </displayList>
+</component>

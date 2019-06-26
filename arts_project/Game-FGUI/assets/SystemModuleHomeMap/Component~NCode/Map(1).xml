@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="4996,4616" initName="map">
+  <displayList>
+    <loader id="n0_ghg4" name="img_1" xy="0,0" size="1249,1154" url="ui://qjz790ecghg4xi" autoSize="true"/>
+    <loader id="n1_ghg4" name="img_2" xy="1249,0" size="1249,1154" url="ui://qjz790ecghg4xj" autoSize="true"/>
+    <loader id="n2_ghg4" name="img_3" xy="2498,0" size="1249,1154" url="ui://qjz790ecghg4xk" autoSize="true"/>
+    <loader id="n3_ghg4" name="img_4" xy="3747,0" size="1249,1154" url="ui://qjz790ecghg4xl" autoSize="true"/>
+    <loader id="n4_ghg4" name="img_5" xy="0,1154" size="1249,1154" url="ui://qjz790ecghg4xm" autoSize="true"/>
+    <loader id="n5_ghg4" name="img_6" xy="1249,1154" size="1249,1154" url="ui://qjz790ecghg4xn" autoSize="true"/>
+    <loader id="n6_ghg4" name="img_7" xy="2498,1154" size="1249,1154" url="ui://qjz790ecghg4xo" autoSize="true"/>
+    <loader id="n7_ghg4" name="img_8" xy="3747,1154" size="1249,1154" url="ui://qjz790ecghg4xp" autoSize="true"/>
+    <loader id="n8_vdte" name="img_9" xy="0,2308" size="1249,1154" url="ui://qjz790ecvdtexr" autoSize="true"/>
+    <loader id="n9_vdte" name="img_10" xy="1249,2308" size="1249,1154" url="ui://qjz790ecvdtexs" autoSize="true"/>
+    <loader id="n10_vdte" name="img_11" xy="2498,2308" size="1249,1154" url="ui://qjz790ecvdtext" autoSize="true"/>
+    <loader id="n11_vdte" name="img_12" xy="3747,2308" size="1249,1154" url="ui://qjz790ecvdtexu" autoSize="true"/>
+    <loader id="n12_vdte" name="img_13" xy="0,3462" size="1249,1154" url="ui://qjz790ecvdtexv" autoSize="true"/>
+    <loader id="n13_vdte" name="img_14" xy="1249,3462" size="1249,1154" url="ui://qjz790ecvdtexw" autoSize="true"/>
+    <loader id="n14_vdte" name="img_15" xy="2498,3462" size="1249,1154" url="ui://qjz790ecvdtexx" autoSize="true"/>
+    <loader id="n15_vdte" name="img_16" xy="3747,3462" size="1249,1154" url="ui://qjz790ecvdtexy" autoSize="true"/>
+  </displayList>
+</component>

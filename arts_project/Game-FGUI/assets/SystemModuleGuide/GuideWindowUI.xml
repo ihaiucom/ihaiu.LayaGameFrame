@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <controller name="showView" pages="0,plot,1,guide_build,2,guide_UI,3,guide_popUp,4,wait" selected="0"/>
+  <displayList>
+    <image id="n1_dix1" name="n1" src="l44g9z" fileName="_公用--背景--色块/纯色/0x000000FF--黑.png" pkg="g17ofscz" xy="0,-200" pivot="0.5,0.5" size="750,1734" alpha="0.61">
+      <gearLook controller="showView" pages="2,4" values="0.61,0,0,1|0,0,0,1" default="0.61,0,0,1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n2_dix1" name="aperture" src="dix12" fileName="GuideComponent/GuideAperture.xml" xy="244,735">
+      <gearDisplay controller="showView" pages="1,2,3"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n3_dix1" name="finger" src="dix11" fileName="GuideComponent/GuideFinger.xml" xy="393,935">
+      <gearDisplay controller="showView" pages="1,2,3"/>
+      <relation target="" sidePair="right-center,bottom-middle"/>
+    </component>
+    <component id="n4_wcyo" name="plotView" src="wcyo3" fileName="PlotComponent/PlotDialogView.xml" xy="0,0">
+      <gearDisplay controller="showView" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+</component>

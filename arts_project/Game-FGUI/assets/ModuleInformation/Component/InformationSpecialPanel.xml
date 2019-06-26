@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,630" overflow="hidden">
+  <controller name="isEmpty" exported="true" pages="0,no,1,yes" selected="1"/>
+  <displayList>
+    <component id="n35_ogns" name="cell" src="maaml" fileName="Component/InformationSpecialCell.xml" xy="23,109" size="705,97" controller="isSelect,0">
+      <relation target="" sidePair="width-width"/>
+    </component>
+    <list id="n34_ogns" name="selectPanel" xy="26,393" size="706,234" layout="pagination" overflow="scroll" scroll="horizontal" scrollBarFlags="524" scrollBar="auto" scrollBarRes=",ui://jaoapdicmaamxj" lineGap="20" colGap="12" defaultItem="ui://jaoapdicognsm" align="center">
+      <gearDisplay controller="isEmpty" pages="0"/>
+      <relation target="" sidePair="width-width"/>
+      <item controllers="button,0"/>
+      <item/>
+      <item/>
+      <item controllers="button,1"/>
+      <item controllers="button,0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n36_n3dz" name="n36" xy="17,460" size="720,90" group="n39_n3dz" visible="false" url="ui://g17ofsczwpxm7q" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n37_n3dz" name="n37" src="ex1n113" fileName="_公共--背景--栏目标题/粉色tips.png" pkg="g17ofscz" xy="17,460" size="720,90" group="n39_n3dz">
+      <relation target="" sidePair="height-height"/>
+    </image>
+    <text id="n38_n3dz" name="title" xy="66,492" pivot="0.5,0.5" size="622,37" group="n39_n3dz" fontSize="32" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="亲~！   暂无情报哦~">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <group id="n39_n3dz" name="_toast" xy="17,460" size="720,90" advanced="true">
+      <gearDisplay controller="isEmpty" pages="1"/>
+    </group>
+  </displayList>
+</component>

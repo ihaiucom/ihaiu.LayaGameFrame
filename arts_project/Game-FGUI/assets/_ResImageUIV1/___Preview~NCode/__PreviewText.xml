@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,400">
+  <displayList>
+    <image id="n0_g57n" name="n0" src="i3pq1u" fileName="_文本/building_bg_finishedtext.png" xy="-274,-274"/>
+    <image id="n1_g57n" name="n1" src="e12kyc" fileName="_文本/剧本选择/本.png" xy="-221,-402"/>
+    <image id="n2_g57n" name="n2" src="e12kym" fileName="_文本/剧本选择/剧.png" xy="-277,-401"/>
+    <image id="n3_g57n" name="n3" src="e12kyz" fileName="_文本/剧本选择/选.png" xy="-171,-397"/>
+    <image id="n4_g57n" name="n4" src="e12kz3" fileName="_文本/剧本选择/择.png" xy="-110,-397"/>
+    <image id="n5_g57n" name="n5" src="i3pq1y" fileName="_文本/building_bg_upgradetext.png" xy="-276,-206"/>
+    <image id="n6_ywi4" name="n6" src="iq0890" fileName="_文本/script_bg_litle.png" xy="-231,-309"/>
+    <image id="n7_ywi4" name="n7" src="ex1nzu" fileName="_文本/标签匹配.png" xy="-288,-100"/>
+    <image id="n8_ywi4" name="n8" src="ex1nzv" fileName="_文本/继续.png" xy="-244,-35"/>
+    <image id="n9_ywi4" name="n9" src="ex1nzt" fileName="_文本/匹配标签.png" xy="-271,32"/>
+    <image id="n11_ywi4" name="n11" src="wpxm7o" fileName="_文本/确认拍摄.png" xy="-236,330"/>
+    <image id="n12_ywi4" name="n12" src="mfsp11d" fileName="_文本/豆瓣评分.png" xy="-257,385"/>
+    <image id="n13_ywi4" name="n13" src="pc70wh" fileName="_文本/网综收益字.png" xy="-262,466"/>
+    <image id="n14_ywi4" name="n14" src="u6m74c" fileName="_文本/收视率.png" xy="-232,551"/>
+    <image id="n15_ywi4" name="n15" src="e12kyo" fileName="_文本/确认.png" xy="-209,656"/>
+    <image id="n16_ywi4" name="n16" src="mfsp11n" fileName="_文本/拍摄等级文本/爆红.png" xy="115,-272"/>
+    <image id="n17_ywi4" name="n17" src="fa3912n" fileName="_文本/拍摄等级文本/爆红_Low.png" xy="114,-222"/>
+    <image id="n18_ywi4" name="n18" src="mfsp11t" fileName="_文本/拍摄等级文本/超凡.png" xy="115,-172"/>
+    <image id="n19_ywi4" name="n19" src="fa3912p" fileName="_文本/拍摄等级文本/超凡_Low.png" xy="114,-122"/>
+    <image id="n20_ywi4" name="n20" src="mfsp11m" fileName="_文本/拍摄等级文本/热门.png" xy="115,-72"/>
+    <image id="n21_ywi4" name="n21" src="fa3912m" fileName="_文本/拍摄等级文本/热门_Low.png" xy="115,-22"/>
+    <image id="n22_ywi4" name="n22" src="mfsp11o" fileName="_文本/拍摄等级文本/王牌.png" xy="115,27"/>
+    <image id="n23_ywi4" name="n23" src="fa3912o" fileName="_文本/拍摄等级文本/王牌_Low.png" xy="114,77"/>
+    <image id="n24_ywi4" name="n24" src="mfsp11g" fileName="_文本/拍摄场文本/常驻嘉宾.png" xy="257,-255"/>
+    <image id="n25_ywi4" name="n25" src="fa3912j" fileName="_文本/拍摄场文本/流量担当.png" xy="252,-149"/>
+    <image id="n26_ywi4" name="n26" src="fa3912k" fileName="_文本/拍摄场文本/特邀嘉宾.png" xy="249,-23"/>
+    <image id="n27_ywi4" name="n27" src="mfsp11i" fileName="_文本/总分.png" xy="121,-368"/>
+    <image id="n28_ywi4" name="n28" src="mfsp12b" fileName="_文本/完成拍摄.png" xy="-255,735"/>
+    <image id="n29_ywi4" name="n29" src="mfsp12c" fileName="_文本/总播放量.png" xy="-263,907"/>
+    <image id="n32_ywi4" name="n32" src="e12kya" fileName="_文本/关键属性.png" xy="-270,117"/>
+    <image id="n33_ywi4" name="n33" src="e12kxl" fileName="_文本/开始拍摄.png" xy="-254,804"/>
+    <image id="n34_ywi4" name="n34" src="e12kxr" fileName="_文本/选择艺人.png" xy="-242,968"/>
+    <image id="n35_r1sl" name="n35" src="kplq7t" fileName="_文本/下一步.png" xy="-206,1028"/>
+    <image id="n36_r1sl" name="n36" src="q4w0wg" fileName="_文本/一键领取.png" xy="-213,1104"/>
+  </displayList>
+</component>

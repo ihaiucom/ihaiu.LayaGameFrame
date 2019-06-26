@@ -1,4 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<packageDescription id="4rsi5ges">
-  <resources/>
+<packageDescription id="4rsi5ges" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="szhv0" name="MenuBarMain.xml" path="/Menu/" exported="true"/>
+    <component id="szhv3" name="MenuBMainButton.xml" path="/Menu/MenuButton/" exported="true"/>
+    <component id="szhvf" name="MenuBButton.xml" path="/Menu/MenuButton/" exported="true"/>
+    <component id="szhvj" name="MenuTimeButton.xml" path="/Menu/MenuButton/" exported="true"/>
+    <component id="szhvl" name="MenuTime.xml" path="/Menu/MenuButton/" exported="true"/>
+    <component id="szhvo" name="MenuBarRightBottom.xml" path="/Menu/" exported="true"/>
+    <component id="szhvt" name="MenuRButton.xml" path="/Menu/MenuButton/" exported="true"/>
+    <component id="szhvv" name="TopMainBar.xml" path="/TopInfoBar/" exported="true"/>
+    <component id="szhvx" name="TopHeadInfo.xml" path="/TopInfoBar/"/>
+    <component id="szhvy" name="TopHeadIcon.xml" path="/TopInfoBar/" exported="true"/>
+    <component id="szhv10" name="TopHeadIconMask.xml" path="/TopInfoBar/" exported="true"/>
+    <component id="szhv15" name="TopStreet.xml" path="/TopInfoBar/"/>
+    <component id="szhv1b" name="TopServer.xml" path="/TopInfoBar/"/>
+    <component id="szhv1d" name="TopMoneyMainBar.xml" path="/TopInfoBar/" exported="true"/>
+    <component id="szhv1e" name="TopMoneyItem.xml" path="/TopInfoBar/"/>
+    <component id="krdk1g" name="ExpProgressBar.xml" path="/TopInfoBar/"/>
+    <component id="krdk1h" name="MenuBarRightTop.xml" path="/Menu/" exported="true"/>
+    <component id="l2911i" name="MenuAppointmentButton.xml" path="/Menu/MenuButton/" exported="true"/>
+  </resources>
+  <publish name="SystemModuleMenu" genCode="true"/>
 </packageDescription>

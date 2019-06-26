@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="zldzgbf0" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="wprd0" name="ActorWindowUIGJC.xml" path="/" exported="true"/>
+    <component id="wprd1" name="ActorListItem.xml" path="/Component/" exported="true"/>
+    <component id="wprd2" name="ActorGroupItem.xml" path="/Component/" exported="true"/>
+    <component id="wprd3" name="ActorGroupPage.xml" path="/Component/" exported="true"/>
+    <component id="i6116" name="ActorListView.xml" path="/Component/" exported="true"/>
+    <component id="i6117" name="ActorBookView.xml" path="/Component/" exported="true"/>
+    <component id="i6118" name="ActorPropertyView.xml" path="/Component/" exported="true"/>
+    <component id="ol359" name="ActorPropertyItem.xml" path="/Component/" exported="true"/>
+  </resources>
+  <publish name="ModuleActorGJC" genCode="true"/>
+</packageDescription>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,158" overflow="hidden" extention="Button" mask="n12_znuj">
+  <displayList>
+    <loader id="n6_znuj" name="icon" xy="0,0" size="120,158" fill="scaleFree"/>
+    <loader id="n7_znuj" name="1" xy="0,-180" size="120,158" url="ui://txcuvopdr0zd4t" fill="scaleFree"/>
+    <loader id="n8_znuj" name="2" xy="0,-180" size="120,158" fill="scaleFree"/>
+    <loader id="n9_znuj" name="3" xy="0,-180" size="120,158" fill="scaleFree"/>
+    <loader id="n10_znuj" name="4" xy="0,-180" size="120,158" fill="scaleFree"/>
+    <loader id="n11_znuj" name="5" xy="0,-180" size="120,158" fill="scaleFree"/>
+    <graph id="n12_znuj" name="mask" xy="0,0" size="120,158" type="rect" lineSize="0"/>
+  </displayList>
+  <Button/>
+  <transition name="moveShow">
+    <item time="0" type="XY" target="n6_znuj" tween="true" startValue="0,0" endValue="0,-180" duration="2"/>
+    <item time="0" type="XY" target="n7_znuj" tween="true" startValue="0,-170" endValue="0,0" duration="2"/>
+    <item time="2" type="XY" target="n7_znuj" tween="true" startValue="0,0" endValue="0,160" duration="2"/>
+    <item time="2" type="XY" target="n8_znuj" tween="true" startValue="0,-170" endValue="0,0" duration="2"/>
+    <item time="2" type="XY" target="n6_znuj" tween="true" startValue="0,-180" endValue="0,0" duration="21"/>
+    <item time="4" type="XY" target="n8_znuj" tween="true" startValue="0,0" endValue="0,160" duration="2"/>
+    <item time="4" type="XY" target="n9_znuj" tween="true" startValue="0,-170" endValue="0,0" duration="2"/>
+    <item time="4" type="XY" target="n7_znuj" tween="true" startValue="0,160" endValue="0,0" duration="2"/>
+    <item time="6" type="XY" target="n9_znuj" tween="true" startValue="0,0" endValue="0,160" duration="2"/>
+    <item time="6" type="XY" target="n10_znuj" tween="true" startValue="0,-170" endValue="0,0" duration="2"/>
+    <item time="6" type="XY" target="n7_znuj" tween="true" startValue="0,0" endValue="0,-160" duration="2"/>
+    <item time="6" type="XY" target="n8_znuj" tween="true" startValue="0,160" endValue="0,0" duration="2"/>
+    <item time="8" type="XY" target="n7_znuj" tween="true" startValue="0,-160" endValue="0,0" duration="2"/>
+    <item time="8" type="XY" target="n11_znuj" tween="true" startValue="0,-170" endValue="0,0" duration="2"/>
+    <item time="8" type="XY" target="n9_znuj" tween="true" startValue="0,160" endValue="0,0" duration="2"/>
+    <item time="8" type="XY" target="n8_znuj" tween="true" startValue="0,0" endValue="0,-160" duration="2"/>
+    <item time="8" type="XY" target="n10_znuj" tween="true" startValue="0,0" endValue="0,160" duration="2"/>
+    <item time="10" type="XY" target="n9_znuj" tween="true" startValue="0,0" endValue="0,-160" duration="2"/>
+    <item time="10" type="XY" target="n10_znuj" tween="true" startValue="0,160" endValue="0,0" duration="2"/>
+    <item time="10" type="XY" target="n11_znuj" tween="true" startValue="0,0" endValue="0,160" duration="2"/>
+    <item time="10" type="XY" target="n8_znuj" tween="true" startValue="0,-160" endValue="0,0" duration="2"/>
+    <item time="10" type="XY" target="n7_znuj" tween="true" startValue="0,0" endValue="0,170" duration="2"/>
+    <item time="12" type="XY" target="n10_znuj" tween="true" startValue="0,0" endValue="0,-160" duration="2"/>
+    <item time="12" type="XY" target="n9_znuj" tween="true" startValue="0,-160" endValue="0,0" duration="2"/>
+    <item time="12" type="XY" target="n11_znuj" tween="true" startValue="0,160" endValue="0,0" duration="2"/>
+    <item time="12" type="XY" target="n8_znuj" tween="true" startValue="0,0" endValue="1,170" duration="2"/>
+    <item time="14" type="XY" target="n11_znuj" tween="true" startValue="0,0" endValue="0,-160" duration="2"/>
+    <item time="14" type="XY" target="n10_znuj" tween="true" startValue="0,-160" endValue="0,0" duration="2"/>
+    <item time="14" type="XY" target="n9_znuj" tween="true" startValue="0,0" endValue="0,170" duration="2"/>
+    <item time="16" type="XY" target="n10_znuj" tween="true" startValue="0,0" endValue="0,170" duration="2"/>
+    <item time="16" type="XY" target="n11_znuj" tween="true" startValue="0,-160" endValue="0,0" duration="2"/>
+    <item time="18" type="XY" target="n11_znuj" tween="true" startValue="0,0" endValue="0,170" duration="2"/>
+    <item time="23" type="XY" target="n6_znuj" tween="true" startValue="0,0" endValue="0,20" duration="3"/>
+    <item time="26" type="XY" target="n6_znuj" tween="true" startValue="0,20" endValue="0,-20" duration="3"/>
+    <item time="29" type="XY" target="n6_znuj" tween="true" startValue="0,-20" endValue="0,20" duration="3"/>
+    <item time="32" type="XY" target="n6_znuj" tween="true" startValue="0,20" endValue="0,-20" duration="3"/>
+    <item time="35" type="XY" target="n6_znuj" tween="true" startValue="0,-20" endValue="0,0" duration="3"/>
+  </transition>
+</component>

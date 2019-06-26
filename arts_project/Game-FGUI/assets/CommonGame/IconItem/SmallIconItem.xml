@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100" extention="Button">
+  <controller name="c_show_bg" exported="true" pages="0,show,1,hide" selected="0" />
+  <displayList>
+    <image id="n7_tpm8" name="n7" src="j3nb3p" fileName="bg_goods_congrats.png" pkg="vb0p0v1s" xy="8,5" aspect="true">
+      <gearDisplay controller="c_show_bg" pages="0" />
+    </image>
+    <loader id="n8_tpm8" name="icon" xy="23,18" pivot="0.5,0.5" size="52,57" aspect="true" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <gearSize controller="c_show_bg" pages="1" values="68,75,1,1" default="52,57,1,1" />
+    </loader>
+    <text id="n12_e5hk" name="title" xy="-43,66" size="186,34" fontSize="25" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="1234" />
+    <component id="n10_iiww" name="star" src="ncg95" fileName="IconItem/Component/Star.xml" xy="8,9" size="84,18" controller="starNum,0,showBG,0,starLimit,0" />
+  </displayList>
+  <Button />
+</component>

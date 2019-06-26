@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="699,134" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="read" pages="0,,1," selected="0">
+    <remark page="0" value="未读"/>
+    <remark page="1" value="已读"/>
+  </controller>
+  <displayList>
+    <image id="n12_j3nb" name="n12" src="j3nb3u" fileName="bg_open_mail.png" pkg="vb0p0v1s" xy="0,0" size="699,134">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n13_j3nb" name="n13" src="j3nb3v" fileName="img_chapter_read_mail2.png" pkg="vb0p0v1s" xy="511,35" aspect="true">
+      <gearDisplay controller="read" pages="1"/>
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </image>
+    <image id="n14_j3nb" name="n14" src="j3nb3t" fileName="bg_close_mail.png" pkg="vb0p0v1s" xy="0,0" size="699,134">
+      <gearDisplay controller="read" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n6_j3nb" name="title" xy="92,21" size="412,71" fontSize="28" color="#655220" leading="-10" autoSize="none" text="qerrrrrrrrwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww">
+      <gearColor controller="read" pages="1" values="#b39f6b,#000000" default="#655220,#000000"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n7_j3nb" name="time" xy="279,84" size="225,37" fontSize="24" color="#b39f6b" align="right" vAlign="middle" autoSize="none" text="2018 Sep.26th">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <component id="n9_j3nb" name="reward" src="j3nbj" fileName="IconItem/ItemNumItem.xml" pkg="4snov4n9" xy="592,25" size="91,99" controller="c_show_bg,0">
+      <relation target="" sidePair="right-right,middle-middle"/>
+      <Button title="9,999.9w"/>
+    </component>
+    <image id="n10_j3nb" name="n10" src="j3nb3r" fileName="line_close_mail.png" pkg="vb0p0v1s" xy="577,16">
+      <gearDisplay controller="read" pages="0"/>
+      <relation target="" sidePair="right-right,middle-middle"/>
+    </image>
+    <image id="n11_j3nb" name="n11" src="j3nb3s" fileName="line_open_mail.png" pkg="vb0p0v1s" xy="577,16">
+      <gearDisplay controller="read" pages="1"/>
+      <relation target="" sidePair="right-right,middle-middle"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>

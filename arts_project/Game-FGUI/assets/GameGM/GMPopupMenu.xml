@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,500" initName="popupMenu">
+  <displayList>
+    <graph id="n1" name="n1" xy="0,0" size="720,500" type="rect" lineColor="#ffa0a0a0" fillColor="#fff0f0f0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <list id="n2" name="list" xy="0,0" size="720,500" defaultItem="ui://46xcitpdm23g5">
+      <relation target="" sidePair="width-width"/>
+      <item title="货币"/>
+      <item title="物品"/>
+      <item title="艺人"/>
+      <item title="剧本"/>
+    </list>
+    <graph id="n3_qi0r" name="n3" xy="0,495" size="720,5" type="rect" lineSize="0" fillColor="#ff000000">
+      <relation target="n2" sidePair="width-width,top-bottom"/>
+    </graph>
+  </displayList>
+  <relation target="n2" sidePair="height-height"/>
+</component>

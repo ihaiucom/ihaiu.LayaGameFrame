@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="0,0" pivot="0.5,0.5" opaque="false" hitTest="n48_n9g6">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n47_j6x8" name="icon" xy="0,0" pivot="0.5,0.5" anchor="true" size="813,592" url="ui://66b5xydlmohjt" autoSize="true"/>
+    <loader id="n44_j6x8" name="building_01" xy="-1,-107" pivot="0.5,0.5" anchor="true" size="813,378" group="n46_j6x8" url="ui://66b5xydlj6x818i" autoSize="true"/>
+    <loader id="n45_j6x8" name="building_02" xy="-32,61" pivot="0.5,0.5" anchor="true" size="748,448" group="n46_j6x8" url="ui://66b5xydlj6x818j" autoSize="true"/>
+    <group id="n46_j6x8" name="building" xy="-32,-107" size="844,616" hideByEditor="true" visible="false" advanced="true" collapsed="true"/>
+    <image id="n48_n9g6" name="hit" src="s7ie16e" fileName="_images_pic/01/04_01.png" xy="0,0" pivot="0.5,0.5" anchor="true" hideByEditor="true" visible="false"/>
+    <loader id="n13_s7ie" name="region01_02" xy="-38,-43" pivot="0.47,0.48" anchor="true" size="48,73" group="n15_s7ie" url="ui://66b5xydls7ie17c" autoSize="true"/>
+    <loader id="n39_s7ie" name="region01_03" xy="-93,3" pivot="0.66,0.64" anchor="true" size="48,73" group="n15_s7ie" url="ui://66b5xydls7ie17c" autoSize="true"/>
+    <loader id="n40_s7ie" name="region01_04" xy="78,-45" pivot="0.39,0.54" anchor="true" size="48,73" group="n15_s7ie" scale="-1,1" url="ui://66b5xydls7ie17c" autoSize="true"/>
+    <loader id="n41_s7ie" name="region01_05" xy="125,-22" pivot="0.37,0.49" anchor="true" size="48,73" group="n15_s7ie" scale="-1,1" url="ui://66b5xydls7ie17c" autoSize="true"/>
+    <loader id="n12_s7ie" name="region01_01" xy="172,62" pivot="1,0.71" anchor="true" size="294,178" group="n15_s7ie" url="ui://66b5xydls7ie17b"/>
+    <group id="n15_s7ie" name="region01" xy="-93,-45" size="559,285" group="n36_s7ie"/>
+    <loader id="n16_s7ie" name="region02_01" xy="-14,47" pivot="0.5,0.74" anchor="true" size="90,109" group="n17_s7ie" url="ui://66b5xydls7ie17d" autoSize="true"/>
+    <group id="n17_s7ie" name="region02" xy="-59,-33" size="90,109" group="n36_s7ie"/>
+    <loader id="n18_s7ie" name="region03_01" xy="-44,-142" pivot="0,0.61" anchor="true" size="126,280" group="n20_s7ie" url="ui://66b5xydls7ie17g"/>
+    <group id="n20_s7ie" name="region03" xy="-68,-553" size="126,280" group="n36_s7ie"/>
+    <loader id="n21_s7ie" name="region04_01" xy="47,-99" pivot="0,0.55" anchor="true" size="194,296" group="n23_s7ie" url="ui://66b5xydls7ie17h"/>
+    <group id="n23_s7ie" name="region04" xy="-251,-527" size="184,106" group="n36_s7ie"/>
+    <loader id="n24_s7ie" name="region05_01" xy="207,1" pivot="0,0.62" anchor="true" size="139,277" group="n25_s7ie" url="ui://66b5xydls7ie17i" autoSize="true"/>
+    <group id="n25_s7ie" name="region05" xy="-25,-576" size="123,96" group="n36_s7ie"/>
+    <loader id="n26_s7ie" name="region06_01" xy="-6,-126" pivot="1,0.56" anchor="true" size="128,300" group="n27_s7ie" url="ui://66b5xydls7ie17f"/>
+    <group id="n27_s7ie" name="region06" xy="-229,-554" size="104,108" group="n36_s7ie"/>
+    <loader id="n28_s7ie" name="region07_01" xy="-96,-69" pivot="1,0.88" anchor="true" size="74,135" group="n29_s7ie" url="ui://66b5xydls7ie17e"/>
+    <group id="n29_s7ie" name="region07" xy="-425,-541" size="244,274" group="n36_s7ie"/>
+    <loader id="n30_s7ie" name="region08_01" xy="-114,185" pivot="0.53,1" anchor="true" size="56,53" group="n31_s7ie" url="ui://66b5xydls7ie17k"/>
+    <group id="n31_s7ie" name="region08" xy="-480,-451" size="103,135" group="n36_s7ie"/>
+    <loader id="n34_s7ie" name="region09_01" xy="-51,180" pivot="0.51,0.35" anchor="true" size="103,105" group="n35_s7ie" url="ui://66b5xydls7ie17j"/>
+    <loader id="n42_s7ie" name="region09_02" xy="-111,245" pivot="0.53,0.84" anchor="true" size="34,109" group="n35_s7ie" url="ui://66b5xydls7ie17l" autoSize="true"/>
+    <loader id="n49_n9g6" name="region09_03" xy="-73,247" pivot="0.51,0.99" anchor="true" size="58,81" group="n35_s7ie" url="ui://66b5xydln9g618u" autoSize="true"/>
+    <group id="n35_s7ie" name="region09" xy="-111,180" size="163,174" group="n36_s7ie"/>
+    <loader id="n32_s7ie" name="region10_01" xy="271,52" pivot="0.51,0.83" anchor="true" size="85,148" group="n33_s7ie" url="ui://66b5xydls7ie17m"/>
+    <group id="n33_s7ie" name="region10" xy="271,52" size="85,148" group="n36_s7ie"/>
+    <group id="n36_s7ie" name="region" xy="-480,-576" size="946,930"/>
+    <component id="n11_kp2b" name="lockTitle" src="kp2b14u" fileName="BuildingLockTitle.xml" xy="0,0"/>
+    <component id="n43_hakw" name="info" src="hakw181" fileName="BuildingInfo02.xml" xy="-186,221" pivot="0.76,0.9" anchor="true"/>
+  </displayList>
+</component>

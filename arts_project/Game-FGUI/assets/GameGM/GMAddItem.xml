@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,100">
+  <displayList>
+    <graph id="n4_fv0t" name="n4" xy="0,0" size="720,100" type="rect" lineColor="#ffbdbdbd" fillColor="#ff666666">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n3_fv0t" name="button" src="fv0td" fileName="Component~NCode/ButtonCorner.xml" xy="606,10" size="100,80">
+      <relation target="" sidePair="right-right,middle-middle"/>
+      <Button title="添加"/>
+    </component>
+    <component id="n5_fv0t" name="numberInput" src="fv0tf" fileName="NumberInput.xml" xy="332,12">
+      <relation target="" sidePair="right-right,middle-middle"/>
+    </component>
+    <text id="n9_c3i0" name="id" xy="3,36" size="67,28" fontSize="20" color="#c7c7c7" align="right" vAlign="middle" ubb="true" autoSize="none" singleLine="true" text="100000"/>
+    <text id="n1_fv0t" name="title" xy="178,14" size="157,28" group="n8_c3i0" fontSize="18" color="#ffffff" vAlign="middle" ubb="true" autoSize="none" singleLine="true" text="Name"/>
+    <text id="n2_fv0t" name="describe" xy="178,47" size="157,40" group="n8_c3i0" fontSize="12" color="#d9d9d9" ubb="true" autoSize="none" text="describe&#xA;描述"/>
+    <group id="n8_c3i0" name="n8" xy="178,14" size="157,73"/>
+    <graph id="n6_c3i0" name="n6" xy="86,10" size="80,80" group="n10_c3i0" type="rect" lineSize="2" lineColor="#ff333333" fillColor="#ff4d4d4d"/>
+    <loader id="n0_fv0t" name="icon" xy="101,25" size="50,50" group="n10_c3i0" align="center" vAlign="middle" fill="scaleFree"/>
+    <text id="n7_c3i0" name="num" xy="91,66" size="69,20" group="n10_c3i0" fontSize="16" color="#009900" align="center" vAlign="middle" ubb="true" autoSize="none" shadowColor="#ffffff" shadowOffset="0,1" singleLine="true" text="0"/>
+    <group id="n10_c3i0" name="n10" xy="86,10" size="80,80"/>
+  </displayList>
+</component>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,354" pivot="0.5,0.5" anchor="true" overflow="hidden">
+  <displayList>
+    <image id="n0_hgvb" name="n0" src="g0h317k" fileName="_公用--背景--不规则/技能底板.png" pkg="g17ofscz" xy="751,110" scale="-1,1">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </image>
+    <image id="n1_hgvb" name="_box" src="g0h317l" fileName="_公用--背景--不规则/技能语言框.png" pkg="g17ofscz" xy="301,0" pivot="0.5,0.5" scale="-1,1"/>
+    <component id="n2_hgvb" name="actor" src="hgvbo" fileName="StudioMovieClipSkillActor.xml" xy="420,37" scale="-1,1"/>
+    <text id="n3_wsru" name="content" xy="435,77" size="229,32" fontSize="28" color="#7f7c82" autoClearText="true" text="发动了芭芭拉技能"/>
+    <text id="n5_wsru" name="value" xy="601,265" pivot="0.5,0.5" anchor="true" size="241,64" font="ui://vi9240byipdky" fontSize="28" color="#ffffff" align="right" vAlign="middle" autoSize="shrink" autoClearText="true" text="0123">
+      <relation target="n0_hgvb" sidePair="right-left"/>
+    </text>
+  </displayList>
+  <transition name="t0" autoPlay="true">
+    <item time="0" type="Alpha" target="n1_hgvb" value="1"/>
+    <item time="0" type="Alpha" target="n3_wsru" value="0"/>
+    <item time="0" type="Scale" target="n1_hgvb" value="0,0"/>
+    <item time="0" type="Visible" target="n5_wsru" value="false"/>
+    <item time="0" type="XY" target="n0_hgvb" tween="true" startValue="0,110" endValue="748.05,110" duration="4"/>
+    <item time="0" type="XY" target="n2_hgvb" tween="true" startValue="1233.44,37" endValue="403.83,37" duration="4"/>
+    <item time="1" type="ColorFilter" target="n2_hgvb" tween="true" startValue="0.00,0.00,0.00,0.00" endValue="0.50,0.00,0.00,0.00" duration="4"/>
+    <item time="4" type="XY" target="n2_hgvb" tween="true" startValue="403.83,37" endValue="419.16,37" duration="2"/>
+    <item time="5" type="ColorFilter" target="n2_hgvb" tween="true" startValue="0.50,0.00,0.00,0.00" endValue="0.00,0.00,0.00,0.00" duration="5"/>
+    <item time="6" type="Scale" target="n1_hgvb" tween="true" startValue="0,0" endValue="-1,1" duration="4"/>
+    <item time="10" type="ColorFilter" target="n2_hgvb" tween="true" startValue="0.00,0.00,0.00,0.00"/>
+    <item time="13" type="Alpha" target="n3_wsru" value="1"/>
+    <item time="13" type="Visible" target="n5_wsru" value="true"/>
+    <item time="26" type="Scale" target="n5_wsru" tween="true" startValue="1,1" endValue="1.2,1.2" duration="1"/>
+    <item time="27" type="Scale" target="n5_wsru" tween="true" startValue="1.2,1.2" endValue="1,1" duration="5"/>
+    <item time="33" type="Alpha" target="n3_wsru" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="34" type="Alpha" target="n1_hgvb" tween="true" startValue="1" endValue="0" duration="7"/>
+    <item time="34" type="Scale" target="n1_hgvb" tween="true" startValue="-1,1" endValue="0,0" duration="7"/>
+    <item time="36" type="Visible" target="n5_wsru" value="true"/>
+    <item time="37" type="XY" target="n0_hgvb" tween="true" startValue="750,110" endValue="0,110" duration="7"/>
+    <item time="37" type="XY" target="n2_hgvb" tween="true" startValue="419,37" endValue="1233,37" duration="7"/>
+    <item time="41" type="Alpha" target="n1_hgvb" tween="true" startValue="0"/>
+  </transition>
+</component>

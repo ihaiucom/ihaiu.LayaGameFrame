@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="174,68" extention="Button" initName="server">
+  <displayList>
+    <image id="n31_dvry" name="n31" src="szhv16" fileName="TopInfoBar/bg_font_title_zjm.png" xy="0,0" size="174,68" pkg="vb0p0v1s"/>
+    <image id="n27_rbh3" name="_icon" src="szhv1c" fileName="TopInfoBar/sprites/flag_locate.png" xy="17,32" size="22,30" aspect="true" pkg="vb0p0v1s"/>
+    <text id="n28_rbh3" name="serverName" xy="5,0" size="170,30" fontSize="22" color="#e3f8ff" align="center" vAlign="middle" autoSize="shrink" singleLine="true" text="David"/>
+    <text id="n30_rbh3" name="serverRank" xy="53,34" size="123,30" fontSize="22" color="#e3f8ff" vAlign="middle" autoSize="shrink" singleLine="true" text="No.105"/>
+    <component id="n32_l31s" name="red" src="ncg9j" fileName="Badge/NumberBadge.xml" pkg="jaoapdic" xy="151,-5" visible="false"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+</component>

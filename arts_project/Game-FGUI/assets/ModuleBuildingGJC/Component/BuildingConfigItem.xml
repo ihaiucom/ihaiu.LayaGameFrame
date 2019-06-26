@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="660,25">
+  <controller name="select" pages="0,NO,1,OK" selected="0"/>
+  <displayList>
+    <text id="n0_tg2w" name="labLv" xy="100,15" pivot="0.5,0.5" anchor="true" size="18,29" fontSize="25" color="#ffffff" text="1">
+      <gearColor controller="select" pages="1" values="#ff6600,#000000" default="#ffffff,#000000"/>
+    </text>
+    <text id="n1_tg2w" name="labTime" xy="252,15" pivot="0.5,0.5" anchor="true" size="18,29" fontSize="25" color="#ffffff" text="1">
+      <gearColor controller="select" pages="0" values="#ffffff,#000000" default="#ff6600,#000000"/>
+    </text>
+    <text id="n2_tg2w" name="labNum" xy="416,15" pivot="0.5,0.5" anchor="true" size="18,29" fontSize="25" color="#ffffff" text="1">
+      <gearColor controller="select" pages="0" values="#ffffff,#000000" default="#ff6600,#000000"/>
+    </text>
+    <text id="n3_tg2w" name="labReserve" xy="571,15" pivot="0.5,0.5" anchor="true" size="18,29" fontSize="25" color="#ffffff" text="1">
+      <gearColor controller="select" pages="0" values="#ffffff,#000000" default="#ff6600,#000000"/>
+    </text>
+  </displayList>
+</component>

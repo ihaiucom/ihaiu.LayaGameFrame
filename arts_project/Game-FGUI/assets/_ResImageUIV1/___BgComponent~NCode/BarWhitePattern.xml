@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,38">
+  <displayList>
+    <image id="n18_cwvw" name="n18" src="e12kza" fileName="拍摄/剧本/白条.png" xy="0,0" size="750,38" locked="true">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n19_cwvw" name="n19" src="e12kzb" fileName="拍摄/剧本/白条上的装饰.png" xy="0,0" locked="true"/>
+    <image id="n20_cwvw" name="n20" src="e12kzb" fileName="拍摄/剧本/白条上的装饰.png" xy="583,0" locked="true">
+      <relation target="" sidePair="right-right"/>
+    </image>
+  </displayList>
+</component>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1080">
+  <controller name="reward" pages="0,,1,,2," selected="0">
+    <remark page="0" value="没有奖励"/>
+    <remark page="1" value="已领取"/>
+    <remark page="2" value="未领取"/>
+  </controller>
+  <displayList>
+    <component id="n29_kyqm" name="closeBtn" src="ncg9m" fileName="Component/AlertDialogBackground.xml" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n1_j3nb" name="n1" src="j3nb40" fileName="bg_envelope_mail.png" pkg="vb0p0v1s" xy="14,748" size="660,360" group="n25_j3nb" rotation="-9"/>
+    <image id="n2_j3nb" name="n2" src="j3nb41" fileName="bg_paper_mail1.png" pkg="vb0p0v1s" xy="51,158" size="632,916" group="n25_j3nb"/>
+    <component id="n28_xa7o" name="content" src="xa7on" fileName="Component/TextScroll.xml" xy="108,326" size="516,329" group="n25_j3nb">
+      <Label title="zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz" titleColor="#b39f6b" titleFontSize="24"/>
+    </component>
+    <text id="n4_j3nb" name="time" xy="466,673" size="169,37" group="n25_j3nb" fontSize="24" color="#b39f6b" align="right" vAlign="middle" autoSize="none" text="2018/06/26"/>
+    <image id="n5_j3nb" name="n5" src="j3nb42" fileName="bg_receive_mail.png" pkg="vb0p0v1s" xy="82,731" size="570,184" group="n25_j3nb">
+      <relation target="n1_j3nb" sidePair="center-center,bottom-bottom"/>
+    </image>
+    <image id="n6_j3nb" name="n6" src="j3nb43" fileName="line_font_paper_mail.png" pkg="vb0p0v1s" xy="108,665" group="n25_j3nb"/>
+    <list id="n7_j3nb" name="listReward" xy="82,790" size="567,105" group="n25_j3nb" layout="row" overflow="scroll" scroll="horizontal" colGap="-11" defaultItem="ui://4snov4n9j3nbj" align="center">
+      <relation target="n5_j3nb" sidePair="center-center,middle-middle"/>
+      <item title="9,999.9w" controllers="c_show_bg,0"/>
+      <item title="9,999.9w" controllers="c_show_bg,0"/>
+      <item title="9,999.9w" controllers="c_show_bg,0"/>
+      <item title="9,999.9w" controllers="c_show_bg,0"/>
+      <item title="9,999.9w" controllers="c_show_bg,0"/>
+      <item title="9,999.9w" controllers="c_show_bg,0"/>
+    </list>
+    <component id="n30_ry5v" name="btnClose" src="eftvb" fileName="Button/CloseButton.xml" pkg="jaoapdic" xy="563,170" size="147,130" group="n25_j3nb">
+      <Button icon="ui://vb0p0v1sj3nb45"/>
+    </component>
+    <component id="n26_xa7o" name="btnDelect" src="j3nbv1" fileName="Button/YellowSmallButton.xml" pkg="jaoapdic" xy="289,943" group="n25_j3nb">
+      <gearDisplay controller="reward" pages="0,1"/>
+      <Button title="删除邮件" titleFontSize="30"/>
+    </component>
+    <component id="n27_xa7o" name="btnReward" src="j3nbv1" fileName="Button/YellowSmallButton.xml" pkg="jaoapdic" xy="289,943" group="n25_j3nb">
+      <gearDisplay controller="reward" pages="2"/>
+      <Button title="领取奖励" titleFontSize="28"/>
+    </component>
+    <image id="n10_j3nb" name="tipHasReward" src="j3nb44" fileName="img_chapter_get_mail.png" pkg="vb0p0v1s" xy="461,584" group="n25_j3nb" aspect="true">
+      <gearDisplay controller="reward" pages="1"/>
+    </image>
+    <image id="n11_j3nb" name="n11" src="j3nb43" fileName="line_font_paper_mail.png" pkg="vb0p0v1s" xy="108,311" group="n25_j3nb"/>
+    <text id="n12_j3nb" name="title" xy="367,222" pivot="0.5,0.5" anchor="true" size="161,38" group="n25_j3nb" fontSize="30" color="#655220" align="right" vAlign="middle" autoSize="none" singleLine="true" text="rsftasfaasfafa"/>
+    <text id="n15_j3nb" name="Msg1" xy="108,269" size="151,37" group="n25_j3nb" fontSize="28" color="#655220" align="center" vAlign="middle" text="rsftasfaasfafa"/>
+    <text id="n16_j3nb" name="Msg2" xy="108,746" size="151,37" group="n25_j3nb" fontSize="28" color="#655220" align="center" vAlign="middle" text="rsftasfaasfafa"/>
+    <image id="n17_j3nb" name="n17" src="ncg916" fileName="bg_table_big_line.png" pkg="vb0p0v1s" xy="183,165" group="n25_j3nb"/>
+    <image id="n18_j3nb" name="n18" src="ncg916" fileName="bg_table_big_line.png" pkg="vb0p0v1s" xy="77,164" size="582,4" group="n25_j3nb"/>
+    <image id="n19_j3nb" name="n19" src="j3nb46" fileName="bar_bg_mail1.png" pkg="vb0p0v1s" xy="64,1041" group="n25_j3nb" flip="vt"/>
+    <image id="n20_j3nb" name="n20" src="j3nb47" fileName="bar_bg_mai3.png" pkg="vb0p0v1s" xy="638,1041" group="n25_j3nb" flip="vt"/>
+    <image id="n21_j3nb" name="n21" src="j3nb48" fileName="bar_bg_mai2.png" pkg="vb0p0v1s" xy="102,1041" size="540,16" group="n25_j3nb" flip="vt"/>
+    <image id="n22_j3nb" name="n22" src="j3nb46" fileName="bar_bg_mail1.png" pkg="vb0p0v1s" xy="66,171" group="n25_j3nb"/>
+    <image id="n23_j3nb" name="n23" src="j3nb47" fileName="bar_bg_mai3.png" pkg="vb0p0v1s" xy="640,171" group="n25_j3nb"/>
+    <image id="n24_j3nb" name="n24" src="j3nb48" fileName="bar_bg_mai2.png" pkg="vb0p0v1s" xy="104,171" size="540,16" group="n25_j3nb"/>
+    <group id="n25_j3nb" name="n25" xy="13,157" size="696,950" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

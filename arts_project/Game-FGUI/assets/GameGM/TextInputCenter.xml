@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,80" extention="Button">
+  <displayList>
+    <graph id="n8_fv0t" name="n8" xy="0,0" size="100,80" type="rect">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n7_nb4e" name="title" xy="10,10" size="80,60" input="true" prompt="输入过滤名称或者ID,用逗号分隔" fontSize="12" align="center" vAlign="middle" autoSize="none" singleLine="true" text="1">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

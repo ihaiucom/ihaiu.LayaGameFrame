@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" pivot="0.5,0.5" anchor="true">
+  <displayList>
+    <loader id="n30_la1j" name="actor_0" xy="-47,5" size="700,1274" scale="1.2,1.2" url="ui://qjz790ecl291g" align="center" vAlign="bottom" fill="scaleMatchHeight">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n36_la1j" name="actorName_0" src="la1j1s" fileName="Share/StudioShareActorName.xml" xy="518,300" controller="state,0"/>
+  </displayList>
+</component>

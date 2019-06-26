@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImage="ui://qjz790ecjej7yv" designImageAlpha="0" adaptationTest="FitSize">
+  <controller name="page" pages="0,Main,1,List,2,Resolver,3,ResolverAndList" selected="0"/>
+  <controller name="free" pages="0,NO,1,OK" selected="0"/>
+  <displayList>
+    <image id="n15_l44g" name="n15" src="l44g4o" fileName="intelligence_bg.png" pkg="vh8b3r0j" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n10_l44g" name="n10" src="pz3x13" fileName="_公用--线/bg_line01.png" pkg="g17ofscz" xy="0,183" size="750,2">
+      <relation target="" sidePair="width-width,top-top"/>
+    </image>
+    <image id="n7_l44g" name="n7" src="l44g9u" fileName="情报系统/我的情报字底板横向拉伸.png" pkg="g17ofscz" xy="451,110" size="281,50">
+      <relation target="" sidePair="right-right,top-top"/>
+    </image>
+    <text id="n8_l44g" name="n8" xy="475,119" size="135,34" fontSize="30" color="#ffffff" autoSize="none" text="我的情报">
+      <relation target="" sidePair="right-right,top-top"/>
+    </text>
+    <text id="n9_l44g" name="labNum" xy="609,118" size="35,34" fontSize="30" color="#ffffff" vAlign="middle" text="99">
+      <relation target="" sidePair="right-right,top-top"/>
+    </text>
+    <list id="n2_l44g" name="listContent" xy="53,227" size="644,814" layout="row" overflow="scroll" scroll="horizontal" scrollBarFlags="776" defaultItem="ui://14txxr43l44g1" autoItemSize="false" align="right" vAlign="middle">
+      <relation target="" sidePair="width-width,middle-middle"/>
+      <item/>
+    </list>
+    <component id="n3_l44g" name="btnClose" src="e12kwe" fileName="Button/CloseButton1.xml" pkg="jaoapdic" xy="85,132">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n5_l44g" name="btnOne" src="t5vjvc" fileName="Button/IconButton.xml" pkg="jaoapdic" xy="55,1103" size="316,79">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Button title="收集一次" titleFontSize="36" icon="ui://g17ofsczl44g9w"/>
+    </component>
+    <component id="n4_l44g" name="btnTen" src="t5vjvc" fileName="Button/IconButton.xml" pkg="jaoapdic" xy="392,1103" size="316,79">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+      <Button title="收集十次" titleFontSize="36" icon="ui://g17ofsczl44g9v"/>
+    </component>
+    <text id="n6_l44g" name="labTime" xy="106,1064" size="201,32" fontSize="28" text="47:59:40后免费">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </text>
+    <text id="n20_aprj" name="n20" xy="31,1193" size="352,46" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="免费抽取">
+      <gearDisplay controller="free" pages="1"/>
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </text>
+    <component id="n17_l44g" name="costOne" pkg="7y2zr0v6" src="9tqs6" fileName="Component/BuildingLabItem.xml" xy="31,1193">
+      <gearDisplay controller="free" pages="0"/>
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n18_l44g" name="costTen" pkg="7y2zr0v6" src="9tqs6" fileName="Component/BuildingLabItem.xml" xy="364,1193">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n14_l44g" name="resolverView" src="l44g7" fileName="Component/InformationResolverView.xml" xy="0,0">
+      <gearDisplay controller="page" pages="2,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n13_l44g" name="listView" src="l44g5" fileName="Component/InformationListView.xml" xy="0,0">
+      <gearDisplay controller="page" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n21_aprj" name="btnList" src="e5hk1m" fileName="Button/EmptyButton.xml" pkg="jaoapdic" xy="452,111" size="281,50">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+  </displayList>
+</component>

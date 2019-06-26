@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="79,79" pivot="0.5,0.5" anchor="true" extention="Button">
+  <displayList>
+    <image id="n0_uohx" name="n0" src="f84s9" fileName="_images_ui/btn_gm.png" xy="0,0" size="79,79">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+</component>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1046,1135">
+  <displayList>
+    <graph id="n10_k5sp" name="n10" xy="0,0" size="1046,1135" locked="true" type="rect" fillColor="#ff666666">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <image id="n0_k5sp" name="n0" src="9th1zo" fileName="_公用--背景--不规则/顶部白条.png" xy="35,145"/>
+    <image id="n1_k5sp" name="n1" src="mfsp12i" fileName="_公用--背景--不规则/道具数量半透底.png" xy="85,849"/>
+    <image id="n3_k5sp" name="n3" src="e12ky5" fileName="_公用--背景--不规则/背景格子上半部分.png" xy="61,291"/>
+    <image id="n4_k5sp" name="n4" src="e12ky6" fileName="_公用--背景--不规则/背景格子下半部分.png" xy="51,422"/>
+    <image id="n5_k5sp" name="n5" src="cwvwzs" fileName="_公用--背景--不规则/顶部紫色.png" xy="52,672"/>
+    <image id="n6_k5sp" name="n6" src="ex1nzx" fileName="_公用--背景--不规则/艺人等级黑色半透底.png" xy="97,998" size="70,42"/>
+    <image id="n7_k5sp" name="n7" src="ex1nzx" fileName="_公用--背景--不规则/艺人等级黑色半透底.png" xy="94,919" size="117,42"/>
+    <image id="n8_k5sp" name="n8" src="kplq85" fileName="_公用--背景-框/海报上面底板.png" xy="86,776"/>
+    <text id="n9_k5sp" name="n9" xy="34,34" size="260,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="不规则背景"/>
+    <image id="n11_q99d" name="n11" src="pf6a16k" fileName="_公用--背景--不规则/获得物品底板.png" xy="538,906"/>
+    <image id="n12_g0h3" name="n12" src="g0h317k" fileName="_公用--背景--不规则/技能底板.png" xy="57,1023"/>
+    <image id="n13_g0h3" name="n13" src="g0h317l" fileName="_公用--背景--不规则/技能语言框.png" xy="330,747"/>
+  </displayList>
+</component>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,133" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="visiableTitle" exported="true" pages="0,hide,1,show" selected="1"/>
+  <controller name="c_visible_new" pages="0,hide,1,new,2,red" selected="2"/>
+  <displayList>
+    <loader id="n5_m6h3" name="icon" xy="5,0" size="90,90" url="ui://qjz790ecszhvk">
+      <relation target="" sidePair="center-center,top-top"/>
+    </loader>
+    <component id="n6_m6h3" name="buttonTime" src="szhvl" fileName="MenuButton/ButtonTime.xml" xy="0,75"/>
+    <text id="n11_m6h3" name="title" xy="13,103" pivot="0.5,0.5" size="73,29" fontSize="22" color="#dcf0f7" align="center" vAlign="middle" strokeColor="#0b2b47" strokeSize="2" singleLine="true" text="Awards">
+      <gearDisplay controller="visiableTitle" pages="1"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <image id="n12_t9yt" name="lock" src="szhv5" fileName="icon_lock_login.png" pkg="vb0p0v1s" xy="35,31" size="30,30"/>
+    <component id="n13_eiuk" name="red" src="ncg9j" fileName="Badge/NumberBadge.xml" pkg="jaoapdic" xy="73,-7">
+      <gearDisplay controller="c_visible_new" pages="2"/>
+    </component>
+    <image id="n14_gqu4" name="new" src="szhv8" fileName="icon_new.png" pkg="vb0p0v1s" xy="-17,-1" size="60,24" aspect="true">
+      <gearDisplay controller="c_visible_new" pages="1"/>
+    </image>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.85"/>
+</component>

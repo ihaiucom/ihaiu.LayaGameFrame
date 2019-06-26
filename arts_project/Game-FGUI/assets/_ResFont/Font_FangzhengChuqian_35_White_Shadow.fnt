@@ -1,0 +1,23 @@
+info face="D:\xyz_wp\arts\fgui\Font\Font_FangzhengChuqian_35_White_Shadow" size=32 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1
+common lineHeight=40 base=26 scaleW=256 scaleH=128 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="D:\xyz_wp\arts\fgui\Font\Font_FangzhengChuqian_35_White_Shadow.png"
+chars count=17
+char id=43 x=142 y=71 width=31 height=32 xoffset=2 yoffset=7 xadvance=32 page=0 chnl=0 letter="+"
+char id=26143 x=107 y=73 width=34 height=33 xoffset=0 yoffset=7 xadvance=35 page=0 chnl=0 letter="星"
+char id=24231 x=107 y=37 width=34 height=35 xoffset=0 yoffset=5 xadvance=35 page=0 chnl=0 letter="座"
+char id=36523 x=107 y=0 width=34 height=36 xoffset=0 yoffset=5 xadvance=35 page=0 chnl=0 letter="身"
+char id=39640 x=142 y=0 width=33 height=35 xoffset=1 yoffset=5 xadvance=34 page=0 chnl=0 letter="高"
+char id=22806 x=36 y=35 width=35 height=34 xoffset=0 yoffset=6 xadvance=36 page=0 chnl=0 letter="外"
+char id=22411 x=72 y=73 width=34 height=35 xoffset=0 yoffset=5 xadvance=35 page=0 chnl=0 letter="型"
+char id=24615 x=72 y=37 width=34 height=35 xoffset=0 yoffset=5 xadvance=35 page=0 chnl=0 letter="性"
+char id=26684 x=36 y=0 width=35 height=34 xoffset=0 yoffset=6 xadvance=36 page=0 chnl=0 letter="格"
+char id=29305 x=0 y=72 width=35 height=36 xoffset=0 yoffset=5 xadvance=36 page=0 chnl=0 letter="特"
+char id=38271 x=142 y=36 width=33 height=34 xoffset=1 yoffset=6 xadvance=34 page=0 chnl=0 letter="长"
+char id=29233 x=72 y=0 width=34 height=36 xoffset=0 yoffset=5 xadvance=35 page=0 chnl=0 letter="爱"
+char id=22909 x=36 y=70 width=35 height=35 xoffset=0 yoffset=5 xadvance=36 page=0 chnl=0 letter="好"
+char id=24773 x=0 y=36 width=35 height=35 xoffset=0 yoffset=5 xadvance=36 page=0 chnl=0 letter="情"
+char id=25253 x=0 y=0 width=35 height=35 xoffset=0 yoffset=5 xadvance=36 page=0 chnl=0 letter="报"
+char id=32 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=20 page=0 chnl=0 letter=" "
+char id=9 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=160 page=0 chnl=0 letter="	"
+
+kernings count=0

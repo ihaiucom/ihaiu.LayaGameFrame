@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="176,64" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="2"/>
+  <displayList>
+    <image id="n0_i3pq" name="n0" src="i3pq23" fileName="__临时UI/btn_commonsmall.png" pkg="g17ofscz" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_i3pq" name="n1" src="i3pq23" fileName="__临时UI/btn_commonsmall.png" pkg="g17ofscz" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_i3pq" name="n2" src="i3pq23" fileName="__临时UI/btn_commonsmall.png" pkg="g17ofscz" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_i3pq" name="n3" src="i3pq23" fileName="__临时UI/btn_commonsmall.png" pkg="g17ofscz" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n4_i3pq" name="title" xy="0,0" size="176,64" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" singleLine="true" text="离开">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+</component>

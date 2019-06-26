@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="44,148" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_f65h" name="n0" src="i3pq2k" fileName="公共/btn_vertical.png" pkg="g17ofscz" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_f65h" name="n1" src="i3pq2k" fileName="公共/btn_vertical.png" pkg="g17ofscz" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_f65h" name="n2" src="i3pq2k" fileName="公共/btn_vertical.png" pkg="g17ofscz" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_f65h" name="n3" src="i3pq2k" fileName="公共/btn_vertical.png" pkg="g17ofscz" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n4_f65h" name="icon" xy="7,20" size="30,30" url="ui://g17ofsczi3pq2l" autoSize="true"/>
+    <text id="n5_f65h" name="title" xy="4,63" size="34,62" fontSize="28" color="#ffffff" align="center" vAlign="middle" autoSize="height" text="详情"/>
+  </displayList>
+  <Button/>
+</component>

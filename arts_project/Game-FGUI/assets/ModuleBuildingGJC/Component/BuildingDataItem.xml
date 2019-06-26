@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,37">
+  <displayList>
+    <text id="n0_qrea" name="n0" xy="63,36" pivot="0,1" anchor="true" size="163,35" fontSize="30" color="#8e8ea8" vAlign="middle" leading="0" text="建筑储量：&#xA;"/>
+    <text id="n3_eqmn" name="labNowData" xy="245,37" pivot="0,1" anchor="true" size="125,34" fontSize="30" color="#8e8ea8" vAlign="middle" leading="0" text="9999.9万"/>
+    <text id="n4_eqmn" name="n1" xy="391,36" pivot="0,1" anchor="true" size="194,35" fontSize="30" color="#7dd045" vAlign="middle" leading="0" text="每小时产量：&#xA;"/>
+    <text id="n5_10shy" name="labNextData" xy="542,37" pivot="0,1" anchor="true" size="140,34" fontSize="30" color="#7dd045" vAlign="middle" leading="0" text="+9999.9万"/>
+  </displayList>
+</component>

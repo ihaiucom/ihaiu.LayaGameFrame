@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="720,1280">
+<component size="750,1334">
   <displayList>
     <component id="n0_5sas" name="screenBG" src="f84s1" fileName="ScreenBG.xml" xy="0,0"/>
-    <component id="n3_5sas" name="progressBar" src="f84s3" fileName="Component/ProgressRedBar.xml" xy="60,1174">
+    <component id="n3_5sas" name="progressBar" src="f84s3" fileName="Component~NCode/ProgressRedBar.xml" xy="75,1204">
       <relation target="" sidePair="bottom-bottom,center-center"/>
-      <ProgressBar value="75" max="100"/>
+      <ProgressBar value="71" max="100"/>
     </component>
-    <text id="n4_5sas" name="title" xy="199,1133" size="321,39" fontSize="30" color="#ffffff" align="center" autoSize="none" text="LOADING...">
+    <text id="n4_5sas" name="title" xy="214,1163" size="321,39" fontSize="30" color="#ffffff" align="center" autoSize="none" text="LOADING...">
       <relation target="n3_5sas" sidePair="bottom-bottom,center-center"/>
     </text>
-    <text id="n5_5sas" name="help" xy="60,1207" size="600,31" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="帮助提示文字">
+    <text id="n5_5sas" name="help" xy="60,1237" size="600,31" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="帮助提示文字">
       <relation target="n3_5sas" sidePair="width-width,bottom-bottom"/>
     </text>
-    <text id="n6_jbhb" name="txt_resVer" xy="8,1247" size="366,33" fontSize="22" color="#9aa8bd" vAlign="middle" autoSize="none" text="ResVersion:11293239.12312.123">
+    <text id="n6_jbhb" name="txt_resVer" xy="8,1301" size="366,33" fontSize="22" color="#9aa8bd" vAlign="middle" autoSize="none" text="ResVersion:11293239.12312.123">
       <relation target="" sidePair="top-bottom"/>
     </text>
-    <text id="n7_jbhb" name="txt_gamever" xy="381,1247" size="322,33" fontSize="22" color="#9aa8bd" align="right" vAlign="middle" autoSize="none" text="GameVersion:1.0.18">
+    <text id="n7_jbhb" name="txt_gamever" xy="411,1301" size="322,33" fontSize="22" color="#9aa8bd" align="right" vAlign="middle" autoSize="none" text="GameVersion:1.0.18">
       <relation target="" sidePair="bottom-bottom,right-right"/>
     </text>
   </displayList>

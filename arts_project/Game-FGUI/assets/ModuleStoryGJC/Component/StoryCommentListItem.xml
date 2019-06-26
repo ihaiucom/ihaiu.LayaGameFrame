@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,142">
+  <controller name="isLike" pages="0,NO,1,OK" selected="0"/>
+  <displayList>
+    <image id="n0_iq08" name="n0" src="pz3x13" fileName="_公用--线/bg_line01.png" pkg="g17ofscz" xy="116,138" size="620,2">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </image>
+    <text id="n1_iq08" name="labName" xy="108,20" size="149,28" fontSize="24" color="#827d8d" text="漕河泾彭于晏">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n2_iq08" name="labContent" xy="109,56" size="581,83" fontSize="25" color="#aca6ba" leading="8" autoSize="none" text="《梦想的声音第二季》真的是太好看了，希望能出第三期！">
+      <relation target="" sidePair="width-width,middle-middle"/>
+    </text>
+    <image id="n4_iq08" name="n4" src="ex1n112" fileName="拍摄/事件选择/点赞.png" pkg="g17ofscz" xy="614,18" size="26,26">
+      <gearDisplay controller="isLike" pages="0"/>
+    </image>
+    <image id="n3_iq08" name="n3" src="ol357i" fileName="_公用--标识和图标/btn_comment_down.png" pkg="g17ofscz" xy="614,19">
+      <gearDisplay controller="isLike" pages="1"/>
+    </image>
+    <loader id="n6_iq08" name="imgHead" xy="26,14" size="68,69" url="ui://qjz790ecu6m74w" fill="scale" shrinkOnly="true" autoSize="true"/>
+    <text id="n7_iq08" name="labNum" xy="647,18" size="53,28" fontSize="24" color="#c3c1c7" leading="8" text="9600"/>
+    <component id="n8_r6vw" name="btnLike" src="e5hk1m" fileName="Button/EmptyButton.xml" pkg="jaoapdic" xy="587,11" size="77,47"/>
+    <image id="n9_r6vw" name="imgHot" src="r6vw98" fileName="_公用--标识和图标/临时可能删除/bg_hot.png" pkg="g17ofscz" xy="276,12" visible="false"/>
+  </displayList>
+</component>

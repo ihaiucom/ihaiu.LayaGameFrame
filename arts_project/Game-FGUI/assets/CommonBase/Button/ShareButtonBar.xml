@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="282,111" initName="shareButtonBar">
+  <displayList>
+    <image id="n4_la1j" name="n4" src="i6113z" fileName="公共/bg_share.png" pkg="g17ofscz" xy="0,0"/>
+    <component id="n10_la1j" name="shareWeiXinButton" src="la1jw7" fileName="Button/ShareButton.xml" xy="189,8">
+      <Button icon="ui://g17ofsczi61143"/>
+    </component>
+    <component id="n11_la1j" name="shareSinaButton" src="la1jw7" fileName="Button/ShareButton.xml" xy="61,22">
+      <Button icon="ui://g17ofsczi61142"/>
+    </component>
+  </displayList>
+</component>

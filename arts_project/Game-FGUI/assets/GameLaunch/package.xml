@@ -17,7 +17,6 @@
     <image id="f84sf" name="btn_dialog_close.png" path="/_images_ui/"/>
     <image id="f84si" name="btn_yellow_small.png" path="/_images_ui/" scale="9grid" scale9grid="36,23,157,24"/>
     <image id="f84sk" name="btn_purple.png" path="/_images_ui/" scale="9grid" scale9grid="36,24,153,16"/>
-    <image id="f84sl" name="bg_tips.png" path="/_images_ui/" scale="9grid" scale9grid="30,25,15,7"/>
     <component id="f84sg" name="DialogCloseWindow.xml" path="/Component/" exported="true"/>
     <component id="f84sh" name="DialogWindow.xml" path="/Component~NCode/" exported="true"/>
     <component id="f84sj" name="CloseButton.xml" path="/Component~NCode/" exported="true" favorite="true"/>
@@ -29,6 +28,8 @@
     <component id="nk8t2" name="SystemConfirmMessage.xml" path="/" exported="true"/>
     <component id="nk8t3" name="SystemToastMessage.xml" path="/" exported="true"/>
     <component id="f84sp" name="WindowModalWaiting.xml" path="/" exported="true"/>
+    <image id="f84s9" name="btn_gm.png" path="/_images_ui/"/>
+    <component id="uohx13" name="GMButton.xml" path="/" exported="true"/>
   </resources>
   <publish name="GameLaunch" genCode="true"/>
 </packageDescription>

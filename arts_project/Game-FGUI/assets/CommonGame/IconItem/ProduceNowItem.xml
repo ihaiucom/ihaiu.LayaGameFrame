@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="96,110" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="c_show_bg" exported="true" pages="0,show,1,hide" selected="0"/>
+  <displayList>
+    <image id="n14_10shy" name="n14" src="cy5k17d" fileName="建筑系统/材料底.png" pkg="g17ofscz" xy="49,47" pivot="0.5,0.5" anchor="true" size="94,94" aspect="true"/>
+    <loader id="n4_j3nb" name="imgItem" xy="48,47" pivot="0.5,0.5" anchor="true" size="52,57" aspect="true" url="ui://vb0p0v1sj3nb3q" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <gearSize controller="c_show_bg" default="52,57,1,1"/>
+    </loader>
+    <text id="n5_j3nb" name="labNum" xy="4,67" pivot="0.5,0.5" size="25,24" fontSize="20" color="#8e8ea8" align="center" vAlign="middle" singleLine="true" text="37"/>
+    <component id="n16_10shy" name="progressSpeed" src="10shyxn" fileName="ProgressBar/BuildingSpeedProgressBar.xml" pkg="jaoapdic" xy="0,96">
+      <ProgressBar value="50" max="100"/>
+    </component>
+  </displayList>
+  <Button/>
+</component>

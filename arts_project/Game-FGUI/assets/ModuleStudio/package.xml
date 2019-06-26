@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="etw5e4qa" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="mic60" name="StudioSSWindowUI.xml" path="/SelectStory/" exported="true"/>
+    <component id="mic61" name="StudioSSInfo.xml" path="/SelectStory/" exported="true"/>
+    <component id="mic62" name="StudioSSItem.xml" path="/SelectStory/" exported="true"/>
+    <component id="lcu25" name="StudioSSRenameDialog.xml" path="/SelectStory/" exported="true"/>
+    <component id="lcu26" name="StudioStoryRenamePanel.xml" path="/SelectStory/" exported="true"/>
+    <component id="ujd4a" name="StudioWindowUI.xml" path="/" exported="true"/>
+    <component id="wljjd" name="StudioSESelectItem.xml" path="/SelectEvent/" exported="true"/>
+    <component id="wljjh" name="StudioShareWindowUI.xml" path="/Share/" exported="true"/>
+    <component id="wljjk" name="StudioCPWindowUI.xml" path="/ContinueProfit/" exported="true"/>
+    <component id="wljjm" name="StudioCPCommentPanel.xml" path="/ContinueProfit/" exported="true"/>
+    <component id="wljjo" name="StudioCPCommentListItem.xml" path="/ContinueProfit/" exported="true"/>
+    <component id="wljjq" name="StudioFSWindowUI.xml" path="/FirstshowSettlement/" exported="true"/>
+    <component id="wljjr" name="StudioFSAwardPanel.xml" path="/FirstshowSettlement/" exported="true"/>
+    <component id="wljju" name="StudioMDPropList.xml" path="/Component/" exported="true"/>
+    <component id="iphdy" name="StudioBackground.xml" path="/Component/" exported="true"/>
+    <component id="oa5kz" name="StudioContinueWindowUI.xml" path="/ContinueProfit/" exported="true"/>
+    <component id="oa5k10" name="StudioCPStoryPanel.xml" path="/ContinueProfit/" exported="true"/>
+    <component id="oa5k12" name="StudioCPDialogContext.xml" path="/ContinueProfit/" exported="true"/>
+    <component id="oh5i13" name="StoryTypeIcon.xml" path="/SelectStory/" exported="true"/>
+    <component id="oh5i14" name="StudioStoryCollectState.xml" path="/SelectStory/" exported="true"/>
+    <component id="u6m71b" name="StudioFSNumber.xml" path="/Component/" exported="true"/>
+    <component id="u6m71c" name="StudioFSRate.xml" path="/FirstshowSettlement/" exported="true"/>
+    <component id="u6m71d" name="StudioBanner.xml" path="/Component/" exported="true"/>
+    <component id="u6m71f" name="StudioCPChartPanel.xml" path="/ContinueProfit/" exported="true"/>
+    <component id="u6m71g" name="StudioCPGetButton.xml" path="/ContinueProfit/" exported="true"/>
+    <component id="q4w01j" name="StudioCPCommentItem.xml" path="/ContinueProfit/" exported="true"/>
+    <component id="q4w01k" name="StudioCPChartItem.xml" path="/ContinueProfit/" exported="true"/>
+    <component id="agif1p" name="StudioFSLevel.xml" path="/FirstshowSettlement/" exported="true"/>
+    <component id="la1j1s" name="StudioShareActorName.xml" path="/Share/"/>
+    <component id="la1j1t" name="StudioShareGroup5.xml" path="/Share/"/>
+    <component id="la1j1u" name="StudioShareGroup4.xml" path="/Share/"/>
+    <component id="la1j1v" name="StudioShareGroup3.xml" path="/Share/"/>
+    <component id="la1j1w" name="StudioShareGroup2.xml" path="/Share/"/>
+    <component id="la1j1x" name="StudioShareGroup1.xml" path="/Share/"/>
+    <component id="e9ra1y" name="StudioFSPanel.xml" path="/FirstshowSettlement/"/>
+    <component id="e9ra1z" name="StudioSSList.xml" path="/SelectStory/"/>
+    <component id="e9ra20" name="StudioSSListContent.xml" path="/SelectStory/" exported="true"/>
+    <component id="kayd21" name="StudioActorWindowUI.xml" path="/SelectActor/" exported="true"/>
+    <component id="kayd1e" name="StudioActorCell.xml" path="/SelectActor/" exported="true"/>
+    <component id="kayd22" name="StudioActorCellPanel.xml" path="/SelectActor/" exported="true"/>
+    <component id="kayd23" name="StudioActorSelectPanel.xml" path="/SelectActor/" exported="true"/>
+    <component id="kayd25" name="StudioActorSelectItem.xml" path="/SelectActor/" exported="true"/>
+    <component id="kayd26" name="StudioActorDisplayPanel.xml" path="/SelectActor/" exported="true"/>
+    <component id="kayd27" name="StudioActorDisplayItem.xml" path="/SelectActor/" exported="true"/>
+    <component id="kayd29" name="StudioActorDisplayList.xml" path="/SelectActor/" exported="true"/>
+    <component id="kayd2a" name="StudioActorDisplayContent.xml" path="/SelectActor/" exported="true"/>
+    <component id="cwvw2c" name="StudioBGBottom.xml" path="/Component/" exported="true"/>
+    <component id="ex1n2d" name="StudioEventDialog.xml" path="/SelectEvent/" exported="true"/>
+    <component id="ex1n2e" name="StudioEventPhone.xml" path="/SelectEvent/" exported="true"/>
+    <component id="ex1n2f" name="StudioEventCommentItem.xml" path="/SelectEvent/" exported="true"/>
+    <component id="ex1n2g" name="StudioEventCommentPanel.xml" path="/SelectEvent/" exported="true"/>
+    <component id="ex1n2h" name="StudioEventCommentContent.xml" path="/SelectEvent/" exported="true"/>
+    <component id="ex1n2i" name="StudioEventCommentList.xml" path="/SelectEvent/" exported="true"/>
+    <component id="ex1n2j" name="StudioEventSelectPanel.xml" path="/SelectEvent/" exported="true"/>
+    <component id="ex1n2k" name="StudioPropItem.xml" path="/Component/" exported="true"/>
+    <component id="ex1n2l" name="StudioCommentPanel.xml" path="/Component/" exported="true"/>
+    <component id="ex1n2m" name="StudioCommentList.xml" path="/Component/" exported="true"/>
+    <component id="ex1n2n" name="StudioCommentContent.xml" path="/Component/" exported="true"/>
+    <component id="ex1n2o" name="StudioCommentItem.xml" path="/Component/" exported="true"/>
+    <component id="mfsp2p" name="StudioWhiteBanner.xml" path="/Component/" exported="true"/>
+    <component id="mfsp2q" name="StudioShareBg.xml" path="/" exported="true"/>
+    <component id="fa392r" name="evaluationLevelBottom.xml" path="/FirstshowSettlement/" exported="true"/>
+    <component id="cm7x2r" name="StudioSelectBoxAnimation.xml" path="/Component/" exported="true"/>
+    <component id="cm7x2s" name="StudioSSInfoBG.xml" path="/Component/" exported="true"/>
+    <component id="cm7x2t" name="StudioSSText.xml" path="/Component/" exported="true"/>
+    <component id="vjlj2u" name="StudioCPChartProgressItem.xml" path="/ContinueProfit/" exported="true"/>
+    <component id="vjlj2v" name="StudioContinueInfoUI.xml" path="/ContinueProfit/" exported="true"/>
+    <component id="vjlj2w" name="StudioContinueToastPanel.xml" path="/ContinueProfit/" exported="true"/>
+    <component id="e3wc2x" name="StudioBGBottomBar.xml" path="/Component/" exported="true"/>
+    <component id="9gob2y" name="StudioContinueList.xml" path="/ContinueProfit/" exported="true"/>
+    <component id="9gob2z" name="StudioContinueContent.xml" path="/ContinueProfit/" exported="true"/>
+    <component id="9gob30" name="StudioChartList.xml" path="/ContinueProfit/" exported="true"/>
+  </resources>
+  <publish name="ModuleStudio" genCode="true"/>
+</packageDescription>

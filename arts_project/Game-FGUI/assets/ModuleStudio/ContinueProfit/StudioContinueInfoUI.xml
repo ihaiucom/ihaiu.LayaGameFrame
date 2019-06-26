@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1589" designImage="ui://qjz790ecpc70xr" designImageAlpha="0">
+  <controller name="height" pages="0,,1,,2,,3," selected="0"/>
+  <displayList>
+    <component id="n46_vjlj" name="frame" src="ncg9m" fileName="Component/AlertDialogBackground.xml" pkg="q5yddivt" xy="0,-204" size="750,1978">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n48_vjlj" name="panel" src="vjlj2w" fileName="ContinueProfit/StudioContinueToastPanel.xml" xy="0,448" pivot="1,0" controller="isOnShow,0">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <image id="n50_vjlj" name="n50" src="pc70wi" fileName="_公共--背景--栏目标题/标题底板.png" pkg="g17ofscz" xy="25,361" group="n52_vjlj"/>
+    <image id="n51_vjlj" name="n51" src="pc70wh" fileName="_文本/网综收益字.png" pkg="g17ofscz" xy="287,376" group="n52_vjlj"/>
+    <text id="n49_vjlj" name="n49" xy="198,1293" size="327,28" group="n52_vjlj" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="点击空白区域返回主界面"/>
+    <component id="n53_vjlj" name="getBtn" src="oh5ivv" fileName="Button/StudioNextButton.xml" pkg="jaoapdic" xy="160,1152" group="n52_vjlj">
+      <Button title="一键收取" icon="ui://g17ofscze12kyo"/>
+    </component>
+    <group id="n52_vjlj" name="group" xy="25,361" size="704,960" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

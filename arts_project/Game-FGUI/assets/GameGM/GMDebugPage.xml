@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1100">
+  <displayList>
+    <graph id="n4_fbyi" name="n4" xy="0,0" size="720,1100" type="rect">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n8_nb4e" name="subMenuBar" src="fbyi6" fileName="GMSubMenuBar.xml" xy="0,0" size="720,80">
+      <relation target="" sidePair="width-width,top-top"/>
+    </component>
+    <list id="n10_sy3r" name="list" xy="0,79" size="720,1021" overflow="scroll" lineGap="15" defaultItem="ui://46xcitpdsy3ro">
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="" sidePair="center-center,top-top"/>
+      <item title="addItem 1 100&#xD;fff&#xD;fdd"/>
+      <item title="addItem 1 100"/>
+      <item title="addItem 1 100"/>
+    </list>
+    <component id="n11_sy3r" name="clearButton" src="c3i0h" fileName="Component~NCode/ButtonRect.xml" xy="598,14" size="100,50">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button title="Clear"/>
+    </component>
+    <component id="n12_sy3r" name="refreshButton" src="c3i0h" fileName="Component~NCode/ButtonRect.xml" xy="492,14" size="100,50">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button title="Refresh"/>
+    </component>
+  </displayList>
+</component>

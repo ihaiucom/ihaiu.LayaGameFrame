@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" extention="Label" initName="frame" designImage="ui://qjz790eckplqvu" designImageAlpha="0">
+  <displayList>
+    <loader id="n0_eftv" name="icon" xy="0,0" size="750,1334" url="ui://g17ofsczbcws7d" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n3_bcws" name="n3" src="bcws7e" fileName="_公共--背景--栏目标题/shoot_bg_title.jpg" pkg="g17ofscz" xy="0,0">
+      <relation target="" sidePair="width-width,top-top"/>
+    </image>
+    <component id="n2_eftv" name="closeBtn" src="e12kwe" fileName="Button/CloseButton1.xml" xy="80,50">
+      <relation target="" sidePair="left-left"/>
+    </component>
+  </displayList>
+</component>

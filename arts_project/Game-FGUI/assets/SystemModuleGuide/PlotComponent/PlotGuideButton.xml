@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,100" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_wcyo" name="n0" src="l44g4o" fileName="intelligence_bg.png" pkg="vh8b3r0j" xy="0,0" size="300,100">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_wcyo" name="n1" src="l44g4o" fileName="intelligence_bg.png" pkg="vh8b3r0j" xy="0,0" size="300,100">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_wcyo" name="n2" src="l44g4o" fileName="intelligence_bg.png" pkg="vh8b3r0j" xy="0,0" size="300,100">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_wcyo" name="n3" src="l44g4o" fileName="intelligence_bg.png" pkg="vh8b3r0j" xy="0,0" size="300,100">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n4_wcyo" name="name" xy="88,28" size="108,41" fontSize="35" text="我是谁&#xA;">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

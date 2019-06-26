@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1100">
+  <displayList>
+    <graph id="n4_fbyi" name="n4" xy="0,0" size="720,1100" type="rect">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n14_x6ho" name="n14" xy="0,0" size="720,80" type="rect" lineSize="0" fillColor="#ff666666">
+      <relation target="" sidePair="width-width,top-top"/>
+    </graph>
+    <component id="n10_sy3r" name="tree" src="x6hop" fileName="Tree.xml" xy="0,79" size="720,1021">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n12_sy3r" name="refreshButton" src="c3i0h" fileName="Component~NCode/ButtonRect.xml" xy="605,14" size="100,50">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button title="刷新"/>
+    </component>
+    <component id="n15_x6ho" name="showSelectButton" src="c3i0h" fileName="Component~NCode/ButtonRect.xml" xy="399,14" size="100,50">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button title="显示"/>
+    </component>
+    <component id="n16_x6ho" name="hideSelectButton" src="c3i0h" fileName="Component~NCode/ButtonRect.xml" xy="502,14" size="100,50">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button title="隐藏"/>
+    </component>
+    <component id="n17_x6ho" name="noSelectButton" src="c3i0h" fileName="Component~NCode/ButtonRect.xml" xy="296,14" size="100,50">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button title="无选"/>
+    </component>
+    <component id="n18_x6ho" name="parentLayerButton" src="c3i0h" fileName="Component~NCode/ButtonRect.xml" xy="16,15" size="100,50">
+      <relation target="" sidePair="left-left,top-top"/>
+      <Button title="上级"/>
+    </component>
+    <component id="n19_x6ho" name="setLayerButton" src="c3i0h" fileName="Component~NCode/ButtonRect.xml" xy="121,15" size="100,50">
+      <relation target="" sidePair="left-left,top-top"/>
+      <Button title="塌陷"/>
+    </component>
+  </displayList>
+</component>

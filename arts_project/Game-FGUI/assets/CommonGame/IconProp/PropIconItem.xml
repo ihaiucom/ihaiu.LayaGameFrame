@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="80,80" pivot="0.5,0.5" anchor="true" extention="Label" initName="propIconItem">
+  <controller name="prop" alias="Prop" exported="true" pages="0,魅力,1,口才,2,娱乐,3,表演,4,才艺" selected="4"/>
+  <displayList>
+    <loader id="n0_g2f5" name="icon" xy="0,0" size="80,80" url="ui://g17ofsczg2f5zg">
+      <gearIcon controller="prop" pages="0,1,2,4" values="ui://g17ofsczg2f5zi|ui://g17ofsczg2f5ze|ui://g17ofsczg2f5zf|ui://g17ofsczg2f5zg" default="ui://g17ofsczg2f5zh"/>
+    </loader>
+  </displayList>
+</component>

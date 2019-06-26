@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="175,205">
+  <displayList>
+    <image id="n5_wprd" name="n5" src="pz3x19" fileName="公共/bg_resource.png" pkg="g17ofscz" xy="34,53" group="n8_wprd"/>
+    <loader id="n6_wprd" name="buildIcon" xy="24,63" size="26,26" group="n8_wprd" url="ui://g17ofsczpz3x1h" fill="scaleFree" shrinkOnly="true" autoSize="true">
+      <relation target="n7_wprd" sidePair="right-left,bottom-bottom"/>
+    </loader>
+    <text id="n7_wprd" name="labBuild" xy="51,61" pivot="0.5,0.5" size="101,28" group="n8_wprd" fontSize="24" color="#ffffff" vAlign="middle" text="财务中心">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <group id="n8_wprd" name="n8" xy="24,53" size="138,46" hideByEditor="true" visible="false" advanced="true" collapsed="true"/>
+    <loader id="n0_wprd" name="actorIcon" xy="17,5" size="140,140" url="ui://g17ofsczpz3x18">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n1_wprd" name="n1" src="pz3x11" fileName="公共/bg_headicon.png" pkg="g17ofscz" xy="17,5">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n2_wprd" name="n2" src="pz3x13" fileName="公共/bg_line01.png" pkg="g17ofscz" xy="-1,197" size="175,2">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n10_wprd" name="labfetter" xy="22,114" pivot="0,0.5" size="65,28" fontSize="24" color="#ffffff" vAlign="middle" autoClearText="true" text="Lv.99">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n3_wprd" name="lablevel" xy="90,114" pivot="0,0.5" size="65,28" fontSize="24" color="#ffffff" vAlign="middle" autoClearText="true" text="Lv.99">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n4_wprd" name="labname" xy="61,151" pivot="0.5,0.5" size="53,28" fontSize="24" color="#878389" align="center" vAlign="middle" text="名字">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

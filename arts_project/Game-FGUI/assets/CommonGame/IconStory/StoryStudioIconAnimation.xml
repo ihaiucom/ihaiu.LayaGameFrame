@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="182,220" overflow="hidden">
+  <displayList>
+    <loader id="n8_e9ra" name="icon_0" xy="0,0" size="182,220" group="n11_e9ra" url="ui://qjz790ece9ray3">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n9_e9ra" name="icon_1" xy="0,0" size="182,220" group="n11_e9ra" url="ui://qjz790ece9ray4">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <loader id="n10_e9ra" name="icon_2" xy="0,0" size="182,220" group="n11_e9ra" url="ui://qjz790ece9ray5">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <group id="n11_e9ra" name="group" xy="0,0" size="182,220" advanced="true"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Visible" target="n10_e9ra" value="false"/>
+    <item time="0" type="Visible" target="n8_e9ra" value="true"/>
+    <item time="0" type="Visible" target="n9_e9ra" value="false"/>
+    <item time="2" type="Visible" target="n8_e9ra" value="false"/>
+    <item time="2" type="Visible" target="n9_e9ra" value="true"/>
+    <item time="4" type="Visible" target="n10_e9ra" value="true"/>
+    <item time="4" type="Visible" target="n9_e9ra" value="false"/>
+    <item time="6" type="Visible" target="n10_e9ra" value="false"/>
+  </transition>
+</component>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="94,32" extention="ProgressBar">
+  <displayList>
+    <image id="n33_f2qv" name="n33" src="szhv13" fileName="MainUI/sprite/bg_bar2.png" xy="0,0" size="94,32" pkg="vb0p0v1s"/>
+    <image id="n32_8zgr" name="bar" src="szhv14" fileName="sprites/bar_yellow.png" xy="3,3" size="88,26" fillMethod="hz" pkg="vb0p0v1s"/>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

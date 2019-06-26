@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1100" initName="cmdPage">
+  <displayList>
+    <graph id="n4_fbyi" name="n4" xy="0,0" size="720,1100" type="rect" lineSize="0" fillColor="#ff8c8c8c">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <list id="n13_ket7" name="list" xy="0,85" size="720,839" overflow="scroll" lineGap="15" defaultItem="ui://46xcitpd7h8s11">
+      <relation target="" sidePair="width-width,height-height"/>
+      <item title="addItem 1 100"/>
+      <item title="addItem 1 100"/>
+      <item title="addItem 1 100"/>
+    </list>
+    <component id="n16_ket7" name="refreshButton" src="c3i0h" fileName="Component~NCode/ButtonRect.xml" xy="32,1016" size="666,68">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+      <Button title="刷新"/>
+    </component>
+    <component id="n19_7h8s" name="clearButton" src="c3i0h" fileName="Component~NCode/ButtonRect.xml" xy="33,940" size="666,68">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+      <Button title="清理"/>
+    </component>
+    <graph id="n20_7h8s" name="n20" xy="0,0" size="720,80" type="rect" lineSize="0" fillColor="#ff666666">
+      <relation target="" sidePair="width-width,top-top"/>
+    </graph>
+    <component id="n21_7h8s" name="sortCostTimeToalButton" src="c3i0h" fileName="Component~NCode/ButtonRect.xml" xy="16,15" size="130,50">
+      <relation target="" sidePair="left-left,top-top"/>
+      <Button title="总耗时"/>
+    </component>
+    <component id="n23_7h8s" name="sorteEvaluateButton" src="c3i0h" fileName="Component~NCode/ButtonRect.xml" xy="286,15" size="130,50">
+      <relation target="" sidePair="left-left,top-top"/>
+      <Button title="平均耗时"/>
+    </component>
+    <component id="n24_7h8s" name="sorteCallNumButton" src="c3i0h" fileName="Component~NCode/ButtonRect.xml" xy="423,16" size="130,50">
+      <relation target="" sidePair="left-left,top-top"/>
+      <Button title="调用次数"/>
+    </component>
+    <component id="n25_7h8s" name="sorteCostTimeButton" src="c3i0h" fileName="Component~NCode/ButtonRect.xml" xy="150,16" size="130,50">
+      <relation target="" sidePair="left-left,top-top"/>
+      <Button title="单次耗时"/>
+    </component>
+  </displayList>
+</component>

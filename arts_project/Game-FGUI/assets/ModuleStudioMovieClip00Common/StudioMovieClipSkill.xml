@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" adaptationTest="FitSize">
+  <controller name="skillCountCtrl" exported="true" pages="3,,0,,1,,2," selected="0"/>
+  <displayList>
+    <loader id="n0_jtht" name="bg" xy="0,-296" size="750,1926" url="ui://g17ofsczwx7c15k" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n1_hgvb" name="item0" src="jthtn" fileName="StudioMovieClipSkillLeftItem.xml" xy="0,490" visible="false">
+      <gearDisplay controller="skillCountCtrl" pages="3,0,1,2"/>
+      <gearXY controller="skillCountCtrl" pages="3,0,1,2" values="0,490|0,490|0,291|0,104"/>
+    </component>
+    <component id="n2_wsru" name="item1" src="wsrup" fileName="StudioMovieClipSkillRightItem.xml" xy="0,460" visible="false">
+      <gearDisplay controller="skillCountCtrl" pages="1,2"/>
+      <gearXY controller="skillCountCtrl" pages="1,2" values="375,848|375,667" default="0,460"/>
+    </component>
+    <component id="n3_wsru" name="item2" src="jthtn" fileName="StudioMovieClipSkillLeftItem.xml" xy="0,842" visible="false">
+      <gearDisplay controller="skillCountCtrl" pages="2"/>
+      <gearXY controller="skillCountCtrl" pages="2" values="0,854" default="0,842"/>
+    </component>
+  </displayList>
+</component>

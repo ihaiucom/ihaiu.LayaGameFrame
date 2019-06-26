@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="343,95" extention="Button" designImage="ui://qjz790ect52g15m" designImageOffsetX="-25" designImageOffsetY="-959" designImageAlpha="0">
+  <controller name="isNew" exported="true" pages="0,false,1,true" selected="0"/>
+  <displayList>
+    <image id="n7_w7m4" name="n7" src="jarm16o" fileName="_公用--标识和图标/红点.png" pkg="g17ofscz" xy="-8,-6">
+      <gearDisplay controller="isNew" pages="1"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

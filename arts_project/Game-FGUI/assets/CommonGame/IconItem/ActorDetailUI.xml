@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" overflow="hidden">
+  <displayList>
+    <image id="n77_d6rl" name="n77" src="ncg91u" fileName="bg.png" pkg="qjz790ec" xy="0,0" size="720,1280">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n38_d6rl" name="n38" src="ncg92v" fileName="flag_card_panel.png" pkg="vb0p0v1s" xy="43,211" size="634,858" group="n88_l7ru">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n81_l7ru" name="n81" src="ncg92u" fileName="flag_card_highlight1.png" pkg="vb0p0v1s" xy="48,218" size="629,845" group="n88_l7ru">
+      <relation target="n38_d6rl" sidePair="left-left,top-top"/>
+    </image>
+    <image id="n39_d6rl" name="n39" src="ncg92o" fileName="bg_card.png" pkg="vb0p0v1s" xy="49,218" size="620,492" group="n88_l7ru">
+      <relation target="n38_d6rl" sidePair="left-left,top-top"/>
+    </image>
+    <image id="n74_d6rl" name="n74" src="ncg92w" fileName="flag_card_panel1.png" pkg="vb0p0v1s" xy="55,730" size="610,320" group="n88_l7ru">
+      <relation target="n38_d6rl" sidePair="left-left,top-top"/>
+    </image>
+    <image id="n89_l7ru" name="n89" src="ncg915" fileName="bg_table_big_color.png" pkg="vb0p0v1s" xy="117,720" size="618,420" group="n88_l7ru" scale="0.8,0.8">
+      <relation target="n74_d6rl" sidePair="center-center,top-top"/>
+    </image>
+    <loader id="n73_d6rl" name="icon" xy="68,296" size="574,427" group="n88_l7ru" align="center" vAlign="bottom" fill="scaleMatchHeight">
+      <relation target="n39_d6rl" sidePair="width-width,height-height"/>
+      <relation target="n39_d6rl" sidePair="center-center,middle-middle"/>
+    </loader>
+    <image id="n82_l7ru" name="n82" src="ncg92y" fileName="flag_card_panel3.png" pkg="vb0p0v1s" xy="37,714" size="646,78" group="n88_l7ru">
+      <relation target="n38_d6rl" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n87_l7ru" name="n87" src="ncg92x" fileName="flag_card_panel2.png" pkg="vb0p0v1s" xy="47,221" size="322,404" group="n88_l7ru" aspect="true">
+      <relation target="n38_d6rl" sidePair="top-top,left-left"/>
+    </image>
+    <image id="n83_l7ru" name="n83" src="ncg91h" fileName="flag_card_panel4.png" pkg="vb0p0v1s" xy="130,732" size="106,48" group="n92_e7j7"/>
+    <image id="n84_l7ru" name="n84" src="ncg91h" fileName="flag_card_panel4.png" pkg="vb0p0v1s" xy="251,732" size="106,48" group="n92_e7j7"/>
+    <image id="n85_l7ru" name="n85" src="ncg91h" fileName="flag_card_panel4.png" pkg="vb0p0v1s" xy="370,732" size="106,48" group="n92_e7j7"/>
+    <image id="n86_l7ru" name="n86" src="ncg91h" fileName="flag_card_panel4.png" pkg="vb0p0v1s" xy="488,732" size="106,48" group="n92_e7j7"/>
+    <group id="n92_e7j7" name="n92" xy="130,732" size="464,48" group="n88_l7ru" advanced="true" collapsed="true">
+      <relation target="n82_l7ru" sidePair="center-center,middle-middle"/>
+    </group>
+    <group id="n88_l7ru" name="n88" xy="37,211" size="698,929"/>
+    <component id="n40_d6rl" name="closeBtn" src="eftvb" fileName="Button/CloseButton.xml" pkg="jaoapdic" xy="587,226" size="73,74">
+      <relation target="n38_d6rl" sidePair="left-right,top-top"/>
+    </component>
+    <image id="n90_l7ru" name="n90" src="ncg931" fileName="flag_star_panel2.png" pkg="vb0p0v1s" xy="66,619" scale="6.5,1.9">
+      <relation target="n38_d6rl" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n41_d6rl" name="aName" xy="112,625" size="496,50" font="HYZhengYuan-95W" fontSize="40" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#114d74" strokeSize="2" text="Wolfgang Wiemayer">
+      <relation target="n38_d6rl" sidePair="left-left,top-top"/>
+    </text>
+    <component id="n43_d6rl" name="starlist" src="ncg95" fileName="IconItem/Component/Star.xml" xy="360,691" pivot="0.5,0.5" anchor="true" size="259,40" touchable="false" controller="starNum,0,showBG,0,starLimit,0">
+      <relation target="n38_d6rl" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n76_d6rl" name="content" src="ncg91" fileName="Content.xml" pkg="4i154xnz" xy="80,799" size="560,234">
+      <relation target="n74_d6rl" sidePair="width-width,height-height"/>
+      <relation target="n74_d6rl" sidePair="center-center,middle-middle"/>
+    </component>
+    <loader id="n45_d6rl" name="gender" xy="167,732" size="45,45" group="n91_l7ru" url="ui://vb0p0v1sncg92m" align="center" vAlign="middle" fill="scale"/>
+    <loader id="n47_d6rl" name="contory" xy="283,732" size="45,45" group="n91_l7ru" url="ui://vb0p0v1sncg92m" align="center" vAlign="middle" fill="scale"/>
+    <loader id="n52_d6rl" name="biaoqian1" xy="387,740" pivot="0.5,0.5" size="77,31" group="n91_l7ru" url="ui://vb0p0v1sncg92m" align="center" vAlign="middle"/>
+    <loader id="n55_d6rl" name="biaoqian2" xy="503,740" pivot="0.5,0.5" size="77,31" group="n91_l7ru" url="ui://vb0p0v1sncg92m" align="center" vAlign="middle"/>
+    <group id="n91_l7ru" name="n91" xy="167,732" size="413,45" advanced="true" collapsed="true">
+      <relation target="n82_l7ru" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+</component>

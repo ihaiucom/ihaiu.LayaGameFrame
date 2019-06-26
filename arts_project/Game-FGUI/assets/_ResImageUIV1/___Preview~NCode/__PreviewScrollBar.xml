@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,400">
+  <displayList>
+    <image id="n0_ipdk" name="n0" src="ipdk15q" fileName="_公用--滚动条/下拉框.png" xy="179,-103" size="11,669"/>
+    <image id="n1_ipdk" name="n1" src="ipdk15p" fileName="_公用--滚动条/下拉条.png" xy="177,17"/>
+  </displayList>
+</component>

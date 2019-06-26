@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="500,500">
+<component size="20,20" pivot="0.5,0.5" anchor="true">
   <displayList>
-    <graph id="n0_8zxs" name="n0" xy="0,0" pivot="0.5,0.5" size="500,500" type="rect" fillColor="#29ffffff"/>
-    <graph id="n1_8zxs" name="n1" xy="60,60" size="20,20" type="eclipse" fillColor="#5e00ff00"/>
+    <graph id="n1_gq1w" name="n1" xy="0,0" size="20,20" type="eclipse" fillColor="#ffff0000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
   </displayList>
 </component>

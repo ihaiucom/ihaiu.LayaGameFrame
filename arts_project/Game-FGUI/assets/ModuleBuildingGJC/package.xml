@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="o6weoc37" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="eqmn0" name="BuildingWindowUIGJC.xml" path="/" exported="true"/>
+    <component id="eqmn1" name="BuildingHeadView.xml" path="/Component/" exported="true"/>
+    <component id="eqmn2" name="BuildingFootView.xml" path="/Component/" exported="true"/>
+    <component id="eqmn3" name="BuildingLevelPage.xml" path="/Component/" exported="true"/>
+    <component id="eqmn4" name="BuildingContentPage.xml" path="/Component/" exported="true"/>
+    <component id="eqmn5" name="BuildingDataItem.xml" path="/Component/" exported="true"/>
+    <component id="tg2w6" name="BuildingConfigItem.xml" path="/Component/" exported="true"/>
+    <component id="m5zo7" name="BuildingConfigLoader.xml" path="/Component/" exported="true"/>
+    <component id="10shy8" name="BuildingDataButton.xml" path="/Component/" exported="true"/>
+    <component id="w8eyy9" name="StudioBGBottom.xml" path="/Component/" exported="true"/>
+  </resources>
+  <publish name="ModuleBuildingGJC" genCode="true"/>
+</packageDescription>

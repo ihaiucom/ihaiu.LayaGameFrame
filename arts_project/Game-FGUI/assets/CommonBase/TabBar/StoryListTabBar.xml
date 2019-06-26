@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="700,53">
+  <controller name="tab" pages="0,AllType,1,OutdoorVarietShow,2,CompetitiveVarietyShow,3,TalentShow,4,SongAndDanceShow,5,TalkShow" selected="0">
+    <remark page="0" value="全部"/>
+    <remark page="1" value="户外"/>
+    <remark page="2" value="竞技"/>
+    <remark page="3" value="选秀"/>
+    <remark page="4" value="歌舞秀"/>
+    <remark page="5" value="脱口秀"/>
+  </controller>
+  <displayList>
+    <list id="n0_q74i" name="n0" xy="0,0" size="700,53" layout="row" defaultItem="ui://jaoapdici3pqvq" vAlign="bottom" selectionController="tab">
+      <item title="全部" name="AllType"/>
+      <item title="户外" name="OutdoorVarietShow"/>
+      <item title="竞技" name="CompetitiveVarietyShow"/>
+      <item title="选秀" name="TalentShow"/>
+      <item title="歌舞秀" name="SongAndDanceShow"/>
+      <item title="脱口秀" name="TalkShow"/>
+    </list>
+  </displayList>
+</component>

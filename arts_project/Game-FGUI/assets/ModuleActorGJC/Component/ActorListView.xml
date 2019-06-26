@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <image id="n0_i611" name="n0" src="u6m74s" fileName="公共/bg_white.jpg" pkg="g17ofscz" xy="0,165" size="750,950">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n1_i611" name="tabList" src="i3pqvr" fileName="TabBar/ActorListTabBar.xml" pkg="jaoapdic" xy="0,113">
+      <relation target="" sidePair="center-center,top-top"/>
+    </component>
+    <list id="n2_i611" name="listActor" xy="15,181" size="719,955" layout="flow_hz" overflow="scroll" lineGap="3" colGap="6" lineItemCount="4" defaultItem="ui://zldzgbf0wprd1" autoClearItems="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n3_i611" name="btnRecruit" src="i3pqvo" fileName="Button/SmallCommonButton.xml" pkg="jaoapdic" xy="70,1175">
+      <relation target="" sidePair="bottom-bottom,left-left"/>
+      <Button title="艺人招募"/>
+    </component>
+    <component id="n4_i611" name="btnHandbook" src="i3pqvo" fileName="Button/SmallCommonButton.xml" pkg="jaoapdic" xy="533,1175">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+      <Button title="艺人图鉴"/>
+    </component>
+  </displayList>
+</component>

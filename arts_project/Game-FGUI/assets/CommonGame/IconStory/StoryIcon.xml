@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="182,220">
+  <controller name="isGoldStory" exported="true" pages="2,,0,,1," selected="0">
+    <remark page="1" value="普通本"/>
+    <remark page="2" value="金本"/>
+  </controller>
+  <displayList>
+    <loader id="n2_oh5i" name="icon" xy="0,0" size="182,220" url="ui://qjz790ecoh5iw9">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n4_e2wx" name="n4" src="i3pq2a" fileName="公共/script_bg_frame.png" pkg="g17ofscz" xy="-10,-13" hideByEditor="true" visible="false">
+      <gearDisplay controller="isGoldStory" pages="2,0"/>
+    </image>
+    <image id="n5_e2wx" name="n5" src="e2wx7r" fileName="公共/script_bg_frame_glod.png" pkg="g17ofscz" xy="-9,-13" hideByEditor="true" visible="false">
+      <gearDisplay controller="isGoldStory" pages="1"/>
+    </image>
+    <image id="n6_e2wx" name="n6" src="i3pq2b" fileName="公共/script_flag_gpld.png" pkg="g17ofscz" xy="7,9">
+      <gearDisplay controller="isGoldStory" pages="1"/>
+    </image>
+    <image id="n7_ukqy" name="n7" src="kplq85" fileName="海报上面底板.png" pkg="g17ofscz" xy="10,172"/>
+    <component id="n3_wpxm" name="starList" src="ncg95" fileName="Star/Star.xml" xy="14,180" controller="starNum,0"/>
+  </displayList>
+</component>

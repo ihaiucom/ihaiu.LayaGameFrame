@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,96">
+  <displayList>
+    <image id="n47_krdk" name="n47" src="jp8r2" fileName="主界面切图/icon底板.png" pkg="g17ofscz" xy="0,0" size="720,96"/>
+    <component id="n38_szhv" name="btn_0" src="szhv3" fileName="Menu/MenuButton/MenuBMainButton.xml" xy="303,-26" customData="{&quot;menuId&quot;:3, &quot;pos&quot;:0, &quot;name&quot;:&quot;拍摄&quot;}"/>
+    <component id="n44_szhv" name="btn_1" src="szhvf" fileName="Menu/MenuButton/MenuBButton.xml" xy="8,-8" customData="{&quot;menuId&quot;:3, &quot;pos&quot;:1, &quot;name&quot;:&quot;拍摄&quot;}"/>
+    <component id="n45_szhv" name="btn_2" src="szhvf" fileName="Menu/MenuButton/MenuBButton.xml" xy="139,-8" customData="{&quot;menuId&quot;:3, &quot;pos&quot;:2, &quot;name&quot;:&quot;拍摄&quot;}"/>
+    <component id="n46_szhv" name="btn_3" src="szhvf" fileName="Menu/MenuButton/MenuBButton.xml" xy="464,-8" customData="{&quot;menuId&quot;:3, &quot;pos&quot;:3, &quot;name&quot;:&quot;拍摄&quot;}"/>
+    <component id="n39_szhv" name="btn_4" src="szhvf" fileName="Menu/MenuButton/MenuBButton.xml" xy="593,-8" customData="{&quot;menuId&quot;:3, &quot;pos&quot;:4, &quot;name&quot;:&quot;拍摄&quot;}"/>
+  </displayList>
+</component>

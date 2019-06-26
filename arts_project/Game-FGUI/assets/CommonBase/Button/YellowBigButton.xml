@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<component size="225,75" pivot="0.5,0.5" extention="Button" designImageAlpha="85">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0" />
+  <displayList>
+    <loader id="n3_j3nb" name="n3" xy="112,37" pivot="0.5,0.5" anchor="true" size="225,75" url="ui://vb0p0v1so3xjc" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height" />
+    </loader>
+    <text id="n5_j3nb" name="title" xy="112,37" pivot="0.5,0.5" anchor="true" size="225,75" fontSize="30" color="#a64f1b" align="center" vAlign="middle" autoSize="shrink" text="CLAIM">
+      <relation target="" sidePair="width-width,height-height" />
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="1.10" />
+</component>

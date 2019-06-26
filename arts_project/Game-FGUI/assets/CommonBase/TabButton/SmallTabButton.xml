@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="108,53" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_i3pq" name="n0" src="pz3x1f" fileName="__临时UI/btn_tabsmall_up.png" pkg="g17ofscz" xy="-6,0" size="120,53">
+      <gearDisplay controller="button" pages="0,2"/>
+    </image>
+    <image id="n1_i3pq" name="n1" src="pz3x1e" fileName="__临时UI/btn_tabsmall_down.png" pkg="g17ofscz" xy="-6,0" size="120,53">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <text id="n2_i3pq" name="title" xy="59,32" pivot="0.5,0.5" anchor="true" size="61,32" fontSize="28" color="#9087a1" align="center" vAlign="middle" singleLine="true" text="综合">
+      <gearXY controller="button" pages="0,1,2,3" values="59,32|59,26|59,32|59,26"/>
+      <gearColor controller="button" pages="1,3" values="#ffffff,#000000|#ffffff,#000000" default="#9087a1,#000000"/>
+    </text>
+    <component id="n3_j8da" name="badge" src="ncg9j" fileName="Badge/NumberBadge.xml" xy="85,-4" visible="false"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

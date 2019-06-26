@@ -5,8 +5,8 @@ import DialogCloseWindow from "./DialogCloseWindow";
 export default class SystemAlertMessage extends fairygui.GComponent {
 
 	public _dialog:DialogCloseWindow;
-	public _content:fairygui.GRichTextField;
-	public _title:fairygui.GRichTextField;
+	public _content:fairygui.GTextField;
+	public _title:fairygui.GTextField;
 	public _okBtn:fairygui.GButton;
 
 	public static URL:string = "ui://47qsdr42nk8t1";
@@ -23,8 +23,8 @@ export default class SystemAlertMessage extends fairygui.GComponent {
 		super.constructFromXML(xml);
 
 		this._dialog = <DialogCloseWindow><any>(this.getChildAt(0));
-		this._content = <fairygui.GRichTextField><any>(this.getChildAt(1));
-		this._title = <fairygui.GRichTextField><any>(this.getChildAt(2));
+		this._content = <fairygui.GTextField><any>(this.getChildAt(1));
+		this._title = <fairygui.GTextField><any>(this.getChildAt(2));
 		this._okBtn = <fairygui.GButton><any>(this.getChildAt(3));
 	}
 }

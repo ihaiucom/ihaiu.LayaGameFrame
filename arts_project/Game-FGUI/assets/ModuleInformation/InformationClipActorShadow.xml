@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <loader id="n2_l291" name="icon" xy="0,0" size="750,1334" aspect="true" filter="color" filterData="0.00,-1.00,0.00,0.00" url="ui://qjz790ecl291g" align="center" vAlign="bottom" fill="scaleFree"/>
+  </displayList>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,104" designImageLayer="1">
+  <displayList>
+    <component id="n17_rbh3" name="headInfo" src="szhvx" fileName="TopInfoBar/TopHeadInfo.xml" xy="-2,65"/>
+    <component id="n19_rbh3" name="street" src="szhv15" fileName="TopInfoBar/TopStreet.xml" xy="180,91">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button page="1"/>
+    </component>
+    <component id="n33_rbh3" name="moneyBar" src="szhv1d" fileName="TopInfoBar/TopMoneyMainBar.xml" xy="16,28" size="513,39">
+      <relation target="" sidePair="middle-middle"/>
+    </component>
+  </displayList>
+</component>

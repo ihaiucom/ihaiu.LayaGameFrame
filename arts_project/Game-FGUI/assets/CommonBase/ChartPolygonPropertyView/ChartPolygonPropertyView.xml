@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="280,280" pivot="0.5,0.5" anchor="true">
+  <displayList>
+    <image id="n12_l291" name="tmp" src="l2912d" fileName="属性图.png" pkg="qjz790ec" xy="139,140" pivot="0.5,0.5" anchor="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+</component>

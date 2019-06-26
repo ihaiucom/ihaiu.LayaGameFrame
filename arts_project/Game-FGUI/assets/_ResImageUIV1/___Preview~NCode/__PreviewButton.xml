@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,400">
+  <displayList>
+    <component id="n2_g57n" name="n2" src="i3pqvo" fileName="Button/SmallCommonButton.xml" pkg="jaoapdic" xy="-323,-194"/>
+    <component id="n3_g57n" name="n3" src="iq08vy" fileName="Button/BlueScaleButton.xml" pkg="jaoapdic" xy="-288,-126"/>
+    <component id="n6_g57n" name="n6" src="pz3xvj" fileName="TabButton/BigTabButton.xml" pkg="jaoapdic" xy="-291,-382"/>
+    <component id="n7_g57n" name="n7" src="i3pqvq" fileName="TabButton/SmallTabButton.xml" pkg="jaoapdic" xy="-251,-450"/>
+    <component id="n8_g57n" name="n8" src="f65hvv" fileName="Button/VerticalButton.xml" pkg="jaoapdic" xy="-379,-489"/>
+    <component id="n9_g57n" name="n9" src="iq08vz" fileName="Button/WriteButton.xml" pkg="jaoapdic" xy="-452,-412"/>
+    <component id="n10_g57n" name="n10" src="m5zowr" fileName="Button/CloseButton3.xml" pkg="jaoapdic" xy="-484,-234"/>
+    <component id="n11_g57n" name="buildingButtonBar" src="m8i62" fileName="BuildingButtonBar.xml" pkg="66b5xydl" xy="-531,2"/>
+    <component id="n12_g57n" name="n12" src="m8i64" fileName="Component~NCode/BuildingButton.xml" pkg="66b5xydl" xy="-513,-116"/>
+    <image id="n13_ywi4" name="n13" src="9th1zp" fileName="_公用--按钮/按钮.png" xy="-436,118"/>
+    <component id="n15_ywi4" name="n15" src="oh5ivv" fileName="Button/StudioNextButton.xml" pkg="jaoapdic" xy="417,-1"/>
+    <image id="n16_ywi4" name="n16" src="e12kyh" fileName="_公用--按钮/返回.png" xy="-241,328"/>
+    <component id="n17_ywi4" name="n17" src="e12kwe" fileName="Button/CloseButton.xml" pkg="jaoapdic" xy="589,365"/>
+    <component id="n19_r1sl" name="n19" src="u6m71g" fileName="ContinueProfit/StudioCPGetButton.xml" pkg="etw5e4qa" xy="530,462"/>
+    <component id="n21_r1sl" name="n21" src="wpxmw3" fileName="Button/StudioRenameButton.xml" pkg="jaoapdic" xy="604,587"/>
+    <component id="n22_r1sl" name="n22" src="u6m7w0" fileName="Button/StudioGetRewardButton.xml" pkg="jaoapdic" xy="929,588"/>
+    <image id="n26_r1sl" name="n26" src="jp8r0" fileName="_公用--按钮/top加.png" xy="-218,909"/>
+    <component id="n27_r1sl" name="n27" src="szhv1h" fileName="Button/AddButton.xml" pkg="jaoapdic" xy="595,822"/>
+    <component id="n29_j8da" name="n29" src="m5zowq" fileName="Button/ViewCheckButton.xml" pkg="jaoapdic" xy="549,543"/>
+    <component id="n32_j8da" name="n32" src="n6y7w8" fileName="Button/ExitViewButton.xml" pkg="jaoapdic" xy="620,915"/>
+    <image id="n33_j8da" name="n33" src="n6y77n" fileName="_公用--按钮/临时/视角恢复.png" xy="-216,983"/>
+    <image id="n38_t6bw" name="n38" src="t6bw165" fileName="_公用--线/粉色线.png" xy="-290,694" size="399,6"/>
+    <image id="n34_wx7c" name="n34" src="wx7c15m" fileName="_公用--按钮/粉色按钮.png" xy="-192,446" size="107,60"/>
+    <image id="n35_t6bw" name="n35" src="t6bw15q" fileName="_公用--按钮/按钮箭头.png" xy="-291,692"/>
+    <image id="n36_t6bw" name="n36" src="t6bw15r" fileName="_公用--按钮/淡紫色按钮.png" xy="-290,626" size="199,65"/>
+    <image id="n37_t6bw" name="n37" src="t6bw15s" fileName="_公用--按钮/红色按钮.png" xy="-90,626" size="199,65"/>
+  </displayList>
+</component>

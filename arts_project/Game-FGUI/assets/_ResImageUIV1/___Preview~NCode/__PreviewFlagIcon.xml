@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="644,789">
+  <displayList>
+    <image id="n0_g57n" name="n0" src="i3pq1q" fileName="_公用--标识和图标/bg_arrow.png" xy="2,29"/>
+    <image id="n1_g57n" name="n1" src="ol357i" fileName="_公用--标识和图标/btn_comment_down.png" xy="84,25"/>
+    <image id="n3_g57n" name="n3" src="i61142" fileName="_公用--标识和图标/btn_microblog.png" xy="174,6"/>
+    <image id="n4_g57n" name="n4" src="i61143" fileName="_公用--标识和图标/btn_wechat.png" xy="275,6"/>
+    <image id="n5_g57n" name="n5" src="ol357m" fileName="_公用--标识和图标/flag_finish.png" xy="30,180"/>
+    <image id="n6_g57n" name="n6" src="ol357n" fileName="_公用--标识和图标/flag_finishgray.png" xy="76,177"/>
+    <image id="n7_g57n" name="n7" src="pz3x1h" fileName="_公用--标识和图标/临时可能删除/icon_financecenter.png" xy="-70,-48"/>
+    <image id="n8_g57n" name="n8" src="r6vw98" fileName="_公用--标识和图标/临时可能删除/bg_hot.png" xy="-86,-90"/>
+    <image id="n9_g57n" name="n9" src="i3pq2l" fileName="_公用--标识和图标/临时可能删除/icon_information.png" xy="-119,-50"/>
+    <image id="n10_ywi4" name="n10" src="i3pq2b" fileName="_公用--标识和图标/临时需要替换/script_flag_gpld.png" xy="54,-89"/>
+    <image id="n11_ywi4" name="n11" src="i3pq2c" fileName="_公用--标识和图标/临时需要替换/script_flag_grey.png" xy="117,-89"/>
+    <image id="n12_ywi4" name="n12" src="i3pq2d" fileName="_公用--标识和图标/script_star.png" xy="19,410"/>
+    <image id="n13_ywi4" name="n13" src="u6m74o" fileName="_公用--标识和图标/临时以后需要动态/shoot_bg_iconmask.png" xy="-127,35"/>
+    <image id="n15_ywi4" name="n15" src="g2f5zh" fileName="_公用--标识和图标/属性图标/艺人属性表演.png" xy="399,0"/>
+    <image id="n16_ywi4" name="n16" src="g2f5zg" fileName="_公用--标识和图标/属性图标/艺人属性才艺.png" xy="486,0"/>
+    <image id="n17_ywi4" name="n17" src="g2f5ze" fileName="_公用--标识和图标/属性图标/艺人属性口才.png" xy="594,0"/>
+    <image id="n18_ywi4" name="n18" src="g2f5zf" fileName="_公用--标识和图标/属性图标/艺人属性娱乐.png" xy="689,0"/>
+    <image id="n19_ywi4" name="n19" src="g2f5zi" fileName="_公用--标识和图标/属性图标/艺人属性魅力.png" xy="799,0"/>
+    <image id="n20_ywi4" name="n20" src="wpxm7p" fileName="_公用--标识和图标/笔.png" xy="44,329"/>
+    <image id="n26_ywi4" name="n26" src="u6m750" fileName="_公用--标识和图标/星星.png" xy="60,376"/>
+    <image id="n27_ywi4" name="n27" src="u6m75a" fileName="_公用--标识和图标/星星1.png" xy="172,384"/>
+    <image id="n28_ywi4" name="n28" src="u6m75b" fileName="_公用--标识和图标/星星2.png" xy="250,389"/>
+    <image id="n29_ywi4" name="n29" src="u6m751" fileName="_公用--标识和图标/星星底板.png" xy="362,436"/>
+    <image id="n30_ywi4" name="n30" src="u6m74b" fileName="_公用--标识和图标/播放.png" xy="0,484"/>
+    <image id="n32_ywi4" name="n32" src="mfsp124" fileName="_公用--标识和图标/叹号.png" xy="111,513"/>
+    <image id="n33_ywi4" name="n33" src="ex1n112" fileName="_公用--标识和图标/点赞(1).png" xy="120,18"/>
+    <image id="n34_ywi4" name="n34" src="ex1n115" fileName="_公用--标识和图标/评论.png" xy="39,23"/>
+    <image id="n35_ywi4" name="n35" src="ex1n116" fileName="_公用--标识和图标/转发.png" xy="0,68"/>
+    <image id="n36_ywi4" name="n36" src="ex1n10y" fileName="_公用--标识和图标/关注线框.png" xy="2,119"/>
+    <image id="n37_ywi4" name="n37" src="ex1n110" fileName="_公用--标识和图标/手机按键.png" xy="14,621"/>
+    <image id="n38_ywi4" name="n38" src="e12kxo" fileName="_公用--标识和图标/桃心选择.png" xy="217,516"/>
+    <image id="n40_r1sl" name="n40" src="myfl35" fileName="_公用--标识和图标/特邀.png" xy="365,583"/>
+    <image id="n41_r1sl" name="n41" src="kplq88" fileName="_公用--标识和图标/箭头上.png" xy="133,69"/>
+    <image id="n42_r1sl" name="n42" src="kplq89" fileName="_公用--标识和图标/箭头下.png" xy="132,114"/>
+    <image id="n44_r1sl" name="n44" src="oh5iw4" fileName="_公用--标识和图标/事件完成收集底板.png" xy="78,228"/>
+    <image id="n43_r1sl" name="n43" src="oh5iw3" fileName="_公用--标识和图标/事件完成收集1.png" xy="30,234"/>
+    <image id="n45_r1sl" name="n45" src="oh5iw5" fileName="_公用--标识和图标/已完成底板.png" xy="82,281"/>
+    <image id="n46_r1sl" name="n46" src="oh5iw6" fileName="_公用--标识和图标/已完成底板1.png" xy="32,288"/>
+    <image id="n47_t6bw" name="n47" src="t6bw15t" fileName="_公用--标识和图标/别针.png" xy="495,558"/>
+    <image id="n48_t6bw" name="n48" src="t6bw15u" fileName="_公用--标识和图标/加号.png" xy="505,455"/>
+    <image id="n49_t6bw" name="n49" src="t6bw15w" fileName="_公用--标识和图标/问号.png" xy="131,170"/>
+    <image id="n50_t6bw" name="n50" src="t6bw15v" fileName="_公用--标识和图标/无法解析印章.png" xy="214,86"/>
+    <image id="n51_t6bw" name="n51" src="t6bw16a" fileName="_公用--标识和图标/新标识.png" xy="245,659"/>
+    <image id="n52_q99d" name="n52" src="q99d16n" fileName="_公用--标识和图标/解析失败.png" xy="187,229"/>
+    <image id="n53_q99d" name="n53" src="q99d16l" fileName="_公用--标识和图标/叉.png" xy="511,155"/>
+    <image id="n54_cy5k" name="n54" src="cy5k176" fileName="_公用--标识和图标/箭头.png" xy="504,672"/>
+    <image id="n55_cy5k" name="n55" src="cy5k174" fileName="_公用--标识和图标/拍摄标识.png" xy="384,728"/>
+    <image id="n56_cy5k" name="n56" src="cy5k173" fileName="_公用--标识和图标/已满足.png" xy="236,736"/>
+    <image id="n57_cy5k" name="n57" src="cy5k175" fileName="_公用--标识和图标/添加.png" xy="439,674"/>
+  </displayList>
+</component>

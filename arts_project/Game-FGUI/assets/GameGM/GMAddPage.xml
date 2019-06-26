@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1100">
+  <displayList>
+    <graph id="n4_fbyi" name="n4" xy="0,0" size="720,1100" type="rect" lineSize="0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n5_fbyi" name="popupButton" src="m23g5" fileName="GMPopupButton.xml" xy="0,0" size="720,80">
+      <relation target="" sidePair="width-width,top-top"/>
+      <Button title="Popup Button"/>
+    </component>
+    <list id="n6_nb4e" name="list" xy="0,180" size="720,867" overflow="scroll" defaultItem="ui://46xcitpdfv0tc">
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="" sidePair="center-center"/>
+      <item title="111" icon="ui://s33x8418jmop14p"/>
+      <item title="222" icon="ui://s33x8418jmop14q"/>
+      <item title="3333" icon="ui://s33x8418jmop14r"/>
+    </list>
+    <graph id="n10_c3i0" name="n10" xy="0,80" size="720,100" group="n9_c3i0" type="rect" lineSize="0" fillColor="#ff666666">
+      <relation target="" sidePair="width-width,top-top"/>
+    </graph>
+    <graph id="n11_c3i0" name="n11" xy="0,178" size="720,2" group="n9_c3i0" type="rect" lineSize="0" lineColor="#ffffffff">
+      <relation target="" sidePair="width-width,top-top"/>
+    </graph>
+    <component id="n7_nb4e" name="filterInput" src="fv0tb" fileName="TextInput.xml" xy="10,89" size="520,80" group="n9_c3i0">
+      <relation target="" sidePair="width-width,top-top"/>
+    </component>
+    <component id="n8_fv0t" name="filterCheckbox" src="nb4ea" fileName="Component~NCode/Checkbox.xml" xy="537,104" size="163,50" group="n9_c3i0">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button checked="true" title="启用过滤"/>
+    </component>
+    <group id="n9_c3i0" name="filterGroup" xy="0,80" size="720,100"/>
+    <graph id="n16_c3i0" name="n16" xy="0,1045" pivot="0,1" size="720,55" group="n14_c3i0" type="rect" lineSize="0" fillColor="#ff000000">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </graph>
+    <component id="n12_c3i0" name="listTopButton" src="c3i0h" fileName="Component~NCode/ButtonRect.xml" xy="0,1050" size="360,50" group="n17_c3i0">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+      <Button title="Toop"/>
+    </component>
+    <component id="n13_c3i0" name="listBottomButton" src="c3i0h" fileName="Component~NCode/ButtonRect.xml" xy="361,1050" size="359,50" group="n17_c3i0">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+      <Button title="Bottom"/>
+    </component>
+    <group id="n17_c3i0" name="n17" xy="0,1050" size="720,50" group="n14_c3i0"/>
+    <group id="n14_c3i0" name="bottomGroup" xy="0,1045" size="720,55"/>
+  </displayList>
+</component>

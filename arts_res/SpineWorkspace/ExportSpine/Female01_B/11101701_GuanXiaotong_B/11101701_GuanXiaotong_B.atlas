@@ -1,0 +1,125 @@
+
+11101701_GuanXiaotong_B.png
+size: 361,359
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+changqun
+  rotate: false
+  xy: 143, 200
+  size: 128, 157
+  orig: 128, 157
+  offset: 0, 0
+  index: -1
+lian
+  rotate: false
+  xy: 2, 61
+  size: 89, 104
+  orig: 89, 104
+  offset: 0, 0
+  index: -1
+qunzi
+  rotate: false
+  xy: 143, 86
+  size: 91, 112
+  orig: 91, 112
+  offset: 0, 0
+  index: -1
+toushang
+  rotate: false
+  xy: 2, 167
+  size: 139, 190
+  orig: 139, 190
+  offset: 0, 0
+  index: -1
+xiong
+  rotate: false
+  xy: 236, 97
+  size: 81, 101
+  orig: 81, 101
+  offset: 0, 0
+  index: -1
+youbixia
+  rotate: false
+  xy: 236, 4
+  size: 62, 91
+  orig: 62, 91
+  offset: 0, 0
+  index: -1
+youjiao
+  rotate: false
+  xy: 37, 19
+  size: 46, 40
+  orig: 46, 40
+  offset: 0, 0
+  index: -1
+youshangbi
+  rotate: false
+  xy: 300, 11
+  size: 59, 84
+  orig: 59, 84
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: false
+  xy: 2, 12
+  size: 33, 47
+  orig: 33, 47
+  offset: 0, 0
+  index: -1
+youtuishang
+  rotate: false
+  xy: 93, 21
+  size: 46, 75
+  orig: 46, 75
+  offset: 0, 0
+  index: -1
+youtuixia
+  rotate: false
+  xy: 141, 2
+  size: 37, 82
+  orig: 37, 82
+  offset: 0, 0
+  index: -1
+zuojiao
+  rotate: false
+  xy: 312, 242
+  size: 46, 40
+  orig: 46, 40
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: false
+  xy: 321, 310
+  size: 33, 47
+  orig: 33, 47
+  offset: 0, 0
+  index: -1
+zuoshoushang
+  rotate: false
+  xy: 180, 14
+  size: 54, 70
+  orig: 54, 70
+  offset: 0, 0
+  index: -1
+zuoshouxia
+  rotate: false
+  xy: 93, 98
+  size: 47, 67
+  orig: 47, 67
+  offset: 0, 0
+  index: -1
+zuotuishang
+  rotate: false
+  xy: 273, 284
+  size: 46, 73
+  orig: 46, 73
+  offset: 0, 0
+  index: -1
+zuotuixia
+  rotate: false
+  xy: 273, 200
+  size: 37, 82
+  orig: 37, 82
+  offset: 0, 0
+  index: -1

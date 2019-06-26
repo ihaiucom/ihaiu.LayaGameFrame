@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="30,26" extention="ProgressBar">
+  <displayList>
+    <image id="n0_l44g" name="n0" src="l44ga1" fileName="情报系统/进度条底板.png" pkg="g17ofscz" xy="0,0" size="30,26">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_l44g" name="bar" src="l44ga0" fileName="情报系统/精度条颜色.png" pkg="g17ofscz" xy="0,0" size="30,26"/>
+  </displayList>
+  <ProgressBar/>
+</component>

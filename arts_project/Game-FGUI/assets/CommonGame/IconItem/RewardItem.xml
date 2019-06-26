@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="154,200" pivot="0.5,0.5" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n11_mfsp" name="n11" src="mfsp12h" fileName="拍摄/收益结算/道具底板.png" pkg="g17ofscz" xy="76,77" pivot="0.5,0.5" anchor="true"/>
+    <loader id="n5_agif" name="icon" xy="76,77" pivot="0.5,0.5" anchor="true" size="153,154" aspect="true" url="ui://qjz790ecu6m749" align="center" vAlign="middle" fill="scaleMatchHeight"/>
+    <image id="n8_agif" name="n8" src="mfsp12i" fileName="拍摄/收益结算/道具数量半透底.png" pkg="g17ofscz" xy="77,128" pivot="0.5,0.5" anchor="true"/>
+    <text id="n9_agif" name="num" xy="113,131" pivot="0.5,0.5" anchor="true" size="57,29" fontSize="25" color="#ffffff" align="right" vAlign="middle" ubb="true" singleLine="true" text="x100"/>
+    <text id="n6_agif" name="itemName" xy="76,177" pivot="0.5,0.5" anchor="true" size="65,34" fontSize="30" color="#cab3b7" align="center" vAlign="middle" ubb="true" singleLine="true" text="金币"/>
+  </displayList>
+  <Button/>
+  <transition name="t0">
+    <item time="0" type="Scale" target="n11_mfsp" tween="true" startValue="0,0" endValue="1,1" duration="18" ease="Back.Out"/>
+    <item time="0" type="Scale" target="n5_agif" tween="true" startValue="0,0" endValue="1,1" duration="18" ease="Back.Out"/>
+    <item time="0" type="Scale" target="n6_agif" tween="true" startValue="0,0" endValue="1,1" duration="18" ease="Back.Out"/>
+    <item time="0" type="Scale" target="n8_agif" tween="true" startValue="0,0" endValue="1,1" duration="18" ease="Back.Out"/>
+    <item time="0" type="Scale" target="n9_agif" tween="true" startValue="0,0" endValue="1,1" duration="18" ease="Back.Out"/>
+    <item time="18" type="Scale" target="n11_mfsp" tween="true" startValue="1,1"/>
+    <item time="18" type="Scale" target="n5_agif" tween="true" startValue="1,1"/>
+    <item time="18" type="Scale" target="n6_agif" tween="true" startValue="1,1"/>
+    <item time="18" type="Scale" target="n8_agif" tween="true" startValue="1,1"/>
+    <item time="18" type="Scale" target="n9_agif" tween="true" startValue="1,1"/>
+  </transition>
+</component>

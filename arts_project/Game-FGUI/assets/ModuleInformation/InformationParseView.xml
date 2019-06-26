@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" overflow="hidden" adaptationTest="FitSize">
+  <controller name="stepCtrl" exported="true" pages="1,match,2,actor,0,failed" selected="2">
+    <remark page="0" value="不符情报展示"/>
+    <remark page="1" value="结识艺人"/>
+    <remark page="2" value="解析失败"/>
+  </controller>
+  <displayList>
+    <component id="n0_pf6a" name="frame" src="iphdy" fileName="Component/StudioBackground.xml" pkg="etw5e4qa" xy="0,0" pivot="0.5,0.5" locked="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label icon="ui://vh8b3r0jmfsp11r"/>
+    </component>
+    <image id="n1_pf6a" name="n1" src="mfsp11p" fileName="_公用--背景--色块/半透--有边框效果/半透--上下边框--背景中间底板.png" pkg="g17ofscz" xy="275,679" pivot="0.5,0.5" anchor="true" size="1134,703" locked="true" rotation="9.4">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <component id="n6_hzpe" name="n6" src="hzpet" fileName="InformationClipTitle.xml" xy="375,171">
+      <gearDisplay controller="stepCtrl" pages="2"/>
+      <relation target="" sidePair="top-top,width-width"/>
+    </component>
+    <component id="n8_n3dz" name="actor" src="pf6as" fileName="InformationClipActor.xml" xy="375,1334" size="750,1334" group="n14_n3dz" controller="showActor,0">
+      <gearDisplay controller="stepCtrl" pages="1,2,0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n13_n3dz" name="actress" src="pf6as" fileName="InformationClipActor.xml" xy="375,1334" size="750,1334" group="n14_n3dz" controller="showActor,0">
+      <gearDisplay controller="stepCtrl" pages="1,2"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n14_n3dz" name="_actor_group" xy="0,0" size="750,1334"/>
+    <image id="n3_hzpe" name="n3" src="e12kyb" fileName="_公用--背景--色块/渐变/背景横线.png" pkg="g17ofscz" xy="-1,563" size="752,990" group="n9_n3dz">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </image>
+    <image id="n4_hzpe" name="n4" src="e12kz7" fileName="_公用--背景--色块/渐变/颜色渐变半透--蓝-黄-灰.png" pkg="g17ofscz" xy="-5,1189" size="760,366" group="n9_n3dz">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </image>
+    <group id="n9_n3dz" name="n9" xy="-5,563" size="760,992" advanced="true">
+      <gearDisplay controller="stepCtrl" pages="2"/>
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </group>
+    <component id="n5_hzpe" name="nextBtn" src="oh5ivv" fileName="Button/StudioNextButton.xml" pkg="jaoapdic" xy="168,1208" controller="button,2">
+      <gearDisplay controller="stepCtrl" pages="2"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <list id="n11_n3dz" name="list" xy="0,457" size="750,419" alpha="0" layout="flow_hz" lineGap="33" colGap="20" lineItemCount="2" defaultItem="ui://452rk72xn3dzv" align="center" vAlign="middle" autoClearItems="true">
+      <gearLook controller="stepCtrl" pages="2,0" values="0,0,0,1|0,0,0,1" default="1,0,0,1" tween="true"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item controllers="isNotMatch,0"/>
+      <item controllers="isMatch,0"/>
+      <item controllers="isMatch,1"/>
+      <item controllers="isMatch,0"/>
+      <item controllers="isMatch,1"/>
+    </list>
+    <image id="n12_n3dz" name="n12" src="q99d16n" fileName="_公用--标识和图标/解析失败.png" pkg="g17ofscz" xy="375,667" pivot="0.5,0.5" anchor="true">
+      <gearDisplay controller="stepCtrl" pages="0"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+  </displayList>
+  <transition name="ani_failed">
+    <item time="0" type="Alpha" target="n12_n3dz" tween="true" startValue="0" endValue="1" duration="3"/>
+    <item time="0" type="Scale" target="n0_pf6a" value="1,1"/>
+    <item time="0" type="Scale" target="n12_n3dz" tween="true" startValue="6,6" endValue="0.9,0.9" duration="3"/>
+    <item time="0" type="Scale" target="n1_pf6a" value="1,1"/>
+    <item time="0" type="XY" target="n0_pf6a" value="0,0"/>
+    <item time="0" type="XY" target="n1_pf6a" value="275.98,679.39"/>
+    <item time="2" type="Scale" target="n0_pf6a" value="1,1"/>
+    <item time="2" type="Scale" target="n1_pf6a" value="1,1"/>
+    <item time="2" type="XY" target="n0_pf6a" value="0,0"/>
+    <item time="2" type="XY" target="n1_pf6a" value="275.98,679.39"/>
+    <item time="3" type="Scale" target="n0_pf6a" value="1.03,1.03"/>
+    <item time="3" type="Scale" target="n12_n3dz" tween="true" startValue="0.9,0.9" endValue="1,1" duration="3"/>
+    <item time="3" type="Scale" target="n1_pf6a" value="1.05,1.05"/>
+    <item time="3" type="XY" target="n0_pf6a" value="-7,-8"/>
+    <item time="3" type="XY" target="n1_pf6a" value="282,687"/>
+    <item time="4" type="Scale" target="n0_pf6a" value="1,1"/>
+    <item time="4" type="Scale" target="n1_pf6a" value="1,1"/>
+    <item time="4" type="XY" target="n0_pf6a" value="0,0"/>
+    <item time="4" type="XY" target="n1_pf6a" value="282,687"/>
+    <item time="12" type="Scale" target="n0_pf6a" value="1,1"/>
+    <item time="12" type="Scale" target="n1_pf6a" value="1,1"/>
+    <item time="12" type="XY" target="n0_pf6a" value="0,0"/>
+    <item time="12" type="XY" target="n1_pf6a" value="282,687"/>
+  </transition>
+</component>

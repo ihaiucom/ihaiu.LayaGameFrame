@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="544,222">
+  <displayList>
+    <loader id="n23_q4w0" name="headIcon" xy="18,24" size="68,69" url="ui://qjz790ecu6m74w" fill="scaleFree"/>
+    <text id="n24_q4w0" name="name" xy="100,47" size="399,32" fontSize="25" color="#7f7c82" autoSize="none" text="漕河泾彭于晏">
+      <relation target="" sidePair="width-width"/>
+    </text>
+    <text id="n25_q4w0" name="content" xy="15,116" size="505,61" fontSize="25" color="#aca6ba" autoSize="none" text="《梦想的声音第二季》真的是太好看了，希望能出第三季">
+      <relation target="" sidePair="width-width,bottomext-bottom"/>
+    </text>
+    <image id="n26_q4w0" name="n26" src="ex1n115" fileName="拍摄/事件选择/评论.png" pkg="g17ofscz" xy="365,190" size="30,25">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </image>
+    <image id="n27_q4w0" name="n27" src="ex1n112" fileName="_公用--标识和图标/点赞(1).png" pkg="g17ofscz" xy="420,187" size="30,30">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </image>
+    <text id="n28_q4w0" name="num" xy="453,191" size="65,24" fontSize="20" color="#c8c6cb" align="right" vAlign="middle" autoSize="none" text="9400万">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </text>
+    <image id="n29_q4w0" name="n29" src="u6m74p" fileName="_公用--线/bg_linegray.png" pkg="g17ofscz" xy="12,221" pivot="0.5,0" size="520,2" alpha="0.6">
+      <relation target="" sidePair="width-width"/>
+    </image>
+  </displayList>
+</component>

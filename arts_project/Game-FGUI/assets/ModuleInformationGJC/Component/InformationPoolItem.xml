@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="644,814" designImage="ui://qjz790ecl44gz2" designImageOffsetX="-40" designImageOffsetY="-216" designImageAlpha="0">
+  <displayList>
+    <loader id="n0_l44g" name="imgIcon" xy="0,0" size="644,814" url="ui://g17ofsczl44g9x">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n3_l44g" name="btnView" src="l44g2" fileName="Component/viewButton.xml" xy="69,50">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n4_l44g" name="btnResolver" src="l44g3" fileName="Component/resolverButton.xml" xy="377,487">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <image id="n5_l44g" name="n5" src="l44g9z" fileName="公共/黑色遮罩半透24.png" pkg="g17ofscz" xy="34,708" size="575,76" alpha="0.2">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </image>
+    <text id="n6_l44g" name="n6" xy="68,715" size="101,28" fontSize="24" color="#ffffff" text="收集次数">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </text>
+    <text id="n7_l44g" name="labNum" xy="501,743" pivot="1,1" anchor="true" size="53,28" fontSize="24" color="#ffffff" text="6/10">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </text>
+    <component id="n9_l44g" name="progressNum" src="l44gw8" fileName="ProgressBar/InformationProgressBar.xml" pkg="jaoapdic" xy="61,748" size="443,26">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+      <ProgressBar value="80" max="100"/>
+    </component>
+    <component id="n10_aprj" name="btnGift" src="t5vjvc" fileName="Button/IconButton.xml" pkg="jaoapdic" xy="517,714" size="70,60">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+      <Button icon="ui://g17ofsczaprja4"/>
+    </component>
+  </displayList>
+</component>

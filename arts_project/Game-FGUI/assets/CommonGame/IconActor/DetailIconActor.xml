@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="204,330" extention="Button">
+  <controller name="button" exported="true" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n133_l31s" name="n133" src="ncg9t" fileName="bg_number_warehouse.png" pkg="vb0p0v1s" xy="0,0" size="204,330"/>
+    <image id="n134_l31s" name="n134" src="ncg914" fileName="bg_number_head_common.png" pkg="vb0p0v1s" xy="0,268" size="204,59">
+      <relation target="n133_l31s" sidePair="width-width,bottom-bottom"/>
+    </image>
+    <image id="n137_l31s" name="n137" src="ncg915" fileName="bg_table_big_color.png" pkg="vb0p0v1s" xy="3,4" size="200,216"/>
+    <image id="n138_l31s" name="n138" src="ncg916" fileName="bg_table_big_line.png" pkg="vb0p0v1s" xy="2,0" size="200,4"/>
+    <loader id="n141_l31s" name="icon" xy="1,3" size="200,259" aspect="true" align="center" fill="scaleFree"/>
+    <image id="n139_l31s" name="n139" src="ncg917" fileName="bg_font_city_market.png" pkg="vb0p0v1s" xy="0,244" size="204,29"/>
+    <text id="n116_wpo3" name="txtLv" xy="5,245" size="81,30" fontSize="22" color="#ffca27" vAlign="middle" autoSize="none" strokeColor="#5c3800" strokeSize="2" text="LV.999"/>
+    <text id="n111_qz6z" name="title" xy="69,283" size="131,33" fontSize="24" color="#ffffff" vAlign="middle" autoSize="none" text="LV.999"/>
+    <component id="n114_wpo3" name="star" src="ncg95" fileName="IconItem/Component/Star.xml" xy="85,244" size="138,31" controller="starNum,0,showBG,0,starLimit,0"/>
+    <image id="n142_l31s" name="lvIcon" src="ncg9z" fileName="icon_contribution.png" pkg="vb0p0v1s" xy="21,277" size="50,50" aspect="true"/>
+    <image id="n136_l31s" name="n136" src="ncg9o" fileName="flag_outline_selected_shoot.png" pkg="vb0p0v1s" xy="-12,-9" size="231,349">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="n133_l31s" sidePair="width-width,height-height"/>
+      <relation target="n133_l31s" sidePair="center-center,middle-middle"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

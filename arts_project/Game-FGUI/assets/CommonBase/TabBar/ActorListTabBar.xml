@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,53">
+  <controller name="tab" pages="0,等级,1,羁绊,2,魅力,3,口才,4,娱乐,5,表演" selected="0"/>
+  <displayList>
+    <list id="n0_q74i" name="n0" xy="0,0" size="800,53" layout="row" colGap="-2" defaultItem="ui://jaoapdici3pqvq" vAlign="bottom" selectionController="tab">
+      <item title="等级" name="Level"/>
+      <item title="羁绊" name="LoveLevel"/>
+      <item title="魅力" name="charm"/>
+      <item title="口才" name="eloquence"/>
+      <item title="娱乐" name="entertainment"/>
+      <item title="表演" name="act"/>
+      <item title="才艺" name="talent"/>
+    </list>
+  </displayList>
+</component>

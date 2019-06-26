@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="414,109" extention="Button">
+  <controller name="button" exported="true" pages="2,up,3,down,4,disabled,5,selectedDisabled" selected="2"/>
+  <displayList>
+    <loader id="n4_o3xj" name="_bg" xy="0,0" size="414,109" url="ui://g17ofscz9th1zp"/>
+    <loader id="n6_oh5i" name="icon" xy="206,54" pivot="0.5,0.5" anchor="true" size="97,44" url="ui://g17ofscze12kyo" autoSize="true">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+</component>

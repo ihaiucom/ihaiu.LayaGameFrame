@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="235,37">
+  <controller name="isCollect" exported="true" pages="0,false,1,true" selected="1"/>
+  <displayList>
+    <image id="n13_oh5i" name="n13" src="oh5iw4" fileName="_公用--标识和图标/事件完成收集底板.png" pkg="g17ofscz" xy="0,0" size="235,37">
+      <gearDisplay controller="isCollect" pages="1"/>
+    </image>
+    <image id="n12_oh5i" name="n12" src="oh5iw3" fileName="_公用--标识和图标/事件完成收集1.png" pkg="g17ofscz" xy="14,2">
+      <gearDisplay controller="isCollect" pages="1"/>
+      <relation target="n13_oh5i" sidePair="left-left,middle-middle"/>
+    </image>
+    <image id="n14_oh5i" name="n14" src="oh5iw5" fileName="_公用--标识和图标/已完成底板.png" pkg="g17ofscz" xy="45,0" size="190,37">
+      <gearDisplay controller="isCollect" pages="0"/>
+    </image>
+    <image id="n15_oh5i" name="n15" src="oh5iw6" fileName="_公用--标识和图标/已完成底板1.png" pkg="g17ofscz" xy="64,2">
+      <gearDisplay controller="isCollect" pages="0"/>
+      <relation target="n14_oh5i" sidePair="left-left,middle-middle"/>
+    </image>
+    <text id="n3_mic6" name="count" xy="45,4" size="184,28" customData="count" fontSize="25" color="#ffffff" align="right" vAlign="bottom" vars="true" autoSize="none" text="事件已完全收集">
+      <gearDisplay controller="isCollect" pages="0,1"/>
+      <gearText controller="isCollect" pages="0" values="已完成{count =5}/{total=6}" default="事件已完全收集"/>
+    </text>
+  </displayList>
+</component>

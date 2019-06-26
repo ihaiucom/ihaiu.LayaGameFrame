@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="640,62">
+  <controller name="select" pages="1,,2,,3," selected="0">
+    <remark page="0" value="道具"/>
+    <remark page="1" value="资产"/>
+    <remark page="2" value="合同"/>
+  </controller>
+  <displayList>
+    <list id="n5_ncg9" name="n5" xy="0,9" size="640,58" layout="row" colGap="1" defaultItem="ui://jaoapdici3pqvq" vAlign="bottom" selectionController="select">
+      <relation target="" sidePair="center-center,top-top"/>
+      <item title="道具"/>
+      <item title="资产"/>
+      <item title="合同"/>
+    </list>
+  </displayList>
+</component>

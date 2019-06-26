@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="752,145" pivot="0.5,0.5" anchor="true" overflow="hidden" extention="Label">
+  <controller name="state" exported="true" pages="0,特邀嘉宾,1,常驻嘉宾,2,Mvp" selected="2"/>
+  <displayList>
+    <image id="n9_fa39" name="bg" src="mfsp11h" fileName="_公共--背景--栏目标题/常驻嘉宾底.png" pkg="g17ofscz" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n14_sspc" name="_bgColor" src="kplq87" fileName="_公用--背景--色块/纯色/0xFFFFFFFF--白.png" pkg="g17ofscz" xy="0,0" size="752,145" blend="add"/>
+    <text id="n10_sspc" name="txt_1" xy="158,20" size="121,104" font="ui://vi9240bykmxd1p" fontSize="28" color="#ffffff" text="流">
+      <gearText controller="state" pages="1,2" values="常|流" default="特"/>
+    </text>
+    <text id="n11_sspc" name="txt_2" xy="264,20" size="117,104" font="ui://vi9240bykmxd1p" fontSize="28" color="#ffffff" text="量">
+      <gearText controller="state" pages="1,2" values="驻|量" default="邀"/>
+    </text>
+    <text id="n12_sspc" name="txt_3" xy="372,20" size="119,104" font="ui://vi9240bykmxd1p" fontSize="28" color="#ffffff" text="担">
+      <gearText controller="state" pages="2" values="担" default="嘉"/>
+    </text>
+    <text id="n13_sspc" name="txt_4" xy="479,20" size="114,104" font="ui://vi9240bykmxd1p" fontSize="28" color="#ffffff" text="当">
+      <gearText controller="state" pages="2" values="当" default="宾"/>
+    </text>
+  </displayList>
+  <transition name="showIn">
+    <item time="0" type="Alpha" target="n14_sspc" value="0"/>
+    <item time="0" type="XY" target="n10_sspc" value="784,-"/>
+    <item time="0" type="XY" target="n11_sspc" value="784,-"/>
+    <item time="0" type="XY" target="n12_sspc" value="784,-"/>
+    <item time="0" type="XY" target="n13_sspc" value="784,-"/>
+    <item time="0" type="XY" target="n14_sspc" tween="true" startValue="784,0" endValue="784,0" duration="1"/>
+    <item time="0" type="XY" target="n9_fa39" tween="true" startValue="793,0" endValue="0,0" duration="4"/>
+    <item time="1" type="XY" target="n14_sspc" tween="true" startValue="784,0" endValue="0,0" duration="8"/>
+    <item time="2" type="Alpha" target="n14_sspc" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="2" type="XY" target="n10_sspc" tween="true" startValue="784,-" endValue="158,-" duration="8"/>
+    <item time="4" type="XY" target="n11_sspc" tween="true" startValue="784,-" endValue="264,-" duration="7"/>
+    <item time="6" type="XY" target="n12_sspc" tween="true" startValue="784,-" endValue="372,-" duration="6"/>
+    <item time="8" type="XY" target="n13_sspc" tween="true" startValue="784,-" endValue="479,-" duration="5"/>
+  </transition>
+</component>

@@ -1,0 +1,32 @@
+info face="D:\xyz_wp\arts\fgui\Font\Font_FangzhengChuqian_42_White_Edge_atlas" size=32 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1
+common lineHeight=60 base=26 scaleW=265 scaleH=265 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="D:\xyz_wp\arts\fgui\Font\Font_FangzhengChuqian_42_White_Edge_atlas.png"
+chars count=26
+char id=30830 x=160 y=212 width=51 height=52 xoffset=0 yoffset=8 xadvance=52 page=0 chnl=0 letter="确"
+char id=35748 x=160 y=106 width=52 height=52 xoffset=0 yoffset=8 xadvance=53 page=0 chnl=0 letter="认"
+char id=32487 x=160 y=159 width=52 height=52 xoffset=0 yoffset=7 xadvance=53 page=0 chnl=0 letter="继"
+char id=32493 x=0 y=53 width=53 height=52 xoffset=0 yoffset=8 xadvance=54 page=0 chnl=0 letter="续"
+char id=19979 x=213 y=106 width=51 height=50 xoffset=0 yoffset=10 xadvance=52 page=0 chnl=0 letter="下"
+char id=19968 x=213 y=157 width=48 height=15 xoffset=0 yoffset=25 xadvance=49 page=0 chnl=0 letter="一"
+char id=27493 x=160 y=53 width=52 height=52 xoffset=0 yoffset=8 xadvance=53 page=0 chnl=0 letter="步"
+char id=24320 x=107 y=213 width=52 height=50 xoffset=0 yoffset=10 xadvance=53 page=0 chnl=0 letter="开"
+char id=22987 x=161 y=0 width=52 height=52 xoffset=0 yoffset=8 xadvance=53 page=0 chnl=0 letter="始"
+char id=23436 x=213 y=53 width=51 height=52 xoffset=0 yoffset=8 xadvance=52 page=0 chnl=0 letter="完"
+char id=25104 x=107 y=160 width=52 height=52 xoffset=0 yoffset=8 xadvance=53 page=0 chnl=0 letter="成"
+char id=25293 x=108 y=0 width=52 height=52 xoffset=0 yoffset=8 xadvance=53 page=0 chnl=0 letter="拍"
+char id=25668 x=0 y=0 width=53 height=52 xoffset=0 yoffset=8 xadvance=54 page=0 chnl=0 letter="摄"
+char id=38190 x=107 y=53 width=52 height=52 xoffset=0 yoffset=8 xadvance=53 page=0 chnl=0 letter="键"
+char id=25910 x=54 y=211 width=52 height=52 xoffset=0 yoffset=8 xadvance=53 page=0 chnl=0 letter="收"
+char id=21462 x=0 y=106 width=53 height=51 xoffset=0 yoffset=9 xadvance=54 page=0 chnl=0 letter="取"
+char id=35299 x=54 y=0 width=53 height=52 xoffset=0 yoffset=8 xadvance=54 page=0 chnl=0 letter="解"
+char id=26512 x=0 y=211 width=53 height=52 xoffset=0 yoffset=8 xadvance=54 page=0 chnl=0 letter="析"
+char id=21319 x=54 y=106 width=52 height=51 xoffset=0 yoffset=9 xadvance=53 page=0 chnl=0 letter="升"
+char id=32423 x=54 y=158 width=52 height=52 xoffset=0 yoffset=8 xadvance=53 page=0 chnl=0 letter="级"
+char id=24314 x=0 y=158 width=53 height=52 xoffset=0 yoffset=8 xadvance=54 page=0 chnl=0 letter="建"
+char id=36896 x=54 y=53 width=52 height=52 xoffset=0 yoffset=8 xadvance=53 page=0 chnl=0 letter="造"
+char id=31361 x=212 y=212 width=51 height=52 xoffset=0 yoffset=8 xadvance=52 page=0 chnl=0 letter="突"
+char id=30772 x=107 y=106 width=52 height=53 xoffset=0 yoffset=7 xadvance=53 page=0 chnl=0 letter="破"
+char id=32 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=20 page=0 chnl=0 letter=" "
+char id=9 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=160 page=0 chnl=0 letter="	"
+
+kernings count=0

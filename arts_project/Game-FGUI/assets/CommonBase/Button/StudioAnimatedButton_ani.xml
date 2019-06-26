@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="407,160" pivot="0.5,0.5" anchor="true" overflow="hidden">
+  <controller name="c1" exported="true" pages="0,,1," selected="0">
+    <action type="play_transition" fromPage="2,0,1" toPage="0" transition="t0" repeat="-1"/>
+    <action type="play_transition" fromPage="2,0,1" toPage="1" transition="t1" repeat="-1"/>
+  </controller>
+  <displayList>
+    <image id="n15_dt43" name="n15" src="dt4315g" fileName="_特效用到的/wenzi_glow.png" pkg="g17ofscz" xy="-7,23" hideByEditor="true" visible="false"/>
+    <image id="n9_dt43" name="n9" src="dt4315e" fileName="_特效用到的/line_purple.png" pkg="g17ofscz" xy="209,0" pivot="0.5,0" anchor="true" blend="add">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n11_dt43" name="n11" src="dt4315e" fileName="_特效用到的/line_purple.png" pkg="g17ofscz" xy="401,42" scale="-1,1" blend="add">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n12_dt43" name="n12" src="dt4315f" fileName="_特效用到的/saoguang.png" pkg="g17ofscz" xy="118,88" pivot="0.5,0.5" anchor="true" size="253,96" blend="add">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Alpha" target="n12_dt43" tween="true" startValue="0" endValue="0" duration="18"/>
+    <item time="0" type="Alpha" target="n9_dt43" tween="true" startValue="0" endValue="1" duration="24"/>
+    <item time="0" type="XY" target="n12_dt43" tween="true" startValue="-110,87" endValue="497,87" duration="120"/>
+    <item time="0" type="XY" target="n9_dt43" tween="true" startValue="598,0" endValue="-153,0" duration="120"/>
+    <item time="18" type="Alpha" target="n12_dt43" tween="true" startValue="0" endValue="1" duration="19"/>
+    <item time="24" type="Alpha" target="n9_dt43" tween="true" startValue="1" endValue="1" duration="12"/>
+    <item time="36" type="Alpha" target="n9_dt43" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="37" type="Alpha" target="n12_dt43" tween="true" startValue="1" endValue="1" duration="11"/>
+    <item time="48" type="Alpha" target="n12_dt43" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="48" type="Alpha" target="n9_dt43" tween="true" startValue="0"/>
+    <item time="60" type="Alpha" target="n12_dt43" tween="true" startValue="0"/>
+    <item time="120" type="XY" target="n12_dt43" tween="true" startValue="497,87"/>
+  </transition>
+  <transition name="t1" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Alpha" target="n11_dt43" tween="true" startValue="0" endValue="1" duration="24"/>
+    <item time="0" type="XY" target="n11_dt43" tween="true" startValue="0,42" endValue="764,42" duration="120"/>
+    <item time="24" type="Alpha" target="n11_dt43" tween="true" startValue="1" endValue="1" duration="12"/>
+    <item time="36" type="Alpha" target="n11_dt43" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="48" type="Alpha" target="n11_dt43" tween="true" startValue="0"/>
+  </transition>
+</component>

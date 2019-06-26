@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="92,93" extention="Button" mask="n8_f2qv">
+  <displayList>
+    <loader id="n1_8zgr" name="icon" xy="0,0" size="92,93" aspect="true" align="center" vAlign="middle" fill="scale"/>
+    <graph id="n8_f2qv" name="n8" xy="0,0" size="92,93" aspect="true" type="eclipse"/>
+  </displayList>
+  <Button/>
+</component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="199,115" extention="Button" mask="n27_krdk" initName="street">
+  <displayList>
+    <image id="n27_krdk" name="_mask" src="jp8r5" fileName="主界面切图/排名.png" pkg="g17ofscz" xy="0,0"/>
+    <image id="n29_l291" name="n29" src="jp8r5" fileName="主界面切图/排名.png" pkg="g17ofscz" xy="0,0"/>
+    <text id="n24_rbh3" name="streetRank" xy="7,62" size="183,39" fontSize="30" color="#9584ff" align="center" vAlign="middle" autoSize="shrink" singleLine="true" text="第105名"/>
+    <text id="n21_rbh3" name="streetName" xy="11,15" size="173,36" fontSize="30" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="shrink" text="中心大道"/>
+    <component id="n26_l31s" name="red" src="ncg9j" fileName="Badge/NumberBadge.xml" pkg="jaoapdic" xy="169,0" visible="false"/>
+    <image id="n28_l291" name="n28" src="etda3g" fileName="主界面切图/lighting.png" pkg="g17ofscz" xy="-186,-32" pivot="0.5,0.5" size="326,39" alpha="0.64" rotation="-33.6" blend="add"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.95"/>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n28_l291" tween="true" startValue="-179.95,-40" endValue="71,101.95" duration="24" ease="Linear"/>
+    <item time="48" type="XY" target="n28_l291" value="71,101.95"/>
+  </transition>
+</component>

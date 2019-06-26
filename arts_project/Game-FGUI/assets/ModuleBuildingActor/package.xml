@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="uw3815s1" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="m5zo1" name="BuildingActorItem.xml" path="/Component/" exported="true"/>
+    <component id="m5zo2" name="BuildingActorBody.xml" path="/Component/" exported="true"/>
+    <component id="m5zo4" name="BuildingActorWindowUI.xml" path="/" exported="true"/>
+  </resources>
+  <publish name="ModuleBuildingActor" genCode="true"/>
+</packageDescription>

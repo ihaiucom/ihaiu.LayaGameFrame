@@ -14,10 +14,10 @@
     <component id="n6_eikn" name="btn_login" src="nz0c2i" fileName="Component~NCode/buttons/btn_yellow.xml" xy="6,238" size="465,75">
       <Button title="登录"/>
     </component>
-    <component id="n7_eikn" name="btn_register" src="nz0c2j" fileName="Component~NCode/buttons/btn_purple.xml" xy="252,330">
+    <component id="n7_eikn" name="btn_register" src="nz0c2j" fileName="Component~NCode/buttons/btn_purple.xml" xy="252,330" visible="false">
       <Button title="注册"/>
     </component>
-    <component id="n9_eikn" name="btn_guest" src="nz0c1x" fileName="Component~NCode/buttons/btn_bule.xml" xy="0,330">
+    <component id="n9_eikn" name="btn_guest" src="nz0c1x" fileName="Component~NCode/buttons/btn_bule.xml" xy="0,330" visible="false">
       <Button title="游客"/>
     </component>
   </displayList>

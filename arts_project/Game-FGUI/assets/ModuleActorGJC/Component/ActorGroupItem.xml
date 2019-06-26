@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,410" overflow="hidden">
+  <displayList>
+    <graph id="n8_wprd" name="n8" xy="0,0" size="750,410" type="rect"/>
+    <component id="n2_wprd" name="btnFir" src="wprdvu" fileName="Button/ActorButton.xml" pkg="jaoapdic" xy="-49,102"/>
+    <component id="n3_wprd" name="btnSec" src="wprdvu" fileName="Button/ActorButton.xml" pkg="jaoapdic" xy="135,100">
+      <Button icon="ui://qjz790ecjej7xs"/>
+    </component>
+    <component id="n4_wprd" name="btnThr" src="wprdvu" fileName="Button/ActorButton.xml" pkg="jaoapdic" xy="278,100">
+      <Button icon="ui://g17ofsczi3pq2e"/>
+    </component>
+    <component id="n5_wprd" name="btnFou" src="wprdvu" fileName="Button/ActorButton.xml" pkg="jaoapdic" xy="378,100">
+      <Button icon="ui://qjz790ecjej7xs"/>
+    </component>
+    <text id="n6_wprd" name="title" xy="374,61" pivot="0.5,0.5" anchor="true" size="95,40" fontSize="36" align="center" vAlign="middle" text="组合1"/>
+    <text id="n7_wprd" name="labProgress" xy="632,61" pivot="0.5,0.5" anchor="true" size="203,40" fontSize="36" align="center" vAlign="middle" text="收集进度3/4"/>
+  </displayList>
+</component>

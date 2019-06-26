@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="be275eg3" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="wcyo0" name="PlotWindowUI.xml" path="/" exported="true"/>
+    <component id="wcyo1" name="PlotView.xml" path="/component/" exported="true"/>
+    <component id="wcyo2" name="PlotAwardView.xml" path="/component/" exported="true"/>
+    <component id="wcyo5" name="PlotReplaceItem.xml" path="/component/" exported="true"/>
+    <component id="wcyo7" name="PlotNameItem.xml" path="/component/" exported="true"/>
+    <component id="wcyo8" name="PlotAwardItem.xml" path="/component/" exported="true"/>
+    <component id="wcyo9" name="PlotReplaceView.xml" path="/component/" exported="true"/>
+    <component id="wcyoa" name="PlotReplaceTab.xml" path="/component/" exported="true"/>
+  </resources>
+  <publish name="SystemModulePlot" genCode="true"/>
+</packageDescription>

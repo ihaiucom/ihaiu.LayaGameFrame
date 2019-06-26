@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <packageDescription id="41exsi4s" jpegQuality="80" compressPNG="true">
-  <resources/>
-  <publish name="ModuleEmail"/>
+  <resources>
+    <component id="szhv0" name="MailWindowUI.xml" path="/" exported="true"/>
+    <component id="j3nb3" name="MailItem.xml" path="/Component/" exported="true"/>
+    <component id="vqq04" name="MailLoader.xml" path="/Component/" exported="true"/>
+  </resources>
+  <publish name="ModuleEmail" genCode="true"/>
 </packageDescription>

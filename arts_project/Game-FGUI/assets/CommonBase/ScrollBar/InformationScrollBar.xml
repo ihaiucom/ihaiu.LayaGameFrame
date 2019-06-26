@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="699,11" extention="ScrollBar">
+  <displayList>
+    <image id="n0_maam" name="n0" src="maam16j" fileName="_公用_滚动条/下拉框_横.png" pkg="g17ofscz" xy="0,0" size="699,11">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <graph id="n1_maam" name="bar" xy="0,0" size="699,11">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <component id="n2_maam" name="grip" src="maamxi" fileName="ScrollBar/InformationScrollBar_grip.xml" xy="0,-2"/>
+  </displayList>
+  <ScrollBar fixedGripSize="true"/>
+</component>

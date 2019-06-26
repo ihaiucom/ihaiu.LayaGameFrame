@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="160,250" pivot="0.5,0.5" extention="Button">
+  <controller name="enough" pages="0,不足,1,满足" selected="1"/>
+  <displayList>
+    <image id="n6_10shy" name="n6" src="cy5k17d" fileName="建筑系统/材料底.png" pkg="g17ofscz" xy="0,23"/>
+    <loader id="n4_j3nb" name="icon" xy="76,99" pivot="0.5,0.5" anchor="true" size="52,57" aspect="true" url="ui://vb0p0v1sj3nb3q" align="center" vAlign="middle" fill="scaleMatchHeight"/>
+    <text id="n5_j3nb" name="labNum" xy="-13,192" pivot="0.5,0.5" size="186,34" fontSize="30" color="#7dd045" align="center" vAlign="middle" ubb="true" autoSize="none" bold="true" singleLine="true" text="2000.5万">
+      <gearColor controller="enough" pages="1" values="#7dd045,#000000" default="#d05c45,#000000"/>
+    </text>
+    <image id="n7_10shy" name="n7" src="cy5k175" fileName="_公用--标识和图标/添加.png" pkg="g17ofscz" xy="137,35" pivot="0.5,0.5" anchor="true">
+      <gearDisplay controller="enough" pages="0"/>
+    </image>
+    <image id="n8_10shy" name="n8" src="cy5k173" fileName="_公用--标识和图标/已满足.png" pkg="g17ofscz" xy="137,36" pivot="0.5,0.5" anchor="true">
+      <gearDisplay controller="enough" pages="1"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>

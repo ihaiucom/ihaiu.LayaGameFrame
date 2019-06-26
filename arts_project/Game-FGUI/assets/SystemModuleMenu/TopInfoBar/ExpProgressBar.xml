@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="124,42" extention="ProgressBar">
+  <displayList>
+    <image id="n36_krdk" name="n36" src="jp8ra" fileName="主界面切图/进度条.png" pkg="g17ofscz" xy="0,0"/>
+    <image id="n37_krdk" name="bar" src="jp8rb" fileName="主界面切图/进度条2.png" pkg="g17ofscz" xy="0,27"/>
+    <image id="n38_krdk" name="valFlag" src="jp8rc" fileName="主界面切图/进度条3.png" pkg="g17ofscz" xy="118,24">
+      <relation target="n37_krdk" sidePair="right-right"/>
+    </image>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

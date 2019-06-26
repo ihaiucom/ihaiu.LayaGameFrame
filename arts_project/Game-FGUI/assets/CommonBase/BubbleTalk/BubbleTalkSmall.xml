@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="0,0" extention="Label">
+  <displayList>
+    <image id="n0_p9er" name="bg" src="p9er9e" fileName="公共/气泡框.png" pkg="g17ofscz" xy="-20,-48" pivot="0,1" size="207,49">
+      <relation target="n1_p9er" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_p9er" name="title" xy="-17,-44" pivot="0,1" size="200,29" fontSize="25" color="#b4aac6" autoSize="height" text="气泡说话"/>
+  </displayList>
+</component>

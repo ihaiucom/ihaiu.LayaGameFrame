@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="234,238" extention="Button">
+  <controller name="state" pages="0,正常,1,完成,2,升级" selected="0"/>
+  <controller name="action" pages="0,升级,1,突破" selected="0"/>
+  <displayList>
+    <image id="n14_j6x8" name="n14" src="9ff3xs" fileName="建筑系统/房间名牌/底2.png" pkg="g17ofscz" xy="0,-4"/>
+    <loader id="n5_m5zo" name="icon" xy="32,57" pivot="0.5,0.5" anchor="true" size="54,67" skew="0,30" url="ui://g17ofsczm5zoxq" autoSize="true"/>
+    <image id="n4_m5zo" name="n4" src="m5zoxi" fileName="建筑系统/房间名牌/lv.png" pkg="g17ofscz" xy="55,59" skew="0,30">
+      <gearDisplay controller="state" pages="0"/>
+    </image>
+    <text id="n6_m5zo" name="labLv" xy="122,91" size="70,39" skew="0,30" font="ui://vi9240bym5zows" fontSize="12" color="#d0bcbf" align="center" vAlign="middle" autoClearText="true" text="88">
+      <gearDisplay controller="state" pages="0"/>
+    </text>
+    <component id="n8_m5zo" name="proTime" src="m5zox4" fileName="ProgressBar/BuildingProgressBar.xml" pkg="jaoapdic" xy="57,68" skew="0,30">
+      <gearDisplay controller="state" pages="2"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <text id="n9_m5zo" name="labTime" xy="57,40" size="156,28" skew="0,30" font="ui://vi9240bym5zows" fontSize="8" color="#d0bcbf" align="center" vAlign="middle" text="00：00：00">
+      <gearDisplay controller="state" pages="2"/>
+    </text>
+    <loader id="n7_m5zo" name="imgArrow" xy="197,148" pivot="0.5,0.5" anchor="true" size="58,71" scale="0.7,0.7" skew="0,30" url="ui://g17ofsczm8r115q" autoSize="true">
+      <gearIcon controller="action" pages="1" values="ui://g17ofsczm8r115p" default="ui://g17ofsczm8r115q"/>
+    </loader>
+    <text id="n15_7rmy" name="labAction" xy="64,70" size="117,32" rotation="20" fontSize="28" color="#d0bcbf" text="升级完成">
+      <gearDisplay controller="state" pages="1"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

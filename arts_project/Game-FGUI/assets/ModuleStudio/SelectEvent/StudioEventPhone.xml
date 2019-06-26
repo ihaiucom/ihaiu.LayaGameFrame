@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="616,1186" designImage="ui://qjz790ecex1nzl" designImageOffsetX="-61" designImageOffsetY="-79" designImageAlpha="63">
+  <displayList>
+    <image id="n1_ex1n" name="n1" src="ex1n10z" fileName="_____将要移到其他包/手机.png" pkg="g17ofscz" xy="0,0" size="635,1185">
+      <relation target="" sidePair="center-center,height-height"/>
+    </image>
+    <image id="n2_ex1n" name="n2" src="ex1n110" fileName="_公用--标识和图标/手机按键.png" pkg="g17ofscz" xy="258,1046">
+      <relation target="" sidePair="bottom-bottom,center-center"/>
+    </image>
+    <text id="n6_ex1n" name="content" xy="53,291" size="523,83" fontSize="23" color="#7f7c82" autoSize="none" text="《梦想的声音》大苏打实打实 啊是多久啊大家空间 撒旦阿达大大时间爱神的箭">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <image id="n12_ex1n" name="n12" src="wx7c15j" fileName="_公用--背景--色块/半透/0x838383_Alpha_25--灰.png" pkg="g17ofscz" xy="35,647" size="559,392">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <component id="n7_ex1n" name="selectPanel" src="ex1n2j" fileName="SelectEvent/StudioEventSelectPanel.xml" xy="74,677" size="480,335">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n8_ex1n" name="n8" src="u6m719" fileName="Uer/UserHeadIcon.xml" pkg="4snov4n9" xy="46,190">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <text id="n9_ex1n" name="name" xy="133,205" size="300,34" restrictSize="300,300,0,0" fontSize="30" color="#e59a6e" autoSize="none" text="漕河泾彭于晏">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n10_ex1n" name="date" xy="134,242" size="224,32" alpha="0.5" fontSize="22" color="#7f7c82" autoSize="none" text="2019-08-10&#xA;">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n11_ex1n" name="storyIcon" src="oh5iu" fileName="IconStory/StoryIcon.xml" pkg="4snov4n9" xy="220,384" controller="isGoldStory,2">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <image id="n13_ex1n" name="n13" src="ex1n10y" fileName="_公用--标识和图标/关注线框.png" pkg="g17ofscz" xy="458,202" size="111,38">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <image id="n14_ex1n" name="n14" src="ex1n111" fileName="_____将要移到其他包/海报.png" pkg="g17ofscz" xy="54,374">
+      <relation target="" sidePair="center-center"/>
+    </image>
+  </displayList>
+</component>

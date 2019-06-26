@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="415,84" scroll="horizontal">
+  <controller name="tabItem" exported="true" pages="0,normal,1,special" selected="0"/>
+  <displayList>
+    <component id="n27_kchl" name="n27" src="kchlh" fileName="Component/InformationTabButton.xml" xy="101,32" pivot="0.5,0.5" anchor="true" controller="button,1">
+      <Button checked="true" controller="tabItem" page="0"/>
+    </component>
+    <image id="n29_kchl" name="n29" src="fz5p12l" fileName="_公用--线/线--大小5--粉红.png" pkg="g17ofscz" xy="0,73" size="415,5"/>
+    <component id="n30_kchl" name="n30" src="kchlh" fileName="Component/InformationTabButton.xml" xy="312,33" pivot="0.5,0.5" anchor="true" size="202,65" controller="button,0">
+      <Button title="特殊情报" controller="tabItem" page="1"/>
+    </component>
+    <image id="n31_kchl" name="n31" src="kchl15m" fileName="__临时UI/侧弹窗线框箭头引导.png" pkg="g17ofscz" xy="101,81" pivot="0.5,0.5" anchor="true" size="205,13">
+      <gearXY controller="tabItem" pages="1" values="312,81" default="101,81" tween="true"/>
+    </image>
+  </displayList>
+</component>

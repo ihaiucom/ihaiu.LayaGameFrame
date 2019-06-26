@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" initName="actorGroup_5">
+  <displayList>
+    <component id="n35_e8j7" name="actor_4" src="g2f5h" fileName="StudioMovieClipActor.xml" pkg="uxeuf40s" xy="457,930" scale="0.6,0.6" customData="{&quot;direction&quot;:1}">
+      <Label icon="ui://qjz790ecl291h"/>
+    </component>
+    <component id="n30_e8j7" name="actor_3" src="g2f5h" fileName="StudioMovieClipActor.xml" pkg="uxeuf40s" xy="298,973" scale="0.65,0.65" customData="{&quot;direction&quot;:2}">
+      <Label icon="ui://qjz790ecl291k"/>
+    </component>
+    <component id="n31_e8j7" name="actor_2" src="g2f5h" fileName="StudioMovieClipActor.xml" pkg="uxeuf40s" xy="596,1194" scale="0.7,0.7" customData="{&quot;direction&quot;:1}">
+      <Label icon="ui://qjz790ecl291k"/>
+    </component>
+    <component id="n32_e8j7" name="actor_1" src="g2f5h" fileName="StudioMovieClipActor.xml" pkg="uxeuf40s" xy="209,1179" scale="0.7,0.7" customData="{&quot;direction&quot;:2}">
+      <Label icon="ui://qjz790ecl291i"/>
+    </component>
+    <component id="n33_e8j7" name="actor_0" src="g2f5h" fileName="StudioMovieClipActor.xml" pkg="uxeuf40s" xy="412,1158" scale="0.7,0.7" customData="{&quot;direction&quot;:1}">
+      <Label icon="ui://qjz790ecl291g"/>
+    </component>
+  </displayList>
+</component>

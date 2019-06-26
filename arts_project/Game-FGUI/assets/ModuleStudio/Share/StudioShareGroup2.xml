@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" pivot="0.5,0.5" anchor="true">
+  <displayList>
+    <loader id="n30_la1j" name="actor_0" xy="-103,55" size="700,1274" filter="color" filterData="0.00,-0.30,-0.30,0.00" url="ui://qjz790ecl291g" align="center" vAlign="bottom" fill="scaleMatchHeight"/>
+    <loader id="n31_la1j" name="actor_1" xy="102,178" size="700,1274" url="ui://qjz790ecl291j" align="center" vAlign="bottom" fill="scaleMatchHeight"/>
+    <component id="n36_la1j" name="actorName_0" src="la1j1s" fileName="Share/StudioShareActorName.xml" xy="60,244" controller="state,1"/>
+    <component id="n37_la1j" name="actorName_1" src="la1j1s" fileName="Share/StudioShareActorName.xml" xy="532,253" controller="state,0"/>
+  </displayList>
+</component>

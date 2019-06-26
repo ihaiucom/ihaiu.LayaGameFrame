@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,200" extention="Label">
+  <displayList>
+    <loader id="n0_drus" name="icon" xy="0,0" size="200,200" align="center" vAlign="middle" fill="scaleMatchHeight">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+</component>

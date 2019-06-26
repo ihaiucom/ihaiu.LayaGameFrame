@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" overflow="scroll" scroll="horizontal" scrollBarFlags="10">
+  <displayList>
+    <component id="n0_rabz" name="panel_0" src="rabz1" fileName="Panel.xml" xy="0,0" controller="panel,0"/>
+    <component id="n1_rabz" name="panel_1" src="rabz1" fileName="Panel.xml" xy="750,0" controller="panel,1"/>
+    <component id="n2_rabz" name="panel_2" src="rabz1" fileName="Panel.xml" xy="1500,0" controller="panel,2"/>
+    <component id="n3_rabz" name="panel_3" src="rabz1" fileName="Panel.xml" xy="2250,0" controller="panel,3"/>
+    <component id="n4_rabz" name="panel_4" src="rabz1" fileName="Panel.xml" xy="3000,0" controller="panel,4"/>
+  </displayList>
+</component>

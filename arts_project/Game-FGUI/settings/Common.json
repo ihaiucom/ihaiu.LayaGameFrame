@@ -1,0 +1,15 @@
+{
+	"buttonClickSound":"",
+	"colorScheme":["自定义颜色 #FF0000","字体 蓝色 #9584FF","自定义颜色 #aca2d8","自定义颜色 #7f7c82","自定义颜色 #e59a6e","自定义颜色 #ffb6c2","自定义颜色 #b4aac6","","自定义颜色 #FFFFFF","自定义颜色 #CAB3B7","自定义颜色 #ACA6BA"],
+	"font":"SimHei",
+	"fontScheme":["默认字体"],
+	"fontSize":28,
+	"fontSizeScheme":["自定义字体大小 25","自定义字体大小 28","自定义字体大小 30","自定义字体大小 35"],
+	"scrollBars":{
+		"defaultDisplay":"visible",
+		"horizontal":"",
+		"vertical":""
+	},
+	"textColor":"#d0bcbf",
+	"tipsRes":""
+}

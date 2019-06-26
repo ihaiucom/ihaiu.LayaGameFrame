@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,246" designImage="ui://g17ofsczwprd3u" designImageOffsetX="-278" designImageOffsetY="-243" designImageAlpha="0">
+  <controller name="evolve" pages="0,NO,1,OK" selected="1"/>
+  <displayList>
+    <loader id="n5_ol35" name="icon" xy="100,123" pivot="0.5,0.5" anchor="true" size="182,230" url="ui://qjz790eci3pq29" align="center" vAlign="middle" fill="scaleNoBorder" shrinkOnly="true" autoSize="true"/>
+    <image id="n0_ol35" name="n0" src="i3pq2a" fileName="公共/script_bg_frame.png" pkg="g17ofscz" xy="0,0" group="n6_ol35"/>
+    <image id="n1_ol35" name="n1" src="i3pq2c" fileName="公共/script_flag_grey.png" pkg="g17ofscz" xy="11,3" group="n6_ol35"/>
+    <group id="n6_ol35" name="n6" xy="0,0" size="200,246" advanced="true">
+      <gearDisplay controller="evolve" pages="0"/>
+    </group>
+    <image id="n2_ol35" name="n2" src="e2wx7r" fileName="公共/script_bg_frame_glod.png" pkg="g17ofscz" xy="0,0" group="n7_ol35"/>
+    <image id="n3_ol35" name="n3" src="i3pq2b" fileName="公共/script_flag_gpld.png" pkg="g17ofscz" xy="11,3" group="n7_ol35"/>
+    <group id="n7_ol35" name="n7" xy="0,0" size="200,246" advanced="true">
+      <gearDisplay controller="evolve" pages="1"/>
+    </group>
+    <component id="n8_ibt2" name="star" src="ol352" fileName="Component/StoryStar.xml" xy="9,202"/>
+  </displayList>
+</component>
