@@ -1,3 +1,4 @@
-﻿_gen
+_gen
 !*.dll
 !*.exe
+design/Tool-Config/Logs/Log.txt
