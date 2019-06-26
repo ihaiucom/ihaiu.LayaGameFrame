@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="480,300" overflow="hidden">
-  <displayList>
-    <loader id="n3_wsru" name="shadow" xy="11,2" size="480,1226" alpha="0.45" filter="color" filterData="-1.00,0.00,0.00,0.00" url="ui://g17ofsczwsru17m" playing="false"/>
-    <loader id="n2_hgvb" name="icon" xy="0,0" size="480,1226" url="ui://qjz790ecjej7xr" playing="false"/>
-  </displayList>
-</component>

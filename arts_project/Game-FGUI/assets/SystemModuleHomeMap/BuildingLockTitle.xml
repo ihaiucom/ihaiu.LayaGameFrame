@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="150,100" pivot="0.5,0.5" anchor="true">
-  <displayList>
-    <image id="n0_kp2b" name="imgLock" src="sz6uap" fileName="建筑系统/锁定.png" pkg="g17ofscz" xy="74,0" pivot="0.5,0" anchor="true" size="49,64"/>
-    <text id="n1_kp2b" name="labTitle" xy="75,83" pivot="0.5,0.5" anchor="true" size="126,34" fontSize="30" color="#cccccc" text="28级解锁"/>
-  </displayList>
-</component>

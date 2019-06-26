@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <packageDescription id="4bbdqtki" jpegQuality="80" compressPNG="true">
-  <resources>
-    <component id="dix10" name="GuideWindowUI.xml" path="/" exported="true"/>
-    <component id="dix11" name="GuideFinger.xml" path="/GuideComponent/" exported="true"/>
-    <component id="dix12" name="GuideAperture.xml" path="/GuideComponent/" exported="true"/>
-    <component id="wcyo3" name="PlotDialogView.xml" path="/PlotComponent/" exported="true"/>
-    <component id="wcyo4" name="PlotDialogButton.xml" path="/PlotComponent/" exported="true"/>
-    <component id="wcyo6" name="PlotGuideButton.xml" path="/PlotComponent/" exported="true"/>
-    <component id="wcyo8" name="PlotDialogInfo.xml" path="/PlotComponent/" exported="true"/>
-    <component id="wcyo9" name="GuideMask.xml" path="/GuideComponent/" exported="true"/>
-  </resources>
-  <publish name="SystemModuleGuide" genCode="true"/>
+  <resources/>
+  <publish name="SystemModuleGuide"/>
 </packageDescription>

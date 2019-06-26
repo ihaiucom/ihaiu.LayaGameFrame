@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="750,1280" adaptationTest="FitSize">
   <controller name="boxHeightCtrl" exported="true" pages="0,,1," selected="0"/>
-  <controller name="isItemTip" alias="展示物品" exported="true" pages="0,no,1,yes" selected="0"/>
   <displayList>
     <loader id="n20_pf6a" name="bg" xy="-2,-355" size="754,1991" url="ui://g17ofsczwx7c15k" fill="scaleFree">
       <relation target="" sidePair="width-width"/>
@@ -22,7 +21,6 @@
       <relation target="n18_pf6a" sidePair="center-center,middle-middle"/>
     </text>
     <component id="n16_pf6a" name="confirmBtn" src="wpxmw3" fileName="Button/StudioRenameButton.xml" pkg="jaoapdic" xy="222,806" size="306,86">
-      <gearDisplay controller="isItemTip" pages="0"/>
       <relation target="n15_pf6a" sidePair="bottom-bottom"/>
       <relation target="" sidePair="center-center"/>
     </component>

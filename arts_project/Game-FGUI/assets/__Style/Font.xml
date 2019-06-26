@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,400">
+  <displayList>
+    <text id="n0_aqhj" name="n0" xy="36,61" size="355,35" font="ui://vi9240byaqhj9" fontSize="28" color="#ffffff" autoSize="none" text="超凡王牌爆红热门总分"/>
+    <text id="n2_aqhj" name="n2" xy="-5,-27" size="417,57" font="ui://vi9240byaqhjc" fontSize="28" color="#ffffff" vAlign="middle" leading="0" letterSpacing="-11" autoSize="none" text="超凡王牌爆红热门总分"/>
+    <text id="n5_aqhj" name="n5" xy="-832,-267" size="1654,132" font="ui://vi9240bykmxd1p" fontSize="28" color="#ffffff" autoSize="shrink" text="常驻嘉宾特邀流量担当结识艺人"/>
+    <text id="n9_aqhj" name="n9" xy="-340,-474" size="1028,60" font="ui://vi9240by5kbu1a" fontSize="28" color="#ffffff" leading="2" autoSize="none" text="确认继续下一步开始完成拍摄键收取解析"/>
+    <text id="n12_ipdk" name="n12" xy="-149,-135" size="490,81" font="ui://vi9240byipdky" fontSize="28" color="#ffffff" autoSize="none" text="0123456789"/>
+    <text id="n15_5kbu" name="n15" xy="-146,125" size="674,89" font="ui://vi9240by5kbu17" fontSize="28" color="#ffffff" autoSize="none" text="0123456789%"/>
+    <text id="n16_5kbu" name="n16" xy="-410,-403" size="1378,70" font="ui://vi9240by5kbu1g" fontSize="28" color="#ffffff" autoSize="none" text="剧本选择网综收益标签匹配豆瓣评分总播放量艺人招募获得物品"/>
+    <text id="n18_5kbu" name="n18" xy="-220,-587" size="566,53" font="ui://vi9240by5kbu1j" fontSize="28" color="#ffffff" autoSize="none" text="星座身高外型性格特长爱好情报+"/>
+    <text id="n19_kmxd" name="n19" xy="-612,-6" size="437,140" font="ui://vi9240bykmxd1s" fontSize="28" color="#ffffff" autoSize="none" text="升级建造中."/>
+    <text id="n3_aqhj" name="n3" xy="41,54" size="417,57" font="ui://vi9240byaqhjc" fontSize="28" color="#ffffff" vAlign="middle" leading="0" letterSpacing="-11" autoSize="none" text="总分总总总"/>
+    <text id="n5_aqhj" name="n5" xy="-358,-311" size="1136,159" font="ui://vi9240byaqhji" fontSize="28" color="#ffffff" autoSize="shrink" text="常驻嘉宾特邀流量担当"/>
+    <text id="n9_aqhj" name="n9" xy="-340,-474" size="888,60" font="ui://vi9240byaqhjl" fontSize="28" color="#ffffff" autoSize="none" text="确认继续下一步开始完成拍摄键收取"/>
+    <text id="n10_aqhj" name="n10" xy="-295,-392" size="1118,72" font="ui://vi9240byaqhjp" fontSize="28" color="#ffffff" autoSize="none" text="剧本选择网综收益标签匹配豆瓣评分总播放量艺人"/>
+    <text id="n12_ipdk" name="n12" xy="-312,-142" size="450,81" font="ui://vi9240byipdky" fontSize="28" color="#ffffff" autoSize="none" text="0123456789"/>
+    <text id="n14_ipdk" name="n14" xy="390,-126" size="330,60" font="ui://vi9240bykmxd1s" fontSize="28" color="#ffffff" autoSize="none" text="建造升级中"/>
+  </displayList>
+</component>

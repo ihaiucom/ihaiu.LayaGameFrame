@@ -27,12 +27,12 @@
     <image id="ncg91h" name="flag_card_panel4.png" path="/" exported="true" scale="9grid" scale9grid="15,0,5,49"/>
     <image id="ncg91k" name="flag_property_guang.png" path="/" exported="true"/>
     <image id="ncg91l" name="flag_property_guang2.png" path="/" exported="true"/>
-    <image id="ncg91m" name="flag_property_panel1.png" path="/" exported="true" gridTile="31"/>
+    <image id="ncg91m" name="flag_property_panel1.png" path="/" exported="true" scale="9grid" scale9grid="12,13,8,8"/>
     <image id="ncg91o" name="flag_property_panel4.png" path="/" exported="true" scale="9grid" scale9grid="15,25,30,24"/>
     <image id="ncg91p" name="flag_property_panel5.png" path="/" exported="true" scale="9grid" scale9grid="16,26,32,10"/>
     <image id="ncg92g" name="icon_coin.png" path="/" exported="true"/>
     <image id="ncg92m" name="icon_women.png" path="/" exported="true"/>
-    <image id="ncg92o" name="bg_card.png" path="/" exported="true" scale="9grid" scale9grid="40,30,80,60"/>
+    <image id="ncg92o" name="bg_card.png" path="/"/>
     <image id="ncg92u" name="flag_card_highlight1.png" path="/" exported="true" scale="9grid" scale9grid="38,31,41,93"/>
     <image id="ncg92v" name="flag_card_panel.png" path="/" exported="true" scale="9grid" scale9grid="86,77,13,12"/>
     <image id="ncg92w" name="flag_card_panel1.png" path="/" exported="true" scale="9grid" scale9grid="40,30,13,20"/>

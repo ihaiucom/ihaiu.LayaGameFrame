@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="752,850">
+  <displayList>
+    <image id="n17_cwvw" name="n17" src="e12kyb" fileName="拍摄/剧本/背景横线.png" xy="0,326" size="752,524">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n19_cwvw" name="n19" src="e12kzc" fileName="拍摄/剧本/背景底板.png" xy="0,0" size="752,850">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n18_cwvw" name="n18" src="e12kzd" fileName="拍摄/剧本/背景粉色渐变.png" xy="0,711" size="752,138">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n12_9th1" name="n12" src="e12kz7" fileName="拍摄/剧本/按钮后半透底板.png" xy="0,712" size="760,137">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+</component>

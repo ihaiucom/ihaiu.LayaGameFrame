@@ -2,23 +2,24 @@
 <component size="750,351" designImage="ui://qjz790eci3pq1g" designImageAlpha="0">
   <controller name="success" pages="0,建造成功,1,升级成功,2,突破成功" selected="0"/>
   <displayList>
-    <loader id="n6_i3pq" name="_titile_bg" xy="76,41" pivot="1,1" size="616,154" url="ui://g17ofsczi3pq1x">
+    <loader id="n6_i3pq" name="_titile_bg" xy="76,43" pivot="1,1" size="616,154" url="ui://g17ofsczi3pq1x">
       <gearIcon controller="success" pages="2" values="ui://g17ofsczi3pq1s" default="ui://g17ofsczi3pq1x"/>
       <relation target="n17_i3pq" sidePair="center-center,top-top"/>
     </loader>
-    <loader id="n7_i3pq" name="_title_bg_glow" xy="0,-2" size="750,347" url="ui://g17ofsczi3pq1w">
+    <loader id="n7_i3pq" name="_title_bg_glow" xy="0,-1" size="750,347" url="ui://g17ofsczi3pq1w">
       <gearIcon controller="success" pages="0,1" values="ui://g17ofsczi3pq1w|ui://g17ofsczi3pq1w" default="ui://g17ofsczi3pq1r"/>
       <relation target="n17_i3pq" sidePair="center-center,top-top"/>
     </loader>
-    <loader id="n8_i3pq" name="_title_name" xy="248,43" pivot="0.5,0.5" size="253,75" url="ui://g17ofsczi3pq1u">
+    <loader id="n8_i3pq" name="_title_name" xy="248,45" pivot="0.5,0.5" size="253,75" url="ui://g17ofsczi3pq1u">
       <gearIcon controller="success" pages="1,2" values="ui://g17ofsczi3pq1y|ui://g17ofsczi3pq1t" default="ui://g17ofsczi3pq1u"/>
       <relation target="n17_i3pq" sidePair="center-center,top-top"/>
     </loader>
-    <image id="n9_i3pq" name="_bg" src="i3pq1v" fileName="__临时UI/building_bg_upgrad.png" pkg="g17ofscz" xy="375,227" pivot="0.5,0.5" anchor="true" size="750,237">
-      <relation target="n17_i3pq" sidePair="width-width,height-height"/>
+    <image id="n9_i3pq" name="_bg" src="i3pq1v" fileName="公共/building_bg_upgrad.png" pkg="g17ofscz" xy="375,227" pivot="0.5,0.5" anchor="true" size="750,235">
+      <relation target="" sidePair="width-width"/>
+      <relation target="n17_i3pq" sidePair="height-height"/>
     </image>
-    <list id="n17_i3pq" name="listEffect" xy="375,225" pivot="0.5,0.5" anchor="true" size="750,205" touchable="false" overflow="scroll" scrollBarFlags="256" defaultItem="ui://q5yddivtr1p1s" autoClearItems="true">
-      <relation target="" sidePair="width-width,middle-middle"/>
+    <list id="n17_i3pq" name="listEffect" xy="375,225" pivot="0.5,0.5" anchor="true" size="750,203" touchable="false" overflow="scroll" scrollBarFlags="256" defaultItem="ui://q5yddivtr1p1s" autoClearItems="true">
+      <relation target="" sidePair="center-center"/>
       <item/>
       <item/>
       <item/>

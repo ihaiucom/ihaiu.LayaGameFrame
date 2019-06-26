@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="750,1334" initName="actorGroup_1">
-  <displayList>
-    <component id="n0_e8j7" name="actor_0" src="g2f5h" fileName="StudioMovieClipActor.xml" pkg="uxeuf40s" xy="382,1213" scale="0.9,0.9" customData="{&quot;direction&quot;:0}"/>
-  </displayList>
-</component>

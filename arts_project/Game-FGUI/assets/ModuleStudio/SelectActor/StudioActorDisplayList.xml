@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="750,630" overflow="scroll">
-  <displayList>
-    <component id="n42_kayd" name="content" src="kayd2a" fileName="SelectActor/StudioActorDisplayContent.xml" xy="0,0">
-      <relation target="" sidePair="width-width"/>
-    </component>
-  </displayList>
-</component>

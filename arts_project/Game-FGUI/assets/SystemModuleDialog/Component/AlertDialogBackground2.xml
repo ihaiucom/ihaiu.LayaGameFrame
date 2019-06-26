@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="750,1334" initName="frame">
   <displayList>
-    <loader id="n3_e2wx" name="closeBtn" xy="0,0" size="750,1334" url="ui://g17ofsczwx7c15k" fill="scaleFree">
+    <image id="n2_ncg9" name="n2" src="wx7c15k" fileName="_公用--背景--色块/半透/0x191919_Alpha_75--黑.png" pkg="g17ofscz" xy="0,0" size="750,1334">
       <relation target="" sidePair="width-width,height-height"/>
-    </loader>
+    </image>
+    <component id="n3_e2wx" name="closeBtn" src="e5hk1m" fileName="Button/EmptyButton.xml" pkg="jaoapdic" xy="0,0" size="750,1334"/>
   </displayList>
 </component>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="182,230">
-  <displayList>
-    <loader id="n0_ma8e" name="icon" xy="91,115" pivot="0.5,0.5" anchor="true" size="182,230" url="ui://qjz790eci3pq29" align="center" autoSize="true"/>
-    <image id="n6_ma8e" name="n6" src="i3pq2a" fileName="_公用--背景-框/script_bg_frame.png" pkg="g17ofscz" xy="92,115" pivot="0.5,0.5" anchor="true"/>
-    <component id="n12_ma8e" name="starNum" src="ma8e5" fileName="Component/StoryLotteryStar.xml" xy="2,194"/>
-  </displayList>
-</component>

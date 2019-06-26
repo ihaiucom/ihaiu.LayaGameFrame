@@ -46,9 +46,5 @@
     <image id="n51_t6bw" name="n51" src="t6bw16a" fileName="_公用--标识和图标/新标识.png" xy="245,659"/>
     <image id="n52_q99d" name="n52" src="q99d16n" fileName="_公用--标识和图标/解析失败.png" xy="187,229"/>
     <image id="n53_q99d" name="n53" src="q99d16l" fileName="_公用--标识和图标/叉.png" xy="511,155"/>
-    <image id="n54_cy5k" name="n54" src="cy5k176" fileName="_公用--标识和图标/箭头.png" xy="504,672"/>
-    <image id="n55_cy5k" name="n55" src="cy5k174" fileName="_公用--标识和图标/拍摄标识.png" xy="384,728"/>
-    <image id="n56_cy5k" name="n56" src="cy5k173" fileName="_公用--标识和图标/已满足.png" xy="236,736"/>
-    <image id="n57_cy5k" name="n57" src="cy5k175" fileName="_公用--标识和图标/添加.png" xy="439,674"/>
   </displayList>
 </component>

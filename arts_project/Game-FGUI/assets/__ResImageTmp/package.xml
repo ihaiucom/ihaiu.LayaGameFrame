@@ -4,13 +4,7 @@
     <image id="szhv4" name="icon_film_zjm.png" path="/MenuIcon/"/>
     <image id="szhvg" name="icon_run_zjm.png" path="/MenuIcon/"/>
     <image id="szhvi" name="icon_set_zjm.png" path="/MenuIcon/"/>
-    <image id="szhvk" name="icon_awards_zjm.png" path="/MenuIcon/" exported="true"/>
-    <component id="mohjl" name="Component1.xml" path="/"/>
-    <image id="mohjm" name="map_00.png" path="/HomeMap/" exported="true" scale="" atlas="alone_npot"/>
-    <image id="mohjn" name="map_01.jpg" path="/HomeMap/" exported="true" scale="" atlas="alone_npot"/>
-    <image id="mohjp" name="01_01.png" path="/HomeBuilding/01/" exported="true" scale="" atlas="1"/>
-    <image id="mohjs" name="03_01.png" path="/HomeBuilding/01/" exported="true" scale="" atlas="1"/>
-    <image id="jp8rw" name="主界面效果图.png" path="/" exported="true"/>
+    <image id="szhvk" name="icon_awards_zjm.png" path="/MenuIcon/"/>
     <image id="krdky" name="任务.png" path="/MenuIcon/"/>
     <image id="krdkz" name="商城.png" path="/MenuIcon/"/>
     <image id="krdk10" name="奖励.png" path="/MenuIcon/"/>
@@ -23,208 +17,22 @@
     <image id="krdk17" name="icon艺人.png" path="/MenuIcon/" exported="true"/>
     <image id="krdk18" name="打板器.png" path="/MenuIcon/" exported="true"/>
     <image id="krdk19" name="摄像.png" path="/MenuIcon/"/>
-    <image id="i3pq1a" name="弹出框_建造_建筑升级.png" path="/"/>
-    <image id="i3pq1b" name="弹出框_建造_建筑升级状态.png" path="/"/>
-    <image id="i3pq1c" name="弹出框_建造_建筑建造.png" path="/"/>
-    <image id="i3pq1d" name="弹出框_建造_建筑突破.png" path="/"/>
-    <image id="i3pq1e" name="弹出框_建造_艺人进驻.png" path="/"/>
-    <image id="i3pq1f" name="弹出框_建造_艺人选择.png" path="/"/>
-    <image id="i3pq1g" name="弹出框_建造_升级.png" path="/"/>
-    <image id="i3pq1h" name="弹出框_建造_建造完成.png" path="/"/>
-    <image id="i3pq1i" name="弹出框_建造_突破.png" path="/"/>
-    <image id="i3pq1j" name="弹出框_建造入口.png" path="/"/>
-    <component id="gq1w1a" name="Component2.xml" path="/"/>
-    <component id="etda2c" name="ClickFx.xml" path="/"/>
     <image id="l291j" name="CaiXukun.png" path="/ActorBodyIcon/" exported="true"/>
     <image id="l291g" name="OuyangNana.png" path="/ActorBodyIcon/" exported="true"/>
     <image id="l291i" name="WuXuanyi.png" path="/ActorBodyIcon/" exported="true"/>
     <image id="l291k" name="WuYifan.png" path="/ActorBodyIcon/" exported="true"/>
     <image id="l291h" name="YangMi.png" path="/ActorBodyIcon/" exported="true"/>
     <image id="l2912" name="changjing.png" path="/StoryScene/" exported="true"/>
-    <image id="l2912d" name="属性图.png" path="/" exported="true"/>
-    <image id="ghg4wj" name="map_0.jpg" path="/HomeMap/"/>
-    <image id="ghg4wk" name="01_03.png" path="/HomeBuilding/03/"/>
-    <image id="ghg4wl" name="02_03.png" path="/HomeBuilding/03/"/>
-    <image id="ghg4wm" name="03_03.png" path="/HomeBuilding/03/"/>
-    <image id="ghg4wn" name="04_03.png" path="/HomeBuilding/03/"/>
-    <image id="ghg4wo" name="05_03.png" path="/HomeBuilding/03/"/>
-    <image id="ghg4wp" name="06_03.png" path="/HomeBuilding/03/"/>
-    <image id="ghg4wq" name="07_03.png" path="/HomeBuilding/03/"/>
-    <image id="ghg4wr" name="08_03.png" path="/HomeBuilding/03/"/>
-    <image id="ghg4ws" name="09_03.png" path="/HomeBuilding/03/"/>
-    <image id="ghg4wt" name="01_02.png" path="/HomeBuilding/02/"/>
-    <image id="ghg4wu" name="02_02.png" path="/HomeBuilding/02/"/>
-    <image id="ghg4wv" name="03_02.png" path="/HomeBuilding/02/"/>
-    <image id="ghg4ww" name="04_02.png" path="/HomeBuilding/02/"/>
-    <image id="ghg4wx" name="05_02.png" path="/HomeBuilding/02/"/>
-    <image id="ghg4wy" name="06_02.png" path="/HomeBuilding/02/"/>
-    <image id="ghg4wz" name="07_02.png" path="/HomeBuilding/02/"/>
-    <image id="ghg4x0" name="08_02.png" path="/HomeBuilding/02/"/>
-    <image id="ghg4x1" name="09_02.png" path="/HomeBuilding/02/"/>
-    <image id="ghg4x2" name="02_01.png" path="/HomeBuilding/01/" exported="true"/>
-    <image id="ghg4x3" name="04_01.png" path="/HomeBuilding/01/"/>
-    <image id="ghg4x4" name="05_01.png" path="/HomeBuilding/01/"/>
-    <image id="ghg4x5" name="06_01.png" path="/HomeBuilding/01/"/>
-    <image id="ghg4x6" name="07_01.png" path="/HomeBuilding/01/"/>
-    <image id="ghg4x7" name="08_01.png" path="/HomeBuilding/01/"/>
-    <image id="ghg4x8" name="09_01.png" path="/HomeBuilding/01/"/>
-    <image id="ghg4x9" name="01_00.png" path="/HomeBuilding/00/"/>
-    <image id="ghg4xa" name="02_00.png" path="/HomeBuilding/00/"/>
-    <image id="ghg4xb" name="03_00.png" path="/HomeBuilding/00/"/>
-    <image id="ghg4xc" name="04_00.png" path="/HomeBuilding/00/"/>
-    <image id="ghg4xd" name="05_00.png" path="/HomeBuilding/00/"/>
-    <image id="ghg4xe" name="06_00.png" path="/HomeBuilding/00/"/>
-    <image id="ghg4xf" name="07_00.png" path="/HomeBuilding/00/"/>
-    <image id="ghg4xg" name="08_00.png" path="/HomeBuilding/00/"/>
-    <image id="ghg4xh" name="09_00.png" path="/HomeBuilding/00/"/>
-    <image id="ghg4xi" name="home_map_01_01.jpg" path="/HomeMap/home_map_01/" exported="true"/>
-    <image id="ghg4xj" name="home_map_01_02.jpg" path="/HomeMap/home_map_01/" exported="true"/>
-    <image id="ghg4xk" name="home_map_01_03.jpg" path="/HomeMap/home_map_01/" exported="true"/>
-    <image id="ghg4xl" name="home_map_01_04.jpg" path="/HomeMap/home_map_01/" exported="true"/>
-    <image id="ghg4xm" name="home_map_01_05.jpg" path="/HomeMap/home_map_01/" exported="true"/>
-    <image id="ghg4xn" name="home_map_01_06.jpg" path="/HomeMap/home_map_01/" exported="true"/>
-    <image id="ghg4xo" name="home_map_01_07.jpg" path="/HomeMap/home_map_01/" exported="true"/>
-    <image id="ghg4xp" name="home_map_01_08.jpg" path="/HomeMap/home_map_01/" exported="true"/>
-    <image id="p9erxq" name="shadow.png" path="/"/>
-    <image id="jej7xs" name="artist_000002.png" path="/" exported="true"/>
-    <image id="jej7xt" name="CaiXukun.png" path="/"/>
     <image id="jej7xu" name="主界面效果图.png" path="/效果图/"/>
-    <image id="jej7xv" name="艺人_属性.png" path="/效果图/艺人/"/>
-    <image id="jej7y7" name="剧本_详情.png" path="/效果图/剧本库/"/>
-    <image id="jej7y8" name="剧本_详情_只有一个.png" path="/效果图/剧本库/"/>
-    <image id="jej7y9" name="剧本_详情_滑倒中间.png" path="/效果图/剧本库/"/>
-    <image id="jej7ya" name="剧本_详情_滑到头.png" path="/效果图/剧本库/"/>
-    <image id="jej7yb" name="剧本列表_剧本库.png" path="/效果图/剧本库/"/>
-    <image id="jej7yc" name="剧本列表_剧本库01.png" path="/效果图/剧本库/"/>
-    <image id="jej7yd" name="未命名_剧本_详情03.png" path="/效果图/剧本库/"/>
-    <image id="jej7ye" name="弹出框_建造_升级.png" path="/效果图/建筑/建造系统/Old/"/>
-    <image id="jej7yf" name="弹出框_建造_建筑升级.png" path="/效果图/建筑/建造系统/Old/"/>
-    <image id="jej7yg" name="弹出框_建造_建筑升级状态.png" path="/效果图/建筑/建造系统/Old/"/>
-    <image id="jej7yh" name="弹出框_建造_建筑建造.png" path="/效果图/建筑/建造系统/Old/"/>
-    <image id="jej7yi" name="弹出框_建造_建筑突破.png" path="/效果图/建筑/建造系统/Old/"/>
-    <image id="jej7yj" name="弹出框_建造_建造完成.png" path="/效果图/建筑/建造系统/Old/"/>
-    <image id="jej7yk" name="弹出框_建造_突破.png" path="/效果图/建筑/建造系统/Old/"/>
-    <image id="jej7yl" name="弹出框_建造_艺人进驻.png" path="/效果图/建筑/建造系统/Old/"/>
-    <image id="jej7ym" name="弹出框_建造_艺人选择.png" path="/效果图/建筑/建造系统/Old/"/>
-    <image id="jej7yn" name="弹出框_建造入口.png" path="/效果图/建筑/建造系统/Old/"/>
-    <image id="jej7yu" name="情报系统_全部情报.png" path="/效果图/情报/"/>
-    <image id="jej7yv" name="情报系统_情报获得公示.png" path="/效果图/情报/"/>
-    <image id="jej7yw" name="情报系统_情报解析.png" path="/效果图/情报/"/>
-    <image id="jej7yx" name="情报系统_普通情报.png" path="/效果图/情报/"/>
-    <image id="jej7yy" name="情报系统_特殊情报.png" path="/效果图/情报/"/>
-    <image id="jej7yz" name="情报系统_获得情报.png" path="/效果图/情报/"/>
-    <image id="l44gz1" name="海报.png" path="/"/>
-    <image id="l44gz2" name="情报社系统.png" path="/效果图/情报/"/>
-    <image id="u6m749" name="临时头像1.png" path="/临时公用头像或者海报/" exported="true"/>
-    <image id="u6m74a" name="临时头像2.png" path="/临时公用头像或者海报/"/>
-    <image id="u6m74b" name="临时头像3.png" path="/临时公用头像或者海报/"/>
-    <image id="u6m74c" name="临时头像4.png" path="/临时公用头像或者海报/"/>
-    <image id="u6m74d" name="临时头像5.png" path="/临时公用头像或者海报/"/>
-    <image id="u6m74e" name="临时头像6.png" path="/临时公用头像或者海报/"/>
-    <image id="u6m74f" name="头像.png" path="/临时公用头像或者海报/"/>
-    <image id="u6m74g" name="头像2.png" path="/临时公用头像或者海报/"/>
-    <image id="u6m74h" name="头像3.png" path="/临时公用头像或者海报/"/>
-    <image id="u6m74i" name="头像4.png" path="/临时公用头像或者海报/"/>
-    <image id="u6m74j" name="拍摄背景.png" path="/临时公用头像或者海报/"/>
-    <image id="u6m74k" name="海报1.png" path="/临时公用头像或者海报/"/>
-    <image id="u6m74l" name="海报2.png" path="/临时公用头像或者海报/"/>
-    <image id="u6m74m" name="海报3.png" path="/临时公用头像或者海报/" exported="true"/>
-    <image id="ncg91u" name="bg.png" path="/" exported="true"/>
-    <image id="wpxm7n" name="效果图弹窗.png" path="/"/>
-    <image id="pz3xw" name="000001.png" path="/" exported="true"/>
-    <image id="u6m74w" name="头像1.png" path="/" exported="true"/>
-    <image id="u6m74x" name="头像2.png" path="/" exported="true"/>
-    <image id="u6m74y" name="头像3.png" path="/" exported="true"/>
-    <image id="kplq7y" name="icon_story_type2.png" path="/" exported="true"/>
-    <image id="pc70xr" name="网综收益.png" path="/"/>
-    <image id="vdtexr" name="home_map_01_09.jpg" path="/HomeMap/home_map_01/" exported="true"/>
-    <image id="vdtexs" name="home_map_01_10.jpg" path="/HomeMap/home_map_01/" exported="true"/>
-    <image id="vdtext" name="home_map_01_11.jpg" path="/HomeMap/home_map_01/" exported="true"/>
-    <image id="vdtexu" name="home_map_01_12.jpg" path="/HomeMap/home_map_01/" exported="true"/>
-    <image id="vdtexv" name="home_map_01_13.jpg" path="/HomeMap/home_map_01/" exported="true"/>
-    <image id="vdtexw" name="home_map_01_14.jpg" path="/HomeMap/home_map_01/" exported="true"/>
-    <image id="vdtexx" name="home_map_01_15.jpg" path="/HomeMap/home_map_01/" exported="true"/>
-    <image id="vdtexy" name="home_map_01_16.jpg" path="/HomeMap/home_map_01/" exported="true"/>
-    <image id="kplq82" name="效果图.png" path="/" exported="true"/>
-    <image id="e9ray2" name="Studio.png" path="/Background/" exported="true"/>
-    <image id="oh5iw9" name="海报3.png" path="/" exported="true"/>
     <image id="e9ray3" name="movie1.png" path="/StoryIcon/" exported="true"/>
     <image id="e9ray4" name="movie2.png" path="/StoryIcon/" exported="true"/>
     <image id="e9ray5" name="movie3.png" path="/StoryIcon/" exported="true"/>
-    <image id="kaydz3" name="边界线.png" path="/临时公用头像或者海报/"/>
-    <image id="kaydz4" name="标题.png" path="/临时公用头像或者海报/"/>
-    <image id="kaydz5" name="返回.png" path="/临时公用头像或者海报/"/>
-    <image id="kaydz6" name="关键属性：.png" path="/临时公用头像或者海报/"/>
-    <image id="kaydz7" name="开始拍摄.png" path="/临时公用头像或者海报/"/>
-    <image id="kaydz8" name="上阵艺人头像.png" path="/临时公用头像或者海报/"/>
-    <image id="kaydz9" name="属性底板.png" path="/临时公用头像或者海报/"/>
-    <image id="kaydza" name="特邀标识.png" path="/临时公用头像或者海报/"/>
-    <image id="kaydzb" name="选中边框.png" path="/临时公用头像或者海报/"/>
-    <image id="kaydzc" name="艺人位底板.png" path="/临时公用头像或者海报/"/>
-    <image id="kaydzd" name="艺人信息半身像.png" path="/临时公用头像或者海报/"/>
-    <image id="kaydze" name="艺人信息底板.png" path="/临时公用头像或者海报/"/>
-    <image id="e12kzf" name="拍摄艺人选择.png" path="/效果图/拍摄/" exported="true"/>
-    <image id="e12kzg" name="拍摄标签匹配.png" path="/效果图/拍摄/" exported="true"/>
-    <image id="e12kzh" name="YangMi.png" path="/"/>
-    <image id="e12kzi" name="拍摄剧本选择效果图1.png" path="/效果图/拍摄/"/>
     <image id="g2f5zj" name="defalut.png" path="/StoryScene/" exported="true"/>
     <image id="g2f5zk" name="normal_01.png" path="/StoryScene/" exported="true"/>
-    <image id="n8bkzj" name="拍摄剧本选择效果图2.png" path="/效果图/拍摄/"/>
-    <image id="n8bkzk" name="拍摄剧本选择效果图3.png" path="/效果图/拍摄/" exported="true"/>
-    <image id="ex1nzl" name="拍摄1选择话题_字数超过两行.png" path="/效果图/拍摄/"/>
-    <image id="ex1nzm" name="拍摄3选择话题_弹窗.png" path="/效果图/拍摄/"/>
-    <image id="mfspzo" name="拍摄豆瓣评分.png" path="/效果图/拍摄/"/>
-    <image id="mfspzp" name="拍摄流程界面结束.png" path="/效果图/拍摄/"/>
-    <image id="mfspzq" name="盖章_热门.png" path="/"/>
-    <image id="mfspzr" name="拍摄完成.png" path="/效果图/拍摄/"/>
-    <image id="fz5pzt" name="剧本列表_分享图.jpg" path="/效果图/拍摄/"/>
-    <image id="fz5pzu" name="小tips效果图.png" path="/效果图/拍摄/"/>
-    <image id="fz5pzv" name="拍摄2选择话题_字数没有超过两行.png" path="/效果图/拍摄/"/>
-    <image id="fz5pzw" name="拍摄4选择话题_弹窗tips.png" path="/效果图/拍摄/"/>
-    <image id="fz5pzx" name="拍摄_匹配展示.png" path="/效果图/拍摄/"/>
-    <image id="fz5pzy" name="拍摄后续收益.png" path="/效果图/拍摄/"/>
-    <image id="fz5pzz" name="拍摄后续收益弹窗.png" path="/效果图/拍摄/"/>
-    <image id="fz5p100" name="拍摄标签匹配_4个标签.png" path="/效果图/拍摄/"/>
-    <image id="fz5p101" name="拍摄流程界面1.png" path="/效果图/拍摄/"/>
-    <image id="fz5p102" name="拍摄流程界面2.png" path="/效果图/拍摄/"/>
-    <image id="fz5p103" name="拍摄流程界面3.png" path="/效果图/拍摄/"/>
-    <image id="fz5p104" name="拍摄结算.png" path="/效果图/拍摄/"/>
-    <image id="fz5p105" name="拍摄艺人选择_特邀.png" path="/效果图/拍摄/"/>
-    <image id="fz5p106" name="效果图弹窗.png" path="/效果图/拍摄/"/>
-    <image id="i3pq29" name="script_00001.jpg" path="/" exported="true"/>
-    <image id="ra7z15e" name="Bitmap.png" path="/" exported="true"/>
-    <component id="cljq15f" name="Component4.xml" path="/"/>
-    <image id="e3wc15f" name="后续收益效果图1个状态.png" path="/效果图/拍摄/"/>
-    <image id="e3wc15g" name="后续收益效果图2个状态.png" path="/效果图/拍摄/"/>
-    <image id="e3wc15h" name="后续收益效果图多个状态.png" path="/效果图/拍摄/"/>
-    <component id="aqhj15i" name="ZitiTest.xml" path="/"/>
-    <component id="h2g815e" name="DecorationAnimationItem.xml" path="/" exported="true"/>
-    <image id="kchl15k" name="按钮二态.png" path="/Info/" exported="true" scale="9grid" scale9grid="23,17,46,34"/>
-    <image id="t52g15l" name="特殊解析.png" path="/"/>
-    <image id="t52g15m" name="普通解析1.png" path="/"/>
-    <image id="ogns15n" name="我的情报弹窗.png" path="/"/>
     <image id="n3dz15o" name="DiLiReBa.png" path="/ActorBodyIcon/" exported="true"/>
-    <image id="n3dz15q" name="WangJiaer.png" path="/ActorBodyIcon/" exported="true"/>
+    <image id="n3dz15q" name="WangJiaer.png" path="/ActorBodyIcon/"/>
     <image id="n3dz15r" name="WangJunkai.png" path="/ActorBodyIcon/" exported="true"/>
-    <image id="n3dz15s" name="过场结识艺人.png" path="/"/>
     <image id="7rmy15t" name="JuJingyi.png" path="/ActorBodyIcon/"/>
-    <image id="h2cl15u" name="DiLiReBa.png" path="/" exported="true"/>
-    <image id="gpte15y" name="HuaChenyu.png" path="/" exported="true"/>
-    <image id="gpte15z" name="icon_coin.png" path="/" exported="true"/>
-    <image id="10shy160" name="建筑升级界面.png" path="/效果图/建筑/建造系统/"/>
-    <image id="10shy161" name="建筑突破界面.png" path="/效果图/建筑/建造系统/"/>
-    <image id="10shy162" name="建筑详情界面1.png" path="/效果图/建筑/建造系统/"/>
-    <image id="10shy163" name="建筑详情界面2.png" path="/效果图/建筑/建造系统/"/>
-    <image id="10shy164" name="建造界面.png" path="/效果图/建筑/建造系统/"/>
-    <image id="n9g615v" name="n0.png" path="/"/>
-    <image id="n9g615w" name="n1.png" path="/"/>
-    <image id="m6dq15x" name="主线任务效果图1.png" path="/效果图/任务/"/>
-    <image id="m6dq15y" name="主线任务效果图2.png" path="/效果图/任务/"/>
-    <image id="m6dq15z" name="主线任务效果图3.png" path="/效果图/任务/"/>
-    <image id="m6dq160" name="日常任务效果图1.png" path="/效果图/任务/"/>
-    <image id="m6dq161" name="日常任务效果图2.png" path="/效果图/任务/"/>
-    <image id="m6dq162" name="日常任务效果图3.png" path="/效果图/任务/"/>
-    <image id="jej7xr" name="artist_000001.png" path="/" exported="true"/>
   </resources>
   <publish name="__ResImageTmp" genCode="true"/>
 </packageDescription>

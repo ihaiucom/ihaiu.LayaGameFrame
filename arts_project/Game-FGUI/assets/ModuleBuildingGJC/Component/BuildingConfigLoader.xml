@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="660,30">
-  <displayList>
-    <text id="n0_vqq0" name="n0" xy="249,6" size="205,30" fontSize="20" color="#cccccc" text="突破后可查看更多等级">
-      <relation target="" sidePair="width-width,height-height"/>
-    </text>
-  </displayList>
-</component>

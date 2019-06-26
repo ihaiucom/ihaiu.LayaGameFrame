@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="750,466" overflow="scroll">
-  <displayList>
-    <component id="n24_ex1n" name="content" src="ex1n2h" fileName="SelectEvent/StudioEventCommentContent.xml" xy="0,0">
-      <relation target="" sidePair="width-width"/>
-    </component>
-  </displayList>
-</component>

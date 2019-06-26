@@ -2,7 +2,7 @@
 <packageDescription id="4i154xnz" jpegQuality="80" compressPNG="true">
   <resources>
     <component id="nk8t0" name="Text.xml" path="/"/>
-    <component id="ncg91" name="Content.xml" path="/" exported="true"/>
+    <component id="aqhj15i" name="Font.xml" path="/"/>
   </resources>
   <publish name="__Style"/>
 </packageDescription>

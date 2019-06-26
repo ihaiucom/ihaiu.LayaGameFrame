@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="600,126" overflow="scroll" extention="Label" bgColor="#00cc00">
-  <displayList>
-    <text id="n0_k1jx" name="title" xy="0,10" size="600,347" fontSize="18" color="#114d74" autoSize="height" text="龙，是不死的。&#xA;因为龙从不离开水。&#xA;水就像直觉，没有形状，难以把握，&#xA;但顺应它，它就有改变世界的力量！&#xA;我相信直觉，它是每个人都拥有的超级力量，&#xA;它告诉你，不要遵循规则，而是创造规则，&#xA;不仅思考，还要感受。&#xA;这是我改变一切的秘密！&#xA;这是传奇怎么炼成的原因！&#xA;跟随你的直觉，它是最真实的路线。&#xA;这条路不止于成功，而要超越成功！&#xA;你是否有胆量，追随你的胆识？&#xA;你是否有勇气，展现自己的真实？&#xA;让心如水，朋友，&#xA;也许有一天，你">
-      <relation target="" sidePair="width-width,height-height"/>
-    </text>
-  </displayList>
-</component>

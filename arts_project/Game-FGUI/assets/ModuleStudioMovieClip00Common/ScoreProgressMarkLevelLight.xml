@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="64,49">
-  <controller name="level" exported="true" pages="0,热门,1,爆红,2,王牌,3,超凡" selected="0"/>
-  <displayList>
-    <text id="n15_h2g8" name="title" xy="32,25" pivot="0.5,0.5" anchor="true" size="93,50" font="ui://vi9240byaqhjc" fontSize="28" color="#ffffff" vAlign="middle" letterSpacing="-15" autoSize="shrink" text="热门">
-      <gearText controller="level" pages="1,2,3" values="爆红|王牌|超凡" default="热门"/>
-    </text>
-  </displayList>
-</component>

@@ -13,8 +13,6 @@
     <image id="n7_k5sp" name="n7" src="ex1nzx" fileName="_公用--背景--不规则/艺人等级黑色半透底.png" xy="94,919" size="117,42"/>
     <image id="n8_k5sp" name="n8" src="kplq85" fileName="_公用--背景-框/海报上面底板.png" xy="86,776"/>
     <text id="n9_k5sp" name="n9" xy="34,34" size="260,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="不规则背景"/>
-    <image id="n11_q99d" name="n11" src="pf6a16k" fileName="_公用--背景--不规则/获得物品底板.png" xy="538,906"/>
-    <image id="n12_g0h3" name="n12" src="g0h317k" fileName="_公用--背景--不规则/技能底板.png" xy="57,1023"/>
-    <image id="n13_g0h3" name="n13" src="g0h317l" fileName="_公用--背景--不规则/技能语言框.png" xy="330,747"/>
+    <image id="n11_q99d" name="n11" src="pf6a16k" fileName="_公用--背景--不规则/获得物品底板.png" xy="397,803"/>
   </displayList>
 </component>

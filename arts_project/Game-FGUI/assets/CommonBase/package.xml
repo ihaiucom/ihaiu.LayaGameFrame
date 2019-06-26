@@ -54,7 +54,7 @@
     <component id="l44gwb" name="AddButton2.xml" path="/Button/" exported="true"/>
     <component id="l44gwc" name="RemoveButton.xml" path="/Button/" exported="true"/>
     <component id="n6y7w8" name="ExitViewButton.xml" path="/Button/" exported="true"/>
-    <component id="t8drwe" name="BuildingReservesProgressBar1.xml" path="/ProgressBar/" exported="true"/>
+    <component id="t8drwe" name="BuildingProgressBar1.xml" path="/ProgressBar/" exported="true"/>
     <component id="e12kwe" name="CloseButton.xml" path="/Button/" exported="true"/>
     <component id="m5zowq" name="ViewCheckButton.xml" path="/Button/" exported="true"/>
     <component id="m5zowr" name="CloseButton3.xml" path="/Button/" exported="true"/>
@@ -72,9 +72,6 @@
     <component id="ognsm" name="InformationSpecialItem.xml" path="/Information/" exported="true"/>
     <component id="ldd9xk" name="InformationEmptyItem.xml" path="/Information/" exported="true"/>
     <component id="ldd9xl" name="PinkButton.xml" path="/Button/" exported="true"/>
-    <component id="10shyxn" name="BuildingSpeedProgressBar.xml" path="/ProgressBar/" exported="true"/>
-    <component id="dlajyxo" name="BuildingReservesProgressBar.xml" path="/ProgressBar/" exported="true"/>
-    <component id="hwvbxn" name="DailyTaskButton.xml" path="/Button/" exported="true"/>
   </resources>
   <publish name="CommonBase" genCode="true"/>
 </packageDescription>

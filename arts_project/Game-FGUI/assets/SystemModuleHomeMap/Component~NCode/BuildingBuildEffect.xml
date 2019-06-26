@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="600,600">
-  <displayList>
-    <image id="n1_j6x8" name="n1" src="m5zox3" fileName="_公用--背景--气泡说话/气泡.png" pkg="g17ofscz" xy="300,300" pivot="0.5,1" anchor="true" hideByEditor="true" visible="false"/>
-    <text id="n0_m8r1" name="n0" xy="490,215" pivot="0.5,0.5" anchor="true" size="293,100" font="ui://vi9240bykmxd1s" fontSize="30" color="#ffffff" autoSize="none" text="建造中&#xA;"/>
-  </displayList>
-</component>

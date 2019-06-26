@@ -29,14 +29,12 @@
     <component id="e9ra1c" name="StoryStudioIcon.xml" path="/IconStory/" exported="true"/>
     <component id="e9ra1d" name="StoryStudioIconAnimation.xml" path="/IconStory/" exported="true"/>
     <component id="kayd1f" name="ActorPropNumItem.xml" path="/IconActor/" exported="true"/>
-    <component id="e12k2c" name="BoxTextItem.xml" path="/Text/" exported="true"/>
     <component id="g2f52d" name="PropIconItem.xml" path="/IconProp/" exported="true"/>
     <component id="qror1d" name="ItemCostItem.xml" path="/IconItem/" exported="true"/>
     <component id="ex1n2d" name="ActorLbTagItem2.xml" path="/IconActor/" exported="true"/>
     <component id="kchl2e" name="TitleBar.xml" path="/Bar/" exported="true"/>
     <component id="pf6a2f" name="RewardNumItem.xml" path="/IconItem/" exported="true"/>
     <component id="ma8e2e" name="CostItemIcon.xml" path="/IconItem/" exported="true"/>
-    <component id="10shy2g" name="ProduceNowItem.xml" path="/IconItem/" exported="true"/>
   </resources>
   <publish name="CommonGame" genCode="true"/>
 </packageDescription>

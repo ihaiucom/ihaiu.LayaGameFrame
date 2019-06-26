@@ -21,8 +21,6 @@
     <component id="e3wc13" name="AlertDialogBackground2.xml" path="/Component/" exported="true"/>
     <component id="ma8e14" name="ItemGetWayDialog.xml" path="/" exported="true"/>
     <component id="ma8e15" name="ItemGetRewardDialogContent.xml" path="/" exported="true"/>
-    <component id="gf0s16" name="BuildingInfoDialog.xml" path="/" exported="true"/>
-    <component id="gf0s17" name="BuildingInfoButton.xml" path="/Component/" exported="true"/>
   </resources>
   <publish name="SystemModuleDialog" genCode="true"/>
 </packageDescription>

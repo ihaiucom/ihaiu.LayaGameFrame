@@ -296,7 +296,7 @@
     <component id="ywi4157" name="AlertBG.xml" path="/___BgComponent~NCode/" exported="true"/>
     <component id="ywi4158" name="__PreviewNumberText.xml" path="/___Preview~NCode/"/>
     <component id="ywi4159" name="BarWhitePattern.xml" path="/___BgComponent~NCode/" exported="true"/>
-    <component id="ywi415a" name="_StudioBGBottom.xml" path="/___BgComponent~NCode/" exported="true"/>
+    <component id="ywi415a" name="StudioBGBottom.xml" path="/___BgComponent~NCode/" exported="true"/>
     <component id="ywi415b" name="__PreviewProgressBar.xml" path="/___Preview~NCode/"/>
     <component id="ywi415c" name="ActorItemBG.xml" path="/___BgComponent~NCode/"/>
     <image id="n6y77n" name="视角恢复.png" path="/_公用--按钮/临时/" exported="true"/>
@@ -376,51 +376,6 @@
     <image id="j6x816r" name="按钮.png" path="/建筑系统/" exported="true"/>
     <image id="lvev16v" name="招募入口.png" path="/_公用--按钮/临时--建筑菜单/" exported="true"/>
     <image id="rvi616w" name="icon剧本.png" path="/_公用--按钮/临时--建筑菜单/" exported="true"/>
-    <image id="cy5k16x" name="ebebeb_灰白.png" path="/_公用--背景--色块/纯色/" exported="true" scale="9grid" scale9grid="3,3,1,2"/>
-    <image id="cy5k16y" name="efe6fe_半透紫_65.png" path="/_公用--背景--色块/半透/" exported="true" scale="9grid" scale9grid="3,3,3,2"/>
-    <image id="cy5k16z" name="半透灰_10.png" path="/_公用--背景--色块/半透/" exported="true" scale="9grid" scale9grid="2,2,1,1"/>
-    <image id="cy5k170" name="粉色渐变.png" path="/_公用--背景--色块/渐变/" exported="true" scale="9grid" scale9grid="2,0,2,242"/>
-    <image id="cy5k171" name="边缘遮罩.png" path="/_公用--背景--色块/渐变/" exported="true" scale="9grid" scale9grid="69,69,22,20"/>
-    <image id="cy5k172" name="弹窗top渐变.png" path="/_公用--背景--色块/渐变/" exported="true" scale="9grid" scale9grid="264,0,4,115"/>
-    <image id="cy5k173" name="已满足.png" path="/_公用--标识和图标/" exported="true"/>
-    <image id="cy5k174" name="拍摄中心标识.png" path="/_公用--标识和图标/" exported="true"/>
-    <image id="cy5k175" name="添加.png" path="/_公用--标识和图标/" exported="true"/>
-    <image id="cy5k176" name="箭头.png" path="/_公用--标识和图标/" exported="true"/>
-    <image id="cy5k177" name="ebebeb_灰白.png" path="/建筑系统/new/" exported="true"/>
-    <image id="cy5k178" name="efe6fe_半透紫_65.png" path="/建筑系统/new/" exported="true"/>
-    <image id="cy5k179" name="半透灰_10.png" path="/建筑系统/new/" exported="true"/>
-    <image id="cy5k17a" name="已满足.png" path="/建筑系统/new/" exported="true"/>
-    <image id="cy5k17b" name="弹窗top渐变.png" path="/建筑系统/new/" exported="true" scale="9grid" scale9grid="266,29,9,58"/>
-    <image id="cy5k17c" name="拍摄标识.png" path="/建筑系统/new/" exported="true"/>
-    <image id="cy5k17d" name="材料底.png" path="/建筑系统/" exported="true"/>
-    <image id="cy5k17e" name="添加.png" path="/建筑系统/new/" exported="true"/>
-    <image id="cy5k17f" name="箭头.png" path="/建筑系统/new/" exported="true"/>
-    <image id="cy5k17g" name="粉色渐变.png" path="/建筑系统/new/" exported="true"/>
-    <image id="cy5k17h" name="边缘遮罩.png" path="/建筑系统/new/" exported="true"/>
-    <image id="lw5217i" name="efe6fe_半透紫_20.png" path="/建筑系统/new/" exported="true"/>
-    <image id="lw5217j" name="材料底.png" path="/建筑系统/new/" exported="true"/>
-    <image id="lw5217k" name="详情问好.png" path="/建筑系统/new/" exported="true"/>
-    <image id="lw5217l" name="进度条01.png" path="/建筑系统/new/" exported="true"/>
-    <image id="lw5217m" name="进度条底01.png" path="/建筑系统/new/" exported="true" scale="9grid" scale9grid="8,8,17,34"/>
-    <image id="ig1p16x" name="adb0e1_蓝色半透_85.png" path="/主线--日常任务/" exported="true" scale="9grid" scale9grid="2,2,4,1"/>
-    <image id="ig1p16y" name="c5c7e4_蓝色.png" path="/主线--日常任务/" exported="true" scale="9grid" scale9grid="2,2,2,2"/>
-    <image id="ig1p16z" name="ebebeb_灰白.png" path="/主线--日常任务/" exported="true" scale="9grid" scale9grid="3,5,3,2"/>
-    <image id="ig1p170" name="efe6fe_半透紫_65.png" path="/主线--日常任务/" exported="true" scale="9grid" scale9grid="3,3,2,2"/>
-    <image id="ig1p171" name="半透灰_10.png" path="/主线--日常任务/" exported="true"/>
-    <image id="ig1p172" name="圆点_蓝色.png" path="/主线--日常任务/" exported="true"/>
-    <image id="ig1p173" name="圆点_黄色.png" path="/主线--日常任务/" exported="true"/>
-    <image id="ig1p174" name="弹窗top渐变.png" path="/主线--日常任务/" exported="true" scale="9grid" scale9grid="264,28,4,58"/>
-    <image id="ig1p175" name="按钮_灰.png" path="/主线--日常任务/" exported="true" scale="9grid" scale9grid="25,25,3,6"/>
-    <image id="ig1p176" name="按钮_紫.png" path="/主线--日常任务/" exported="true"/>
-    <image id="ig1p177" name="按钮_黄.png" path="/主线--日常任务/" exported="true" scale="9grid" scale9grid="24,24,6,8"/>
-    <image id="ig1p178" name="材料底.png" path="/主线--日常任务/" exported="true"/>
-    <image id="ig1p179" name="粉色渐变.png" path="/主线--日常任务/" exported="true" scale="9grid" scale9grid="3,0,1,242"/>
-    <image id="ig1p17a" name="线_黄色.png" path="/主线--日常任务/" exported="true" scale="9grid" scale9grid="7,0,5,15"/>
-    <image id="ig1p17b" name="经验_icon.png" path="/主线--日常任务/" exported="true"/>
-    <image id="klh517i" name="宝箱22.png" path="/主线--日常任务/" exported="true"/>
-    <image id="m6dq17j" name="efe6fe_半透紫_20.png" path="/主线--日常任务/" exported="true" scale="9grid" scale9grid="3,3,2,2"/>
-    <image id="g0h317k" name="技能底板.png" path="/_公用--背景--不规则/" exported="true"/>
-    <image id="g0h317l" name="技能语言框.png" path="/_公用--背景--不规则/" exported="true"/>
   </resources>
   <publish name="_ResImageUIV1"/>
 </packageDescription>

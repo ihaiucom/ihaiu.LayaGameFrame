@@ -39,6 +39,7 @@
     <image id="5kbu1b" name="Font_FangzhengChuqian_42_White_Edge_atlas.png" path="/"/>
     <font id="5kbu1a" name="Font_FangzhengChuqian_42_White_Edge.fnt" path="/" exported="true" texture="5kbu1b"/>
     <image id="5kbu1c" name="Font_FangzhengChuqian_42_White_Edge.png" path="/"/>
+    <image id="5kbu1h" name="Font_FangzhengChuqian_50_White_atlas.png" path="/"/>
     <font id="5kbu1g" name="Font_FangzhengChuqian_50_White.fnt" path="/" exported="true" texture="5kbu1h"/>
     <image id="5kbu1i" name="Font_FangzhengChuqian_50_White.png" path="/"/>
     <image id="5kbu1k" name="Font_FangzhengChuqian_35_White_Shadow_atlas.png" path="/"/>
@@ -53,13 +54,6 @@
     <image id="vaoux7" name="Number_SZ_04b_03b_42_White_atlas.png" path="/"/>
     <font id="vaoux6" name="Number_SZ_04b_03b_42_White.fnt" path="/" exported="true" texture="vaoux7"/>
     <image id="vaoux8" name="Number_SZ_04b_03b_42_White.png" path="/"/>
-    <image id="5kbu1h" name="Font_FangzhengChuqian_50_White_atlas.png" path="/"/>
-    <image id="qpwoxa" name="Font_FangzhengChuqian_35_White_atlas.png" path="/"/>
-    <font id="qpwox9" name="Font_FangzhengChuqian_35_White.fnt" path="/" exported="true" texture="qpwoxa"/>
-    <image id="qpwoxb" name="Font_FangzhengChuqian_35_White.png" path="/"/>
-    <image id="oj2oxf" name="Font_FangzhengChuqian_48_White_Blue_atlas.png" path="/"/>
-    <font id="oj2oxe" name="Font_FangzhengChuqian_48_White_Blue.fnt" path="/" exported="true" texture="oj2oxf"/>
-    <image id="oj2oxg" name="Font_FangzhengChuqian_48_White_Blue.png" path="/"/>
   </resources>
   <publish name="_ResFont"/>
 </packageDescription>

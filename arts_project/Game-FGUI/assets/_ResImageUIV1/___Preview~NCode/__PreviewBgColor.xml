@@ -81,20 +81,12 @@
     <text id="n96_wx7c" name="n96" xy="378,1421" size="57,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="75"/>
     <image id="n97_t6bw" name="n97" src="t6bw166" fileName="_公用--背景--色块/半透/0x191919_Alpha_5--黑.png" xy="238,1828" size="94,81"/>
     <text id="n98_t6bw" name="n98" xy="103,1837" size="31,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="5"/>
-    <text id="n100_t6bw" name="n100" xy="997,1366" size="312,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="色块--内阴影"/>
+    <text id="n100_t6bw" name="n100" xy="997,1366" size="321,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="色块--内阴影"/>
     <image id="n101_t6bw" name="n101" src="t6bw160" fileName="_公用--背景--色块/半透--有边框效果/半透--全边框--白色50.png" xy="1795,1972" size="291,238"/>
     <image id="n102_t6bw" name="n102" src="t6bw162" fileName="_公用--背景--色块/半透/0xffffff_Alpha_30--白.png" xy="228,1920" size="117,105"/>
     <text id="n103_t6bw" name="n103" xy="105,1949" size="57,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="30"/>
     <image id="n104_t6bw" name="n104" src="t6bw168" fileName="_公用--背景--色块/纯色/0xffca6d--黄.png" xy="405,521" size="111,94"/>
     <image id="n105_t52g" name="n105" src="t52g16e" fileName="_公用--背景--色块/半透--有边框效果/内阴影--标签底.png" xy="1008,1492" size="344,292"/>
     <image id="n106_t52g" name="n106" src="t52g16f" fileName="_公用--背景--色块/纯色/紫色cec0df.png" xy="882,749" size="100,100"/>
-    <image id="n107_cy5k" name="n107" src="cy5k16x" fileName="_公用--背景--色块/纯色/ebebeb_灰白.png" xy="74,646" size="99,99"/>
-    <image id="n108_cy5k" name="n108" src="cy5k16y" fileName="_公用--背景--色块/半透/efe6fe_半透紫_65.png" xy="480,1565" size="79,69"/>
-    <image id="n109_cy5k" name="n109" src="cy5k16z" fileName="_公用--背景--色块/半透/半透灰_10.png" xy="498,1840" size="77,65"/>
-    <text id="n110_cy5k" name="n110" xy="395,1562" size="57,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="66"/>
-    <text id="n111_cy5k" name="n111" xy="421,1852" size="57,54" fontSize="50" color="#ffffff" bold="true" strokeColor="#000000" text="10"/>
-    <image id="n112_cy5k" name="n112" src="cy5k171" fileName="_公用--背景--色块/渐变/边缘遮罩.png" xy="354,6518" size="584,568"/>
-    <image id="n113_cy5k" name="n113" src="cy5k170" fileName="_公用--背景--色块/渐变/粉色渐变.png" xy="324,7216" size="806,242"/>
-    <image id="n114_cy5k" name="n114" src="cy5k172" fileName="_公用--背景--色块/渐变/弹窗top渐变.png" xy="276,7576" size="1304,115"/>
   </displayList>
 </component>
