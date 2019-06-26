@@ -2,7 +2,7 @@
   "autoEnd": true,
   "optionSetting": "./ExportXlsxSetting.json",
   "xlsxDir": "../Config/Common",
-  "outDir": "../../../_gen/ConfigOut",
+  "outDir": "../../_gen/ConfigOut",
   "exportSettingXlsx": "../Config/ExportSetting.xlsx",
   "settingStructSheet": "StructSheet",
   "settingIgnoreSheet": "IgnoreSheet",

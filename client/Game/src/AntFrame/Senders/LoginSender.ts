@@ -25,12 +25,6 @@ export default class LoginSender
 
         // 请求背包数据
         if(! await Game.sender.item.getItemList()) 1;
-        //伪装剧本库数据
-        // Game.moduleModel.story.Test();
-        // 请求艺人数据
-        await Game.sender.actor.actorList();
-        // 请求情报数据
-        await Game.sender.infoSender.myInformationList();
         
         // 登录了并且获取了用户数据
         Game.user.isLoginAndGetUserData = true;

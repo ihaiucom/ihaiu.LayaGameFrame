@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="4sapkhzu" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="ntfm0" name="HomeWindowUI.xml" path="/" exported="true"/>
+  </resources>
+  <publish name="SystemModuleHome" genCode="true"/>
+</packageDescription>

@@ -1,7 +1,7 @@
 {
   "enableoverwrites": [
   	{
-  		"src":"../../../_gen/ConfigOut/csv", 
+  		"src":"../../_gen/ConfigOut/csv", 
   		"dst":"//192.168.2.224/GamePF/plan_WangYiQinag/config/csv"
   	}
   	

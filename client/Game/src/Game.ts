@@ -20,7 +20,6 @@ import GameSystemMessag from "./GameModule/GameSystemMessage";
 import LaunchText from "./Config/Keys/LaunchText";
 import LoaderSettingHandler from "./GameFrame/Loader/LoaderSettingHandler";
 import LoaderManager from "./GameFrame/Loader/LoaderManager";
-import Home from "./Home/Home";
 import AntNet from "./AntFrame/Net/AntNet";
 import ProtoHandlerList from "./AntFrame/Handlers/ProtoHandlerList";
 import TypedSignal from "./Libs/signals/TypedSignal";
@@ -130,19 +129,7 @@ export default class Game
     // 订阅管理器
     static took = new TookManager();
     
-    // // 协议--事件--成功
-    // static protoOkEvent: Emitter = new Emitter();
-    // // 协议--Oob列表事件--成功
-    // static protoOobListOkEvent: Emitter = new Emitter();
-    // // 协议--事件--失败
-    // static protoFailEvent: Emitter = new Emitter();
     
-
-    
-    //=====================
-    // 家园
-    //----------------------
-    static home: Home = new Home();
 
     //=====================
     // 其他

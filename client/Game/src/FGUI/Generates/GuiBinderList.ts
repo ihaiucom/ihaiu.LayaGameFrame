@@ -15,6 +15,7 @@ import ModuleEmailBinder from "./ModuleEmail/ModuleEmailBinder";
 import ModuleLoginBinder from "./ModuleLogin/ModuleLoginBinder";
 import SoundBinder from "./Sound/SoundBinder";
 import SystemModuleDialogBinder from "./SystemModuleDialog/SystemModuleDialogBinder";
+import SystemModuleHomeBinder from "./SystemModuleHome/SystemModuleHomeBinder";
 import SystemModuleMenuBinder from "./SystemModuleMenu/SystemModuleMenuBinder";
 import SystemModulePlotBinder from "./SystemModulePlot/SystemModulePlotBinder";
 import __ResImageTmpBinder from "./__ResImageTmp/__ResImageTmpBinder";
@@ -35,6 +36,7 @@ export default class GuiBinderList
 		ModuleLoginBinder.bindAll()
 		SoundBinder.bindAll()
 		SystemModuleDialogBinder.bindAll()
+		SystemModuleHomeBinder.bindAll()
 		SystemModuleMenuBinder.bindAll()
 		SystemModulePlotBinder.bindAll()
 		__ResImageTmpBinder.bindAll()

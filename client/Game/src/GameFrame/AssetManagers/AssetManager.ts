@@ -13,7 +13,7 @@ import AssetHelper from "./AssetHelper";
 import Res from "../../Config/Keys/Res";
 import ParticleSetting from "../../EngineParticle/ParticleSetting";
 import Particle2D from "../../EngineParticle/Particle2D";
-import GameSkeleton from "../../Home/SkeletonCaches/GameSkeleton";
+import GameSkeleton from "../../Libs/SkeletonCaches/GameSkeleton";
 
 export default class AssetManager implements ConfigLoaderInterface
 {

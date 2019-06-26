@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" opaque="false">
+  <displayList>
+    <image id="n10_9t6d" name="bgBottom" src="ecjy15j" fileName="_公用--背景--色块/渐变/透明渐变--黑--重--00--100.png" pkg="g17ofscz" xy="0,1173" size="750,323">
+      <relation target="" sidePair="bottom-bottom,width-width"/>
+    </image>
+    <image id="n9_9t6d" name="bgTop" src="9t6d12t" fileName="_公用--背景--色块/渐变/透明渐变--黑--100--00.png" pkg="g17ofscz" xy="0,-152" size="750,325">
+      <relation target="" sidePair="width-width,top-top"/>
+    </image>
+    <component id="n0_szhv" name="mainMenuBar" src="szhv0" fileName="Menu/MenuBarMain.xml" pkg="4rsi5ges" xy="15,1215">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <component id="n1_szhv" name="rightBottomMenuBar" src="szhvo" fileName="Menu/MenuBarRightBottom.xml" pkg="4rsi5ges" xy="642,725">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n2_szhv" name="topMainBar" src="szhvv" fileName="TopInfoBar/TopMainBar.xml" pkg="4rsi5ges" xy="0,0" size="750,104">
+      <relation target="" sidePair="width-width"/>
+    </component>
+    <component id="n5_krdk" name="rightTopMenuBar" src="krdk1h" fileName="Menu/MenuBarRightTop.xml" pkg="4rsi5ges" xy="425,90">
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <component id="n7_l291" name="menuAppointmentButton" src="l2911i" fileName="Menu/MenuButton/MenuAppointmentButton.xml" pkg="4rsi5ges" xy="634,1062">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+  </displayList>
+</component>

@@ -20,7 +20,8 @@ export default class GashaponModel extends MModel {
 			let gashapon: GashaponData = GashaponData.Create(msg[i]);
             this.dict.add(gashapon.id, gashapon);
             
-            Game.moduleModel.storyLottery.updateProtoData( gashapon );
+            // TODO
+            // Game.moduleModel.storyLottery.updateProtoData( gashapon );
 		}
     }
 

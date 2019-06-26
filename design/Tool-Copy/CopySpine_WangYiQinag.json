@@ -1,11 +1,11 @@
 {
   "enableoverwrites": [
 	  {
-  		"src":"../../arts/SpineWorkspace/ExportSK", 
+  		"src":"../../arts_res/SpineWorkspace/ExportSK", 
   		"dst":"//192.168.2.224/www/wp/plan_WangYiQinag/res/spine"
   	},
     {
-      "src":"../../arts/SpineWorkspace/ExportSKRes", 
+      "src":"../../arts_res/SpineWorkspace/ExportSKRes", 
       "dst":"//192.168.2.224/www/wp/plan_WangYiQinag/res/spine"
     }
   

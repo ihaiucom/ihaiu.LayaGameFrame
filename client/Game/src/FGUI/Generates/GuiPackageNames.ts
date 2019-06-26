@@ -30,6 +30,7 @@ export default class GuiPackageNames
 	public static Sound : string = "Sound";
 	public static SystemModuleDialog : string = "SystemModuleDialog";
 	public static SystemModuleGuide : string = "SystemModuleGuide";
+	public static SystemModuleHome : string = "SystemModuleHome";
 	public static SystemModuleMenu : string = "SystemModuleMenu";
 	public static SystemModulePlot : string = "SystemModulePlot";
 	public static SystemModuleTask : string = "SystemModuleTask";

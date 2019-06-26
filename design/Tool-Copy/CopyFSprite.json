@@ -1,12 +1,12 @@
 {
   "enableoverwrites": [
   	{
-  		"src":"../../arts/fspriteassets",  
-  		"dst":"../../../client/Game/bin/res/fsprite"
+  		"src":"../../arts_res/fspriteassets",  
+  		"dst":"../../client/Game/bin/res/fsprite"
   	},
   	{
-  		"src":"../../arts/fspriteassets/assets/Building", 
-  		"dst":"../../../client/Game/bin/res/texture/Room"
+  		"src":"../../arts_res/fspriteassets/assets/Building", 
+  		"dst":"../../client/Game/bin/res/texture/Room"
   	},
   
   ],

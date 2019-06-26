@@ -1,7 +1,7 @@
 {
   "enableoverwrites": [
   	{
-  		"src":"../../arts/fspriteassetsLower-Release/assets", 
+  		"src":"../../arts_res/fspriteassetsLower-Release/assets", 
   		"dst":"../../Gidea-PF-Client-Release/GamePF/bin/res/fspriteassets"
   	}
   

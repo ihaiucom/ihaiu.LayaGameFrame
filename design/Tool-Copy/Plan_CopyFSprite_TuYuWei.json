@@ -1,7 +1,7 @@
 {
   "enableoverwrites": [
   	{
-  		"src":"../../arts/fspriteassets",  
+  		"src":"../../arts_res/fspriteassets",  
   		"dst":"//192.168.2.224/www/wp/plan_TuYuWei/res/fspriteassets"
   	}
   

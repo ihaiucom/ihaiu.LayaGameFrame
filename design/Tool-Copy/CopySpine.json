@@ -1,12 +1,12 @@
 {
   "enableoverwrites": [
 	  {
-  		"src":"../../arts/SpineWorkspace/ExportSK", 
-  		"dst":"../../../client/Game/bin/res/spine"
+  		"src":"../../arts_res/SpineWorkspace/ExportSK", 
+  		"dst":"../../client/Game/bin/res/spine"
   	},
     {
-      "src":"../../arts/SpineWorkspace/ExportSKRes", 
-      "dst":"../../../client/Game/bin/res/spine"
+      "src":"../../arts_res/SpineWorkspace/ExportSKRes", 
+      "dst":"../../client/Game/bin/res/spine"
     }
   
   ],

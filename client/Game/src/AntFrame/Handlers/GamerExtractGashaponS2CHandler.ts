@@ -10,7 +10,7 @@ var GamerExtractGashaponS2CHandler = function(msg: GamerExtractGashaponS2C)
     let menuId: number = Game.config.gashapon.getConfig(msg.gashaponId).menu;
     switch (menuId) {
         case MenuId.Information:
-            Game.system.informationGetShow(msg.items);
+            // Game.system.informationGetShow(msg.items);
             break;
         default:
             break;
