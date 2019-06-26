@@ -23,7 +23,6 @@ export default class TestParticle
 
 	onMouseClick()
 	{
-		Game.system.buildingSuccessDialog.m_content.play();
 	}
 
 

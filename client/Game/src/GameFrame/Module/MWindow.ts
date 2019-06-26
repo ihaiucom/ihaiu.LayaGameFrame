@@ -107,9 +107,10 @@ export default abstract class MWindow extends FWindow
     {
         switch (packagename)
         {
+            case GuiPackageNames._ResImageUIV1:
+            case GuiPackageNames._ResFont:
             case GuiPackageNames.CommonBase:
             case GuiPackageNames.CommonGame:
-            case GuiPackageNames.CommonNumber:
             case GuiPackageNames.CommonFx:
             case GuiPackageNames.SystemModuleDialog:
                 return;

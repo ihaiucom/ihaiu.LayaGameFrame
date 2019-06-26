@@ -6,10 +6,6 @@ import GMAddItem from "./GMAddItem";
 import Handler = Laya.Handler;
 import GMWindow from "../../../GM/GMWindow";
 import GMPopupMenu from "./GMPopupMenu";
-import ActorConfig from "../../../Config/ConfigExtends/ActorConfig";
-import StoryConfig from "../../../Config/ConfigExtends/StoryConfig";
-import InformationData from "../../../GameModule/DataStructs/InformationData";
-import LabelConfig from "../../../Config/ConfigExtends/LabelConfig";
 /////////////////////////////////////
 // ihaiu.ExportFairyGUICode生成
 // http://blog.ihaiu.com
@@ -179,26 +175,26 @@ export default class GMAddPage extends GMAddPageStruct
 	{
 		console.log("onSelectePopupItem " + index);
 		this.currentPopupIndex = index;
-		// 艺人
-		if(this.currentPopupIndex == GMAddType.Actor)
-		{
-			let items: ActorConfig[] = Game.config.actor.getConfigList();
-			this.setListData(items);
-		}
-		// 剧本
-		else if(this.currentPopupIndex == GMAddType.Story)
-		{
-			let items: StoryConfig[] = Game.config.story.getConfigList();
-			this.setListData(items);
-		}
-		// 情报
-		else if(this.currentPopupIndex == GMAddType.Information)
-		{
-			let items: LabelConfig[] = Game.config.label.imformations;
-			this.setListData(items);
-		}
-		// 物品
-		else
+		// // 艺人
+		// if(this.currentPopupIndex == GMAddType.Actor)
+		// {
+		// 	let items: ActorConfig[] = Game.config.actor.getConfigList();
+		// 	this.setListData(items);
+		// }
+		// // 剧本
+		// else if(this.currentPopupIndex == GMAddType.Story)
+		// {
+		// 	let items: StoryConfig[] = Game.config.story.getConfigList();
+		// 	this.setListData(items);
+		// }
+		// // 情报
+		// else if(this.currentPopupIndex == GMAddType.Information)
+		// {
+		// 	let items: LabelConfig[] = Game.config.label.imformations;
+		// 	this.setListData(items);
+		// }
+		// // 物品
+		// else
 		{
 			this.setItemPopup();
 		}
@@ -312,24 +308,25 @@ export default class GMAddPage extends GMAddPageStruct
 	renderListItem(index: number, item: GMAddItem)
 	{
 		item.type = this.currentPopupIndex;
-		let data: ItemConfig | ActorConfig | StoryConfig | LabelConfig = this.getData(index);
-		// 艺人
-		if(this.currentPopupIndex == GMAddType.Actor)
-		{
-			item.setActor(<ActorConfig> data);
-		}
-		// 剧本
-		if(this.currentPopupIndex == GMAddType.Story)
-		{
-			item.setStory(<StoryConfig> data);
-		}
-		// 情报
-		if(this.currentPopupIndex == GMAddType.Information)
-		{
-			item.setInformation(<LabelConfig> data);
-		}
-		// 物品
-		else if(data instanceof ItemConfig)
+		let data: ItemConfig = this.getData(index);
+		// let data: ItemConfig | ActorConfig | StoryConfig | LabelConfig = this.getData(index);
+		// // 艺人
+		// if(this.currentPopupIndex == GMAddType.Actor)
+		// {
+		// 	item.setActor(<ActorConfig> data);
+		// }
+		// // 剧本
+		// if(this.currentPopupIndex == GMAddType.Story)
+		// {
+		// 	item.setStory(<StoryConfig> data);
+		// }
+		// // 情报
+		// if(this.currentPopupIndex == GMAddType.Information)
+		// {
+		// 	item.setInformation(<LabelConfig> data);
+		// }
+		// // 物品
+		// else if(data instanceof ItemConfig)
 		{
 			let itemData = Game.moduleModel.item.getItem(data.id);
 			item.setItemData(itemData);

@@ -1,4 +1,3 @@
-import Label from '../../GameFrame/PropLabels/Label';
 import Mathf from '../Mathf';
 import GTextField = fairygui.GTextField;
 

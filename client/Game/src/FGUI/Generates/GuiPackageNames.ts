@@ -20,8 +20,6 @@ export default class GuiPackageNames
 	public static Lang_zh_cn : string = "Lang_zh-cn";
 	public static Lang_zh_tw : string = "Lang_zh_tw";
 	public static ModuleBag : string = "ModuleBag";
-	public static ModuleDailyTask : string = "ModuleDailyTask";
-	public static ModuleDay7Activity : string = "ModuleDay7Activity";
 	public static ModuleEmail : string = "ModuleEmail";
 	public static ModuleLogin : string = "ModuleLogin";
 	public static ModuleRank : string = "ModuleRank";

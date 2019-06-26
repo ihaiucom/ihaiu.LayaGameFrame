@@ -9,8 +9,6 @@ import CommonGameBinder from "./CommonGame/CommonGameBinder";
 import GameGMBinder from "./GameGM/GameGMBinder";
 import GameLaunchBinder from "./GameLaunch/GameLaunchBinder";
 import ModuleBagBinder from "./ModuleBag/ModuleBagBinder";
-import ModuleDailyTaskBinder from "./ModuleDailyTask/ModuleDailyTaskBinder";
-import ModuleDay7ActivityBinder from "./ModuleDay7Activity/ModuleDay7ActivityBinder";
 import ModuleEmailBinder from "./ModuleEmail/ModuleEmailBinder";
 import ModuleLoginBinder from "./ModuleLogin/ModuleLoginBinder";
 import SoundBinder from "./Sound/SoundBinder";
@@ -30,8 +28,6 @@ export default class GuiBinderList
 		GameGMBinder.bindAll()
 		GameLaunchBinder.bindAll()
 		ModuleBagBinder.bindAll()
-		ModuleDailyTaskBinder.bindAll()
-		ModuleDay7ActivityBinder.bindAll()
 		ModuleEmailBinder.bindAll()
 		ModuleLoginBinder.bindAll()
 		SoundBinder.bindAll()

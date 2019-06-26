@@ -5,7 +5,6 @@ import MailContentDialog from "../FGUI/Extends/SystemModuleDialog/MailContentDia
 import MailData from "./DataStructs/MailData";
 import ItemInfoDialog from "../FGUI/Extends/SystemModuleDialog/ItemInfoDialog";
 import ItemData from "./DataStructs/ItemData";
-import ActorRenameDialog from "../FGUI/Extends/SystemModuleDialog/ActorRenameDialog";
 import UserLevelAndExpPlay from "../FGUI/Customs/UserLevelAndExpPlay";
 import Game from "../Game";
 import TEXT from "../Config/Keys/TEXT";

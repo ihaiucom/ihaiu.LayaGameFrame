@@ -9,8 +9,6 @@
     <component id="xa7oo" name="MailContentDialog.xml" path="/" exported="true"/>
     <component id="e5hko" name="GetRewardDialog.xml" path="/" exported="true"/>
     <component id="netkp" name="ItemInfoDialog.xml" path="/" exported="true"/>
-    <component id="u6goj" name="ActorRenameDialog.xml" path="/" exported="true"/>
-    <component id="r1p1s" name="BuildingEffItem.xml" path="/Component/" exported="true"/>
     <component id="e3wc13" name="AlertDialogBackground2.xml" path="/Component/" exported="true"/>
     <component id="ma8e14" name="ItemGetWayDialog.xml" path="/" exported="true"/>
     <component id="ma8e15" name="ItemGetRewardDialogContent.xml" path="/" exported="true"/>

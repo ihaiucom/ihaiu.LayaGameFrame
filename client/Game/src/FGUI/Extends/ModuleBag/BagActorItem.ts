@@ -36,6 +36,6 @@ export default class BagActorItem extends BagActorItemStruct
 
     set star(num: number)
     {
-        this.m_item.m_star.starNum = num;
+        // this.m_item.m_star.starNum = num;
     }
 }

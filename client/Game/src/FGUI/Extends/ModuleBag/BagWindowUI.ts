@@ -154,7 +154,7 @@ export default class BagWindowUI extends BagWindowUIStruct {
         if(items && items.length > 0 && isInformation)
         {
             this.m_showInfoDialog.setSelectedPage('yes');
-            this.m_infoDialog.updateView(items);
+            // this.m_infoDialog.updateView(items);
         }
         this.refreshItemList();
     }

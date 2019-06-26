@@ -8,8 +8,6 @@ import DialogCtrl from '../../../GameFrame/Module/DialogCtrl';
 import SmallIconItem from '../CommonGame/SmallIconItem';
 import ItemData from '../../../GameModule/DataStructs/ItemData';
 import Game from '../../../Game';
-import InformationData from '../../../GameModule/DataStructs/InformationData';
-import ActorData from '../../../GameModule/DataStructs/ActorData';
 import RewardItem from '../CommonGame/RewardItem';
 import RewardNumItem from "../CommonGame/RewardNumItem";
 

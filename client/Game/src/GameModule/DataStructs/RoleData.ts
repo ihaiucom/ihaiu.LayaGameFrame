@@ -2,6 +2,7 @@ import Game from '../../Game';
 import GamerStatus = proto.GamerStatus;
 import IGamerMain = proto.IGamerMain;
 import IGamerMini = proto.IGamerMini;
+import HeadPortraitConfig from '../../Config/ConfigExtends/HeadPortraitConfig';
 
 export default class RoleData
 {
@@ -77,7 +78,7 @@ export default class RoleData
     // 获取头像Url		
     get headIconUrl(): string
     {
-        let portraitCfg = Game.config.headPortrait.getConfig(this.icon);
+        let portraitCfg: HeadPortraitConfig = Game.config.headPortrait.getConfig(this.icon);
         if(!portraitCfg) portraitCfg = Game.config.headPortrait.getConfig(1001);
         if (portraitCfg)
         {

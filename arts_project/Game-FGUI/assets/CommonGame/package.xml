@@ -4,34 +4,14 @@
     <component id="ncg93" name="ItemIconItem.xml" path="/IconItem/" exported="true"/>
     <component id="ncg95" name="Star.xml" path="/Star/" exported="true"/>
     <component id="ncg97" name="coinIconItem.xml" path="/IconItem/" exported="true"/>
-    <component id="ncg9a" name="DetailIconActor.xml" path="/IconActor/" exported="true"/>
-    <component id="ncg9b" name="ActorBgIconActor.xml" path="/IconActor/" exported="true"/>
-    <component id="ncg9c" name="ActorDetailUI.xml" path="/IconItem/"/>
-    <component id="8zcld" name="ItemIconActor.xml" path="/IconActor/" exported="true"/>
-    <component id="8zcle" name="ActorIcon.xml" path="/IconActor/" exported="true"/>
     <component id="j3nbj" name="ItemNumItem.xml" path="/IconItem/" exported="true"/>
     <component id="e5hkf" name="SmallIconItem.xml" path="/IconItem/" exported="true"/>
     <component id="e5hkg" name="AssetItem.xml" path="/Asset/" exported="true"/>
-    <component id="h69fk" name="FilmIcon.xml" path="/IconStory/" exported="true"/>
-    <component id="h69fm" name="FilmJiesuanNum.xml" path="/IconStory/" exported="true"/>
-    <component id="h69fn" name="IconActorProperty.xml" path="/IconActor/" exported="true"/>
-    <component id="drusp" name="StoryIconBig.xml" path="/IconStory/" exported="true"/>
-    <component id="wljjr" name="ActorPropertyItem1.xml" path="/IconActor/" exported="true"/>
-    <component id="wljjs" name="ActorPropertyIcon.xml" path="/IconActor/" exported="true"/>
     <component id="wljjt" name="StudioStarList.xml" path="/Star/" exported="true"/>
-    <component id="oh5iu" name="StoryIcon.xml" path="/IconStory/" exported="true"/>
-    <component id="myflv" name="ActorLbPropItem.xml" path="/IconActor/" exported="true"/>
-    <component id="myfl16" name="ActorLbTagItem.xml" path="/IconActor/" exported="true"/>
-    <component id="u6m717" name="ActorIcon2.xml" path="/IconActor/" exported="true"/>
     <component id="u6m719" name="UserHeadIcon.xml" path="/Uer/" exported="true"/>
     <component id="u6m71a" name="RewardItem.xml" path="/IconItem/" exported="true"/>
-    <component id="t8dr1c" name="ProduceItem.xml" path="/IconItem/" exported="true"/>
-    <component id="e9ra1c" name="StoryStudioIcon.xml" path="/IconStory/" exported="true"/>
-    <component id="e9ra1d" name="StoryStudioIconAnimation.xml" path="/IconStory/" exported="true"/>
-    <component id="kayd1f" name="ActorPropNumItem.xml" path="/IconActor/" exported="true"/>
     <component id="g2f52d" name="PropIconItem.xml" path="/IconProp/" exported="true"/>
     <component id="qror1d" name="ItemCostItem.xml" path="/IconItem/" exported="true"/>
-    <component id="ex1n2d" name="ActorLbTagItem2.xml" path="/IconActor/" exported="true"/>
     <component id="kchl2e" name="TitleBar.xml" path="/Bar/" exported="true"/>
     <component id="pf6a2f" name="RewardNumItem.xml" path="/IconItem/" exported="true"/>
     <component id="ma8e2e" name="CostItemIcon.xml" path="/IconItem/" exported="true"/>

@@ -22,21 +22,6 @@ export default class GMClientHandler
     {
     }
 
-    /**
-     * 所有情报一键添加10个
-     */
-    gmAddInfoationAll(num: number)
-    {
-        if(!num) num = 10;
-        let labels = Game.config.label.imformations;
-        let cmd = "";
-        for(let label of labels)
-        {
-            cmd += `//addinfo ${label.id} ${num}`;
-        }
-        
-		Game.sender.gm.gmCommand(cmd);
-    }
 
 
     /**

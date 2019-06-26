@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="120,60" extention="Label">
-  <displayList>
-    <loader id="n0_wljj" name="icon" xy="0,0" size="120,60" align="center" vAlign="middle" fill="scale">
-      <relation target="" sidePair="width-width%,height-height%"/>
-    </loader>
-  </displayList>
-</component>

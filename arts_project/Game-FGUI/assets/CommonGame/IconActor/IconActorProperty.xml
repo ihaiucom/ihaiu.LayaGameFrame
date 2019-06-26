@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="80,88" extention="Button">
-  <displayList>
-    <image id="n21_ids6" name="n21" src="ncg91m" fileName="flag_property_panel1.png" pkg="vb0p0v1s" xy="0,0" size="80,88"/>
-    <loader id="n19_mgsc" name="icon" xy="12,6" size="55,53" aspect="true" align="center" vAlign="middle" fill="scale"/>
-    <text id="n20_mgsc" name="title" xy="0,58" pivot="0.5,0.5" size="80,30" fontSize="22" color="#114d74" align="center" vAlign="middle" autoSize="none" text="99999"/>
-  </displayList>
-  <Button/>
-</component>
