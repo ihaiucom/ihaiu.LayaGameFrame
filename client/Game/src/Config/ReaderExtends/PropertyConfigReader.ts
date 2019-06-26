@@ -8,5 +8,4 @@ import PropertyConfigReaderStruct from "../ReaderStructs/PropertyConfigReaderStr
 
 export default class PropertyConfigReader extends PropertyConfigReaderStruct
 {
-    
 }

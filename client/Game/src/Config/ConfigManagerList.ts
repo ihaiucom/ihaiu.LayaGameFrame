@@ -14,6 +14,8 @@ import MailConfigReader from "./ReaderExtends/MailConfigReader";
 import MenuConfigReader from "./ReaderExtends/MenuConfigReader";
 import MenuIndexConfigReader from "./ReaderExtends/MenuIndexConfigReader";
 import MsgConfigReader from "./ReaderExtends/MsgConfigReader";
+import PropertyConfigReader from "./ReaderExtends/PropertyConfigReader";
+import RewardConfigReader from "./ReaderExtends/RewardConfigReader";
 
 /// 配置读取器列表
 export default class ConfigManagerList
@@ -32,6 +34,8 @@ export default class ConfigManagerList
     menu  : MenuConfigReader = new MenuConfigReader();
     menuIndex  : MenuIndexConfigReader = new MenuIndexConfigReader();
     msg  : MsgConfigReader = new MsgConfigReader();
+    property  : PropertyConfigReader = new PropertyConfigReader();
+    reward  : RewardConfigReader = new RewardConfigReader();
 
 
     // 初始化读取器列表
@@ -48,6 +52,8 @@ export default class ConfigManagerList
         this.renders.push(this.menu);
         this.renders.push(this.menuIndex);
         this.renders.push(this.msg);
+        this.renders.push(this.property);
+        this.renders.push(this.reward);
     }
     
 }

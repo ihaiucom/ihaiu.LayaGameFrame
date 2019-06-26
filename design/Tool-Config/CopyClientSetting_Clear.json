@@ -31,12 +31,12 @@
     {
       "src":"../../client/Game/src/Config/ConfigExtends", 
       "dst":"../../_gen/ConfigOut/Client/Config/ConfigExtends",
-      "log":"../../ConfigBak/ConfigExtendsXXXX.log",
+      "log":"../../_gen/ConfigBak/ConfigExtendsXXXX.log",
     },
     {
       "src":"../../client/Game/src/Config/ReaderExtends", 
       "dst":"../../_gen/ConfigOut/Client/Config/ReaderExtends",
-      "log":"../../ConfigBak/ReaderExtendsXXXX.log",
+      "log":"../../_gen/ConfigBak/ReaderExtendsXXXX.log",
     }
   ]
 }
