@@ -1,0 +1,3 @@
+int	string	int	int	int
+id	功能名称	菜单ID	打开方式	索引
+id	name	menuId	openType	menuIndex

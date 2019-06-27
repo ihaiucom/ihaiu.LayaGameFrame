@@ -1,0 +1,218 @@
+int	string	string	string	string	string	string	string	string	string	string	string	DTVector2
+ID	英文名称	中文名称	全身像	半身像	菱形头像	小图标	小图标	碎片图标	模型_皮肤	模型_骨骼	场景_图片	修正坐标
+id	en_name	zh_cn_name	bodyIcon	halfIcon	diamondHeadIcon	zh_cn_icon	en_icon	pieceIcon	modelSkin	modelBones	bgPic	coVector
+11100101	WuYifan	吴亦凡	ActorBodyIcon/WuYifan	ActorHalfIcon/WuYifan	ActorDiamondHeadIcon/WuYifan	ActorHeadIcon/WuYifan			11100101_WuYifan	Male01		34;3
+11100201	CaiXukun	蔡徐坤	ActorBodyIcon/CaiXukun	ActorHalfIcon/CaiXukun	ActorDiamondHeadIcon/CaiXukun	ActorHeadIcon/CaiXukun			11100201_CaiXukun	Male01		34;3
+11100301	WangJiaer	王嘉尔	ActorBodyIcon/WangJiaer	ActorHalfIcon/WangJiaer	ActorDiamondHeadIcon/WangJiaer	ActorHeadIcon/WangJiaer			11100301_WangJiaer	Male01		34;3
+11100401	ZhangYixing	张艺兴	ActorBodyIcon/ZhangYixing	ActorHalfIcon/ZhangYixing	ActorDiamondHeadIcon/ZhangYixing	ActorHeadIcon/ZhangYixing			11100401_ZhangYixing	Male01		34;3
+11100501	LuHan	鹿晗	ActorBodyIcon/LuHan	ActorHalfIcon/LuHan	ActorDiamondHeadIcon/LuHan	ActorHeadIcon/LuHan			11100501_LuHan	Male01		34;3
+11100601	WangYuan	王源	ActorBodyIcon/WangYuan	ActorHalfIcon/WangYuan	ActorDiamondHeadIcon/WangYuan	ActorHeadIcon/WangYuan			11100601_WangYuan	Male01		34;3
+11100701	WangJunkai	王俊凯	ActorBodyIcon/WangJunkai	ActorHalfIcon/WangJunkai	ActorDiamondHeadIcon/WangJunkai	ActorHeadIcon/WangJunkai			11100701_WangJunkai	Male01		34;3
+11100801	HuaChenyu	华晨宇	ActorBodyIcon/HuaChenyu	ActorHalfIcon/HuaChenyu	ActorDiamondHeadIcon/HuaChenyu	ActorHeadIcon/HuaChenyu			11100801_HuaChenyu	Male01		
+11100901	HeJiong	何炅	ActorBodyIcon/HeJiong	ActorHalfIcon/HeJiong	ActorDiamondHeadIcon/HeJiong	ActorHeadIcon/HeJiong			11100901_HeJiong	Male01		
+11101001	XueZhiqian	薛之谦	ActorBodyIcon/XueZhiqian	ActorHalfIcon/XueZhiqian	ActorDiamondHeadIcon/XueZhiqian	ActorHeadIcon/XueZhiqian			11101001_XueZhiqian	Male01		
+11101101	YangMi	杨幂	ActorBodyIcon/YangMi	ActorHalfIcon/YangMi	ActorDiamondHeadIcon/YangMi	ActorHeadIcon/YangMi			11101101_YangMi	Female01		39;6
+11101201	DiLiReBa	迪丽热巴	ActorBodyIcon/DiLiReBa	ActorHalfIcon/DiLiReBa	ActorDiamondHeadIcon/DiLiReBa	ActorHeadIcon/DiLiReBa			11101201_DiLiReBa	Female01		39;6
+11101301	OuyangNana	欧阳娜娜	ActorBodyIcon/OuyangNana	ActorHalfIcon/OuyangNana	ActorDiamondHeadIcon/OuyangNana	ActorHeadIcon/OuyangNana			11101301_OuyangNana	Female01		29;8
+11101401	YangYing	杨颖	ActorBodyIcon/YangYing	ActorHalfIcon/YangYing	ActorDiamondHeadIcon/YangYing	ActorHeadIcon/YangYing			11101401_YangYing	Female01		29;8
+11101501	XieNa	谢娜	ActorBodyIcon/XieNa	ActorHalfIcon/XieNa	ActorDiamondHeadIcon/XieNa	ActorHeadIcon/XieNa			11101501_XieNa	Female01		39;6
+11101601	YangChaoyue	杨超越	ActorBodyIcon/YangChaoyue	ActorHalfIcon/YangChaoyue	ActorDiamondHeadIcon/YangChaoyue	ActorHeadIcon/YangChaoyue			11101601_YangChaoyue	Female01		29;8
+11101701	GuanXiaotong	关晓彤	ActorBodyIcon/GuanXiaotong	ActorHalfIcon/GuanXiaotong	ActorDiamondHeadIcon/GuanXiaotong	ActorHeadIcon/GuanXiaotong			11101701_GuanXiaotong	Female01		29;8
+11101801	JuJingyi	鞠婧祎	ActorBodyIcon/JuJingyi	ActorHalfIcon/JuJingyi	ActorDiamondHeadIcon/JuJingyi	ActorHeadIcon/JuJingyi			11101801_JuJingyi	Female01		
+11101901	SongQian	宋茜	ActorBodyIcon/SongQian	ActorHalfIcon/SongQian	ActorDiamondHeadIcon/SongQian	ActorHeadIcon/SongQian			11101901_SongQian	Female01		29;8
+11102001	WuXuanyi	吴宣仪	ActorBodyIcon/WuXuanyi	ActorHalfIcon/WuXuanyi	ActorDiamondHeadIcon/WuXuanyi	ActorHeadIcon/WuXuanyi			11102001_WuXuanyi	Female01		34;3
+11102201	ChenLinong	陈立农	ActorBodyIcon/ChenLinong	ActorHalfIcon/ChenLinong	ActorDiamondHeadIcon/ChenLinong	ActorHeadIcon/ChenLinong			11102201_ChenLinong	Female01		34;3
+12100000		测试用应援卡				ItemIcon/icon_ceshiyong_YYK						
+12100101	WuYifan_YYK	吴亦凡应援卡				ItemIcon/icon_WuYifan_YYK						
+12100201	CaiXukun_YYK	蔡徐坤应援卡				ItemIcon/icon_CaiXukun_YYK						
+12100301	WangJiaer_YYK	王嘉尔应援卡				ItemIcon/icon_WangJiaer_YYK						
+12100401	ZhangYixing_YYK	张艺兴应援卡				ItemIcon/icon_ZhangYixing_YYK						
+12100501	LuHan_YYK	鹿晗应援卡				ItemIcon/icon_LuHan_YYK						
+12100601	WangYuan_YYK	王源应援卡				ItemIcon/icon_WangYuan_YYK						
+12100701	WangJunkai_YYK	王俊凯应援卡				ItemIcon/icon_WangJunkai_YYK						
+12100801	HuaChenyu_YYK	华晨宇应援卡				ItemIcon/icon_HuaChenyu_YYK						
+12100901	HeJiong_YYK	何炅应援卡				ItemIcon/icon_HeJiong_YYK						
+12101001	XueZhiqian_YYK	薛之谦应援卡				ItemIcon/icon_XueZhiqian_YYK						
+12101101	YangMi_YYK	杨幂应援卡				ItemIcon/icon_YangMi_YYK						
+12101201	DiLiReBa_YYK	迪丽热巴应援卡				ItemIcon/icon_DiLiReBa_YYK						
+12101301	OuyangNana_YYK	欧阳娜娜应援卡				ItemIcon/icon_OuyangNana_YYK						
+12101401	YangYing_YYK	杨颖应援卡				ItemIcon/icon_YangYing_YYK						
+12101501	XieNa_YYK	谢娜应援卡				ItemIcon/icon_XieNa_YYK						
+12101601	YangChaoyue_YYK	杨超越应援卡				ItemIcon/icon_YangChaoyue_YYK						
+12101701	GuanXiaotong_YYK	关晓彤应援卡				ItemIcon/icon_GuanXiaotong_YYK						
+12101801	JuJingyi_YYK	鞠婧祎应援卡				ItemIcon/icon_JuJingyi_YYK						
+12101901	SongQian_YYK	宋茜应援卡				ItemIcon/icon_SongQian_YYK						
+12102001	WuXuanyi_YYK	吴宣仪应援卡				ItemIcon/icon_WuXuanyi_YYK						
+12102201	ChenLinong_YYK	陈立农应援卡				ItemIcon/icon_ChenLinong_YYK						
+6001	female	女性				ShootIcon/icon_women						
+6002	male	男性				ShootIcon/icon_man						
+6003	star	星级				ShootIcon/icon_star						
+6022		一般				Icon_En/icon_rank_average	Icon_En/icon_rank_average					
+6023		尚可				Icon_En/icon_rank_alright	Icon_En/icon_rank_alright					
+6024		佳作				Icon_En/icon_rank_good	Icon_En/icon_rank_good					
+6025		热门				Icon_En/icon_rank_great	Icon_En/icon_rank_great					
+6026		爆红				Icon_En/icon_rank_teriffic	Icon_En/icon_rank_teriffic					
+6027		王牌				Icon_En/icon_rank_epic	Icon_En/icon_rank_epic					
+6028		超凡				Icon_En/icon_rank_perfect	Icon_En/icon_rank_perfect					
+6042	Acast_female	主咖-女性			ActorDiamondHeadIcon/Acast_female	ShootIcon/Acast_female						
+6043	Acast_male	主咖-男性			ActorDiamondHeadIcon/Acast_male	ShootIcon/Acast_male						
+6044	Bcast_female	副咖-女性			ActorDiamondHeadIcon/Bcast_female	ShootIcon/Bcast_female						
+6045	Bcast_male	副咖-男性			ActorDiamondHeadIcon/Bcast_male	ShootIcon/Bcast_male						
+6046	img_nonehero_female	临时演员-女性	ActorBodyIcon/img_nonehero_female	ActorHalfIcon/img_nonehero_female	ActorDiamondHeadIcon/img_nonehero_female	ActorHeadIcon/img_nonehero_female						
+6047	img_nonehero_male	临时演员-男性	ActorBodyIcon/img_nonehero_male	ActorHalfIcon/img_nonehero_male	ActorDiamondHeadIcon/img_nonehero_male	ActorHeadIcon/img_nonehero_male						
+6101		美国				ShootIcon/banner_usa						
+6102		加拿大				ShootIcon/banner_canada						
+6103		澳大利亚				ShootIcon/banner_australia						
+6201	charm	魅力				ActorInfoIcon/charm						
+6202	eloquence	口才				ActorInfoIcon/eloquence						
+6203	entertainment	娱乐				ActorInfoIcon/entertainment						
+6204	act	表演				ActorInfoIcon/act						
+6205	talent	才艺				ActorInfoIcon/talent						
+6301	flag_type_TalentShow	选秀				ShootIcon/flag_type_TalentShow						
+6302	flag_type_SongAndDanceShow	歌舞秀				ShootIcon/flag_type_SongAndDanceShow						
+6303	flag_type_TalkShow	脱口秀				ShootIcon/flag_type_TalkShow						
+6304	flag_type_OutdoorVarietShow	户外综艺				ShootIcon/flag_type_OutdoorVarietShow						
+6305	flag_type_CompetitiveVarietyShow	竞技综艺				ShootIcon/flag_type_CompetitiveVarietyShow						
+1501		技能1				SkillIcon/icon_6001						
+1502		技能2				SkillIcon/icon_6002						
+1601		启梦乐章				ItemIcon/icon_qimengyuezhang						
+1602		奏梦乐谱				ItemIcon/icon_zoumengyuepu						
+1603		绎梦乐集				ItemIcon/icon_yimengyueji						
+1701		勇气铜勋				ItemIcon/icon_yongqitongxun						
+1702		魅力银勋				ItemIcon/icon_meiliyinxun						
+1703		璀璨金勋				ItemIcon/icon_meilijinxun						
+2001		钻石				ItemIcon/icon_diamond						
+2002		金币				ItemIcon/icon_coin						
+2003	·	经验				ItemIcon/icon_experience						
+2004		行动力				ItemIcon/icon_xingdongli						
+2005		奖杯				ItemIcon/icon_jiangbei						
+2032		钢材				ItemIcon/icon_gangcai						
+2033		涂料				ItemIcon/icon_tuliao						
+2034		水泥				ItemIcon/icon_shuini						
+2035		拍摄中心图纸				ItemIcon/icon_tuzhi						
+2036		情报密函				ItemIcon/icon_qingbaomihan						
+2037		特殊密函				ItemIcon/icon_teshumihan						
+2101		金宝箱关闭				ItemIcon/icon_jinbaoxiang_guanbi						
+2102		金宝箱打开				ItemIcon/icon_jinbaoxiang_dakai						
+2103		金宝箱空				ItemIcon/icon_jinbaoxiang_kong						
+2104		银宝箱关闭				ItemIcon/icon_yinbaoxiang_guanbi						
+2105		银宝箱打开				ItemIcon/icon_yinbaoxiang_dakai						
+2106		银宝箱空				ItemIcon/icon_yinbaoxiang_kong						
+2211		1星零食				ItemIcon/icon_lingshi1						
+2212		2星滑板				ItemIcon/icon_lingshi2						
+2213		3星滑板				ItemIcon/icon_lingshi3						
+2214		4星滑板				ItemIcon/icon_lingshi4						
+2215		5星滑板				ItemIcon/icon_lingshi5						
+2221		1星永生花				ItemIcon/icon_yongshenghua1						
+2222		2星永生花				ItemIcon/icon_yongshenghua2						
+2223		3星永生花				ItemIcon/icon_yongshenghua3						
+2224		4星永生花				ItemIcon/icon_yongshenghua4						
+2225		5星永生花				ItemIcon/icon_yongshenghua5						
+2231		1星游戏机				ItemIcon/icon_youxiji1						
+2232		2星游戏机				ItemIcon/icon_youxiji2						
+2233		3星游戏机				ItemIcon/icon_youxiji3						
+2234		4星游戏机				ItemIcon/icon_youxiji4						
+2235		5星游戏机				ItemIcon/icon_youxiji5						
+2241		1星耳钉				ItemIcon/icon_erding1						
+2242		2星耳钉				ItemIcon/icon_erding2						
+2243		3星耳钉				ItemIcon/icon_erding3						
+2244		4星耳钉				ItemIcon/icon_erding4						
+2245		5星耳钉				ItemIcon/icon_erding5						
+4001		街区				BlockIcon/icon_block1						
+4002		城镇				BlockIcon/icon_block2						
+4003		州省				BlockIcon/icon_block3						
+4004		全国				BlockIcon/icon_block4						
+4005		世界				BlockIcon/icon_block5						
+5101		设置-音乐				SettingIcon/icon_music_setting						
+5102		设置-音效				SettingIcon/icon_sound_setting						
+5103		设置-省电模式				SettingIcon/icon_power_setting						
+5104		设置-通知				SettingIcon/icon_notice_setting						
+5105		设置-称号				SettingIcon/icon_title_setting						
+5106		设置-语言				SettingIcon/icon_language_setting						
+5107		设置-建议				MenuIcon/icon_temp						
+5108		设置-礼包				SettingIcon/icon_redeem_setting						
+5109		设置-关闭角标				MenuIcon/icon_temp						
+5110		设置-开启角标				MenuIcon/icon_temp						
+5121		活动-七日礼图标				ActivityIcon/icon_signin						
+5122		活动-秘书图标				ActivityIcon/icon_secretary1						
+5123		活动-许可证申请				ActivityIcon/icon_license						
+5124		活动-登陆奖励				ActivityIcon/icon_login						
+5125		活动-七日礼图标-选中				ActivityIcon/icon_signin2						
+5126		活动-秘书图标-选中				ActivityIcon/icon_secretary2						
+5127		活动-许可证申请-选中				ActivityIcon/icon_license2						
+5128		活动-登陆奖励-选中				ActivityIcon/icon_login2						
+7101		女性头像1				PlayerHeadIcon/f001						
+7102		女性头像2				PlayerHeadIcon/f002						
+7103		女性头像3				PlayerHeadIcon/f003						
+7104		女性头像4				PlayerHeadIcon/f004						
+7105		女性头像5				PlayerHeadIcon/f005						
+7201		男性头像1				PlayerHeadIcon/m001						
+7202		男性头像2				PlayerHeadIcon/m002						
+7203		男性头像3				PlayerHeadIcon/m003						
+7204		男性头像4				PlayerHeadIcon/m004						
+7205		男性头像5				PlayerHeadIcon/m005						
+7301		男NPC头像1				NPCHeadIcon/male1						
+7302		男NPC头像2				NPCHeadIcon/male2						
+7303		男NPC头像3				NPCHeadIcon/male3						
+7304		男NPC头像4				NPCHeadIcon/male4						
+7305		男NPC头像5				NPCHeadIcon/male5						
+7306		男NPC头像6				NPCHeadIcon/male6						
+7307		男NPC头像7				NPCHeadIcon/male7						
+7308		女NPC头像1				NPCHeadIcon/female1						
+7309		女NPC头像2				NPCHeadIcon/female2						
+7310		女NPC头像3				NPCHeadIcon/female3						
+7311		女NPC头像4				NPCHeadIcon/female4						
+7312		女NPC头像5				NPCHeadIcon/female5						
+7313		女NPC头像6				NPCHeadIcon/female6						
+7314		女NPC头像7				NPCHeadIcon/female7						
+8001	movie1	偶像练习生				StoryIcon/movie1						
+8002	movie2	创造101				StoryIcon/movie2						
+8003	movie3	明日之子				StoryIcon/movie3						
+8004	movie4	我是歌手				StoryIcon/movie4						
+8005	movie5	中国新说唱				StoryIcon/movie5						
+8006	movie6	国风美少年				StoryIcon/movie6						
+8007	movie7	王牌对王牌				StoryIcon/movie7						
+8008	movie8	花儿与少年				StoryIcon/movie8						
+8009	movie9	真正男子汉				StoryIcon/movie9						
+8010	movie10	吐槽大会				StoryIcon/movie10						
+9001		1001普通事件				StoryIcon/movie1						
+9002		1001普通事件				StoryIcon/movie1						
+9003		1002普通事件				StoryIcon/movie2						
+9004		1002普通事件				StoryIcon/movie2						
+9005		1003普通事件				StoryIcon/movie3						
+9006		1003普通事件				StoryIcon/movie3						
+9007		1004普通事件				StoryIcon/movie4						
+9008		1004普通事件				StoryIcon/movie4						
+9009		1005普通事件				StoryIcon/movie5						
+9010		1005普通事件				StoryIcon/movie5						
+9011		1006普通事件				StoryIcon/movie6						
+9012		1006普通事件				StoryIcon/movie6						
+9013		1007普通事件				StoryIcon/movie7						
+9014		1008普通事件				StoryIcon/movie8						
+9015		1009普通事件				StoryIcon/movie9						
+9016		1010普通事件				StoryIcon/movie10						
+9034		1001特殊事件				StoryIcon/movie1						
+9035		1002特殊事件				StoryIcon/movie2						
+9036		1003特殊事件				StoryIcon/movie3						
+9037		1004特殊事件				StoryIcon/movie4						
+9038		1005特殊事件				StoryIcon/movie5						
+9039		1006特殊事件				StoryIcon/movie6						
+9040		1007特殊事件				StoryIcon/movie7						
+9041		1008特殊事件				StoryIcon/movie8						
+9042		1009特殊事件				StoryIcon/movie9						
+9043		1010特殊事件				StoryIcon/movie10						
+9985	Trainer	培训师							Unit/Female06/9985_Trainer	Unit/Bones/Female06		
+9986	npc3	男NPC2							Unit/Male01/9986_Npc3	Unit/Bones/Male01		
+9987	npc4	女NPC2							Unit/Female01/9987_Npc4	Unit/Bones/Female01		
+9988	Starguider	星探							Unit/Male02/9988_Starguider	Unit/Bones/Male02		
+9989	Financer	财务员							Unit/Male01/9989_Financer	Unit/Bones/Male01		
+9990	Coach	训练师							Unit/Female01/9990_Coach	Unit/Bones/Female01		
+9991	Bonita	助理	PlayerBodyIcon/zhuli	PlayerBodyIcon/zhuli					Unit/Female07/2008_Bonita	Unit/Bones/Female07		
+9992	Msec	男秘书	PlayerBodyIcon/nanmishu	PlayerBodyIcon/nanmishu								
+9993	Fesec	女秘书	PlayerBodyIcon/nvmishu	PlayerBodyIcon/nvmishu								
+9994	Mhost	男主持							Unit/Male01/2001_Mhost	Unit/Bones/Male01		34;3
+9995	Fehost	女主持							Unit/Female05/2002_Fehost	Unit/Bones/Female05		34;3
+9996	Rocky	男主	PlayerBodyIcon/Rocky	PlayerBodyIcon/Rocky					Unit/Male01/9996_Rocky	Unit/Bones/Male01		34;3
+9997	Scarlett	女主	PlayerBodyIcon/Scarlett	PlayerBodyIcon/Scarlett					Unit/Female04/9997_Scarlett	Unit/Bones/Female04		34;3
+9998	NPCMale	男NPC	PlayerBodyIcon/npc1	PlayerBodyIcon/npc1					Unit/Male01/2003_Male	Unit/Bones/Male01		34;3
+9999	NPCFemale	女NPC	PlayerBodyIcon/npc2	PlayerBodyIcon/npc2					Unit/Female01/2004_Female	Unit/Bones/Female01		34;3

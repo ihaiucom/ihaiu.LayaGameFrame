@@ -1,7 +1,2 @@
 ﻿release
 .laya/chrome
-src/FGUI/Generates
-src/Config/ConfigStructs
-src/Config/ReaderStructs
-bin/res/fgui
-bin/res/config/csv

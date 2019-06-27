@@ -1,0 +1,8 @@
+int	int	int	int	DTFixItemNum[]	int	int	DTDateTime	DTDateTime	int	int	DTFixItemNum[]	int	string
+id	类型	模块类型|n|Menu.xlsx	抽取次数	消耗物品	免费次数	免费时间间隔	开始时间	结束时间	图片	奖励Id|n|Reward.xlsx	保底奖励	保底次数	卡池概率描述
+id	type	menu	num	cost	freeNum	freeTime	startTime	endTime	pic	rewardId	allowance	allowanceNum	desc
+11001001	1	18003	1	1&1&300	1	48	2019&5&15&10&00&00	2020&5&14&23&59&59		16001001	1&1&300	100	普通情报产出概率：0.8；特殊情报产出概率：0.2
+11002001	1	18003	10	1&1&2700	0	0	2019&5&15&10&00&00	2020&5&14&23&59&59		16002001	1&1&300	100	普通情报产出概率：0.8；特殊情报产出概率：0.2
+11001002	2		1	0	0	0				16001002			
+11002002	2		10	0	0	0				16002002			
+11001003	3	16002	1	2&2&200	0	0	2019&5&15&10&00&00	2099&5&14&23&59&59		16001003		99999	抽到剧本概率0.7；抽不到剧本概率0.3

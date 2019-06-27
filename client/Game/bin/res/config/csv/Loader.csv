@@ -1,0 +1,8 @@
+int	string	bool
+id	名称	打开加载面前是否转圈圈
+id	name	isShowCircle
+0	没视图	0
+1	转圈	0
+2	启动游戏	1
+3	进入游戏加载界面	1
+4	加载模块界面	1

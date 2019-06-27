@@ -1,0 +1,36 @@
+int	string	string	string	int	int	boolean	boolean	int	int	int	int	int	int
+id	功能名称	图标id	模块名称	层级	关闭其他面板	是否关闭主界面	关闭时是否主动打开主界面	缓存时间	加载面板类型	按钮所在栏	按钮所在位置	打开动画	关闭动画
+id	zh_cn_name	icon	moduleName	layer	closeOtherType	closeHomeWindow	isAutoOpenHomeWindow	cacheTime	loaderId	barType	barIndex	openAnimation	closeAnimation
+100	主界面	icon_Home	Home	1	0	0	0	-1	3	0	0	0	0
+101	登录		Login	3	3	1	0	0	2	0	0	0	0
+102	创建角色		CreateRole	3	3	1	0	0	2	0	0	0	0
+103	角色信息		PlayerInfo	3	3	0	1	0	4	0	0	0	0
+104	排行榜	icon_Rank	Rank	3	3	1	1	0	4	0	0	0	0
+105	设置	icon_Setting	Setting	3	3	1	1	0	4	2	2	0	0
+107	邮箱	icon_Mail	Mail	3	3	1	1	0	4	2	1	0	0
+108	聊天	icon_Chat	Chat	3	0	0	0	0	4	2	0	0	0
+109	任务	icon_Task	Task	3	0	0	0	0	4	2	0	0	0
+110	新手引导		Guide	3	0	0	0	0	4	2	0	0	0
+111	剧情	icon_Chat	Guide	3	0	0	0	0	4	2	0	0	0
+140	背包	icon_Bag	Bag	3	3	1	1	0	4	1	1	0	0
+150	拍摄	icon_Studio	Studio	3	3	1	1	0	0	1	0	0	0
+160	剧本	icon_Story	Story	3	3	1	1	0	4	1	3	0	0
+170	建筑信息面板	icon_Building	BuildingInfo	3	3	0	1	0	2	0	0	0	0
+171	建筑艺人	icon_BuildingActor	BuildingActor	3	3	0	1	0	2	0	0	0	0
+180	艺人	icon_Actor	Actor	3	3	1	1	0	4	1	4	0	0
+190	好友	icon_Friend	Friend	3	3	1	1	0	4	1	2	0	0
+121	商城	icon_Shop	Shop	3	3	1	1	0	4	3	0	0	0
+122	充值	icon_Recharge	Recharge	3	3	1	1	0	2	3	0	0	0
+123	日常任务	icon_DailyTask	DailyTask	3	3	0	1	0	2	3	3	0	0
+124	日常签到	icon_DailySignin	DailySignin	3	1	1	1	0	2	3	0	0	0
+125	活动	icon_Activity	Activity	3	3	1	1	0	2	3	0	0	0
+126	公告	icon_Notice	Notice	3	3	1	1	0	2	3	0	0	0
+15001	持续收益	icon_StudioContinue	StudioContinue	3	3	0	1	0	4	3	0	0	0
+15002	持续收益介绍	icon_StudioContinueInfo	StudioContinueInfo	3	3	0	1	0	4	3	0	0	0
+16001	剧本信息		StoryInfo	6	3	0	0	0	4	0	0	0	0
+16002	剧本招募		StoryLottery	3	3	0	0	0	4	0	0	0	0
+18001	艺人详情		Actor	3	3	1	1	0	4	0	0	0	0
+18002	艺人粉丝		Actor	3	3	1	1	0	4	0	0	0	0
+18003	情报社		Information	3	3	1	1	0	4	0	0	0	0
+18004	情报解析		InformationAnalysis	3	3	1	1	0	4	0	0	0	0
+1000001	社交	icon_Friend	Social							0	0	0	0

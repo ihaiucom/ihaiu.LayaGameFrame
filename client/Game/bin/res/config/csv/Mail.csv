@@ -1,0 +1,17 @@
+int	int	string	string	DTItemNum[]	string	string
+ID	生存时间（小时）	标题	标题	附件道具	内容	内容
+id	life_time	zh_cn_title	en_title	item	zh_cn_content	en_content
+30001001	720	系统	System	0	哎呀，仓库都放满啦！该整理一下，或者扩建了哦~	Oops, your warehouse is full!
+30001002	24	开服公告	Sever Notice	0	6月27日活动公告：一.超级偶像:玩家可从主界面超级偶像入口进入该活动，对自己心仪的偶像投票!	Notice
+30001003	72	合作邀请失败	Cooperation Invite Failed	0	ID为{0}的玩家没有响应您的邀请哦，重新发送试试看吧！	Player {0} didn't respond your invitation, try resend it~
+30001004	720	订单过期	Order Overdue	0	因为等待时间太久，客户已经取消订单了…下次注意不要超过时间了哦！	Your order is overdue, please withdraw your items
+30001005	24	兑换码奖品	Redeem Successed	4001&10;4002&10;4003&10	兑换码已经成功兑换啦，快去确认奖品吧~	You've redeemed the key, please check your rewards!
+30001006	720	任务过期	Quest Reward Overdue	0	有未领取的任务奖励哦，别忘了去收取一下呢！	You have unclaimed quest rewards, go check it out!
+30001007	720	伙伴赠送	Gift from Cooperator	6101&1;6102&1;6103&1;6104&1;6105&1;6106&1;6107&1;6108&1;6109&1;6201&1;6202&1	您的合作伙伴{0}向您赠送了一笔{1}，快去看看吧~	Your cooperator {0} sent you {1}, go check it out!
+30001008	720	建立合作奖励	Partnership Reward	2&10000	懂得合作是获得成功的重要因素哦，恭喜你找到了自己的合作伙伴~	Congrats on finding a cooperator, here's rewards for you!
+30001009	720	合作奖励	Partner Found Reward	1&5	找到好的合作伙伴就像找到合适的舞伴一样~ 以后也要一起加油呀！	A right partner is valuable both in business and dance! Congrats to you~
+30001010	720	已装箱订单回收	Recover Item	0	这是您删除的订单中已经装箱的道具，别忘了把它们收回仓库喔~	These are items recovered from deleted orders, don't forget to put them back into your warehouse~
+30001011	720	奖励过期	Reward Overdue	0	这是您之前忘记领取的奖励，请注意查收	You have unclaimed rewards, go check it out!
+30001012	720	日程奖励过期	Task Reward Overdue	0	这是您之前忘记领取的日程任务奖励，请注意查收	You have unclaimed  task rewards, go check it out!
+30001013	24	奖杯礼包	3-Day Login Reward	0	这是您之前忘记领取的奖杯礼包，请注意查收	You have unclaimed  trophy gift, go check it out!
+30001014	720	周积分奖励	Weekly Point Rewards	0	这是您之前忘记领取的周积分奖励，请注意查收	You have unclaimed weekly point rewards, go check it out!

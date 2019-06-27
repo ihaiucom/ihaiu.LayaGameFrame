@@ -1,0 +1,69 @@
+int	string	string	int	float	string	int[]	DTValue2[]	DTValue3[]	DTPerformActoin[]
+id	Key	变量名称	正整数参数|n|没有参数需要填充0	小数参数|n|没有参数需要填充0	字符串参数	正整数数组参数	二维数组	三维数组	奖励数组，A&B&C=道具ID&数量&随机权重
+id	key	name	value	value6	value4	value1	value2	value3	value5
+1	Script_choose_num	初始剧本可选择数量	3						
+2	Popularize_Duration	电影下线后的持续收益时间（分钟）	120						
+3	Max_Movie_Num	最多可同时进行持续收益的电影数量	5						
+4	init_pack_capacity	初始背包容量	100						
+10	init_player_ap	角色初始化信息-玩家初始行动力	2000						
+11	init_player_ap_max	角色初始化信息-玩家初始行动力上限	2000						
+12	init_player_own_story	角色初始化信息-玩家初始拥有的剧本列表storyseriesID				10201000;10202000;10203000;10204000;10205000;10206000;10207000;10208000;10209000;10210000			
+13	init_player_own_actor	角色初始化信息-玩家初始拥有的艺人列表actorID				10001001;10001002;10001008;10001011;10001012;10001013;10001018;10001020			
+14	init_player_own_item	角色初始化信息-玩家初始拥有的道具列表itemID,初始金币钻石					1&10000;2&100000;9010&1;9001&100;9002&100;9003&100		
+1000	KEY_1025_WanGuChuShi__ShangXianShuLiang	玩家初始艺人上限数量	10						
+2001	studio_expect_constant_a	期待值常数a	0	1.2					
+2002	studio_expect_constant_b	期待值常数b	0	5					
+2003	studio_expect_record_quantity	记录台本数量X	5						
+2004	studio_att_rate	属性权重	0			100;20			
+2005	studio_att_rand	属性值随机区间	0				80&120;85&120;90&120;100&130;110&135		
+2006	studio_att_rand_constant_a	结果计算公式系数A	0	60					
+2007	studio_att_rand_constant_b	结果计算公式系数B	0	60					
+2008	studio_constant_result_max_constant	拍摄进度条，最高常数	0	10					
+2009	studio_constant_result_middle_constant	拍摄进度条，及格常数	0	6					
+2010	studio_evaluate	街区评分平均值默认值	0	3					
+2011	studio_opinions	街区口碑平均值默认值	0	3					
+2012	studio_rand_grade_mathematical_expectation	评分期望𝜇	0	5					
+2013	studio_rand_grade_standard_deviation	评分方差𝜎	0	1					
+2014	studio_rand_grade_max	评分上限值	0	7					
+2015	studio_rand_grade_min	评分下限值	0	3					
+2015	studio_fatigue_cost_constant_a	艺人疲劳消耗系数A	0	6					
+2016	studio_fatigue_cost_constant_b	艺人疲劳消耗系数B	0	3					
+2017	studio_next_season_open	剧本下一期开启的评分要求和触发几率	25	17.5					
+2018	studio_random_story_num	拍摄随机剧本数量	3						
+2020	studio_prop_constant_c	艺人属性计算常数C\艺人行动力消耗常数C		6.5					
+2021	studio_prop_constant_d	艺人属性计算常数D\艺人行动力消耗常数D		0.002					
+2022	studio_prop_constant_e	艺人属性计算常数E\艺人行动力消耗常数E		0.265					
+2023	studio_prop_constant_f	艺人行动力消耗常数F		0.3					
+2024	studio_cost_item	拍摄消耗行动力道具ID-item表格ID	4						
+2025	studio_reward_item	拍摄获得道具ID-item表格ID	2						
+2026	studio_continue_reward_time	持续收益领取时间间隔和获取的奖励次数（秒数&奖励次数）					180&7		
+2027	studio_evaluation_num	评价数量	3						
+2028	studio_continue_reward_date_min_constant	随机低分天数系数		0.6					
+2029	studio_continue_reward_date_max_constant_a	随机高分天数系数a		0.5					
+2030	studio_continue_reward_date_max_constant_b	随机高分天数系数b		2.5					
+2031	studio_continue_reward_rand_weight_min	持续收益每天权重随机权重范围				30;50			
+2032	studio_continue_reward_rand_high_score	高分天数权重系数		1					
+2033	studio_continue_reward_rand_low_score	低分天数权重系数		0.1					
+2034	studio_skill_time	技能释放的个数，一场战斗中最多释放技能的人数	3						
+2050	story_stack_cd_stage_cost	剧本搜罗每阶段搜罗冷却加速消耗资源类型和数量	0				1&10		
+2101	studio_income_prompt	拍摄后续收益提示文本			本次拍摄{0}达到了{1}分的评分，我们将其放在爱奇艺网站上，将在之后的两小时内持续获得收入！网络综艺收益可以在收益界面查看。				
+2200	studio_constant_forward_time_random	拍摄前N次固定评分和口碑的随机范围，(第一部)上限&下限;(第二部)上限&下限					4&6;6&8		
+3001	rename_prompt_min	改名提示最小长度	4						
+3002	rename_prompt_max	改名提示最大长度	18						
+3003	information_box	情报宝箱开启需求次数	100						
+3004	information_select_min	情报解析-选择情报最小数量	3						
+3005	information_select_max	情报解析-选择情报最大数量	10						
+3006	information_forward_time_reward	情报解析前N次出现艺人-艺人ID				10001013;10001006			
+4001	initial_performance_limit	初始可进行商演次数上限	10						
+4002	initial_sametime_performance_limit	可同时进行商演次数上限	2						
+4003	performance_refresh_cd	商演刷新cd	30						
+5001	information_chance	单条普通情报提供的概率	0	0			1&1000;2&2000;3&3000;4&5000;5&7000;6&9000		
+5002	information_match_con	单挑情报匹配后提供的权重	100	0					
+5003	duplication_actor_card_amount	抽取到重复艺人时获取该艺人应援卡数量	50						
+6001	story_create_times_max	每日抽取剧本次数	5						
+6002	story_create_cd	抽取剧本冷却CD	20						
+6003	story_create_skip_cost	跳过冷却时间需要花费的物品类型-item表格ID和单位时间					1&10		
+6004	story_create_times_purchase_max	每日购买抽取次数上限	9999						
+6005	story_create_times_purchase_cost	购买抽取次数需要花费的物品类型-item表格ID和数量					1&100		
+6006	story_create_reward	抽取剧本保底奖励					2&100		
+6007	story_create_forward_time_reward	前N次综艺抽取获得的综艺奖励				10211000;10209000			
