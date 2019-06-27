@@ -159,43 +159,8 @@ export default class Res
         return Res.particles + filename  + ".part";
     }
 
-    // 获取--地图建筑图片--地板对象
-    static getHomeBuildingPic(buildingId:int, breIndex:int)
-    {
-        let idStr = StringUtils.FillLeft(buildingId.toString(), 2);
-        let indexStr = StringUtils.FillLeft(breIndex.toString(), 2);
-        return Res.root + `fspriteassets/HomeBuilding/${indexStr}/${idStr}_${indexStr}.png`;
-    }
-
-    // 获取--地图建筑图片--点击对象
-    static getHomeBuildingPicHit(buildingId:int, breIndex:int)
-    {
-        let idStr = StringUtils.FillLeft(buildingId.toString(), 2);
-        let indexStr = StringUtils.FillLeft(breIndex.toString(), 2);
-        return  `ui://SystemModuleHomeMap/${idStr}_${indexStr}`;
-    }
-
-    // 获取--地图建筑图片--家具对象
-    static getHomeBuildingFurniture(buildingId:int, furnitureId:int)
-    {
-        let idStr = StringUtils.FillLeft(buildingId.toString(), 2);
-        return  Res.root + `fspriteassets/HomeBuildingFurniture/${idStr}/${furnitureId}.png`;
-    }
 
 
-    // 获取--地图
-    static getHomeMap(i:int):string
-    {
-        
-        // return Res.fspriteassets + `HomeMap/map_0.jpg`;
-        return Res.fspriteassets + `HomeMap/home_map_01/home_map_01_${StringUtils.FillLeft(i.toString(), 2)}.jpg`;
-    }
-
-    // 获取--寻路
-    static getHomePath(): string
-    {
-        return Res.PathConfig + `path_home2D_01.json`;
-    }
 
 
 }

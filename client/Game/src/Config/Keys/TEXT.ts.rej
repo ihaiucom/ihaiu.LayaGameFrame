@@ -1,9 +1,0 @@
-diff a/Game/src/Config/Keys/TEXT.ts b/Game/src/Config/Keys/TEXT.ts	(rejected hunks)
-@@ -731,7 +731,6 @@
-     static StudioContinueTime = "网综收益将持续{0}";
-     static StudioTicketsSold = "{0}人已购买";
-     static StudioTotalProfit = "总收益{0}元";
--    static StudioPlusNum = "+ {0}";
- 
-     static CompanyExperience = "公司经验值 +{0}";
-     

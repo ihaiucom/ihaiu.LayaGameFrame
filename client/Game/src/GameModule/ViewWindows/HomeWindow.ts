@@ -25,7 +25,6 @@ export default class HomeWindow extends MWindow
         this.addAssetForFguiPackagename(GuiPackageNames.CommonFx);
         this.addAssetForFguiPackagename(GuiPackageNames.SystemModuleDialog);
         this.addAssetForFguiComponent(HomeWindowUI);
-        this.addDynamicAsset( { url: Res.getHomePath(), type: AssetItemType.Json });
 
         
     }
