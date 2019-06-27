@@ -1,6 +1,9 @@
 # Laya游戏框架模板
 运行环境： Laya2.0.0
+
+可以下载该模板后,可以修改文件夹名"LayaGameTemplate"为自己的"GameXXX"
 =======
+
 
 ## 目录
 ### GameXXX                       ---- 游戏工作空间目录
@@ -45,29 +48,47 @@
     |__ SpineWorkspaceUI            ---- UI Spine骨骼动画工作空间, 对应游戏里的 /bin/res/spineUI
 
 
+
 =======
 
+
 ## 工具
+
+运行环境请查看文档: design/9.客户端文档/
+
 
 ### 导出FGUI代码工具
 
 arts_project\Game-FGUI\Tool-ExportCode\生成FGUI代码.bat
+
 arts_project\Game-FGUI\Tool-ExportCode\生成FGUI代码--清理版.bat
 
+
+
 可以到这来修改相应的配置
+
 arts_project\Game-FGUI\Tool-ExportCode\CopyClientSetting.json
 
+
+
 参考说明：https://blog.ihaiu.com/tool-ExportFairyGUICode/#content
+
 这个是上一版的工具说明。
 
 
 ### 导出Config代码工具
 
 design\Tool-Config\生成配置--客户端.bat
+
 design\Tool-Config\生成配置--客户端--清理版.bat
 
+
+
 可以到这来修改相应的配置
+
 design\Tool-Config\ExportKeysetting.json
+
+
 
 参考说明：https://blog.ihaiu.com/tool-ExportXlsx/#content
 这个是上一版的工具说明。
@@ -76,43 +97,68 @@ design\Tool-Config\ExportKeysetting.json
 ### 多语言配置相关工具
 design\Tool-Language\
 
+
+
 ### 拷贝协议到项目工具
 
 proto\proto\Tool-Copy\拷贝协议.bat
 
+
+
 ### FGUI资源冗余查找工具, Unity项目
+
 arts_project\Game-FGUI\Tool-FguiAsset
 
+
+
 ### 各种拷贝
+
+<pre>
 design\Tool-Copy\拷贝骨骼动画.bat
 {
   	"src":"../../arts_res/SpineWorkspace/ExportSK", 
   	"dst":"../../client/Game/bin/res/spine"
 }
+</pre>
 
 
+<pre>
 design\Tool-Copy\拷贝骨骼动画UI.bat
 {
 	"src":"../../arts_res/SpineWorkspaceUI/ExportSK", 
 	"dst":"../../client/Game/bin/res/spineUI"
 }
+</pre>
 
 
 
+<pre>
 design\Tool-Copy\拷贝fspriteasset.bat
 {
 	"src":"../../arts_res/fspriteassets", 
 	"dst":"../../client/Game/bin/res/fspriteassets"
 }
+</pre>
 
 
+<pre>
 client\GameWX\Tool-Copy\拷贝微信发布.bat
 {
       "src":"client/Game/release/wxgame/", 
       "dst":"client/wxgame/"
 }
+</pre>
+
+
 
 
 ### 生成微信版本资源
+
 client_ver_res\Tool\wxgame\pulish-res-wx.bat
+
 client_ver_res\Tool\wxgame\pulish-res-wx--git.bat 会自动提交到git资源库
+
+
+### 客户端框架说明
+
+<a href="./client/README.md">./client/README.md</a>
