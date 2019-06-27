@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="p7bs10l5" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="6ulv1" name="icon_secretary1.png" path="/" exported="true"/>
+    <image id="qzyu2" name="icon_license.png" path="/" exported="true"/>
+    <image id="qzyu3" name="icon_login.png" path="/" exported="true"/>
+    <image id="qzyu4" name="icon_signin.png" path="/" exported="true"/>
+    <image id="dq0m5" name="icon_license2.png" path="/" exported="true"/>
+    <image id="dq0m6" name="icon_login2.png" path="/" exported="true"/>
+    <image id="dq0m7" name="icon_secretary2.png" path="/" exported="true"/>
+    <image id="dq0m8" name="icon_signin2.png" path="/" exported="true"/>
+  </resources>
+  <publish name="ActivityIcon"/>
+</packageDescription>

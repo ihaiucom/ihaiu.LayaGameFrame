@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="bn67qgf5" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="qup60" name="yingyuan01.png" path="/" exported="true"/>
+    <image id="qup61" name="yingyuan02.png" path="/" exported="true"/>
+    <image id="qup66" name="yingyuan07.png" path="/" exported="true"/>
+    <image id="qup67" name="yingyuan08.png" path="/" exported="true"/>
+    <image id="p26am" name="yingyuan03.png" path="/" exported="true"/>
+    <image id="p26an" name="yingyuan04.png" path="/" exported="true"/>
+    <image id="p26ao" name="yingyuan05.png" path="/" exported="true"/>
+    <image id="p26ap" name="yingyuan06.png" path="/" exported="true"/>
+  </resources>
+  <publish name="CinemaIcon"/>
+</packageDescription>

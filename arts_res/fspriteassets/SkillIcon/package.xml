@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="xi68ee4z" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="yjhj8" name="icon_6001.png" path="/" exported="true"/>
+    <image id="yjhj9" name="icon_6002.png" path="/" exported="true"/>
+    <image id="yjhja" name="icon_6003.png" path="/" exported="true"/>
+    <image id="yjhjb" name="icon_6004.png" path="/" exported="true"/>
+    <image id="yjhjc" name="icon_6005.png" path="/" exported="true"/>
+    <image id="yjhjd" name="icon_6006.png" path="/" exported="true"/>
+    <image id="yjhje" name="icon_6007.png" path="/" exported="true"/>
+    <image id="yjhjf" name="icon_6008.png" path="/" exported="true"/>
+  </resources>
+  <publish name="SkillIcon"/>
+</packageDescription>

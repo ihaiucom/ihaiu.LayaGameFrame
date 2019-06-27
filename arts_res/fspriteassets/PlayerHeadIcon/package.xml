@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="tyj9f8mk" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="a3wk0" name="f001.png" path="/" exported="true"/>
+    <image id="a3wk1" name="f002.png" path="/" exported="true"/>
+    <image id="a3wk2" name="f003.png" path="/" exported="true"/>
+    <image id="a3wk3" name="f004.png" path="/" exported="true"/>
+    <image id="a3wk4" name="f005.png" path="/" exported="true"/>
+    <image id="a3wk5" name="m001.png" path="/" exported="true"/>
+    <image id="a3wk6" name="m002.png" path="/" exported="true"/>
+    <image id="a3wk7" name="m003.png" path="/" exported="true"/>
+    <image id="a3wk8" name="m004.png" path="/" exported="true"/>
+    <image id="a3wk9" name="m005.png" path="/" exported="true"/>
+  </resources>
+  <publish name="PlayerHeadIcon"/>
+</packageDescription>

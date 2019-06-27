@@ -1,0 +1,30 @@
+{
+  "lastVersion": {
+    "master": 1,
+    "minor": 0,
+    "revised": 0,
+    "revised2": 33
+  },
+  "compareVersion": {
+    "master": 1,
+    "minor": 0,
+    "revised": 0,
+    "revised2": 33
+  },
+  "isAutoAdd": true,
+  "isSetLastToNextCompera": true,
+  "isDeleteVerFolderAll": true,
+  "isDeleteVerFolderPatch": true,
+  "isZipVerFolderPatch": true,
+  "isUseUpdateFolder": true,
+  "updateFolder": "ver_01_00_00_00",
+  "isReplaceJsPath": true,
+  "replaceVersionText": "__VERSION__",
+  "replaceVersionTextFiles": [
+    "../../wxgame/ver_01_00_00_00/VersionConfig.json"
+  ],
+  "replaceVersionDelayText": "__VERSION__",
+  "replaceVersionTextDelayFiles": [
+    "pulish-res-wx--git.bat"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "enableoverwrites": [
+  	{
+  		"src":"E:/zengfeng/GameWP/client/Game/bin/res/sprite/Launch/launch.png", 
+  		"dst":"../../wxgame/ver_01_00_00_00/res/sprite/Launch/launch.png"
+  	},
+  	{
+  		"src":"E:/zengfeng/GameWP/client/Game/bin/res/fgui/GameLaunch_atlas0.png", 
+  		"dst":"../../wxgame/ver_01_00_00_00/res/fgui/GameLaunch_atlas0.png"
+  	},
+  	{
+  		"src":"E:/zengfeng/GameWP/client/Game/bin/res/fgui/GameLaunch.bin", 
+  		"dst":"../../wxgame/ver_01_00_00_00/res/fgui/GameLaunch.bin"
+  	},
+  	{
+  		"src":"E:/zengfeng/GameWP/client/Game/bin/index.html", 
+  		"dst":"../../wxgame/ver_01_00_00_00/index.html"
+  	}
+  
+  ],
+  
+  "disableoverwrites": [
+  	
+  ]
+}

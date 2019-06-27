@@ -1,0 +1,35 @@
+{
+  "versionConfig": {
+    "ver_xx_all_isSave": true,
+    "ver_xx_all": "ver_{0}_{1}_{2}_{3}_all",
+    "ver_xx_patch": "ver_{0}_{1}_{2}_{3}_patch",
+    "ver_manifest": "version.json",
+    "ver_manifestPatch": "version-patch.json"
+  },
+  "autoEnd": true,
+  "cmd": "UpdateManifest",
+  "optionSetting": "./ResourceVersionPackage.json",
+  "sourceRoot": "E:/zengfeng/GameWP/client/Game/bin/",
+  "versionRoot": "E:/wamp64/www/wp.client_ver_res/wxgame",
+  "ignorePaths": [
+    "config/",
+    "index.html",
+    "game.js",
+    "game.json",
+    "version.json",
+    "project.config.json",
+    "project.swan.json",
+    "swan-game-adapter.json",
+    "swan-game-adapter.js",
+    "unpack.json",
+    "unpack.json",
+    "weapp-adapter.js",
+    "res/unity/",
+    "res/threeDimen/",
+    "res/fgui/__ResImageTmp",
+    "VersionConfig.json"
+  ],
+  "ignoreExes": [
+    ".map"
+  ]
+}
