@@ -53,29 +53,6 @@ class Particles
     
 }
 
-class ActorBodyIcon
-{
-    WuYifan
-    CaiXukun = "CaiXukun";
-    WangJiaer = "WangJiaer";
-    ZhangYixing = "ZhangYixing";
-    LuHan = "LuHan";
-    WangYuan = "WangYuan";
-    WangJunkai = "WangJunkai";
-    HuaChenyu = "HuaChenyu";
-    HeJiong = "HeJiong";
-    XueZhiqian = "XueZhiqian";
-    YangMi = "YangMi";
-    DiLiReBa = "DiLiReBa";
-    OuyangNana = "OuyangNana";
-    YangYing = "YangYing";
-    XieNa = "XieNa";
-    YangChaoyue = "YangChaoyue";
-    GuanXiaotong = "GuanXiaotong";
-    JuJingyi = "JuJingyi";
-    SongQian = "SongQian";
-    WuXuanyi = "WuXuanyi";
-}
 
 export default class R
 {
@@ -84,5 +61,4 @@ export default class R
     static cursor = new Cursor();
     static particles = new Particles();
     static spineUI = new SpineUI();
-    static actorIcon = new ActorBodyIcon();
 }
